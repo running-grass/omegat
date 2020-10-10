@@ -466,6 +466,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>External Links</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195727Z" creationid="grass" creationdate="20201010T195727Z">
+        <seg>外部链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Feedback</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T082649Z" creationid="grass" creationdate="20200927T082649Z">
@@ -558,6 +566,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T181926Z" creationid="grass" creationdate="20200927T083052Z">
         <seg>全局循环和局部循环</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Handling Links</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195938Z" creationid="grass" creationdate="20201010T195938Z">
+        <seg>处理链接</seg>
       </tuv>
     </tu>
     <tu>
