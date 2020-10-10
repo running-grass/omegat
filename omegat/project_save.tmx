@@ -394,6 +394,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Emacs Lisp forms as formulas</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194933Z" creationid="grass" creationdate="20201010T194933Z">
+        <seg>Emacs Lisp表单作为公式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Emacs is one of the most widely ported programs, so that Org mode is available on every major platform.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T101914Z" creationid="grass" creationdate="20200927T101914Z">
@@ -478,6 +486,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T133650Z" creationid="grass" creationdate="20200927T133650Z">
         <seg>关于Org的构建系统的详细说明，请查看&lt;a0&gt;Worg&lt;/a0&gt;上面的Org构建系统页面。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Formula syntax for Calc</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194802Z" creationid="grass" creationdate="20201010T194802Z">
+        <seg>可计算的公式语法</seg>
       </tuv>
     </tu>
     <tu>
@@ -3582,6 +3598,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T131423Z" creationid="grass" creationdate="20200927T131423Z">
         <seg>最新的Emacs发行版包括一个打包系统，可让您方便的安装Elisp库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>References</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194746Z" creationid="grass" creationdate="20201010T194746Z">
+        <seg>参考文献</seg>
       </tuv>
     </tu>
     <tu>
