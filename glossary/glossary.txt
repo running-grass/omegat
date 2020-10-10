@@ -81,3 +81,11 @@ Hyperlink	超链接
 Radio Target	无线电目标
 Face	字符样式
 Tag	标签
+Hierarchy	层次结构
+Property	属性
+Syntax	语法
+Special	特殊
+Search	搜索
+Inheritance	继承
+View	视图
+Defining	定义
