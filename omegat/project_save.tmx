@@ -74,6 +74,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>6 Tags</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200533Z" creationid="grass" creationdate="20201010T200533Z">
+        <seg>6 标签</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>9 Refiling and Archiving</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T130333Z" creationid="grass" creationdate="20201006T130333Z">
@@ -242,6 +250,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Breaking Down Tasks into Subtasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200511Z" creationid="grass" creationdate="20201010T200511Z">
+        <seg>将任务分解为子任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Brief summary of what Org does.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T102646Z" creationid="grass" creationdate="20200927T083515Z">
@@ -306,10 +322,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Checkboxes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200516Z" creationid="grass" creationdate="20201010T200516Z">
+        <seg>复选框</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Clear the target cache.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T134616Z" creationid="grass" creationdate="20201006T134616Z">
         <seg>清理目标缓存</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Closing items</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200444Z" creationid="grass" creationdate="20201010T200444Z">
+        <seg>关闭项</seg>
       </tuv>
     </tu>
     <tu>
@@ -3746,6 +3778,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Priorities</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200505Z" creationid="grass" creationdate="20201010T200505Z">
+        <seg>优先顺序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Progress Logging</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200323Z" creationid="grass" creationdate="20201010T200323Z">
+        <seg>进度记录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Project planning and task management make use of metadata which is part of an outline node.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T095129Z" creationid="grass" creationdate="20200927T095129Z">
@@ -4050,6 +4098,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>TODO dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200317Z" creationid="grass" creationdate="20201010T200317Z">
+        <seg>TODO依赖关系</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>TODO keywords are written with all capitals, even if they are user-defined.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130516Z" creationid="grass" creationdate="20201005T130516Z">
@@ -4342,6 +4398,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T135753Z" creationid="grass" creationdate="20200927T135753Z">
         <seg>要在非“ &lt;s1&gt;.org&lt;/s1&gt;'扩展名的文件中打开Org模式，请在文件的第一行增加以下内容：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tracking TODO state changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200450Z" creationid="grass" creationdate="20201010T200450Z">
+        <seg>跟踪待办事项状态更改</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tracking your habits</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200500Z" creationid="grass" creationdate="20201010T200500Z">
+        <seg>追踪你的习惯</seg>
       </tuv>
     </tu>
     <tu>
