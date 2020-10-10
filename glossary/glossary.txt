@@ -110,3 +110,5 @@ Rich Contents	富文本
 段落	段落
 Paragraphs	段落
 fragment	片段
+Replacement	置换
+Macro Replacement	宏置换
