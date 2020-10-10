@@ -80,3 +80,4 @@ Plot	图表
 Hyperlink	超链接
 Radio Target	无线电目标
 Face	字符样式
+Tag	标签
