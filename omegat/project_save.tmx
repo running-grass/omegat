@@ -66,6 +66,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>5 TODO Items</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200022Z" creationid="grass" creationdate="20201010T200022Z">
+        <seg>5 待办事项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>9 Refiling and Archiving</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T130333Z" creationid="grass" creationdate="20201006T130333Z">
@@ -210,6 +218,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Basic TODO Functionality</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200036Z" creationid="grass" creationdate="20201010T200036Z">
+        <seg>基本待办事项功能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Before reporting a bug, it is very helpful to start Emacs with minimal customizations and reproduce the problem.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T081451Z" creationid="grass" creationdate="20200929T081451Z">
@@ -346,6 +362,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Custom Searches</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200011Z" creationid="grass" creationdate="20201010T200011Z">
+        <seg>自定义搜索</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Cutting, finding the right location, and then pasting the note is cumbersome.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132012Z" creationid="grass" creationdate="20201006T132012Z">
@@ -466,10 +490,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Extended Use of TODO Keywords</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200042Z" creationid="grass" creationdate="20201010T200042Z">
+        <seg>TODO关键字的扩展使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>External Links</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195727Z" creationid="grass" creationdate="20201010T195727Z">
         <seg>外部链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Faces for TODO keywords</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200242Z" creationid="grass" creationdate="20201010T200242Z">
+        <seg>TODO关键字的字符样式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fast access to TODO states</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200112Z" creationid="grass" creationdate="20201010T200112Z">
+        <seg>快速访问待办事项状态</seg>
       </tuv>
     </tu>
     <tu>
@@ -890,6 +938,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Link Abbreviations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195959Z" creationid="grass" creationdate="20201010T195959Z">
+        <seg>链接缩写</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Link Format</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195514Z" creationid="grass" creationdate="20201010T195514Z">
@@ -966,6 +1022,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T125805Z" creationid="grass" creationdate="20201006T125805Z">
         <seg>移动/拷贝一棵节点树到另外一个地方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Multiple keyword sets in one file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200106Z" creationid="grass" creationdate="20201010T200106Z">
+        <seg>一个文件中的多个关键字集</seg>
       </tuv>
     </tu>
     <tu>
@@ -3802,6 +3866,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Search Options in File Links</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200006Z" creationid="grass" creationdate="20201010T200006Z">
+        <seg>文件链接中的搜索选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a0&gt;Clean View&lt;/a0&gt; for more information.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172828Z" creationid="grass" creationdate="20201010T171720Z">
@@ -3870,6 +3942,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172950Z" creationid="grass" creationdate="20201010T172950Z">
         <seg>设置初始可见性状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Setting up keywords for individual files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200117Z" creationid="grass" creationdate="20201010T200117Z">
+        <seg>设置单个文件的关键字</seg>
       </tuv>
     </tu>
     <tu>
@@ -3974,6 +4054,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130516Z" creationid="grass" creationdate="20201005T130516Z">
         <seg>即使是用户定义的，也要使用大写字母写TODO关键字。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TODO keywords as types</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200055Z" creationid="grass" creationdate="20201010T200055Z">
+        <seg>TODO关键字作为类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TODO keywords as workflow states</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200050Z" creationid="grass" creationdate="20201010T200050Z">
+        <seg>TODO关键字作为工作流状态</seg>
       </tuv>
     </tu>
     <tu>
@@ -4318,6 +4414,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T131024Z" creationid="grass" creationdate="20200927T131024Z">
         <seg>使用Emacs打包系统</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using Links Outside Org</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195954Z" creationid="grass" creationdate="20201010T195954Z">
+        <seg>使用Org之外的链接</seg>
       </tuv>
     </tu>
     <tu>
