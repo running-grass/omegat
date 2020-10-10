@@ -170,6 +170,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Agenda Files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201757Z" creationid="grass" creationdate="20201010T201757Z">
+        <seg>议程文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Agenda Views</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201749Z" creationid="grass" creationdate="20201010T201749Z">
+        <seg>议程视图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All of this is achieved with strictly plain text files, the most portable and future-proof file format.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T101718Z" creationid="grass" creationdate="20200927T101718Z">
@@ -398,6 +414,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182324Z" creationid="grass" creationdate="20201010T182324Z">
         <seg>捕捉不可见的编辑</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Categories</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201928Z" creationid="grass" creationdate="20201010T201928Z">
+        <seg>类别</seg>
       </tuv>
     </tu>
     <tu>
@@ -1198,6 +1222,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170310Z" creationid="grass" creationdate="20201010T170310Z">
         <seg>在嵌入式上下文中匹配</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Matching tags and properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201834Z" creationid="grass" creationdate="20201010T201834Z">
+        <seg>匹配标签和属性</seg>
       </tuv>
     </tu>
     <tu>
@@ -3570,6 +3602,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Presentation and Sorting</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201923Z" creationid="grass" creationdate="20201010T201923Z">
+        <seg>演示文稿和排序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Preventing mistakes when editing invisible parts.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T173024Z" creationid="grass" creationdate="20201010T173024Z">
@@ -4162,6 +4202,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Search view</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201840Z" creationid="grass" creationdate="20201010T201840Z">
+        <seg>搜索视图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a0&gt;Clean View&lt;/a0&gt; for more information.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172828Z" creationid="grass" creationdate="20201010T171720Z">
@@ -4306,6 +4354,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sorting of agenda items</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202106Z" creationid="grass" creationdate="20201010T202106Z">
+        <seg>Sorting of agenda item</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sparse Trees</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194552Z" creationid="grass" creationdate="20201010T194552Z">
@@ -4326,6 +4382,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194545Z" creationid="grass" creationdate="20201010T194545Z">
         <seg>结构编辑</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Stuck projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201905Z" creationid="grass" creationdate="20201010T201905Z">
+        <seg>停滞的项目</seg>
       </tuv>
     </tu>
     <tu>
@@ -4498,6 +4562,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Agenda Dispatcher</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201807Z" creationid="grass" creationdate="20201010T201807Z">
+        <seg>议程调度器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Built-in Agenda Views</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201815Z" creationid="grass" creationdate="20201010T201815Z">
+        <seg>内置的议程视图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Org Manual</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172043Z" creationid="grass" creationdate="20200927T075935Z">
@@ -4574,6 +4654,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T081224Z" creationid="grass" creationdate="20200929T081224Z">
         <seg>最简单的方式就是使用命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The global TODO list</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201828Z" creationid="grass" creationdate="20201010T201828Z">
+        <seg>全局待办事项列表</seg>
       </tuv>
     </tu>
     <tu>
@@ -4686,6 +4774,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T102036Z" creationid="grass" creationdate="20200927T102036Z">
         <seg>此页面位于&lt;a0&gt;https://orgmode.org&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Time-of-day specifications</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202039Z" creationid="grass" creationdate="20201010T202039Z">
+        <seg>时间格式规范</seg>
       </tuv>
     </tu>
     <tu>
@@ -4894,6 +4990,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T080633Z" creationid="grass" creationdate="20200929T080633Z">
         <seg>在此邮件列表上发送消息时，我们请您阅读并遵守&lt;a4&gt;GNU善意沟通准则&lt;/a4&gt; </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Weekly/daily agenda</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201822Z" creationid="grass" creationdate="20201010T201822Z">
+        <seg>每周/每日日程安排</seg>
       </tuv>
     </tu>
     <tu>
