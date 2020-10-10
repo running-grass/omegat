@@ -77,3 +77,5 @@ formula	公式
 Edit	编辑
 debug	调试
 Plot	图表
+Hyperlink	超链接
+Radio Target	无线电目标
