@@ -89,3 +89,6 @@ Search	搜索
 Inheritance	继承
 View	视图
 Defining	定义
+Timestamp	时间戳
+prompt	提示
+Custom	自定义
