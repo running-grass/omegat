@@ -314,6 +314,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Capture</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201439Z" creationid="grass" creationdate="20201010T201439Z">
+        <seg>捕获</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Capture and Attachments</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T130200Z" creationid="grass" creationdate="20201006T130200Z">
@@ -358,6 +366,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T134616Z" creationid="grass" creationdate="20201006T134616Z">
         <seg>清理目标缓存</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Clocking Work Time</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201317Z" creationid="grass" creationdate="20201010T201317Z">
+        <seg>工作时间计时</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Clocking commands</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201325Z" creationid="grass" creationdate="20201010T201325Z">
+        <seg>计时命令</seg>
       </tuv>
     </tu>
     <tu>
@@ -476,8 +500,8 @@
       <tuv lang="EN-US">
         <seg>Deadlines and Scheduling</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201124Z" creationid="grass" creationdate="20201010T201124Z">
-        <seg>最后期限和日程安排</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201220Z" creationid="grass" creationdate="20201010T201124Z">
+        <seg>截止日期和日程安排</seg>
       </tuv>
     </tu>
     <tu>
@@ -558,6 +582,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195240Z" creationid="grass" creationdate="20201010T195240Z">
         <seg>编辑和调试公式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Effort Estimates</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201355Z" creationid="grass" creationdate="20201010T201355Z">
+        <seg>工作量估算</seg>
       </tuv>
     </tu>
     <tu>
@@ -1002,6 +1034,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Internal archiving</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201431Z" creationid="grass" creationdate="20201010T201431Z">
+        <seg>内部归档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It also is an authoring system with unique support for literate programming and reproducible research.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T093744Z" creationid="grass" creationdate="20200927T093736Z">
@@ -1118,6 +1158,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194532Z" creationid="grass" creationdate="20201010T194532Z">
         <seg>动作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Moving a tree to an archive file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201423Z" creationid="grass" creationdate="20201010T201423Z">
+        <seg>将树移动到归档文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -3994,6 +4042,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Repeated tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201245Z" creationid="grass" creationdate="20201010T201245Z">
+        <seg>重复任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Resolving idle time and continuous clocking</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201348Z" creationid="grass" creationdate="20201010T201348Z">
+        <seg>解决空闲时间和连续时钟</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Reveal context around point, showing the current entry, the following heading and the hierarchy above.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T174852Z" creationid="grass" creationdate="20201010T174852Z">
@@ -4322,6 +4386,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Taking Notes with a Relative Timer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201403Z" creationid="grass" creationdate="20201010T201403Z">
+        <seg>用相对计时器做笔记</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Thank you for helping to improve this program.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082309Z" creationid="grass" creationdate="20200929T082309Z">
@@ -4366,6 +4438,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082346Z" creationid="grass" creationdate="20200929T082346Z">
         <seg>最好的报告方法是，除了上面提到的以外，还提供回溯。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The clock table</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201341Z" creationid="grass" creationdate="20201010T201341Z">
+        <seg>计时表格</seg>
       </tuv>
     </tu>
     <tu>
