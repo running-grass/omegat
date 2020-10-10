@@ -202,6 +202,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Blocks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194618Z" creationid="grass" creationdate="20201010T194618Z">
+        <seg>块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Brief summary of what Org does.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T102646Z" creationid="grass" creationdate="20200927T083515Z">
@@ -214,6 +222,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T102626Z" creationid="grass" creationdate="20200927T084741Z">
         <seg>报告bug, 提出建议和补丁等</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Built-in Table Editor</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194629Z" creationid="grass" creationdate="20201010T194629Z">
+        <seg>内置表格编辑器</seg>
       </tuv>
     </tu>
     <tu>
@@ -262,6 +278,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T134616Z" creationid="grass" creationdate="20201006T134616Z">
         <seg>清理目标缓存</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Column Groups</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194643Z" creationid="grass" creationdate="20201010T194643Z">
+        <seg>列组</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Column Width and Alignment</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194636Z" creationid="grass" creationdate="20201010T194636Z">
+        <seg>列宽和对齐方式</seg>
       </tuv>
     </tu>
     <tu>
@@ -350,6 +382,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T132201Z" creationid="grass" creationdate="20200927T132201Z">
         <seg>将Org作为档案下载</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Drawers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194611Z" creationid="grass" creationdate="20201010T194611Z">
+        <seg>抽屉</seg>
       </tuv>
     </tu>
     <tu>
@@ -798,6 +838,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T125802Z" creationid="grass" creationdate="20200927T125802Z">
         <seg>大多数用户只需要激活Org并开始探索其众多功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Motion</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194532Z" creationid="grass" creationdate="20201010T194532Z">
+        <seg>动作</seg>
       </tuv>
     </tu>
     <tu>
@@ -3090,6 +3138,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Plain Lists</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194559Z" creationid="grass" creationdate="20201010T194559Z">
+        <seg>普通列表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Plain text URL-like links connect to websites, emails, Usenet messages, BBDB entries, and any files related to the projects.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T095601Z" creationid="grass" creationdate="20200927T094358Z">
@@ -3738,6 +3794,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sparse Trees</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194552Z" creationid="grass" creationdate="20201010T194552Z">
+        <seg>稀疏树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Structure Editing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194545Z" creationid="grass" creationdate="20201010T194545Z">
+        <seg>结构编辑</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T082622Z" creationid="grass" creationdate="20200927T082622Z">
@@ -3830,6 +3902,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172043Z" creationid="grass" creationdate="20200927T075935Z">
         <seg>Org使用手册</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Orgtbl Minor Mode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194702Z" creationid="grass" creationdate="20201010T194702Z">
+        <seg>Orgtbl辅模式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Spreadsheet</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194719Z" creationid="grass" creationdate="20201010T194719Z">
+        <seg>电子表格</seg>
       </tuv>
     </tu>
     <tu>
