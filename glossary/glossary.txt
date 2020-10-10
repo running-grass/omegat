@@ -72,3 +72,8 @@ Agenda	议程
 kill ring	剪切板
 Spreadsheet	电子表格
 Reference	参考文献
+Column	列
+formula	公式
+Edit	编辑
+debug	调试
+Plot	图表
