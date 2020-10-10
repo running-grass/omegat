@@ -50,6 +50,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>3 Tables</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T193527Z" creationid="grass" creationdate="20201010T193527Z">
+        <seg>3 表格</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>9 Refiling and Archiving</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T130333Z" creationid="grass" creationdate="20201006T130333Z">
