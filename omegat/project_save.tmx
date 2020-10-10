@@ -146,6 +146,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A Beamer example</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203124Z" creationid="grass" creationdate="20201010T203124Z">
+        <seg>Beamer示例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ASCII/Latin-1/UTF-8 export</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202911Z" creationid="grass" creationdate="20201010T202911Z">
@@ -326,6 +334,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203012Z" creationid="grass" creationdate="20201010T203012Z">
         <seg>Beamer导出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Beamer export commands</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203025Z" creationid="grass" creationdate="20201010T203025Z">
+        <seg>Beamer导出命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Beamer specific export settings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203041Z" creationid="grass" creationdate="20201010T203041Z">
+        <seg>Beamer特殊导出设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Beamer specific syntax</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203109Z" creationid="grass" creationdate="20201010T203109Z">
+        <seg>Beamer特定的语法</seg>
       </tuv>
     </tu>
     <tu>
@@ -730,6 +762,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Editing support</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203114Z" creationid="grass" creationdate="20201010T203114Z">
+        <seg>编辑支持</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Effort Estimates</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201355Z" creationid="grass" creationdate="20201010T201355Z">
@@ -930,6 +970,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Frames and Blocks in Beamer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203101Z" creationid="grass" creationdate="20201010T203101Z">
+        <seg>Beamer中的帧和块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Furthermore, any entries with a ‘&lt;s0&gt;VISIBILITY&lt;/s0&gt;’ property (see &lt;a1&gt;Properties and Columns&lt;/a1&gt;) get their visibility adapted accordingly.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182211Z" creationid="grass" creationdate="20201010T182211Z">
@@ -942,6 +990,46 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T181926Z" creationid="grass" creationdate="20200927T083052Z">
         <seg>全局循环和局部循环</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>HTML Export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203130Z" creationid="grass" creationdate="20201010T203130Z">
+        <seg>HTML导出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>HTML doctypes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203247Z" creationid="grass" creationdate="20201010T203247Z">
+        <seg>HTML文档类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>HTML export commands</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203137Z" creationid="grass" creationdate="20201010T203137Z">
+        <seg>HTML导出命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>HTML preamble and postamble</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203253Z" creationid="grass" creationdate="20201010T203253Z">
+        <seg>HTML前导和后导</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>HTML specific export settings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203156Z" creationid="grass" creationdate="20201010T203156Z">
+        <seg>HTML特殊导出设置</seg>
       </tuv>
     </tu>
     <tu>
@@ -974,6 +1062,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170932Z" creationid="grass" creationdate="20201010T170932Z">
         <seg>标题定义了大纲树的结构。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Headlines in HTML export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203306Z" creationid="grass" creationdate="20201010T203306Z">
+        <seg>HTML导出中的标题</seg>
       </tuv>
     </tu>
     <tu>
@@ -4230,6 +4326,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200640Z" creationid="grass" creationdate="20201010T200640Z">
         <seg>属性语法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Quoting HTML tags</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203300Z" creationid="grass" creationdate="20201010T203300Z">
+        <seg>引用HTML标签</seg>
       </tuv>
     </tu>
     <tu>
