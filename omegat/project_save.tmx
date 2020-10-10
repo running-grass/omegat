@@ -122,6 +122,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Advanced features</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195258Z" creationid="grass" creationdate="20201010T195258Z">
+        <seg>高级功能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All of this is achieved with strictly plain text files, the most portable and future-proof file format.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T101718Z" creationid="grass" creationdate="20200927T101718Z">
@@ -298,6 +306,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Column formulas</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195207Z" creationid="grass" creationdate="20201010T195207Z">
+        <seg>列公式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Complexity is not imposed, but a large amount of functionality is available when needed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T101503Z" creationid="grass" creationdate="20200927T101503Z">
@@ -394,10 +410,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Durations and time values</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195123Z" creationid="grass" creationdate="20201010T195123Z">
+        <seg>持续时间和时间值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Editing and debugging formulas</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195240Z" creationid="grass" creationdate="20201010T195240Z">
+        <seg>编辑和调试公式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Emacs Lisp forms as formulas</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194933Z" creationid="grass" creationdate="20201010T194933Z">
-        <seg>Emacs Lisp表单作为公式</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195117Z" creationid="grass" creationdate="20201010T194933Z">
+        <seg>Emacs Lisp形式的公式</seg>
       </tuv>
     </tu>
     <tu>
@@ -430,6 +462,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T082649Z" creationid="grass" creationdate="20200927T082649Z">
         <seg>反馈</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Field and range formulas</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195129Z" creationid="grass" creationdate="20201010T195129Z">
+        <seg>字段和范围公式</seg>
       </tuv>
     </tu>
     <tu>
@@ -814,6 +854,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130830Z" creationid="grass" creationdate="20201005T130830Z">
         <seg>关键字和块以大写形式编写，以增强其可读性，但是您可以在Org文件中使用小写形式。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Lookup functions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195214Z" creationid="grass" creationdate="20201010T195214Z">
+        <seg>查找函数</seg>
       </tuv>
     </tu>
     <tu>
@@ -2978,6 +3026,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Org Plot</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195450Z" creationid="grass" creationdate="20201010T195450Z">
+        <seg>Org图表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Org can be used to implement many different project planning schemes, such as David Allen’s GTD system.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T095916Z" creationid="grass" creationdate="20200927T095916Z">
@@ -4174,6 +4230,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T103427Z" creationid="grass" creationdate="20200927T103427Z">
         <seg>返回: &lt;a0&gt;Export in Foreign Buffers&lt;/a0&gt;   [&lt;a1&gt;Contents&lt;/a1&gt;][&lt;a2&gt;Index&lt;/a2&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Updating the table</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195251Z" creationid="grass" creationdate="20201010T195251Z">
+        <seg>更新表格</seg>
       </tuv>
     </tu>
     <tu>
