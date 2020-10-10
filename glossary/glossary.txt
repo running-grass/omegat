@@ -103,3 +103,6 @@ expansion	扩展
 context	上下文
 options	选项
 RSS Feeds	RSS订阅
+Stuck projects	停滞的项目
+Categories	类别
+Sort	排序
