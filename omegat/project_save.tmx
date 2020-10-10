@@ -322,6 +322,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Block agenda</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202236Z" creationid="grass" creationdate="20201010T202236Z">
+        <seg>“挡路”议程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Blocks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194618Z" creationid="grass" creationdate="20201010T194618Z">
@@ -514,6 +522,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Commands in the Agenda Buffer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202126Z" creationid="grass" creationdate="20201010T202126Z">
+        <seg>议程缓冲区中的命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Complexity is not imposed, but a large amount of functionality is available when needed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T101503Z" creationid="grass" creationdate="20200927T101503Z">
@@ -542,6 +558,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201050Z" creationid="grass" creationdate="20201010T201050Z">
         <seg>创建时间戳</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Custom Agenda Views</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202132Z" creationid="grass" creationdate="20201010T202132Z">
+        <seg>自定义议程视图</seg>
       </tuv>
     </tu>
     <tu>
@@ -690,6 +714,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Exporting Agenda Views</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202246Z" creationid="grass" creationdate="20201010T202246Z">
+        <seg>导出议程视图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Expose all direct children of the subtree.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T180246Z" creationid="grass" creationdate="20201010T180213Z">
@@ -758,6 +790,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T135616Z" creationid="grass" creationdate="20200927T135616Z">
         <seg>默认情况下，扩展名为'&lt;s0&gt;.org&lt;/s0&gt;'的文件自动使用Org模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Filtering/limiting agenda items</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202120Z" creationid="grass" creationdate="20201010T202120Z">
+        <seg>过滤/限制议程项目数量</seg>
       </tuv>
     </tu>
     <tu>
@@ -1214,6 +1254,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T101618Z" creationid="grass" creationdate="20200927T101618Z">
         <seg>实际上，许多用户只运行Org的一部分功能（非常个人化），并且知道在需要时还会有更多功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Markup for Rich Contents</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202359Z" creationid="grass" creationdate="20201010T202359Z">
+        <seg>富文本的标记</seg>
       </tuv>
     </tu>
     <tu>
@@ -4282,6 +4330,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Setting options for custom commands</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202241Z" creationid="grass" creationdate="20201010T202241Z">
+        <seg>设置自定义命令的选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Setting the initial visibility state.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172950Z" creationid="grass" creationdate="20201010T172950Z">
@@ -4374,6 +4430,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200709Z" creationid="grass" creationdate="20201010T200709Z">
         <seg>特殊属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Storing searches</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202224Z" creationid="grass" creationdate="20201010T202224Z">
+        <seg>存储搜索条件</seg>
       </tuv>
     </tu>
     <tu>
@@ -4918,6 +4982,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130617Z" creationid="grass" creationdate="20201005T130617Z">
         <seg>用户定义的标签以小写形式编写； 具有特殊含义的内置标签应按应在文档中出现的方式书写，通常使用全大写。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using Column View in the Agenda</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202252Z" creationid="grass" creationdate="20201010T202252Z">
+        <seg>在议程中使用列视图</seg>
       </tuv>
     </tu>
     <tu>
