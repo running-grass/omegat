@@ -106,3 +106,5 @@ RSS Feeds	RSS订阅
 Stuck projects	停滞的项目
 Categories	类别
 Sort	排序
+Rich Contents	富文本
+段落	段落
