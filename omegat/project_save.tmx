@@ -58,6 +58,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>4 Hyperlinks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195507Z" creationid="grass" creationdate="20201010T195507Z">
+        <seg>4 超链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>9 Refiling and Archiving</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T130333Z" creationid="grass" creationdate="20201006T130333Z">
@@ -810,6 +818,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Internal Links</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195520Z" creationid="grass" creationdate="20201010T195520Z">
+        <seg>内部链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It also is an authoring system with unique support for literate programming and reproducible research.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T093744Z" creationid="grass" creationdate="20200927T093736Z">
@@ -854,6 +870,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130830Z" creationid="grass" creationdate="20201005T130830Z">
         <seg>关键字和块以大写形式编写，以增强其可读性，但是您可以在Org文件中使用小写形式。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Link Format</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195514Z" creationid="grass" creationdate="20201010T195514Z">
+        <seg>链接格式</seg>
       </tuv>
     </tu>
     <tu>
@@ -3646,6 +3670,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T095129Z" creationid="grass" creationdate="20200927T095129Z">
         <seg>项目计划和任务管理利用了元数据，这些元数据是作为大纲节点一部分存在。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Radio Targets</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195721Z" creationid="grass" creationdate="20201010T195721Z">
+        <seg>无线电目标</seg>
       </tuv>
     </tu>
     <tu>
