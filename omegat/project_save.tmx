@@ -82,6 +82,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>7 Properties and Columns</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200633Z" creationid="grass" creationdate="20201010T200633Z">
+        <seg>7 属性和列</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>9 Refiling and Archiving</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T130333Z" creationid="grass" creationdate="20201006T130333Z">
@@ -354,6 +362,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Column View</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200809Z" creationid="grass" creationdate="20201010T200809Z">
+        <seg>列视图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Column Width and Alignment</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194636Z" creationid="grass" creationdate="20201010T194636Z">
@@ -414,6 +430,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172923Z" creationid="grass" creationdate="20201010T172923Z">
         <seg>在各种可见性状态之间循环。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Defining columns</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200825Z" creationid="grass" creationdate="20201010T200825Z">
+        <seg>列定义</seg>
       </tuv>
     </tu>
     <tu>
@@ -3802,6 +3826,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Property Inheritance</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200730Z" creationid="grass" creationdate="20201010T200730Z">
+        <seg>属性继承</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Property Searches</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200725Z" creationid="grass" creationdate="20201010T200725Z">
+        <seg>属性搜索</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Property Syntax</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200640Z" creationid="grass" creationdate="20201010T200640Z">
+        <seg>属性语法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Radio Targets</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195721Z" creationid="grass" creationdate="20201010T195721Z">
@@ -3914,6 +3962,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Scope of column definitions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200832Z" creationid="grass" creationdate="20201010T200832Z">
+        <seg>列定义的范围</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Search Options in File Links</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200006Z" creationid="grass" creationdate="20201010T200006Z">
@@ -3986,6 +4042,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Setting Tags</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200543Z" creationid="grass" creationdate="20201010T200543Z">
+        <seg>设置标签</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Setting the initial visibility state.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172950Z" creationid="grass" creationdate="20201010T172950Z">
@@ -4054,6 +4118,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194552Z" creationid="grass" creationdate="20201010T194552Z">
         <seg>稀疏树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Special Properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200709Z" creationid="grass" creationdate="20201010T200709Z">
+        <seg>特殊属性</seg>
       </tuv>
     </tu>
     <tu>
@@ -4158,6 +4230,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T094149Z" creationid="grass" creationdate="20200927T094149Z">
         <seg>使用内置的表格编辑器可以轻松创建表格。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tag Hierarchy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200548Z" creationid="grass" creationdate="20201010T200548Z">
+        <seg>标签层次结构</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tag Inheritance</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200538Z" creationid="grass" creationdate="20201010T200538Z">
+        <seg>标签继承</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tag Searches</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200609Z" creationid="grass" creationdate="20201010T200609Z">
+        <seg>标签搜索</seg>
       </tuv>
     </tu>
     <tu>
