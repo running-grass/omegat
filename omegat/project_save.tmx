@@ -146,6 +146,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ASCII/Latin-1/UTF-8 export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202911Z" creationid="grass" creationdate="20201010T202911Z">
+        <seg>ASCII/Latin-1/UTF-8导出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Activation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T082640Z" creationid="grass" creationdate="20200927T082640Z">
@@ -314,6 +322,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Beamer Export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203012Z" creationid="grass" creationdate="20201010T203012Z">
+        <seg>Beamer导出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Before reporting a bug, it is very helpful to start Emacs with minimal customizations and reproduce the problem.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T081451Z" creationid="grass" creationdate="20200929T081451Z">
@@ -382,6 +398,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T134701Z" creationid="grass" creationdate="20201006T134701Z">
         <seg>可以通过设置&lt;c0&gt;org-refile-use-cache&lt;/c0&gt;来打开转接目标的缓存</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Captions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202714Z" creationid="grass" creationdate="20201010T202714Z">
+        <seg>标题</seg>
       </tuv>
     </tu>
     <tu>
@@ -530,6 +554,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Comment Lines</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202858Z" creationid="grass" creationdate="20201010T202858Z">
+        <seg>注释行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Complexity is not imposed, but a large amount of functionality is available when needed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T101503Z" creationid="grass" creationdate="20200927T101503Z">
@@ -550,6 +582,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T134910Z" creationid="grass" creationdate="20201006T134848Z">
         <seg>复制的过程与转接一样，只是不删除原始笔记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creating Footnotes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202732Z" creationid="grass" creationdate="20201010T202732Z">
+        <seg>创建脚注</seg>
       </tuv>
     </tu>
     <tu>
@@ -726,6 +766,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202445Z" creationid="grass" creationdate="20201010T202445Z">
         <seg>强调与单一空间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Export Settings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202808Z" creationid="grass" creationdate="20201010T202808Z">
+        <seg>导出设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Exporting</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202742Z" creationid="grass" creationdate="20201010T202738Z">
+        <seg>导出</seg>
       </tuv>
     </tu>
     <tu>
@@ -938,6 +994,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Horizontal Rules</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202725Z" creationid="grass" creationdate="20201010T202725Z">
+        <seg>水平尺</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>How to activate Org for certain buffers.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T102630Z" creationid="grass" creationdate="20200927T084644Z">
@@ -1090,6 +1154,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Images</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202709Z" creationid="grass" creationdate="20201010T202709Z">
+        <seg>图像</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In that case it is sufficient to start Emacs as ‘&lt;s0&gt;emacs -Q&lt;/s0&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T081748Z" creationid="grass" creationdate="20200929T081748Z">
@@ -1118,6 +1190,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130420Z" creationid="grass" creationdate="20201005T130420Z">
         <seg>在本指南中，我们使用以下约定：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Include Files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202823Z" creationid="grass" creationdate="20201010T202823Z">
+        <seg>包含文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -1250,6 +1330,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Literal Examples</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202659Z" creationid="grass" creationdate="20201010T202659Z">
+        <seg>字面示例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Lookup functions</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195214Z" creationid="grass" creationdate="20201010T195214Z">
@@ -1262,6 +1350,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T135819Z" creationid="grass" creationdate="20200927T135819Z">
         <seg>我的项目    -*- mode: org; -*-</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Macro Replacement</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202854Z" creationid="grass" creationdate="20201010T202854Z">
+        <seg>宏置换</seg>
       </tuv>
     </tu>
     <tu>
@@ -4694,6 +4790,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201815Z" creationid="grass" creationdate="20201010T201815Z">
         <seg>内置的议程视图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Export Dispatcher</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202757Z" creationid="grass" creationdate="20201010T202757Z">
+        <seg>导出调度器</seg>
       </tuv>
     </tu>
     <tu>
