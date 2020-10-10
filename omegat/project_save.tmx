@@ -186,6 +186,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Advanced topics in ODT export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T204027Z" creationid="grass" creationdate="20201010T204018Z">
+        <seg>ODT导出中的高级主题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Agenda Files</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201757Z" creationid="grass" creationdate="20201010T201757Z">
@@ -1522,6 +1530,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Labels and captions in ODT export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203936Z" creationid="grass" creationdate="20201010T203936Z">
+        <seg>ODT导出中的标签和标题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Link Abbreviations</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195959Z" creationid="grass" creationdate="20201010T195959Z">
@@ -1558,6 +1574,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202659Z" creationid="grass" creationdate="20201010T202659Z">
         <seg>字面示例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Literal examples in ODT export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203949Z" creationid="grass" creationdate="20201010T203949Z">
+        <seg>ODT导出中的文字示例</seg>
       </tuv>
     </tu>
     <tu>
@@ -1646,6 +1670,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203907Z" creationid="grass" creationdate="20201010T203907Z">
         <seg>ODT导出中的数学格式设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>MathML and OpenDocument formula files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203929Z" creationid="grass" creationdate="20201010T203929Z">
+        <seg>MathML和OpenDocument公式文件</seg>
       </tuv>
     </tu>
     <tu>
