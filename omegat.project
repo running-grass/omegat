@@ -24,7 +24,7 @@
         <remove_tags>false</remove_tags>
         <external_command></external_command>
 	<repositories>
- 		<repository type="git" url="">
+ 		<repository type="git" url="https://github.com/RunningGrass/omegat.git">
   		<mapping local="" repository=""/>
  		</repository>
 	</repositories>
