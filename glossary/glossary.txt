@@ -113,3 +113,4 @@ fragment	片段
 Replacement	置换
 Macro Replacement	宏置换
 Frame	帧
+sectioning	分段
