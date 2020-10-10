@@ -112,3 +112,4 @@ Paragraphs	段落
 fragment	片段
 Replacement	置换
 Macro Replacement	宏置换
+Frame	帧
