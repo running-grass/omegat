@@ -714,6 +714,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Embedded LaTeX</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202516Z" creationid="grass" creationdate="20201010T202516Z">
+        <seg>LaTeX嵌入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Emphasis and Monospace</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202445Z" creationid="grass" creationdate="20201010T202445Z">
+        <seg>强调与单一空间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Exporting Agenda Views</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202246Z" creationid="grass" creationdate="20201010T202246Z">
@@ -1206,6 +1222,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130830Z" creationid="grass" creationdate="20201005T130830Z">
         <seg>关键字和块以大写形式编写，以增强其可读性，但是您可以在Org文件中使用小写形式。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>LaTeX fragments</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202622Z" creationid="grass" creationdate="20201010T202536Z">
+        <seg>LaTeX片段</seg>
       </tuv>
     </tu>
     <tu>
@@ -3610,6 +3634,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Paragraphs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202416Z" creationid="grass" creationdate="20201010T202416Z">
+        <seg>段落</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Plain Lists</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194559Z" creationid="grass" creationdate="20201010T194559Z">
@@ -3662,6 +3694,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T173024Z" creationid="grass" creationdate="20201010T173024Z">
         <seg>防止编辑不可见部分时出错。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Previewing LaTeX fragments</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202638Z" creationid="grass" creationdate="20201010T202638Z">
+        <seg>预览LaTeX片段</seg>
       </tuv>
     </tu>
     <tu>
@@ -4434,6 +4474,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Special Symbols</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202458Z" creationid="grass" creationdate="20201010T202458Z">
+        <seg>特殊符号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Storing searches</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202224Z" creationid="grass" creationdate="20201010T202224Z">
@@ -4454,6 +4502,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201905Z" creationid="grass" creationdate="20201010T201905Z">
         <seg>停滞的项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Subscripts and Superscripts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202453Z" creationid="grass" creationdate="20201010T202453Z">
+        <seg>下标和上标</seg>
       </tuv>
     </tu>
     <tu>
@@ -4982,6 +5038,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130617Z" creationid="grass" creationdate="20201005T130617Z">
         <seg>用户定义的标签以小写形式编写； 具有特殊含义的内置标签应按应在文档中出现的方式书写，通常使用全大写。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using CDLaTeX to enter math</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202651Z" creationid="grass" creationdate="20201010T202651Z">
+        <seg>使用CDLaTeX录入数学</seg>
       </tuv>
     </tu>
     <tu>
