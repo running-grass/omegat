@@ -92,3 +92,8 @@ Defining	定义
 Timestamp	时间戳
 prompt	提示
 Custom	自定义
+Deadline	截止日期
+Schedule	日程安排
+task	任务
+Repeated	重复
+Clock	计时
