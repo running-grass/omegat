@@ -90,6 +90,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>8 Dates and Times</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201031Z" creationid="grass" creationdate="20201010T201031Z">
+        <seg>8 日期和时间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>9 Refiling and Archiving</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T130333Z" creationid="grass" creationdate="20201006T130333Z">
@@ -314,6 +322,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Capturing column view</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201023Z" creationid="grass" creationdate="20201010T201023Z">
+        <seg>捕获列视图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Catching invisible edits</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182324Z" creationid="grass" creationdate="20201010T182324Z">
@@ -378,6 +394,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Column attributes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200945Z" creationid="grass" creationdate="20201010T200945Z">
+        <seg>列属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Column formulas</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195207Z" creationid="grass" creationdate="20201010T195207Z">
@@ -410,10 +434,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Creating Timestamps</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201050Z" creationid="grass" creationdate="20201010T201050Z">
+        <seg>创建时间戳</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Custom Searches</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200011Z" creationid="grass" creationdate="20201010T200011Z">
         <seg>自定义搜索</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Custom time format</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201117Z" creationid="grass" creationdate="20201010T201117Z">
+        <seg>自定义时间格式</seg>
       </tuv>
     </tu>
     <tu>
@@ -430,6 +470,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172923Z" creationid="grass" creationdate="20201010T172923Z">
         <seg>在各种可见性状态之间循环。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Deadlines and Scheduling</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201124Z" creationid="grass" creationdate="20201010T201124Z">
+        <seg>最后期限和日程安排</seg>
       </tuv>
     </tu>
     <tu>
@@ -918,6 +966,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182101Z" creationid="grass" creationdate="20201010T182016Z">
         <seg>初始可见性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inserting deadlines or schedules</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201149Z" creationid="grass" creationdate="20201010T201149Z">
+        <seg>插入截止日期或日程安排</seg>
       </tuv>
     </tu>
     <tu>
@@ -4322,6 +4378,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The date/time prompt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201056Z" creationid="grass" creationdate="20201010T201056Z">
+        <seg>日期/时间提示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The downloaded archive contains contributed libraries that are not included in Emacs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T132410Z" creationid="grass" creationdate="20200927T132410Z">
@@ -4446,6 +4510,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T102036Z" creationid="grass" creationdate="20200927T102036Z">
         <seg>此页面位于&lt;a0&gt;https://orgmode.org&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Timestamps</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201045Z" creationid="grass" creationdate="20201010T201045Z">
+        <seg>时间戳</seg>
       </tuv>
     </tu>
     <tu>
@@ -4598,6 +4670,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T132726Z" creationid="grass" creationdate="20200927T132726Z">
         <seg>使用Org的git仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using column view</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201018Z" creationid="grass" creationdate="20201010T201018Z">
+        <seg>使用列视图</seg>
       </tuv>
     </tu>
     <tu>
