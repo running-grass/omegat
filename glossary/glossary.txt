@@ -97,3 +97,9 @@ Schedule	日程安排
 task	任务
 Repeated	重复
 Clock	计时
+templates	模板
+element	元素
+expansion	扩展
+context	上下文
+options	选项
+RSS Feeds	RSS订阅
