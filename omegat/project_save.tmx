@@ -426,6 +426,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>CSS support</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203346Z" creationid="grass" creationdate="20201010T203346Z">
+        <seg>CSS支持</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Caching of refile targets can be turned on by setting &lt;c0&gt;org-refile-use-cache&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T134701Z" creationid="grass" creationdate="20201006T134701Z">
@@ -1258,6 +1266,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Images in HTML export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203325Z" creationid="grass" creationdate="20201010T203325Z">
+        <seg>HTML导出中的图像</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Images in LaTeX export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203605Z" creationid="grass" creationdate="20201010T203605Z">
+        <seg>LaTeX导出中的图像</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In that case it is sufficient to start Emacs as ‘&lt;s0&gt;emacs -Q&lt;/s0&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T081748Z" creationid="grass" creationdate="20200929T081748Z">
@@ -1370,6 +1394,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>JavaScript supported display of web pages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203351Z" creationid="grass" creationdate="20201010T203351Z">
+        <seg>JavaScript支持的网页显示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Jump to the location where &lt;c0&gt;org-refile&lt;/c0&gt; last moved a tree to.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T134335Z" creationid="grass" creationdate="20201006T134335Z">
@@ -1402,10 +1434,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>LaTeX Export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203400Z" creationid="grass" creationdate="20201010T203400Z">
+        <seg>LaTeX导出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>LaTeX fragments</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202622Z" creationid="grass" creationdate="20201010T202536Z">
         <seg>LaTeX片段</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>LaTeX header and sectioning structure</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203541Z" creationid="grass" creationdate="20201010T203541Z">
+        <seg>LaTeX头和分段结构</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>LaTeX specific export settings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203426Z" creationid="grass" creationdate="20201010T203426Z">
+        <seg>LaTeX特殊导出设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>LaTeX/PDF export commands</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203412Z" creationid="grass" creationdate="20201010T203412Z">
+        <seg>LaTeX/PDF导出命令</seg>
       </tuv>
     </tu>
     <tu>
@@ -1422,6 +1486,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195514Z" creationid="grass" creationdate="20201010T195514Z">
         <seg>链接格式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Links in HTML export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203311Z" creationid="grass" creationdate="20201010T203311Z">
+        <seg>HTML导出中的链接</seg>
       </tuv>
     </tu>
     <tu>
@@ -1494,6 +1566,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201834Z" creationid="grass" creationdate="20201010T201834Z">
         <seg>匹配标签和属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Math formatting in HTML export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203331Z" creationid="grass" creationdate="20201010T203331Z">
+        <seg>HTML导出中的数学格式设置</seg>
       </tuv>
     </tu>
     <tu>
@@ -3842,6 +3922,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Plain lists in LaTeX export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203612Z" creationid="grass" creationdate="20201010T203612Z">
+        <seg>LaTeX导出中的纯列表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Plain text URL-like links connect to websites, emails, Usenet messages, BBDB entries, and any files related to the projects.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T095601Z" creationid="grass" creationdate="20200927T094358Z">
@@ -4338,6 +4426,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Quoting LaTeX code</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203554Z" creationid="grass" creationdate="20201010T203554Z">
+        <seg>引用LaTeX代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>RSS Feeds</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201741Z" creationid="grass" creationdate="20201010T201741Z">
@@ -4810,6 +4906,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tables in HTML export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203316Z" creationid="grass" creationdate="20201010T203316Z">
+        <seg>HTML导出中的表格</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tables in LaTeX export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203600Z" creationid="grass" creationdate="20201010T203600Z">
+        <seg>LaTeX导出中的表格</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tag Hierarchy</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200548Z" creationid="grass" creationdate="20201010T200548Z">
@@ -4870,6 +4982,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201554Z" creationid="grass" creationdate="20201010T201554Z">
         <seg>上下文中模板的使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Text areas in HTML export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203337Z" creationid="grass" creationdate="20201010T203337Z">
+        <seg>HTML导出中的文本区域</seg>
       </tuv>
     </tu>
     <tu>
