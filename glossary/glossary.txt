@@ -108,3 +108,5 @@ Categories	类别
 Sort	排序
 Rich Contents	富文本
 段落	段落
+Paragraphs	段落
+fragment	片段
