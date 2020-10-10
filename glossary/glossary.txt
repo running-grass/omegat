@@ -1,0 +1,72 @@
+Org mode	Org mode
+official manual	官方手册
+Introduction	简介
+Summary	概述
+Installation	安装
+Up	返回
+Contents	目录
+Index	索引
+Top	顶层
+Activation	激活
+Conventions	约定
+Next	下一页
+plain-text	纯文本
+markup language	标记语言
+project planning	项目规划
+literate programming	文学编程
+Outline	大纲
+Visibility cycling	可见性循环
+structure editing	结构编辑
+websites	网站
+emails	邮件
+agenda views	议程视图
+entry	条目
+Emacs calendar	Emacs日历
+diary	日记
+single source authoring system	单一源创作系统
+HTML	HTML
+LaTeX	LaTeX
+Open Document	Open Document
+Markdown	Markdown
+code examples	代码示例
+technical documents	技术文档
+source code blocks	源代码块
+evaluated	求值
+reproducible research	可重复性研究
+package menu	package菜单
+Important	重要提示
+Conflicts	冲突
+Package Menu	软件包清单
+mailing list	邮件列表
+GNU Kind Communications Guidelines	GNU善意沟通准则
+manual	使用手册
+user-defined	用户定义
+Key bindings	按键绑定
+commands	命令
+Refiling	转接
+Archiving	归档
+Internal archiving	内部归档
+Capture	捕获
+Attachments	附件
+Copy	拷贝
+helps to	有助于
+compact	紧凑
+fast	快速
+Cutting	剪切
+Depending on	根据
+item	项
+By default	默认情况下
+Headlines	标题
+Motion	动作
+Jumping	跳转
+Sparse Trees	稀疏树
+Plain Lists	普通列表
+Block	块
+minor mode	辅模式
+Clean View	干净的视图
+Point	光标
+buffer	缓冲区
+Table	表格
+drawer	抽屉
+Agenda	议程
+kill ring	剪切板
