@@ -196,8 +196,8 @@
       <tuv lang="EN-US">
         <seg>A tree works like your brain.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054751Z" creationid="grass" creationdate="20201013T054751Z">
-        <seg>一棵树的工作原理和你的大脑一样。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054941Z" creationid="grass" creationdate="20201013T054751Z">
+        <seg>类似大脑工作原理的一棵树。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1158,6 +1158,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052254Z" creationid="grass" creationdate="20201013T052254Z">
         <seg>代码块求值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Every tree branch can be a TODO item.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055133Z" creationid="grass" creationdate="20201013T055133Z">
+        <seg>每个树分支都可以是一个待办事项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4314,6 +4322,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Notes in context.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055114Z" creationid="grass" creationdate="20201013T055114Z">
+        <seg>上下文中的笔记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Noweb Reference Syntax</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052517Z" creationid="grass" creationdate="20201013T052517Z">
@@ -5202,6 +5218,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Pure magic for quick formatting.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055033Z" creationid="grass" creationdate="20201013T055033Z">
+        <seg>用于快速格式化的纯魔法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Pushing to the mobile application</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053529Z" creationid="grass" creationdate="20201013T053529Z">
@@ -5862,6 +5886,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200609Z" creationid="grass" creationdate="20201010T200609Z">
         <seg>标签搜索</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tagging headlines and matching sets of tags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055259Z" creationid="grass" creationdate="20201013T055259Z">
+        <seg>给标题打标签和按标签聚类</seg>
       </tuv>
     </tu>
     <tu>
@@ -32923,6 +32955,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Hyperlinks&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055040Z" creationid="grass" creationdate="20201013T055040Z">
+        <seg>• &lt;a0&gt;超链接&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Initial visibility&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172938Z" creationid="grass" creationdate="20201010T172938Z">
@@ -33007,6 +33047,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T083331Z" creationid="grass" creationdate="20200927T083331Z">
         <seg>• &lt;a0&gt;概述&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;TODO Items&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055120Z" creationid="grass" creationdate="20201013T055120Z">
+        <seg>• &lt;a0&gt;待办事项&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Tables&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054959Z" creationid="grass" creationdate="20201013T054948Z">
+        <seg>• &lt;a0&gt;表格&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Tags&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055138Z" creationid="grass" creationdate="20201013T055138Z">
+        <seg>• &lt;a0&gt;标签&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
