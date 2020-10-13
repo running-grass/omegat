@@ -426,6 +426,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An index of Org’s concepts and features.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060417Z" creationid="grass" creationdate="20201013T060417Z">
+        <seg>Org的概念和功能的索引。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An overview of this structure is achieved by folding, i.e., hiding large parts of the document to show only the general document structure and the parts currently being worked on.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T165143Z" creationid="grass" creationdate="20201010T165143Z">
@@ -1108,8 +1116,8 @@
       <tuv lang="EN-US">
         <seg>E Key Index</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054401Z" creationid="grass" creationdate="20201013T054401Z">
-        <seg>E 关键词索引</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060552Z" creationid="grass" creationdate="20201013T054401Z">
+        <seg>E 按键索引</seg>
       </tuv>
     </tu>
     <tu>
@@ -1650,6 +1658,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>How Org came into being.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060338Z" creationid="grass" creationdate="20201013T060338Z">
+        <seg>Org是如何产生的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>How to activate Org for certain buffers.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T102630Z" creationid="grass" creationdate="20200927T084644Z">
@@ -2022,6 +2038,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130858Z" creationid="grass" creationdate="20201005T130858Z">
         <seg>按键绑定和命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Key bindings and where they are described.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060531Z" creationid="grass" creationdate="20201013T060531Z">
+        <seg>按键绑定和描述它的位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6230,6 +6254,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132658Z" creationid="grass" creationdate="20201006T132458Z">
         <seg>该项（或该区域中的所有项）作为子项转接在目标标题下方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The license for this documentation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060352Z" creationid="grass" creationdate="20201013T060352Z">
+        <seg>此文档的许可证。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33059,6 +33091,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;GNU Free Documentation License&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060350Z" creationid="grass" creationdate="20201013T060350Z">
+        <seg>• &lt;a0&gt;GNU自由文档许可证&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Global and local cycling&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172918Z" creationid="grass" creationdate="20201010T172918Z">
@@ -33127,6 +33167,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054635Z" creationid="grass" creationdate="20201013T054635Z">
         <seg>• &lt;a0&gt;简介&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Key Index&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060546Z" creationid="grass" creationdate="20201013T060425Z">
+        <seg>• &lt;a0&gt;按键索引&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Main Index&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060400Z" creationid="grass" creationdate="20201013T060400Z">
+        <seg>• &lt;a0&gt;主索引&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
