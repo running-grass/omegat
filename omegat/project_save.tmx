@@ -1338,6 +1338,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Images in Texinfo export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050818Z" creationid="grass" creationdate="20201013T050818Z">
+        <seg>Texinfo导出中的图像</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In that case it is sufficient to start Emacs as ‘&lt;s0&gt;emacs -Q&lt;/s0&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T081748Z" creationid="grass" creationdate="20200929T081748Z">
@@ -1381,6 +1389,14 @@
         <seg>Index</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T083137Z" creationid="grass" creationdate="20200927T083137Z">
+        <seg>索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Indices</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050618Z" creationid="grass" creationdate="20201013T050618Z">
         <seg>索引</seg>
       </tuv>
     </tu>
@@ -4082,6 +4098,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Plain lists in Texinfo export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050724Z" creationid="grass" creationdate="20201013T050707Z">
+        <seg>Texinfo导出中的普通列表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Plain text URL-like links connect to websites, emails, Usenet messages, BBDB entries, and any files related to the projects.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T095601Z" creationid="grass" creationdate="20200927T094358Z">
@@ -4578,6 +4602,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Quotations in Texinfo export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050845Z" creationid="grass" creationdate="20201013T050845Z">
+        <seg>Texinfo导出中的引用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Quoting HTML tags</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203300Z" creationid="grass" creationdate="20201010T203300Z">
@@ -4590,6 +4622,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203554Z" creationid="grass" creationdate="20201010T203554Z">
         <seg>引用LaTeX代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Quoting Texinfo code</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050651Z" creationid="grass" creationdate="20201013T050651Z">
+        <seg>引用Texinfo代码</seg>
       </tuv>
     </tu>
     <tu>
@@ -4954,6 +4994,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Special blocks in Texinfo export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050906Z" creationid="grass" creationdate="20201013T050906Z">
+        <seg>Texinfo导出中的特殊块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Storing searches</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202224Z" creationid="grass" creationdate="20201010T202224Z">
@@ -5102,6 +5150,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203843Z" creationid="grass" creationdate="20201010T203843Z">
         <seg>ODT导出中的表格</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tables in Texinfo export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050740Z" creationid="grass" creationdate="20201013T050740Z">
+        <seg>Texinfo导出中的表格</seg>
       </tuv>
     </tu>
     <tu>
