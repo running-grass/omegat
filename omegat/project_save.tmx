@@ -444,8 +444,8 @@
       <tuv lang="EN-US">
         <seg>Appendix B History and Acknowledgments</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054018Z" creationid="grass" creationdate="20201013T054018Z">
-        <seg>附录B 历史记录和确认</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060204Z" creationid="grass" creationdate="20201013T054018Z">
+        <seg>附录B 历史和致谢</seg>
       </tuv>
     </tu>
     <tu>
@@ -532,8 +532,8 @@
       <tuv lang="EN-US">
         <seg>B.1 From Carsten</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054239Z" creationid="grass" creationdate="20201013T054214Z">
-        <seg>8.1 Carsten</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060209Z" creationid="grass" creationdate="20201013T054214Z">
+        <seg>B.1 Carsten</seg>
       </tuv>
     </tu>
     <tu>
@@ -1662,6 +1662,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082321Z" creationid="grass" creationdate="20200929T082321Z">
         <seg>如何创建有用的回溯</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How to hack your way around.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060059Z" creationid="grass" creationdate="20201013T060059Z">
+        <seg>如何定制你想要的功能。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33071,6 +33079,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170007Z" creationid="grass" creationdate="20201010T170007Z">
         <seg>• &lt;a0&gt;标题&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;History and Acknowledgments&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060155Z" creationid="grass" creationdate="20201013T060155Z">
+        <seg>• &lt;a0&gt;历史和致谢&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
