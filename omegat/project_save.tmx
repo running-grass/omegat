@@ -5036,8 +5036,8 @@
       <tuv lang="EN-US">
         <seg>Sorting of agenda items</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202106Z" creationid="grass" creationdate="20201010T202106Z">
-        <seg>Sorting of agenda item</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051628Z" creationid="grass" creationdate="20201010T202106Z">
+        <seg>议程项的排序</seg>
       </tuv>
     </tu>
     <tu>
