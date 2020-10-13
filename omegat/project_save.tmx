@@ -370,6 +370,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Batch Execution</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052630Z" creationid="grass" creationdate="20201013T052630Z">
+        <seg>批量执行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Beamer Export</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203012Z" creationid="grass" creationdate="20201010T203012Z">
@@ -638,6 +646,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202858Z" creationid="grass" creationdate="20201010T202858Z">
         <seg>注释行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Completion</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052823Z" creationid="grass" creationdate="20201013T052823Z">
+        <seg>补全功能</seg>
       </tuv>
     </tu>
     <tu>
@@ -1626,6 +1642,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Key bindings and Useful Functions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052627Z" creationid="grass" creationdate="20201013T052627Z">
+        <seg>按键绑定和有用的功能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Key bindings and commands</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130858Z" creationid="grass" creationdate="20201005T130858Z">
@@ -1702,6 +1726,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052309Z" creationid="grass" creationdate="20201013T052309Z">
         <seg>语言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Library of Babel</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052527Z" creationid="grass" creationdate="20201013T052527Z">
+        <seg>Babel库</seg>
       </tuv>
     </tu>
     <tu>
@@ -1846,6 +1878,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203929Z" creationid="grass" creationdate="20201010T203929Z">
         <seg>MathML和OpenDocument公式文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Miscellaneous</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052633Z" creationid="grass" creationdate="20201013T052633Z">
+        <seg>杂项</seg>
       </tuv>
     </tu>
     <tu>
