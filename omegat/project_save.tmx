@@ -810,6 +810,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Editing Source Code</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052312Z" creationid="grass" creationdate="20201013T052312Z">
+        <seg>编辑源代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Editing and debugging formulas</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195240Z" creationid="grass" creationdate="20201010T195240Z">
@@ -862,6 +870,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202445Z" creationid="grass" creationdate="20201010T202445Z">
         <seg>强调与单一空间</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Environment of a Code Block</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052236Z" creationid="grass" creationdate="20201013T052236Z">
+        <seg>代号块的环境</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Evaluating Code Blocks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052254Z" creationid="grass" creationdate="20201013T052254Z">
+        <seg>代码块求值</seg>
       </tuv>
     </tu>
     <tu>
@@ -922,6 +946,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Exporting Code Blocks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052304Z" creationid="grass" creationdate="20201013T052304Z">
+        <seg>导出代码块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Exporting to minimal HTML</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051031Z" creationid="grass" creationdate="20201013T051031Z">
@@ -966,6 +998,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195727Z" creationid="grass" creationdate="20201010T195727Z">
         <seg>外部链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Extracting Source Code</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052307Z" creationid="grass" creationdate="20201013T052307Z">
+        <seg>提取源代码</seg>
       </tuv>
     </tu>
     <tu>
@@ -1654,6 +1694,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203936Z" creationid="grass" creationdate="20201010T203936Z">
         <seg>ODT导出中的标签和标题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Languages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052309Z" creationid="grass" creationdate="20201013T052309Z">
+        <seg>语言</seg>
       </tuv>
     </tu>
     <tu>
@@ -3922,6 +3970,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Noweb Reference Syntax</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052517Z" creationid="grass" creationdate="20201013T052517Z">
+        <seg>Noweb引用语法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ODT export commands</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203805Z" creationid="grass" creationdate="20201010T203805Z">
@@ -4870,6 +4926,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201348Z" creationid="grass" creationdate="20201010T201348Z">
         <seg>解决空闲时间和连续时钟</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Results of Evaluation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052301Z" creationid="grass" creationdate="20201013T052301Z">
+        <seg>求值结果</seg>
       </tuv>
     </tu>
     <tu>
