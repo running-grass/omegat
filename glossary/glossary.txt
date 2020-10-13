@@ -123,3 +123,4 @@ Code Block	代码块
 completion	补全
 staging area	工作区
 staging area	舞台区域
+Radio tables	无线电表格
