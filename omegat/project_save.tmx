@@ -1082,6 +1082,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Headings and sectioning structure</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050531Z" creationid="grass" creationdate="20201013T050531Z">
+        <seg>标题和分段结构</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Headlines</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T082959Z" creationid="grass" creationdate="20200927T082959Z">
@@ -1374,6 +1382,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T083137Z" creationid="grass" creationdate="20200927T083137Z">
         <seg>索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Info directory file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050520Z" creationid="grass" creationdate="20201013T050520Z">
+        <seg>信息目录文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -3850,6 +3866,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Org Export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050347Z" creationid="grass" creationdate="20201013T050347Z">
+        <seg>Org导出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Org Plot</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195450Z" creationid="grass" creationdate="20201010T195450Z">
@@ -5142,6 +5166,46 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201554Z" creationid="grass" creationdate="20201010T201554Z">
         <seg>上下文中模板的使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Texinfo Export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050407Z" creationid="grass" creationdate="20201013T050407Z">
+        <seg>Texinfo导出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Texinfo export commands</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050426Z" creationid="grass" creationdate="20201013T050426Z">
+        <seg>Texinfo导出命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Texinfo file header</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050448Z" creationid="grass" creationdate="20201013T050448Z">
+        <seg>Texinfo文件标题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Texinfo specific export settings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050438Z" creationid="grass" creationdate="20201013T050438Z">
+        <seg>Texinfo特殊导出设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Texinfo title and copyright page</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050505Z" creationid="grass" creationdate="20201013T050505Z">
+        <seg>Texinfo标题和版权页面</seg>
       </tuv>
     </tu>
     <tu>
