@@ -162,6 +162,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A Cleaner Outline View</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052838Z" creationid="grass" creationdate="20201013T052838Z">
+        <seg>更干净的大纲视图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A Texinfo example</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050922Z" creationid="grass" creationdate="20201013T050922Z">
@@ -594,6 +602,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Code Evaluation and Security Issues</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053000Z" creationid="grass" creationdate="20201013T053000Z">
+        <seg>代码求值和安全问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Column Groups</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194643Z" creationid="grass" creationdate="20201010T194643Z">
@@ -670,6 +686,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051106Z" creationid="grass" creationdate="20201013T051106Z">
         <seg>配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Context Dependent Documentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052950Z" creationid="grass" creationdate="20201013T052950Z">
+        <seg>上下文相关文档</seg>
       </tuv>
     </tu>
     <tu>
@@ -826,6 +850,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Dynamic Headline Numbering</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052921Z" creationid="grass" creationdate="20201013T052921Z">
+        <seg>动态标题编号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Editing Source Code</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052312Z" creationid="grass" creationdate="20201013T052312Z">
@@ -898,6 +930,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Escape Character</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052954Z" creationid="grass" creationdate="20201013T052954Z">
+        <seg>转义字符</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Evaluating Code Blocks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052254Z" creationid="grass" creationdate="20201013T052254Z">
@@ -926,6 +966,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052015Z" creationid="grass" creationdate="20201013T052015Z">
         <seg>示例：简单发布配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Execute commands in the active region</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052914Z" creationid="grass" creationdate="20201013T052914Z">
+        <seg>在活动区域中执行命令</seg>
       </tuv>
     </tu>
     <tu>
@@ -1222,6 +1270,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195938Z" creationid="grass" creationdate="20201010T195938Z">
         <seg>处理链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hard indentation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052907Z" creationid="grass" creationdate="20201013T052907Z">
+        <seg>硬缩进</seg>
       </tuv>
     </tu>
     <tu>
@@ -1582,6 +1638,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T102638Z" creationid="grass" creationdate="20200927T084554Z">
         <seg>安装 Org。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Interaction with Other Packages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053003Z" creationid="grass" creationdate="20201013T053003Z">
+        <seg>与其他软件包的交互</seg>
       </tuv>
     </tu>
     <tu>
@@ -4082,10 +4146,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Org Indent Mode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052845Z" creationid="grass" creationdate="20201013T052845Z">
+        <seg>Org缩进模式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Org Plot</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195450Z" creationid="grass" creationdate="20201010T195450Z">
         <seg>Org图表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Org Syntax</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052946Z" creationid="grass" creationdate="20201013T052946Z">
+        <seg>Org语法</seg>
       </tuv>
     </tu>
     <tu>
@@ -4270,6 +4350,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T173309Z" creationid="grass" creationdate="20201010T173309Z">
         <seg>大纲可以让隐藏缓冲区中的部分文本成为可能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Packages that Org cooperates with</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053032Z" creationid="grass" creationdate="20201013T053032Z">
+        <seg>与Org合作的包</seg>
       </tuv>
     </tu>
     <tu>
@@ -5258,6 +5346,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Speed Keys</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052829Z" creationid="grass" creationdate="20201013T052829Z">
+        <seg>快捷键</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Storing searches</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202224Z" creationid="grass" creationdate="20201010T202224Z">
@@ -5270,6 +5366,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194545Z" creationid="grass" creationdate="20201010T194545Z">
         <seg>结构编辑</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Structure Templates</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052826Z" creationid="grass" creationdate="20201013T052826Z">
+        <seg>结构模板</seg>
       </tuv>
     </tu>
     <tu>
@@ -5302,6 +5406,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T082622Z" creationid="grass" creationdate="20200927T082622Z">
         <seg>概述</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary of In-Buffer Settings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052938Z" creationid="grass" creationdate="20201013T052938Z">
+        <seg>缓冲区内设置摘要</seg>
       </tuv>
     </tu>
     <tu>
@@ -5590,6 +5702,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194719Z" creationid="grass" creationdate="20201010T194719Z">
         <seg>电子表格</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Very Busy &lt;k0&gt;C-c C-c&lt;/k0&gt; Key</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052927Z" creationid="grass" creationdate="20201013T052927Z">
+        <seg>非常繁忙的&lt;k0&gt;C-c C-c&lt;/k0&gt;键</seg>
       </tuv>
     </tu>
     <tu>
