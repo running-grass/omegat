@@ -418,6 +418,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Appendix C GNU Free Documentation License</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054331Z" creationid="grass" creationdate="20201013T054331Z">
+        <seg>附录C GNU免费文档许可证</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Applying custom styles</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203826Z" creationid="grass" creationdate="20201010T203826Z">
@@ -630,6 +638,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132854Z" creationid="grass" creationdate="20201006T132854Z">
         <seg>默认情况下，当前缓冲区中的所有一级标题均被视为目标，但是您可以在多个文件中使用更复杂的定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C.1 ADDENDUM: How to use this License for your documents</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054339Z" creationid="grass" creationdate="20201013T054339Z">
+        <seg>C.1 附录：如何将本许可证用于您的文档</seg>
       </tuv>
     </tu>
     <tu>
@@ -922,6 +938,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>D Main Index</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054348Z" creationid="grass" creationdate="20201013T054348Z">
+        <seg>D 主索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Deadlines and Scheduling</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201220Z" creationid="grass" creationdate="20201010T201124Z">
@@ -1006,6 +1030,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052921Z" creationid="grass" creationdate="20201013T052921Z">
         <seg>动态标题编号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>E Key Index</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054401Z" creationid="grass" creationdate="20201013T054401Z">
+        <seg>E 关键词索引</seg>
       </tuv>
     </tu>
     <tu>
@@ -1226,6 +1258,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>F Command and Function Index</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054407Z" creationid="grass" creationdate="20201013T054407Z">
+        <seg>F 命令和函数索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Faces for TODO keywords</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200242Z" creationid="grass" creationdate="20201010T200242Z">
@@ -1350,6 +1390,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182211Z" creationid="grass" creationdate="20201010T182211Z">
         <seg>此外，任何具有“&lt;s0&gt;VISIBILITY&lt;/s0&gt;”属性的条目(请参阅&lt;a1&gt;属性和列&lt;/a1&gt;)都会相应地调整其可见性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>G Variable Index</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054416Z" creationid="grass" creationdate="20201013T054416Z">
+        <seg>G 变量索引</seg>
       </tuv>
     </tu>
     <tu>
