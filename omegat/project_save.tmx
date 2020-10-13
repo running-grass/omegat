@@ -178,6 +178,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A.1 Hooks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053556Z" creationid="grass" creationdate="20201013T053556Z">
+        <seg>A.1 钩子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A.2 Add-on Packages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053601Z" creationid="grass" creationdate="20201013T053601Z">
+        <seg>A.2 附加软件包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A.3 Adding Hyperlink Types</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053608Z" creationid="grass" creationdate="20201013T053608Z">
+        <seg>A.3 添加超链接类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A.4 Adding Export Back-ends</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053615Z" creationid="grass" creationdate="20201013T053615Z">
+        <seg>A.4 添加导出后端</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ASCII/Latin-1/UTF-8 export</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202911Z" creationid="grass" creationdate="20201010T202911Z">
@@ -286,6 +318,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T165143Z" creationid="grass" creationdate="20201010T165143Z">
         <seg>这种结构的概述是通过折叠来实现的，即隐藏文档的大部分以仅显示一般文档结构和当前正在处理的部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Appendix A Hacking</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053701Z" creationid="grass" creationdate="20201013T053547Z">
+        <seg>附录A 高度定制化</seg>
       </tuv>
     </tu>
     <tu>
@@ -4942,6 +4982,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051916Z" creationid="grass" creationdate="20201013T051916Z">
         <seg>发布链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pulling from the mobile application</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053535Z" creationid="grass" creationdate="20201013T053535Z">
+        <seg>从移动应用程序中提取</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pushing to the mobile application</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053529Z" creationid="grass" creationdate="20201013T053529Z">
+        <seg>推送到移动应用</seg>
       </tuv>
     </tu>
     <tu>
