@@ -332,8 +332,8 @@
       <tuv lang="EN-US">
         <seg>Additional structure within an entry.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170557Z" creationid="grass" creationdate="20201010T170557Z">
-        <seg>条目内的附加结构</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T061033Z" creationid="grass" creationdate="20201010T170557Z">
+        <seg>条目内的附加结构。</seg>
       </tuv>
     </tu>
     <tu>
@@ -660,8 +660,8 @@
       <tuv lang="EN-US">
         <seg>Bug reports, ideas, patches, etc.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20200927T102626Z" creationid="grass" creationdate="20200927T084741Z">
-        <seg>报告bug, 提出建议和补丁等</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060934Z" creationid="grass" creationdate="20200927T084741Z">
+        <seg>报告bug, 提出建议和补丁等。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1078,6 +1078,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082729Z" creationid="grass" creationdate="20200929T082729Z">
         <seg>做你必须做的一切以解决错误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Document Structure</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060943Z" creationid="grass" creationdate="20201013T060943Z">
+        <seg>文档结构</seg>
       </tuv>
     </tu>
     <tu>
@@ -1676,8 +1684,8 @@
       <tuv lang="EN-US">
         <seg>How to activate Org for certain buffers.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20200927T102630Z" creationid="grass" creationdate="20200927T084644Z">
-        <seg>如何从某一缓冲区激活Org</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060929Z" creationid="grass" creationdate="20200927T084644Z">
+        <seg>如何从某一缓冲区激活Org。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2028,8 +2036,8 @@
       <tuv lang="EN-US">
         <seg>Jumping to other headlines.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170151Z" creationid="grass" creationdate="20201010T170151Z">
-        <seg>跳转到其它标题</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T061005Z" creationid="grass" creationdate="20201010T170151Z">
+        <seg>跳转到其它标题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2252,8 +2260,8 @@
       <tuv lang="EN-US">
         <seg>Matches embedded in context.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170310Z" creationid="grass" creationdate="20201010T170310Z">
-        <seg>在嵌入式上下文中匹配</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T061024Z" creationid="grass" creationdate="20201010T170310Z">
+        <seg>在嵌入式上下文中匹配。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6500,8 +6508,8 @@
       <tuv lang="EN-US">
         <seg>Typesetting conventions used in this manual.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20200927T084827Z" creationid="grass" creationdate="20200927T084827Z">
-        <seg>本指南的排版约定.</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060940Z" creationid="grass" creationdate="20200927T084827Z">
+        <seg>本指南的排版约定。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33353,8 +33361,8 @@ Introduction</seg>
       <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Visibility Cycling&lt;/a0&gt;:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170057Z" creationid="grass" creationdate="20201010T170057Z">
-        <seg>• &lt;a0&gt; 可见性循环&lt;/a0&gt;:</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060953Z" creationid="grass" creationdate="20201010T170057Z">
+        <seg>• &lt;a0&gt;可见性循环&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
