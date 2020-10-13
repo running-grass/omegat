@@ -116,3 +116,4 @@ Frame	帧
 sectioning	分段
 Texinfo	Texinfo
 Image	图像
+Publish	发布
