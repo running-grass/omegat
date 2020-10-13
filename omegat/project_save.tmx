@@ -2122,6 +2122,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Making items useful for planning.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055429Z" creationid="grass" creationdate="20201013T055429Z">
+        <seg>使条目对计划有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Many commands in Org work on the region if the region is &lt;e0&gt;active&lt;/e0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T140338Z" creationid="grass" creationdate="20200927T140108Z">
@@ -2230,6 +2238,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T125953Z" creationid="grass" creationdate="20201006T125953Z">
         <seg>移动一棵节点树到一个归档文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Moving and copying information with ease.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055453Z" creationid="grass" creationdate="20201013T055453Z">
+        <seg>轻松移动和复制信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5678,6 +5694,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052829Z" creationid="grass" creationdate="20201013T052829Z">
         <seg>快捷键</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Storing information about an entry.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055316Z" creationid="grass" creationdate="20201013T055316Z">
+        <seg>存储有关条目的信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32899,6 +32923,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Capture and Attachments&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055502Z" creationid="grass" creationdate="20201013T055502Z">
+        <seg>• &lt;a0&gt;捕获和附件&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Catching invisible edits&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T173018Z" creationid="grass" creationdate="20201010T173018Z">
@@ -32911,6 +32943,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T084807Z" creationid="grass" creationdate="20200927T084807Z">
         <seg>• &lt;a0&gt;约定&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Dates and Times&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055329Z" creationid="grass" creationdate="20201013T055329Z">
+        <seg>• &lt;a0&gt;日期与时间&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
@@ -33019,10 +33059,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Properties and Columns&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055307Z" creationid="grass" creationdate="20201013T055307Z">
+        <seg>• &lt;a0&gt;属性和列&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Refile and Copy&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T125720Z" creationid="grass" creationdate="20201006T125720Z">
         <seg>• &lt;a0&gt;转接和拷贝&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Refiling and Archiving&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055448Z" creationid="grass" creationdate="20201013T055448Z">
+        <seg>• &lt;a0&gt;转接与归档&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
