@@ -802,6 +802,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Collecting information into views.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055522Z" creationid="grass" creationdate="20201013T055522Z">
+        <seg>将信息收集到视图中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Column Groups</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194643Z" creationid="grass" creationdate="20201010T194643Z">
@@ -870,6 +878,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T101503Z" creationid="grass" creationdate="20200927T101503Z">
         <seg>虽然并不要求复杂性，但是在需要时有大量的功能可以使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Compose beautiful documents.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055555Z" creationid="grass" creationdate="20201013T055555Z">
+        <seg>撰写漂亮的文档。</seg>
       </tuv>
     </tu>
     <tu>
@@ -982,6 +998,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201220Z" creationid="grass" creationdate="20201010T201124Z">
         <seg>截止日期和日程安排</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dealing with external data.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055504Z" creationid="grass" creationdate="20201013T055504Z">
+        <seg>处理外部数据。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2156,8 +2180,8 @@
       <tuv lang="EN-US">
         <seg>Markup for Rich Contents</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202359Z" creationid="grass" creationdate="20201010T202359Z">
-        <seg>富文本的标记</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055616Z" creationid="grass" creationdate="20201010T202359Z">
+        <seg>富文本标记</seg>
       </tuv>
     </tu>
     <tu>
@@ -32907,6 +32931,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Agenda Views&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055518Z" creationid="grass" creationdate="20201013T055518Z">
+        <seg>• &lt;a0&gt;议程视图&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Archiving&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T125811Z" creationid="grass" creationdate="20201006T125811Z">
@@ -33031,6 +33063,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054635Z" creationid="grass" creationdate="20201013T054635Z">
         <seg>• &lt;a0&gt;简介&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Markup for Rich Contents&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055551Z" creationid="grass" creationdate="20201013T055551Z">
+        <seg>• &lt;a0&gt;富文本标记&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
