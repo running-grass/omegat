@@ -4138,6 +4138,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Org Crypt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053313Z" creationid="grass" creationdate="20201013T053313Z">
+        <seg>Org加密</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Org Export</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050347Z" creationid="grass" creationdate="20201013T050347Z">
@@ -4150,6 +4158,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052845Z" creationid="grass" creationdate="20201013T052845Z">
         <seg>Org缩进模式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Org Mobile</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053323Z" creationid="grass" creationdate="20201013T053323Z">
+        <seg>Org移动版</seg>
       </tuv>
     </tu>
     <tu>
@@ -4356,8 +4372,16 @@
       <tuv lang="EN-US">
         <seg>Packages that Org cooperates with</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053032Z" creationid="grass" creationdate="20201013T053032Z">
-        <seg>与Org合作的包</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053102Z" creationid="grass" creationdate="20201013T053032Z">
+        <seg>与Org模式配合的包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Packages that conflict with Org mode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053057Z" creationid="grass" creationdate="20201013T053057Z">
+        <seg>与Org模式冲突的包</seg>
       </tuv>
     </tu>
     <tu>
@@ -4890,6 +4914,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Protocols for External Access</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053116Z" creationid="grass" creationdate="20201013T053116Z">
+        <seg>用于外部访问的协议</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Publishing</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051102Z" creationid="grass" creationdate="20201013T051102Z">
@@ -5230,6 +5262,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200117Z" creationid="grass" creationdate="20201010T200117Z">
         <seg>设置单个文件的关键字</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Setting up the staging area</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053525Z" creationid="grass" creationdate="20201013T053525Z">
+        <seg>设置舞台区域</seg>
       </tuv>
     </tu>
     <tu>
@@ -5654,6 +5694,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082309Z" creationid="grass" creationdate="20200929T082309Z">
         <seg>感谢您帮助改进此程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;capture&lt;/c0&gt; protocol</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053249Z" creationid="grass" creationdate="20201013T053249Z">
+        <seg>&lt;c0&gt;捕获&lt;/c0&gt;协议</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;open-source&lt;/c0&gt; protocol</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053305Z" creationid="grass" creationdate="20201013T053300Z">
+        <seg>&lt;c0&gt;开源&lt;/c0&gt;协议</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;store-link&lt;/c0&gt; protocol</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053147Z" creationid="grass" creationdate="20201013T053147Z">
+        <seg>&lt;c0&gt;存储链接&lt;/c0&gt;协议</seg>
       </tuv>
     </tu>
     <tu>
@@ -6094,6 +6158,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195954Z" creationid="grass" creationdate="20201010T195954Z">
         <seg>使用Org之外的链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using Org on a TTY</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053112Z" creationid="grass" creationdate="20201013T053112Z">
+        <seg>在TTY上使用Org</seg>
       </tuv>
     </tu>
     <tu>
