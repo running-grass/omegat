@@ -124,3 +124,5 @@ completion	补全
 staging area	工作区
 staging area	舞台区域
 Radio tables	无线电表格
+Acknowledgment	致谢
+Contribution	贡献
