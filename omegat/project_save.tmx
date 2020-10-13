@@ -186,6 +186,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A.10 Using the Property API</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053957Z" creationid="grass" creationdate="20201013T053957Z">
+        <seg>A.10 使用属性API</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A.11 Using the Mapping API</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054005Z" creationid="grass" creationdate="20201013T054005Z">
+        <seg>A.11 使用映射API</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A.2 Add-on Packages</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053601Z" creationid="grass" creationdate="20201013T053601Z">
@@ -394,6 +410,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Appendix B History and Acknowledgments</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054018Z" creationid="grass" creationdate="20201013T054018Z">
+        <seg>附录B 历史记录和确认</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Applying custom styles</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203826Z" creationid="grass" creationdate="20201010T203826Z">
@@ -462,6 +486,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201634Z" creationid="grass" creationdate="20201010T201634Z">
         <seg>使用Git进行自动版本控制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>B.1 From Carsten</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054239Z" creationid="grass" creationdate="20201013T054214Z">
+        <seg>8.1 Carsten</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>B.2 From Bastien</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054241Z" creationid="grass" creationdate="20201013T054241Z">
+        <seg>B.2 Bastien</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>B.3 List of Contributions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054317Z" creationid="grass" creationdate="20201013T054317Z">
+        <seg>B.3 贡献表</seg>
       </tuv>
     </tu>
     <tu>
