@@ -210,6 +210,70 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A.5 Tables in Arbitrary Syntax</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053710Z" creationid="grass" creationdate="20201013T053710Z">
+        <seg>A.5 任意语法中的表格</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A.5.1 Radio tables</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053752Z" creationid="grass" creationdate="20201013T053752Z">
+        <seg>A.5.1 无线电表格</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A.5.2 A LaTeX example of radio tables</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053813Z" creationid="grass" creationdate="20201013T053813Z">
+        <seg>A.5.2 无线电表格的LaTeX示例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A.5.3 Translator functions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053824Z" creationid="grass" creationdate="20201013T053824Z">
+        <seg>A.5.3 翻译器功能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A.6 Dynamic Blocks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053830Z" creationid="grass" creationdate="20201013T053830Z">
+        <seg>A.6 动态块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A.7 Special Agenda Views</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053937Z" creationid="grass" creationdate="20201013T053937Z">
+        <seg>A.7 特殊议程视图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A.8 Speeding Up Your Agendas</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053942Z" creationid="grass" creationdate="20201013T053942Z">
+        <seg>A.8 加快你的议程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A.9 Extracting Agenda Information</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053946Z" creationid="grass" creationdate="20201013T053946Z">
+        <seg>A.9 提取议程信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ASCII/Latin-1/UTF-8 export</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202911Z" creationid="grass" creationdate="20201010T202911Z">
