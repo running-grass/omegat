@@ -866,6 +866,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Command names and some internal functions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060733Z" creationid="grass" creationdate="20201013T060724Z">
+        <seg>命令名一些内部函数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Commands in the Agenda Buffer</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202126Z" creationid="grass" creationdate="20201010T202126Z">
@@ -3332,8 +3340,8 @@
       <tuv lang="EN-US">
         <seg>Next: &lt;a0&gt;Introduction&lt;/a0&gt;, Up: &lt;a1&gt;(dir)&lt;/a1&gt;   [&lt;a2&gt;Contents&lt;/a2&gt;][&lt;a3&gt;Index&lt;/a3&gt;]</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20200927T103829Z" creationid="grass" creationdate="20200927T103355Z">
-        <seg>下一页: &lt;a0&gt;Introduction&lt;/a0&gt;, 返回: &lt;a1&gt;(dir)&lt;/a1&gt;   [&lt;a2&gt;目录&lt;/a2&gt;][&lt;a3&gt;索引&lt;/a3&gt;]</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060659Z" creationid="grass" creationdate="20200927T103355Z">
+        <seg>下一页: &lt;a0&gt;简介&lt;/a0&gt;, 返回: &lt;a1&gt;(dir)&lt;/a1&gt;   [&lt;a2&gt;目录&lt;/a2&gt;][&lt;a3&gt;索引&lt;/a3&gt;]</seg>
       </tuv>
     </tu>
     <tu>
@@ -6614,6 +6622,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201018Z" creationid="grass" creationdate="20201010T201018Z">
         <seg>使用列视图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Variables mentioned in the manual.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060745Z" creationid="grass" creationdate="20201013T060745Z">
+        <seg>手册中提到的变量。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32995,6 +33011,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>— The Detailed Node Listing —
+
+Introduction</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060824Z" creationid="grass" creationdate="20201013T060824Z">
+        <seg>— 详细的节点列表 —
+
+介绍</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Activation&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T084606Z" creationid="grass" creationdate="20200927T084606Z">
@@ -33039,6 +33067,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T173018Z" creationid="grass" creationdate="20201010T173018Z">
         <seg>• &lt;a0&gt;捕获不可见编辑&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Command and Function Index&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060719Z" creationid="grass" creationdate="20201013T060719Z">
+        <seg>• &lt;a0&gt;命令和函数索引&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
@@ -33303,6 +33339,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055138Z" creationid="grass" creationdate="20201013T055138Z">
         <seg>• &lt;a0&gt;标签&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Variable Index&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060741Z" creationid="grass" creationdate="20201013T060741Z">
+        <seg>• &lt;a0&gt;变量索引&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
