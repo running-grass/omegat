@@ -42,6 +42,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>13.15 iCalendar Export</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050932Z" creationid="grass" creationdate="20201013T050932Z">
+        <seg>13.15 iCalendar导出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2 Document Structure</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T082812Z" creationid="grass" creationdate="20200927T082812Z">
@@ -154,6 +162,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A Texinfo example</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050922Z" creationid="grass" creationdate="20201013T050922Z">
+        <seg>Texinfo示例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ASCII/Latin-1/UTF-8 export</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202911Z" creationid="grass" creationdate="20201010T202911Z">
@@ -174,6 +190,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170557Z" creationid="grass" creationdate="20201010T170557Z">
         <seg>条目内的附加结构</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Advanced Export Configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050949Z" creationid="grass" creationdate="20201013T050949Z">
+        <seg>高级导出配置</seg>
       </tuv>
     </tu>
     <tu>
@@ -626,6 +650,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051106Z" creationid="grass" creationdate="20201013T051106Z">
+        <seg>配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Copy the &lt;e0&gt;visible&lt;/e0&gt; text in the region into the kill ring.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T180908Z" creationid="grass" creationdate="20201010T180632Z">
@@ -850,6 +882,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Export in Foreign Buffers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051009Z" creationid="grass" creationdate="20201013T051009Z">
+        <seg>在外部缓冲区中导出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Exporting</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202742Z" creationid="grass" creationdate="20201010T202738Z">
@@ -862,6 +902,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202246Z" creationid="grass" creationdate="20201010T202246Z">
         <seg>导出议程视图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Exporting to minimal HTML</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051031Z" creationid="grass" creationdate="20201013T051031Z">
+        <seg>导出为最小化HTML</seg>
       </tuv>
     </tu>
     <tu>
@@ -3882,6 +3930,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Options for the exporters</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051415Z" creationid="grass" creationdate="20201013T051415Z">
+        <seg>导出器的选择</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Org Export</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050347Z" creationid="grass" creationdate="20201013T050347Z">
@@ -4046,6 +4102,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130326Z" creationid="grass" creationdate="20201005T130326Z">
         <seg>Org使用各种语法元素：TODO关键字，标签，属性名称，关键字，块等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Other Built-in Back-ends</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050941Z" creationid="grass" creationdate="20201013T050941Z">
+        <seg>其他内置后端</seg>
       </tuv>
     </tu>
     <tu>
@@ -4602,6 +4666,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Publishing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051102Z" creationid="grass" creationdate="20201013T051102Z">
+        <seg>发布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Publishing action</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051202Z" creationid="grass" creationdate="20201013T051202Z">
+        <seg>发布操作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Quotations in Texinfo export</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050845Z" creationid="grass" creationdate="20201013T050845Z">
@@ -4850,6 +4930,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Selecting files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051158Z" creationid="grass" creationdate="20201013T051158Z">
+        <seg>文件选择</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Setting &lt;c0&gt;org-catch-invisible-edits&lt;/c0&gt; to non-&lt;c1&gt;nil&lt;/c1&gt; helps preventing this.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182348Z" creationid="grass" creationdate="20201010T182348Z">
@@ -4958,6 +5046,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203634Z" creationid="grass" creationdate="20201010T203627Z">
         <seg>LaTeX导出中的源码块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sources and destinations for files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051139Z" creationid="grass" creationdate="20201013T051139Z">
+        <seg>文件的源和目标</seg>
       </tuv>
     </tu>
     <tu>
@@ -5414,6 +5510,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171259Z" creationid="grass" creationdate="20201010T171259Z">
         <seg>&lt;c0&gt;org-footnote-section&lt;/c0&gt;中定义的名称是保留的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The variable &lt;c0&gt;org-publish-project-alist&lt;/c0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051115Z" creationid="grass" creationdate="20201013T051115Z">
+        <seg>变量&lt;c0&gt;org-Publish-project-ist&lt;/c0&gt;</seg>
       </tuv>
     </tu>
     <tu>
