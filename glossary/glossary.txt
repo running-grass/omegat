@@ -140,3 +140,4 @@ Footnote	脚注
 preamble	引言
 major-mode	主模式
 Clean View	净化视图
+Interaction	交互
