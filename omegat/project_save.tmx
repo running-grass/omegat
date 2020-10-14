@@ -1898,6 +1898,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Formatting headlines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105113Z" creationid="grass" creationdate="20201014T105113Z">
+        <seg>设置标题格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Formula for specific (ranges of) fields.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100540Z" creationid="grass" creationdate="20201014T100540Z">
@@ -2258,6 +2266,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>How to insert figures into HTML output.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105231Z" creationid="grass" creationdate="20201014T105231Z">
+        <seg>如何将图形插入到HTML输出中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How to modify the formatting of tables.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105224Z" creationid="grass" creationdate="20201014T105224Z">
+        <seg>如何修改表格的格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>How to refer to another field or range.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100359Z" creationid="grass" creationdate="20201014T100359Z">
@@ -2546,10 +2570,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Inserting and formatting links.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105158Z" creationid="grass" creationdate="20201014T105158Z">
+        <seg>插入链接并设置其格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Inserting deadlines or schedules</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201149Z" creationid="grass" creationdate="20201010T201149Z">
         <seg>插入截止日期或日程安排</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inserting preamble and postamble.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105025Z" creationid="grass" creationdate="20201014T105025Z">
+        <seg>插入前导和后导。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7702,6 +7742,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103135Z" creationid="grass" creationdate="20201014T103135Z">
         <seg>对收集到的条目使用列视图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using direct HTML in Org files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105035Z" creationid="grass" creationdate="20201014T105035Z">
+        <seg>在Org文件中使用直接HTML。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34863,6 +34911,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;HTML preamble and postamble&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105020Z" creationid="grass" creationdate="20201014T105020Z">
+        <seg>• &lt;a0&gt;HTML前导和后导&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;HTML specific export settings&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105007Z" creationid="grass" creationdate="20201014T105007Z">
@@ -34883,6 +34939,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100833Z" creationid="grass" creationdate="20201014T100833Z">
         <seg>• &lt;a0&gt;处理链接&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Headlines in HTML export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105151Z" creationid="grass" creationdate="20201014T105111Z">
+        <seg>• &lt;a0&gt;HTML导出中的标题&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -34915,6 +34979,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055040Z" creationid="grass" creationdate="20201013T055040Z">
         <seg>• &lt;a0&gt;超链接&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Images in HTML export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105229Z" creationid="grass" creationdate="20201014T105229Z">
+        <seg>• &lt;a0&gt;HTML导出中的图像&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35019,6 +35091,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100659Z" creationid="grass" creationdate="20201014T100659Z">
         <seg>• &lt;a0&gt;链接格式&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Links in HTML export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105138Z" creationid="grass" creationdate="20201014T105138Z">
+        <seg>• &lt;a0&gt;HTML导出中的链接&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35247,6 +35327,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Quoting HTML tags&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105045Z" creationid="grass" creationdate="20201014T105028Z">
+        <seg>• &lt;a0&gt;引用HTML标签&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;RSS Feeds&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102541Z" creationid="grass" creationdate="20201014T102541Z">
@@ -35467,6 +35555,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104219Z" creationid="grass" creationdate="20201014T104219Z">
         <seg>• &lt;a0&gt;目录&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Tables in HTML export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105222Z" creationid="grass" creationdate="20201014T105222Z">
+        <seg>• &lt;a0&gt;HTML导出中的表格&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
