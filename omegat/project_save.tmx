@@ -194,6 +194,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A dynamic block for column view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101939Z" creationid="grass" creationdate="20201014T101939Z">
+        <seg>列视图的动态块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A tree works like your brain.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054941Z" creationid="grass" creationdate="20201013T054751Z">
@@ -450,6 +458,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Appearance and content of a column.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102000Z" creationid="grass" creationdate="20201014T102000Z">
+        <seg>列的外观和内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Appendix A Hacking</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053701Z" creationid="grass" creationdate="20201013T053547Z">
@@ -494,6 +510,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T131610Z" creationid="grass" creationdate="20201006T131610Z">
         <seg>归档有助于保持系统的紧凑和快速。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assigning a time to a tree entry.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102029Z" creationid="grass" creationdate="20201014T102029Z">
+        <seg>为树的枝干条目分配时间。</seg>
       </tuv>
     </tu>
     <tu>
@@ -890,6 +914,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Commands to insert timestamps.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102036Z" creationid="grass" creationdate="20201014T102036Z">
+        <seg>用于插入时间戳的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Comment Lines</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202858Z" creationid="grass" creationdate="20201010T202858Z">
@@ -1046,6 +1078,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054348Z" creationid="grass" creationdate="20201013T054348Z">
         <seg>D 主索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dates and Times</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102004Z" creationid="grass" creationdate="20201014T102004Z">
+        <seg>日期和时间</seg>
       </tuv>
     </tu>
     <tu>
@@ -5050,6 +5090,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Planning work effort in advance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102208Z" creationid="grass" creationdate="20201014T102208Z">
+        <seg>计划会提高工作成果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Planning your work.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102046Z" creationid="grass" creationdate="20201014T102046Z">
+        <seg>计划你的工作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Please run ‘&lt;s4&gt;make help&lt;/s4&gt;’ to get the list of compilation/installation options.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T133422Z" creationid="grass" creationdate="20200927T133422Z">
@@ -6874,6 +6930,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tracking how long you spend on a task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102103Z" creationid="grass" creationdate="20201014T102103Z">
+        <seg>跟踪您在一项任务上花费的时间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tracking your habits</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200500Z" creationid="grass" creationdate="20201010T200500Z">
@@ -7207,6 +7271,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082814Z" creationid="grass" creationdate="20200929T082814Z">
         <seg>遇到错误时，屏幕上会显示一个&lt;s0&gt;*Backtrace*&lt;/s0&gt;缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Where defined, where valid?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101955Z" creationid="grass" creationdate="20201014T101955Z">
+        <seg>哪里定义了，哪里有效？</seg>
       </tuv>
     </tu>
     <tu>
@@ -33583,6 +33655,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Clocking Work Time&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102100Z" creationid="grass" creationdate="20201014T102100Z">
+        <seg>• &lt;a0&gt;工作时间计时&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Closing items&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101540Z" creationid="grass" creationdate="20201014T101540Z">
@@ -33615,6 +33695,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Column attributes&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101958Z" creationid="grass" creationdate="20201014T101958Z">
+        <seg>• &lt;a0&gt;列属性&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Column formulas&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100547Z" creationid="grass" creationdate="20201014T100547Z">
@@ -33639,6 +33727,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Creating Timestamps&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102033Z" creationid="grass" creationdate="20201014T102033Z">
+        <seg>• &lt;a0&gt;创建时间戳&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Custom Searches&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100925Z" creationid="grass" creationdate="20201014T100925Z">
@@ -33651,6 +33747,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055329Z" creationid="grass" creationdate="20201013T055329Z">
         <seg>• &lt;a0&gt;日期与时间&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Deadlines and Scheduling&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102040Z" creationid="grass" creationdate="20201014T102040Z">
+        <seg>• &lt;a0&gt;截止日期和日程安排&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -33691,6 +33795,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100623Z" creationid="grass" creationdate="20201014T100623Z">
         <seg>• &lt;a0&gt;编辑调试公式&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Effort Estimates&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102114Z" creationid="grass" creationdate="20201014T102114Z">
+        <seg>• &lt;a0&gt;工作量估算&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -34055,6 +34167,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Scope of column definitions&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101947Z" creationid="grass" creationdate="20201014T101947Z">
+        <seg>• &lt;a0&gt;列定义范围&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Search Options&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100917Z" creationid="grass" creationdate="20201014T100917Z">
@@ -34187,6 +34307,22 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100131Z" creationid="grass" creationdate="20201014T100131Z">
         <seg>• &lt;a0&gt;电子表格&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Timers&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102214Z" creationid="grass" creationdate="20201014T102214Z">
+        <seg>• &lt;a0&gt;计时器&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Timestamps&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102009Z" creationid="grass" creationdate="20201014T102009Z">
+        <seg>• &lt;a0&gt;时间戳&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
