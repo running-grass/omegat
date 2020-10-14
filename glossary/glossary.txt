@@ -135,3 +135,5 @@ dispatcher	调度程序
 Categorie	分类
 Monospace	等宽
 Emphasis	强调
+Org	Org
+Footnote	脚注
