@@ -9075,10 +9075,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>a &lt;e0&gt;TODO list&lt;/e0&gt; that covers all unfinished action items,</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201014T145452Z" creationid="Eli" creationdate="20201014T145452Z">
+        <seg>&lt;e0&gt;TODO&lt;/e0&gt;视图包含了所有未完成的行动事项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a &lt;e0&gt;match view&lt;/e0&gt;, showings headlines based on the tags, properties, and TODO state associated with them,</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201014T145647Z" creationid="Eli" creationdate="20201014T145647Z">
+        <seg>&lt;e0&gt;match view&lt;/e0&gt;能够根据标签、属性和TODO状态来筛选事项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>an &lt;e0&gt;agenda&lt;/e0&gt; that is like a calendar and shows information for specific dates,</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Eli" changedate="20201014T145310Z" creationid="Eli" creationdate="20201014T145310Z">
-        <seg>&lt;e0&gt;agenda&lt;/e0&gt; </seg>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201014T145407Z" creationid="Eli" creationdate="20201014T145310Z">
+        <seg>&lt;e0&gt;agenda&lt;/e0&gt;视图和日历类似，能在特定日期显示相关信息。</seg>
       </tuv>
     </tu>
     <tu>
