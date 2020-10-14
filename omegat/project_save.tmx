@@ -5938,6 +5938,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Org can select items based on various criteria and display them in a separate buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201014T145155Z" creationid="Eli" creationdate="20201014T145155Z">
+        <seg>Org 可以根据各种条件来选择符合条件的事项，并在一个新的缓冲区中显示它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Org develops organizational tasks around notes files that contain lists or information about projects as plain text.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T094835Z" creationid="grass" creationdate="20200927T094829Z">
