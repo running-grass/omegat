@@ -3580,8 +3580,8 @@
       <tuv lang="EN-US">
         <seg>Math formatting in HTML export</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203331Z" creationid="grass" creationdate="20201010T203331Z">
-        <seg>HTML导出中的数学格式设置</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113428Z" creationid="grass" creationdate="20201010T203331Z">
+        <seg>HTML导出中的数学格式设置 </seg>
       </tuv>
     </tu>
     <tu>
