@@ -1074,6 +1074,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Different files, different requirements.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101322Z" creationid="grass" creationdate="20201014T101322Z">
+        <seg>不同的文件，不同的要求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Do not forget to document the steps you take.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082748Z" creationid="grass" creationdate="20200929T082748Z">
@@ -1546,6 +1554,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>From TODO to DONE in steps.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101113Z" creationid="grass" creationdate="20201014T101113Z">
+        <seg>从TODO到DONE的步骤。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Furthermore, any entries with a ‘&lt;s0&gt;VISIBILITY&lt;/s0&gt;’ property (see &lt;a1&gt;Properties and Columns&lt;/a1&gt;) get their visibility adapted accordingly.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182211Z" creationid="grass" creationdate="20201010T182211Z">
@@ -1822,6 +1838,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100654Z" creationid="grass" creationdate="20201014T100654Z">
         <seg>超链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I do this, Fred does the rest.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101157Z" creationid="grass" creationdate="20201014T101157Z">
+        <seg>我做这个，Fred休息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2438,6 +2462,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052633Z" creationid="grass" creationdate="20201013T052633Z">
         <seg>杂项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Mixing it all, still finding your way.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101223Z" creationid="grass" creationdate="20201014T101223Z">
+        <seg>把它们混合在一起，仍然能找到你的路。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5882,6 +5914,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Single letter selection of state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101310Z" creationid="grass" creationdate="20201014T101310Z">
+        <seg>状态的单字母选择。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some people find the many stars too noisy and would prefer an outline that has whitespace followed by a single star as headline starters.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171538Z" creationid="grass" creationdate="20201010T171538Z">
@@ -5986,6 +6026,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Splitting a task into manageable pieces.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101035Z" creationid="grass" creationdate="20201014T101035Z">
+        <seg>将任务拆分成可管理的部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Storing information about an entry.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055316Z" creationid="grass" creationdate="20201013T055316Z">
@@ -6078,6 +6126,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T130121Z" creationid="grass" creationdate="20201006T130121Z">
         <seg>关闭一棵节点树，但是依旧保留在文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TODO Extensions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101048Z" creationid="grass" creationdate="20201014T101048Z">
+        <seg>TODO扩展</seg>
       </tuv>
     </tu>
     <tu>
@@ -6614,6 +6670,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T102036Z" creationid="grass" creationdate="20200927T102036Z">
         <seg>此页面位于&lt;a0&gt;https://orgmode.org&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tick-off lists.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101041Z" creationid="grass" creationdate="20201014T101041Z">
+        <seg>勾选列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33359,6 +33423,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Checkboxes&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101038Z" creationid="grass" creationdate="20201014T101038Z">
+        <seg>• &lt;a0&gt;复选框&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Column Groups&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100035Z" creationid="grass" creationdate="20201014T100035Z">
@@ -33459,6 +33531,22 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100814Z" creationid="grass" creationdate="20201014T100814Z">
         <seg>• &lt;a0&gt;外部链接&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Faces for TODO keywords&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101421Z" creationid="grass" creationdate="20201014T101421Z">
+        <seg>• &lt;a0&gt;TODO关键字的字符样式&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Fast access to TODO states&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101243Z" creationid="grass" creationdate="20201014T101235Z">
+        <seg>• &lt;a0&gt;快速访问TODO状态&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -33663,6 +33751,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Multiple sets in one file&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101230Z" creationid="grass" creationdate="20201014T101219Z">
+        <seg>• &lt;a0&gt;一个文件中有多个集合&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Org Plot&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100203Z" creationid="grass" creationdate="20201014T100203Z">
@@ -33675,6 +33771,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100105Z" creationid="grass" creationdate="20201014T100105Z">
         <seg>• &lt;a0&gt;Orgtbl模式&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Per-file keywords&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101315Z" creationid="grass" creationdate="20201014T101315Z">
+        <seg>• &lt;a0&gt;每个文件的关键字&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -33807,6 +33911,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;TODO types&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101122Z" creationid="grass" creationdate="20201014T101122Z">
+        <seg>• &lt;a0&gt;TODO类型&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Tables&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054959Z" creationid="grass" creationdate="20201013T054948Z">
@@ -33859,6 +33971,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060953Z" creationid="grass" creationdate="20201010T170057Z">
         <seg>• &lt;a0&gt;可见性循环&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Workflow states&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101055Z" creationid="grass" creationdate="20201014T101055Z">
+        <seg>• &lt;a0&gt;工作流状态&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
