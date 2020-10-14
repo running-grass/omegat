@@ -778,6 +778,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Capturing new stuff.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102515Z" creationid="grass" creationdate="20201014T102515Z">
+        <seg>捕捉新的东西。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Catching invisible edits</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182324Z" creationid="grass" creationdate="20201010T182324Z">
@@ -1126,6 +1134,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132721Z" creationid="grass" creationdate="20201006T132639Z">
         <seg>是作为第一个还是最后一个子项，取决于&lt;c0&gt;org-reverse-note-order&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Detailed reports.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102404Z" creationid="grass" creationdate="20201014T102404Z">
+        <seg>详细的报告。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1818,6 +1834,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>How Org mode helps you enter dates and times.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102238Z" creationid="grass" creationdate="20201014T102238Z">
+        <seg>Org模式如何帮助您输入日期和时间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>How consistent have you been?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101622Z" creationid="grass" creationdate="20201014T101622Z">
@@ -2226,6 +2250,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Items that show up again and again.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102323Z" creationid="grass" creationdate="20201014T102323Z">
+        <seg>一次又一次出现的项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>JavaScript supported display of web pages</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203351Z" creationid="grass" creationdate="20201010T203351Z">
@@ -2462,6 +2494,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100810Z" creationid="grass" creationdate="20201014T100810Z">
         <seg>生成目标触发纯文本形式的链接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Making dates look different.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102249Z" creationid="grass" creationdate="20201014T102249Z">
+        <seg>让日期看起来不一样。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4714,6 +4754,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Notes with a running timer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102220Z" creationid="grass" creationdate="20201014T102220Z">
+        <seg>带运行计时器的笔记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Noweb Reference Syntax</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052517Z" creationid="grass" creationdate="20201013T052517Z">
@@ -5086,6 +5134,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T095601Z" creationid="grass" creationdate="20200927T094358Z">
         <seg>类似纯文本URL的链接连接到网站，电子邮件，Usenet消息，BBDB记录以及与项目相关的任何文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Planning items.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102318Z" creationid="grass" creationdate="20201014T102318Z">
+        <seg>计划项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5818,6 +5874,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Resolving time when you’ve been idle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102438Z" creationid="grass" creationdate="20201014T102438Z">
+        <seg>在你空闲的时候解决时间问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Results of Evaluation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052301Z" creationid="grass" creationdate="20201013T052301Z">
@@ -6174,6 +6238,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101035Z" creationid="grass" creationdate="20201014T101035Z">
         <seg>将任务拆分成可管理的部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Starting and stopping a clock.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102350Z" creationid="grass" creationdate="20201014T102350Z">
+        <seg>启动和停止计时。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33631,6 +33703,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Capture&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102513Z" creationid="grass" creationdate="20201014T102513Z">
+        <seg>• &lt;a0&gt;捕获&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Capturing column view&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101907Z" creationid="grass" creationdate="20201014T101907Z">
@@ -33659,6 +33739,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102100Z" creationid="grass" creationdate="20201014T102100Z">
         <seg>• &lt;a0&gt;工作时间计时&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Clocking commands&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102343Z" creationid="grass" creationdate="20201014T102336Z">
+        <seg>• &lt;a0&gt;计时命令&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -33739,6 +33827,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100925Z" creationid="grass" creationdate="20201014T100925Z">
         <seg>• &lt;a0&gt;自定义搜索&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Custom time format&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102246Z" creationid="grass" creationdate="20201014T102246Z">
+        <seg>• &lt;a0&gt;自定义时间格式&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -33931,6 +34027,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172938Z" creationid="grass" creationdate="20201010T172938Z">
         <seg>• &lt;a0&gt;初始可见性&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Inserting deadline/schedule&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102310Z" creationid="grass" creationdate="20201014T102310Z">
+        <seg>• &lt;a0&gt;插入截止日期/日程安排&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -34167,6 +34271,22 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Repeated tasks&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102321Z" creationid="grass" creationdate="20201014T102321Z">
+        <seg>• &lt;a0&gt;重复任务&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Resolving idle time&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102426Z" creationid="grass" creationdate="20201014T102426Z">
+        <seg>• &lt;a0&gt;解决空闲时间&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Scope of column definitions&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101947Z" creationid="grass" creationdate="20201014T101947Z">
@@ -34307,6 +34427,22 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100131Z" creationid="grass" creationdate="20201014T100131Z">
         <seg>• &lt;a0&gt;电子表格&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;The clock table&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102402Z" creationid="grass" creationdate="20201014T102402Z">
+        <seg>• &lt;a0&gt;计时表格&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;The date/time prompt&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102226Z" creationid="grass" creationdate="20201014T102226Z">
+        <seg>• &lt;a0&gt;日期/时间提示&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
