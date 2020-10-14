@@ -7402,6 +7402,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Six different view types are provided:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201014T145320Z" creationid="Eli" creationdate="20201014T145239Z">
+        <seg>Org 提供了六种不同的浏览视图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some people find the many stars too noisy and would prefer an outline that has whitespace followed by a single star as headline starters.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171538Z" creationid="grass" creationdate="20201010T171538Z">
@@ -9063,6 +9071,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T080240Z" creationid="grass" creationdate="20200929T080122Z">
         <seg>你可以从&lt;a1&gt;这个页面&lt;/a1&gt;订阅此列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>an &lt;e0&gt;agenda&lt;/e0&gt; that is like a calendar and shows information for specific dates,</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201014T145310Z" creationid="Eli" creationdate="20201014T145310Z">
+        <seg>&lt;e0&gt;agenda&lt;/e0&gt; </seg>
       </tuv>
     </tu>
     <tu>
