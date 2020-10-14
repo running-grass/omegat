@@ -986,6 +986,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Configuring the attachment system</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102834Z" creationid="grass" creationdate="20201014T102834Z">
+        <seg>配置附件系统</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Context Dependent Documentation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052950Z" creationid="grass" creationdate="20201013T052950Z">
@@ -1150,6 +1158,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200825Z" creationid="grass" creationdate="20201010T200825Z">
         <seg>列定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Defining special searches and views.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103053Z" creationid="grass" creationdate="20201014T103053Z">
+        <seg>定义特殊搜索和视图。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1354,6 +1370,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Everything safely stored away</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102857Z" creationid="grass" creationdate="20201014T102857Z">
+        <seg>所有东西都安全地存放起来</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example blocks in LaTeX export</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203643Z" creationid="grass" creationdate="20201010T203643Z">
@@ -1542,6 +1566,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195129Z" creationid="grass" creationdate="20201010T195129Z">
         <seg>字段和范围公式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Files being searched for agenda information.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102932Z" creationid="grass" creationdate="20201014T102932Z">
+        <seg>正在搜索议程信息的文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1882,6 +1914,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>How agenda items are prepared for display.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103031Z" creationid="grass" creationdate="20201014T103015Z">
+        <seg>议程项的显示方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>How consistent have you been?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101622Z" creationid="grass" creationdate="20201014T101622Z">
@@ -1998,6 +2038,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171809Z" creationid="grass" creationdate="20201010T171809Z">
         <seg>但是，你可能希望对其中的一些或全部进行动态编号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hyperlink access to attachments</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102846Z" creationid="grass" creationdate="20201014T102846Z">
+        <seg>附件的超链接访问</seg>
       </tuv>
     </tu>
     <tu>
@@ -2350,6 +2398,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060531Z" creationid="grass" creationdate="20201013T060531Z">
         <seg>按键绑定和描述它的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Keyboard access to agenda views.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102958Z" creationid="grass" creationdate="20201014T102958Z">
+        <seg>通过键盘访问议程视图。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5914,6 +5970,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Remote editing of Org trees.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103044Z" creationid="grass" creationdate="20201014T103044Z">
+        <seg>远程编辑Org树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Repeated tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201245Z" creationid="grass" creationdate="20201010T201245Z">
@@ -7242,6 +7306,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Using column view for collected entries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103135Z" creationid="grass" creationdate="20201014T103135Z">
+        <seg>对收集到的条目使用列视图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using dired to select an attachment</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102925Z" creationid="grass" creationdate="20201014T102925Z">
+        <seg>使用Dired选择附件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Variables mentioned in the manual.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060745Z" creationid="grass" creationdate="20201013T060745Z">
@@ -7311,6 +7391,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082253Z" creationid="grass" creationdate="20200929T082253Z">
         <seg>发生了什么？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What is available out of the box?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103005Z" creationid="grass" creationdate="20201014T103005Z">
+        <seg>开箱即用的是什么？</seg>
       </tuv>
     </tu>
     <tu>
@@ -7479,6 +7567,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052049Z" creationid="grass" creationdate="20201013T052049Z">
         <seg>使用源代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Writing a view to a file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103107Z" creationid="grass" creationdate="20201014T103107Z">
+        <seg>将视图写入文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33727,6 +33823,38 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Agenda Column View&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103117Z" creationid="grass" creationdate="20201014T103117Z">
+        <seg>• &lt;a0&gt;议程列视图&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Agenda Commands&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103035Z" creationid="grass" creationdate="20201014T103035Z">
+        <seg>• &lt;a0&gt;议程命令&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Agenda Dispatcher&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102950Z" creationid="grass" creationdate="20201014T102950Z">
+        <seg>• &lt;a0&gt;议程调度器&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Agenda Files&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102929Z" creationid="grass" creationdate="20201014T102929Z">
+        <seg>• &lt;a0&gt;议程文件&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Agenda Views&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055518Z" creationid="grass" creationdate="20201013T055518Z">
@@ -33743,6 +33871,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Attach from Dired&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102922Z" creationid="grass" creationdate="20201014T102922Z">
+        <seg>• &lt;a0&gt;从Dired添加附件&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Attachment defaults and dispatcher&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102813Z" creationid="grass" creationdate="20201014T102813Z">
@@ -33751,10 +33887,34 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Attachment links&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102839Z" creationid="grass" creationdate="20201014T102839Z">
+        <seg>• &lt;a0&gt;附件链接&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Attachment options&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102822Z" creationid="grass" creationdate="20201014T102822Z">
+        <seg>• &lt;a0&gt;附件选项&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Attachments&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102524Z" creationid="grass" creationdate="20201014T102524Z">
         <seg>• &lt;a0&gt;附件&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Automatic version-control with Git&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102852Z" creationid="grass" creationdate="20201014T102852Z">
+        <seg>• &lt;a0&gt;Git自动版本控制&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -33771,6 +33931,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101032Z" creationid="grass" creationdate="20201014T101032Z">
         <seg>• &lt;a0&gt;细分任务&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Built-in Agenda Views&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103002Z" creationid="grass" creationdate="20201014T103002Z">
+        <seg>• &lt;a0&gt;内置议程视图&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -33919,6 +34087,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Custom Agenda Views&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103048Z" creationid="grass" creationdate="20201014T103048Z">
+        <seg>• &lt;a0&gt;自定义议程视图&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Custom Searches&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100925Z" creationid="grass" creationdate="20201014T100925Z">
@@ -33995,6 +34171,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102114Z" creationid="grass" creationdate="20201014T102114Z">
         <seg>• &lt;a0&gt;工作量估算&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Exporting Agenda Views&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103101Z" creationid="grass" creationdate="20201014T103101Z">
+        <seg>• &lt;a0&gt;导出议程视图&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -34275,6 +34459,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170401Z" creationid="grass" creationdate="20201010T170401Z">
         <seg>• &lt;a0&gt;普通列表&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Presentation and Sorting&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103008Z" creationid="grass" creationdate="20201014T103008Z">
+        <seg>• &lt;a0&gt;展示和排序&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
