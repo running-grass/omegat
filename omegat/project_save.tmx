@@ -442,6 +442,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An alternate way to show an example.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105256Z" creationid="grass" creationdate="20201014T105256Z">
+        <seg>展示示例的另一种方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An earlier version (7.3) of this manual is available as a &lt;a0&gt;paperback book from Network Theory Ltd.&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T102129Z" creationid="grass" creationdate="20200927T102129Z">
@@ -682,6 +690,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Beautiful math also on the web.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105244Z" creationid="grass" creationdate="20201014T105244Z">
+        <seg>网上也有漂亮的数学作品。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Before reporting a bug, it is very helpful to start Emacs with minimal customizations and reproduce the problem.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T081451Z" creationid="grass" creationdate="20200929T081451Z">
@@ -854,6 +870,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170217Z" creationid="grass" creationdate="20201010T170217Z">
         <seg>改变标题的顺序和级别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Changing the appearance of the output.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105316Z" creationid="grass" creationdate="20201014T105316Z">
+        <seg>更改输出的外观。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2550,6 +2574,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050618Z" creationid="grass" creationdate="20201013T050618Z">
         <seg>索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Info and folding in a web browser.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105322Z" creationid="grass" creationdate="20201014T105322Z">
+        <seg>Web浏览器中的信息和折叠。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34479,6 +34511,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;CSS support&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105315Z" creationid="grass" creationdate="20201014T105315Z">
+        <seg>• &lt;a0&gt;CSS支持&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Captions&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103949Z" creationid="grass" creationdate="20201014T103949Z">
@@ -35051,6 +35091,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054635Z" creationid="grass" creationdate="20201013T054635Z">
         <seg>• &lt;a0&gt;简介&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;JavaScript support&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105320Z" creationid="grass" creationdate="20201014T105320Z">
+        <seg>• &lt;a0&gt;JavaScript支持&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35635,6 +35683,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104612Z" creationid="grass" creationdate="20201014T104612Z">
         <seg>• &lt;a0&gt;Texinfo导出&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Text areas in HTML export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105307Z" creationid="grass" creationdate="20201014T105307Z">
+        <seg>• &lt;a0&gt;HTML导出中的文本域&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
