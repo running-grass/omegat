@@ -1226,6 +1226,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Copy and modify.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113301Z" creationid="grass" creationdate="20201014T113301Z">
+        <seg>复制并修改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Copy the &lt;e0&gt;visible&lt;/e0&gt; text in the region into the kill ring.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T180908Z" creationid="grass" creationdate="20201010T180632Z">
@@ -7210,6 +7218,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sending and receiving radio tables.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113214Z" creationid="grass" creationdate="20201014T113214Z">
+        <seg>发送和接收无线电表格。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Setting &lt;c0&gt;org-catch-invisible-edits&lt;/c0&gt; to non-&lt;c1&gt;nil&lt;/c1&gt; helps preventing this.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182348Z" creationid="grass" creationdate="20201010T182348Z">
@@ -7502,6 +7518,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102350Z" creationid="grass" creationdate="20201014T102350Z">
         <seg>启动和停止计时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Step by step, almost a tutorial.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113247Z" creationid="grass" creationdate="20201014T113247Z">
+        <seg>一步一步，完整的教程。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35175,6 +35199,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;A LaTeX example&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113231Z" creationid="grass" creationdate="20201014T113231Z">
+        <seg>• &lt;a0&gt;LaTeX示例&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;A Texinfo example&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110724Z" creationid="grass" creationdate="20201014T110724Z">
@@ -37451,6 +37483,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101620Z" creationid="grass" creationdate="20201014T101620Z">
         <seg>• &lt;a0&gt;跟踪您的习惯&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Translator functions&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113258Z" creationid="grass" creationdate="20201014T113258Z">
+        <seg>·&lt;a0&gt;转换器函数&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
