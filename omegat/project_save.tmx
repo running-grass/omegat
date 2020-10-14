@@ -1714,6 +1714,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>How to refer to another field or range.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100359Z" creationid="grass" creationdate="20201014T100359Z">
+        <seg>如何引用另一个字段或范围。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>How to typeset Org tree headlines.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170040Z" creationid="grass" creationdate="20201010T170040Z">
@@ -4834,6 +4842,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Plotting from Org tables.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100230Z" creationid="grass" creationdate="20201014T100230Z">
+        <seg>从Org表格中生成图表格。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Point must be on a headline for this to work&lt;a0&gt;&lt;s1&gt;4&lt;/s1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T173951Z" creationid="grass" creationdate="20201010T173951Z">
@@ -6338,6 +6354,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The table editor has spreadsheet capabilities.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100151Z" creationid="grass" creationdate="20201014T100151Z">
+        <seg>具有电子表格功能的表格编辑器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The variable &lt;c0&gt;org-publish-project-alist&lt;/c0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051115Z" creationid="grass" creationdate="20201013T051115Z">
@@ -6610,6 +6634,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Using Calc to compute stuff.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100409Z" creationid="grass" creationdate="20201014T100409Z">
+        <seg>使用Calc来计算东西。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Using Column View in the Agenda</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202252Z" creationid="grass" creationdate="20201010T202252Z">
@@ -6847,6 +6879,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052049Z" creationid="grass" creationdate="20201013T052049Z">
         <seg>使用源代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Writing formulas in Emacs Lisp.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100419Z" creationid="grass" creationdate="20201014T100419Z">
+        <seg>用Emacs Lisp编写公式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33183,6 +33223,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Durations and time values&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100455Z" creationid="grass" creationdate="20201014T100455Z">
+        <seg>·&lt;a0&gt;时间与时长&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Exporting&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055637Z" creationid="grass" creationdate="20201013T055637Z">
@@ -33195,6 +33243,22 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T084652Z" creationid="grass" creationdate="20200927T084652Z">
         <seg>• &lt;a0&gt;反馈&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Formula syntax for Calc&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100405Z" creationid="grass" creationdate="20201014T100405Z">
+        <seg>• &lt;a0&gt;计算公式语法&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Formula syntax for Lisp&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100417Z" creationid="grass" creationdate="20201014T100417Z">
+        <seg>• &lt;a0&gt;Lisp的公式语法&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -33327,6 +33391,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Org Plot&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100203Z" creationid="grass" creationdate="20201014T100203Z">
+        <seg>• &lt;a0&gt;Org图表&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Orgtbl Mode&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100105Z" creationid="grass" creationdate="20201014T100105Z">
@@ -33355,6 +33427,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055657Z" creationid="grass" creationdate="20201013T055657Z">
         <seg>• &lt;a0&gt;发布&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;References&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100352Z" creationid="grass" creationdate="20201014T100352Z">
+        <seg>• &lt;a0&gt;引用&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -33419,6 +33499,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055138Z" creationid="grass" creationdate="20201013T055138Z">
         <seg>• &lt;a0&gt;标签&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;The Spreadsheet&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100131Z" creationid="grass" creationdate="20201014T100131Z">
+        <seg>• &lt;a0&gt;电子表格&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
