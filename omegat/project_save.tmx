@@ -1410,6 +1410,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Field and column names, automatic recalculation...</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100651Z" creationid="grass" creationdate="20201014T100651Z">
+        <seg>字段和列名，自动重新计算.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Field and range formulas</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195129Z" creationid="grass" creationdate="20201010T195129Z">
@@ -1430,6 +1438,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202120Z" creationid="grass" creationdate="20201010T202120Z">
         <seg>过滤/限制议程项目数量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fixing formulas.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100627Z" creationid="grass" creationdate="20201014T100627Z">
+        <seg>修正公式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1482,10 +1498,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Formula for specific (ranges of) fields.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100540Z" creationid="grass" creationdate="20201014T100540Z">
+        <seg>特定(范围)字段的公式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Formula syntax for Calc</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194802Z" creationid="grass" creationdate="20201010T194802Z">
         <seg>可计算的公式语法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Formulas valid for an entire column.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100550Z" creationid="grass" creationdate="20201014T100550Z">
+        <seg>公式对整列有效。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1690,10 +1722,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>How links in Org are formatted.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100743Z" creationid="grass" creationdate="20201014T100743Z">
+        <seg>Org中链接的格式设置方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>How to activate Org for certain buffers.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060929Z" creationid="grass" creationdate="20200927T084644Z">
         <seg>如何从某一缓冲区激活Org。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How to compute durations and time values.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100518Z" creationid="grass" creationdate="20201014T100518Z">
+        <seg>如何计算时间与时长。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1750,6 +1798,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171809Z" creationid="grass" creationdate="20201010T171809Z">
         <seg>但是，你可能希望对其中的一些或全部进行动态编号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hyperlinks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100654Z" creationid="grass" creationdate="20201014T100654Z">
+        <seg>超链接</seg>
       </tuv>
     </tu>
     <tu>
@@ -2214,6 +2270,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195214Z" creationid="grass" creationdate="20201010T195214Z">
         <seg>查找函数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Lookup functions for searching tables.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100615Z" creationid="grass" creationdate="20201014T100615Z">
+        <seg>用于搜索表格的查找函数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5430,6 +5494,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T131423Z" creationid="grass" creationdate="20200927T131423Z">
         <seg>最新的Emacs发行版包括一个打包系统，可让您方便的安装Elisp库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Recomputing all dependent fields.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100640Z" creationid="grass" creationdate="20201014T100640Z">
+        <seg>重新计算所有从属字段。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33119,6 +33191,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Advanced features&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100645Z" creationid="grass" creationdate="20201014T100645Z">
+        <seg>• &lt;a0&gt;高级功能&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Agenda Views&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055518Z" creationid="grass" creationdate="20201013T055518Z">
@@ -33183,6 +33263,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Column formulas&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100547Z" creationid="grass" creationdate="20201014T100547Z">
+        <seg>• &lt;a0&gt;列公式&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Command and Function Index&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060719Z" creationid="grass" creationdate="20201013T060719Z">
@@ -33225,8 +33313,16 @@ Introduction</seg>
       <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Durations and time values&lt;/a0&gt;:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100455Z" creationid="grass" creationdate="20201014T100455Z">
-        <seg>·&lt;a0&gt;时间与时长&lt;/a0&gt;：</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100530Z" creationid="grass" creationdate="20201014T100455Z">
+        <seg>• &lt;a0&gt;时间与时长&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Editing and debugging formulas&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100623Z" creationid="grass" creationdate="20201014T100623Z">
+        <seg>• &lt;a0&gt;编辑调试公式&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -33243,6 +33339,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T084652Z" creationid="grass" creationdate="20200927T084652Z">
         <seg>• &lt;a0&gt;反馈&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Field and range formulas&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100525Z" creationid="grass" creationdate="20201014T100525Z">
+        <seg>• &lt;a0&gt;字段和范围公式&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -33347,6 +33451,22 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060546Z" creationid="grass" creationdate="20201013T060425Z">
         <seg>• &lt;a0&gt;按键索引&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Link Format&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100659Z" creationid="grass" creationdate="20201014T100659Z">
+        <seg>• &lt;a0&gt;链接格式&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Lookup functions&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100555Z" creationid="grass" creationdate="20201014T100555Z">
+        <seg>•&lt;a0&gt;查找函数&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -33507,6 +33627,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100131Z" creationid="grass" creationdate="20201014T100131Z">
         <seg>• &lt;a0&gt;电子表格&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Updating the table&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100636Z" creationid="grass" creationdate="20201014T100636Z">
+        <seg>• &lt;a0&gt;更新表格&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
