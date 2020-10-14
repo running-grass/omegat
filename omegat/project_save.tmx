@@ -1586,6 +1586,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Electric commands at the beginning of a headline.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112122Z" creationid="grass" creationdate="20201014T112122Z">
+        <seg>标题开头的电子命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Emacs Lisp forms as formulas</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195117Z" creationid="grass" creationdate="20201010T194933Z">
@@ -2262,6 +2270,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102548Z" creationid="grass" creationdate="20201014T102548Z">
         <seg>从RSS订阅获取输入。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Getting rid of leading stars in the outline.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112231Z" creationid="grass" creationdate="20201014T112231Z">
+        <seg>剔除大纲中的前面星号。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6630,6 +6646,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053529Z" creationid="grass" creationdate="20201013T053529Z">
         <seg>推送到移动应用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Quick insertion of structural elements.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112107Z" creationid="grass" creationdate="20201014T112107Z">
+        <seg>快速插入结构元素。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35175,6 +35199,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Clean View&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112305Z" creationid="grass" creationdate="20201014T112148Z">
+        <seg>• &lt;a0&gt;净化视图&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Clocking Work Time&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102100Z" creationid="grass" creationdate="20201014T102100Z">
@@ -36535,6 +36567,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Speed Keys&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112110Z" creationid="grass" creationdate="20201014T112110Z">
+        <seg>• &lt;a0&gt;快捷键&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Storing searches&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103706Z" creationid="grass" creationdate="20201014T103706Z">
@@ -36547,6 +36587,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170202Z" creationid="grass" creationdate="20201010T170202Z">
         <seg>• &lt;a0&gt;结构编辑&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Structure Templates&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112042Z" creationid="grass" creationdate="20201014T112042Z">
+        <seg>• &lt;a0&gt;结构模板&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
