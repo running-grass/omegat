@@ -706,6 +706,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Built-in Agenda Views</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103138Z" creationid="grass" creationdate="20201014T103138Z">
+        <seg>内置议程视图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Built-in Table Editor</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194629Z" creationid="grass" creationdate="20201010T194629Z">
@@ -6838,6 +6846,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082346Z" creationid="grass" creationdate="20200929T082346Z">
         <seg>最好的报告方法是，除了上面提到的以外，还提供回溯。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The calendar page with current tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103145Z" creationid="grass" creationdate="20201014T103145Z">
+        <seg>包含当前任务的日历页。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34255,6 +34271,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Global TODO list&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103153Z" creationid="grass" creationdate="20201014T103153Z">
+        <seg>• &lt;a0&gt;全局TODO列表&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Global and local cycling&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172918Z" creationid="grass" creationdate="20201010T172918Z">
@@ -34851,6 +34875,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060953Z" creationid="grass" creationdate="20201010T170057Z">
         <seg>• &lt;a0&gt;可见性循环&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Weekly/daily agenda&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103143Z" creationid="grass" creationdate="20201014T103143Z">
+        <seg>• &lt;a0&gt;每周/每日议程&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
