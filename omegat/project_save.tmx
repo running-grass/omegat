@@ -812,8 +812,8 @@
       <tuv lang="EN-US">
         <seg>Categories</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201928Z" creationid="grass" creationdate="20201010T201928Z">
-        <seg>类别</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103433Z" creationid="grass" creationdate="20201010T201928Z">
+        <seg>分类</seg>
       </tuv>
     </tu>
     <tu>
@@ -4854,6 +4854,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T103537Z" creationid="grass" creationdate="20200927T103324Z">
         <seg>下一页: &lt;a0&gt;iCalendar Export&lt;/a0&gt;, 上一页: &lt;a1&gt;Org Export&lt;/a1&gt;, 返回: &lt;a2&gt;Exporting&lt;/a2&gt;   [&lt;a3&gt;目录&lt;/a3&gt;][&lt;a4&gt;索引&lt;/a4&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Not all tasks are equal.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103339Z" creationid="grass" creationdate="20201014T103339Z">
+        <seg>并不是所有的任务都是相等的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34019,6 +34027,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T173018Z" creationid="grass" creationdate="20201010T173018Z">
         <seg>• &lt;a0&gt;捕获不可见编辑&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Categories&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103427Z" creationid="grass" creationdate="20201014T103329Z">
+        <seg>• &lt;a0&gt;分类&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
