@@ -4676,8 +4676,8 @@
       <tuv lang="EN-US">
         <seg>Next: &lt;a0&gt;Introduction&lt;/a0&gt;, Up: &lt;a1&gt;(dir)&lt;/a1&gt;   [&lt;a2&gt;Contents&lt;/a2&gt;][&lt;a3&gt;Index&lt;/a3&gt;]</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060659Z" creationid="grass" creationdate="20200927T103355Z">
-        <seg>下一页: &lt;a0&gt;简介&lt;/a0&gt;, 返回: &lt;a1&gt;(dir)&lt;/a1&gt;   [&lt;a2&gt;目录&lt;/a2&gt;][&lt;a3&gt;索引&lt;/a3&gt;]</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T114510Z" creationid="grass" creationdate="20200927T103355Z">
+        <seg>下一页: &lt;a0&gt;简介&lt;/a0&gt;, 返回: &lt;a1&gt;顶层&lt;/a1&gt;   [&lt;a2&gt;目录&lt;/a2&gt;][&lt;a3&gt;索引&lt;/a3&gt;]</seg>
       </tuv>
     </tu>
     <tu>
@@ -9075,6 +9075,14 @@
         <seg>debug-on-quit nil)
 
 ;; 添加最新的Org模式到加载路径中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://orgmode.org/dir.html#Top</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T114455Z" creationid="grass" creationdate="20201014T114455Z">
+        <seg>#Top</seg>
       </tuv>
     </tu>
     <tu>
