@@ -1610,6 +1610,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Find entries by searching for text.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103223Z" creationid="grass" creationdate="20201014T103223Z">
+        <seg>通过搜索文本查找条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Find projects you need to review.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103240Z" creationid="grass" creationdate="20201014T103240Z">
+        <seg>查找您需要审阅的项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fixing formulas.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100627Z" creationid="grass" creationdate="20201014T100627Z">
@@ -34631,6 +34647,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Search view&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103220Z" creationid="grass" creationdate="20201014T103220Z">
+        <seg>• &lt;a0&gt;搜索视图&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Setting Tags&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101637Z" creationid="grass" creationdate="20201014T101637Z">
@@ -34667,6 +34691,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170202Z" creationid="grass" creationdate="20201010T170202Z">
         <seg>• &lt;a0&gt;结构编辑&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Stuck projects&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103234Z" creationid="grass" creationdate="20201014T103234Z">
+        <seg>• &lt;a0&gt;停滞的项目&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
