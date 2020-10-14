@@ -84,8 +84,8 @@
       <tuv lang="EN-US">
         <seg>5 TODO Items</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200022Z" creationid="grass" creationdate="20201010T200022Z">
-        <seg>5 待办事项</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095149Z" creationid="grass" creationdate="20201010T200022Z">
+        <seg>5 TODO</seg>
       </tuv>
     </tu>
     <tu>
@@ -572,8 +572,8 @@
       <tuv lang="EN-US">
         <seg>Basic TODO Functionality</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200036Z" creationid="grass" creationdate="20201010T200036Z">
-        <seg>基本待办事项功能</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095149Z" creationid="grass" creationdate="20201010T200036Z">
+        <seg>基本TODO功能</seg>
       </tuv>
     </tu>
     <tu>
@@ -1228,8 +1228,8 @@
       <tuv lang="EN-US">
         <seg>Every tree branch can be a TODO item.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055133Z" creationid="grass" creationdate="20201013T055133Z">
-        <seg>每个树分支都可以是一个待办事项。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095149Z" creationid="grass" creationdate="20201013T055133Z">
+        <seg>每个树分支都可以是一个TODO。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1388,8 +1388,8 @@
       <tuv lang="EN-US">
         <seg>Fast access to TODO states</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200112Z" creationid="grass" creationdate="20201010T200112Z">
-        <seg>快速访问待办事项状态</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095149Z" creationid="grass" creationdate="20201010T200112Z">
+        <seg>快速访问TODO状态</seg>
       </tuv>
     </tu>
     <tu>
@@ -6260,8 +6260,8 @@
       <tuv lang="EN-US">
         <seg>The global TODO list</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201828Z" creationid="grass" creationdate="20201010T201828Z">
-        <seg>全局待办事项列表</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095149Z" creationid="grass" creationdate="20201010T201828Z">
+        <seg>全局TODO列表</seg>
       </tuv>
     </tu>
     <tu>
@@ -6468,8 +6468,8 @@
       <tuv lang="EN-US">
         <seg>Tracking TODO state changes</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200450Z" creationid="grass" creationdate="20201010T200450Z">
-        <seg>跟踪待办事项状态更改</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095149Z" creationid="grass" creationdate="20201010T200450Z">
+        <seg>跟踪TODO状态更改</seg>
       </tuv>
     </tu>
     <tu>
@@ -33329,8 +33329,8 @@ Introduction</seg>
       <tuv lang="EN-US">
         <seg>• &lt;a0&gt;TODO Items&lt;/a0&gt;:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055120Z" creationid="grass" creationdate="20201013T055120Z">
-        <seg>• &lt;a0&gt;待办事项&lt;/a0&gt;:</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095149Z" creationid="grass" creationdate="20201013T055120Z">
+        <seg>• &lt;a0&gt;TODO&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
