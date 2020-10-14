@@ -133,3 +133,5 @@ function	函数
 keyword	关键字
 dispatcher	调度程序
 Categorie	分类
+Monospace	等宽
+Emphasis	强调
