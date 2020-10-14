@@ -682,6 +682,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Automatically filled blocks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113111Z" creationid="grass" creationdate="20201014T113111Z">
+        <seg>自动填充的块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Available extensions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113032Z" creationid="grass" creationdate="20201014T113032Z">
+        <seg>可用的扩展。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>B.1 From Carsten</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060209Z" creationid="grass" creationdate="20201013T054214Z">
@@ -1318,6 +1334,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201117Z" creationid="grass" creationdate="20201010T201117Z">
         <seg>自定义时间格式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Customized views.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113117Z" creationid="grass" creationdate="20201014T113117Z">
+        <seg>自定义视图。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2202,6 +2226,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For the mobile device.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112916Z" creationid="grass" creationdate="20201014T112916Z">
+        <seg>用于移动设备。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For using in Org documents.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104901Z" creationid="grass" creationdate="20201014T104901Z">
@@ -2414,6 +2446,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203156Z" creationid="grass" creationdate="20201010T203156Z">
         <seg>HTML特殊导出设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hacking</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112956Z" creationid="grass" creationdate="20201014T112956Z">
+        <seg>高度定制化</seg>
       </tuv>
     </tu>
     <tu>
@@ -2666,6 +2706,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>How to reach into Org’s internals.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113011Z" creationid="grass" creationdate="20201014T113011Z">
+        <seg>如何进入Org的内部。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>How to refer to another field or range.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100359Z" creationid="grass" creationdate="20201014T100359Z">
@@ -2678,6 +2726,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170040Z" creationid="grass" creationdate="20201010T170040Z">
         <seg>如何排版Org树标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How to write new export back-ends.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113048Z" creationid="grass" creationdate="20201014T113048Z">
+        <seg>如何编写新的导出后端。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3038,6 +3094,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110332Z" creationid="grass" creationdate="20201014T110332Z">
         <seg>在信息文件层次结构中安装手册。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Integrating captured and flagged items.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112946Z" creationid="grass" creationdate="20201014T112946Z">
+        <seg>集成捕获和标记的项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3450,6 +3514,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Mapping over all or selected entries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113149Z" creationid="grass" creationdate="20201014T113149Z">
+        <seg>在所有或选定条目上映射。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Markdown Export</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203747Z" creationid="grass" creationdate="20201010T203747Z">
@@ -3590,6 +3662,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200106Z" creationid="grass" creationdate="20201010T200106Z">
         <seg>一个文件中的多个关键字集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New custom link types.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113043Z" creationid="grass" creationdate="20201014T113043Z">
+        <seg>新的自定义链接类型。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5994,6 +6074,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Orgtbl for LaTeX and other programs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113105Z" creationid="grass" creationdate="20201014T113105Z">
+        <seg>用于LaTeX和其他程序的Orgtbl。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Other Built-in Back-ends</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050941Z" creationid="grass" creationdate="20201013T050941Z">
@@ -6190,6 +6278,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T173951Z" creationid="grass" creationdate="20201010T173951Z">
         <seg>必须位于标题上才能正常工作&lt;a0&gt;&lt;s1&gt;4&lt;/s1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Post-processing agenda information.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113129Z" creationid="grass" creationdate="20201014T113129Z">
+        <seg>后处理议程信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7618,6 +7714,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tables in Arbitrary Syntax</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113158Z" creationid="grass" creationdate="20201014T113158Z">
+        <seg>任意语法中的表格</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tables in HTML export</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203316Z" creationid="grass" creationdate="20201010T203316Z">
@@ -8178,6 +8282,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tips on how to speed up your agendas.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113123Z" creationid="grass" creationdate="20201014T113123Z">
+        <seg>关于如何加快日程安排的小贴士。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To do this, use</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082506Z" creationid="grass" creationdate="20200929T082506Z">
@@ -8334,6 +8446,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051947Z" creationid="grass" creationdate="20201013T051947Z">
         <seg>文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Uploading Org files and agendas.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112934Z" creationid="grass" creationdate="20201014T112934Z">
+        <seg>上传Org文件和议程。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8815,6 +8935,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100419Z" creationid="grass" creationdate="20201014T100419Z">
         <seg>用Emacs Lisp编写公式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Writing programs that use entry properties.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113138Z" creationid="grass" creationdate="20201014T113138Z">
+        <seg>编写使用条目属性的程序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35071,6 +35199,30 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Add-on Packages&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113023Z" creationid="grass" creationdate="20201014T113023Z">
+        <seg>• &lt;a0&gt;附加软件包&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Adding Export Back-ends&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113046Z" creationid="grass" creationdate="20201014T113046Z">
+        <seg>• &lt;a0&gt;添加导出后端&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Adding Hyperlink Types&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113041Z" creationid="grass" creationdate="20201014T113041Z">
+        <seg>• &lt;a0&gt;添加超链接类型&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Advanced Export Configuration&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104644Z" creationid="grass" creationdate="20201014T104644Z">
@@ -35607,6 +35759,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Dynamic Blocks&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113109Z" creationid="grass" creationdate="20201014T113109Z">
+        <seg>• &lt;a0&gt;动态块&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Dynamic Headline Numbering&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112340Z" creationid="grass" creationdate="20201014T112340Z">
@@ -35755,6 +35915,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100814Z" creationid="grass" creationdate="20201014T100814Z">
         <seg>• &lt;a0&gt;外部链接&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Extracting Agenda Information&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113126Z" creationid="grass" creationdate="20201014T113126Z">
+        <seg>• &lt;a0&gt;提取议程信息&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35963,6 +36131,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060155Z" creationid="grass" creationdate="20201013T060155Z">
         <seg>• &lt;a0&gt;历史和致谢&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Hooks&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113003Z" creationid="grass" creationdate="20201014T113003Z">
+        <seg>• &lt;a0&gt;钩子&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -36615,6 +36791,22 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Pulling from the mobile application&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112940Z" creationid="grass" creationdate="20201014T112940Z">
+        <seg>• &lt;a0&gt;从移动应用拉取&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Pushing to the mobile application&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112930Z" creationid="grass" creationdate="20201014T112930Z">
+        <seg>• &lt;a0&gt;推送到移动应用&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Quotations in Texinfo export&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110631Z" creationid="grass" creationdate="20201014T110631Z">
@@ -36659,6 +36851,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100804Z" creationid="grass" creationdate="20201014T100804Z">
         <seg>• &lt;a0&gt;无线电目标&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Radio tables&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113208Z" creationid="grass" creationdate="20201014T113208Z">
+        <seg>• &lt;a0&gt;无线电表格&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -36775,6 +36975,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Setting up the staging area&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112914Z" creationid="grass" creationdate="20201014T112914Z">
+        <seg>• &lt;a0&gt;设置舞台区域&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Simple example&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111127Z" creationid="grass" creationdate="20201014T111127Z">
@@ -36823,6 +37031,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Special Agenda Views&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113115Z" creationid="grass" creationdate="20201014T113115Z">
+        <seg>• &lt;a0&gt;特殊议程视图&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Special Properties&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101703Z" creationid="grass" creationdate="20201014T101703Z">
@@ -36859,6 +37075,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112110Z" creationid="grass" creationdate="20201014T112110Z">
         <seg>• &lt;a0&gt;快捷键&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Speeding Up Your Agendas&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113120Z" creationid="grass" creationdate="20201014T113120Z">
+        <seg>• &lt;a0&gt;加快您的议程&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -36971,6 +37195,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104219Z" creationid="grass" creationdate="20201014T104219Z">
         <seg>• &lt;a0&gt;目录&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Tables in Arbitrary Syntax&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113055Z" creationid="grass" creationdate="20201014T113055Z">
+        <seg>• &lt;a0&gt;任意语法的表格&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -37275,6 +37507,22 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101901Z" creationid="grass" creationdate="20201014T101901Z">
         <seg>• &lt;a0&gt;使用列视图&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Using the Mapping API&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113141Z" creationid="grass" creationdate="20201014T113141Z">
+        <seg>• &lt;a0&gt;使用映射接口&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Using the Property API&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113132Z" creationid="grass" creationdate="20201014T113132Z">
+        <seg>• &lt;a0&gt;使用属性接口&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
