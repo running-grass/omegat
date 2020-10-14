@@ -690,6 +690,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Bold, italic, etc.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103841Z" creationid="grass" creationdate="20201014T103841Z">
+        <seg>粗体、斜体等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Breaking Down Tasks into Subtasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200511Z" creationid="grass" creationdate="20201010T200511Z">
@@ -986,6 +994,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Complex formulas made easy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104053Z" creationid="grass" creationdate="20201014T104053Z">
+        <seg>复杂的公式变得简单。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Complexity is not imposed, but a large amount of functionality is available when needed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T101503Z" creationid="grass" creationdate="20200927T101503Z">
@@ -1202,6 +1218,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Describe tables, images...</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103954Z" creationid="grass" creationdate="20201014T103954Z">
+        <seg>描述表格、图像.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Detailed reports.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102404Z" creationid="grass" creationdate="20201014T102404Z">
@@ -1214,6 +1238,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101322Z" creationid="grass" creationdate="20201014T101322Z">
         <seg>不同的文件，不同的要求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Display an image.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103946Z" creationid="grass" creationdate="20201014T103946Z">
+        <seg>显示图像。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1306,6 +1338,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Edit and read footnotes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104029Z" creationid="grass" creationdate="20201014T104029Z">
+        <seg>编辑并阅读脚注。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Editing Source Code</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052312Z" creationid="grass" creationdate="20201013T052312Z">
@@ -1364,8 +1404,8 @@
       <tuv lang="EN-US">
         <seg>Emphasis and Monospace</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202445Z" creationid="grass" creationdate="20201010T202445Z">
-        <seg>强调与单一空间</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103830Z" creationid="grass" creationdate="20201010T202445Z">
+        <seg>强调与等宽</seg>
       </tuv>
     </tu>
     <tu>
@@ -1798,6 +1838,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T181926Z" creationid="grass" creationdate="20200927T083052Z">
         <seg>全局循环和局部循环</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Greek letters and other symbols.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103903Z" creationid="grass" creationdate="20201014T103903Z">
+        <seg>希腊字母和其他符号。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2482,6 +2530,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>LaTeX can be freely used inside Org documents.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103928Z" creationid="grass" creationdate="20201014T103928Z">
+        <seg>LaTeX可在Org文档内自由使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>LaTeX fragments</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202622Z" creationid="grass" creationdate="20201010T202536Z">
@@ -2646,6 +2702,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202854Z" creationid="grass" creationdate="20201010T202854Z">
         <seg>宏置换</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Make a line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104003Z" creationid="grass" creationdate="20201014T104003Z">
+        <seg>排成一条线。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6298,6 +6362,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Simple syntax for raising/lowering text.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103858Z" creationid="grass" creationdate="20201014T103858Z">
+        <seg>升降文本的简单语法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Simple tables.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095639Z" creationid="grass" creationdate="20201014T095639Z">
@@ -6358,6 +6430,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203634Z" creationid="grass" creationdate="20201010T203627Z">
         <seg>LaTeX导出中的源码块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Source code examples with special formatting.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103940Z" creationid="grass" creationdate="20201014T103940Z">
+        <seg>具有特殊格式的源代码示例。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34055,6 +34135,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Captions&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103949Z" creationid="grass" creationdate="20201014T103949Z">
+        <seg>• &lt;a0&gt;标题&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Capture and Attachments&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055502Z" creationid="grass" creationdate="20201013T055502Z">
@@ -34191,6 +34279,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Creating Footnotes&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104024Z" creationid="grass" creationdate="20201014T104024Z">
+        <seg>• &lt;a0&gt;创建脚注&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Creating Timestamps&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102033Z" creationid="grass" creationdate="20201014T102033Z">
@@ -34283,6 +34379,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102114Z" creationid="grass" creationdate="20201014T102114Z">
         <seg>• &lt;a0&gt;工作量估算&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Embedded LaTeX&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103906Z" creationid="grass" creationdate="20201014T103906Z">
+        <seg>• &lt;a0&gt;嵌入式LaTeX&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -34431,10 +34535,26 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Horizontal Rules&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104001Z" creationid="grass" creationdate="20201014T104001Z">
+        <seg>• &lt;a0&gt;水平尺&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Hyperlinks&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055040Z" creationid="grass" creationdate="20201013T055040Z">
         <seg>• &lt;a0&gt;超链接&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Images&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103944Z" creationid="grass" creationdate="20201014T103944Z">
+        <seg>• &lt;a0&gt;图片&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -34495,6 +34615,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;LaTeX fragments&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104045Z" creationid="grass" creationdate="20201014T104045Z">
+        <seg>• &lt;a0&gt;LaTex片段&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Link Abbreviations&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100909Z" creationid="grass" creationdate="20201014T100909Z">
@@ -34507,6 +34635,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100659Z" creationid="grass" creationdate="20201014T100659Z">
         <seg>• &lt;a0&gt;链接格式&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Literal Examples&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103935Z" creationid="grass" creationdate="20201014T103935Z">
+        <seg>• &lt;a0&gt;字面示例&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -34619,6 +34755,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103008Z" creationid="grass" creationdate="20201014T103008Z">
         <seg>• &lt;a0&gt;展示和排序&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Previewing LaTeX fragments&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104116Z" creationid="grass" creationdate="20201014T104116Z">
+        <seg>• &lt;a0&gt;预览LaTeX片段&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -34807,6 +34951,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Special Symbols&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103901Z" creationid="grass" creationdate="20201014T103901Z">
+        <seg>• &lt;a0&gt;特殊符号&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Storing searches&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103706Z" creationid="grass" creationdate="20201014T103706Z">
@@ -34827,6 +34979,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103234Z" creationid="grass" creationdate="20201014T103234Z">
         <seg>• &lt;a0&gt;停滞的项目&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Subscripts and Superscripts&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103853Z" creationid="grass" creationdate="20201014T103853Z">
+        <seg>• &lt;a0&gt;下标和上标&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
