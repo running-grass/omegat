@@ -986,6 +986,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Common export settings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104215Z" creationid="grass" creationdate="20201014T104215Z">
+        <seg>通用导出设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Completion</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052823Z" creationid="grass" creationdate="20201013T052823Z">
@@ -1526,6 +1534,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052304Z" creationid="grass" creationdate="20201013T052304Z">
         <seg>导出代码块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Exporting to flat files with encoding.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104415Z" creationid="grass" creationdate="20201014T104415Z">
+        <seg>使用指定编码导出到纯文本文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2350,6 +2366,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202823Z" creationid="grass" creationdate="20201010T202823Z">
         <seg>包含文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Include additional files into a document.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104305Z" creationid="grass" creationdate="20201014T104305Z">
+        <seg>将其他文件包括到文档中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6498,6 +6522,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Speed up entering of formulas.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104138Z" creationid="grass" creationdate="20201014T104138Z">
+        <seg>加快公式输入速度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Splitting a task into manageable pieces.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101035Z" creationid="grass" creationdate="20201014T101035Z">
@@ -7050,6 +7082,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The if and where of the table of contents.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104256Z" creationid="grass" creationdate="20201014T104256Z">
+        <seg>是否需要目录和目录的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The item (or all items in the region) is filed below the target heading as a subitem.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132658Z" creationid="grass" creationdate="20201006T132458Z">
@@ -7062,6 +7102,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060352Z" creationid="grass" creationdate="20201013T060352Z">
         <seg>此文档的许可证。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The main interface.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104159Z" creationid="grass" creationdate="20201014T104159Z">
+        <seg>主界面。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7378,6 +7426,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use macros to create templates.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104317Z" creationid="grass" creationdate="20201014T104317Z">
+        <seg>使用宏来创建模板。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use the refile interface to jump to a heading.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T134143Z" creationid="grass" creationdate="20201006T134143Z">
@@ -7591,6 +7647,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T125907Z" creationid="grass" creationdate="20201006T125907Z">
         <seg>完成后的节点怎么处理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What will not be exported.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104323Z" creationid="grass" creationdate="20201014T104323Z">
+        <seg>不会导出的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What will this snippet look like?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104130Z" creationid="grass" creationdate="20201014T104130Z">
+        <seg>这个片段会是什么样子呢？</seg>
       </tuv>
     </tu>
     <tu>
@@ -33983,6 +34055,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;ASCII/Latin-1/UTF-8 export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104335Z" creationid="grass" creationdate="20201014T104335Z">
+        <seg>• &lt;a0&gt;ASCII/Latin-1/UTF-8导出&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Activation&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T084606Z" creationid="grass" creationdate="20200927T084606Z">
@@ -34135,6 +34215,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;CDLaTeX mode&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104136Z" creationid="grass" creationdate="20201014T104136Z">
+        <seg>• &lt;a0&gt;CDLaTeX模式&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Captions&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103949Z" creationid="grass" creationdate="20201014T103949Z">
@@ -34271,6 +34359,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Comment Lines&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104322Z" creationid="grass" creationdate="20201014T104322Z">
+        <seg>• &lt;a0&gt;注释行&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Conventions&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T084807Z" creationid="grass" creationdate="20200927T084807Z">
@@ -34395,6 +34491,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103823Z" creationid="grass" creationdate="20201014T103823Z">
         <seg>• &lt;a0&gt;强调和等宽&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Export Settings&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104213Z" creationid="grass" creationdate="20201014T104213Z">
+        <seg>• &lt;a0&gt;导出设置&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -34559,6 +34663,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Include Files&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104302Z" creationid="grass" creationdate="20201014T104302Z">
+        <seg>• &lt;a0&gt;包括文件&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Initial visibility&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172938Z" creationid="grass" creationdate="20201010T172938Z">
@@ -34617,8 +34729,8 @@ Introduction</seg>
       <tuv lang="EN-US">
         <seg>• &lt;a0&gt;LaTeX fragments&lt;/a0&gt;:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104045Z" creationid="grass" creationdate="20201014T104045Z">
-        <seg>• &lt;a0&gt;LaTex片段&lt;/a0&gt;：</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104124Z" creationid="grass" creationdate="20201014T104045Z">
+        <seg>• &lt;a0&gt;LaTeX片段&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -34651,6 +34763,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100555Z" creationid="grass" creationdate="20201014T100555Z">
         <seg>•&lt;a0&gt;查找函数&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Macro Replacement&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104313Z" creationid="grass" creationdate="20201014T104313Z">
+        <seg>• &lt;a0&gt;宏置换&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35039,6 +35159,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Table of Contents&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104219Z" creationid="grass" creationdate="20201014T104219Z">
+        <seg>• &lt;a0&gt;目录&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Tables&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054959Z" creationid="grass" creationdate="20201013T054948Z">
@@ -35099,6 +35227,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102748Z" creationid="grass" creationdate="20201014T102748Z">
         <seg>• &lt;a0&gt;上下文中的模板的使用&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;The Export Dispatcher&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104153Z" creationid="grass" creationdate="20201014T104153Z">
+        <seg>• &lt;a0&gt;导出调度程序&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
