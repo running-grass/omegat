@@ -442,6 +442,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All unfinished action items.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113916Z" creationid="grass" creationdate="20201014T113916Z">
+        <seg>所有未完成的行动项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Allowed values for this property are ‘&lt;s2&gt;folded&lt;/s2&gt;’, ‘&lt;s3&gt;children&lt;/s3&gt;’, ‘&lt;s4&gt;content&lt;/s4&gt;’, and ‘&lt;s5&gt;all&lt;/s5&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182238Z" creationid="grass" creationdate="20201010T182238Z">
@@ -7574,6 +7582,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052059Z" creationid="grass" creationdate="20201013T052059Z">
         <seg>代码块的结构</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Structured information with fine-tuned search.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113921Z" creationid="grass" creationdate="20201014T113921Z">
+        <seg>具有微调搜索功能的结构化信息。</seg>
       </tuv>
     </tu>
     <tu>
