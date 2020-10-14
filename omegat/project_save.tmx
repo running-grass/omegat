@@ -794,6 +794,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Building document structure.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110435Z" creationid="grass" creationdate="20201014T110435Z">
+        <seg>构建文档结构。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Built-in Agenda Views</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103138Z" creationid="grass" creationdate="20201014T103138Z">
@@ -1190,6 +1198,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201050Z" creationid="grass" creationdate="20201010T201050Z">
         <seg>创建时间戳</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creating indices.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110447Z" creationid="grass" creationdate="20201014T110447Z">
+        <seg>创建索引。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2602,6 +2618,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Image attributes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110554Z" creationid="grass" creationdate="20201014T110554Z">
+        <seg>图像属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Images</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202709Z" creationid="grass" creationdate="20201010T202709Z">
@@ -2694,6 +2718,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105558Z" creationid="grass" creationdate="20201014T105558Z">
         <seg>包含字面LaTeX代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incorporating literal Texinfo code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110522Z" creationid="grass" creationdate="20201014T110522Z">
+        <seg>包含字面Texinfo代码</seg>
       </tuv>
     </tu>
     <tu>
@@ -3062,6 +3094,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100755Z" creationid="grass" creationdate="20201014T100755Z">
         <seg>链接到当前文件中的其他位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>List attributes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110533Z" creationid="grass" creationdate="20201014T110533Z">
+        <seg>列出属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6410,6 +6450,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Quote block attributes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110649Z" creationid="grass" creationdate="20201014T110649Z">
+        <seg>引用块属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Quoting HTML tags</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203300Z" creationid="grass" creationdate="20201010T203300Z">
@@ -7158,6 +7206,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130523Z" creationid="grass" creationdate="20201005T130255Z">
         <seg>TODO关键字, 标签, 属性等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table attributes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110546Z" creationid="grass" creationdate="20201014T110546Z">
+        <seg>表格属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35335,6 +35391,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Images in Texinfo export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110552Z" creationid="grass" creationdate="20201014T110552Z">
+        <seg>• &lt;a0&gt;Texinfo导出中的图像&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Images&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103944Z" creationid="grass" creationdate="20201014T103944Z">
@@ -35347,6 +35411,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104302Z" creationid="grass" creationdate="20201014T104302Z">
         <seg>• &lt;a0&gt;包括文件&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Indices&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110444Z" creationid="grass" creationdate="20201014T110444Z">
+        <seg>• &lt;a0&gt;索引&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35711,6 +35783,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Plain lists in Texinfo export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110527Z" creationid="grass" creationdate="20201014T110527Z">
+        <seg>• &lt;a0&gt;Texinfo导出中的普通列表&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Pre-requisites for ODT export&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105828Z" creationid="grass" creationdate="20201014T105828Z">
@@ -35791,6 +35871,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Quotations in Texinfo export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110631Z" creationid="grass" creationdate="20201014T110631Z">
+        <seg>• &lt;a0&gt;Texinfo导出中的引用&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Quoting HTML tags&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105045Z" creationid="grass" creationdate="20201014T105028Z">
@@ -35803,6 +35891,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105522Z" creationid="grass" creationdate="20201014T105522Z">
         <seg>• &lt;a0&gt;引用LaTeX代码&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Quoting Texinfo code&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110451Z" creationid="grass" creationdate="20201014T110451Z">
+        <seg>• &lt;a0&gt;引用Texinfo代码&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35959,6 +36055,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Special blocks in Texinfo export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110705Z" creationid="grass" creationdate="20201014T110705Z">
+        <seg>• &lt;a0&gt;Texinfo导出中的特殊块&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Storing searches&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103706Z" creationid="grass" creationdate="20201014T103706Z">
@@ -36067,6 +36171,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105921Z" creationid="grass" creationdate="20201014T105921Z">
         <seg>• &lt;a0&gt;ODT导出中的表格&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Tables in Texinfo export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110540Z" creationid="grass" creationdate="20201014T110540Z">
+        <seg>• &lt;a0&gt;Texinfo导出中的表格&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
