@@ -4738,6 +4738,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Overrule the automatic settings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100002Z" creationid="grass" creationdate="20201014T100002Z">
+        <seg>废除自动设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Packages that Org cooperates with</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053102Z" creationid="grass" creationdate="20201013T053032Z">
@@ -5706,6 +5714,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Simple tables.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095639Z" creationid="grass" creationdate="20201014T095639Z">
+        <seg>简单的表格。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some people find the many stars too noisy and would prefer an outline that has whitespace followed by a single star as headline starters.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171538Z" creationid="grass" creationdate="20201010T171538Z">
@@ -5950,6 +5966,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T083151Z" creationid="grass" creationdate="20200927T083140Z">
         <seg>目录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tables</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095615Z" creationid="grass" creationdate="20201014T095615Z">
+        <seg>表格</seg>
       </tuv>
     </tu>
     <tu>
@@ -33063,6 +33087,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Built-in Table Editor&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095630Z" creationid="grass" creationdate="20201014T095630Z">
+        <seg>• &lt;a0&gt;内置表格编辑器&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Capture and Attachments&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055502Z" creationid="grass" creationdate="20201013T055502Z">
@@ -33075,6 +33107,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T173018Z" creationid="grass" creationdate="20201010T173018Z">
         <seg>• &lt;a0&gt;捕获不可见编辑&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Column Width and Alignment&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095652Z" creationid="grass" creationdate="20201014T095652Z">
+        <seg>• &lt;a0&gt;列宽和对其方式&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
