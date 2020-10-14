@@ -1194,6 +1194,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Creating preamble pages.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110319Z" creationid="grass" creationdate="20201014T110319Z">
+        <seg>创建引言页面。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Creating, inserting and following.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100848Z" creationid="grass" creationdate="20201014T100848Z">
@@ -1502,6 +1510,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202516Z" creationid="grass" creationdate="20201010T202516Z">
         <seg>LaTeX嵌入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Embedding in LaTeX format.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110102Z" creationid="grass" creationdate="20201014T110102Z">
+        <seg>以LaTeX格式嵌入。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Embedding in native format.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110109Z" creationid="grass" creationdate="20201014T110109Z">
+        <seg>以本机格式嵌入。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2078,6 +2102,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051927Z" creationid="grass" creationdate="20201013T051927Z">
         <seg>生成索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generating the header.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110158Z" creationid="grass" creationdate="20201014T110158Z">
+        <seg>生成标题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2754,6 +2786,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Installing a manual in Info file hierarchy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110332Z" creationid="grass" creationdate="20201014T110332Z">
+        <seg>在信息文件层次结构中安装手册。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Interaction with Other Packages</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053003Z" creationid="grass" creationdate="20201013T053003Z">
@@ -2782,6 +2822,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105003Z" creationid="grass" creationdate="20201014T105003Z">
         <seg>调用HTML导出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Invoking commands.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110117Z" creationid="grass" creationdate="20201014T110117Z">
+        <seg>调用命令。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6694,6 +6742,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202241Z" creationid="grass" creationdate="20201010T202241Z">
         <seg>设置自定义命令的选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Setting the environment.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110132Z" creationid="grass" creationdate="20201014T110132Z">
+        <seg>环境设置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35199,6 +35255,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Headings and sectioning structure&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110350Z" creationid="grass" creationdate="20201014T110350Z">
+        <seg>• &lt;a0&gt;标题和分段结构&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Headlines in HTML export&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105151Z" creationid="grass" creationdate="20201014T105111Z">
@@ -35287,6 +35351,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Info directory file&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110323Z" creationid="grass" creationdate="20201014T110323Z">
+        <seg>• &lt;a0&gt;信息目录文件&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Initial visibility&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172938Z" creationid="grass" creationdate="20201010T172938Z">
@@ -35369,8 +35441,8 @@ Introduction</seg>
       <tuv lang="EN-US">
         <seg>• &lt;a0&gt;LaTeX header and sectioning&lt;/a0&gt;:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105516Z" creationid="grass" creationdate="20201014T105516Z">
-        <seg>• &lt;a0&gt;LaTeX标题和分结构段&lt;/a0&gt;：</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110358Z" creationid="grass" creationdate="20201014T105516Z">
+        <seg>• &lt;a0&gt;LaTeX标题和分段&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35507,6 +35579,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105943Z" creationid="grass" creationdate="20201014T105943Z">
         <seg>• &lt;a0&gt;ODT导出中的数学格式&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;MathML and OpenDocument formula files&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110105Z" creationid="grass" creationdate="20201014T110105Z">
+        <seg>• &lt;a0&gt;MathML和OpenDocument公式文件&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -36059,6 +36139,38 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104612Z" creationid="grass" creationdate="20201014T104612Z">
         <seg>• &lt;a0&gt;Texinfo导出&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Texinfo export commands&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110113Z" creationid="grass" creationdate="20201014T110113Z">
+        <seg>• &lt;a0&gt;Texinfo导出命令&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Texinfo file header&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110144Z" creationid="grass" creationdate="20201014T110144Z">
+        <seg>• &lt;a0&gt;Texinfo文件标头&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Texinfo specific export settings&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110126Z" creationid="grass" creationdate="20201014T110126Z">
+        <seg>• &lt;a0&gt;特定于Texinfo的导出设置&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Texinfo title and copyright page&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110217Z" creationid="grass" creationdate="20201014T110217Z">
+        <seg>• &lt;a0&gt;Texinfo标题和版权页&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
