@@ -1730,6 +1730,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Highlighting states.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101502Z" creationid="grass" creationdate="20201014T101425Z">
+        <seg>状态的高亮显示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Horizontal Rules</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202725Z" creationid="grass" creationdate="20201010T202725Z">
@@ -5436,8 +5444,8 @@
       <tuv lang="EN-US">
         <seg>Progress Logging</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200323Z" creationid="grass" creationdate="20201010T200323Z">
-        <seg>进度记录</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101530Z" creationid="grass" creationdate="20201010T200323Z">
+        <seg>进度日志记录</seg>
       </tuv>
     </tu>
     <tu>
@@ -7027,10 +7035,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When did the status change?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101554Z" creationid="grass" creationdate="20201014T101554Z">
+        <seg>状态是什么时候更改的？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When first fired up, it should feel like a straightforward, easy to use outliner.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T101409Z" creationid="grass" creationdate="20200927T101409Z">
         <seg>初次启动时，它应该看起来像一个简单易用的大纲工具。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When one task needs to wait for others.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101511Z" creationid="grass" creationdate="20201014T101511Z">
+        <seg>当一个任务需要等待其他任务时。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7055,6 +7079,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T133852Z" creationid="grass" creationdate="20201006T133852Z">
         <seg>当变量&lt;c4&gt;org-log-refile&lt;/c4&gt;&lt;a5&gt;&lt;s6&gt;83&lt;/s6&gt;&lt;/a5&gt;被设置时，无论何时转接笔记，都会记录时间戳或注释。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When was this entry marked as done?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101543Z" creationid="grass" creationdate="20201014T101543Z">
+        <seg>此条目是何时标记为完成的？</seg>
       </tuv>
     </tu>
     <tu>
@@ -33431,6 +33463,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Closing items&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101540Z" creationid="grass" creationdate="20201014T101540Z">
+        <seg>·&lt;a0&gt;关闭项&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Column Groups&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100035Z" creationid="grass" creationdate="20201014T100035Z">
@@ -33911,6 +33951,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;TODO dependencies&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101508Z" creationid="grass" creationdate="20201014T101508Z">
+        <seg>• &lt;a0&gt;TODO依赖关系&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;TODO types&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101122Z" creationid="grass" creationdate="20201014T101122Z">
@@ -33939,6 +33987,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100131Z" creationid="grass" creationdate="20201014T100131Z">
         <seg>• &lt;a0&gt;电子表格&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Tracking TODO state changes&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101551Z" creationid="grass" creationdate="20201014T101551Z">
+        <seg>• &lt;a0&gt;跟踪TODO状态更改&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
