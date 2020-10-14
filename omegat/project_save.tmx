@@ -970,6 +970,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Choosing a results type, post-processing...</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111317Z" creationid="grass" creationdate="20201014T111317Z">
+        <seg>选择结果类型、后处理.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Clear the target cache.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T134616Z" creationid="grass" creationdate="20201006T134616Z">
@@ -1214,6 +1222,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055723Z" creationid="grass" creationdate="20201013T055723Z">
         <seg>创建链接到Org文件的网站。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create pure source code files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111341Z" creationid="grass" creationdate="20201014T111341Z">
+        <seg>创建纯源代码文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1694,6 +1710,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202808Z" creationid="grass" creationdate="20201010T202808Z">
         <seg>导出设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Export contents and/or results.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111336Z" creationid="grass" creationdate="20201014T111336Z">
+        <seg>导出内容或结果。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3122,6 +3146,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Language major-mode editing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111431Z" creationid="grass" creationdate="20201014T111431Z">
+        <seg>语言主模式编辑。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Languages</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052309Z" creationid="grass" creationdate="20201013T052309Z">
@@ -3202,6 +3234,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>List of supported code block languages.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111357Z" creationid="grass" creationdate="20201014T111357Z">
+        <seg>支持的代码块语言列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Literal Examples</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202659Z" creationid="grass" creationdate="20201010T202659Z">
@@ -3214,6 +3254,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203949Z" creationid="grass" creationdate="20201010T203949Z">
         <seg>ODT导出中的文字示例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Literate programming in Org mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111458Z" creationid="grass" creationdate="20201014T111458Z">
+        <seg>Org模式下的文学编程。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8110,6 +8158,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051947Z" creationid="grass" creationdate="20201013T051947Z">
         <seg>文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use and contribute to a library of useful code blocks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111545Z" creationid="grass" creationdate="20201014T111545Z">
+        <seg>使用有用的代码块类库并为其做出贡献。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35279,6 +35335,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Editing Source Code&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111401Z" creationid="grass" creationdate="20201014T111401Z">
+        <seg>• &lt;a0&gt;编辑源代码&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Editing and debugging formulas&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100623Z" creationid="grass" creationdate="20201014T100623Z">
@@ -35367,6 +35431,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Exporting Code Blocks&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111321Z" creationid="grass" creationdate="20201014T111321Z">
+        <seg>• &lt;a0&gt;导出代码块&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Exporting&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055637Z" creationid="grass" creationdate="20201013T055637Z">
@@ -35387,6 +35459,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100814Z" creationid="grass" creationdate="20201014T100814Z">
         <seg>• &lt;a0&gt;外部链接&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Extracting Source Code&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111339Z" creationid="grass" creationdate="20201014T111339Z">
+        <seg>• &lt;a0&gt;提取源代码&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35735,6 +35815,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Key bindings and Useful Functions&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111609Z" creationid="grass" creationdate="20201014T111609Z">
+        <seg>• &lt;a0&gt;按键绑定和有用的函数&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;LaTeX Export&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104448Z" creationid="grass" creationdate="20201014T104448Z">
@@ -35787,6 +35875,22 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110025Z" creationid="grass" creationdate="20201014T110025Z">
         <seg>• &lt;a0&gt;ODT导出中的标签和标题&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Languages&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111348Z" creationid="grass" creationdate="20201014T111345Z">
+        <seg>• &lt;a0&gt;语言&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Library of Babel&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111506Z" creationid="grass" creationdate="20201014T111506Z">
+        <seg>• &lt;a0&gt;Babel库&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35931,6 +36035,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101230Z" creationid="grass" creationdate="20201014T101219Z">
         <seg>• &lt;a0&gt;一个文件中有多个集合&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Noweb Reference Syntax&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111439Z" creationid="grass" creationdate="20201014T111439Z">
+        <seg>• &lt;a0&gt;Noweb引用语法&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -36227,6 +36339,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102426Z" creationid="grass" creationdate="20201014T102426Z">
         <seg>• &lt;a0&gt;解决空闲时间&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Results of Evaluation&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111313Z" creationid="grass" creationdate="20201014T111309Z">
+        <seg>• &lt;a0&gt;求值结果&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
