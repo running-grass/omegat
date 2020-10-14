@@ -162,6 +162,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;M-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; guesses completions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112023Z" creationid="grass" creationdate="20201014T111831Z">
+        <seg>&lt;k0&gt;M-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt;补全联想</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A Beamer example</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203124Z" creationid="grass" creationdate="20201010T203124Z">
@@ -870,6 +878,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T134701Z" creationid="grass" creationdate="20201006T134701Z">
         <seg>可以通过设置&lt;c0&gt;org-refile-use-cache&lt;/c0&gt;来打开转接目标的缓存</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Call functions from the command line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111713Z" creationid="grass" creationdate="20201014T111713Z">
+        <seg>从命令行调用函数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34999,6 +35015,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Batch Execution&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111709Z" creationid="grass" creationdate="20201014T111709Z">
+        <seg>• &lt;a0&gt;批量执行&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Beamer Export&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104430Z" creationid="grass" creationdate="20201014T104430Z">
@@ -35227,6 +35251,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104322Z" creationid="grass" creationdate="20201014T104322Z">
         <seg>• &lt;a0&gt;注释行&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Completion&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111839Z" creationid="grass" creationdate="20201014T111725Z">
+        <seg>• &lt;a0&gt;补全&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
