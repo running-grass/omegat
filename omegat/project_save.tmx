@@ -1564,8 +1564,8 @@
       <tuv lang="EN-US">
         <seg>Due to the way Org works, TODO items, time-stamped items, and tagged headlines can be scattered throughout a file or even a number of files.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Eli" changedate="20201014T144052Z" creationid="Eli" creationdate="20201014T144052Z">
-        <seg>由于 Org-mode 的工作方式，代办事项、定时事项和带标签事项散落在一个或几个文件中</seg>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201014T144151Z" creationid="Eli" creationdate="20201014T144052Z">
+        <seg>由于 Org-mode 的工作方式，代办事项、定时事项和带标签的标题会散落在一个甚至几个文件中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8342,6 +8342,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082506Z" creationid="grass" creationdate="20200929T082506Z">
         <seg>为此，请使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To get an overview of open action items, or of events that are important for a particular date, this information must be collected, sorted and displayed in an organized way.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201014T144925Z" creationid="Eli" creationdate="20201014T144925Z">
+        <seg>你如果要查看所有未完成的行动事项，或者某些特定日期的重要事件，那么必须要有一种方式来有组织地收集、分类和展示这些信息。</seg>
       </tuv>
     </tu>
     <tu>
