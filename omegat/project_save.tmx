@@ -978,6 +978,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Creating, inserting and following.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100848Z" creationid="grass" creationdate="20201014T100848Z">
+        <seg>创建、插入和跟随。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Custom Agenda Views</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202132Z" creationid="grass" creationdate="20201010T202132Z">
@@ -1022,6 +1030,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054348Z" creationid="grass" creationdate="20201013T054348Z">
         <seg>D 主索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dates and notes for progress.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101013Z" creationid="grass" creationdate="20201014T101013Z">
+        <seg>进度的日期和备注。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2234,6 +2250,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Linking from my C source code?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100905Z" creationid="grass" creationdate="20201014T100905Z">
+        <seg>从我的C源代码链接吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Linking to a specific location.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100920Z" creationid="grass" creationdate="20201014T100920Z">
+        <seg>链接到特定位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Links in HTML export</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203311Z" creationid="grass" creationdate="20201010T203311Z">
@@ -2246,6 +2278,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203834Z" creationid="grass" creationdate="20201010T203834Z">
         <seg>ODT导出中的链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Links to other places in the current file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100755Z" creationid="grass" creationdate="20201014T100755Z">
+        <seg>链接到当前文件中的其他位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2298,6 +2338,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Make targets trigger links in plain text.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100810Z" creationid="grass" creationdate="20201014T100810Z">
+        <seg>生成目标触发纯文本形式的链接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Making items useful for planning.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055429Z" creationid="grass" creationdate="20201013T055429Z">
@@ -2326,6 +2374,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203747Z" creationid="grass" creationdate="20201010T203747Z">
         <seg>Markdown导出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Marking and displaying TODO entries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100958Z" creationid="grass" creationdate="20201014T100958Z">
+        <seg>标记和显示TODO条目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5786,6 +5842,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Shortcuts for writing complex links.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100911Z" creationid="grass" creationdate="20201014T100911Z">
+        <seg>编写复杂链接的快捷方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Show all, including drawers.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T174811Z" creationid="grass" creationdate="20201010T174811Z">
@@ -5822,6 +5886,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171538Z" creationid="grass" creationdate="20201010T171538Z">
         <seg>有些人觉得星号太多了，他们更喜欢在大纲中使用空格后跟着一个星号作为标题的开头。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some things are more important than others.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101021Z" creationid="grass" creationdate="20201014T101021Z">
+        <seg>有些事情比其他事情更重要。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6006,6 +6078,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T130121Z" creationid="grass" creationdate="20201006T130121Z">
         <seg>关闭一棵节点树，但是依旧保留在文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TODO Items</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100935Z" creationid="grass" creationdate="20201014T100935Z">
+        <seg>TODO项</seg>
       </tuv>
     </tu>
     <tu>
@@ -6650,6 +6730,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>URL-like links to the world.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100825Z" creationid="grass" creationdate="20201014T100825Z">
+        <seg>指向互联网的类似URL的链接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Up: &lt;a0&gt;Export in Foreign Buffers&lt;/a0&gt;   [&lt;a1&gt;Contents&lt;/a1&gt;][&lt;a2&gt;Index&lt;/a2&gt;]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T103427Z" creationid="grass" creationdate="20200927T103427Z">
@@ -6891,6 +6979,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When the default search is not enough.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100929Z" creationid="grass" creationdate="20201014T100929Z">
+        <seg>当默认搜索不够用时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When the variable &lt;c4&gt;org-log-refile&lt;/c4&gt;&lt;a5&gt;&lt;s6&gt;83&lt;/s6&gt;&lt;/a5&gt; is set, a timestamp or a note is recorded whenever an entry is refiled.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T133852Z" creationid="grass" creationdate="20201006T133852Z">
@@ -6943,6 +7039,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T175257Z" creationid="grass" creationdate="20201010T175257Z">
         <seg>使用前缀参数，在每个级别上显示所有同级标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Workflow and assignments.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101007Z" creationid="grass" creationdate="20201014T101007Z">
+        <seg>工作流和工作分配。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33223,6 +33327,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Breaking Down Tasks&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101032Z" creationid="grass" creationdate="20201014T101032Z">
+        <seg>• &lt;a0&gt;细分任务&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Built-in Table Editor&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095630Z" creationid="grass" creationdate="20201014T095630Z">
@@ -33287,6 +33399,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Custom Searches&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100925Z" creationid="grass" creationdate="20201014T100925Z">
+        <seg>• &lt;a0&gt;自定义搜索&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Dates and Times&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055329Z" creationid="grass" creationdate="20201013T055329Z">
@@ -33331,6 +33451,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055637Z" creationid="grass" creationdate="20201013T055637Z">
         <seg>• &lt;a0&gt;导出&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;External Links&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100814Z" creationid="grass" creationdate="20201014T100814Z">
+        <seg>• &lt;a0&gt;外部链接&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -33391,6 +33519,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Handling Links&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100833Z" creationid="grass" creationdate="20201014T100833Z">
+        <seg>• &lt;a0&gt;处理链接&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Headlines&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170007Z" creationid="grass" creationdate="20201010T170007Z">
@@ -33431,6 +33567,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Internal Links&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100750Z" creationid="grass" creationdate="20201014T100750Z">
+        <seg>• &lt;a0&gt;内部链接&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Internal archiving&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T130036Z" creationid="grass" creationdate="20201006T130036Z">
@@ -33451,6 +33595,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060546Z" creationid="grass" creationdate="20201013T060425Z">
         <seg>• &lt;a0&gt;按键索引&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Link Abbreviations&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100909Z" creationid="grass" creationdate="20201014T100909Z">
+        <seg>• &lt;a0&gt;链接缩写&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -33535,6 +33687,22 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Priorities&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101018Z" creationid="grass" creationdate="20201014T101018Z">
+        <seg>• &lt;a0&gt;优先级&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Progress Logging&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101012Z" creationid="grass" creationdate="20201014T101012Z">
+        <seg>• &lt;a0&gt;进度日志记录&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Properties and Columns&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055307Z" creationid="grass" creationdate="20201013T055307Z">
@@ -33547,6 +33715,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055657Z" creationid="grass" creationdate="20201013T055657Z">
         <seg>• &lt;a0&gt;发布&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Radio Targets&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100804Z" creationid="grass" creationdate="20201014T100804Z">
+        <seg>• &lt;a0&gt;无线电目标&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -33575,6 +33751,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Search Options&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100917Z" creationid="grass" creationdate="20201014T100917Z">
+        <seg>• &lt;a0&gt;搜索选项&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Sparse Trees&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172239Z" creationid="grass" creationdate="20201010T172239Z">
@@ -33595,6 +33779,22 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T083331Z" creationid="grass" creationdate="20200927T083331Z">
         <seg>• &lt;a0&gt;概述&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;TODO Basics&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100948Z" creationid="grass" creationdate="20201014T100948Z">
+        <seg>• &lt;a0&gt;TODO基础知识&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;TODO Extensions&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101005Z" creationid="grass" creationdate="20201014T101005Z">
+        <seg>• &lt;a0&gt;TODO扩展&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
@@ -33635,6 +33835,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100636Z" creationid="grass" creationdate="20201014T100636Z">
         <seg>• &lt;a0&gt;更新表格&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Using Links Outside Org&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100857Z" creationid="grass" creationdate="20201014T100857Z">
+        <seg>• &lt;a0&gt;使用Org外部链接&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
