@@ -1538,10 +1538,74 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Exporting to HTML.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104441Z" creationid="grass" creationdate="20201014T104441Z">
+        <seg>导出到HTML。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Exporting to LaTeX and processing to PDF.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104451Z" creationid="grass" creationdate="20201014T104451Z">
+        <seg>导出为LaTeX并处理为PDF。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Exporting to Markdown.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104526Z" creationid="grass" creationdate="20201014T104519Z">
+        <seg>导出到Markdown。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Exporting to OpenDocument Text.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104532Z" creationid="grass" creationdate="20201014T104532Z">
+        <seg>导出到OpenDocument文本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Exporting to Org.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104601Z" creationid="grass" creationdate="20201014T104551Z">
+        <seg>导出到Org。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Exporting to Texinfo.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104620Z" creationid="grass" creationdate="20201014T104620Z">
+        <seg>导出到Texinfo：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Exporting to a man page.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104634Z" creationid="grass" creationdate="20201014T104634Z">
+        <seg>导出到手册页。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Exporting to flat files with encoding.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104415Z" creationid="grass" creationdate="20201014T104415Z">
         <seg>使用指定编码导出到纯文本文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Exporting to iCalendar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104627Z" creationid="grass" creationdate="20201014T104627Z">
+        <seg>导出到iCalendar。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1702,6 +1766,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103240Z" creationid="grass" creationdate="20201014T103240Z">
         <seg>查找您需要审阅的项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fine-tuning the export output.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104708Z" creationid="grass" creationdate="20201014T104708Z">
+        <seg>微调导出产出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5878,6 +5950,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200505Z" creationid="grass" creationdate="20201010T200505Z">
         <seg>优先顺序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Producing presentations and slides.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104432Z" creationid="grass" creationdate="20201014T104432Z">
+        <seg>制作演示文稿和幻灯片。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34071,6 +34151,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Advanced Export Configuration&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104644Z" creationid="grass" creationdate="20201014T104644Z">
+        <seg>• &lt;a0&gt;高级导出配置&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Advanced features&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100645Z" creationid="grass" creationdate="20201014T100645Z">
@@ -34171,6 +34259,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102852Z" creationid="grass" creationdate="20201014T102852Z">
         <seg>• &lt;a0&gt;Git自动版本控制&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Beamer Export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104430Z" creationid="grass" creationdate="20201014T104430Z">
+        <seg>• &lt;a0&gt;Beamer导出&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -34503,6 +34599,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Export in Foreign Buffers&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104711Z" creationid="grass" creationdate="20201014T104711Z">
+        <seg>• &lt;a0&gt;导出外部缓冲区&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Exporting Agenda Views&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103101Z" creationid="grass" creationdate="20201014T103101Z">
@@ -34603,6 +34707,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172918Z" creationid="grass" creationdate="20201010T172918Z">
         <seg>• &lt;a0&gt;全局局循环和局部循环&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;HTML Export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104439Z" creationid="grass" creationdate="20201014T104439Z">
+        <seg>• &lt;a0&gt;HTML导出&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -34727,6 +34839,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;LaTeX Export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104448Z" creationid="grass" creationdate="20201014T104448Z">
+        <seg>• &lt;a0&gt;LaTeX导出&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;LaTeX fragments&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104124Z" creationid="grass" creationdate="20201014T104045Z">
@@ -34783,6 +34903,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Markdown Export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104505Z" creationid="grass" creationdate="20201014T104505Z">
+        <seg>• &lt;a0&gt;Markdown导出&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Markup for Rich Contents&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055551Z" creationid="grass" creationdate="20201013T055551Z">
@@ -34831,6 +34959,22 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;OpenDocument Text Export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104530Z" creationid="grass" creationdate="20201014T104530Z">
+        <seg>• &lt;a0&gt;OpenDocument文本导出&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Org Export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104549Z" creationid="grass" creationdate="20201014T104549Z">
+        <seg>• &lt;a0&gt;Org导出&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Org Plot&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100203Z" creationid="grass" creationdate="20201014T100203Z">
@@ -34843,6 +34987,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100105Z" creationid="grass" creationdate="20201014T100105Z">
         <seg>• &lt;a0&gt;Orgtbl模式&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Other Built-in Back-ends&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104631Z" creationid="grass" creationdate="20201014T104631Z">
+        <seg>• &lt;a0&gt;其他内置后端&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35231,6 +35383,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Texinfo Export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104612Z" creationid="grass" creationdate="20201014T104612Z">
+        <seg>• &lt;a0&gt;Texinfo导出&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;The Export Dispatcher&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104153Z" creationid="grass" creationdate="20201014T104153Z">
@@ -35371,6 +35531,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055738Z" creationid="grass" creationdate="20201013T055738Z">
         <seg>• &lt;a0&gt;使用源代码&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;iCalendar Export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104625Z" creationid="grass" creationdate="20201014T104625Z">
+        <seg>• &lt;a0&gt;iCalendar导出&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
