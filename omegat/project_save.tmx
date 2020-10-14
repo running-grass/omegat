@@ -594,6 +594,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Attributes specific to example blocks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105742Z" creationid="grass" creationdate="20201014T105742Z">
+        <seg>特定于样例块的属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Attributes specific to lists.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105648Z" creationid="grass" creationdate="20201014T105648Z">
+        <seg>特定于列表的属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Attributes specific to source code blocks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105726Z" creationid="grass" creationdate="20201014T105726Z">
+        <seg>特定于源代码块的属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Author tables and lists in Org syntax.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104734Z" creationid="grass" creationdate="20201014T104734Z">
@@ -1914,6 +1938,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For producing LaTeX and PDF documents.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105449Z" creationid="grass" creationdate="20201014T105449Z">
+        <seg>用于生成LaTeX和PDF文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For using in Org documents.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104901Z" creationid="grass" creationdate="20201014T104901Z">
@@ -2298,6 +2330,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>How to insert figures into LaTeX output.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105639Z" creationid="grass" creationdate="20201014T105639Z">
+        <seg>如何将图形插入到LaTeX输出中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>How to modify the formatting of tables.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105224Z" creationid="grass" creationdate="20201014T105224Z">
@@ -2558,6 +2598,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104305Z" creationid="grass" creationdate="20201014T104305Z">
         <seg>将其他文件包括到文档中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incorporating literal LaTeX code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105558Z" creationid="grass" creationdate="20201014T105558Z">
+        <seg>包含字面LaTeX代码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5298,6 +5346,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Options for exporting tables to LaTeX.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105633Z" creationid="grass" creationdate="20201014T105633Z">
+        <seg>将表格导出到LaTeX的选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Options for the exporters</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051907Z" creationid="grass" creationdate="20201013T051415Z">
@@ -6562,6 +6618,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Setting up the export file structure.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105518Z" creationid="grass" creationdate="20201014T105518Z">
+        <seg>设置导出文件结构。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Setting up the staging area</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053525Z" creationid="grass" creationdate="20201013T053525Z">
@@ -7630,6 +7694,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100825Z" creationid="grass" creationdate="20201014T100825Z">
         <seg>指向互联网的类似URL的链接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unique to this LaTeX back-end.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105504Z" creationid="grass" creationdate="20201014T105504Z">
+        <seg>这是这个LaTeX后端独有的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34799,6 +34871,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Example blocks in LaTeX export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105739Z" creationid="grass" creationdate="20201014T105739Z">
+        <seg>• &lt;a0&gt;LaTeX导出中的示例块&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Export Settings&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104213Z" creationid="grass" creationdate="20201014T104213Z">
@@ -35031,6 +35111,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Images in LaTeX export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105636Z" creationid="grass" creationdate="20201014T105636Z">
+        <seg>• &lt;a0&gt;LaTeX导出中的图像&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Images&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103944Z" creationid="grass" creationdate="20201014T103944Z">
@@ -35123,6 +35211,30 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104124Z" creationid="grass" creationdate="20201014T104045Z">
         <seg>• &lt;a0&gt;LaTeX片段&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;LaTeX header and sectioning&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105516Z" creationid="grass" creationdate="20201014T105516Z">
+        <seg>• &lt;a0&gt;LaTeX标题和分结构段&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;LaTeX specific export settings&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105452Z" creationid="grass" creationdate="20201014T105452Z">
+        <seg>• &lt;a0&gt;特定于LaTeX的导出设置&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;LaTeX/PDF export commands&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105447Z" creationid="grass" creationdate="20201014T105447Z">
+        <seg>• &lt;a0&gt;LaTeX/PDF导出命令&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35303,6 +35415,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Plain lists in LaTeX export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105646Z" creationid="grass" creationdate="20201014T105646Z">
+        <seg>• &lt;a0&gt;LaTeX导出中的普通列表&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Presentation and Sorting&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103008Z" creationid="grass" creationdate="20201014T103008Z">
@@ -35379,6 +35499,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105045Z" creationid="grass" creationdate="20201014T105028Z">
         <seg>• &lt;a0&gt;引用HTML标签&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Quoting LaTeX code&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105522Z" creationid="grass" creationdate="20201014T105522Z">
+        <seg>• &lt;a0&gt;引用LaTeX代码&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35491,6 +35619,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103535Z" creationid="grass" creationdate="20201014T103535Z">
         <seg>• &lt;a0&gt;议程项排序&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Source blocks in LaTeX export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105715Z" creationid="grass" creationdate="20201014T105715Z">
+        <seg>• &lt;a0&gt;LaTeX导出中的源码快&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
@@ -35611,6 +35747,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105222Z" creationid="grass" creationdate="20201014T105222Z">
         <seg>• &lt;a0&gt;HTML导出中的表格&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Tables in LaTeX export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105626Z" creationid="grass" creationdate="20201014T105619Z">
+        <seg>• &lt;a0&gt;LaTeX导出中的表格&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
