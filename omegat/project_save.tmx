@@ -1546,6 +1546,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Grouping to trigger vertical lines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100044Z" creationid="grass" creationdate="20201014T100044Z">
+        <seg>分组以触发垂直线。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>HTML Export</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203130Z" creationid="grass" creationdate="20201010T203130Z">
@@ -6318,6 +6326,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171259Z" creationid="grass" creationdate="20201010T171259Z">
         <seg>&lt;c0&gt;org-footnote-section&lt;/c0&gt;中定义的名称是保留的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The table editor as minor mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100121Z" creationid="grass" creationdate="20201014T100121Z">
+        <seg>表格编辑器作为次要模式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33111,6 +33127,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Column Groups&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100035Z" creationid="grass" creationdate="20201014T100035Z">
+        <seg>• &lt;a0&gt;列组&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Column Width and Alignment&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095652Z" creationid="grass" creationdate="20201014T095652Z">
@@ -33299,6 +33323,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T125930Z" creationid="grass" creationdate="20201006T125930Z">
         <seg>• &lt;a0&gt;移动节点子树&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Orgtbl Mode&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100105Z" creationid="grass" creationdate="20201014T100105Z">
+        <seg>• &lt;a0&gt;Orgtbl模式&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
