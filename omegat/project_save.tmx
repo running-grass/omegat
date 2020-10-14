@@ -410,6 +410,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All the stuff you need in a single buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103730Z" creationid="grass" creationdate="20201014T103730Z">
+        <seg>你需要的所有东西都放在一个缓冲区里。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Allowed values for this property are ‘&lt;s2&gt;folded&lt;/s2&gt;’, ‘&lt;s3&gt;children&lt;/s3&gt;’, ‘&lt;s4&gt;content&lt;/s4&gt;’, and ‘&lt;s5&gt;all&lt;/s5&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182238Z" creationid="grass" creationdate="20201010T182238Z">
@@ -822,6 +830,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170217Z" creationid="grass" creationdate="20201010T170217Z">
         <seg>改变标题的顺序和级别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Changing the rules.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103736Z" creationid="grass" creationdate="20201014T103736Z">
+        <seg>改变规则。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1274,6 +1290,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Dynamically narrow the agenda.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103642Z" creationid="grass" creationdate="20201014T103642Z">
+        <seg>动态缩小议程规模。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>E Key Index</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060552Z" creationid="grass" creationdate="20201013T054401Z">
@@ -1604,8 +1628,8 @@
       <tuv lang="EN-US">
         <seg>Filtering/limiting agenda items</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202120Z" creationid="grass" creationdate="20201010T202120Z">
-        <seg>过滤/限制议程项目数量</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103609Z" creationid="grass" creationdate="20201010T202120Z">
+        <seg>过滤/限制议程项数量</seg>
       </tuv>
     </tu>
     <tu>
@@ -1966,6 +1990,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101659Z" creationid="grass" creationdate="20201014T101659Z">
         <seg>属性的拼写方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How the agenda knows the time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103514Z" creationid="grass" creationdate="20201014T103514Z">
+        <seg>议事日程怎么知道时间。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6866,6 +6898,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The basic unit of text.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103742Z" creationid="grass" creationdate="20201014T103742Z">
+        <seg>文本的基本单位。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The best way to report this is by providing, in addition to what was mentioned above, a backtrace.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082346Z" creationid="grass" creationdate="20200929T082346Z">
@@ -6958,6 +6998,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171259Z" creationid="grass" creationdate="20201010T171259Z">
         <seg>&lt;c0&gt;org-footnote-section&lt;/c0&gt;中定义的名称是保留的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The order of things.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103539Z" creationid="grass" creationdate="20201014T103539Z">
+        <seg>事物的秩序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7190,6 +7238,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170710Z" creationid="grass" creationdate="20201010T170710Z">
         <seg>把东西藏起来。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Type once, use often.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103709Z" creationid="grass" creationdate="20201014T103709Z">
+        <seg>打字一次，经常使用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33959,6 +34015,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Block agenda&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103723Z" creationid="grass" creationdate="20201014T103723Z">
+        <seg>• &lt;a0&gt;"挡路"议程&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Blocks&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170732Z" creationid="grass" creationdate="20201010T170732Z">
@@ -34223,6 +34287,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Emphasis and Monospace&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103823Z" creationid="grass" creationdate="20201014T103823Z">
+        <seg>• &lt;a0&gt;强调和等宽&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Exporting Agenda Views&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103101Z" creationid="grass" creationdate="20201014T103101Z">
@@ -34275,6 +34347,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100525Z" creationid="grass" creationdate="20201014T100525Z">
         <seg>• &lt;a0&gt;字段和范围公式&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Filtering/limiting agenda items&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103604Z" creationid="grass" creationdate="20201014T103604Z">
+        <seg>• &lt;a0&gt;过滤/限制议程项数量&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -34511,6 +34591,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Paragraphs&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103741Z" creationid="grass" creationdate="20201014T103741Z">
+        <seg>• &lt;a0&gt;段落&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Per-file keywords&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101315Z" creationid="grass" creationdate="20201014T101315Z">
@@ -34679,10 +34767,26 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Setting options&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103734Z" creationid="grass" creationdate="20201014T103734Z">
+        <seg>• &lt;a0&gt;设置选项&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Setting up capture&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102552Z" creationid="grass" creationdate="20201014T102552Z">
         <seg>• &lt;a0&gt;设置捕获&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Sorting of agenda items&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103535Z" creationid="grass" creationdate="20201014T103535Z">
+        <seg>• &lt;a0&gt;议程项排序&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -34699,6 +34803,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101703Z" creationid="grass" creationdate="20201014T101703Z">
         <seg>• &lt;a0&gt;特殊属性&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Storing searches&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103706Z" creationid="grass" creationdate="20201014T103706Z">
+        <seg>• &lt;a0&gt;存储搜索条件&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -34851,6 +34963,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102226Z" creationid="grass" creationdate="20201014T102226Z">
         <seg>• &lt;a0&gt;日期/时间提示&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Time-of-day specifications&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103507Z" creationid="grass" creationdate="20201014T103507Z">
+        <seg>• &lt;a0&gt;时间格式规范&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
