@@ -210,6 +210,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A multi-component publishing example.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111137Z" creationid="grass" creationdate="20201014T111137Z">
+        <seg>多组件发布示例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A tree works like your brain.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054941Z" creationid="grass" creationdate="20201013T054751Z">
@@ -474,6 +482,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An index that reaches across pages.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111123Z" creationid="grass" creationdate="20201014T111123Z">
+        <seg>跨页的索引。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An overview of this structure is achieved by folding, i.e., hiding large parts of the document to show only the general document structure and the parts currently being worked on.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T165143Z" creationid="grass" creationdate="20201010T165143Z">
@@ -534,6 +550,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T131610Z" creationid="grass" creationdate="20201006T131610Z">
         <seg>归档有助于保持系统的紧凑和快速。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Arguments, sessions, working directory...</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111248Z" creationid="grass" creationdate="20201014T111248Z">
+        <seg>参数、会话、工作目录.</seg>
       </tuv>
     </tu>
     <tu>
@@ -986,6 +1010,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Code block syntax described.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111215Z" creationid="grass" creationdate="20201014T111215Z">
+        <seg>代码块语法描述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Collecting information into views.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055522Z" creationid="grass" creationdate="20201013T055522Z">
@@ -1370,6 +1402,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Different ways to set header arguments.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111235Z" creationid="grass" creationdate="20201014T111235Z">
+        <seg>设置标头参数的不同方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Display an image.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103946Z" creationid="grass" creationdate="20201014T103946Z">
@@ -1558,6 +1598,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103830Z" creationid="grass" creationdate="20201010T202445Z">
         <seg>强调与等宽</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Enjoy the versatility of source blocks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111203Z" creationid="grass" creationdate="20201014T111203Z">
+        <seg>享受源码块的多功能性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2134,6 +2182,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054416Z" creationid="grass" creationdate="20201013T054416Z">
         <seg>G 变量索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generating a list of all pages.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111056Z" creationid="grass" creationdate="20201014T111056Z">
+        <seg>生成所有页面的列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5522,6 +5578,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>One-component publishing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111130Z" creationid="grass" creationdate="20201014T111130Z">
+        <seg>单组件发布。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Only show a template in a specific context.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102751Z" creationid="grass" creationdate="20201014T102751Z">
@@ -5846,6 +5910,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054545Z" creationid="grass" creationdate="20201013T054545Z">
         <seg>根据GNU自由文档许可证1.3版或自由软件基金会发布的任何更新版本的条款，允许复制、分发和/或修改本文档；没有固定章节，封面文本为“GNU手册”，封底文本如下(A)所示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Place results of evaluation in the Org buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111304Z" creationid="grass" creationdate="20201014T111304Z">
+        <seg>将求值结果放入Org缓冲区。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6854,6 +6926,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110132Z" creationid="grass" creationdate="20201014T110132Z">
         <seg>环境设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Setting the function doing the publishing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111022Z" creationid="grass" creationdate="20201014T111022Z">
+        <seg>设置进行发布的函数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7962,6 +8042,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tweaking HTML/LaTeX export.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111035Z" creationid="grass" creationdate="20201014T111035Z">
+        <seg>调整HTML/LaTeX导出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Type once, use often.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103709Z" creationid="grass" creationdate="20201014T103709Z">
@@ -8227,6 +8315,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>What files are part of the project?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111004Z" creationid="grass" creationdate="20201014T111004Z">
+        <seg>哪些文件是项目的一部分？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>What happened instead?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082253Z" creationid="grass" creationdate="20200929T082253Z">
@@ -8367,6 +8463,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102600Z" creationid="grass" creationdate="20201014T102600Z">
         <seg>将存储笔记的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Which links keep working after publishing?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111051Z" creationid="grass" creationdate="20201014T111051Z">
+        <seg>哪些链接在发布后仍然有效？</seg>
       </tuv>
     </tu>
     <tu>
@@ -35063,6 +35167,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Complex example&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111132Z" creationid="grass" creationdate="20201014T111132Z">
+        <seg>• &lt;a0&gt;复杂示例&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Configuration&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110812Z" creationid="grass" creationdate="20201014T110812Z">
@@ -35207,6 +35319,22 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Environment of a Code Block&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111244Z" creationid="grass" creationdate="20201014T111244Z">
+        <seg>• &lt;a0&gt;代码块环境&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Evaluating Code Blocks&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111256Z" creationid="grass" creationdate="20201014T111256Z">
+        <seg>• &lt;a0&gt;代码块求值&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Example blocks in LaTeX export&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105739Z" creationid="grass" creationdate="20201014T105739Z">
@@ -35279,6 +35407,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Features Overview&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111153Z" creationid="grass" creationdate="20201014T111153Z">
+        <seg>• &lt;a0&gt;功能概述&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Feedback&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T084652Z" creationid="grass" creationdate="20200927T084652Z">
@@ -35331,6 +35467,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060350Z" creationid="grass" creationdate="20201013T060350Z">
         <seg>• &lt;a0&gt;GNU自由文档许可证&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Generating an index&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111105Z" creationid="grass" creationdate="20201014T111105Z">
+        <seg>• &lt;a0&gt;生成索引&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35967,6 +36111,30 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Publishing action&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111009Z" creationid="grass" creationdate="20201014T111009Z">
+        <seg>• &lt;a0&gt;发布操作&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Publishing links&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111040Z" creationid="grass" creationdate="20201014T111040Z">
+        <seg>• &lt;a0&gt;发布链接&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Publishing options&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111032Z" creationid="grass" creationdate="20201014T111032Z">
+        <seg>• &lt;a0&gt;发布选项&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Publishing&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055657Z" creationid="grass" creationdate="20201013T055657Z">
@@ -36127,6 +36295,22 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Simple example&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111127Z" creationid="grass" creationdate="20201014T111127Z">
+        <seg>• &lt;a0&gt;简单示例&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Site map&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111054Z" creationid="grass" creationdate="20201014T111054Z">
+        <seg>• &lt;a0&gt;站点地图&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Sorting of agenda items&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103535Z" creationid="grass" creationdate="20201014T103535Z">
@@ -36203,6 +36387,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170202Z" creationid="grass" creationdate="20201010T170202Z">
         <seg>• &lt;a0&gt;结构编辑&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Structure of Code Blocks&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111206Z" creationid="grass" creationdate="20201014T111206Z">
+        <seg>• &lt;a0&gt;代码块结构&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -36515,6 +36707,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110821Z" creationid="grass" creationdate="20201014T110821Z">
         <seg>• &lt;a0&gt;上传文件&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Using Header Arguments&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111231Z" creationid="grass" creationdate="20201014T111231Z">
+        <seg>• &lt;a0&gt;使用标题参数&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
