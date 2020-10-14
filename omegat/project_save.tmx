@@ -522,6 +522,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Attach files to outlines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102527Z" creationid="grass" creationdate="20201014T102527Z">
+        <seg>将文件附加到大纲。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Attach from Dired</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201648Z" creationid="grass" creationdate="20201010T201648Z">
@@ -930,6 +938,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Commands to invoke and terminate capture.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102605Z" creationid="grass" creationdate="20201014T102605Z">
+        <seg>调用和终止捕获的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Comment Lines</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202858Z" creationid="grass" creationdate="20201010T202858Z">
@@ -1118,6 +1134,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055504Z" creationid="grass" creationdate="20201013T055504Z">
         <seg>处理外部数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Define the outline of different note types.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102702Z" creationid="grass" creationdate="20201014T102610Z">
+        <seg>针对不同的笔记类型定义大纲。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1530,6 +1554,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Filling in information about time and context.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102718Z" creationid="grass" creationdate="20201014T102718Z">
+        <seg>填写有关时间和上下文的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Filtering/limiting agenda items</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202120Z" creationid="grass" creationdate="20201010T202120Z">
@@ -1662,6 +1694,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051927Z" creationid="grass" creationdate="20201013T051927Z">
         <seg>生成索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Getting input from RSS feeds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102548Z" creationid="grass" creationdate="20201014T102548Z">
+        <seg>从RSS订阅获取输入。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1862,6 +1902,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101659Z" creationid="grass" creationdate="20201014T101659Z">
         <seg>属性的拼写方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How to access attachment commands</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102818Z" creationid="grass" creationdate="20201014T102818Z">
+        <seg>如何访问附件命令</seg>
       </tuv>
     </tu>
     <tu>
@@ -4802,6 +4850,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Only show a template in a specific context.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102751Z" creationid="grass" creationdate="20201014T102751Z">
+        <seg>仅在特定上下文中显示模板。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>OpenDocument Text Export</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203753Z" creationid="grass" creationdate="20201010T203753Z">
@@ -7259,6 +7315,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>What is needed for a complete template entry.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102712Z" creationid="grass" creationdate="20201014T102712Z">
+        <seg>完整的模板条目需要什么。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>What to do with finished products.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T125907Z" creationid="grass" creationdate="20201006T125907Z">
@@ -7351,6 +7415,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101955Z" creationid="grass" creationdate="20201014T101955Z">
         <seg>哪里定义了，哪里有效？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Where notes will be stored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102600Z" creationid="grass" creationdate="20201014T102600Z">
+        <seg>将存储笔记的位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33671,6 +33743,22 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Attachment defaults and dispatcher&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102813Z" creationid="grass" creationdate="20201014T102813Z">
+        <seg>• &lt;a0&gt;附件默认值和调度程序&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Attachments&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102524Z" creationid="grass" creationdate="20201014T102524Z">
+        <seg>• &lt;a0&gt;附件&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Blocks&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170732Z" creationid="grass" creationdate="20201010T170732Z">
@@ -33699,6 +33787,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055502Z" creationid="grass" creationdate="20201013T055502Z">
         <seg>• &lt;a0&gt;捕获和附件&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Capture templates&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102609Z" creationid="grass" creationdate="20201014T102609Z">
+        <seg>• &lt;a0&gt;捕获模板&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -34239,6 +34335,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;RSS Feeds&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102541Z" creationid="grass" creationdate="20201014T102541Z">
+        <seg>• &lt;a0&gt;RSS订阅&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Radio Targets&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100804Z" creationid="grass" creationdate="20201014T100804Z">
@@ -34307,6 +34411,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101637Z" creationid="grass" creationdate="20201014T101637Z">
         <seg>• &lt;a0&gt;设置标签&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Setting up capture&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102552Z" creationid="grass" creationdate="20201014T102552Z">
+        <seg>• &lt;a0&gt;设置捕获&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -34423,6 +34535,30 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Template elements&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102708Z" creationid="grass" creationdate="20201014T102708Z">
+        <seg>• &lt;a0&gt;模板元素&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Template expansion&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102715Z" creationid="grass" creationdate="20201014T102715Z">
+        <seg>• &lt;a0&gt;模板扩容&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Templates in contexts&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102748Z" creationid="grass" creationdate="20201014T102748Z">
+        <seg>• &lt;a0&gt;上下文中的模板的使用&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;The Spreadsheet&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100131Z" creationid="grass" creationdate="20201014T100131Z">
@@ -34491,6 +34627,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100857Z" creationid="grass" creationdate="20201014T100857Z">
         <seg>• &lt;a0&gt;使用Org外部链接&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Using capture&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102603Z" creationid="grass" creationdate="20201014T102603Z">
+        <seg>• &lt;a0&gt;使用捕获&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
