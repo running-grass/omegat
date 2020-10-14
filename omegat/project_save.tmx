@@ -3044,8 +3044,8 @@
       <tuv lang="EN-US">
         <seg>Key bindings and Useful Functions</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052627Z" creationid="grass" creationdate="20201013T052627Z">
-        <seg>按键绑定和有用的功能</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111629Z" creationid="grass" creationdate="20201013T052627Z">
+        <seg>按键绑定和有用的函数</seg>
       </tuv>
     </tu>
     <tu>
@@ -8567,6 +8567,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T175257Z" creationid="grass" creationdate="20201010T175257Z">
         <seg>使用前缀参数，在每个级别上显示所有同级标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Work quickly with code blocks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111612Z" creationid="grass" creationdate="20201014T111612Z">
+        <seg>快速处理代码块。</seg>
       </tuv>
     </tu>
     <tu>
