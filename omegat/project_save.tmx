@@ -602,6 +602,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Attributes specific to horizontal rules.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105820Z" creationid="grass" creationdate="20201014T105820Z">
+        <seg>特定于水平尺的属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Attributes specific to lists.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105648Z" creationid="grass" creationdate="20201014T105648Z">
@@ -614,6 +622,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105726Z" creationid="grass" creationdate="20201014T105726Z">
         <seg>特定于源代码块的属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Attributes specific to special blocks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105757Z" creationid="grass" creationdate="20201014T105757Z">
+        <seg>特定于特殊块的属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1094,6 +1110,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051106Z" creationid="grass" creationdate="20201013T051106Z">
         <seg>配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Configuration options.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105847Z" creationid="grass" creationdate="20201014T105847Z">
+        <seg>配置选项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1938,6 +1962,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For power users.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110043Z" creationid="grass" creationdate="20201014T110043Z">
+        <seg>适用于高级用户。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For producing LaTeX and PDF documents.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105449Z" creationid="grass" creationdate="20201014T105449Z">
@@ -1946,10 +1978,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For source code and example blocks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110039Z" creationid="grass" creationdate="20201014T110039Z">
+        <seg>源代码和示例块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For using in Org documents.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104901Z" creationid="grass" creationdate="20201014T104901Z">
         <seg>在Org文档中使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Formatting LaTeX fragments.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110001Z" creationid="grass" creationdate="20201014T110001Z">
+        <seg>格式化LaTeX片段。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2118,6 +2166,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195938Z" creationid="grass" creationdate="20201010T195938Z">
         <seg>处理链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Handling and formatting links.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105908Z" creationid="grass" creationdate="20201014T105908Z">
+        <seg>处理和格式化链接。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2666,6 +2722,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Inserting images.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105938Z" creationid="grass" creationdate="20201014T105938Z">
+        <seg>插入图像。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Inserting preamble and postamble.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105025Z" creationid="grass" creationdate="20201014T105025Z">
@@ -2718,6 +2782,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105003Z" creationid="grass" creationdate="20201014T105003Z">
         <seg>调用HTML导出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Invoking export.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105841Z" creationid="grass" creationdate="20201014T105841Z">
+        <seg>调用导出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5546,6 +5618,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Org tables conversions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105930Z" creationid="grass" creationdate="20201014T105930Z">
+        <seg>Org表格转换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Org uses just two commands, bound to &lt;k0&gt;&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; and &lt;k2&gt;S-&lt;s3&gt;TAB&lt;/s3&gt;&lt;/k2&gt; to change the visibility in the buffer.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T173415Z" creationid="grass" creationdate="20201010T173415Z">
@@ -6154,6 +6234,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Producing DOC, PDF files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105852Z" creationid="grass" creationdate="20201014T105852Z">
+        <seg>制作DOC、PDF文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Producing presentations and slides.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104432Z" creationid="grass" creationdate="20201014T104432Z">
@@ -6410,10 +6498,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Rendering objects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110033Z" creationid="grass" creationdate="20201014T110033Z">
+        <seg>渲染对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Repeated tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201245Z" creationid="grass" creationdate="20201010T201245Z">
         <seg>重复任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Required packages.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105834Z" creationid="grass" creationdate="20201014T105834Z">
+        <seg>所需的包。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6886,6 +6990,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201905Z" creationid="grass" creationdate="20201010T201905Z">
         <seg>停滞的项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Styling the output.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105855Z" creationid="grass" creationdate="20201014T105855Z">
+        <seg>设置输出样式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34407,6 +34519,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Advanced topics in ODT export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110041Z" creationid="grass" creationdate="20201014T110041Z">
+        <seg>• &lt;a0&gt;ODT导出中的高级主题&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Agenda Column View&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103117Z" creationid="grass" creationdate="20201014T103117Z">
@@ -34443,6 +34563,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055518Z" creationid="grass" creationdate="20201013T055518Z">
         <seg>• &lt;a0&gt;议程视图&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Applying custom styles&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105854Z" creationid="grass" creationdate="20201014T105854Z">
+        <seg>• &lt;a0&gt;应用自定义样式&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -34911,6 +35039,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Extending ODT export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105850Z" creationid="grass" creationdate="20201014T105850Z">
+        <seg>• &lt;a0&gt;扩展ODT导出&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;External Links&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100814Z" creationid="grass" creationdate="20201014T100814Z">
@@ -35095,6 +35231,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Horizontal rules in LaTeX export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105811Z" creationid="grass" creationdate="20201014T105811Z">
+        <seg>• &lt;a0&gt;LaTeX导出中的横向规则&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Hyperlinks&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055040Z" creationid="grass" creationdate="20201013T055040Z">
@@ -35115,6 +35259,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105636Z" creationid="grass" creationdate="20201014T105636Z">
         <seg>• &lt;a0&gt;LaTeX导出中的图像&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Images in ODT export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105933Z" creationid="grass" creationdate="20201014T105933Z">
+        <seg>• &lt;a0&gt;ODT导出中的图片&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35223,6 +35375,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;LaTeX math snippets&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110056Z" creationid="grass" creationdate="20201014T110056Z">
+        <seg>• &lt;a0&gt;LaTeX数学片段&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;LaTeX specific export settings&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105452Z" creationid="grass" creationdate="20201014T105452Z">
@@ -35235,6 +35395,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105447Z" creationid="grass" creationdate="20201014T105447Z">
         <seg>• &lt;a0&gt;LaTeX/PDF导出命令&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Labels and captions in ODT export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110025Z" creationid="grass" creationdate="20201014T110025Z">
+        <seg>• &lt;a0&gt;ODT导出中的标签和标题&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35263,10 +35431,26 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Links in ODT export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105858Z" creationid="grass" creationdate="20201014T105858Z">
+        <seg>• &lt;a0&gt;ODT导出中的链接&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Literal Examples&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103935Z" creationid="grass" creationdate="20201014T103935Z">
         <seg>• &lt;a0&gt;字面示例&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Literal examples in ODT export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110036Z" creationid="grass" creationdate="20201014T110036Z">
+        <seg>• &lt;a0&gt;ODT导出中的文字示例&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35319,6 +35503,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Math formatting in ODT export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105943Z" creationid="grass" creationdate="20201014T105943Z">
+        <seg>• &lt;a0&gt;ODT导出中的数学格式&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Miscellaneous&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055828Z" creationid="grass" creationdate="20201013T055828Z">
@@ -35347,6 +35539,22 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101230Z" creationid="grass" creationdate="20201014T101219Z">
         <seg>• &lt;a0&gt;一个文件中有多个集合&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;ODT export commands&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105837Z" creationid="grass" creationdate="20201014T105837Z">
+        <seg>• &lt;a0&gt;ODT导出命令&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;ODT specific export settings&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105845Z" creationid="grass" creationdate="20201014T105845Z">
+        <seg>• &lt;a0&gt;ODT特定导出设置&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35419,6 +35627,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105646Z" creationid="grass" creationdate="20201014T105646Z">
         <seg>• &lt;a0&gt;LaTeX导出中的普通列表&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Pre-requisites for ODT export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105828Z" creationid="grass" creationdate="20201014T105828Z">
+        <seg>·&lt;a0&gt;ODT导出的前提条件&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35655,6 +35871,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Special blocks in LaTeX export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105749Z" creationid="grass" creationdate="20201014T105749Z">
+        <seg>• &lt;a0&gt;LaTeX导出中的特殊块&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Storing searches&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103706Z" creationid="grass" creationdate="20201014T103706Z">
@@ -35755,6 +35979,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105626Z" creationid="grass" creationdate="20201014T105619Z">
         <seg>• &lt;a0&gt;LaTeX导出中的表格&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Tables in ODT export&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105921Z" creationid="grass" creationdate="20201014T105921Z">
+        <seg>• &lt;a0&gt;ODT导出中的表格&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
