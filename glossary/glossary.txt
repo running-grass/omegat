@@ -131,3 +131,4 @@ TODO	TODO
 Reference	引用
 function	函数
 keyword	关键字
+dispatcher	调度程序
