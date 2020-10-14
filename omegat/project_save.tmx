@@ -1450,6 +1450,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Display and update outline numbering.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112351Z" creationid="grass" creationdate="20201014T112351Z">
+        <seg>显示和更新大纲编号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Do not forget to document the steps you take.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082748Z" creationid="grass" creationdate="20200929T082748Z">
@@ -1726,6 +1734,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052914Z" creationid="grass" creationdate="20201013T052914Z">
         <seg>在活动区域中执行命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Execute commands on multiple items in Org or agenda view.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112337Z" creationid="grass" creationdate="20201014T112337Z">
+        <seg>在Org或议程视图中对多个项执行命令。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2150,6 +2166,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104901Z" creationid="grass" creationdate="20201014T104901Z">
         <seg>在Org文档中使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Formal description of Org’s syntax.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112452Z" creationid="grass" creationdate="20201014T112452Z">
+        <seg>Org语法的正式描述。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5786,6 +5810,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Org files evaluate in-line code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112530Z" creationid="grass" creationdate="20201014T112530Z">
+        <seg>Org文件求值行内代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Org greatly simplifies the use of outlines by compressing the entire show and hide functionalities into a single command, &lt;c0&gt;org-cycle&lt;/c0&gt;, which is bound to the &lt;k1&gt;&lt;s2&gt;TAB&lt;/s2&gt;&lt;/k1&gt; key.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T165939Z" creationid="grass" creationdate="20201010T165335Z">
@@ -5954,6 +5986,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Overview of keywords.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112431Z" creationid="grass" creationdate="20201014T112431Z">
+        <seg>关键字概述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Packages that Org cooperates with</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053102Z" creationid="grass" creationdate="20201013T053032Z">
@@ -6102,6 +6142,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201923Z" creationid="grass" creationdate="20201010T201923Z">
         <seg>演示文稿和排序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Prevent Org from interpreting your writing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112507Z" creationid="grass" creationdate="20201014T112507Z">
+        <seg>阻止Org解释您的写作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6710,6 +6758,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195721Z" creationid="grass" creationdate="20201010T195721Z">
         <seg>无线电目标</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Read documentation about current syntax.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112458Z" creationid="grass" creationdate="20201014T112458Z">
+        <seg>阅读有关当前语法的文档。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8499,6 +8555,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When in doubt, press &lt;k0&gt;C-c C-c&lt;/k0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112408Z" creationid="grass" creationdate="20201014T112408Z">
+        <seg>如果有疑问，请按&lt;k0&gt;C-c C-c&lt;/k0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When one task needs to wait for others.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101511Z" creationid="grass" creationdate="20201014T101511Z">
@@ -8607,6 +8671,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T175257Z" creationid="grass" creationdate="20201010T175257Z">
         <seg>使用前缀参数，在每个级别上显示所有同级标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With other Emacs packages.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112554Z" creationid="grass" creationdate="20201014T112554Z">
+        <seg>与其他Emacs软件包一起使用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35231,6 +35303,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Code Evaluation Security&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112515Z" creationid="grass" creationdate="20201014T112515Z">
+        <seg>• &lt;a0&gt;代码求值安全性&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Column Groups&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100035Z" creationid="grass" creationdate="20201014T100035Z">
@@ -35391,6 +35471,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Documentation Access&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112456Z" creationid="grass" creationdate="20201014T112456Z">
+        <seg>• &lt;a0&gt;文档访问&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Drawers&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170610Z" creationid="grass" creationdate="20201010T170610Z">
@@ -35403,6 +35491,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100530Z" creationid="grass" creationdate="20201014T100455Z">
         <seg>• &lt;a0&gt;时间与时长&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Dynamic Headline Numbering&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112340Z" creationid="grass" creationdate="20201014T112340Z">
+        <seg>• &lt;a0&gt;动态标题编号&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35463,6 +35559,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Escape Character&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112501Z" creationid="grass" creationdate="20201014T112501Z">
+        <seg>• &lt;a0&gt;转义字符&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Evaluating Code Blocks&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111256Z" creationid="grass" creationdate="20201014T111256Z">
@@ -35475,6 +35579,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105739Z" creationid="grass" creationdate="20201014T105739Z">
         <seg>• &lt;a0&gt;LaTeX导出中的示例块&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Execute commands in the active region&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112316Z" creationid="grass" creationdate="20201014T112316Z">
+        <seg>• &lt;a0&gt;在活动区执行命令&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35799,6 +35911,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;In-buffer Settings&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112428Z" creationid="grass" creationdate="20201014T112428Z">
+        <seg>• &lt;a0&gt;缓冲区内设置&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Include Files&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104302Z" creationid="grass" creationdate="20201014T104302Z">
@@ -35843,6 +35963,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T084316Z" creationid="grass" creationdate="20200927T084248Z">
         <seg>• &lt;a0&gt;安装&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Interaction&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112550Z" creationid="grass" creationdate="20201014T112550Z">
+        <seg>• &lt;a0&gt;交互&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -36155,6 +36283,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100203Z" creationid="grass" creationdate="20201014T100203Z">
         <seg>• &lt;a0&gt;Org图表&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Org Syntax&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112439Z" creationid="grass" creationdate="20201014T112439Z">
+        <seg>• &lt;a0&gt;Org语法&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -36835,6 +36971,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100131Z" creationid="grass" creationdate="20201014T100131Z">
         <seg>• &lt;a0&gt;电子表格&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;The Very Busy &lt;k1&gt;C-c C-c&lt;/k1&gt; Key&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112403Z" creationid="grass" creationdate="20201014T112403Z">
+        <seg>• &lt;a0&gt;非常繁忙的&lt;k1&gt;C-c-c&lt;/k1&gt;键&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
