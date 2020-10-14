@@ -9091,6 +9091,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>a &lt;e0&gt;text search view&lt;/e0&gt; that shows all entries from multiple files that contain specified keywords,</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201014T145832Z" creationid="Eli" creationdate="20201014T145832Z">
+        <seg>&lt;e0&gt;text search view&lt;/e0&gt;能从多个文件查找包含关键字的全部条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>an &lt;e0&gt;agenda&lt;/e0&gt; that is like a calendar and shows information for specific dates,</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201014T145407Z" creationid="Eli" creationdate="20201014T145310Z">
