@@ -19,13 +19,13 @@ modify this GNU manual."
 
 <meta name="description" content="Org使用手册">
 <meta name="keywords" content="Org使用手册">
-<meta name="resource-type" content="document">
-<meta name="distribution" content="global">
+<meta name="resource-type" content="文档">
+<meta name="distribution" content="整体">
 <meta name="Generator" content="makeinfo">
-<link href="#Top" rel="start" title="Top">
-<link href="#Main-Index" rel="index" title="Main Index">
+<link href="#Top" rel="start" title="顶层">
+<link href="#Main-Index" rel="index" title="主索引">
 <link href="#SEC_Contents" rel="contents" title="目录">
-<link href="#Top" rel="up" title="(dir)">
+<link href="#Top" rel="up" title="#SEC_Contents">
 <style type="text/css">
 <!--
 a.summary-letter {text-decoration: none}
@@ -57,7 +57,7 @@ ul.no-bullet {list-style: none}
 
 </head>
 
-<body lang="en">
+<body lang="zh-CN">
 <h1 class="settitle" align="center">Org使用手册</h1>
 
 
@@ -86,7 +86,7 @@ ul.no-bullet {list-style: none}
       <li><a name="toc-Initial-visibility-1" href="#Initial-visibility">2.2.2初始可见性</a></li>
       <li><a name="toc-Catching-invisible-edits-1" href="#Catching-invisible-edits">2.2.3捕捉不可见的编辑</a></li>
     </ul></li>
-    <li><a name="toc-Motion-1" href="#Motion">2.3动作</a></li>
+    <li><a name="toc-Motion-1" href="#Motion">2.3移动</a></li>
     <li><a name="toc-Structure-Editing-1" href="#Structure-Editing">2.4结构编辑</a></li>
     <li><a name="toc-Sparse-Trees-1" href="#Sparse-Trees">2.5稀疏树</a></li>
     <li><a name="toc-Plain-Lists-1" href="#Plain-Lists">2.6普通列表</a></li>
@@ -197,7 +197,7 @@ ul.no-bullet {list-style: none}
   </ul></li>
   <li><a name="toc-Refiling-and-Archiving-1" href="#Refiling-and-Archiving">9 转接和归档</a>
   <ul class="no-bullet">
-    <li><a name="toc-Refile-and-Copy-1" href="#Refile-and-Copy">9.1转接和拷贝</a></li>
+    <li><a name="toc-Refile-and-Copy-1" href="#Refile-and-Copy">9.1转接与拷贝</a></li>
     <li><a name="toc-Archiving-1" href="#Archiving">9.2归档</a>
     <ul class="no-bullet">
       <li><a name="toc-Moving-a-tree-to-an-archive-file" href="#Moving-subtrees">9.2.1将树移动到归档文件</a></li>
@@ -494,7 +494,7 @@ ul.no-bullet {list-style: none}
 <p>版权所有©2004-2020自由软件基金会
 </p>
 <blockquote>
-<p>根据GNU自由文档许可证1.3版或自由软件基金会发布的任何更新版本的条款，允许复制、分发和/或修改本文档；没有固定章节，封面文本为“GNU手册”，封底文本如下(A)所示。该许可证的副本包含在标题为“GNU自由文档许可证”的部分中。
+<p>根据GNU自由文档许可证1.3版或自由软件基金会发布的任何更新版本的条款，允许复制、分发或修改本文档；没有固定章节，封面文本为“GNU手册”，封底文本如下(a)所示。该许可证的副本包含在标题为“GNU自由文档许可证”的部分中。
 </p>
 <p>(a) FSF的封底正文是：“您有复制和修改本GNU手册的自由。”
 </p>
@@ -553,7 +553,7 @@ ul.no-bullet {list-style: none}
 
 介绍
 
-</pre></th></tr><tr><td align="left" valign="top">• <a href="#Summary">概述</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Org的作用摘要。
+</pre></th></tr><tr><td align="left" valign="top">• <a href="#Summary">概述</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Org的功能概述。
 </td></tr>
 <tr><td align="left" valign="top">• <a href="#Installation">安装</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">安装 Org。
 </td></tr>
@@ -570,7 +570,7 @@ ul.no-bullet {list-style: none}
 </td></tr>
 <tr><td align="left" valign="top">• <a href="#Visibility-Cycling">可见性循环</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">显示和隐藏，非常简单。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Motion">动作</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">跳转到其它标题。
+<tr><td align="left" valign="top">• <a href="#Motion">移动</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">跳转到其它标题。
 </td></tr>
 <tr><td align="left" valign="top">• <a href="#Structure-Editing">结构编辑</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">改变标题的顺序和级别。
 </td></tr>
@@ -1254,7 +1254,7 @@ Org移动版
 </td></tr>
 <tr><td align="left" valign="top">• <a href="#A-LaTeX-example">LaTeX示例</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">一步一步，完整的教程。
 </td></tr>
-<tr><td align="left" valign="top">·<a href="#Translator-functions">转换器函数</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">复制并修改。
+<tr><td align="left" valign="top">• <a href="#Translator-functions">转换器函数</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">复制并修改。
 </td></tr>
 <tr><th colspan="3" align="left" valign="top"><pre class="menu-comment">
 </pre></th></tr></tbody></table>
@@ -1271,7 +1271,7 @@ Org移动版
 <a name="index-introduction"></a>
 
 <table class="menu" border="0" cellspacing="0">
-<tbody><tr><td align="left" valign="top">• <a href="#Summary" accesskey="1">概述</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Org的作用摘要。
+<tbody><tr><td align="left" valign="top">• <a href="#Summary" accesskey="1">概述</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Org的功能概述。
 </td></tr>
 <tr><td align="left" valign="top">• <a href="#Installation" accesskey="2">安装</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">安装 Org。
 </td></tr>
@@ -1312,7 +1312,7 @@ Org移动版
 <p>有一个用于Org的网站，该网站提供指向Org最新版本的链接，以及其他信息，常见问题解答（FAQ），教程链接等。此页面位于<a href="https://orgmode.org/">https://orgmode.org</a>.
 </p>
 <a name="index-print-edition"></a>
-<p>本手册的早期版本（7.3）可作为平装书从Network Theory Ltd获得。</a>.
+<p>本手册的早期版本（7.3）可作为<a href="http://www.network-theory.co.uk/org/manual/">平装书从Network Theory Ltd获得。</a>.
 </p>
 <hr>
 <a name="Installation"></a>
@@ -1343,7 +1343,7 @@ Org移动版
 <p>最新的Emacs发行版包括一个打包系统，可让您方便的安装Elisp库。输入命令 <kbd>M-x list-packages</kbd>，你便可以从“软件包清单”中安装Org。详情查阅<a href="http://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Package-Menu">(emacs)软件包清单</a>。
 </p>
 <blockquote>
-<p><b>重要提示:</b>你需要在未访问' <samp> .org &lt;/ s1&gt;'文件的会话（即未加载Org内置函数的会话）中执行此操作。否则，自动加载的Org函数会破坏安装操作。
+<p><b>重要提示:</b>你需要在未访问' <samp> .org </samp>'文件的会话（即未加载Org内置函数的会话）中执行此操作。否则，自动加载的Org函数会破坏安装操作。
 </p>
 </blockquote>
 
@@ -1378,11 +1378,11 @@ $ cd org-mode/
 $ make autoloads
 </pre></div>
 
-<p>请注意，在这种情况下，必须使用'<samp>make autoloads&lt;/ s0&gt;'：它在'<samp>org-version.el&lt;/ s1&gt;'中定义Org的版本，并在'<samp>org-loaddefs .el&lt;/ s2&gt;'中定义Org的自动加载。
+<p>请注意，在这种情况下，必须使用'<samp>make autoloads</samp>'：它在'<samp>org-version.el</samp>'中定义Org的版本，并在'<samp>org-loaddefs .el</samp>'中定义Org的自动加载。
 </p>
 <p>请记住按照上述方法添加正确的加载路径。
 </p>
-<p>你也可以使用'<samp>make&lt;/ s0&gt;'进行编译，使用'<samp>make doc&lt;/ s1&gt;'生成文档，使用'<samp>make config&lt;/ s2&gt;'创建本地配置，使用'<samp>make install&lt;/ s3&gt;'安装Org。请运行‘<samp>make help</samp>’ 来获得编译/安装选项的列表。
+<p>你也可以使用'<samp>make</samp>'进行编译，使用'<samp>make doc</samp>'生成文档，使用'<samp>make config</samp>'创建本地配置，使用'<samp>make install</samp>'安装Org。请运行‘<samp>make help</samp>’ 来获得编译/安装选项的列表。
 </p>
 <p>关于Org的构建系统的详细说明，请查看<a href="https://orgmode.org/worg/dev/org-build-system.html">Worg</a>上面的Org构建系统页面。
 </p>
@@ -1401,7 +1401,7 @@ $ make autoloads
 <a name="index-global-key-bindings"></a>
 <a name="index-key-bindings_002c-global"></a>
 
-<p>Org模式缓冲区需要打开字体锁定，这是Emacs中的默认设置
+<p>Org模式缓冲区需要打开字体锁定，这是Emacs中的默认设置s<a name="DOCF1" href="#FOOT1"><sup>1</sup></a>。
 </p>
 <p>Org模式与某些其他Elisp软件包之间存在兼容性问题（请参见<a href="#Conflicts">冲突</a>）。请花一些时间检查这个列表。
 </p>
@@ -1581,7 +1581,7 @@ $ make autoloads
 </td></tr>
 <tr><td align="left" valign="top">• <a href="#Visibility-Cycling" accesskey="2">可见性循环</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">显示和隐藏，非常简单。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Motion" accesskey="3">动作</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">跳转到其它标题。
+<tr><td align="left" valign="top">• <a href="#Motion" accesskey="3">移动</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">跳转到其它标题。
 </td></tr>
 <tr><td align="left" valign="top">• <a href="#Structure-Editing" accesskey="4">结构编辑</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">改变标题的顺序和级别。
 </td></tr>
@@ -1636,7 +1636,7 @@ $ make autoloads
 <a name="Visibility-Cycling"></a>
 <div class="header">
 <p>
-下一页: <a href="#Motion" accesskey="n" rel="next">动作</a>, 上一页: <a href="#Headlines" accesskey="p" rel="prev">标题</a>, 返回: <a href="#Document-Structure" accesskey="u" rel="up">文档结构</a> &nbsp; [<a href="#SEC_Contents" title="目录" rel="contents">目录</a>][<a href="#Main-Index" title="主索引" rel="index">索引</a>]</p>
+下一页: <a href="#Motion" accesskey="n" rel="next">移动</a>, 上一页: <a href="#Headlines" accesskey="p" rel="prev">标题</a>, 返回: <a href="#Document-Structure" accesskey="u" rel="up">文档结构</a> &nbsp; [<a href="#SEC_Contents" title="目录" rel="contents">目录</a>][<a href="#Main-Index" title="主索引" rel="index">索引</a>]</p>
 </div>
 <a name="Visibility-Cycling-1"></a>
 <h3 class="section">2.2可见性循环</h3>
@@ -1710,7 +1710,7 @@ $ make autoloads
 <p>请注意，在表格中(请参阅<a href="#Tables">表格</a>)，<kbd>S-<span class="key">TAB</span></kbd>会跳转到上一个字段。
 </p>
 <a name="index-org_002dcycle_002dglobal_002dat_002dbob"></a>
-<p>您可以使用<kbd>TAB</span></kbd>运行全局循环，前提是光标位于缓冲区的最开始处，而不是在标题上，并且<code>org-cycle-global-at-bob</code>设置为非<code>nil</code>值。
+<p>您可以使用<kbd><span class="key">TAB</span></kbd>运行全局循环，前提是光标位于缓冲区的最开始处，而不是在标题上，并且<code>org-cycle-global-at-bob</code>设置为非<code>nil</code>值。
 </p>
 </dd>
 <dt><kbd>C-u C-u <span class="key">TAB</span></kbd> (<code>org-set-startup-visibility</code>)</dt>
@@ -1810,83 +1810,73 @@ $ make autoloads
 <a name="Motion"></a>
 <div class="header">
 <p>
-下一页: <a href="#Structure-Editing" accesskey="n" rel="next">Structure Editing</a>, 上一页: <a href="#Visibility-Cycling" accesskey="p" rel="prev">Visibility Cycling</a>, 返回: <a href="#Document-Structure" accesskey="u" rel="up">Document Structure</a> &nbsp; [<a href="#SEC_Contents" title="目录" rel="contents">目录</a>][<a href="#Main-Index" title="主索引" rel="index">索引</a>]</p>
+下一页: <a href="#Structure-Editing" accesskey="n" rel="next">结构编辑</a>, 上一页: <a href="#Visibility-Cycling" accesskey="p" rel="prev">可见性循环</a>, 返回: <a href="#Document-Structure" accesskey="u" rel="up">文档结构</a> &nbsp; [<a href="#SEC_Contents" title="目录" rel="contents">目录</a>][<a href="#Main-Index" title="主索引" rel="index">索引</a>]</p>
 </div>
 <a name="Motion-1"></a>
-<h3 class="section">2.3动作</h3>
+<h3 class="section">2.3移动</h3>
 
 <a name="index-motion_002c-between-headlines"></a>
 <a name="index-jumping_002c-to-headlines"></a>
 <a name="index-headline-navigation"></a>
 
-<p>The following commands jump to other headlines in the buffer.
-
+<p>以下命令跳转到缓冲区中的其他标题。
 </p>
 <dl compact="compact">
 <dt><kbd>C-c C-n</kbd> (<code>org-next-visible-heading</code>)</dt>
 <dd><a name="index-C_002dc-C_002dn"></a>
 <a name="index-org_002dnext_002dvisible_002dheading"></a>
-<p>Next heading.
-
+<p>下一个标题。
 </p>
 </dd>
 <dt><kbd>C-c C-p</kbd> (<code>org-previous-visible-heading</code>)</dt>
 <dd><a name="index-C_002dc-C_002dp"></a>
 <a name="index-org_002dprevious_002dvisible_002dheading"></a>
-<p>Previous heading.
-
+<p>上一个标题。
 </p>
 </dd>
 <dt><kbd>C-c C-f</kbd> (<code>org-forward-heading-same-level</code>)</dt>
 <dd><a name="index-C_002dc-C_002df"></a>
 <a name="index-org_002dforward_002dheading_002dsame_002dlevel"></a>
-<p>Next heading same level.
-
+<p>下一个同级标题。
 </p>
 </dd>
 <dt><kbd>C-c C-b</kbd> (<code>org-backward-heading-same-level</code>)</dt>
 <dd><a name="index-C_002dc-C_002db"></a>
 <a name="index-org_002dbackward_002dheading_002dsame_002dlevel"></a>
-<p>Previous heading same level.
-
+<p>上一个同级标题。
 </p>
 </dd>
 <dt><kbd>C-c C-u</kbd> (<code>outline-up-heading</code>)</dt>
 <dd><a name="index-C_002dc-C_002du"></a>
 <a name="index-outline_002dup_002dheading"></a>
-<p>Backward to higher level heading.
-
+<p>跳回到更高级别的标题
 </p>
 </dd>
 <dt><kbd>C-c C-j</kbd> (<code>org-goto</code>)</dt>
 <dd><a name="index-C_002dc-C_002dj"></a>
 <a name="index-org_002dgoto"></a>
 <a name="index-org_002dgoto_002dauto_002disearch"></a>
-<p>Jump to a different place without changing the current outline
-visibility.  Shows the document structure in a temporary buffer,
-where you can use the following keys to find your destination:
-
+<p>在不更改当前大纲可见性的情况下跳到其他位置。显示在临时缓冲区中的文档结构，您可以在其中使用以下键查找目标：
 </p>
 <table>
-<tbody><tr><td width="30%"><kbd><span class="key">TAB</span></kbd></td><td width="70%">Cycle visibility.</td></tr>
-<tr><td width="30%"><kbd><span class="key">DOWN</span></kbd> / <kbd><span class="key">UP</span></kbd></td><td width="70%">Next/previous visible headline.</td></tr>
-<tr><td width="30%"><kbd><span class="key">RET</span></kbd></td><td width="70%">Select this location.</td></tr>
-<tr><td width="30%"><kbd>/</kbd></td><td width="70%">Do a Sparse-tree search</td></tr>
+<tbody><tr><td width="30%"><kbd><span class="key">TAB</span></kbd></td><td width="70%">可见性循环。</td></tr>
+<tr><td width="30%"><kbd><span class="key">DOWN</span></kbd> / <kbd><span class="key">UP</span></kbd></td><td width="70%">下一个/上一个可见标题。</td></tr>
+<tr><td width="30%"><kbd><span class="key">RET</span></kbd></td><td width="70%">选择此位置。</td></tr>
+<tr><td width="30%"><kbd>/</kbd></td><td width="70%">执行稀疏树搜索</td></tr>
 </tbody></table>
 
-<p>The following keys work if you turn off <code>org-goto-auto-isearch</code>
+<p>如果关闭<code>org-goto-auto-isearch</code>，则以下键起作用
 </p>
 <table>
-<tbody><tr><td width="30%"><kbd>n</kbd> / <kbd>p</kbd></td><td width="70%">Next/previous visible headline.</td></tr>
-<tr><td width="30%"><kbd>f</kbd> / <kbd>b</kbd></td><td width="70%">Next/previous headline same level.</td></tr>
-<tr><td width="30%"><kbd>u</kbd></td><td width="70%">One level up.</td></tr>
-<tr><td width="30%"><kbd>0</kbd> … <kbd>9</kbd></td><td width="70%">Digit argument.</td></tr>
-<tr><td width="30%"><kbd>q</kbd></td><td width="70%">Quit.</td></tr>
+<tbody><tr><td width="30%"><kbd>n</kbd> / <kbd>p</kbd></td><td width="70%">下一个/上一个可见标题。</td></tr>
+<tr><td width="30%"><kbd>f</kbd> / <kbd>b</kbd></td><td width="70%">下一个/上一个同级标题。</td></tr>
+<tr><td width="30%"><kbd>u</kbd></td><td width="70%">往上一级。</td></tr>
+<tr><td width="30%"><kbd>0</kbd> … <kbd>9</kbd></td><td width="70%">数字参数。</td></tr>
+<tr><td width="30%"><kbd>q</kbd></td><td width="70%">退出。</td></tr>
 </tbody></table>
 
 <a name="index-org_002dgoto_002dinterface"></a>
-<p>See also the variable <code>org-goto-interface</code>.
-
+<p>另请参阅变量<code>org-goto-interface</code>。
 </p></dd>
 </dl>
 
@@ -1894,7 +1884,7 @@ where you can use the following keys to find your destination:
 <a name="Structure-Editing"></a>
 <div class="header">
 <p>
-下一页: <a href="#Sparse-Trees" accesskey="n" rel="next">Sparse Trees</a>, 上一页: <a href="#Motion" accesskey="p" rel="prev">Motion</a>, 返回: <a href="#Document-Structure" accesskey="u" rel="up">Document Structure</a> &nbsp; [<a href="#SEC_Contents" title="目录" rel="contents">目录</a>][<a href="#Main-Index" title="主索引" rel="index">索引</a>]</p>
+下一页: <a href="#Sparse-Trees" accesskey="n" rel="next">S稀疏树</a>, 上一页: <a href="#Motion" accesskey="p" rel="prev">移动</a>, 返回: <a href="#Document-Structure" accesskey="u" rel="up">文档结构</a> &nbsp; [<a href="#SEC_Contents" title="目录" rel="contents">目录</a>][<a href="#Main-Index" title="主索引" rel="index">索引</a>]</p>
 </div>
 <a name="Structure-Editing-1"></a>
 <h3 class="section">2.4结构编辑</h3>
@@ -1915,62 +1905,38 @@ where you can use the following keys to find your destination:
 <dd><a name="index-M_002dRET"></a>
 <a name="index-org_002dmeta_002dreturn"></a>
 <a name="index-org_002dM_002dRET_002dmay_002dsplit_002dline"></a>
-<p>Insert a new heading, item or row.
-
+<p>插入新标题、项或行。
 </p>
-<p>If the command is used at the <em>beginning</em> of a line, and if there is
-a heading or a plain list item (see <a href="#Plain-Lists">Plain Lists</a>) at point, the new
-heading/item is created <em>before</em> the current line.  When used at the
-beginning of a regular line of text, turn that line into a heading.
-
+<p>如果在行的<em>开头</em>处使用该命令，并且在光标处有标题或普通列表项(请参阅<a href="#Plain-Lists">普通列表</a>)，则在<em>当前行之前创建新的标题/项。在常规文本行的开头使用时，会将该行转换为标题。
 </p>
-<p>When this command is used in the middle of a line, the line is split
-and the rest of the line becomes the new item or headline.  If you
-do not want the line to be split, customize
-<code>org-M-RET-may-split-line</code>.
-
+<p>当在行中间使用此命令时，该行将被拆分，该行的剩余部分将成为新项或标题。如果不想拆分该行，请自定义<code>org-M-ret-May-plit-line</code>。
 </p>
-<p>Calling the command with a <kbd>C-u</kbd> prefix unconditionally
-inserts a new heading at the end of the current subtree, thus
-preserving its contents.  With a double <kbd>C-u C-u</kbd> prefix,
-the new heading is created at the end of the parent subtree instead.
-
+<p>无条件地调用带有<kbd>C-u</kbd>前缀的命令会在当前子树的末尾插入一个新标题，从而保留其内容。使用双<kbd>C-u C-u</kbd>前缀，将在父子树的末尾创建新标题。
 </p>
 </dd>
 <dt><kbd>C-<span class="key">RET</span></kbd> (<code>org-insert-heading-respect-content</code>)</dt>
 <dd><a name="index-C_002dRET"></a>
 <a name="index-org_002dinsert_002dheading_002drespect_002dcontent"></a>
-<p>Insert a new heading at the end of the current subtree.
-
+<p>在当前子树的末尾插入新标题。
 </p>
 </dd>
 <dt><kbd>M-S-<span class="key">RET</span></kbd> (<code>org-insert-todo-heading</code>)</dt>
 <dd><a name="index-M_002dS_002dRET"></a>
 <a name="index-org_002dinsert_002dtodo_002dheading"></a>
 <a name="index-org_002dtreat_002dinsert_002dtodo_002dheading_002das_002dstate_002dchange"></a>
-<p>Insert new TODO entry with same level as current heading.  See also
-the variable <code>org-treat-insert-todo-heading-as-state-change</code>.
-
+<p>插入与当前标题级别相同的新TODO条目。另请参阅变量<code>org-treat-insert-todo-heading-as-state-change</code>.
 </p>
 </dd>
 <dt><kbd>C-S-<span class="key">RET</span></kbd> (<code>org-insert-todo-heading-respect-content</code>)</dt>
 <dd><a name="index-C_002dS_002dRET"></a>
 <a name="index-org_002dinsert_002dtodo_002dheading_002drespect_002dcontent"></a>
-<p>Insert new TODO entry with same level as current heading.  Like
-<kbd>C-<span class="key">RET</span></kbd>, the new headline is inserted after the current
-subtree.
-
+<p>插入与当前标题级别相同的新TODO条目。与<kbd>C-<span class="key">ret</span></kbd>类似，新标题插入到当前子树之后。
 </p>
 </dd>
 <dt><kbd><span class="key">TAB</span></kbd> (<code>org-cycle</code>)</dt>
 <dd><a name="index-TAB-1"></a>
 <a name="index-org_002dcycle-1"></a>
-<p>In a new entry with no text yet, the first <kbd><span class="key">TAB</span></kbd> demotes
-the entry to become a child of the previous one.  The next
-<kbd><span class="key">TAB</span></kbd> makes it a parent, and so on, all the way to top
-level.  Yet another <kbd><span class="key">TAB</span></kbd>, and you are back to the initial
-level.
-
+<p>在还没有文本的新条目中，第一次<kbd><span class="key">TAB</span></kbd>将该条目降级为前一个条目的子项。下一次<kbd><span class="key">TAB</span></kbd>使其成为父级，依此类推，一直到顶层。再来一次<kbd><span class="key">Tab</span></kbd>，您将返回到初始级别。
 </p>
 </dd>
 <dt><kbd>M-<span class="key">LEFT</span></kbd> (<code>org-do-promote</code>)</dt>
@@ -1979,81 +1945,60 @@ level.
 <a name="index-org_002ddo_002dpromote"></a>
 <a name="index-M_002dRIGHT"></a>
 <a name="index-org_002ddo_002ddemote"></a>
-<p>Promote or demote current heading by one level.
-
+<p>将当前标题提升或降低一个级别。
 </p>
 <a name="index-region_002c-active"></a>
 <a name="index-active-region"></a>
 <a name="index-transient-mark-mode"></a>
-<p>When there is an active region—i.e., when Transient Mark mode is
-active—promotion and demotion work on all headlines in the region.
-To select a region of headlines, it is best to place both point and
-mark at the beginning of a line, mark at the beginning of the first
-headline, and point at the line just after the last headline to
-change.
-
+<p>当存在活动区域时-即，当瞬变标记模式处于活动状态时-该区域中的所有标题都会执行升级和降级。要选择标题区域，最好将光标和标记同时放置在行的开头，标记在第一个标题的开头，然后指向要更改的最后一个标题之后的行。
 </p>
 </dd>
 <dt><kbd>M-S-<span class="key">LEFT</span></kbd> (<code>org-promote-subtree</code>)</dt>
 <dd><a name="index-M_002dS_002dLEFT"></a>
 <a name="index-org_002dpromote_002dsubtree"></a>
-<p>Promote the current subtree by one level.
-
+<p>将当前子树提升一个级别。
 </p>
 </dd>
 <dt><kbd>M-S-<span class="key">RIGHT</span></kbd> (<code>org-demote-subtree</code>)</dt>
 <dd><a name="index-M_002dS_002dRIGHT"></a>
 <a name="index-org_002ddemote_002dsubtree"></a>
-<p>Demote the current subtree by one level.
-
+<p>将当前子树降低一个级别。
 </p>
 </dd>
 <dt><kbd>M-<span class="key">UP</span></kbd> (<code>org-move-subtree-up</code>)</dt>
 <dd><a name="index-M_002dUP"></a>
 <a name="index-org_002dmove_002dsubtree_002dup"></a>
-<p>Move subtree up, i.e., swap with previous subtree of same level.
-
+<p>上移子树，即与同级的上一个子树互换。
 </p>
 </dd>
 <dt><kbd>M-<span class="key">DOWN</span></kbd> (<code>org-move-subtree-down</code>)</dt>
 <dd><a name="index-M_002dDOWN"></a>
 <a name="index-org_002dmove_002dsubtree_002ddown"></a>
-<p>Move subtree down, i.e., swap with next subtree of same level.
-
+<p>下移子树，即与同级的下一个子树互换。
 </p>
 </dd>
 <dt><kbd>C-c @</kbd> (<code>org-mark-subtree</code>)</dt>
 <dd><a name="index-C_002dc-_0040"></a>
 <a name="index-org_002dmark_002dsubtree"></a>
-<p>Mark the subtree at point.  Hitting repeatedly marks subsequent
-subtrees of the same level as the marked subtree.
-
+<p>在光标位置标记该子树。重复执行标记命令将会标记的与该子树相同级别的后续子树。
 </p>
 </dd>
 <dt><kbd>C-c C-x C-w</kbd> (<code>org-cut-subtree</code>)</dt>
 <dd><a name="index-C_002dc-C_002dx-C_002dw"></a>
 <a name="index-org_002dcut_002dsubtree"></a>
-<p>Kill subtree, i.e., remove it from buffer but save in kill ring.
-With a numeric prefix argument N, kill N sequential subtrees.
-
+<p>删除子树，即将其从缓冲区中移除，但保存在剪切板中。使用数字前缀参数N，删除N个连续的子树。
 </p>
 </dd>
 <dt><kbd>C-c C-x M-w</kbd> (<code>org-copy-subtree</code>)</dt>
 <dd><a name="index-C_002dc-C_002dx-M_002dw"></a>
 <a name="index-org_002dcopy_002dsubtree"></a>
-<p>Copy subtree to kill ring.  With a numeric prefix argument N, copy
-the N sequential subtrees.
-
+<p>将子树复制到剪切板。使用数字前缀参数N复制N个连续子树。
 </p>
 </dd>
 <dt><kbd>C-c C-x C-y</kbd> (<code>org-paste-subtree</code>)</dt>
 <dd><a name="index-C_002dc-C_002dx-C_002dy"></a>
 <a name="index-org_002dpaste_002dsubtree"></a>
-<p>Yank subtree from kill ring.  This does modify the level of the
-subtree to make sure the tree fits in nicely at the yank position.
-The yank level can also be specified with a numeric prefix argument,
-or by yanking after a headline marker like ‘<samp>****</samp>’.
-
+<p>从剪切板上粘贴一棵子树。这会修改子树的级别，以确保树很好地适应在所粘贴的位置。粘贴时的级别也可以使用数字前缀参数指定，或者通过粘贴标题标记(如“<samp>****</samp>”)来指定。
 </p>
 </dd>
 <dt><kbd>C-y</kbd> (<code>org-yank</code>)</dt>
@@ -2061,97 +2006,59 @@ or by yanking after a headline marker like ‘<samp>****</samp>’.
 <a name="index-org_002dyank"></a>
 <a name="index-org_002dyank_002dadjusted_002dsubtrees"></a>
 <a name="index-org_002dyank_002dfolded_002dsubtrees"></a>
-<p>Depending on the variables <code>org-yank-adjusted-subtrees</code> and
-<code>org-yank-folded-subtrees</code>, Org’s internal <code>yank</code> command pastes
-subtrees folded and in a clever way, using the same command as
-<kbd>C-c C-x C-y</kbd>.  With the default settings, no level
-adjustment takes place, but the yanked tree is folded unless doing
-so would swallow text previously visible.  Any prefix argument to
-this command forces a normal <code>yank</code> to be executed, with the prefix
-passed along.  A good way to force a normal yank is <kbd>C-u C-y</kbd>.  If you use <code>yank-pop</code> after a yank, it yanks previous kill
-items plainly, without adjustment and folding.
-
+<p>根据变量<code>org-yank-adjusted-subtree</code>和<code>org-yank-folded-subtree</code>的不同，Org的内部<code>yank</code>命令使用与<kbd>C-c-x C-y</kbd>相同的命令巧妙地粘贴折叠的子树。使用默认设置时，不会进行任何级别调整，但会折叠粘贴的树，除非这样做会吞噬以前可见的文本。此命令的任何前缀参数都强制执行正常的<code>粘贴</code>操作，并传递前缀。强制执行一个普通粘贴的一个好方法是<kbd>C-u C-y</kbd>。如果在在一次粘贴之后使用<code>yank-pop</code>，它会简单的粘贴之前的内容，不会调整和折叠。
 </p>
 </dd>
 <dt><kbd>C-c C-x c</kbd> (<code>org-clone-subtree-with-time-shift</code>)</dt>
 <dd><a name="index-C_002dc-C_002dx-c"></a>
 <a name="index-org_002dclone_002dsubtree_002dwith_002dtime_002dshift"></a>
-<p>Clone a subtree by making a number of sibling copies of it.  You are
-prompted for the number of copies to make, and you can also specify
-if any timestamps in the entry should be shifted.  This can be
-useful, for example, to create a number of tasks related to a series
-of lectures to prepare.  For more details, see the docstring of the
-command <code>org-clone-subtree-with-time-shift</code>.
-
+<p>通过制作多个同级副本来克隆子树。系统会提示您输入要制作的副本数量，您还可以指定条目中的任何时间戳是否应该移位。例如，这对于创建与要准备的一系列讲座相关的多个任务非常有用。有关更多详细信息，请参阅命令<code>org-clone-subtree-with-time-Shift</code>的文档说明。
 </p>
 </dd>
 <dt><kbd>C-c C-w</kbd> (<code>org-refile</code>)</dt>
 <dd><a name="index-C_002dc-C_002dw"></a>
 <a name="index-org_002drefile"></a>
-<p>Refile entry or region to a different location.  See <a href="#Refile-and-Copy">Refile and Copy</a>.
-
+<p>将条目或区域转接到其他位置。请参阅<a href="#Refile-and-Copy">转接和复制</a>。
 </p>
 </dd>
 <dt><kbd>C-c ^</kbd> (<code>org-sort</code>)</dt>
 <dd><a name="index-C_002dc-_005e"></a>
 <a name="index-org_002dsort"></a>
-<p>Sort same-level entries.  When there is an active region, all
-entries in the region are sorted.  Otherwise the children of the
-current headline are sorted.  The command prompts for the sorting
-method, which can be alphabetically, numerically, by time—first
-timestamp with active preferred, creation time, scheduled time,
-deadline time—by priority, by TODO keyword—in the sequence the
-keywords have been defined in the setup—or by the value of
-a property.  Reverse sorting is possible as well.  You can also
-supply your own function to extract the sorting key.  With
-a <kbd>C-u</kbd> prefix, sorting is case-sensitive.
-
+<p>对同级条目进行排序。当存在活动区域时，将对该区域中的所有条目进行排序。否则，对当前标题的子项进行排序。该命令提示您输入排序方法，该方法可以按字母顺序、数字顺序，也可以首次有效时间戳、创建时间、计划时间、截止日期时间排序，同样也可以按优先级、按TODO关键字（按照关键字在设置中定义的顺序）或按属性的值进行排序。反向排序也是可能的。您还可以提供自己的函数来提取排序关键字。使用<kbd>C-u</kbd>前缀，排序区分大小写。
 </p>
 </dd>
 <dt><kbd>C-x n s</kbd> (<code>org-narrow-to-subtree</code>)</dt>
 <dd><a name="index-C_002dx-n-s"></a>
 <a name="index-org_002dnarrow_002dto_002dsubtree"></a>
-<p>Narrow buffer to current subtree.
-
+<p>将缓冲区聚焦到当前子树
 </p>
 </dd>
 <dt><kbd>C-x n b</kbd> (<code>org-narrow-to-block</code>)</dt>
 <dd><a name="index-C_002dx-n-b"></a>
 <a name="index-org_002dnarrow_002dto_002dblock"></a>
-<p>Narrow buffer to current block.
-
+<p>将缓冲区聚焦到当前块。
 </p>
 </dd>
 <dt><kbd>C-x n w</kbd> (<code>widen</code>)</dt>
 <dd><a name="index-C_002dx-n-w"></a>
 <a name="index-widen"></a>
-<p>Widen buffer to remove narrowing.
-
+<p>扩大缓冲区以取消聚焦。
 </p>
 </dd>
 <dt><kbd>C-c *</kbd> (<code>org-toggle-heading</code>)</dt>
 <dd><a name="index-C_002dc-_002a"></a>
 <a name="index-org_002dtoggle_002dheading"></a>
-<p>Turn a normal line or plain list item into a headline—so that it
-becomes a subheading at its location.  Also turn a headline into
-a normal line by removing the stars.  If there is an active region,
-turn all lines in the region into headlines.  If the first line in
-the region was an item, turn only the item lines into headlines.
-Finally, if the first line is a headline, remove the stars from all
-headlines in the region.
-
+<p>将普通行或普通列表项转换为标题-使其在其所在位置成为副标题。还可以通过去掉星号来将标题转换为正常行。如果存在活动区域，会将该区域中的所有行都变成标题。如果区域中的第一行是列表项，则仅将列表项行变为标题。最后，如果第一行是标题，则从该区域的所有标题中删除星号。
 </p></dd>
 </dl>
 
-<p>Note that when point is inside a table (see <a href="#Tables">Tables</a>), the Meta-Cursor
-keys have different functionality.
-
+<p>请注意，当光标位于表格中时(请参见<a href="#Tables">表格</a>)，Meta修饰标键具有不同的功能。
 </p>
 <hr>
 <a name="Sparse-Trees"></a>
 <div class="header">
 <p>
-下一页: <a href="#Plain-Lists" accesskey="n" rel="next">Plain Lists</a>, 上一页: <a href="#Structure-Editing" accesskey="p" rel="prev">Structure Editing</a>, 返回: <a href="#Document-Structure" accesskey="u" rel="up">Document Structure</a> &nbsp; [<a href="#SEC_Contents" title="目录" rel="contents">目录</a>][<a href="#Main-Index" title="主索引" rel="index">索引</a>]</p>
+下一页: <a href="#Plain-Lists" accesskey="n" rel="next">普通列表</a>, 上一页: <a href="#Structure-Editing" accesskey="p" rel="prev">结构编辑</a>, 返回: <a href="#Document-Structure" accesskey="u" rel="up">文档结构</a> &nbsp; [<a href="#SEC_Contents" title="目录" rel="contents">目录</a>][<a href="#Main-Index" title="主索引" rel="index">索引</a>]</p>
 </div>
 <a name="Sparse-Trees-1"></a>
 <h3 class="section">2.5稀疏树</h3>
@@ -9788,7 +9695,7 @@ mode line.
 下一页: <a href="#Archiving" accesskey="n" rel="next">归档</a>, 返回: <a href="#Refiling-and-Archiving" accesskey="u" rel="up">转接和归档</a> &nbsp; [<a href="#SEC_Contents" title="目录" rel="contents">目录</a>][<a href="#Main-Index" title="主索引" rel="index">索引</a>]</p>
 </div>
 <a name="Refile-and-Copy-1"></a>
-<h3 class="section">9.1转接和拷贝</h3>
+<h3 class="section">9.1转接与拷贝</h3>
 
 <a name="index-refiling-notes-1"></a>
 <a name="index-copying-notes-1"></a>
@@ -12683,7 +12590,7 @@ the other commands, point needs to be in the desired line.
 
 </p>
 <a name="Motion-_00281_0029"></a><a name="Motion-2"></a>
-<h4 class="subheading">动作</h4>
+<h4 class="subheading">移动</h4>
 
 <a name="index-motion-commands-in-agenda"></a>
 
@@ -13068,8 +12975,7 @@ argument, drag forward by that many lines.
 
 <dl compact="compact">
 <dt><kbd>0--9</kbd></dt>
-<dd><p>Digit argument.
-
+<dd><p>数字参数。
 </p>
 </dd>
 <dt><kbd>C-_</kbd> (<code>org-agenda-undo</code>)</dt>
@@ -25977,7 +25883,7 @@ best.
 </td></tr>
 <tr><td align="left" valign="top">• <a href="#A-LaTeX-example" accesskey="2">LaTeX示例</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">一步一步，完整的教程。
 </td></tr>
-<tr><td align="left" valign="top">·<a href="#Translator-functions" accesskey="3">转换器函数</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">复制并修改。
+<tr><td align="left" valign="top">• <a href="#Translator-functions" accesskey="3">转换器函数</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">复制并修改。
 </td></tr>
 </tbody></table>
 
@@ -28436,7 +28342,7 @@ permit their use in free software.
 <tr><td></td><td valign="top"><a href="#index-COOKIE_005fDATA_002c-property-1">‘<samp>COOKIE_DATA</samp>’, property</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Checkboxes">复选框</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-coordinates_002c-of-field">coordinates, of field</a>:</td><td>&nbsp;</td><td valign="top"><a href="#References">参考文献</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-copying-notes">copying notes</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refiling-and-Archiving">转接和归档</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-copying-notes-1">copying notes</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-copying-notes-1">copying notes</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-copying_002c-of-subtrees">copying, of subtrees</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Structure-Editing">结构编辑</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-COPYING_002c-property">‘<samp>COPYING</samp>’, property</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Texinfo-title-and-copyright-page">Texinfo标题和版权页面</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-countdown-timer">countdown timer</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Timers">Timers</a></td></tr>
@@ -28616,7 +28522,7 @@ permit their use in free software.
 <tr><td></td><td valign="top"><a href="#index-header_002c-for-LaTeX-files">header, for LaTeX files</a>:</td><td>&nbsp;</td><td valign="top"><a href="#LaTeX-header-and-sectioning">LaTeX header and sectioning</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-HEADER_002c-keyword">‘<samp>HEADER</samp>’, keyword</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Using-Header-Arguments">使用标头参数</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-headers_002c-in-code-blocks">headers, in code blocks</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Environment-of-a-Code-Block">代号块的环境</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-headline-navigation">headline navigation</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">动作</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-headline-navigation">headline navigation</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">移动</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-headline-tagging">headline tagging</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Tags">标签</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-headline_002c-promotion-and-demotion">headline, promotion and demotion</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Structure-Editing">结构编辑</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-headlines">headlines</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Headlines">标题</a></td></tr>
@@ -28702,7 +28608,7 @@ permit their use in free software.
 <tr><td></td><td valign="top"><a href="#index-ITEM_002c-special-property">‘<samp>ITEM</samp>’, special property</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Special-Properties">特殊属性</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
 <tr><th><a name="Main-Index_cp_letter-J">J</a></th><td></td><td></td></tr>
-<tr><td></td><td valign="top"><a href="#index-jumping_002c-to-headlines">jumping, to headlines</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">动作</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-jumping_002c-to-headlines">jumping, to headlines</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">移动</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
 <tr><th><a name="Main-Index_cp_letter-K">K</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-key-bindings_002c-global">key bindings, global</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Activation">激活</a></td></tr>
@@ -28805,7 +28711,7 @@ permit their use in free software.
 <tr><td></td><td valign="top"><a href="#index-mode_002c-for-Calc">mode, for Calc</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Formula-syntax-for-Calc">可计算的公式语法</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-modification_002dtime_002c-macro">‘<samp>modification-time</samp>’, macro</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Macro-Replacement">宏置换</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-motion-commands-in-agenda">motion commands in agenda</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Agenda-Commands">Agenda Commands</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-motion_002c-between-headlines">motion, between headlines</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">动作</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-motion_002c-between-headlines">motion, between headlines</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">移动</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-multiple-formula-lines">multiple formula lines</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Editing-and-debugging-formulas">编辑和调试公式</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-multiple-items-in-Texinfo-lists">multiple items in Texinfo lists</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Plain-lists-in-Texinfo-export">Texinfo导出中的普通列表</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
@@ -28929,7 +28835,7 @@ permit their use in free software.
 <tr><td></td><td valign="top"><a href="#index-references_002c-to-fields">references, to fields</a>:</td><td>&nbsp;</td><td valign="top"><a href="#References">参考文献</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-references_002c-to-ranges">references, to ranges</a>:</td><td>&nbsp;</td><td valign="top"><a href="#References">参考文献</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-refiling-notes">refiling notes</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refiling-and-Archiving">转接和归档</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-refiling-notes-1">refiling notes</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-refiling-notes-1">refiling notes</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-refresh-set_002dup">refresh set-up</a>:</td><td>&nbsp;</td><td valign="top"><a href="#In_002dbuffer-Settings">In-buffer Settings</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-region_002c-active">region, active</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Structure-Editing">结构编辑</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-regular-expressions_002c-with-tags-search">regular expressions, with tags search</a>:</td><td>&nbsp;</td><td valign="top"><a href="#Matching-tags-and-properties">匹配标签和属性</a></td></tr>
@@ -29479,9 +29385,9 @@ permit their use in free software.
 <tr><td></td><td valign="top"><a href="#index-C_002d_0027"><code>C-'</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Agenda-Files">议程文件</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002d_002c"><code>C-,</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Agenda-Files">议程文件</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002d_002e"><code>C-.</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-date_002ftime-prompt">日期/时间提示</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-C_002d0-C_002dc-C_002dw"><code>C-0 C-c C-w</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-C_002d2-C_002dc-C_002dw"><code>C-2 C-c C-w</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-C_002d3-C_002dc-C_002dw"><code>C-3 C-c C-w</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-C_002d0-C_002dc-C_002dw"><code>C-0 C-c C-w</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-C_002d2-C_002dc-C_002dw"><code>C-2 C-c C-w</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-C_002d3-C_002dc-C_002dw"><code>C-3 C-c C-w</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-_0021"><code>C-c !</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Creating-Timestamps">创建时间戳</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-_0023"><code>C-c #</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Checkboxes">复选框</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-_0024"><code>C-c $</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Moving-subtrees">Moving subtrees</a></td></tr>
@@ -29537,7 +29443,7 @@ permit their use in free software.
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002da-s"><code>C-c C-a s</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Attachment-defaults-and-dispatcher">附件默认值和调度程序</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002da-S"><code>C-c C-a S</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Attachment-defaults-and-dispatcher">附件默认值和调度程序</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002da-z"><code>C-c C-a z</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Attachment-defaults-and-dispatcher">附件默认值和调度程序</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-C_002dc-C_002db"><code>C-c C-b</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">动作</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-C_002dc-C_002db"><code>C-c C-b</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">移动</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002db-1"><code>C-c C-b</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Editing-support">编辑支持</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dc"><code>C-c C-c</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Plain-Lists">普通列表</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dc-1"><code>C-c C-c</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Built_002din-Table-Editor">内置表格编辑器</a></td></tr>
@@ -29605,18 +29511,18 @@ permit their use in free software.
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002de-t-L"><code>C-c C-e t L</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#ASCII_002fLatin_002d1_002fUTF_002d8-export">ASCII/Latin-1/UTF-8导出</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002de-t-u"><code>C-c C-e t u</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#ASCII_002fLatin_002d1_002fUTF_002d8-export">ASCII/Latin-1/UTF-8导出</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002de-t-U"><code>C-c C-e t U</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#ASCII_002fLatin_002d1_002fUTF_002d8-export">ASCII/Latin-1/UTF-8导出</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-C_002dc-C_002df"><code>C-c C-f</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">动作</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dj"><code>C-c C-j</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">动作</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-C_002dc-C_002df"><code>C-c C-f</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">移动</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dj"><code>C-c C-j</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">移动</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dk"><code>C-c C-k</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Global-and-local-cycling">全局循环和局部循环</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dk-_0028Capture-buffer_0029"><code>C-c C-k <span class="roman">(Capture buffer)</span></code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Using-capture">使用捕获</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dl"><code>C-c C-l</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Handling-Links">处理链接</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dn"><code>C-c C-n</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">动作</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dn"><code>C-c C-n</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">移动</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002do"><code>C-c C-o</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Handling-Links">处理链接</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002do-1"><code>C-c C-o</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Creating-Timestamps">创建时间戳</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002do-2"><code>C-c C-o</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Agenda-Commands">Agenda Commands</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002do-3"><code>C-c C-o</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Creating-Footnotes">创建脚注</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002do-4"><code>C-c C-o</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Key-bindings-and-Useful-Functions">按键绑定和有用的函数</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dp"><code>C-c C-p</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">动作</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dp"><code>C-c C-p</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">移动</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dq"><code>C-c C-q</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Editing-and-debugging-formulas">编辑和调试公式</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dq-1"><code>C-c C-q</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Setting-Tags">设置标签</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dr"><code>C-c C-r</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Global-and-local-cycling">全局循环和局部循环</a></td></tr>
@@ -29625,7 +29531,7 @@ permit their use in free software.
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002ds-1"><code>C-c C-s</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Agenda-Commands">Agenda Commands</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dt"><code>C-c C-t</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#TODO-Basics">TODO Basics</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dt-1"><code>C-c C-t</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Clocking-commands">计时命令</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-C_002dc-C_002du"><code>C-c C-u</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">动作</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-C_002dc-C_002du"><code>C-c C-u</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">移动</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dv-a"><code>C-c C-v a</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Key-bindings-and-Useful-Functions">按键绑定和有用的函数</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dv-b"><code>C-c C-v b</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Key-bindings-and-Useful-Functions">按键绑定和有用的函数</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dv-c"><code>C-c C-v c</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Key-bindings-and-Useful-Functions">按键绑定和有用的函数</a></td></tr>
@@ -29677,7 +29583,7 @@ permit their use in free software.
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dv-x"><code>C-c C-v x</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Key-bindings-and-Useful-Functions">按键绑定和有用的函数</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dv-z"><code>C-c C-v z</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Key-bindings-and-Useful-Functions">按键绑定和有用的函数</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dw"><code>C-c C-w</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Structure-Editing">结构编辑</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dw-1"><code>C-c C-w</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dw-1"><code>C-c C-w</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dw-2"><code>C-c C-w</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Agenda-Commands">Agenda Commands</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dw-_0028Capture-buffer_0029"><code>C-c C-w <span class="roman">(Capture buffer)</span></code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Using-capture">使用捕获</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dx-_002c"><code>C-c C-x ,</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Timers">Timers</a></td></tr>
@@ -29748,7 +29654,7 @@ permit their use in free software.
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dy-1"><code>C-c C-y</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Clocking-commands">计时命令</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dz"><code>C-c C-z</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Drawers">抽屉</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-C_002dz-1"><code>C-c C-z</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Agenda-Commands">Agenda Commands</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-C_002dc-M_002dw"><code>C-c M-w</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-C_002dc-M_002dw"><code>C-c M-w</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-RET"><code>C-c RET</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Built_002din-Table-Editor">内置表格编辑器</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-SPC"><code>C-c SPC</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Built_002din-Table-Editor">内置表格编辑器</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002dc-TAB"><code>C-c TAB</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Global-and-local-cycling">全局循环和局部循环</a></td></tr>
@@ -29787,7 +29693,7 @@ permit their use in free software.
 <tr><td></td><td valign="top"><a href="#index-C_002du-C_002dc-C_002dc"><code>C-u C-c C-c</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Updating-the-table">更新表格</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002du-C_002dc-C_002dl"><code>C-u C-c C-l</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Handling-Links">处理链接</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002du-C_002dc-C_002dt"><code>C-u C-c C-t</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Progress-Logging">进度日志记录</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-C_002du-C_002dc-C_002dw"><code>C-u C-c C-w</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-C_002du-C_002dc-C_002dw"><code>C-u C-c C-w</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002du-C_002dc-C_002dx-a"><code>C-u C-c C-x a</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Internal-archiving">内部归档</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002du-C_002dc-C_002dx-C_002ds"><code>C-u C-c C-x C-s</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Moving-subtrees">Moving subtrees</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002du-C_002dc-C_002dx-C_002du"><code>C-u C-c C-x C-u</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Capturing-column-view">捕获列视图</a></td></tr>
@@ -29800,10 +29706,10 @@ permit their use in free software.
 <tr><td></td><td valign="top"><a href="#index-C_002du-C_002du-C_002dc-_003d"><code>C-u C-u C-c =</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Editing-and-debugging-formulas">编辑和调试公式</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002du-C_002du-C_002dc-C_002dc"><code>C-u C-u C-c C-c</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Updating-the-table">更新表格</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002du-C_002du-C_002dc-C_002dt"><code>C-u C-u C-c C-t</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Multiple-sets-in-one-file">Multiple sets in one file</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-C_002du-C_002du-C_002dc-C_002dw"><code>C-u C-u C-c C-w</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-C_002du-C_002du-C_002dc-C_002dw"><code>C-u C-u C-c C-w</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002du-C_002du-C_002dc-C_002dx-C_002ds"><code>C-u C-u C-c C-x C-s</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Moving-subtrees">Moving subtrees</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002du-C_002du-C_002dc-TAB"><code>C-u C-u C-c TAB</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Column-Width-and-Alignment">列宽和对齐方式</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-C_002du-C_002du-C_002du-C_002dc-C_002dw"><code>C-u C-u C-u C-c C-w</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-C_002du-C_002du-C_002du-C_002dc-C_002dw"><code>C-u C-u C-u C-c C-w</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002du-C_002du-C_002du-C_002du-C_002dc-C_002dt"><code>C-u C-u C-u C-u C-c C-t</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#TODO-dependencies">TODO依赖关系</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002du-C_002du-C_002du-TAB"><code>C-u C-u C-u TAB</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Global-and-local-cycling">全局循环和局部循环</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-C_002du-C_002du-TAB"><code>C-u C-u TAB</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Global-and-local-cycling">全局循环和局部循环</a></td></tr>
@@ -30319,7 +30225,7 @@ permit their use in free software.
 <tr><td></td><td valign="top"><a href="#index-org_002dbabel_002dtangle_002dfile-1"><code>org-babel-tangle-file</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Key-bindings-and-Useful-Functions">按键绑定和有用的函数</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dbabel_002dtangle_002djump_002dto_002dorg"><code>org-babel-tangle-jump-to-org</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Extracting-Source-Code">提取源代码</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dbabel_002dview_002dsrc_002dblock_002dinfo"><code>org-babel-view-src-block-info</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Key-bindings-and-Useful-Functions">按键绑定和有用的函数</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-org_002dbackward_002dheading_002dsame_002dlevel"><code>org-backward-heading-same-level</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">动作</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-org_002dbackward_002dheading_002dsame_002dlevel"><code>org-backward-heading-same-level</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">移动</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dbatch_002dagenda"><code>org-batch-agenda</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Extracting-Agenda-Information">Extracting Agenda Information</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dbatch_002dagenda_002dcsv"><code>org-batch-agenda-csv</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Extracting-Agenda-Information">Extracting Agenda Information</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dbbdb_002danniversaries"><code>org-bbdb-anniversaries</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Weekly_002fdaily-agenda">每周/每日日程安排</a></td></tr>
@@ -30405,9 +30311,9 @@ permit their use in free software.
 <tr><td></td><td valign="top"><a href="#index-org_002dexport_002ddefine_002dbackend"><code>org-export-define-backend</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Adding-Export-Back_002dends">Adding Export Back-ends</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dexport_002ddefine_002dderived_002dbackend"><code>org-export-define-derived-backend</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Adding-Export-Back_002dends">Adding Export Back-ends</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dexport_002dto_002dodt"><code>org-export-to-odt</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#ODT-export-commands">ODT导出命令</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-org_002dforward_002dheading_002dsame_002dlevel"><code>org-forward-heading-same-level</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">动作</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-org_002dforward_002dheading_002dsame_002dlevel"><code>org-forward-heading-same-level</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">移动</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dglobal_002dcycle"><code>org-global-cycle</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Global-and-local-cycling">全局循环和局部循环</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-org_002dgoto"><code>org-goto</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">动作</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-org_002dgoto"><code>org-goto</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">移动</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dgoto_002dcalendar"><code>org-goto-calendar</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Creating-Timestamps">创建时间戳</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dhtml_002dconvert_002dregion_002dto_002dhtml"><code>org-html-convert-region-to-html</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Export-in-Foreign-Buffers">在外部缓冲区中导出</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dhtml_002dexport_002das_002dhtml"><code>org-html-export-as-html</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#HTML-export-commands">HTML导出命令</a></td></tr>
@@ -30461,7 +30367,7 @@ permit their use in free software.
 <tr><td></td><td valign="top"><a href="#index-org_002dnarrow_002dto_002dblock-1"><code>org-narrow-to-block</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Dynamic-Blocks">Dynamic Blocks</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dnarrow_002dto_002dsubtree"><code>org-narrow-to-subtree</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Structure-Editing">结构编辑</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dnext_002dlink"><code>org-next-link</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Handling-Links">处理链接</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-org_002dnext_002dvisible_002dheading"><code>org-next-visible-heading</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">动作</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-org_002dnext_002dvisible_002dheading"><code>org-next-visible-heading</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">移动</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002doccur"><code>org-occur</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Sparse-Trees">稀疏树</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dodt_002dconvert"><code>org-odt-convert</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Extending-ODT-export">扩展ODT导出</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dopen_002dat_002dpoint"><code>org-open-at-point</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Handling-Links">处理链接</a></td></tr>
@@ -30470,7 +30376,7 @@ permit their use in free software.
 <tr><td></td><td valign="top"><a href="#index-org_002dorg_002dexport_002dto_002dorg"><code>org-org-export-to-org</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Org-Export">Org导出</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dpaste_002dsubtree"><code>org-paste-subtree</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Structure-Editing">结构编辑</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dprevious_002dlink"><code>org-previous-link</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Handling-Links">处理链接</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-org_002dprevious_002dvisible_002dheading"><code>org-previous-visible-heading</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">动作</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-org_002dprevious_002dvisible_002dheading"><code>org-previous-visible-heading</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">移动</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dpriority"><code>org-priority</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Priorities">优先顺序</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dpriority-1"><code>org-priority</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Using-the-Mapping-API">Using the Mapping API</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dpriority_002ddown"><code>org-priority-down</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Priorities">优先顺序</a></td></tr>
@@ -30488,10 +30394,10 @@ permit their use in free software.
 <tr><td></td><td valign="top"><a href="#index-org_002dpublish_002dfind_002dproperty"><code>org-publish-find-property</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Site-map">Site map</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dpublish_002dfind_002dtitle"><code>org-publish-find-title</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Site-map">Site map</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002drefile"><code>org-refile</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Structure-Editing">结构编辑</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-org_002drefile-1"><code>org-refile</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-org_002drefile_002dcache_002dclear"><code>org-refile-cache-clear</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-org_002drefile_002dcopy"><code>org-refile-copy</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-org_002drefile_002dgoto_002dlast_002dstored"><code>org-refile-goto-last-stored</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-org_002drefile-1"><code>org-refile</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-org_002drefile_002dcache_002dclear"><code>org-refile-cache-clear</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-org_002drefile_002dcopy"><code>org-refile-copy</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-org_002drefile_002dgoto_002dlast_002dstored"><code>org-refile-goto-last-stored</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dremove_002dfile"><code>org-remove-file</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Agenda-Files">议程文件</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dreveal"><code>org-reveal</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Global-and-local-cycling">全局循环和局部循环</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dsave_002dall_002dorg_002dbuffers"><code>org-save-all-org-buffers</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Agenda-Commands">Agenda Commands</a></td></tr>
@@ -30631,7 +30537,7 @@ permit their use in free software.
 <tr><td></td><td valign="top"><a href="#index-outline_002dshow_002dall"><code>outline-show-all</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Global-and-local-cycling">全局循环和局部循环</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-outline_002dshow_002dbranches"><code>outline-show-branches</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Global-and-local-cycling">全局循环和局部循环</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-outline_002dshow_002dchildren"><code>outline-show-children</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Global-and-local-cycling">全局循环和局部循环</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-outline_002dup_002dheading"><code>outline-up-heading</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">动作</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-outline_002dup_002dheading"><code>outline-up-heading</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">移动</a></td></tr>
 <tr><td colspan="4"> <hr></td></tr>
 <tr><th><a name="Command-and-Function-Index_fn_letter-P">P</a></th><td></td><td></td></tr>
 <tr><td></td><td valign="top"><a href="#index-pcomplete"><code>pcomplete</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Property-Syntax">属性语法</a></td></tr>
@@ -30932,8 +30838,8 @@ that are mentioned in the manual.  For a more complete list, use
 <tr><td></td><td valign="top"><a href="#index-org_002dformat_002dlatex_002doptions"><code>org-format-latex-options</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Previewing-LaTeX-fragments">预览LaTeX片段</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dglobal_002dproperties"><code>org-global-properties</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Property-Syntax">属性语法</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dglobal_002dproperties-1"><code>org-global-properties</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Effort-Estimates">工作量估算</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-org_002dgoto_002dauto_002disearch"><code>org-goto-auto-isearch</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">动作</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-org_002dgoto_002dinterface"><code>org-goto-interface</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">动作</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-org_002dgoto_002dauto_002disearch"><code>org-goto-auto-isearch</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">移动</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-org_002dgoto_002dinterface"><code>org-goto-interface</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Motion">移动</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dgroup_002dtags"><code>org-group-tags</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Tag-Hierarchy">标签层次结构</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dhabit_002dfollowing_002ddays"><code>org-habit-following-days</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Tracking-your-habits">追踪你的习惯</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dhabit_002dgraph_002dcolumn"><code>org-habit-graph-column</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Tracking-your-habits">追踪你的习惯</a></td></tr>
@@ -31054,7 +30960,7 @@ that are mentioned in the manual.  For a more complete list, use
 <tr><td></td><td valign="top"><a href="#index-org_002dlog_002dnote_002dclock_002dout"><code>org-log-note-clock-out</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Clocking-commands">计时命令</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dlog_002dnote_002dclock_002dout-1"><code>org-log-note-clock-out</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#In_002dbuffer-Settings">In-buffer Settings</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dlog_002dredeadline"><code>org-log-redeadline</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Inserting-deadline_002fschedule">Inserting deadline/schedule</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-org_002dlog_002drefile"><code>org-log-refile</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-org_002dlog_002drefile"><code>org-log-refile</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dlog_002drepeat"><code>org-log-repeat</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Repeated-tasks">重复任务</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dlog_002drepeat-1"><code>org-log-repeat</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#In_002dbuffer-Settings">In-buffer Settings</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dlog_002dreschedule"><code>org-log-reschedule</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Inserting-deadline_002fschedule">Inserting deadline/schedule</a></td></tr>
@@ -31089,7 +30995,7 @@ that are mentioned in the manual.  For a more complete list, use
 <tr><td></td><td valign="top"><a href="#index-org_002dodt_002dstyles_002dfile-1"><code>org-odt-styles-file</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Applying-custom-styles">扩展ODT导出</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dodt_002dtable_002dstyles"><code>org-odt-table-styles</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Advanced-topics-in-ODT-export">ODT导出中的高级主题</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dodt_002dtable_002dstyles-1"><code>org-odt-table-styles</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Advanced-topics-in-ODT-export">ODT导出中的高级主题</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-org_002doutline_002dpath_002dcomplete_002din_002dsteps"><code>org-outline-path-complete-in-steps</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-org_002doutline_002dpath_002dcomplete_002din_002dsteps"><code>org-outline-path-complete-in-steps</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dplain_002dlist_002dordered_002ditem_002dterminator"><code>org-plain-list-ordered-item-terminator</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Plain-Lists">普通列表</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dplain_002dlist_002dordered_002ditem_002dterminator-1"><code>org-plain-list-ordered-item-terminator</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Plain-Lists">普通列表</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dpopup_002dcalendar_002dfor_002ddate_002dprompt"><code>org-popup-calendar-for-date-prompt</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-date_002ftime-prompt">日期/时间提示</a></td></tr>
@@ -31115,16 +31021,16 @@ that are mentioned in the manual.  For a more complete list, use
 <tr><td></td><td valign="top"><a href="#index-org_002dread_002ddate_002ddisplay_002dlive"><code>org-read-date-display-live</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-date_002ftime-prompt">日期/时间提示</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dread_002ddate_002dforce_002dcompatible_002ddates"><code>org-read-date-force-compatible-dates</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-date_002ftime-prompt">日期/时间提示</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dread_002ddate_002dprefer_002dfuture"><code>org-read-date-prefer-future</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#The-date_002ftime-prompt">日期/时间提示</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-org_002drefile_002dallow_002dcreating_002dparent_002dnodes"><code>org-refile-allow-creating-parent-nodes</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-org_002drefile_002dkeep"><code>org-refile-keep</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-org_002drefile_002dtargets"><code>org-refile-targets</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-org_002drefile_002duse_002dcache"><code>org-refile-use-cache</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-org_002drefile_002duse_002doutline_002dpath"><code>org-refile-use-outline-path</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-org_002drefile_002dallow_002dcreating_002dparent_002dnodes"><code>org-refile-allow-creating-parent-nodes</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-org_002drefile_002dkeep"><code>org-refile-keep</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-org_002drefile_002dtargets"><code>org-refile-targets</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-org_002drefile_002duse_002dcache"><code>org-refile-use-cache</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-org_002drefile_002duse_002doutline_002dpath"><code>org-refile-use-outline-path</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dremove_002dhighlights_002dwith_002dchange"><code>org-remove-highlights-with-change</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Sparse-Trees">稀疏树</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dremove_002dhighlights_002dwith_002dchange-1"><code>org-remove-highlights-with-change</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Clocking-commands">计时命令</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dreplace_002ddisputed_002dkeys"><code>org-replace-disputed-keys</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Conflicts">Conflicts</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dreturn_002dfollows_002dlink"><code>org-return-follows-link</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Handling-Links">处理链接</a></td></tr>
-<tr><td></td><td valign="top"><a href="#index-org_002dreverse_002dnote_002dorder"><code>org-reverse-note-order</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接和拷贝</a></td></tr>
+<tr><td></td><td valign="top"><a href="#index-org_002dreverse_002dnote_002dorder"><code>org-reverse-note-order</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Refile-and-Copy">转接与拷贝</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dscheduled_002ddelay_002ddays"><code>org-scheduled-delay-days</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Deadlines-and-Scheduling">截止日期和日程安排</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dshow_002dcontext_002ddetail"><code>org-show-context-detail</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Sparse-Trees">稀疏树</a></td></tr>
 <tr><td></td><td valign="top"><a href="#index-org_002dsort_002dagenda_002dnoeffort_002dis_002dhigh"><code>org-sort-agenda-noeffort-is-high</code></a>:</td><td>&nbsp;</td><td valign="top"><a href="#Filtering_002flimiting-agenda-items">过滤/限制议程项数量</a></td></tr>
