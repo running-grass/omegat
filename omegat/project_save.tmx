@@ -3020,6 +3020,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c [&lt;/k0&gt; (&lt;c1&gt;org-agenda-file-to-front&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T144926Z" creationid="Eli" creationdate="20201015T144926Z">
+        <seg>&lt;k0&gt;C-c [&lt;/k0&gt;(&lt;c1&gt;org-agenda-file-to-front&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-c ^&lt;/k0&gt; (&lt;c1&gt;org-sort&lt;/c1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065058Z" creationid="grass" creationdate="20201015T065058Z">
@@ -3384,6 +3392,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T082640Z" creationid="grass" creationdate="20200927T082640Z">
         <seg>激活</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add current file to the list of agenda files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T145205Z" creationid="Eli" creationdate="20201015T145137Z">
+        <seg>将当前文件加入变量org-agenda files。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12196,6 +12212,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The file is added to the front of the list.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T145437Z" creationid="Eli" creationdate="20201015T145437Z">
+        <seg>当前文件会被添加在变量列表的首位。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The first action of each project is called its “next action”, and that’s always the one I will do when working on a project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080744Z" creationid="grass" creationdate="20201015T080744Z">
@@ -13513,6 +13537,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T132803Z" creationid="grass" creationdate="20200927T132803Z">
         <seg>你可以克隆Org的仓库到本地，然后安装Org，像这样:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can customize &lt;c2&gt;org-agenda-files&lt;/c2&gt;, but the easiest way to maintain it is through the following commands</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T144846Z" creationid="Eli" creationdate="20201015T144846Z">
+        <seg>你可以自定义&lt;c2&gt;org-agenda-file&lt;/c2&gt;变量，但是修改它最简单的方法是通过如下命令：</seg>
       </tuv>
     </tu>
     <tu>
