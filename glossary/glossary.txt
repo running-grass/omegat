@@ -160,3 +160,6 @@ tickler	备忘录
 someday	将来
 maybe	也许
 active	正在进行的
+action	行动
+next action	下一步行动
+neat feature	出色的功能
