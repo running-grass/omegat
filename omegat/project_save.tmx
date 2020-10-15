@@ -11677,6 +11677,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When there is an active region—i.e., when Transient Mark mode is active—promotion and demotion work on all headlines in the region.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063817Z" creationid="grass" creationdate="20201015T063817Z">
+        <seg>当存在活动区域时-即，当瞬变标记模式处于活动状态时-该区域中的所有标题都会执行升级和降级。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When this command is used in the middle of a line, the line is split and the rest of the line becomes the new item or headline.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063526Z" creationid="grass" creationdate="20201015T063526Z">
