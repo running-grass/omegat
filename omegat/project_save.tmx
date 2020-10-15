@@ -4590,8 +4590,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Defining special searches and views.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103053Z" creationid="grass" creationdate="20201014T103053Z">
-        <seg>定义特殊搜索和视图。</seg>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T144106Z" creationid="grass" creationdate="20201014T103053Z">
+        <seg>定义自定义搜索内容和显示视图。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5926,8 +5926,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>How agenda items are prepared for display.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103031Z" creationid="grass" creationdate="20201014T103015Z">
-        <seg>议程项的显示方式。</seg>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T144002Z" creationid="grass" creationdate="20201014T103015Z">
+        <seg>议程事项的显示方式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6224,6 +6224,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T180601Z" creationid="grass" creationdate="20201010T180601Z">
         <seg>如果&lt;v4&gt;N&lt;/v4&gt;为负，则上升到该级别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a directory is part of this list, all files with the extension ‘&lt;s4&gt;.org&lt;/s4&gt;’ in this directory are part of the list.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T144618Z" creationid="Eli" creationdate="20201015T144618Z">
+        <seg>如果变量org-agenda-files为一个文件目录，则该目录下所有org文件都为agenda files。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6798,8 +6806,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Keyboard access to agenda views.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102958Z" creationid="grass" creationdate="20201014T102958Z">
-        <seg>通过键盘访问议程视图。</seg>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T143757Z" creationid="grass" creationdate="20201014T102958Z">
+        <seg>议程视图快捷键</seg>
       </tuv>
     </tu>
     <tu>
@@ -10934,8 +10942,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Remote editing of Org trees.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103044Z" creationid="grass" creationdate="20201014T103044Z">
-        <seg>远程编辑Org树。</seg>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T144027Z" creationid="grass" creationdate="20201014T103044Z">
+        <seg>远程编辑原Org文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12236,6 +12244,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The information to be shown is normally collected from all &lt;e0&gt;agenda files&lt;/e0&gt;, the files listed in the variable &lt;c1&gt;org-agenda-files&lt;/c1&gt;&lt;a2&gt;&lt;s3&gt;91&lt;/s3&gt;&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T144428Z" creationid="Eli" creationdate="20201015T144428Z">
+        <seg>agenda buffer显示的信息通常来自&lt;e0&gt;agenda file&lt;/e0&gt;， 所谓agenda files 指的是变量&lt;c1&gt;org-agenda-files&lt;/c1&gt;中的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The item (or all items in the region) is filed below the target heading as a subitem.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132658Z" creationid="grass" creationdate="20201006T132458Z">
@@ -12544,6 +12560,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084308Z" creationid="grass" creationdate="20201015T084308Z">
         <seg>这样，我的GTD文件就会保持整洁，而且我永远不会删除任何数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thus, even if you only work with a single Org file, that file should be put into the list&lt;a0&gt;&lt;s1&gt;92&lt;/s1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T144706Z" creationid="Eli" creationdate="20201015T144706Z">
+        <seg>因此，即使你只使用一个org文件,也需要把该文件列入变量`org-agenda-files`中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13079,8 +13103,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>What is available out of the box?</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103005Z" creationid="grass" creationdate="20201014T103005Z">
-        <seg>开箱即用的是什么？</seg>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T143903Z" creationid="grass" creationdate="20201014T103005Z">
+        <seg>开箱即用的功能有哪些？</seg>
       </tuv>
     </tu>
     <tu>
