@@ -148,3 +148,6 @@ rest	剩余部分
 yank	粘贴
 docstring	文档说明
 time—first	首次
+narrow	聚焦
+Widen	扩大
+item	列表项
