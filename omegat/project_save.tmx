@@ -2796,6 +2796,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt; Jun 30, 2017 &lt;/s0&gt; • Nicolas Petton</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T074820Z" creationid="grass" creationdate="20201015T074820Z">
+        <seg>&lt;s0&gt; Jun 30, 2017 &lt;/s0&gt; • Nicolas Petton</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A Beamer example</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203124Z" creationid="grass" creationdate="20201010T203124Z">
