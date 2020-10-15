@@ -154,3 +154,4 @@ item	列表项
 Introduction	引言
 Orgmode	Orgmode
 inbox	收件箱
+entry	记录
