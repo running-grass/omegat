@@ -2484,6 +2484,22 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-insert-heading-respect-content&lt;/c2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063552Z" creationid="grass" creationdate="20201015T063552Z">
+        <seg>&lt;k0&gt;C-&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-insert-heading-respect-content&lt;/c2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-S-&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-insert-todo-heading-respect-content&lt;/c2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063620Z" creationid="grass" creationdate="20201015T063620Z">
+        <seg>&lt;k0&gt;C-S-&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-insert-todo-heading-respect-content&lt;/c2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-c &lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;outline-show-children&lt;/c2&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061830Z" creationid="grass" creationdate="20201015T061830Z">
@@ -2588,6 +2604,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;M-&lt;s1&gt;LEFT&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-do-promote&lt;/c2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063724Z" creationid="grass" creationdate="20201015T063724Z">
+        <seg>&lt;k0&gt;M-&lt;s1&gt;LEFT&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-do-promote&lt;/c2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;M-&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-meta-return&lt;/c2&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063353Z" creationid="grass" creationdate="20201015T063353Z">
@@ -2596,10 +2620,26 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;M-&lt;s1&gt;RIGHT&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-do-demote&lt;/c2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063726Z" creationid="grass" creationdate="20201015T063726Z">
+        <seg>&lt;k0&gt;M-&lt;s1&gt;RIGHT&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-do-demote&lt;/c2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;M-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; guesses completions.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112023Z" creationid="grass" creationdate="20201014T111831Z">
         <seg>&lt;k0&gt;M-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt;补全联想</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;M-S-&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-insert-todo-heading&lt;/c2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063559Z" creationid="grass" creationdate="20201015T063559Z">
+        <seg>&lt;k0&gt;M-S-&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-insert-todo-heading&lt;/c2&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -3392,6 +3432,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111713Z" creationid="grass" creationdate="20201014T111713Z">
         <seg>从命令行调用函数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Calling the command with a &lt;k0&gt;C-u&lt;/k0&gt; prefix unconditionally inserts a new heading at the end of the current subtree, thus preserving its contents.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063539Z" creationid="grass" creationdate="20201015T063539Z">
+        <seg>无条件地调用带有&lt;k0&gt;C-u&lt;/k0&gt;前缀的命令会在当前子树的末尾插入一个新标题，从而保留其内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5380,6 +5428,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you do not want the line to be split, customize &lt;c0&gt;org-M-RET-may-split-line&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063531Z" creationid="grass" creationdate="20201015T063531Z">
+        <seg>如果不想拆分该行，请自定义&lt;c0&gt;org-M-ret-May-plit-line&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you find problems with Org, or if you have questions, remarks, or ideas about it, please send an email to the Org mailing list &lt;a0&gt;emacs-orgmode@gnu.org&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T080206Z" creationid="grass" creationdate="20200929T075919Z">
@@ -5472,6 +5528,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050818Z" creationid="grass" creationdate="20201013T050818Z">
         <seg>Texinfo导出中的图像</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In a new entry with no text yet, the first &lt;k0&gt;&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; demotes the entry to become a child of the previous one.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063718Z" creationid="grass" creationdate="20201015T063642Z">
+        <seg>在还没有文本的新条目中，第一次&lt;k0&gt;&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt;将该条目降级为前一个条目的子项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5580,10 +5644,26 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Insert a new heading at the end of the current subtree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063558Z" creationid="grass" creationdate="20201015T063558Z">
+        <seg>在当前子树的末尾插入新标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Insert a new heading, item or row.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063401Z" creationid="grass" creationdate="20201015T063401Z">
         <seg>插入新标题、项或行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Insert new TODO entry with same level as current heading.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063616Z" creationid="grass" creationdate="20201015T063616Z">
+        <seg>插入与当前标题级别相同的新TODO条目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5888,6 +5968,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052527Z" creationid="grass" creationdate="20201013T052527Z">
         <seg>Babel库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Like &lt;k0&gt;C-&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt;, the new headline is inserted after the current subtree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063628Z" creationid="grass" creationdate="20201015T063628Z">
+        <seg>与&lt;k0&gt;C-&lt;s1&gt;ret&lt;/s1&gt;&lt;/k0&gt;类似，新标题插入到当前子树之后。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9404,6 +9492,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Promote or demote current heading by one level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063734Z" creationid="grass" creationdate="20201015T063734Z">
+        <seg>将当前标题提升或降低一个级别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Properties and Columns</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101652Z" creationid="grass" creationdate="20201014T101652Z">
@@ -9840,6 +9936,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T135931Z" creationid="grass" creationdate="20200927T135931Z">
         <seg>另请查阅&lt;c0&gt;org-insert-mode-line-in-empty-file&lt;/c0&gt;变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See also the variable &lt;c0&gt;org-treat-insert-todo-heading-as-state-change&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063619Z" creationid="grass" creationdate="20201015T063619Z">
+        <seg>另请参阅变量&lt;c0&gt;org-treat-insert-todo-heading-as-state-change&lt;/c0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10868,6 +10972,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The next &lt;k2&gt;&lt;s3&gt;TAB&lt;/s3&gt;&lt;/k2&gt; makes it a parent, and so on, all the way to top level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063714Z" creationid="grass" creationdate="20201015T063714Z">
+        <seg>下一次&lt;k2&gt;&lt;s3&gt;TAB&lt;/s3&gt;&lt;/k2&gt;使其成为父级，依此类推，一直到顶层。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The order of things.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103539Z" creationid="grass" creationdate="20201014T103539Z">
@@ -11565,6 +11677,22 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When this command is used in the middle of a line, the line is split and the rest of the line becomes the new item or headline.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063526Z" creationid="grass" creationdate="20201015T063526Z">
+        <seg>当在行中间使用此命令时，该行将被拆分，该行的剩余部分将成为新项或标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When used at the beginning of a regular line of text, turn that line into a heading.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063457Z" creationid="grass" creationdate="20201015T063457Z">
+        <seg>在常规文本行的开头使用时，会将该行转换为标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When was this entry marked as done?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101543Z" creationid="grass" creationdate="20201014T101543Z">
@@ -11609,6 +11737,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T180612Z" creationid="grass" creationdate="20201010T180612Z">
         <seg>使用&lt;k5&gt;C-u&lt;/k5&gt;前缀，请勿删除以前使用的间接缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With a double &lt;k1&gt;C-u C-u&lt;/k1&gt; prefix, the new heading is created at the end of the parent subtree instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063545Z" creationid="grass" creationdate="20201015T063545Z">
+        <seg>使用双&lt;k1&gt;C-u C-u&lt;/k1&gt;前缀，将在父子树的末尾创建新标题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11697,6 +11833,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113138Z" creationid="grass" creationdate="20201014T113138Z">
         <seg>编写使用条目属性的程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Yet another &lt;k4&gt;&lt;s5&gt;TAB&lt;/s5&gt;&lt;/k4&gt;, and you are back to the initial level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063723Z" creationid="grass" creationdate="20201015T063723Z">
+        <seg>再来一次&lt;k4&gt;&lt;s5&gt;Tab&lt;/s5&gt;&lt;/k4&gt;，您将返回到初始级别。</seg>
       </tuv>
     </tu>
     <tu>
