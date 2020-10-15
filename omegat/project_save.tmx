@@ -9796,6 +9796,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Orgmode is such a moldable tool that I don’t think that there are 2 exactly identical setups.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084720Z" creationid="grass" creationdate="20201015T084720Z">
+        <seg>Orgmode是一个具有可塑性的的工具，我不认为有两个完全相同的设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Orgmode%20for%20GTD.resources/1280px-GTDcanonical.png</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083351Z" creationid="grass" creationdate="20201015T083351Z">
@@ -12408,6 +12416,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130126Z" creationid="grass" creationdate="20201005T130103Z">
         <seg>这是内置调试器提供的有关错误发生的位置和方式的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is really only my way of doing it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084746Z" creationid="grass" creationdate="20201015T084619Z">
+        <seg>这实际上知识我个人的方法。</seg>
       </tuv>
     </tu>
     <tu>
