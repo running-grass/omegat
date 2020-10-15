@@ -147,3 +147,4 @@ Structure	结构
 rest	剩余部分
 yank	粘贴
 docstring	文档说明
+time—first	首次
