@@ -2828,6 +2828,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;e0&gt;custom views&lt;/e0&gt; that are special searches and combinations of different views.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T141630Z" creationid="Eli" creationdate="20201015T141630Z">
+        <seg>&lt;e0&gt;custom views&lt;/e0&gt;可以自定义搜索,并结合多种不同的视图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;0&lt;/k0&gt; … &lt;k1&gt;9&lt;/k1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063243Z" creationid="grass" creationdate="20201015T063243Z">
@@ -3936,6 +3944,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132854Z" creationid="grass" creationdate="20201006T132854Z">
         <seg>默认情况下，当前缓冲区中的所有一级标题均被视为目标，但是您可以在多个文件中使用更复杂的定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default, the report ignores commented (see &lt;a0&gt;Comment Lines&lt;/a0&gt;) and archived (see &lt;a1&gt;Internal archiving&lt;/a1&gt;) entries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T142600Z" creationid="Eli" creationdate="20201015T142600Z">
+        <seg>默认情况下，agenda buffer 会忽略被注释（详见&lt;a0&gt;行注释&lt;/a0&gt;）和归档（详见&lt;a1&gt;内部归档&lt;/a1&gt;）的条目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12164,6 +12180,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The extracted information is displayed in a special &lt;e0&gt;agenda buffer&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T141738Z" creationid="Eli" creationdate="20201015T141738Z">
+        <seg>检索出来的信息会显示在一个特殊的&lt;e0&gt;agenda buffer&lt;/e0&gt;中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The first action of each project is called its “next action”, and that’s always the one I will do when working on a project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080744Z" creationid="grass" creationdate="20201015T080744Z">
@@ -12400,6 +12424,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081719Z" creationid="grass" creationdate="20201015T081719Z">
         <seg>这也让我的议程保持干净，没有任何虚假的或自我强加的最后期限或时间表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This buffer is read-only, but provides commands to visit the corresponding locations in the original Org files, and even to edit these files remotely.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T142157Z" creationid="Eli" creationdate="20201015T142105Z">
+        <seg>这个 agenda buffer 是只读的，但是它提供了一些命令来访问和编辑原文件的相应内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13521,6 +13553,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201014T145647Z" creationid="Eli" creationdate="20201014T145647Z">
         <seg>&lt;e0&gt;match view&lt;/e0&gt;能够根据标签、属性和TODO状态来筛选事项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a &lt;e0&gt;stuck projects view&lt;/e0&gt; showing projects that currently do not move along, and</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T141455Z" creationid="Eli" creationdate="20201015T141455Z">
+        <seg>&lt;e0&gt;stuck projects view&lt;/e0&gt;显示所有没有下一步行动的项目。</seg>
       </tuv>
     </tu>
     <tu>
