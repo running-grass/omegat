@@ -2636,6 +2636,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-y&lt;/k0&gt; (&lt;c1&gt;org-yank&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064625Z" creationid="grass" creationdate="20201015T064625Z">
+        <seg>&lt;k0&gt;C-y&lt;/k0&gt; (&lt;c1&gt;org-yank&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;M-&lt;s1&gt;DOWN&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-move-subtree-down&lt;/c2&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063958Z" creationid="grass" creationdate="20201015T063958Z">
@@ -3072,6 +3080,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T165143Z" creationid="grass" creationdate="20201010T165143Z">
         <seg>这种结构的概述是通过折叠来实现的，即隐藏文档的大部分以仅显示一般文档结构和当前正在处理的部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Any prefix argument to this command forces a normal &lt;c4&gt;yank&lt;/c4&gt; to be executed, with the prefix passed along.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064747Z" creationid="grass" creationdate="20201015T064747Z">
+        <seg>此命令的任何前缀参数都强制执行正常的&lt;c4&gt;粘贴&lt;/c4&gt;操作，并传递前缀。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4072,6 +4088,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132721Z" creationid="grass" creationdate="20201006T132639Z">
         <seg>是作为第一个还是最后一个子项，取决于&lt;c0&gt;org-reverse-note-order&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Depending on the variables &lt;c0&gt;org-yank-adjusted-subtrees&lt;/c0&gt; and &lt;c1&gt;org-yank-folded-subtrees&lt;/c1&gt;, Org’s internal &lt;c2&gt;yank&lt;/c2&gt; command pastes subtrees folded and in a clever way, using the same command as &lt;k3&gt;C-c C-x C-y&lt;/k3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064637Z" creationid="grass" creationdate="20201015T064637Z">
+        <seg>根据变量&lt;c0&gt;org-yank-adjusted-subtree&lt;/c0&gt;和&lt;c1&gt;org-yank-folded-subtree&lt;/c1&gt;的不同，Org的内部&lt;c2&gt;yank&lt;/c2&gt;命令使用与&lt;k3&gt;C-c-x C-y&lt;/k3&gt;相同的命令巧妙地粘贴折叠的子树。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11140,6 +11164,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The yank level can also be specified with a numeric prefix argument, or by yanking after a headline marker like ‘&lt;s0&gt;****&lt;/s0&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064624Z" creationid="grass" creationdate="20201015T064624Z">
+        <seg>粘贴时的级别也可以使用数字前缀参数指定，或者通过粘贴标题标记(如“&lt;s0&gt;****&lt;/s0&gt;”)来指定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The ‘&lt;s1&gt;minimal-org.el&lt;/s1&gt;’ setup file can have contents as shown below.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T081900Z" creationid="grass" creationdate="20200929T081821Z">
@@ -11192,6 +11224,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132258Z" creationid="grass" creationdate="20201006T132258Z">
         <seg>此命令提供了可能的位置来转接该条记录，并让您选择一个完整的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This does modify the level of the subtree to make sure the tree fits in nicely at the yank position.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064526Z" creationid="grass" creationdate="20201015T064526Z">
+        <seg>这会修改子树的级别，以确保树很好地适应在所粘贴的位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11945,6 +11985,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112554Z" creationid="grass" creationdate="20201014T112554Z">
         <seg>与其他Emacs软件包一起使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With the default settings, no level adjustment takes place, but the yanked tree is folded unless doing so would swallow text previously visible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064728Z" creationid="grass" creationdate="20201015T064728Z">
+        <seg>使用默认设置时，不会进行任何级别调整，但会折叠粘贴的树，除非这样做会吞噬以前可见的文本。</seg>
       </tuv>
     </tu>
     <tu>
