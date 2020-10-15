@@ -174,3 +174,4 @@ first action to be done	首要行动
 skipping condition	跳过条件
 list	清单
 list	列表
+review	审查
