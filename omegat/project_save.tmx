@@ -2580,6 +2580,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c C-w&lt;/k0&gt; (&lt;c1&gt;org-refile&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065033Z" creationid="grass" creationdate="20201015T065033Z">
+        <seg>&lt;k0&gt;C-c C-w&lt;/k0&gt; (&lt;c1&gt;org-refile&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-c C-x C-w&lt;/k0&gt; (&lt;c1&gt;org-cut-subtree&lt;/c1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064243Z" creationid="grass" creationdate="20201015T064243Z">
@@ -2608,6 +2616,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061832Z" creationid="grass" creationdate="20201015T061832Z">
         <seg>&lt;k0&gt;C-c C-x b&lt;/k0&gt; (&lt;c1&gt;org-tree-to-indirect-buffer&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c C-x c&lt;/k0&gt; (&lt;c1&gt;org-clone-subtree-with-time-shift&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064932Z" creationid="grass" creationdate="20201015T064932Z">
+        <seg>&lt;k0&gt;C-c C-x c&lt;/k0&gt; (&lt;c1&gt;org-clone-subtree-with-time-shift&lt;/c1&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2784,6 +2800,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101939Z" creationid="grass" creationdate="20201014T101939Z">
         <seg>列视图的动态块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A good way to force a normal yank is &lt;k5&gt;C-u C-y&lt;/k5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064823Z" creationid="grass" creationdate="20201015T064823Z">
+        <seg>强制执行一个普通粘贴的一个好方法是&lt;k5&gt;C-u C-y&lt;/k5&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3656,6 +3680,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201325Z" creationid="grass" creationdate="20201010T201325Z">
         <seg>计时命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Clone a subtree by making a number of sibling copies of it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064941Z" creationid="grass" creationdate="20201015T064941Z">
+        <seg>通过制作多个同级副本来克隆子树。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4884,6 +4916,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For more details, see the docstring of the command &lt;c0&gt;org-clone-subtree-with-time-shift&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065032Z" creationid="grass" creationdate="20201015T065032Z">
+        <seg>有关更多详细信息，请参阅命令&lt;c0&gt;org-clone-subtree-with-time-Shift&lt;/c0&gt;的文档说明。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For power users.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110043Z" creationid="grass" creationdate="20201014T110043Z">
@@ -5552,6 +5592,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T080206Z" creationid="grass" creationdate="20200929T075919Z">
         <seg>如果你发现了Org的的问题，或者你有对Org的疑问、评价或者好的想法，请发送邮件到Org邮件列表&lt;a0&gt;emacs-orgmode@gnu.org&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you use &lt;c6&gt;yank-pop&lt;/c6&gt; after a yank, it yanks previous kill items plainly, without adjustment and folding.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064930Z" creationid="grass" creationdate="20201015T064825Z">
+        <seg>如果在在一次粘贴之后使用&lt;c6&gt;yank-pop&lt;/c6&gt;，它会简单的粘贴之前的内容，不会调整和折叠。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9900,6 +9948,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Refile entry or region to a different location.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065052Z" creationid="grass" creationdate="20201015T065052Z">
+        <seg>将条目或区域重新归档到其他位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Refile the entry or region at point.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132139Z" creationid="grass" creationdate="20201006T132139Z">
@@ -11220,6 +11276,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This can be useful, for example, to create a number of tasks related to a series of lectures to prepare.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064953Z" creationid="grass" creationdate="20201015T064953Z">
+        <seg>例如，这对于创建与要准备的一系列讲座相关的多个任务非常有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This command offers possible locations for refiling the entry and lets you select one with completion.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132258Z" creationid="grass" creationdate="20201006T132258Z">
@@ -12057,6 +12121,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063723Z" creationid="grass" creationdate="20201015T063723Z">
         <seg>再来一次&lt;k4&gt;&lt;s5&gt;Tab&lt;/s5&gt;&lt;/k4&gt;，您将返回到初始级别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You are prompted for the number of copies to make, and you can also specify if any timestamps in the entry should be shifted.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064948Z" creationid="grass" creationdate="20201015T064948Z">
+        <seg>系统会提示您输入要制作的副本数量，您还可以指定条目中的任何时间戳是否应该移位。</seg>
       </tuv>
     </tu>
     <tu>
