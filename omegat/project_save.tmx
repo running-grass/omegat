@@ -2508,6 +2508,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c @&lt;/k0&gt; (&lt;c1&gt;org-mark-subtree&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064004Z" creationid="grass" creationdate="20201015T064004Z">
+        <seg>&lt;k0&gt;C-c @&lt;/k0&gt; (&lt;c1&gt;org-mark-subtree&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-c C-b&lt;/k0&gt; (&lt;c1&gt;org-backward-heading-same-level&lt;/c1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062902Z" creationid="grass" creationdate="20201015T062902Z">
@@ -2604,6 +2612,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;M-&lt;s1&gt;DOWN&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-move-subtree-down&lt;/c2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063958Z" creationid="grass" creationdate="20201015T063958Z">
+        <seg>&lt;k0&gt;M-&lt;s1&gt;DOWN&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-move-subtree-down&lt;/c2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;M-&lt;s1&gt;LEFT&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-do-promote&lt;/c2&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063724Z" creationid="grass" creationdate="20201015T063724Z">
@@ -2636,10 +2652,34 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;M-&lt;s1&gt;UP&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-move-subtree-up&lt;/c2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063922Z" creationid="grass" creationdate="20201015T063922Z">
+        <seg>&lt;k0&gt;M-&lt;s1&gt;UP&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-move-subtree-up&lt;/c2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;M-S-&lt;s1&gt;LEFT&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-promote-subtree&lt;/c2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063904Z" creationid="grass" creationdate="20201015T063904Z">
+        <seg>&lt;k0&gt;M-S-&lt;s1&gt;LEFT&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-promote-subtree&lt;/c2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;M-S-&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-insert-todo-heading&lt;/c2&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063559Z" creationid="grass" creationdate="20201015T063559Z">
         <seg>&lt;k0&gt;M-S-&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-insert-todo-heading&lt;/c2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;M-S-&lt;s1&gt;RIGHT&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-demote-subtree&lt;/c2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063912Z" creationid="grass" creationdate="20201015T063912Z">
+        <seg>&lt;k0&gt;M-S-&lt;s1&gt;RIGHT&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-demote-subtree&lt;/c2&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -3988,6 +4028,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Demote the current subtree by one level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063919Z" creationid="grass" creationdate="20201015T063919Z">
+        <seg>将当前子树降低一个级别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Depending on &lt;c0&gt;org-reverse-note-order&lt;/c0&gt;, it is either the first or last subitem.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132721Z" creationid="grass" creationdate="20201006T132639Z">
@@ -5124,6 +5172,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Hitting repeatedly marks subsequent subtrees of the same level as the marked subtree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064242Z" creationid="grass" creationdate="20201015T064242Z">
+        <seg>重复执行标记命令将会标记的与该子树相同级别的后续子树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Horizontal Rules</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202725Z" creationid="grass" creationdate="20201010T202725Z">
@@ -6188,6 +6244,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Mark the subtree at point.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064014Z" creationid="grass" creationdate="20201015T064014Z">
+        <seg>在光标位置标记该子树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Markdown Export</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203747Z" creationid="grass" creationdate="20201010T203747Z">
@@ -6288,6 +6352,22 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062017Z" creationid="grass" creationdate="20201010T194532Z">
         <seg>移动</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Move subtree down, i.e., swap with next subtree of same level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064003Z" creationid="grass" creationdate="20201015T064003Z">
+        <seg>下移子树，即与同级的下一个子树互换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Move subtree up, i.e., swap with previous subtree of same level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063957Z" creationid="grass" creationdate="20201015T063957Z">
+        <seg>上移子树，即与同级的上一个子树互换。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9500,6 +9580,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Promote the current subtree by one level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063911Z" creationid="grass" creationdate="20201015T063911Z">
+        <seg>将当前子树提升一个级别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Properties and Columns</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101652Z" creationid="grass" creationdate="20201014T101652Z">
@@ -11168,6 +11256,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T140148Z" creationid="grass" creationdate="20200927T140148Z">
         <seg>要使用此功能，您需要打开“瞬变标记”模式，这是默认设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To select a region of headlines, it is best to place both point and mark at the beginning of a line, mark at the beginning of the first headline, and point at the line just after the last headline to change.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063902Z" creationid="grass" creationdate="20201015T063902Z">
+        <seg>要选择标题区域，最好将光标和标记同时放置在行的开头，标记在第一个标题的开头，然后指向要更改的最后一个标题之后的行。</seg>
       </tuv>
     </tu>
     <tu>
