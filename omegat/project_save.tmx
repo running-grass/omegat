@@ -10054,8 +10054,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Refile entry or region to a different location.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065052Z" creationid="grass" creationdate="20201015T065052Z">
-        <seg>将条目或区域重新归档到其他位置。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T071135Z" creationid="grass" creationdate="20201015T065052Z">
+        <seg>将条目或区域转接到其他位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10238,8 +10238,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>See &lt;a0&gt;Refile and Copy&lt;/a0&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065057Z" creationid="grass" creationdate="20201015T065057Z">
-        <seg>请参阅&lt;a0&gt;重新文件和复制&lt;/a0&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T071125Z" creationid="grass" creationdate="20201015T065057Z">
+        <seg>请参阅&lt;a0&gt;转接和复制&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
