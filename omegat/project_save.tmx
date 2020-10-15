@@ -3404,6 +3404,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All reference documents are put in a &lt;c0&gt;references&lt;/c0&gt; folder next to my Orgmode files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084214Z" creationid="grass" creationdate="20201015T084047Z">
+        <seg>所有参考文档都放在我的Orgmode文件旁边的&lt;c0&gt;references&lt;/c0&gt;文件夹中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All the rest which did not fit elsewhere.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055855Z" creationid="grass" creationdate="20201013T055855Z">
@@ -6040,6 +6048,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100654Z" creationid="grass" creationdate="20201014T100654Z">
         <seg>超链接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I also link emails (which I happen to read within Emacs) using &lt;c0&gt;org-store-link&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084233Z" creationid="grass" creationdate="20201015T084233Z">
+        <seg>我还使用&lt;c0&gt;org-store-link&lt;/c0&gt;链接电子邮件(我碰巧在Emacs中看到了它们)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10742,8 +10758,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>References</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194746Z" creationid="grass" creationdate="20201010T194746Z">
-        <seg>参考文献</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084202Z" creationid="grass" creationdate="20201010T194746Z">
+        <seg>参考文档</seg>
       </tuv>
     </tu>
     <tu>
@@ -12300,6 +12316,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>They are then linked (using &lt;c1&gt;org-store-link&lt;/c1&gt;) from Dired buffers into my projects for quick access.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084227Z" creationid="grass" creationdate="20201015T084227Z">
+        <seg>然后将它们从Dired缓冲区链接(使用&lt;c1&gt;org-store-link&lt;/c1&gt;)到我的项目中，以便快速访问。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This also keeps my agenda clean, free of any fake or self-imposed deadline or schedule.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081719Z" creationid="grass" creationdate="20201015T081719Z">
@@ -12632,6 +12656,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105504Z" creationid="grass" creationdate="20201014T105504Z">
         <seg>这是这个LaTeX后端独有的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Until then, you can just focus on something else and free your mind from this task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084031Z" creationid="grass" creationdate="20201015T084031Z">
+        <seg>在那之前，你可以把注意力放在别的事情上，把你的思想从这项任务中解放出来。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13073,6 +13105,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063526Z" creationid="grass" creationdate="20201015T063526Z">
         <seg>当在行中间使用此命令时，该行将被拆分，该行的剩余部分将成为新项或标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When time will come, the action will appear in your Org Agenda, reminding you of the bill you have to pay, and all you will have to do is moving it to your inbox.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084025Z" creationid="grass" creationdate="20201015T084025Z">
+        <seg>当时间到来时，该操作将出现在您的Org议程中，提醒您必须支付的账单，您所要做的就是将其移动到您的收件箱中。</seg>
       </tuv>
     </tu>
     <tu>
