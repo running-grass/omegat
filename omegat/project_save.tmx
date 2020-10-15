@@ -6,6 +6,22 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>"~/gtd/gtd.org"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075600Z" creationid="grass" creationdate="20201015T075600Z">
+        <seg>"~/gtd/gtd.org"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>"~/gtd/tickler.org"))</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075601Z" creationid="grass" creationdate="20201015T075601Z">
+        <seg>"~/gtd/tickler.org"))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#+STARTUP: overview
 #+STARTUP: content
 #+STARTUP: showall
@@ -120,6 +136,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(setq org-agenda-files '("~/gtd/inbox.org"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075558Z" creationid="grass" creationdate="20201015T075558Z">
+        <seg>(setq org-agenda-files '("~/gtd/inbox.org"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* Top level headline
 ** Second level
 *** Third level</seg>
@@ -160,6 +184,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T082219Z" creationid="grass" creationdate="20200927T082219Z">
         <seg>1 简介</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075602Z" creationid="grass" creationdate="20201015T075602Z">
+        <seg>1.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2440,6 +2472,38 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062459Z" creationid="grass" creationdate="20200927T131829Z">
         <seg>&lt;b0&gt;重要提示:&lt;/b0&gt;你需要在未访问' &lt;s1&gt; .org &lt;/s1&gt;'文件的会话（即未加载Org内置函数的会话）中执行此操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;gtd.org&lt;/c0&gt;: where I put all my projects;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075522Z" creationid="grass" creationdate="20201015T075522Z">
+        <seg>&lt;c0&gt;gtd.org&lt;/c0&gt;：放置所有项目的位置；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;inbox.org&lt;/c0&gt;: where I collect everything;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075520Z" creationid="grass" creationdate="20201015T075520Z">
+        <seg>&lt;c0&gt;inbox.org&lt;/c0&gt;：我收集所有东西的地方；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;someday.org&lt;/c0&gt;: All inactive tasks that I might do at some point in the future, but don’t want to see all the time;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075535Z" creationid="grass" creationdate="20201015T075535Z">
+        <seg>&lt;c0&gt;ome eday.org&lt;/c0&gt;：所有我可能在将来某个时候完成但不想一直看到的非当前活动任务；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;tickler.org&lt;/c0&gt;: I put entries in this file with a &lt;a1&gt;timestamp&lt;/a1&gt; to get reminded at the right moment.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075542Z" creationid="grass" creationdate="20201015T075542Z">
+        <seg>&lt;c0&gt;tickler.org&lt;/c0&gt;：我在此文件中放置了带有&lt;a1&gt;时间戳&lt;/a1&gt;的条目，以便在正确的时间得到提醒。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5580,6 +5644,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>I split my GTD in four separate files:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075518Z" creationid="grass" creationdate="20201015T075518Z">
+        <seg>我将GTD拆分为四个单独的文件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If &lt;v4&gt;N&lt;/v4&gt; is negative then go up that many levels.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T180601Z" creationid="grass" creationdate="20201010T180601Z">
@@ -5664,6 +5736,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063531Z" creationid="grass" creationdate="20201015T063531Z">
         <seg>如果不想拆分该行，请自定义&lt;c0&gt;org-M-ret-May-plit-line&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you don’t know Orgmode and are curious about it, you should head to &lt;a0&gt;its website&lt;/a0&gt; first.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075512Z" creationid="grass" creationdate="20201015T075512Z">
+        <seg>如果您不了解Orgmode并对其感兴趣，您应该先访问其&lt;a0&gt;网站&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6004,6 +6084,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Introduction</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075422Z" creationid="grass" creationdate="20201015T075422Z">
+        <seg>引言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Invoking HTML export.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105003Z" creationid="grass" creationdate="20201014T105003Z">
@@ -6048,6 +6136,22 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102323Z" creationid="grass" creationdate="20201014T102323Z">
         <seg>一次又一次出现的项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It’s important to add these files to the agenda file (more on the agenda later), like the following:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075557Z" creationid="grass" creationdate="20201015T075557Z">
+        <seg>将这些文件添加到议程文件(稍后将详细介绍议程)非常重要，如下所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I’ve been using &lt;a0&gt;Orgmode&lt;/a0&gt; to implement the &lt;a1&gt;GTD methodology&lt;/a1&gt; for the last 4 years.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075440Z" creationid="grass" creationdate="20201015T075440Z">
+        <seg>在过去的4年里，我一直在使用&lt;a0&gt;Orgmode&lt;/a0&gt;来实现&lt;a1&gt;GTD方法&lt;/a1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8812,6 +8916,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>One of the most important aspects of GTD is the inbox.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075625Z" creationid="grass" creationdate="20201015T075625Z">
+        <seg>GTD最重要的一个方面是收件箱。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>One-component publishing.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111130Z" creationid="grass" creationdate="20201014T111130Z">
@@ -9996,6 +10108,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Rather than explaining the GTD methodology itself or how Orgmode works, in this post I’ll detail how I use Orgmode to implement GTD.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075456Z" creationid="grass" creationdate="20201015T075456Z">
+        <seg>在这篇文章中，我将详细介绍如何使用Orgmode实现GTD，而不是解释GTD方法本身或Orgmode是如何工作的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Read documentation about current syntax.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112458Z" creationid="grass" creationdate="20201014T112458Z">
@@ -11132,6 +11252,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The GTD inbox</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075604Z" creationid="grass" creationdate="20201015T075604Z">
+        <seg>GTD收件箱</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Org Manual</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172043Z" creationid="grass" creationdate="20200927T075935Z">
@@ -11336,6 +11464,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103539Z" creationid="grass" creationdate="20201014T103539Z">
         <seg>事物的秩序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The orgmode files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075515Z" creationid="grass" creationdate="20201015T075515Z">
+        <seg>orgmode文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -12473,6 +12609,22 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://orgmode.org/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075424Z" creationid="grass" creationdate="20201015T075424Z">
+        <seg>http://orgmode.org/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://orgmode.org/manual/Timestamps.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075536Z" creationid="grass" creationdate="20201015T075536Z">
+        <seg>http://orgmode.org/manual/Timestamps.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Key-Binding-Conventions</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061718Z" creationid="grass" creationdate="20201015T061718Z">
@@ -12493,6 +12645,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062049Z" creationid="grass" creationdate="20201015T062049Z">
         <seg>http://www.network-theory.co.uk/org/manual/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://en.wikipedia.org/wiki/Getting_Things_Done</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075428Z" creationid="grass" creationdate="20201015T075428Z">
+        <seg>https://en.wikipedia.org/wiki/Getting_Things_Done</seg>
       </tuv>
     </tu>
     <tu>
