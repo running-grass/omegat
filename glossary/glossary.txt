@@ -57,7 +57,6 @@ Depending on	根据
 item	项
 By default	默认情况下
 Headlines	标题
-Motion	动作
 Jumping	跳转
 Sparse Trees	稀疏树
 Plain Lists	普通列表
@@ -141,3 +140,4 @@ preamble	引言
 major-mode	主模式
 Clean View	净化视图
 Interaction	交互
+Motion	移动
