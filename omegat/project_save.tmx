@@ -2430,8 +2430,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>&lt;b0&gt;Important:&lt;/b0&gt; You need to do this in a session where no ‘&lt;s1&gt;.org&lt;/s1&gt;’ file has been visited, i.e., where no Org built-in function have been loaded.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20200927T131927Z" creationid="grass" creationdate="20200927T131829Z">
-        <seg>&lt;b0&gt;重要提示:&lt;/b0&gt;你需要在未访问' &lt;s1&gt; .org &lt;/ s1&gt;'文件的会话（即未加载Org内置函数的会话）中执行此操作。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062459Z" creationid="grass" creationdate="20200927T131829Z">
+        <seg>&lt;b0&gt;重要提示:&lt;/b0&gt;你需要在未访问' &lt;s1&gt; .org &lt;/s1&gt;'文件的会话（即未加载Org内置函数的会话）中执行此操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8166,8 +8166,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Note that in this case, ‘&lt;s0&gt;make autoloads&lt;/s0&gt;’ is mandatory: it defines Org’s version in ‘&lt;s1&gt;org-version.el&lt;/s1&gt;’ and Org’s autoloads in ‘&lt;s2&gt;org-loaddefs.el&lt;/s2&gt;’.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20200927T133025Z" creationid="grass" creationdate="20200927T133025Z">
-        <seg>请注意，在这种情况下，必须使用'&lt;s0&gt;make autoloads&lt;/ s0&gt;'：它在'&lt;s1&gt;org-version.el&lt;/ s1&gt;'中定义Org的版本，并在'&lt;s2&gt;org-loaddefs .el&lt;/ s2&gt;'中定义Org的自动加载。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062517Z" creationid="grass" creationdate="20200927T133025Z">
+        <seg>请注意，在这种情况下，必须使用'&lt;s0&gt;make autoloads&lt;/ s0&gt;'：它在'&lt;s1&gt;org-version.el&lt;/ s1&gt;'中定义Org的版本，并在'&lt;s2&gt;org-loaddefs .el&lt;/s2&gt;'中定义Org的自动加载。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8446,8 +8446,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Org mode buffers need Font Lock to be turned on: this is the default in Emacs&lt;a0&gt;&lt;s1&gt;1&lt;/s1&gt;&lt;/a0&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20200927T133854Z" creationid="grass" creationdate="20200927T133854Z">
-        <seg>Org模式缓冲区需要打开字体锁定，这是Emacs中的默认设置</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062552Z" creationid="grass" creationdate="20200927T133854Z">
+        <seg>Org模式缓冲区需要打开字体锁定，这是Emacs中的默认设置s&lt;a0&gt;&lt;s1&gt;1&lt;/s1&gt;&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11463,8 +11463,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>You can run global cycling using &lt;k0&gt;&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; only if point is at the very beginning of the buffer, but not on a headline, and &lt;c2&gt;org-cycle-global-at-bob&lt;/c2&gt; is set to a non-&lt;c3&gt;nil&lt;/c3&gt; value.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201010T174659Z" creationid="grass" creationdate="20201010T174642Z">
-        <seg>您可以使用&lt;k0&gt;TAB&lt;/s1&gt;&lt;/k0&gt;运行全局循环，前提是光标位于缓冲区的最开始处，而不是在标题上，并且&lt;c2&gt;org-cycle-global-at-bob&lt;/c2&gt;设置为非&lt;c3&gt;nil&lt;/c3&gt;值。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062636Z" creationid="grass" creationdate="20201010T174642Z">
+        <seg>您可以使用&lt;k0&gt;&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt;运行全局循环，前提是光标位于缓冲区的最开始处，而不是在标题上，并且&lt;c2&gt;org-cycle-global-at-bob&lt;/c2&gt;设置为非&lt;c3&gt;nil&lt;/c3&gt;值。</seg>
       </tuv>
     </tu>
     <tu>
