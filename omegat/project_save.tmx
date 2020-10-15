@@ -74,6 +74,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>'(("o" "At the office" tags-todo "@office"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T082821Z" creationid="grass" creationdate="20201015T082821Z">
+        <seg>'(("o" "At the office" tags-todo "@office"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>'-----------------------------------'</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061817Z" creationid="grass" creationdate="20201015T061817Z">
@@ -110,6 +118,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080304Z" creationid="grass" creationdate="20201015T080304Z">
         <seg>("~/gtd/tickler.org" :maxlevel .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>((org-agenda-overriding-header "Office")))))</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T082822Z" creationid="grass" creationdate="20201015T082822Z">
+        <seg>((org-agenda-overriding-header "Office")))))</seg>
       </tuv>
     </tu>
     <tu>
@@ -188,6 +204,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061737Z" creationid="grass" creationdate="20201015T061737Z">
         <seg>(setq debug-on-error t</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(setq org-agenda-custom-commands</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T082818Z" creationid="grass" creationdate="20201015T082818Z">
+        <seg>(setq org-agenda-custom-commands</seg>
       </tuv>
     </tu>
     <tu>
@@ -5120,6 +5144,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170747Z" creationid="grass" creationdate="20201010T170747Z">
         <seg>折叠块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Following the GTD principle, what I usually want is to only show the &lt;e0&gt;first action to be done&lt;/e0&gt; (or next action) for each project with the &lt;c1&gt;@office&lt;/c1&gt; tag.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083018Z" creationid="grass" creationdate="20201015T082853Z">
+        <seg>遵循GTD原则，我通常希望使用&lt;c1&gt;@办公室&lt;/c1&gt;标签为每个项目仅显示要完成的&lt;e0&gt;首要行动&lt;/e0&gt;(或下一步行动)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11608,6 +11640,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082309Z" creationid="grass" creationdate="20200929T082309Z">
         <seg>感谢您帮助改进此程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That can be achieved using a skipping condition:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083141Z" creationid="grass" creationdate="20201015T083141Z">
+        <seg>这可以使用跳过条件来实现：</seg>
       </tuv>
     </tu>
     <tu>
