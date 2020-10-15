@@ -5310,8 +5310,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Files being searched for agenda information.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102932Z" creationid="grass" creationdate="20201014T102932Z">
-        <seg>正在搜索议程信息的文件。</seg>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T143711Z" creationid="grass" creationdate="20201014T102932Z">
+        <seg>从哪些文件中搜索提供给agenda展示的信息</seg>
       </tuv>
     </tu>
     <tu>
@@ -12748,6 +12748,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Two variables control how the agenda buffer is displayed and whether the window configuration is restored when the agenda exits: &lt;c0&gt;org-agenda-window-setup&lt;/c0&gt; and &lt;c1&gt;org-agenda-restore-windows-after-quit&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T143221Z" creationid="Eli" creationdate="20201015T143221Z">
+        <seg>变量&lt;c0&gt;org-agenda-window-setup&lt;/c0&gt;控制agenda buffer的显示方式，变量&lt;c1&gt;org-agenda-restore-windows-after-quit&lt;/c1&gt;决定在退出agenda后是否恢复之前的窗口配置状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Type once, use often.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103709Z" creationid="grass" creationdate="20201014T103709Z">
@@ -13497,6 +13505,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T140645Z" creationid="grass" creationdate="20200927T131307Z">
         <seg>输入命令 &lt;k0&gt;M-x list-packages&lt;/k0&gt;，你便可以从“软件包清单”中安装Org。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can override this by setting &lt;c2&gt;org-agenda-skip-comment-trees&lt;/c2&gt; and &lt;c3&gt;org-agenda-skip-archived-trees&lt;/c3&gt; to &lt;c4&gt;nil&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T142859Z" creationid="Eli" creationdate="20201015T142859Z">
+        <seg>可以通过设置&lt;c2&gt;org-agenda-skip-comment-trees&lt;/c2&gt;和&lt;c3&gt;org-agenda-skip-archived-trees&lt;/c3&gt;为nil来取消忽略。</seg>
       </tuv>
     </tu>
     <tu>
