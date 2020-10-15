@@ -5300,6 +5300,22 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>GTD contexts are just regular tags, starting with &lt;c0&gt;@&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081123Z" creationid="grass" creationdate="20201015T081123Z">
+        <seg>GTD上下文只是一个以&lt;c0&gt;@&lt;/c0&gt;开始的常规标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>GTD contexts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081057Z" creationid="grass" creationdate="20201015T081057Z">
+        <seg>GTD上下文。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Generating a list of all pages.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111056Z" creationid="grass" creationdate="20201014T111056Z">
@@ -5796,6 +5812,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>I make heavy use of them in &lt;a1&gt;custom Org Agenda commands&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081155Z" creationid="grass" creationdate="20201015T081155Z">
+        <seg>我在&lt;a1&gt;自定义Org议程命令&lt;/a1&gt;中大量使用它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>I press &lt;c0&gt;C-c c t&lt;/c0&gt; to add an entry to my inbox, and &lt;c1&gt;C-c c T&lt;/c1&gt; to add an entry to the tickler (more on that later).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075826Z" creationid="grass" creationdate="20201015T075826Z">
@@ -5808,6 +5832,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075518Z" creationid="grass" creationdate="20201015T075518Z">
         <seg>我将GTD拆分为四个单独的文件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I use tags for several purposes:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080959Z" creationid="grass" creationdate="20201015T080959Z">
+        <seg>我使用标签有几个目的：</seg>
       </tuv>
     </tu>
     <tu>
@@ -6888,6 +6920,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200106Z" creationid="grass" creationdate="20201010T200106Z">
         <seg>一个文件中的多个关键字集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>My contexts tend to change over time, but I always have at least &lt;c0&gt;@home&lt;/c0&gt;, &lt;c1&gt;@office&lt;/c1&gt;, &lt;c2&gt;@travelling&lt;/c2&gt;, &lt;c3&gt;@phone&lt;/c3&gt;, &lt;c4&gt;@email&lt;/c4&gt;, &lt;c5&gt;@errands&lt;/c5&gt; to filter out next actions based on my current location for instance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081312Z" creationid="grass" creationdate="20201015T081312Z">
+        <seg>我的上下文往往会随着时间的推移而变化，但我始终至少有&lt;c0&gt;@家&lt;/c0&gt;, &lt;c1&gt;@办公室&lt;/c1&gt;, &lt;c2&gt;@旅行&lt;/c2&gt;, &lt;c3&gt;@电话&lt;/c3&gt;, &lt;c4&gt;@邮件&lt;/c4&gt;, &lt;c5&gt;@errands&lt;/c5&gt; to filter out next actions based on my current location for instance.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10444,6 +10484,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Regular categories, like &lt;c0&gt;:emacs:&lt;/c0&gt; or &lt;c1&gt;:writing:&lt;/c1&gt;;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081032Z" creationid="grass" creationdate="20201015T081032Z">
+        <seg>常规类别，如&lt;c0&gt;:emacs:&lt;/c0&gt;或&lt;c1&gt;:写作:&lt;/c1&gt;；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Reload uncompiled versions of all Org mode Lisp files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082436Z" creationid="grass" creationdate="20200929T082436Z">
@@ -11332,6 +11380,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tagging is done using &lt;c0&gt;C-c C-c&lt;/c0&gt; on a headline, whether it’s a project or action.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080952Z" creationid="grass" creationdate="20201015T080952Z">
+        <seg>标签是在标题上使用&lt;c0&gt;C-c C-c&lt;/c0&gt;完成的，无论它是项目还是行动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tags</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101626Z" creationid="grass" creationdate="20201014T101626Z">
@@ -11344,6 +11400,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130547Z" creationid="grass" creationdate="20201005T130547Z">
         <seg>标签要区分大小写。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tags that link to people, like &lt;c0&gt;:daniel:&lt;/c0&gt;;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081056Z" creationid="grass" creationdate="20201015T081056Z">
+        <seg>链接到人的标签，如&lt;c0&gt;:daniel:&lt;/c0&gt;；</seg>
       </tuv>
     </tu>
     <tu>
@@ -12957,6 +13021,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075536Z" creationid="grass" creationdate="20201015T075536Z">
         <seg>http://orgmode.org/manual/Timestamps.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://orgmode.org/worg/org-tutorials/org-custom-agenda-commands.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081059Z" creationid="grass" creationdate="20201015T081059Z">
+        <seg>http://orgmode.org/worg/org-tutorials/org-custom-agenda-commands.html</seg>
       </tuv>
     </tu>
     <tu>
