@@ -141,3 +141,6 @@ major-mode	主模式
 Clean View	净化视图
 Interaction	交互
 Motion	移动
+Quit	退出
+Document	文档
+Structure	结构
