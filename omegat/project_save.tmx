@@ -4268,6 +4268,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Conclusion</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084556Z" creationid="grass" creationdate="20201015T084311Z">
+        <seg>结尾</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051106Z" creationid="grass" creationdate="20201013T051106Z">
@@ -4720,6 +4728,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083625Z" creationid="grass" creationdate="20201015T083619Z">
         <seg>在每周评审期间，我在“正在进行”状态(在&lt;c0&gt;gtd.org&lt;/c0&gt;中)和“稍后”状态(在&lt;c1&gt;someday.org&lt;/c1&gt;中)之间来回移动项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>During my weekly reviews, I archive done projects using &lt;c0&gt;C-c C-x C-a&lt;/c0&gt; (&lt;c1&gt;org-archive-subtree-default&lt;/c1&gt;), which moved the entry at point to an archive file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084302Z" creationid="grass" creationdate="20201015T084302Z">
+        <seg>在每周审查期间，我使用&lt;c0&gt;C-c C-x C-a&lt;/c0&gt;(&lt;c1&gt;org-archive-subtree-default&lt;/c1&gt;)将已完成的项目存档，它将条目移动到存档文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6054,8 +6070,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>I also link emails (which I happen to read within Emacs) using &lt;c0&gt;org-store-link&lt;/c0&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084233Z" creationid="grass" creationdate="20201015T084233Z">
-        <seg>我还使用&lt;c0&gt;org-store-link&lt;/c0&gt;链接电子邮件(我碰巧在Emacs中看到了它们)。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084242Z" creationid="grass" creationdate="20201015T084233Z">
+        <seg>我还使用&lt;c0&gt;org-store-link&lt;/c0&gt;链接电子邮件(如果我碰巧在Emacs中看到了它们)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12380,6 +12396,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is a very wide topic, so obviously I haven’t covered everything, but I hope that explains the basics of how I use Orgmode to implement GTD.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084318Z" creationid="grass" creationdate="20201015T084318Z">
+        <seg>这是一个非常广泛的主题，所以显然我没有涵盖所有内容，但我希望这解释了我如何使用Orgmode实现GTD的基础知识。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is information from the built-in debugger about where and how the error occurred.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130126Z" creationid="grass" creationdate="20201005T130103Z">
@@ -12416,6 +12440,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T102036Z" creationid="grass" creationdate="20200927T102036Z">
         <seg>此页面位于&lt;a0&gt;https://orgmode.org&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This way my GTD files remain uncluttered and I never delete any data.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084308Z" creationid="grass" creationdate="20201015T084308Z">
+        <seg>这样，我的GTD文件就会保持整洁，而且我永远不会删除任何数据。</seg>
       </tuv>
     </tu>
     <tu>
