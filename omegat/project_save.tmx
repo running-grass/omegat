@@ -13705,6 +13705,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>https://emacs.cafe/emacs/orgmode/gtd/2017/06/30/orgmode-gtd.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T095835Z" creationid="grass" creationdate="20201015T095835Z">
+        <seg>https://emacs.cafe/emacs/orgmode/gtd/2017/06/30/orgmode-gtd.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>https://en.wikipedia.org/wiki/Getting_Things_Done</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075428Z" creationid="grass" creationdate="20201015T075428Z">
@@ -42413,6 +42421,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104625Z" creationid="grass" creationdate="20201014T104625Z">
         <seg>• &lt;a0&gt;iCalendar导出&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>原文链接: &lt;a0&gt;https://emacs.cafe/emacs/orgmode/gtd/2017/06/30/orgmode-gtd.html&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T095839Z" creationid="grass" creationdate="20201015T095839Z">
+        <seg>原文链接: &lt;a0&gt;https://emacs.cafe/emacs/orgmode/gtd/2017/06/30/orgmode-gtd.html&lt;/a0&gt;</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
