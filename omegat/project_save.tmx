@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_6a661c5e0" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_23349233" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -13527,8 +13527,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>a &lt;e0&gt;text search view&lt;/e0&gt; that shows all entries from multiple files that contain specified keywords,</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Eli" changedate="20201014T145832Z" creationid="Eli" creationdate="20201014T145832Z">
-        <seg>&lt;e0&gt;text search view&lt;/e0&gt;能从多个文件查找包含关键字的全部条目。</seg>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T141228Z" creationid="Eli" creationdate="20201014T145832Z">
+        <seg>&lt;e0&gt;text search view&lt;/e0&gt;能从多个文件中查找所有包含关键字的条目。</seg>
       </tuv>
     </tu>
     <tu>
