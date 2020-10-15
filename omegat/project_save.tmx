@@ -4860,6 +4860,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Finally, if the first line is a headline, remove the stars from all headlines in the region.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070318Z" creationid="grass" creationdate="20201015T070318Z">
+        <seg>最后，如果第一行是标题，则从该区域的所有标题中删除星号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Find entries by searching for text.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103223Z" creationid="grass" creationdate="20201014T103223Z">
@@ -7942,8 +7950,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Next: &lt;a0&gt;Plain Lists&lt;/a0&gt;, Previous: &lt;a1&gt;Structure Editing&lt;/a1&gt;, Up: &lt;a2&gt;Document Structure&lt;/a2&gt;   [&lt;a3&gt;Contents&lt;/a3&gt;][&lt;a4&gt;Index&lt;/a4&gt;]</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20200927T103537Z" creationid="grass" creationdate="20200927T103324Z">
-        <seg>下一页: &lt;a0&gt;Plain Lists&lt;/a0&gt;, 上一页: &lt;a1&gt;Structure Editing&lt;/a1&gt;, 返回: &lt;a2&gt;Document Structure&lt;/a2&gt;   [&lt;a3&gt;目录&lt;/a3&gt;][&lt;a4&gt;索引&lt;/a4&gt;]</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070440Z" creationid="grass" creationdate="20200927T103324Z">
+        <seg>下一页: &lt;a0&gt;普通列表&lt;/a0&gt;, 上一页: &lt;a1&gt;结构编辑&lt;/a1&gt;, 返回: &lt;a2&gt;文档结构&lt;/a2&gt;   [&lt;a3&gt;目录&lt;/a3&gt;][&lt;a4&gt;索引&lt;/a4&gt;]</seg>
       </tuv>
     </tu>
     <tu>
@@ -8720,6 +8728,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T174542Z" creationid="grass" creationdate="20201010T174517Z">
         <seg>请注意，在表格中(请参阅&lt;a0&gt;表格&lt;/a0&gt;)，&lt;k1&gt;S-&lt;s2&gt;TAB&lt;/s2&gt;&lt;/k1&gt;会跳转到上一个字段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that when point is inside a table (see &lt;a0&gt;Tables&lt;/a0&gt;), the Meta-Cursor keys have different functionality.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070410Z" creationid="grass" creationdate="20201015T070410Z">
+        <seg>请注意，当光标位于表格中时(请参见&lt;a0&gt;表格&lt;/a0&gt;)，Meta修饰标键具有不同的功能。</seg>
       </tuv>
     </tu>
     <tu>
