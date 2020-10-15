@@ -155,3 +155,8 @@ Introduction	引言
 Orgmode	Orgmode
 inbox	收件箱
 entry	记录
+project	项目
+tickler	备忘录
+someday	将来
+maybe	也许
+active	正在进行的
