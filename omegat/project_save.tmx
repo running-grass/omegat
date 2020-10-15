@@ -2228,6 +2228,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>4.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083719Z" creationid="grass" creationdate="20201015T083719Z">
+        <seg>4.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.1</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T060915Z" creationid="grass" creationdate="20201015T060915Z">
@@ -3876,6 +3884,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>But you also don’t want to be reminded of that each and every time you browse through your GTD projects: now is not the time to pay it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083812Z" creationid="grass" creationdate="20201015T083812Z">
+        <seg>但是你也不想每次浏览你的GTD项目时都被提醒：因为现在不是付钱的时候。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, all level 1 headlines in the current buffer are considered to be targets, but you can have more complex definitions across a number of files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132854Z" creationid="grass" creationdate="20201006T132854Z">
@@ -4680,6 +4696,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195123Z" creationid="grass" creationdate="20201010T195123Z">
         <seg>持续时间和时间值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>During a later weekly review, I’ll move it back to &lt;c1&gt;gtd.org&lt;/c1&gt; when it will become active again.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083707Z" creationid="grass" creationdate="20201015T083707Z">
+        <seg>在以后的每周审查期间，我会将其移回&lt;c1&gt;gtd.org&lt;/c1&gt;，届时它将再次变为正在进行状态。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6784,6 +6808,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052309Z" creationid="grass" creationdate="20201013T052309Z">
         <seg>语言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let’s say you will have to pay a bill in a month.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083748Z" creationid="grass" creationdate="20201015T083737Z">
+        <seg>比方说你一个月后得付账单。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11844,6 +11876,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>That’s where the tickler kicks in: Add an entry to your tickler file with a timestamp, and forget about it!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084007Z" creationid="grass" creationdate="20201015T084007Z">
+        <seg>这就是备忘录的作用：在您的备忘录文件中添加一个带有时间戳的条目，然后忘掉它！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;capture&lt;/c0&gt; protocol</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053249Z" creationid="grass" creationdate="20201013T053249Z">
@@ -12188,6 +12228,22 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The tickler</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083726Z" creationid="grass" creationdate="20201015T083726Z">
+        <seg>备忘录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The tickler is one of the best concepts of GTD in my opinion.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083734Z" creationid="grass" creationdate="20201015T083734Z">
+        <seg>在我看来，备忘录是GTD最好的概念之一。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The variable &lt;c0&gt;org-publish-project-alist&lt;/c0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051115Z" creationid="grass" creationdate="20201013T051115Z">
@@ -12424,6 +12480,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T140148Z" creationid="grass" creationdate="20200927T140148Z">
         <seg>要使用此功能，您需要打开“瞬变标记”模式，这是默认设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To move projects around, I also use refiling.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083718Z" creationid="grass" creationdate="20201015T083718Z">
+        <seg>为了移动项目，我还使用转接。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13289,6 +13353,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T080240Z" creationid="grass" creationdate="20200929T080122Z">
         <seg>你可以从&lt;a1&gt;这个页面&lt;/a1&gt;订阅此列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You need to write it down in your GTD if you don’t want to miss the deadline.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083758Z" creationid="grass" creationdate="20201015T083740Z">
+        <seg>如果你不想错过截止期限，你需要把它写在你的GTD里。</seg>
       </tuv>
     </tu>
     <tu>
