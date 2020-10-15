@@ -5548,6 +5548,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here’s an example custom agenda command that will display all actions for the &lt;c0&gt;@office&lt;/c0&gt; context:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T082814Z" creationid="grass" creationdate="20201015T082814Z">
+        <seg>下面是一个自定义议程命令示例，它将显示&lt;c0&gt;@办公室&lt;/c0&gt;上下文的所有行动：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here’s an example project:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080800Z" creationid="grass" creationdate="20201015T080800Z">
@@ -5880,6 +5888,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081620Z" creationid="grass" creationdate="20201015T081620Z">
         <seg>我想我主要使用相当常规的关键字：&lt;c0&gt;TODO&lt;/c0&gt;、&lt;c1&gt;WAITING&lt;/c1&gt;、&lt;c2&gt;DONE&lt;/c2&gt;和&lt;c3&gt;CANCELLED&lt;/c3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I use custom agenda commands mostly to get an overview of actions by context or tag.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T082306Z" creationid="grass" creationdate="20201015T082213Z">
+        <seg>我使用自定义议程命令主要是为了根据上下文或标签获得行动概述。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9508,6 +9524,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Org-mode’s built-in agenda commands are powerful tools for searching your notes and for gathering, sorting, filtering, and displaying your tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T082156Z" creationid="grass" creationdate="20201015T082156Z">
+        <seg>Org-mode的内置议程命令是搜索笔记以及收集、排序、过滤和显示任务的强大工具。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Orgmode has a great feature that fits really well with this concept: &lt;a0&gt;org-capture&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075659Z" creationid="grass" creationdate="20201015T075659Z">
@@ -10416,6 +10440,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050651Z" creationid="grass" creationdate="20201013T050651Z">
         <seg>引用Texinfo代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Quoting the manual:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T082120Z" creationid="grass" creationdate="20201015T082120Z">
+        <seg>引用手册内容：</seg>
       </tuv>
     </tu>
     <tu>
