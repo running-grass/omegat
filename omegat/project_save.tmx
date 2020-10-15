@@ -5060,6 +5060,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Filtering projects &amp; actions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081929Z" creationid="grass" creationdate="20201015T081929Z">
+        <seg>筛选项目和行动</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Filtering/limiting agenda items</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103609Z" creationid="grass" creationdate="20201010T202120Z">
@@ -11220,6 +11228,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sure, it does daily/weekly agendas, but it offers much more than that.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T082115Z" creationid="grass" creationdate="20201015T082115Z">
+        <seg>当然，它拥有每天(每周)日程安排，但它提供的远不止这些。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Switch back to the startup visibility of the buffer (see &lt;a0&gt;Initial visibility&lt;/a0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T174732Z" creationid="grass" creationdate="20201010T174732Z">
@@ -12605,10 +12621,26 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When deciding what to work on, I use either &lt;a0&gt;sparse trees&lt;/a0&gt; – which makes it easy to filter the content of my GTD projects by tag, search term, etc., or I use &lt;a1&gt;custom agenda commands&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T082017Z" creationid="grass" creationdate="20201015T081948Z">
+        <seg>当决定要处理什么时，我使用&lt;a0&gt;稀疏树&lt;/a0&gt;-这使得通过标签、搜索词等过滤我的GTD项目内容变得很容易，或者我使用&lt;a1&gt;自定义议程命令&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When did the status change?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101554Z" creationid="grass" creationdate="20201014T101554Z">
         <seg>状态是什么时候更改的？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When discovering Orgmode, most people think that its agenda is just a regular agenda.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T082032Z" creationid="grass" creationdate="20201015T082032Z">
+        <seg>在发现Orgmode时，大多数人认为它的议程只是一个常规议程。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13133,6 +13165,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075839Z" creationid="grass" creationdate="20201015T075839Z">
         <seg>http://orgmode.org/manual/Refile-and-copy.html#Refile-and-copy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://orgmode.org/manual/Sparse-trees.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081931Z" creationid="grass" creationdate="20201015T081931Z">
+        <seg>http://orgmode.org/manual/Sparse-trees.html</seg>
       </tuv>
     </tu>
     <tu>
