@@ -6,6 +6,58 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>#+STARTUP: overview
+#+STARTUP: content
+#+STARTUP: showall
+#+STARTUP: showeverything</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061835Z" creationid="grass" creationdate="20201015T061835Z">
+        <seg>#+STARTUP: overview
+#+STARTUP: content
+#+STARTUP: showall
+#+STARTUP: showeverything</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$ cd ~/src/
+$ git clone https://code.orgmode.org/bzg/org-mode.git
+$ cd org-mode/
+$ make autoloads</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061707Z" creationid="grass" creationdate="20201015T061707Z">
+        <seg>$ cd ~/src/
+$ git clone https://code.orgmode.org/bzg/org-mode.git
+$ cd org-mode/
+$ make autoloads</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>$ emacs -Q -l /path/to/minimal-org.el</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061735Z" creationid="grass" creationdate="20201015T061735Z">
+        <seg>$ emacs -Q -l /path/to/minimal-org.el</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>'-----------------------------------'</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061817Z" creationid="grass" creationdate="20201015T061817Z">
+        <seg>'-----------------------------------'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>'--------------------------------------'</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061822Z" creationid="grass" creationdate="20201015T061822Z">
+        <seg>'--------------------------------------'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(a) The FSF’s Back-Cover Text is: “You have the freedom to copy and modify this GNU manual.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054605Z" creationid="grass" creationdate="20201013T054605Z">
@@ -14,10 +66,56 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(add-to-list 'load-path "~/path/to/orgdir/contrib/lisp" t)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061705Z" creationid="grass" creationdate="20201015T061705Z">
+        <seg>(add-to-list 'load-path "~/path/to/orgdir/contrib/lisp" t)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(add-to-list 'load-path "~/path/to/orgdir/lisp")</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061704Z" creationid="grass" creationdate="20201015T061704Z">
+        <seg>(add-to-list 'load-path "~/path/to/orgdir/lisp")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(add-to-list 'load-path (expand-file-name "/path/to/org-mode/lisp"))
+(add-to-list 'load-path (expand-file-name "/path/to/org-mode/contrib/lisp" t))</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061739Z" creationid="grass" creationdate="20201015T061739Z">
+        <seg>(add-to-list 'load-path (expand-file-name "/path/to/org-mode/lisp"))
+(add-to-list 'load-path (expand-file-name "/path/to/org-mode/contrib/lisp" t))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(dir)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T060424Z" creationid="grass" creationdate="20201015T060407Z">
         <seg>#SEC_Contents</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(global-set-key (kbd "C-c l") 'org-store-link)
+(global-set-key (kbd "C-c a") 'org-agenda)
+(global-set-key (kbd "C-c c") 'org-capture)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061721Z" creationid="grass" creationdate="20201015T061721Z">
+        <seg>(global-set-key (kbd "C-c l") 'org-store-link)
+(global-set-key (kbd "C-c a") 'org-agenda)
+(global-set-key (kbd "C-c c") 'org-capture)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(setq debug-on-error t</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061737Z" creationid="grass" creationdate="20201015T061737Z">
+        <seg>(setq debug-on-error t</seg>
       </tuv>
     </tu>
     <tu>
@@ -2218,10 +2316,82 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-cycle&lt;/c2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061815Z" creationid="grass" creationdate="20201015T061815Z">
+        <seg>&lt;k0&gt;&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-cycle&lt;/c2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c &lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;outline-show-children&lt;/c2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061830Z" creationid="grass" creationdate="20201015T061830Z">
+        <seg>&lt;k0&gt;C-c &lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;outline-show-children&lt;/c2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c C-k&lt;/k0&gt; (&lt;c1&gt;outline-show-branches&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061829Z" creationid="grass" creationdate="20201015T061829Z">
+        <seg>&lt;k0&gt;C-c C-k&lt;/k0&gt; (&lt;c1&gt;outline-show-branches&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c C-r&lt;/k0&gt; (&lt;c1&gt;org-reveal&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061828Z" creationid="grass" creationdate="20201015T061828Z">
+        <seg>&lt;k0&gt;C-c C-r&lt;/k0&gt; (&lt;c1&gt;org-reveal&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c C-x b&lt;/k0&gt; (&lt;c1&gt;org-tree-to-indirect-buffer&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061832Z" creationid="grass" creationdate="20201015T061832Z">
+        <seg>&lt;k0&gt;C-c C-x b&lt;/k0&gt; (&lt;c1&gt;org-tree-to-indirect-buffer&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c C-x v&lt;/k0&gt; (&lt;c1&gt;org-copy-visible&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061833Z" creationid="grass" creationdate="20201015T061833Z">
+        <seg>&lt;k0&gt;C-c C-x v&lt;/k0&gt; (&lt;c1&gt;org-copy-visible&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-u C-u &lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-set-startup-visibility&lt;/c2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061825Z" creationid="grass" creationdate="20201015T061825Z">
+        <seg>&lt;k0&gt;C-u C-u &lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-set-startup-visibility&lt;/c2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-u C-u C-u &lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;outline-show-all&lt;/c2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061827Z" creationid="grass" creationdate="20201015T061827Z">
+        <seg>&lt;k0&gt;C-u C-u C-u &lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;outline-show-all&lt;/c2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;M-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; guesses completions.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112023Z" creationid="grass" creationdate="20201014T111831Z">
         <seg>&lt;k0&gt;M-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt;补全联想</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;S-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-global-cycle&lt;/c2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061820Z" creationid="grass" creationdate="20201015T061820Z">
+        <seg>&lt;k0&gt;S-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-global-cycle&lt;/c2&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2934,6 +3104,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132854Z" creationid="grass" creationdate="20201006T132854Z">
         <seg>默认情况下，当前缓冲区中的所有一级标题均被视为目标，但是您可以在多个文件中使用更复杂的定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-u &lt;s0&gt;TAB&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061821Z" creationid="grass" creationdate="20201015T061821Z">
+        <seg>C-u &lt;s0&gt;TAB&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-u M-x org-reload &lt;RET&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061741Z" creationid="grass" creationdate="20201015T061741Z">
+        <seg>C-u M-x org-reload &lt;RET&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -5530,6 +5716,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>M-x org-submit-bug-report &lt;RET&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061732Z" creationid="grass" creationdate="20201015T061732Z">
+        <seg>M-x org-submit-bug-report &lt;RET&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-x toggle-debug-on-error &lt;RET&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061744Z" creationid="grass" creationdate="20201015T061744Z">
+        <seg>M-x toggle-debug-on-error &lt;RET&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>MY PROJECTS    -*- mode: org; -*-</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T135819Z" creationid="grass" creationdate="20200927T135819Z">
@@ -7420,8 +7622,8 @@
       <tuv lang="EN-US">
         <seg>Next: &lt;a0&gt;Structure Editing&lt;/a0&gt;, Previous: &lt;a1&gt;Visibility Cycling&lt;/a1&gt;, Up: &lt;a2&gt;Document Structure&lt;/a2&gt;   [&lt;a3&gt;Contents&lt;/a3&gt;][&lt;a4&gt;Index&lt;/a4&gt;]</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20200927T103537Z" creationid="grass" creationdate="20200927T103324Z">
-        <seg>下一页: &lt;a0&gt;Structure Editing&lt;/a0&gt;, 上一页: &lt;a1&gt;Visibility Cycling&lt;/a1&gt;, 返回: &lt;a2&gt;Document Structure&lt;/a2&gt;   [&lt;a3&gt;目录&lt;/a3&gt;][&lt;a4&gt;索引&lt;/a4&gt;]</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061930Z" creationid="grass" creationdate="20200927T103324Z">
+        <seg>下一页: &lt;a0&gt;结构编辑&lt;/a0&gt;, 上一页: &lt;a1&gt;可见性循环&lt;/a1&gt;, 返回: &lt;a2&gt;文档结构&lt;/a2&gt;   [&lt;a3&gt;目录&lt;/a3&gt;][&lt;a4&gt;索引&lt;/a4&gt;]</seg>
       </tuv>
     </tu>
     <tu>
@@ -11215,6 +11417,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>debug-on-signal nil</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061738Z" creationid="grass" creationdate="20201015T061738Z">
+        <seg>debug-on-signal nil</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>document</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T055938Z" creationid="grass" creationdate="20201015T055938Z">
@@ -11239,6 +11449,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Key-Binding-Conventions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061718Z" creationid="grass" creationdate="20201015T061718Z">
+        <seg>http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Key-Binding-Conventions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Package-Menu</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061652Z" creationid="grass" creationdate="20201015T061652Z">
+        <seg>http://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Package-Menu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://lists.gnu.org/mailman/listinfo/emacs-orgmode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061727Z" creationid="grass" creationdate="20201015T061727Z">
+        <seg>https://lists.gnu.org/mailman/listinfo/emacs-orgmode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>https://orgmode.org/</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T060525Z" creationid="grass" creationdate="20201015T060525Z">
@@ -11251,6 +11485,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T114455Z" creationid="grass" creationdate="20201014T114455Z">
         <seg>#Top</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://orgmode.org/elpa.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061701Z" creationid="grass" creationdate="20201015T061701Z">
+        <seg>https://orgmode.org/elpa.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -37319,6 +37561,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>https://orgmode.org/worg/dev/org-build-system.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061711Z" creationid="grass" creationdate="20201015T061711Z">
+        <seg>https://orgmode.org/worg/dev/org-build-system.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://www.gnu.org/philosophy/kind-communication.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061729Z" creationid="grass" creationdate="20201015T061729Z">
+        <seg>https://www.gnu.org/philosophy/kind-communication.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mailto:emacs-orgmode@gnu.org</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061724Z" creationid="grass" creationdate="20201015T061724Z">
+        <seg>mailto:emacs-orgmode@gnu.org</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>makeinfo</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T060035Z" creationid="grass" creationdate="20201015T060035Z">
@@ -37387,6 +37653,70 @@ Introduction</seg>
         <seg>— 详细的节点列表 —
 
 介绍</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>‘&lt;s0&gt;ARCHIVE&lt;/s0&gt;’</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061806Z" creationid="grass" creationdate="20201015T061806Z">
+        <seg>‘&lt;s0&gt;ARCHIVE&lt;/s0&gt;’</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>‘&lt;s0&gt;BEGIN&lt;/s0&gt;’ … ‘&lt;s1&gt;END&lt;/s1&gt;’</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061811Z" creationid="grass" creationdate="20201015T061811Z">
+        <seg>‘&lt;s0&gt;BEGIN&lt;/s0&gt;’ … ‘&lt;s1&gt;END&lt;/s1&gt;’</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>‘&lt;s0&gt;PRIORITY&lt;/s0&gt;’</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061809Z" creationid="grass" creationdate="20201015T061809Z">
+        <seg>‘&lt;s0&gt;PRIORITY&lt;/s0&gt;’</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>‘&lt;s0&gt;Release&lt;/s0&gt;’</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061808Z" creationid="grass" creationdate="20201015T061808Z">
+        <seg>‘&lt;s0&gt;Release&lt;/s0&gt;’</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>‘&lt;s0&gt;TITLE&lt;/s0&gt;’</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061810Z" creationid="grass" creationdate="20201015T061810Z">
+        <seg>‘&lt;s0&gt;TITLE&lt;/s0&gt;’</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>‘&lt;s0&gt;TODO&lt;/s0&gt;’</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061759Z" creationid="grass" creationdate="20201015T061759Z">
+        <seg>‘&lt;s0&gt;TODO&lt;/s0&gt;’</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>‘&lt;s0&gt;WAITING&lt;/s0&gt;’</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061755Z" creationid="grass" creationdate="20201015T061755Z">
+        <seg>‘&lt;s0&gt;WAITING&lt;/s0&gt;’</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>‘&lt;s0&gt;boss&lt;/s0&gt;’</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061805Z" creationid="grass" creationdate="20201015T061805Z">
+        <seg>‘&lt;s0&gt;boss&lt;/s0&gt;’</seg>
       </tuv>
     </tu>
     <tu>
