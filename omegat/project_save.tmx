@@ -3494,8 +3494,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Brief summary of what Org does.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20200927T102646Z" creationid="grass" creationdate="20200927T083515Z">
-        <seg>Org的作用摘要。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070838Z" creationid="grass" creationdate="20200927T083515Z">
+        <seg>Org的功能概述。</seg>
       </tuv>
     </tu>
     <tu>
