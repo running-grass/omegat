@@ -98,6 +98,22 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>("~/gtd/someday.org" :level .</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080303Z" creationid="grass" creationdate="20201015T080303Z">
+        <seg>("~/gtd/someday.org" :level .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>("~/gtd/tickler.org" :maxlevel .</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080304Z" creationid="grass" creationdate="20201015T080304Z">
+        <seg>("~/gtd/tickler.org" :maxlevel .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(a) The FSF’s Back-Cover Text is: “You have the freedom to copy and modify this GNU manual.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054605Z" creationid="grass" creationdate="20201013T054605Z">
@@ -192,6 +208,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(setq org-refile-targets '(("~/gtd/gtd.org" :maxlevel .</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080301Z" creationid="grass" creationdate="20201015T080301Z">
+        <seg>(setq org-refile-targets '(("~/gtd/gtd.org" :maxlevel .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* Top level headline
 ** Second level
 *** Third level</seg>
@@ -232,6 +256,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T082219Z" creationid="grass" creationdate="20200927T082219Z">
         <seg>1 简介</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080303Z" creationid="grass" creationdate="20201015T080303Z">
+        <seg>1)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1780,6 +1812,22 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>2)))</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080305Z" creationid="grass" creationdate="20201015T080305Z">
+        <seg>2)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080510Z" creationid="grass" creationdate="20201015T080510Z">
+        <seg>2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.1</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T060543Z" creationid="grass" creationdate="20201015T060543Z">
@@ -1872,6 +1920,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T193527Z" creationid="grass" creationdate="20201010T193527Z">
         <seg>3 表格</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>3)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080302Z" creationid="grass" creationdate="20201015T080302Z">
+        <seg>3)</seg>
       </tuv>
     </tu>
     <tu>
@@ -5716,6 +5772,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>I have set up the refile targets as follows:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080259Z" creationid="grass" creationdate="20201015T080241Z">
+        <seg>我已经按如下方式设置了转接目标：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>I press &lt;c0&gt;C-c c t&lt;/c0&gt; to add an entry to my inbox, and &lt;c1&gt;C-c c T&lt;/c1&gt; to add an entry to the tickler (more on that later).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075826Z" creationid="grass" creationdate="20201015T075826Z">
@@ -5732,6 +5796,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>I usually have around 30 active projects at the same time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080535Z" creationid="grass" creationdate="20201015T080535Z">
+        <seg>我通常在同一时间有大约30个正在进行的项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If &lt;v4&gt;N&lt;/v4&gt; is negative then go up that many levels.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T180601Z" creationid="grass" creationdate="20201010T180601Z">
@@ -5744,6 +5816,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082155Z" creationid="grass" creationdate="20200929T082155Z">
         <seg>如果发生错误，“回溯”可能会非常有用-请参阅下文，了解如何创建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If need be, I create a new project out of it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080239Z" creationid="grass" creationdate="20201015T080239Z">
+        <seg>如果需要，我会用它创建一个新项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6800,6 +6880,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075851Z" creationid="grass" creationdate="20201015T075851Z">
         <seg>然后，我的收件箱每天都会被处理和清空。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>My main file is &lt;c0&gt;gtd.org&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080515Z" creationid="grass" creationdate="20201015T080515Z">
+        <seg>我的主文件是&lt;c0&gt;gtd.org&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10748,6 +10836,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>So that &lt;c0&gt;C-c C-w&lt;/c0&gt; prompts me either for a project, the tickler, or someday/maybe list.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080509Z" creationid="grass" creationdate="20201015T080509Z">
+        <seg>因此&lt;c0&gt;C-c C-w&lt;/c0&gt;会提示我选择一个项目、备忘录或将来/也许l列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some people find the many stars too noisy and would prefer an outline that has whitespace followed by a single star as headline starters.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171538Z" creationid="grass" creationdate="20201010T171538Z">
@@ -11324,6 +11420,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>That’s where I keep all my active projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080526Z" creationid="grass" creationdate="20201015T080526Z">
+        <seg>那是我保存所有当前活动项目的地方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;capture&lt;/c0&gt; protocol</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053249Z" creationid="grass" creationdate="20201013T053249Z">
@@ -11600,6 +11704,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075515Z" creationid="grass" creationdate="20201015T075515Z">
         <seg>orgmode文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The projects file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080512Z" creationid="grass" creationdate="20201015T080512Z">
+        <seg>项目文件</seg>
       </tuv>
     </tu>
     <tu>
