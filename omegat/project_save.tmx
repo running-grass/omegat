@@ -4956,6 +4956,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Every thought should be collected there, and processed later on.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T091413Z" creationid="grass" creationdate="20201015T091413Z">
+        <seg>每一个想法都应该在那里收集起来，然后再进行处理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Every tree branch can be a TODO item.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095149Z" creationid="grass" creationdate="20201013T055133Z">
