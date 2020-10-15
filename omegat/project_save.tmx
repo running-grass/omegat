@@ -2468,6 +2468,30 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c C-b&lt;/k0&gt; (&lt;c1&gt;org-backward-heading-same-level&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062902Z" creationid="grass" creationdate="20201015T062902Z">
+        <seg>&lt;k0&gt;C-c C-b&lt;/k0&gt; (&lt;c1&gt;org-backward-heading-same-level&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c C-f&lt;/k0&gt; (&lt;c1&gt;org-forward-heading-same-level&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062838Z" creationid="grass" creationdate="20201015T062838Z">
+        <seg>&lt;k0&gt;C-c C-f&lt;/k0&gt; (&lt;c1&gt;org-forward-heading-same-level&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c C-j&lt;/k0&gt; (&lt;c1&gt;org-goto&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063012Z" creationid="grass" creationdate="20201015T063012Z">
+        <seg>&lt;k0&gt;C-c C-j&lt;/k0&gt; (&lt;c1&gt;org-goto&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-c C-k&lt;/k0&gt; (&lt;c1&gt;outline-show-branches&lt;/c1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061829Z" creationid="grass" creationdate="20201015T061829Z">
@@ -2476,10 +2500,34 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c C-n&lt;/k0&gt; (&lt;c1&gt;org-next-visible-heading&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062821Z" creationid="grass" creationdate="20201015T062821Z">
+        <seg>&lt;k0&gt;C-c C-n&lt;/k0&gt; (&lt;c1&gt;org-next-visible-heading&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c C-p&lt;/k0&gt; (&lt;c1&gt;org-previous-visible-heading&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062834Z" creationid="grass" creationdate="20201015T062834Z">
+        <seg>&lt;k0&gt;C-c C-p&lt;/k0&gt; (&lt;c1&gt;org-previous-visible-heading&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-c C-r&lt;/k0&gt; (&lt;c1&gt;org-reveal&lt;/c1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061828Z" creationid="grass" creationdate="20201015T061828Z">
         <seg>&lt;k0&gt;C-c C-r&lt;/k0&gt; (&lt;c1&gt;org-reveal&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c C-u&lt;/k0&gt; (&lt;c1&gt;outline-up-heading&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062915Z" creationid="grass" creationdate="20201015T062915Z">
+        <seg>&lt;k0&gt;C-c C-u&lt;/k0&gt; (&lt;c1&gt;outline-up-heading&lt;/c1&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -3088,6 +3136,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054317Z" creationid="grass" creationdate="20201013T054317Z">
         <seg>B.3 贡献表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Backward to higher level heading.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063010Z" creationid="grass" creationdate="20201015T063010Z">
+        <seg>跳回到更高级别的标题</seg>
       </tuv>
     </tu>
     <tu>
@@ -3744,6 +3800,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132012Z" creationid="grass" creationdate="20201006T132012Z">
         <seg>剪切，找到正确的位置，然后粘贴笔记。这样做很麻烦。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cycle visibility.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063133Z" creationid="grass" creationdate="20201015T063122Z">
+        <seg>可见性循环。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5596,6 +5660,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Jump to a different place without changing the current outline visibility.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063027Z" creationid="grass" creationdate="20201015T063027Z">
+        <seg>在不更改当前大纲可见性的情况下跳到其他位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Jump to the location where &lt;c0&gt;org-refile&lt;/c0&gt; last moved a tree to.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T134335Z" creationid="grass" creationdate="20201006T134335Z">
@@ -6104,6 +6176,22 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T100555Z" creationid="grass" creationdate="20200927T100555Z">
         <seg>新的导出后端可以从现有的后端衍生出来，也可以从头开始定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Next heading same level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062854Z" creationid="grass" creationdate="20201015T062854Z">
+        <seg>下一个同级标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Next heading.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062833Z" creationid="grass" creationdate="20201015T062833Z">
+        <seg>下一个标题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8764,6 +8852,22 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Previous heading same level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062914Z" creationid="grass" creationdate="20201015T062914Z">
+        <seg>上一个同级标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Previous heading.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062838Z" creationid="grass" creationdate="20201015T062838Z">
+        <seg>上一个标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Previous: &lt;a0&gt;A LaTeX example&lt;/a0&gt;, Up: &lt;a1&gt;Tables in Arbitrary Syntax&lt;/a1&gt;   [&lt;a2&gt;Contents&lt;/a2&gt;][&lt;a3&gt;Index&lt;/a3&gt;]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T103829Z" creationid="grass" creationdate="20200927T103324Z">
@@ -9780,6 +9884,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Shows the document structure in a temporary buffer, where you can use the following keys to find your destination:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063114Z" creationid="grass" creationdate="20201015T063114Z">
+        <seg>显示在临时缓冲区中的文档结构，您可以在其中使用以下键查找目标：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Simple syntax for raising/lowering text.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103858Z" creationid="grass" creationdate="20201014T103858Z">
@@ -10080,6 +10192,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T130121Z" creationid="grass" creationdate="20201006T130121Z">
         <seg>关闭一棵节点树，但是依旧保留在文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TAB</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063119Z" creationid="grass" creationdate="20201015T063119Z">
+        <seg>TAB</seg>
       </tuv>
     </tu>
     <tu>
@@ -10536,6 +10656,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T081224Z" creationid="grass" creationdate="20200929T081224Z">
         <seg>最简单的方式就是使用命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following commands jump to other headlines in the buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062817Z" creationid="grass" creationdate="20201015T062817Z">
+        <seg>以下命令跳转到缓冲区中的其他标题。</seg>
       </tuv>
     </tu>
     <tu>
