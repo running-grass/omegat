@@ -2500,6 +2500,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c *&lt;/k0&gt; (&lt;c1&gt;org-toggle-heading&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070141Z" creationid="grass" creationdate="20201015T070141Z">
+        <seg>&lt;k0&gt;C-c *&lt;/k0&gt; (&lt;c1&gt;org-toggle-heading&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-c &lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;outline-show-children&lt;/c2&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061830Z" creationid="grass" creationdate="20201015T061830Z">
@@ -2672,6 +2680,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065840Z" creationid="grass" creationdate="20201015T065840Z">
         <seg>&lt;k0&gt;C-x n s&lt;/k0&gt; (&lt;c1&gt;org-narrow-to-subtree&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-x n w&lt;/k0&gt; (&lt;c1&gt;widen&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065940Z" creationid="grass" creationdate="20201015T065940Z">
+        <seg>&lt;k0&gt;C-x n w&lt;/k0&gt; (&lt;c1&gt;widen&lt;/c1&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -3080,6 +3096,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T134556Z" creationid="grass" creationdate="20201006T134556Z">
         <seg>另请参见&lt;c0&gt;org-refile-keep&lt;/c0&gt;将其设置为默认行为，并请注意，这可能导致重复的" &lt;s1&gt;ID&lt;/s1&gt;"属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Also turn a headline into a normal line by removing the stars.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070154Z" creationid="grass" creationdate="20201015T070154Z">
+        <seg>还可以通过去掉星号来将标题转换为正常行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5572,6 +5596,22 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the first line in the region was an item, turn only the item lines into headlines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070307Z" creationid="grass" creationdate="20201015T070307Z">
+        <seg>如果区域中的第一行是列表项，则仅将列表项行变为标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If there is an active region, turn all lines in the region into headlines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070212Z" creationid="grass" creationdate="20201015T070212Z">
+        <seg>如果存在活动区域，会将该区域中的所有行都变成标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If working with Org produces an error with a message you do not understand, you may have hit a bug.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130110Z" creationid="grass" creationdate="20201005T130054Z">
@@ -6550,16 +6590,16 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Narrow buffer to current block.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065939Z" creationid="grass" creationdate="20201015T065854Z">
-        <seg>将缓冲区缩小到当前块。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070115Z" creationid="grass" creationdate="20201015T065854Z">
+        <seg>将缓冲区聚焦到当前块。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Narrow buffer to current subtree.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065844Z" creationid="grass" creationdate="20201015T065844Z">
-        <seg>将缓冲区缩小到当前子树。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070109Z" creationid="grass" creationdate="20201015T065844Z">
+        <seg>将缓冲区聚焦到当前子树</seg>
       </tuv>
     </tu>
     <tu>
@@ -11564,6 +11604,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Turn a normal line or plain list item into a headline—so that it becomes a subheading at its location.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070151Z" creationid="grass" creationdate="20201015T070151Z">
+        <seg>将普通行或普通列表项转换为标题-使其在其所在位置成为副标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tweaking HTML/LaTeX export.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111035Z" creationid="grass" creationdate="20201014T111035Z">
@@ -12065,6 +12113,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111051Z" creationid="grass" creationdate="20201014T111051Z">
         <seg>哪些链接在发布后仍然有效？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Widen buffer to remove narrowing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070140Z" creationid="grass" creationdate="20201015T070055Z">
+        <seg>扩大缓冲区以取消聚焦。</seg>
       </tuv>
     </tu>
     <tu>
