@@ -164,3 +164,7 @@ action	行动
 next action	下一步行动
 neat feature	出色的功能
 errand	琐事
+WAITING	WAITING
+TODO	TODO
+DONE	DONE
+CANCELLED	CANCELLED
