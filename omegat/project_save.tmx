@@ -216,6 +216,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(setq org-todo-keywords '((sequence "TODO(t)" "WAITING(w)" "|" "DONE(d)" "CANCELLED(c)")))</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081635Z" creationid="grass" creationdate="20201015T081635Z">
+        <seg>(setq org-todo-keywords '((sequence "TODO(t)" "WAITING(w)" "|" "DONE(d)" "CANCELLED(c)")))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* Top level headline
 ** Second level
 *** Third level</seg>
@@ -3708,6 +3716,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>But scheduling sometimes makes sense.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081725Z" creationid="grass" creationdate="20201015T081725Z">
+        <seg>但日程安排有时是有意义的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, all level 1 headlines in the current buffer are considered to be targets, but you can have more complex definitions across a number of files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132854Z" creationid="grass" creationdate="20201006T132854Z">
@@ -5830,8 +5846,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>I put a todo keyword in all project entries.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081508Z" creationid="grass" creationdate="20201015T081508Z">
-        <seg>我在所有项目条目中都放了一个TODO关键字。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081524Z" creationid="grass" creationdate="20201015T081508Z">
+        <seg>我在所有项目条目中都放了一个关键字。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5840,6 +5856,22 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075518Z" creationid="grass" creationdate="20201015T075518Z">
         <seg>我将GTD拆分为四个单独的文件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I tend to avoid using timestamps in my projects as much as possible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081653Z" creationid="grass" creationdate="20201015T081653Z">
+        <seg>我倾向于尽量避免在我的项目中使用时间戳。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I think I use fairly regular todo keywords: &lt;c0&gt;TODO&lt;/c0&gt;, &lt;c1&gt;WAITING&lt;/c1&gt;, &lt;c2&gt;DONE&lt;/c2&gt; and &lt;c3&gt;CANCELLED&lt;/c3&gt; mostly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081620Z" creationid="grass" creationdate="20201015T081620Z">
+        <seg>我想我主要使用相当常规的关键字：&lt;c0&gt;TODO&lt;/c0&gt;、&lt;c1&gt;WAITING&lt;/c1&gt;、&lt;c2&gt;DONE&lt;/c2&gt;和&lt;c3&gt;CANCELLED&lt;/c3&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9076,6 +9108,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that Orgmode is quite smart about how you can enter a date, if you don’t know about it, refer to the &lt;a2&gt;manual entry&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081919Z" creationid="grass" creationdate="20201015T081919Z">
+        <seg>请注意，Orgmode在如何输入日期方面非常聪明，如果您不知道日期，请参阅&lt;a2&gt;使用手册&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that in this case, ‘&lt;s0&gt;make autoloads&lt;/s0&gt;’ is mandatory: it defines Org’s version in ‘&lt;s1&gt;org-version.el&lt;/s1&gt;’ and Org’s autoloads in ‘&lt;s2&gt;org-loaddefs.el&lt;/s2&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062713Z" creationid="grass" creationdate="20200927T133025Z">
@@ -11732,6 +11772,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The first two for are used for incomplete states, and the last two for completed states.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081632Z" creationid="grass" creationdate="20201015T081632Z">
+        <seg>前两个用于未完成状态，后两个用于已完成状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following commands jump to other headlines in the buffer.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062817Z" creationid="grass" creationdate="20201015T062817Z">
@@ -11836,6 +11884,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The reason is simple: unless an entry is an appointment (to the dentist for instance) or has a fixed deadline (a release scheduled with a customer), I should decide what to work on depending on the current context (among other things).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081710Z" creationid="grass" creationdate="20201015T081710Z">
+        <seg>原因很简单：除非条目是预约的(例如，去看牙医)，或者有固定的截止日期(与客户安排的发布)，否则我应该根据当前的上下文(以及其他事情)来决定要做什么。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The syntax of capture templates is explained &lt;a0&gt;here&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075759Z" creationid="grass" creationdate="20201015T075759Z">
@@ -11904,6 +11960,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T102013Z" creationid="grass" creationdate="20200927T102013Z">
         <seg>有一个用于Org的网站，该网站提供指向Org最新版本的链接，以及其他信息，常见问题解答（FAQ），教程链接等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This also keeps my agenda clean, free of any fake or self-imposed deadline or schedule.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081719Z" creationid="grass" creationdate="20201015T081719Z">
+        <seg>这也让我的议程保持干净，没有任何虚假的或自我强加的最后期限或时间表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12012,10 +12076,34 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Timestamps, scheduling &amp; deadlines</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081648Z" creationid="grass" creationdate="20201015T081648Z">
+        <seg>时间戳、日程安排和截止日期</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tips on how to speed up your agendas.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113123Z" creationid="grass" creationdate="20201014T113123Z">
         <seg>关于如何加快日程安排的小贴士。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To add a deadline, press &lt;c1&gt;C-c C-d&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081756Z" creationid="grass" creationdate="20201015T081756Z">
+        <seg>若要添加截止日期，请按&lt;c1&gt;C-c C-d&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To do that, press &lt;c0&gt;C-c C-s&lt;/c0&gt; on an entry, and enter the date and/or time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081745Z" creationid="grass" creationdate="20201015T081745Z">
+        <seg>为此，请条目上按&lt;c0&gt;C-c C-s&lt;/c0&gt;，然后输入日期或时间。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12541,6 +12629,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When on a headline, press &lt;c0&gt;C-c C-t&lt;/c0&gt; to set the TODO keyword.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081642Z" creationid="grass" creationdate="20201015T081642Z">
+        <seg>在标题上，按&lt;c0&gt;C-c C-t&lt;/c0&gt;设置TODO关键字。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When one task needs to wait for others.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101511Z" creationid="grass" creationdate="20201014T101511Z">
@@ -13021,6 +13117,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080801Z" creationid="grass" creationdate="20201015T080801Z">
         <seg>http://orgmode.org/manual/Checkboxes.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://orgmode.org/manual/Deadlines-and-scheduling.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081721Z" creationid="grass" creationdate="20201015T081721Z">
+        <seg>http://orgmode.org/manual/Deadlines-and-scheduling.html</seg>
       </tuv>
     </tu>
     <tu>
