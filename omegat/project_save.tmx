@@ -3134,8 +3134,9 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>&lt;s0&gt; Jun 30, 2017 &lt;/s0&gt; • Nicolas Petton</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T074820Z" creationid="grass" creationdate="20201015T074820Z">
-        <seg>&lt;s0&gt; Jun 30, 2017 &lt;/s0&gt; • Nicolas Petton</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084943Z" creationid="grass" creationdate="20201015T074820Z">
+        <seg>&lt;s0&gt; Jun 30, 2017 &lt;/s0&gt; • Nicolas Petton
+原文链接： https://emacs.cafe/emacs/orgmode/gtd/2017/06/30/orgmode-gtd.html</seg>
       </tuv>
     </tu>
     <tu>
