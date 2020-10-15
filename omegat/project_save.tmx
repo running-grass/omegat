@@ -148,6 +148,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063152Z" creationid="grass" creationdate="20201015T063152Z">
+        <seg>/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1 Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T082219Z" creationid="grass" creationdate="20200927T082219Z">
@@ -2452,6 +2460,22 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;0&lt;/k0&gt; … &lt;k1&gt;9&lt;/k1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063243Z" creationid="grass" creationdate="20201015T063243Z">
+        <seg>&lt;k0&gt;0&lt;/k0&gt; … &lt;k1&gt;9&lt;/k1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;&lt;s1&gt;DOWN&lt;/s1&gt;&lt;/k0&gt; / &lt;k2&gt;&lt;s3&gt;UP&lt;/s3&gt;&lt;/k2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063135Z" creationid="grass" creationdate="20201015T063135Z">
+        <seg>&lt;k0&gt;&lt;s1&gt;DOWN&lt;/s1&gt;&lt;/k0&gt; / &lt;k2&gt;&lt;s3&gt;UP&lt;/s3&gt;&lt;/k2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-cycle&lt;/c2&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061815Z" creationid="grass" creationdate="20201015T061815Z">
@@ -2564,6 +2588,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;M-&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-meta-return&lt;/c2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063353Z" creationid="grass" creationdate="20201015T063353Z">
+        <seg>&lt;k0&gt;M-&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-meta-return&lt;/c2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;M-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; guesses completions.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112023Z" creationid="grass" creationdate="20201014T111831Z">
@@ -2576,6 +2608,22 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061820Z" creationid="grass" creationdate="20201015T061820Z">
         <seg>&lt;k0&gt;S-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-global-cycle&lt;/c2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;f&lt;/k0&gt; / &lt;k1&gt;b&lt;/k1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063213Z" creationid="grass" creationdate="20201015T063213Z">
+        <seg>&lt;k0&gt;f&lt;/k0&gt; / &lt;k1&gt;b&lt;/k1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;n&lt;/k0&gt; / &lt;k1&gt;p&lt;/k1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063210Z" creationid="grass" creationdate="20201015T063210Z">
+        <seg>&lt;k0&gt;n&lt;/k0&gt; / &lt;k1&gt;p&lt;/k1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3932,6 +3980,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Digit argument.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063246Z" creationid="grass" creationdate="20201015T063246Z">
+        <seg>数字参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Display an image.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103946Z" creationid="grass" creationdate="20201014T103946Z">
@@ -3944,6 +4000,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112351Z" creationid="grass" creationdate="20201014T112351Z">
         <seg>显示和更新大纲编号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Do a Sparse-tree search</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063157Z" creationid="grass" creationdate="20201015T063157Z">
+        <seg>执行稀疏树搜索</seg>
       </tuv>
     </tu>
     <tu>
@@ -5276,6 +5340,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the command is used at the &lt;e0&gt;beginning&lt;/e0&gt; of a line, and if there is a heading or a plain list item (see &lt;a1&gt;Plain Lists&lt;/a1&gt;) at point, the new heading/item is created &lt;e2&gt;before&lt;/e2&gt; the current line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063445Z" creationid="grass" creationdate="20201015T063445Z">
+        <seg>如果在行的&lt;e0&gt;开头&lt;/e0&gt;处使用该命令，并且在光标处有标题或普通列表项(请参阅&lt;a1&gt;普通列表&lt;/a1&gt;)，则在&lt;e2&gt;当前行之前创建新的标题/项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If working with Org produces an error with a message you do not understand, you may have hit a bug.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130110Z" creationid="grass" creationdate="20201005T130054Z">
@@ -5504,6 +5576,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182101Z" creationid="grass" creationdate="20201010T182016Z">
         <seg>初始可见性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Insert a new heading, item or row.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063401Z" creationid="grass" creationdate="20201015T063401Z">
+        <seg>插入新标题、项或行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6192,6 +6272,22 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062833Z" creationid="grass" creationdate="20201015T062833Z">
         <seg>下一个标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Next/previous headline same level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063226Z" creationid="grass" creationdate="20201015T063226Z">
+        <seg>下一个/上一个同级标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Next/previous visible headline.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063143Z" creationid="grass" creationdate="20201015T063143Z">
+        <seg>下一个/上一个可见标题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7782,8 +7878,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Next: &lt;a0&gt;Sparse Trees&lt;/a0&gt;, Previous: &lt;a1&gt;Motion&lt;/a1&gt;, Up: &lt;a2&gt;Document Structure&lt;/a2&gt;   [&lt;a3&gt;Contents&lt;/a3&gt;][&lt;a4&gt;Index&lt;/a4&gt;]</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20200927T103537Z" creationid="grass" creationdate="20200927T103324Z">
-        <seg>下一页: &lt;a0&gt;Sparse Trees&lt;/a0&gt;, 上一页: &lt;a1&gt;Motion&lt;/a1&gt;, 返回: &lt;a2&gt;Document Structure&lt;/a2&gt;   [&lt;a3&gt;目录&lt;/a3&gt;][&lt;a4&gt;索引&lt;/a4&gt;]</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063349Z" creationid="grass" creationdate="20200927T103324Z">
+        <seg>下一页: &lt;a0&gt;S稀疏树&lt;/a0&gt;, 上一页: &lt;a1&gt;移动&lt;/a1&gt;, 返回: &lt;a2&gt;文档结构&lt;/a2&gt;   [&lt;a3&gt;目录&lt;/a3&gt;][&lt;a4&gt;索引&lt;/a4&gt;]</seg>
       </tuv>
     </tu>
     <tu>
@@ -8320,6 +8416,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T131214Z" creationid="grass" creationdate="20201006T131214Z">
         <seg>当信息进入系统后，可能需要四处移动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One level up.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063242Z" creationid="grass" creationdate="20201015T063242Z">
+        <seg>往上一级。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9412,6 +9516,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Quit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063253Z" creationid="grass" creationdate="20201015T063253Z">
+        <seg>退出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Quotations in Texinfo export</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050845Z" creationid="grass" creationdate="20201013T050845Z">
@@ -9448,6 +9560,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050651Z" creationid="grass" creationdate="20201013T050651Z">
         <seg>引用Texinfo代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RET</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063144Z" creationid="grass" creationdate="20201015T063144Z">
+        <seg>RET</seg>
       </tuv>
     </tu>
     <tu>
@@ -9708,6 +9828,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See also the variable &lt;c0&gt;org-goto-interface&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063310Z" creationid="grass" creationdate="20201015T063310Z">
+        <seg>另请参阅变量&lt;c0&gt;org-goto-interface&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See also the variable &lt;c0&gt;org-insert-mode-line-in-empty-file&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T135931Z" creationid="grass" creationdate="20200927T135931Z">
@@ -9736,6 +9864,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132930Z" creationid="grass" creationdate="20201006T132930Z">
         <seg>详情请查阅&lt;c0&gt;org-refile-targets&lt;/c0&gt;变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Select this location.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063151Z" creationid="grass" creationdate="20201015T063151Z">
+        <seg>选择此位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10664,6 +10800,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062817Z" creationid="grass" creationdate="20201015T062817Z">
         <seg>以下命令跳转到缓冲区中的其他标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following keys work if you turn off &lt;c0&gt;org-goto-auto-isearch&lt;/c0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063208Z" creationid="grass" creationdate="20201015T063208Z">
+        <seg>如果关闭&lt;c0&gt;org-goto-auto-isearch&lt;/c0&gt;，则以下键起作用</seg>
       </tuv>
     </tu>
     <tu>
@@ -37891,12 +38035,28 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>q</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063247Z" creationid="grass" creationdate="20201015T063247Z">
+        <seg>q</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>some text
 *** Third level</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171149Z" creationid="grass" creationdate="20201010T171140Z">
         <seg>一些文本
 *** 三级标题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>u</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063228Z" creationid="grass" creationdate="20201015T063228Z">
+        <seg>u</seg>
       </tuv>
     </tu>
     <tu>
