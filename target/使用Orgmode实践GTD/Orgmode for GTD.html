@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>基于Org的GTD实践</title>
+  </head>
+  <body>
+    <div style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:0px;">
+      <div style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:0px;">
+        <h1 style="font-family:&quot;PT Serif&quot;;text-align:left;border:0px;font:inherit;vertical-align:baseline;font-size:35px;font-weight:normal;line-height:35px;margin-bottom:20px;padding:0px;margin:0px;">基于Org的GTD实践</h1>
+        <div style="padding:0px;border:0px;font:inherit;vertical-align:baseline;position:relative;height:1em;line-height:1;text-align:center;margin:0px;padding-top:1.5em;padding-bottom:1.5em;margin-bottom:0px;">
+          <div style="padding:0px;border:0px;font:inherit;vertical-align:baseline;background:-webkit-linear-gradient(0deg, rgb(243, 242, 238) 1%, rgb(31, 9, 9) 50%, rgb(243, 242, 238) 99%);position:absolute;left:-4em;top:50%;z-index:10;width:100%;padding-left:4em;padding-right:4em;height:0.1em;opacity:0.5;margin:0px;margin-bottom:0px;">
+            <span style="font:inherit;position:absolute;left:-4em;top:50%;z-index:10;width:100%;padding-left:4em;padding-right:4em;height:0.1em;margin:0px;opacity:0.5;background:-webkit-linear-gradient(0deg, rgb(243, 242, 238) 1%, rgb(31, 9, 9) 50%, rgb(243, 242, 238) 99%);"/>
+          </div>
+        </div>
+      </div>
+      <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">
+        <span style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;"> 2017年7月30日 </span> • Nicolas Petton</p>
+      
+
+      <div style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:0px;">
+        <h2 style="font-family:&quot;PT Serif&quot;;text-align:left;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-weight:bold;font-size:30px;line-height:35px;margin-top:35px;margin-bottom:15px;">引言</h2>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">在过去的4年里，我一直在使用<a href="http://orgmode.org/" target="_blank" style="color:rgb(6, 85, 136);margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;">Orgmode</a>来实现<a href="https://en.wikipedia.org/wiki/Getting_Things_Done" target="_blank" style="color:rgb(6, 85, 136);margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;">GTD方法</a>。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">在这篇文章中，我将详细介绍如何使用Orgmode实现GTD，而不是解释GTD方法本身或Orgmode是如何工作的。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">如果您不了解Orgmode并对其感兴趣，您应该先访问其<a href="http://orgmode.org/" target="_blank" style="color:rgb(6, 85, 136);margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;">网站</a>。</p>
+
+
+
+
+        <h2 style="font-family:&quot;PT Serif&quot;;text-align:left;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-weight:bold;font-size:30px;line-height:35px;margin-top:35px;margin-bottom:15px;">orgmode文件</h2>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">我将GTD拆分为四个单独的文件：</p>
+
+        <ul style="padding:0px;border:0px;font:inherit;vertical-align:baseline;margin:0px 0px 1.5em 1.5em;list-style:none;margin-top:-1em;">
+          <li style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;list-style-type:inherit;list-style-position:outside;"><code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">inbox.org</code>：我收集所有东西的地方；</li>
+          <li style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;list-style-type:inherit;list-style-position:outside;"><code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">gtd.org</code>：放置所有项目的位置；</li>
+          <li style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;list-style-type:inherit;list-style-position:outside;"><code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">ome eday.org</code>：所有我可能在将来某个时候完成但不想一直看到的非当前活动任务；</li>
+          <li style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;list-style-type:inherit;list-style-position:outside;"><code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">tickler.org</code>：我在此文件中放置了带有<a href="http://orgmode.org/manual/Timestamps.html" target="_blank" style="color:rgb(6, 85, 136);margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;">时间戳</a>的条目，以便在正确的时间得到提醒。</li>
+        </ul>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">将这些文件添加到议程文件(稍后将详细介绍议程)非常重要，如下所示：</p>
+
+        <div style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;"><pre style="background-color:rgb(243, 242, 238);font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;width:auto;font-size:0.875em;line-height:1.71429em;"><code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;line-height:1.71429em;font-size:1.15em;">(setq org-agenda-files '(&quot;~/gtd/inbox.org&quot;
+              &quot;~/gtd/gtd.org&quot;
+              &quot;~/gtd/tickler.org&quot;)) </code></pre>
+        </div>
+
+        <h2 style="font-family:&quot;PT Serif&quot;;text-align:left;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-weight:bold;font-size:30px;line-height:35px;margin-top:35px;margin-bottom:15px;">1. GTD收件箱</h2>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">GTD最重要的一个方面是收件箱。每一个想法都应该在那里收集起来，然后再进行处理。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;"/><div style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;display:block;text-align:center;margin-bottom:1em;margin-top:1em;"><img src="Orgmode%20for%20GTD.resources/1280px-GTDcanonical.png" height="800" width="1280"/></div><p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;"/>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">Org模式有一个非常好的特性，非常适合这个概念：<a href="http://orgmode.org/manual/Capture.html" target="_blank" style="color:rgb(6, 85, 136);margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;">org-capture</a>。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">只需按一个按键即可捕获思想：只需按<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">C-c c</code>，捕获弹出窗口就会出现在Emacs中。一旦您完成捕获，<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">C-c-c</code>它将存储在收件箱中。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;"/><div style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;display:block;text-align:center;margin-bottom:1em;margin-top:1em;"><img src="Orgmode%20for%20GTD.resources/gtd-capture.png" height="144" width="563"/></div><p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;"/>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">下面是我的设置方式：</p>
+
+        <div style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;"><pre style="background-color:rgb(243, 242, 238);font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;width:auto;font-size:0.875em;line-height:1.71429em;"><code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;line-height:1.71429em;font-size:1.15em;">(setq org-capture-templates '((&quot;t&quot; &quot;Todo [inbox]&quot; entry
+              (file+headline &quot;~/gtd/inbox.org&quot; &quot;Tasks&quot;)
+              &quot;* TODO %i%?&quot;)
+              (&quot;T&quot; &quot;Tickler&quot; entry
+              (file+headline &quot;~/gtd/tickler.org&quot; &quot;Tickler&quot;)
+              &quot;* %i%?\n %U&quot;))) </code></pre>
+        </div>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;"><a href="http://orgmode.org/manual/Capture-templates.html#Capture-templates" target="_blank" style="color:rgb(6, 85, 136);margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;">此处</a>介绍了捕获模板的语法。它提供了很多定制选项。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">按<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">C-c c t</code>将条目添加到我的收件箱，按<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">C-c c T</code>将条目添加到记事本(稍后将详细介绍)。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">下面是我的收件箱的样子：</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;"/><div style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;display:block;text-align:center;margin-bottom:1em;margin-top:1em;"><img src="Orgmode%20for%20GTD.resources/gtd-inbox.png" height="197" width="571"/></div><p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;"/>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">然后，我的收件箱每天都会被处理和清空。在处理收件箱时，我把每一个可执行且属于某个项目的条目使用<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">C-c C-w</code><a href="http://orgmode.org/manual/Refile-and-copy.html#Refile-and-copy" target="_blank" style="color:rgb(6, 85, 136);margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;">转接</a>，并将条目移动到适当的位置。如果需要，我会用它创建一个新项目。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">我已经按如下方式设置了转接目标：</p>
+
+        <div style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;"><pre style="background-color:rgb(243, 242, 238);font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;width:auto;font-size:0.875em;line-height:1.71429em;"><code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;line-height:1.71429em;font-size:1.15em;">(setq org-refile-targets '((&quot;~/gtd/gtd.org&quot; :maxlevel . 3)
+              (&quot;~/gtd/someday.org&quot; :level . 1)
+              (&quot;~/gtd/tickler.org&quot; :maxlevel . 2))) </code></pre>
+        </div>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">因此<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">C-c C-w</code>会提示我选择一个项目、备忘录或将来/也许l清单。</p>
+
+        <h2 style="font-family:&quot;PT Serif&quot;;text-align:left;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-weight:bold;font-size:30px;line-height:35px;margin-top:35px;margin-bottom:15px;">2. 项目文件</h2>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">我的主文件是<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">gtd.org</code>。那是我保存所有正在进行的项目的地方。我通常在同一时间有大约30个正在进行的项目。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">每个项目都包含要执行的行动。每个项目的第一个行动被称为“下一步行动”，这也是我在处理项目时总是要做的。一旦任务完成，我就使用<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">DONE</code>关键字对其进行标记。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">以下是一个示例项目：</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">您在屏幕截图上看到的完成百分比是<a href="http://orgmode.org/manual/Checkboxes.html" target="_blank" style="color:rgb(6, 85, 136);margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;">Orgmode的另一个出色的功能</a>：)</p>
+
+        <h3 style="font-family:&quot;PT Serif&quot;;text-align:left;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:30px;line-height:35px;margin-top:35px;font-weight:normal;margin-bottom:15px;">标签</h3>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">标签是在标题上使用<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">C-c C-c</code>完成的，无论它是项目还是行动。我使用标签有几个目的：</p>
+
+        <ul style="padding:0px;border:0px;font:inherit;vertical-align:baseline;margin:0px 0px 1.5em 1.5em;list-style:none;margin-top:-1em;">
+          <li style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;list-style-type:inherit;list-style-position:outside;">常规类别，如<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">:emacs:</code>或<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">:写作:</code>；</li>
+          <li style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;list-style-type:inherit;list-style-position:outside;">链接到人的标签，如<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">:daniel:</code>；</li>
+          <li style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;list-style-type:inherit;list-style-position:outside;">GTD上下文。</li>
+        </ul>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">GTD上下文只是一个以<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">@</code>开始的常规标签。我在<a href="http://orgmode.org/worg/org-tutorials/org-custom-agenda-commands.html" target="_blank" style="color:rgb(6, 85, 136);margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;">自定义Org议程命令</a>中大量使用它们。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">我的上下文往往会随着时间的推移而变化，但我始终至少有<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">@家</code>, <code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">@办公室</code>, <code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">@旅行</code>, <code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">@电话</code>, <code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">@邮件</code>, <code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">@琐事</code> ，以根据我当前的位置筛选出下一步行动。</p>
+
+        <h3 style="font-family:&quot;PT Serif&quot;;text-align:left;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:30px;line-height:35px;margin-top:35px;font-weight:normal;margin-bottom:15px;">TODO关键字</h3>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">我在所有项目条目中都放了一个关键字。我想我主要使用相当常规的关键字：<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">TODO</code>、<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">WAITING</code>、<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">DONE</code>和<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">CANCELLED</code>。前两个用于未完成状态，后两个用于已完成状态。</p>
+
+        <div style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;"><pre style="background-color:rgb(243, 242, 238);font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;width:auto;font-size:0.875em;line-height:1.71429em;"><code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;line-height:1.71429em;font-size:1.15em;">(setq org-todo-keywords '((sequence &quot;TODO(t)&quot; &quot;WAITING(w)&quot; &quot;|&quot; &quot;DONE(d)&quot; &quot;CANCELLED(c)&quot;)))
+          </code></pre>
+        </div>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">在标题上，按<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">C-c C-t</code>设置TODO关键字。</p>
+
+        <h3 style="font-family:&quot;PT Serif&quot;;text-align:left;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:30px;line-height:35px;margin-top:35px;font-weight:normal;margin-bottom:15px;">时间戳、日程安排和截止日期</h3>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">我倾向于尽量避免在我的项目中使用时间戳。原因很简单：除非条目是预约的(例如，去看牙医)，或者有固定的截止日期(与客户安排的发布)，否则我应该根据当前的上下文(以及其他事情)来决定要做什么。这也让我的议程保持干净，没有任何虚假的或自我强加的最后期限或时间表。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">但日程安排有时是有意义的。为此，请条目上按<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">C-c C-s</code>，然后输入日期或时间。若要添加截止日期，请按<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">C-c C-d</code>。请注意，Orgmode在如何输入日期方面非常聪明，如果您不知道日期，请参阅<a href="http://orgmode.org/manual/Deadlines-and-scheduling.html" target="_blank" style="color:rgb(6, 85, 136);margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;">使用手册</a>。</p>
+
+        <h3 style="font-family:&quot;PT Serif&quot;;text-align:left;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:30px;line-height:35px;margin-top:35px;font-weight:normal;margin-bottom:15px;">筛选项目和行动</h3>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">当决定要处理什么时，我使用<a href="http://orgmode.org/manual/Sparse-trees.html" target="_blank" style="color:rgb(6, 85, 136);margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;">稀疏树</a>-这使得通过标签、搜索词等过滤我的GTD项目内容变得很容易，或者我使用<a href="http://orgmode.org/worg/org-tutorials/org-custom-agenda-commands.html" target="_blank" style="color:rgb(6, 85, 136);margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;">自定义议程命令</a>。在发现Orgmode时，大多数人认为它的议程只是一个常规议程。当然，它拥有每天(每周)日程安排，但它提供的远不止这些。引用手册内容：</p>
+
+        <blockquote style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;quotes:none;margin-bottom:1.5em;font-style:italic;border-left:5px solid;margin-left:2em;padding-left:1em;"><span style="font:inherit;quotes:none;font-style:italic;"/>
+          <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:0px;">Org-mode的内置议程命令是搜索笔记以及收集、排序、过滤和显示任务的强大工具。</p>
+          <span style="font:inherit;quotes:none;font-style:italic;"/></blockquote>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">我使用自定义议程命令主要是为了根据上下文或标签获得行动概述。下面是一个自定义议程命令示例，它将显示<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">@办公室</code>上下文的所有行动：</p>
+
+        <div style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;"><pre style="background-color:rgb(243, 242, 238);font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;width:auto;font-size:0.875em;line-height:1.71429em;"><code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;line-height:1.71429em;font-size:1.15em;">(setq org-agenda-custom-commands
+              '((&quot;o&quot; &quot;At the office&quot; tags-todo &quot;@office&quot;
+              ((org-agenda-overriding-header &quot;Office&quot;))))) </code></pre>
+        </div>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">遵循GTD原则，我通常希望使用<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">@办公室</code>标签为每个项目仅显示要完成的<em style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-style:italic;">首要行动</em>(或下一步行动)。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">这可以使用跳过条件来实现：</p>
+
+        <div style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;"><pre style="background-color:rgb(243, 242, 238);font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;width:auto;font-size:0.875em;line-height:1.71429em;"><code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;line-height:1.71429em;font-size:1.15em;">(setq org-agenda-custom-commands
+              '((&quot;o&quot; &quot;At the office&quot; tags-todo &quot;@office&quot;
+              ((org-agenda-overriding-header &quot;Office&quot;)
+              (org-agenda-skip-function #'my-org-agenda-skip-all-siblings-but-first)))))
+
+              (defun my-org-agenda-skip-all-siblings-but-first ()
+              &quot;跳过除第一个未完成条目之外的所有条目。&quot;
+              (let (should-skip-entry)
+              (unless (org-current-is-todo)
+              (setq should-skip-entry t))
+              (save-excursion
+              (while (and (not should-skip-entry) (org-goto-sibling t))
+              (when (org-current-is-todo)
+              (setq should-skip-entry t))))
+              (when should-skip-entry
+              (or (outline-next-heading)
+              (goto-char (point-max))))))
+		          
+              (defun org-current-is-todo ()
+              (string= &quot;TODO&quot; (org-get-todo-state)))</code></pre>
+        </div>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">创建自定义议程命令一开始可能有点棘手，一种简单的方法是通过<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">M-x customize-variable RET org-agenda-custom-commands</code>对它们进行自定义。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">若要选择要执行的议程命令，请按<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">C-c a</code>。</p>
+
+        <h2 style="font-family:&quot;PT Serif&quot;;text-align:left;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-weight:bold;font-size:30px;line-height:35px;margin-top:35px;margin-bottom:15px;">3. “将来/也许”清单</h2>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">您是否注意到<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">someday.org</code>不是<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">org-agenda-files</code>中设置的议程文件的一部分？</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">这是因为我不希望看到此文件中的任何条目出现在我的议程缓冲区中，除非我正在进行每周审查。这正是“将来/也许”名单的目的。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">这份文件应该每周审查一次，作为每周审查的一部分(我在周日晚上做这件事)。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">在每周评审期间，我在“正在进行”状态(在<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">gtd.org</code>中)和“稍后”状态(在<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">someday.org</code>中)之间来回移动项目。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">例如，如果一个项目已经前进到某个点，但我知道由于某种原因它会停滞几周，我会将其移到<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">someday.org</code>。在以后的每周审查期间，我会将其移回<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">gtd.org</code>，届时它将再次变为正在进行状态。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">为了移动项目，我还使用转接。</p>
+
+        <h2 style="font-family:&quot;PT Serif&quot;;text-align:left;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-weight:bold;font-size:30px;line-height:35px;margin-top:35px;margin-bottom:15px;">4. 备忘录</h2>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">在我看来，备忘录是GTD最好的概念之一。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">比方说你一个月后得付账单。如果你不想错过截止期限，你需要把它写在你的GTD里。但是你也不想每次浏览你的GTD项目时都被提醒：因为现在不是付钱的时候。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">这就是备忘录的作用：在您的备忘录文件中添加一个带有时间戳的条目，然后忘掉它！</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">当时间到来时，该操作将出现在您的Org议程中，提醒您必须支付的账单，您所要做的就是将其移动到您的收件箱中。在那之前，你可以把注意力放在别的事情上，把你的思想从这项任务中解放出来。</p>
+
+        <h2 style="font-family:&quot;PT Serif&quot;;text-align:left;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-weight:bold;font-size:30px;line-height:35px;margin-top:35px;margin-bottom:15px;">参考文档</h2>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">所有参考文档都放在我的Orgmode文件旁边的<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">references</code>文件夹中。然后将它们从Dired缓冲区链接(使用<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">org-store-link</code>)到我的项目中，以便快速访问。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">我还使用<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">org-store-link</code>链接电子邮件(如果我碰巧在Emacs中看到了它们)。</p>
+
+        <h2 style="font-family:&quot;PT Serif&quot;;text-align:left;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-weight:bold;font-size:30px;line-height:35px;margin-top:35px;margin-bottom:15px;">归档</h2>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">在每周审查期间，我使用<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">C-c C-x C-a</code>(<code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">org-archive-subtree-default</code>)将已完成的项目存档，它将条目移动到存档文件。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">这样，我的GTD文件就会保持整洁，而且我永远不会删除任何数据。</p>
+
+        <h2 style="font-family:&quot;PT Serif&quot;;text-align:left;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-weight:bold;font-size:30px;line-height:35px;margin-top:35px;margin-bottom:15px;">结尾</h2>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">这是一个非常广泛的主题，所以显然我没有涵盖所有内容，但我希望这解释了我如何使用Orgmode实现GTD的基础知识。</p>
+
+        <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:0px;">这实际上知识我个人的方法。Orgmode是一个具有可塑性的的工具，我不认为有两个完全相同的设置。</p>
+      </div>
+    </div>
+  </body>
+</html>
