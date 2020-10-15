@@ -4556,6 +4556,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Did you notice that &lt;c0&gt;someday.org&lt;/c0&gt; is not part of the agenda files set in &lt;c1&gt;org-agenda-files&lt;/c1&gt;?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083446Z" creationid="grass" creationdate="20201015T083446Z">
+        <seg>您是否注意到&lt;c0&gt;someday.org&lt;/c0&gt;不是&lt;c1&gt;org-agenda-files&lt;/c1&gt;中设置的议程文件的一部分？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Different files, different requirements.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101322Z" creationid="grass" creationdate="20201014T101322Z">
@@ -4672,6 +4680,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195123Z" creationid="grass" creationdate="20201010T195123Z">
         <seg>持续时间和时间值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>During each weekly review, I move projects back and forth between the “active” state (in &lt;c0&gt;gtd.org&lt;/c0&gt;) and “later” state (in &lt;c1&gt;someday.org&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083625Z" creationid="grass" creationdate="20201015T083619Z">
+        <seg>在每周评审期间，我在“正在进行”状态(在&lt;c0&gt;gtd.org&lt;/c0&gt;中)和“稍后”状态(在&lt;c1&gt;someday.org&lt;/c1&gt;中)之间来回移动项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5344,6 +5360,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171052Z" creationid="grass" creationdate="20201010T171052Z">
         <seg>例如：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance, if a project has moved forward to a certain point, but I know that it will stall for a few weeks for some reason, I move it to &lt;c0&gt;someday.org&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083652Z" creationid="grass" creationdate="20201015T083652Z">
+        <seg>例如，如果一个项目已经前进到某个点，但我知道由于某种原因它会停滞几周，我会将其移到&lt;c0&gt;someday.org&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9708,6 +9732,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Orgmode%20for%20GTD.resources/1280px-GTDcanonical.png</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083351Z" creationid="grass" creationdate="20201015T083351Z">
+        <seg>Orgmode%20for%20GTD.resources/1280px-GTDcanonical.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Orgmode%20for%20GTD.resources/gtd-capture.png</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075726Z" creationid="grass" creationdate="20201015T075726Z">
@@ -11166,8 +11198,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>So that &lt;c0&gt;C-c C-w&lt;/c0&gt; prompts me either for a project, the tickler, or someday/maybe list.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080509Z" creationid="grass" creationdate="20201015T080509Z">
-        <seg>因此&lt;c0&gt;C-c C-w&lt;/c0&gt;会提示我选择一个项目、备忘录或将来/也许l列表。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083414Z" creationid="grass" creationdate="20201015T080509Z">
+        <seg>因此&lt;c0&gt;C-c C-w&lt;/c0&gt;会提示我选择一个项目、备忘录或将来/也许l清单。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11788,6 +11820,22 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>That’s because I do not want to see any entry from this file appearing in my agenda buffers, unless I’m doing my weekly review.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083535Z" creationid="grass" creationdate="20201015T083535Z">
+        <seg>这是因为我不希望看到此文件中的任何条目出现在我的议程缓冲区中，除非我正在进行每周审查。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That’s exactly the purpose of the “Someday/Maybe” list.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083514Z" creationid="grass" creationdate="20201015T083514Z">
+        <seg>这正是“将来/也许”名单的目的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>That’s where I keep all my active projects.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080605Z" creationid="grass" creationdate="20201015T080526Z">
@@ -12240,6 +12288,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064526Z" creationid="grass" creationdate="20201015T064526Z">
         <seg>这会修改子树的级别，以确保树很好地适应在所粘贴的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This file should be reviewed once a week as part of the weekly review (which I do this on Sunday evenings).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083544Z" creationid="grass" creationdate="20201015T083544Z">
+        <seg>这份文件应该每周审查一次，作为每周审查的一部分(我在周日晚上做这件事)。</seg>
       </tuv>
     </tu>
     <tu>
