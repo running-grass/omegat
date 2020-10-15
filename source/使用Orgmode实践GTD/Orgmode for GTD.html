@@ -64,8 +64,7 @@
 
         <div style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;"><pre style="background-color:rgb(243, 242, 238);font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;width:auto;font-size:0.875em;line-height:1.71429em;"><code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;line-height:1.71429em;font-size:1.15em;">(setq org-agenda-files '("~/gtd/inbox.org"
               "~/gtd/gtd.org"
-              "~/gtd/tickler.org"))
-          </code></pre>
+              "~/gtd/tickler.org")) </code></pre>
         </div>
 
         <h2 style="font-family:&quot;PT Serif&quot;;text-align:left;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-weight:bold;font-size:30px;line-height:35px;margin-top:35px;margin-bottom:15px;">1. The GTD inbox</h2>
@@ -91,8 +90,7 @@
               "* TODO %i%?")
               ("T" "Tickler" entry
               (file+headline "~/gtd/tickler.org" "Tickler")
-              "* %i%? \n %U")))
-          </code></pre>
+              "* %i%? \n %U"))) </code></pre>
         </div>
 
         <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">The syntax of capture templates is
@@ -116,8 +114,7 @@
 
         <div style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;"><pre style="background-color:rgb(243, 242, 238);font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;width:auto;font-size:0.875em;line-height:1.71429em;"><code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;line-height:1.71429em;font-size:1.15em;">(setq org-refile-targets '(("~/gtd/gtd.org" :maxlevel . 3)
               ("~/gtd/someday.org" :level . 1)
-              ("~/gtd/tickler.org" :maxlevel . 2)))
-          </code></pre>
+              ("~/gtd/tickler.org" :maxlevel . 2))) </code></pre>
         </div>
 
         <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">So that <code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;">C-c C-w</code> prompts me either for a project, the tickler, or someday/maybe
@@ -206,8 +203,7 @@
 
         <div style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;"><pre style="background-color:rgb(243, 242, 238);font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;width:auto;font-size:0.875em;line-height:1.71429em;"><code style="font-family:Inconsolata;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;line-height:1.71429em;font-size:1.15em;">(setq org-agenda-custom-commands 
               '(("o" "At the office" tags-todo "@office"
-              ((org-agenda-overriding-header "Office")))))
-          </code></pre>
+              ((org-agenda-overriding-header "Office"))))) </code></pre>
         </div>
 
         <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">Following the GTD principle, what I usually want is to only show the <em style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-style:italic;">first
@@ -234,8 +230,7 @@
               (goto-char (point-max))))))
 		          
               (defun org-current-is-todo ()
-              (string= "TODO" (org-get-todo-state)))
-          </code></pre>
+              (string= "TODO" (org-get-todo-state)))</code></pre>
         </div>
 
         <p style="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">Creating custom agenda commands can be a bit tricky at first, one easy way is to
