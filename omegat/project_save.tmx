@@ -24,8 +24,8 @@
       <tuv lang="EN-US">
         <seg>"Skip all but the first non-done entry."</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083203Z" creationid="grass" creationdate="20201015T083147Z">
-        <seg>“跳过除第一个未完成条目之外的所有条目。”</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T085855Z" creationid="grass" creationdate="20201015T083147Z">
+        <seg>"跳过除第一个未完成条目之外的所有条目。"</seg>
       </tuv>
     </tu>
     <tu>
@@ -180,6 +180,22 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(defun my-org-agenda-skip-all-siblings-but-first ()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T085858Z" creationid="grass" creationdate="20201015T085858Z">
+        <seg>(defun my-org-agenda-skip-all-siblings-but-first ()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(defun org-current-is-todo ()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T085748Z" creationid="grass" creationdate="20201015T085748Z">
+        <seg>(defun org-current-is-todo ()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(dir)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T060424Z" creationid="grass" creationdate="20201015T060407Z">
@@ -216,6 +232,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(goto-char (point-max))))))</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T085746Z" creationid="grass" creationdate="20201015T085746Z">
+        <seg>(goto-char (point-max))))))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(goto-char (point-max))))))
 		  
 (defun org-current-is-todo ()</seg>
@@ -240,6 +264,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083221Z" creationid="grass" creationdate="20201015T083221Z">
         <seg>(or (outline-next-heading)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(org-agenda-skip-function #'my-org-agenda-skip-all-siblings-but-first)))))</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T085827Z" creationid="grass" creationdate="20201015T085827Z">
+        <seg>(org-agenda-skip-function #'my-org-agenda-skip-all-siblings-but-first)))))</seg>
       </tuv>
     </tu>
     <tu>
@@ -3128,6 +3160,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063210Z" creationid="grass" creationdate="20201015T063210Z">
         <seg>&lt;k0&gt;n&lt;/k0&gt; / &lt;k1&gt;p&lt;/k1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt; Jun 30, 2017 &lt;/s0&gt; • Nicolas Petton</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T085923Z" creationid="grass" creationdate="20201015T085923Z">
+        <seg>&lt;s0&gt; 2017年7月30日 &lt;/s0&gt; • Nicolas Petton</seg>
       </tuv>
     </tu>
     <tu>
@@ -9776,6 +9816,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T082156Z" creationid="grass" creationdate="20201015T082156Z">
         <seg>Org-mode的内置议程命令是搜索笔记以及收集、排序、过滤和显示任务的强大工具。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Orgmode for GTD</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T090059Z" creationid="grass" creationdate="20201015T090059Z">
+        <seg>基于Org的GTD实践</seg>
       </tuv>
     </tu>
     <tu>
