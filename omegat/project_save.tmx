@@ -2660,6 +2660,22 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-x n b&lt;/k0&gt; (&lt;c1&gt;org-narrow-to-block&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065845Z" creationid="grass" creationdate="20201015T065845Z">
+        <seg>&lt;k0&gt;C-x n b&lt;/k0&gt; (&lt;c1&gt;org-narrow-to-block&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-x n s&lt;/k0&gt; (&lt;c1&gt;org-narrow-to-subtree&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065840Z" creationid="grass" creationdate="20201015T065840Z">
+        <seg>&lt;k0&gt;C-x n s&lt;/k0&gt; (&lt;c1&gt;org-narrow-to-subtree&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-y&lt;/k0&gt; (&lt;c1&gt;org-yank&lt;/c1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064625Z" creationid="grass" creationdate="20201015T064625Z">
@@ -6532,6 +6548,22 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Narrow buffer to current block.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065939Z" creationid="grass" creationdate="20201015T065854Z">
+        <seg>将缓冲区缩小到当前块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Narrow buffer to current subtree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065844Z" creationid="grass" creationdate="20201015T065844Z">
+        <seg>将缓冲区缩小到当前子树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>New custom link types.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113043Z" creationid="grass" creationdate="20201014T113043Z">
@@ -10068,6 +10100,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Reverse sorting is possible as well.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065833Z" creationid="grass" creationdate="20201015T065833Z">
+        <seg>反向排序也是可能的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Run ‘&lt;s0&gt;make help&lt;/s0&gt;’ to list compilation and installation options.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T132710Z" creationid="grass" creationdate="20200927T132710Z">
@@ -11110,8 +11150,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>The command prompts for the sorting method, which can be alphabetically, numerically, by time—first timestamp with active preferred, creation time, scheduled time, deadline time—by priority, by TODO keyword—in the sequence the keywords have been defined in the setup—or by the value of a property.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065549Z" creationid="grass" creationdate="20201015T065549Z">
-        <seg>该命令提示您输入排序方法，该方法可以按字母顺序、数字顺序，也可以首次有效时间戳、创建时间、计划时间、截止日期时间-按优先级、按TODO关键字-按照关键字在设置中定义的顺序-或按属性的值进行排序。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065829Z" creationid="grass" creationdate="20201015T065549Z">
+        <seg>该命令提示您输入排序方法，该方法可以按字母顺序、数字顺序，也可以首次有效时间戳、创建时间、计划时间、截止日期时间排序，同样也可以按优先级、按TODO关键字（按照关键字在设置中定义的顺序）或按属性的值进行排序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12029,6 +12069,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With a &lt;k0&gt;C-u&lt;/k0&gt; prefix, sorting is case-sensitive.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065839Z" creationid="grass" creationdate="20201015T065839Z">
+        <seg>使用&lt;k0&gt;C-u&lt;/k0&gt;前缀，排序区分大小写。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>With a &lt;k5&gt;C-u&lt;/k5&gt; prefix, do not remove the previously used indirect buffer.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T180612Z" creationid="grass" creationdate="20201010T180612Z">
@@ -12185,6 +12233,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062656Z" creationid="grass" creationdate="20200927T133316Z">
         <seg>你也可以使用'&lt;s0&gt;make&lt;/s0&gt;'进行编译，使用'&lt;s1&gt;make doc&lt;/s1&gt;'生成文档，使用'&lt;s2&gt;make config&lt;/s2&gt;'创建本地配置，使用'&lt;s3&gt;make install&lt;/s3&gt;'安装Org。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also supply your own function to extract the sorting key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065836Z" creationid="grass" creationdate="20201015T065836Z">
+        <seg>您还可以提供自己的函数来提取排序关键字。</seg>
       </tuv>
     </tu>
     <tu>
