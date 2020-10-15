@@ -4524,6 +4524,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each project contains actions to be performed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080710Z" creationid="grass" creationdate="20201015T080650Z">
+        <seg>每个项目都包含要执行的行动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Edit and read footnotes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104029Z" creationid="grass" creationdate="20201014T104029Z">
@@ -5496,6 +5504,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082414Z" creationid="grass" creationdate="20200929T082414Z">
         <seg>这是产生有用的回溯的方法：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here’s an example project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080800Z" creationid="grass" creationdate="20201015T080800Z">
+        <seg>以下是一个示例项目：</seg>
       </tuv>
     </tu>
     <tu>
@@ -9084,6 +9100,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once a task is done, I mark it as such using the &lt;c0&gt;DONE&lt;/c0&gt; todo keyword.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080759Z" creationid="grass" creationdate="20201015T080759Z">
+        <seg>一旦任务完成，我就使用&lt;c0&gt;DONE&lt;/c0&gt;关键字对其进行标记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once information is in the system, it may need to be moved around.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T131214Z" creationid="grass" creationdate="20201006T131214Z">
@@ -11422,8 +11446,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>That’s where I keep all my active projects.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080526Z" creationid="grass" creationdate="20201015T080526Z">
-        <seg>那是我保存所有当前活动项目的地方。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080605Z" creationid="grass" creationdate="20201015T080526Z">
+        <seg>那是我保存所有正在进行的项目的地方。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11588,6 +11612,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The completion percentage you see on the screenshot is &lt;a0&gt;yet another neat feature&lt;/a0&gt; of Orgmode :)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080927Z" creationid="grass" creationdate="20201015T080927Z">
+        <seg>您在屏幕截图上看到的完成百分比是&lt;a0&gt;Orgmode的另一个出色的功能&lt;/a0&gt;：)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The date/time prompt</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201056Z" creationid="grass" creationdate="20201010T201056Z">
@@ -11608,6 +11640,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T081224Z" creationid="grass" creationdate="20200929T081224Z">
         <seg>最简单的方式就是使用命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The first action of each project is called its “next action”, and that’s always the one I will do when working on a project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080744Z" creationid="grass" creationdate="20201015T080744Z">
+        <seg>每个项目的第一个行动被称为“下一步行动”，这也是我在处理项目时总是要做的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12893,6 +12933,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075637Z" creationid="grass" creationdate="20201015T075637Z">
         <seg>http://orgmode.org/manual/Capture.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://orgmode.org/manual/Checkboxes.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080801Z" creationid="grass" creationdate="20201015T080801Z">
+        <seg>http://orgmode.org/manual/Checkboxes.html</seg>
       </tuv>
     </tu>
     <tu>
