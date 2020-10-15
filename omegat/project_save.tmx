@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_23349233" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_6a661c5e0" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -9139,6 +9139,22 @@
         <seg>debug-on-quit nil)
 
 ;; 添加最新的Org模式到加载路径中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>document</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T055938Z" creationid="grass" creationdate="20201015T055938Z">
+        <seg>文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>global</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T060022Z" creationid="grass" creationdate="20201015T060022Z">
+        <seg>整体</seg>
       </tuv>
     </tu>
     <tu>
@@ -35211,6 +35227,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T103116Z" creationid="grass" creationdate="20200927T103116Z">
         <seg>#x_002doverriding_002dfactory_002dstyles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>makeinfo</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T060035Z" creationid="grass" creationdate="20201015T060035Z">
+        <seg>makeinfo</seg>
       </tuv>
     </tu>
     <tu>
