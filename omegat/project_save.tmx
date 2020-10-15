@@ -6,6 +6,22 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>"* %i%?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075741Z" creationid="grass" creationdate="20201015T075741Z">
+        <seg>"* %i%?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>"* TODO %i%?")</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075737Z" creationid="grass" creationdate="20201015T075737Z">
+        <seg>"* TODO %i%?")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>"~/gtd/gtd.org"</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075600Z" creationid="grass" creationdate="20201015T075600Z">
@@ -74,6 +90,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>("T" "Tickler" entry</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075738Z" creationid="grass" creationdate="20201015T075738Z">
+        <seg>("T" "Tickler" entry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(a) The FSF’s Back-Cover Text is: “You have the freedom to copy and modify this GNU manual.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054605Z" creationid="grass" creationdate="20201013T054605Z">
@@ -116,6 +140,22 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(file+headline "~/gtd/inbox.org" "Tasks")</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075735Z" creationid="grass" creationdate="20201015T075735Z">
+        <seg>(file+headline "~/gtd/inbox.org" "Tasks")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(file+headline "~/gtd/tickler.org" "Tickler")</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075740Z" creationid="grass" creationdate="20201015T075740Z">
+        <seg>(file+headline "~/gtd/tickler.org" "Tickler")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(global-set-key (kbd "C-c l") 'org-store-link)
 (global-set-key (kbd "C-c a") 'org-agenda)
 (global-set-key (kbd "C-c c") 'org-capture)</seg>
@@ -140,6 +180,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075558Z" creationid="grass" creationdate="20201015T075558Z">
         <seg>(setq org-agenda-files '("~/gtd/inbox.org"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(setq org-capture-templates '(("t" "Todo [inbox]" entry</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075734Z" creationid="grass" creationdate="20201015T075734Z">
+        <seg>(setq org-capture-templates '(("t" "Todo [inbox]" entry</seg>
       </tuv>
     </tu>
     <tu>
@@ -3700,6 +3748,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Capturing a thought is one key press away: simply Press &lt;c0&gt;C-c c&lt;/c0&gt;, and a capture popup will appear in Emacs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075714Z" creationid="grass" creationdate="20201015T075714Z">
+        <seg>只需按一个按键即可捕获思想：只需按&lt;c0&gt;C-c c&lt;/c0&gt;，捕获弹出窗口就会出现在Emacs中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Capturing column view</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201023Z" creationid="grass" creationdate="20201010T201023Z">
@@ -5388,6 +5444,22 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here’s how I set it up:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075729Z" creationid="grass" creationdate="20201015T075729Z">
+        <seg>下面是我的设置方式：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here’s how my inbox looks like:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075828Z" creationid="grass" creationdate="20201015T075828Z">
+        <seg>下面是我的收件箱的样子：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Highlighting states.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101502Z" creationid="grass" creationdate="20201014T101425Z">
@@ -5640,6 +5712,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101157Z" creationid="grass" creationdate="20201014T101157Z">
         <seg>我做这个，Fred休息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I press &lt;c0&gt;C-c c t&lt;/c0&gt; to add an entry to my inbox, and &lt;c1&gt;C-c c T&lt;/c1&gt; to add an entry to the tickler (more on that later).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075826Z" creationid="grass" creationdate="20201015T075826Z">
+        <seg>按&lt;c0&gt;C-c c t&lt;/c0&gt;将条目添加到我的收件箱，按&lt;c1&gt;C-c c T&lt;/c1&gt;将条目添加到记事本(稍后将详细介绍)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6128,6 +6208,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T180140Z" creationid="grass" creationdate="20201010T175125Z">
         <seg>对于在由稀疏树命令(请参阅&lt;a0&gt;稀疏树&lt;/a0&gt;)或议程命令(请参阅&lt;a1&gt;议程命令&lt;/a1&gt;)暴露出来的位置操作时，它非常有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It offers lots of customization options.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075801Z" creationid="grass" creationdate="20201015T075801Z">
+        <seg>它提供了很多定制选项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6704,6 +6792,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200106Z" creationid="grass" creationdate="20201010T200106Z">
         <seg>一个文件中的多个关键字集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>My inbox is then processed and emptied daily.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075851Z" creationid="grass" creationdate="20201015T075851Z">
+        <seg>然后，我的收件箱每天都会被处理和清空。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8908,6 +9004,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once you’re done capturing, &lt;c1&gt;C-c C-c&lt;/c1&gt; and it will get stored in the inbox.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075720Z" creationid="grass" creationdate="20201015T075720Z">
+        <seg>一旦您完成捕获，&lt;c1&gt;C-c-c&lt;/c1&gt;它将存储在收件箱中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>One level up.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063242Z" creationid="grass" creationdate="20201015T063242Z">
@@ -9192,6 +9296,30 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130326Z" creationid="grass" creationdate="20201005T130326Z">
         <seg>Org使用各种语法元素：TODO关键字，标签，属性名称，关键字，块等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Orgmode has a great feature that fits really well with this concept: &lt;a0&gt;org-capture&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075659Z" creationid="grass" creationdate="20201015T075659Z">
+        <seg>Org模式有一个非常好的特性，非常适合这个概念：&lt;a0&gt;org-capture&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Orgmode%20for%20GTD.resources/gtd-capture.png</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075726Z" creationid="grass" creationdate="20201015T075726Z">
+        <seg>Orgmode%20for%20GTD.resources/gtd-capture.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Orgmode%20for%20GTD.resources/gtd-inbox.png</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075832Z" creationid="grass" creationdate="20201015T075832Z">
+        <seg>Orgmode%20for%20GTD.resources/gtd-inbox.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -11476,6 +11604,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The syntax of capture templates is explained &lt;a0&gt;here&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075759Z" creationid="grass" creationdate="20201015T075759Z">
+        <seg>&lt;a0&gt;此处&lt;/a0&gt;介绍了捕获模板的语法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The table editor as minor mode.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100121Z" creationid="grass" creationdate="20201014T100121Z">
@@ -12181,6 +12317,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When processing the inbox, I &lt;a0&gt;refile&lt;/a0&gt; each entry that is actionable and belongs to a project using &lt;c1&gt;C-c C-w&lt;/c1&gt;, moving the entry to the appropriate place.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080236Z" creationid="grass" creationdate="20201015T080236Z">
+        <seg>在处理收件箱时，我把每一个可执行且属于某个项目的条目使用&lt;c1&gt;C-c C-w&lt;/c1&gt;&lt;a0&gt;转接&lt;/a0&gt;，并将条目移动到适当的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When reviewing the captured data, you may want to refile or to copy some of the entries into a different list, for example into a project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T131826Z" creationid="grass" creationdate="20201006T131800Z">
@@ -12509,6 +12653,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>\n %U")))</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075742Z" creationid="grass" creationdate="20201015T075742Z">
+        <seg>\n %U")))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>a &lt;e0&gt;TODO list&lt;/e0&gt; that covers all unfinished action items,</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201014T145452Z" creationid="Eli" creationdate="20201014T145452Z">
@@ -12613,6 +12765,30 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075424Z" creationid="grass" creationdate="20201015T075424Z">
         <seg>http://orgmode.org/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://orgmode.org/manual/Capture-templates.html#Capture-templates</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075745Z" creationid="grass" creationdate="20201015T075745Z">
+        <seg>http://orgmode.org/manual/Capture-templates.html#Capture-templates</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://orgmode.org/manual/Capture.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075637Z" creationid="grass" creationdate="20201015T075637Z">
+        <seg>http://orgmode.org/manual/Capture.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://orgmode.org/manual/Refile-and-copy.html#Refile-and-copy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075839Z" creationid="grass" creationdate="20201015T075839Z">
+        <seg>http://orgmode.org/manual/Refile-and-copy.html#Refile-and-copy</seg>
       </tuv>
     </tu>
     <tu>
