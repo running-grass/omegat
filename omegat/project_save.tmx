@@ -22,6 +22,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>"Skip all but the first non-done entry."</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083203Z" creationid="grass" creationdate="20201015T083147Z">
+        <seg>“跳过除第一个未完成条目之外的所有条目。”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>"~/gtd/gtd.org"</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075600Z" creationid="grass" creationdate="20201015T075600Z">
@@ -122,6 +130,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>((org-agenda-overriding-header "Office")</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083145Z" creationid="grass" creationdate="20201015T083145Z">
+        <seg>((org-agenda-overriding-header "Office")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>((org-agenda-overriding-header "Office")))))</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T082822Z" creationid="grass" creationdate="20201015T082822Z">
@@ -200,6 +216,54 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(goto-char (point-max))))))
+		  
+(defun org-current-is-todo ()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083223Z" creationid="grass" creationdate="20201015T083223Z">
+        <seg>(goto-char (point-max))))))
+		  
+(defun org-current-is-todo ()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(let (should-skip-entry)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083206Z" creationid="grass" creationdate="20201015T083206Z">
+        <seg>(let (should-skip-entry)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(or (outline-next-heading)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083221Z" creationid="grass" creationdate="20201015T083221Z">
+        <seg>(or (outline-next-heading)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(org-agenda-skip-function #'my-org-agenda-skip-all-siblings-but-first)))))
+
+(defun my-org-agenda-skip-all-siblings-but-first ()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083146Z" creationid="grass" creationdate="20201015T083146Z">
+        <seg>(org-agenda-skip-function #'my-org-agenda-skip-all-siblings-but-first)))))
+
+(defun my-org-agenda-skip-all-siblings-but-first ()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(save-excursion</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083217Z" creationid="grass" creationdate="20201015T083217Z">
+        <seg>(save-excursion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(setq debug-on-error t</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061737Z" creationid="grass" creationdate="20201015T061737Z">
@@ -244,6 +308,62 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081635Z" creationid="grass" creationdate="20201015T081635Z">
         <seg>(setq org-todo-keywords '((sequence "TODO(t)" "WAITING(w)" "|" "DONE(d)" "CANCELLED(c)")))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(setq should-skip-entry t))</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083208Z" creationid="grass" creationdate="20201015T083208Z">
+        <seg>(setq should-skip-entry t))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(setq should-skip-entry t))))</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083219Z" creationid="grass" creationdate="20201015T083219Z">
+        <seg>(setq should-skip-entry t))))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(string= "TODO" (org-get-todo-state)))</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083225Z" creationid="grass" creationdate="20201015T083225Z">
+        <seg>(string= "TODO" (org-get-todo-state)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(unless (org-current-is-todo)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083207Z" creationid="grass" creationdate="20201015T083207Z">
+        <seg>(unless (org-current-is-todo)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(when (org-current-is-todo)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083219Z" creationid="grass" creationdate="20201015T083219Z">
+        <seg>(when (org-current-is-todo)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(when should-skip-entry</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083220Z" creationid="grass" creationdate="20201015T083220Z">
+        <seg>(when should-skip-entry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(while (and (not should-skip-entry) (org-goto-sibling t))</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083218Z" creationid="grass" creationdate="20201015T083218Z">
+        <seg>(while (and (not should-skip-entry) (org-goto-sibling t))</seg>
       </tuv>
     </tu>
     <tu>
@@ -1960,6 +2080,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080302Z" creationid="grass" creationdate="20201015T080302Z">
         <seg>3)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>3.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083310Z" creationid="grass" creationdate="20201015T083310Z">
+        <seg>3.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4224,6 +4352,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201050Z" creationid="grass" creationdate="20201010T201050Z">
         <seg>创建时间戳</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creating custom agenda commands can be a bit tricky at first, one easy way is to customize them via &lt;c0&gt;M-x customize-variable RET org-agenda-custom-commands&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083303Z" creationid="grass" creationdate="20201015T083303Z">
+        <seg>创建自定义议程命令一开始可能有点棘手，一种简单的方法是通过&lt;c0&gt;M-x customize-variable RET org-agenda-custom-commands&lt;/c0&gt;对它们进行自定义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12028,6 +12164,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The “Someday/Maybe” list</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083348Z" creationid="grass" creationdate="20201015T083348Z">
+        <seg>“将来/也许”清单</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Then, activate the debugger:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082552Z" creationid="grass" creationdate="20200929T082552Z">
@@ -12232,6 +12376,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063902Z" creationid="grass" creationdate="20201015T063902Z">
         <seg>要选择标题区域，最好将光标和标记同时放置在行的开头，标记在第一个标题的开头，然后指向要更改的最后一个标题之后的行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To select an agenda command to execute, press &lt;c0&gt;C-c a&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083309Z" creationid="grass" creationdate="20201015T083309Z">
+        <seg>若要选择要执行的议程命令，请按&lt;c0&gt;C-c a&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
