@@ -2580,6 +2580,30 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c C-x C-w&lt;/k0&gt; (&lt;c1&gt;org-cut-subtree&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064243Z" creationid="grass" creationdate="20201015T064243Z">
+        <seg>&lt;k0&gt;C-c C-x C-w&lt;/k0&gt; (&lt;c1&gt;org-cut-subtree&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c C-x C-y&lt;/k0&gt; (&lt;c1&gt;org-paste-subtree&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064433Z" creationid="grass" creationdate="20201015T064433Z">
+        <seg>&lt;k0&gt;C-c C-x C-y&lt;/k0&gt; (&lt;c1&gt;org-paste-subtree&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c C-x M-w&lt;/k0&gt; (&lt;c1&gt;org-copy-subtree&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064358Z" creationid="grass" creationdate="20201015T064358Z">
+        <seg>&lt;k0&gt;C-c C-x M-w&lt;/k0&gt; (&lt;c1&gt;org-copy-subtree&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-c C-x b&lt;/k0&gt; (&lt;c1&gt;org-tree-to-indirect-buffer&lt;/c1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061832Z" creationid="grass" creationdate="20201015T061832Z">
@@ -3808,6 +3832,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113301Z" creationid="grass" creationdate="20201014T113301Z">
         <seg>复制并修改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copy subtree to kill ring.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064411Z" creationid="grass" creationdate="20201015T064411Z">
+        <seg>将子树复制到剪切板。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5936,6 +5968,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130830Z" creationid="grass" creationdate="20201005T130830Z">
         <seg>关键字和块以大写形式编写，以增强其可读性，但是您可以在Org文件中使用小写形式。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Kill subtree, i.e., remove it from buffer but save in kill ring.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064257Z" creationid="grass" creationdate="20201015T064257Z">
+        <seg>删除子树，即将其从缓冲区中移除，但保存在剪切板中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11877,6 +11917,22 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With a numeric prefix argument N, copy the N sequential subtrees.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064430Z" creationid="grass" creationdate="20201015T064430Z">
+        <seg>使用数字前缀参数N复制N个连续子树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With a numeric prefix argument N, kill N sequential subtrees.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064357Z" creationid="grass" creationdate="20201015T064357Z">
+        <seg>使用数字前缀参数N，删除N个连续的子树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>With a prefix argument, show, on each level, all sibling headings.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T175257Z" creationid="grass" creationdate="20201010T175257Z">
@@ -11937,6 +11993,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113138Z" creationid="grass" creationdate="20201014T113138Z">
         <seg>编写使用条目属性的程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Yank subtree from kill ring.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064457Z" creationid="grass" creationdate="20201015T064457Z">
+        <seg>从剪切板上粘贴一棵子树。</seg>
       </tuv>
     </tu>
     <tu>
