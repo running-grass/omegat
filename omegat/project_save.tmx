@@ -2636,6 +2636,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c ^&lt;/k0&gt; (&lt;c1&gt;org-sort&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065058Z" creationid="grass" creationdate="20201015T065058Z">
+        <seg>&lt;k0&gt;C-c ^&lt;/k0&gt; (&lt;c1&gt;org-sort&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-u C-u &lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-set-startup-visibility&lt;/c2&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061825Z" creationid="grass" creationdate="20201015T061825Z">
@@ -9004,6 +9012,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Otherwise the children of the current headline are sorted.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065109Z" creationid="grass" creationdate="20201015T065109Z">
+        <seg>否则，对当前标题的子项进行排序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Outlines allow a document to be organized in a hierarchical structure, which, least for me, is the best representation of notes and thoughts.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T165748Z" creationid="grass" creationdate="20201005T132143Z">
@@ -10124,6 +10140,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Refile and Copy&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065057Z" creationid="grass" creationdate="20201015T065057Z">
+        <seg>请参阅&lt;a0&gt;重新文件和复制&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a1&gt;(emacs)Package Menu&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T140634Z" creationid="grass" creationdate="20200927T131556Z">
@@ -10400,6 +10424,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T081426Z" creationid="grass" creationdate="20200929T081426Z">
         <seg>有时您可能会由于Emacs或Org模式设置错误而遇到问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sort same-level entries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065104Z" creationid="grass" creationdate="20201015T065104Z">
+        <seg>对同级条目进行排序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11072,6 +11104,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201341Z" creationid="grass" creationdate="20201010T201341Z">
         <seg>计时表格</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The command prompts for the sorting method, which can be alphabetically, numerically, by time—first timestamp with active preferred, creation time, scheduled time, deadline time—by priority, by TODO keyword—in the sequence the keywords have been defined in the setup—or by the value of a property.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065549Z" creationid="grass" creationdate="20201015T065549Z">
+        <seg>该命令提示您输入排序方法，该方法可以按字母顺序、数字顺序，也可以首次有效时间戳、创建时间、计划时间、截止日期时间-按优先级、按TODO关键字-按照关键字在设置中定义的顺序-或按属性的值进行排序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11913,6 +11953,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T133852Z" creationid="grass" creationdate="20201006T133852Z">
         <seg>当变量&lt;c4&gt;org-log-refile&lt;/c4&gt;&lt;a5&gt;&lt;s6&gt;83&lt;/s6&gt;&lt;/a5&gt;被设置时，无论何时转接笔记，都会记录时间戳或注释。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When there is an active region, all entries in the region are sorted.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065107Z" creationid="grass" creationdate="20201015T065107Z">
+        <seg>当存在活动区域时，将对该区域中的所有条目进行排序。</seg>
       </tuv>
     </tu>
     <tu>
