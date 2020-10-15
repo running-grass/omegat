@@ -5828,6 +5828,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>I put a todo keyword in all project entries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081508Z" creationid="grass" creationdate="20201015T081508Z">
+        <seg>我在所有项目条目中都放了一个TODO关键字。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>I split my GTD in four separate files:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075518Z" creationid="grass" creationdate="20201015T075518Z">
@@ -6926,8 +6934,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>My contexts tend to change over time, but I always have at least &lt;c0&gt;@home&lt;/c0&gt;, &lt;c1&gt;@office&lt;/c1&gt;, &lt;c2&gt;@travelling&lt;/c2&gt;, &lt;c3&gt;@phone&lt;/c3&gt;, &lt;c4&gt;@email&lt;/c4&gt;, &lt;c5&gt;@errands&lt;/c5&gt; to filter out next actions based on my current location for instance.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081312Z" creationid="grass" creationdate="20201015T081312Z">
-        <seg>我的上下文往往会随着时间的推移而变化，但我始终至少有&lt;c0&gt;@家&lt;/c0&gt;, &lt;c1&gt;@办公室&lt;/c1&gt;, &lt;c2&gt;@旅行&lt;/c2&gt;, &lt;c3&gt;@电话&lt;/c3&gt;, &lt;c4&gt;@邮件&lt;/c4&gt;, &lt;c5&gt;@errands&lt;/c5&gt; to filter out next actions based on my current location for instance.</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081458Z" creationid="grass" creationdate="20201015T081312Z">
+        <seg>我的上下文往往会随着时间的推移而变化，但我始终至少有&lt;c0&gt;@家&lt;/c0&gt;, &lt;c1&gt;@办公室&lt;/c1&gt;, &lt;c2&gt;@旅行&lt;/c2&gt;, &lt;c3&gt;@电话&lt;/c3&gt;, &lt;c4&gt;@邮件&lt;/c4&gt;, &lt;c5&gt;@琐事&lt;/c5&gt; ，以根据我当前的位置筛选出下一步行动。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11224,6 +11232,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200317Z" creationid="grass" creationdate="20201010T200317Z">
         <seg>TODO依赖关系</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TODO keywords</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081502Z" creationid="grass" creationdate="20201015T081502Z">
+        <seg>TODO关键字</seg>
       </tuv>
     </tu>
     <tu>
