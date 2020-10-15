@@ -175,3 +175,5 @@ skipping condition	跳过条件
 list	清单
 list	列表
 review	审查
+reference	参考资料
+Reference	参考文档
