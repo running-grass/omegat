@@ -8166,8 +8166,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Note that in this case, ‘&lt;s0&gt;make autoloads&lt;/s0&gt;’ is mandatory: it defines Org’s version in ‘&lt;s1&gt;org-version.el&lt;/s1&gt;’ and Org’s autoloads in ‘&lt;s2&gt;org-loaddefs.el&lt;/s2&gt;’.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062517Z" creationid="grass" creationdate="20200927T133025Z">
-        <seg>请注意，在这种情况下，必须使用'&lt;s0&gt;make autoloads&lt;/ s0&gt;'：它在'&lt;s1&gt;org-version.el&lt;/ s1&gt;'中定义Org的版本，并在'&lt;s2&gt;org-loaddefs .el&lt;/s2&gt;'中定义Org的自动加载。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062713Z" creationid="grass" creationdate="20200927T133025Z">
+        <seg>请注意，在这种情况下，必须使用'&lt;s0&gt;make autoloads&lt;/s0&gt;'：它在'&lt;s1&gt;org-version.el&lt;/s1&gt;'中定义Org的版本，并在'&lt;s2&gt;org-loaddefs .el&lt;/s2&gt;'中定义Org的自动加载。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11431,8 +11431,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>You can also compile with ‘&lt;s0&gt;make&lt;/s0&gt;’, generate the documentation with ‘&lt;s1&gt;make doc&lt;/s1&gt;’, create a local configuration with ‘&lt;s2&gt;make config&lt;/s2&gt;’ and install Org with ‘&lt;s3&gt;make install&lt;/s3&gt;’.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20200927T133316Z" creationid="grass" creationdate="20200927T133316Z">
-        <seg>你也可以使用'&lt;s0&gt;make&lt;/ s0&gt;'进行编译，使用'&lt;s1&gt;make doc&lt;/ s1&gt;'生成文档，使用'&lt;s2&gt;make config&lt;/ s2&gt;'创建本地配置，使用'&lt;s3&gt;make install&lt;/ s3&gt;'安装Org。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062656Z" creationid="grass" creationdate="20200927T133316Z">
+        <seg>你也可以使用'&lt;s0&gt;make&lt;/s0&gt;'进行编译，使用'&lt;s1&gt;make doc&lt;/s1&gt;'生成文档，使用'&lt;s2&gt;make config&lt;/s2&gt;'创建本地配置，使用'&lt;s3&gt;make install&lt;/s3&gt;'安装Org。</seg>
       </tuv>
     </tu>
     <tu>
