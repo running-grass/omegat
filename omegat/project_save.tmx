@@ -2924,6 +2924,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;&gt;&lt;/k0&gt; (&lt;c1&gt;org-agenda-remove-restriction-lock&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T142742Z" creationid="Eli" creationdate="20201016T142742Z">
+        <seg>&lt;k0&gt;&gt;&lt;/k0&gt;(&lt;c1&gt;org-agenda-remove-restriction-lock&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-,&lt;/k0&gt; (&lt;c1&gt;org-cycle-agenda-files&lt;/c1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T133303Z" creationid="Eli" creationdate="20201016T133303Z">
@@ -11560,6 +11568,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T141215Z" creationid="Eli" creationdate="20201016T141215Z">
         <seg>移除由&lt;k0&gt;C-c C-x&lt;/k0&gt;创建的范围限制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remove the restriction.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T142804Z" creationid="Eli" creationdate="20201016T142804Z">
+        <seg>移除agenda的范围限制</seg>
       </tuv>
     </tu>
     <tu>
