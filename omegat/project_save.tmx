@@ -2142,8 +2142,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>20:00.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055453Z" creationid="grass" creationdate="20201016T055453Z">
-        <seg>20:00.</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T063100Z" creationid="grass" creationdate="20201016T055453Z">
+        <seg></seg>
       </tuv>
     </tu>
     <tu>
@@ -14023,8 +14023,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>by as many weeks as it takes to get this date into the future.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062750Z" creationid="grass" creationdate="20201016T062036Z">
-        <seg>并且尽可能的把时间戳放到未来。&lt;片段 5700&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T063141Z" creationid="grass" creationdate="20201016T062036Z">
+        <seg>并且尽可能的把时间戳放到未来。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14099,8 +14099,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>future will be on today's date if you complete the task before</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055322Z" creationid="grass" creationdate="20201016T055322Z">
-        <seg>如果您在此之前完成任务，未来将以今天的日期为准</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T063056Z" creationid="grass" creationdate="20201016T055322Z">
+        <seg>则将来的下一个截止日期将是今天的日期。</seg>
       </tuv>
     </tu>
     <tu>
