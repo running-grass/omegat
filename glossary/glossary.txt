@@ -182,3 +182,4 @@ repeater	复读机
 warning period	提醒天数
 beginning	开始
 span	范围
+calendar	日历
