@@ -7422,8 +7422,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Marking this DONE shifts the date by at least one week, but also</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055043Z" creationid="grass" creationdate="20201016T055003Z">
-        <seg>将此标记为已完成会将日期更改为上一周，但同时</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T061812Z" creationid="grass" creationdate="20201016T055003Z">
+        <seg>将此标记为DONE会将日期更改为一周内的下一个重复日期，并且</seg>
       </tuv>
     </tu>
     <tu>
@@ -14023,8 +14023,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>by as many weeks as it takes to get this date into the future.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055012Z" creationid="grass" creationdate="20201016T055012Z">
-        <seg>把这个日期拖到未来的几周内。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T061900Z" creationid="grass" creationdate="20201016T055012Z">
+        <seg>通过多次完成拖到未来的几周内。</seg>
       </tuv>
     </tu>
     <tu>
