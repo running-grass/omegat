@@ -412,14 +412,6 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>** TODO Pay the rent</seg>
-      </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T053458Z" creationid="grass" creationdate="20201016T053458Z">
-        <seg>** TODO 支付租金</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>,-&gt; FOLDED -&gt; CHILDREN -&gt; SUBTREE --.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T173917Z" creationid="grass" creationdate="20201010T173917Z">
@@ -13633,6 +13625,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T080240Z" creationid="grass" creationdate="20200929T080122Z">
         <seg>你可以从&lt;a1&gt;这个页面&lt;/a1&gt;订阅此列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use yearly, monthly, weekly, daily and hourly repeat cookies by using the ‘&lt;s2&gt;y&lt;/s2&gt;’, ‘&lt;s3&gt;w&lt;/s3&gt;’, ‘&lt;s4&gt;m&lt;/s4&gt;’, ‘&lt;s5&gt;d&lt;/s5&gt;’ and ‘&lt;s6&gt;h&lt;/s6&gt;’ letters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T053822Z" creationid="grass" creationdate="20201016T053822Z">
+        <seg>您可以通过使用“&lt;s2&gt;y&lt;/s2&gt;”、“&lt;s3&gt;w&lt;/s3&gt;”、“&lt;s4&gt;m&lt;/s4&gt;”、“&lt;s5&gt;d&lt;/s5&gt;”和“&lt;s6&gt;h&lt;/s6&gt;”字母来创建每年、每月、每周、每天和每小时的复读机。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40041,6 +40041,14 @@ $ make autoloads</seg>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171149Z" creationid="grass" creationdate="20201010T171140Z">
         <seg>一些文本
 *** 三级标题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the ‘&lt;s0&gt;+1m&lt;/s0&gt;’ is a repeater; the intended interpretation is that the task has a deadline on ‘&lt;s1&gt;&lt;2005-10-01&gt;&lt;/s1&gt;’ and repeats itself every (one) month starting from that time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T053700Z" creationid="grass" creationdate="20201016T053700Z">
+        <seg>“&lt;s0&gt;+1m&lt;/s0&gt;”是一个复读机；预期的解释是任务的截止日期为“&lt;s1&gt;&lt;2005-10-01&gt;&lt;/s1&gt;”，并从该时间开始每(一个)月重复一次。</seg>
       </tuv>
     </tu>
     <tu>
