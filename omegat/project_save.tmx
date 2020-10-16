@@ -12396,6 +12396,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The problem with this is, however, is that then also the &lt;e3&gt;next&lt;/e3&gt; instance of the repeated entry will not be active.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054431Z" creationid="grass" creationdate="20201016T054431Z">
+        <seg>然而，这样做的问题是，重复条目的&lt;e3&gt;下一个&lt;/e3&gt;实例也将不会处于正在进行的状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The projects file</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080512Z" creationid="grass" creationdate="20201015T080512Z">
@@ -13377,6 +13385,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082814Z" creationid="grass" creationdate="20200929T082814Z">
         <seg>遇到错误时，屏幕上会显示一个&lt;s0&gt;*Backtrace*&lt;/s0&gt;缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you mark a ‘&lt;s0&gt;DEADLINE&lt;/s0&gt;’ or a ‘&lt;s1&gt;SCHEDULED&lt;/s1&gt;’ with the TODO keyword ‘&lt;s2&gt;DONE&lt;/s2&gt;’, it no longer produces entries in the agenda.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054310Z" creationid="grass" creationdate="20201016T054310Z">
+        <seg>当您使用TODO关键字“&lt;s2&gt;DONE&lt;/s2&gt;”标记“&lt;s0&gt;DEADLINE&lt;/s0&gt;”或“&lt;s1&gt;SCHEDULED&lt;/s1&gt;”时，它不再在议程中生成条目。</seg>
       </tuv>
     </tu>
     <tu>
