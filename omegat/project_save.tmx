@@ -5526,8 +5526,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Finally, there are tasks, like changing batteries, which should always repeat a certain time &lt;e1&gt;after&lt;/e1&gt; the last time you did it.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054920Z" creationid="grass" creationdate="20201016T054920Z">
-        <seg>最后，还有一些任务，比如更换电池，它们应该始终在您上次操作&lt;/e1&gt;之后&lt;e1&gt;的特定时间重复执行。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T060446Z" creationid="grass" creationdate="20201016T054920Z">
+        <seg>最后，还有一些任务，比如更换电池，它们应该始终在您上次操作&lt;e1&gt;之后&lt;/e1&gt;的特定时间重复执行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6430,8 +6430,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>If a directory is part of this list, all files with the extension ‘&lt;s4&gt;.org&lt;/s4&gt;’ in this directory are part of the list.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T144618Z" creationid="Eli" creationdate="20201015T144618Z">
-        <seg>如果变量org-agenda-files为一个文件目录，则该目录下所有org文件都为agenda files。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T060331Z" creationid="Eli" creationdate="20201015T144618Z">
+        <seg>如果变量org-agenda-files为一个文件目录，则该目录下所有‘&lt;s4&gt;.org&lt;/s4&gt;’文件都为agenda files。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12582,8 +12582,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>The information to be shown is normally collected from all &lt;e0&gt;agenda files&lt;/e0&gt;, the files listed in the variable &lt;c1&gt;org-agenda-files&lt;/c1&gt;&lt;a2&gt;&lt;s3&gt;91&lt;/s3&gt;&lt;/a2&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T060249Z" creationid="Eli" creationdate="20201015T144428Z">
-        <seg>agenda buffer显示的信息通常来自&lt;e0&gt;agenda file&lt;/e0&gt;， 所谓agenda files 指的是变量&lt;c1&gt;org-agenda-files&lt;/c1&gt;中的文件s&lt;/c1&gt;&lt;a2&gt;&lt;s3&gt;91&lt;/s3&gt;&lt;/a2&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T060427Z" creationid="Eli" creationdate="20201015T144428Z">
+        <seg>agenda buffer显示的信息通常来自&lt;e0&gt;agenda file&lt;/e0&gt;， 所谓agenda files 指的是变量&lt;c1&gt;org-agenda-files&lt;/c1&gt;中的文件&lt;a2&gt;&lt;s3&gt;91&lt;/s3&gt;&lt;/a2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12910,8 +12910,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Thus, even if you only work with a single Org file, that file should be put into the list&lt;a0&gt;&lt;s1&gt;92&lt;/s1&gt;&lt;/a0&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T144706Z" creationid="Eli" creationdate="20201015T144706Z">
-        <seg>因此，即使你只使用一个org文件,也需要把该文件列入变量`org-agenda-files`中。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T060345Z" creationid="Eli" creationdate="20201015T144706Z">
+        <seg>因此，即使你只使用一个org文件,也需要把该文件列入变量`org-agenda-files`中&lt;a0&gt;&lt;s1&gt;92&lt;/s1&gt;&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
