@@ -6620,6 +6620,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If agenda is already restricted there, remove the restriction.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T142718Z" creationid="Eli" creationdate="20201016T142718Z">
+        <seg>如果此处已经有限制，那么会移除它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If an error occurs, a “backtrace” can be very useful—see below on how to create one.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082155Z" creationid="grass" creationdate="20200929T082155Z">
