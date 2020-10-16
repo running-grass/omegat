@@ -6470,8 +6470,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>If the command is used at the &lt;e0&gt;beginning&lt;/e0&gt; of a line, and if there is a heading or a plain list item (see &lt;a1&gt;Plain Lists&lt;/a1&gt;) at point, the new heading/item is created &lt;e2&gt;before&lt;/e2&gt; the current line.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063445Z" creationid="grass" creationdate="20201015T063445Z">
-        <seg>如果在行的&lt;e0&gt;开头&lt;/e0&gt;处使用该命令，并且在光标处有标题或普通列表项(请参阅&lt;a1&gt;普通列表&lt;/a1&gt;)，则在&lt;e2&gt;当前行之前创建新的标题/项。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T060107Z" creationid="grass" creationdate="20201015T063445Z">
+        <seg>如果在行的&lt;e0&gt;开始&lt;/e0&gt;处使用该命令，并且在光标处有标题或普通列表项(请参阅&lt;a1&gt;普通列表&lt;/a1&gt;)，则在当前行&lt;e2&gt;之前&lt;/e2&gt;创建新的标题/项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6686,8 +6686,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>In the example above, setting the state to ‘&lt;s7&gt;DONE&lt;/s7&gt;’ would actually switch the date like this:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054533Z" creationid="grass" creationdate="20201016T054533Z">
-        <seg>在上面的示例中，将状态设置为“&lt;S7&gt;DONE&lt;/S7&gt;”实际上会切换日期，如下所示：</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T060201Z" creationid="grass" creationdate="20201016T054533Z">
+        <seg>在上面的示例中，将状态设置为“&lt;s7&gt;DONE&lt;/s7&gt;”实际上会切换日期，如下所示：</seg>
       </tuv>
     </tu>
     <tu>
@@ -12582,8 +12582,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>The information to be shown is normally collected from all &lt;e0&gt;agenda files&lt;/e0&gt;, the files listed in the variable &lt;c1&gt;org-agenda-files&lt;/c1&gt;&lt;a2&gt;&lt;s3&gt;91&lt;/s3&gt;&lt;/a2&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T144428Z" creationid="Eli" creationdate="20201015T144428Z">
-        <seg>agenda buffer显示的信息通常来自&lt;e0&gt;agenda file&lt;/e0&gt;， 所谓agenda files 指的是变量&lt;c1&gt;org-agenda-files&lt;/c1&gt;中的文件。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T060249Z" creationid="Eli" creationdate="20201015T144428Z">
+        <seg>agenda buffer显示的信息通常来自&lt;e0&gt;agenda file&lt;/e0&gt;， 所谓agenda files 指的是变量&lt;c1&gt;org-agenda-files&lt;/c1&gt;中的文件s&lt;/c1&gt;&lt;a2&gt;&lt;s3&gt;91&lt;/s3&gt;&lt;/a2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13655,8 +13655,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>When you mark a ‘&lt;s0&gt;DEADLINE&lt;/s0&gt;’ or a ‘&lt;s1&gt;SCHEDULED&lt;/s1&gt;’ with the TODO keyword ‘&lt;s2&gt;DONE&lt;/s2&gt;’, it no longer produces entries in the agenda.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054310Z" creationid="grass" creationdate="20201016T054310Z">
-        <seg>当您使用TODO关键字“&lt;s2&gt;DONE&lt;/s2&gt;”标记“&lt;s0&gt;DEADLINE&lt;/s0&gt;”或“&lt;s1&gt;SCHEDULED&lt;/s1&gt;”时，它不再在议程中生成条目。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T060145Z" creationid="grass" creationdate="20201016T054310Z">
+        <seg>当您使用TODO关键字“DONE”标记“DEADLINE&lt;s0&gt;&lt;/s0&gt;&lt;s1&gt;&lt;/s1&gt;”或“SCHEDULED&lt;s2&gt;&lt;/s2&gt;”时，它不再在议程中生成条目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13911,8 +13911,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>You can override this by setting &lt;c2&gt;org-agenda-skip-comment-trees&lt;/c2&gt; and &lt;c3&gt;org-agenda-skip-archived-trees&lt;/c3&gt; to &lt;c4&gt;nil&lt;/c4&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T142859Z" creationid="Eli" creationdate="20201015T142859Z">
-        <seg>可以通过设置&lt;c2&gt;org-agenda-skip-comment-trees&lt;/c2&gt;和&lt;c3&gt;org-agenda-skip-archived-trees&lt;/c3&gt;为nil来取消忽略。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T060228Z" creationid="Eli" creationdate="20201015T142859Z">
+        <seg>可以通过设置&lt;c2&gt;org-agenda-skip-comment-trees&lt;/c2&gt;和&lt;c3&gt;org-agenda-skip-archived-trees&lt;/c3&gt;为&lt;c4&gt;nil&lt;/c4&gt;来取消忽略。</seg>
       </tuv>
     </tu>
     <tu>
