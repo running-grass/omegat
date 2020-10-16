@@ -3516,6 +3516,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After a change to BBDB, or for the first agenda display during an Emacs session, the agenda display suffers a short delay as Org updates its hash with anniversaries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113740Z" creationid="grass" creationdate="20201016T113740Z">
+        <seg>在更改BBDB之后，或者对于Emacs会话期间的第一次议程显示，由于Org使用周年纪念更新其散列，因此议程显示会出现短暂延迟。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After that, everything happens automatically.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112941Z" creationid="grass" creationdate="20201016T112941Z">
@@ -3584,6 +3592,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113916Z" creationid="grass" creationdate="20201014T113916Z">
         <seg>所有未完成的行动项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All you need to do is to add the following to one of your agenda files:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113554Z" creationid="grass" creationdate="20201016T113554Z">
+        <seg>您只需将以下内容添加到您的一个议程文件中：</seg>
       </tuv>
     </tu>
     <tu>
@@ -3928,6 +3944,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095149Z" creationid="grass" creationdate="20201010T200036Z">
         <seg>基本TODO功能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Basically, you need a field named ‘&lt;s0&gt;anniversary&lt;/s0&gt;’ for the BBDB record which contains the date in the format ‘&lt;s1&gt;YYYY-MM-DD&lt;/s1&gt;’ or ‘&lt;s2&gt;MM-DD&lt;/s2&gt;’, followed by a space and the class of the anniversary (‘&lt;s3&gt;birthday&lt;/s3&gt;’, ‘&lt;s4&gt;wedding&lt;/s4&gt;’, or a format string).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113633Z" creationid="grass" creationdate="20201016T113633Z">
+        <seg>基本上，您需要一个名为“&lt;s0&gt;周年纪念&lt;/s0&gt;”的字段用于BBDB记录，该字段包含格式为“&lt;S1&gt;YYYY-MM-DD&lt;/S1&gt;”或“&lt;S2&gt;MM-DD&lt;/S2&gt;”的日期，后跟一个空格和周年纪念的类别(“&lt;S3&gt;生日&lt;/S3&gt;”、“&lt;S4&gt;婚礼&lt;/S4&gt;”或格式字符串)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6092,6 +6116,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here are a few examples, the header for the file ‘&lt;s6&gt;ol-bbdb.el&lt;/s6&gt;’ contains more detailed information.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113721Z" creationid="grass" creationdate="20201016T113721Z">
+        <seg>以下是几个示例，文件‘&lt;s6&gt;ol-bbdb.el&lt;/s6&gt;’的标头包含更详细的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here are suggested bindings, please modify the keys to your own liking.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T135500Z" creationid="grass" creationdate="20200927T135500Z">
@@ -6360,6 +6392,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055808Z" creationid="grass" creationdate="20201016T055808Z">
         <seg>然而，一旦任务完成，任何没有复读机的日程安排信息都不再相关，因此在重复任务时将其删除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, from then on things will be very fast, much faster in fact than a long list of ‘&lt;s0&gt;%%(diary-anniversary)&lt;/s0&gt;’ entries in an Org or Diary file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113810Z" creationid="grass" creationdate="20201016T113810Z">
+        <seg>然而，从那时起，事情将变得非常快，实际上比Org或日记文件中的‘&lt;s0&gt;%%(diary-anniversary)&lt;/s0&gt;’条目的长列表要快得多。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6648,6 +6688,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054042Z" creationid="grass" creationdate="20201016T054042Z">
         <seg>如果在截止日期输入中既需要复读机，又需要特殊的提醒天数，则应先有中继器，最后才有提醒天数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you omit the class, it defaults to ‘&lt;s5&gt;birthday&lt;/s5&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113639Z" creationid="grass" creationdate="20201016T113639Z">
+        <seg>如果省略该类，则默认为“&lt;s5&gt;生日&lt;/s5&gt;”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10240,6 +10288,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T101009Z" creationid="grass" creationdate="20200927T101009Z">
         <seg>Org源代码块功能齐全，可以对其进行求值，并将结果捕获到文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Org supports this and can show BBDB anniversaries as part of the agenda.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113545Z" creationid="grass" creationdate="20201016T113545Z">
+        <seg>Org支持这一点，并可以将BBDB周年纪念作为议程的一部分。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14153,6 +14209,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T080240Z" creationid="grass" creationdate="20200929T080122Z">
         <seg>你可以从&lt;a1&gt;这个页面&lt;/a1&gt;订阅此列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can then go ahead and define anniversaries for a BBDB record.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113603Z" creationid="grass" creationdate="20201016T113603Z">
+        <seg>然后，您可以继续为BBDB记录定义周年纪念。</seg>
       </tuv>
     </tu>
     <tu>
