@@ -6740,6 +6740,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you would like to see upcoming anniversaries with a bit of forewarning, you can use the following instead:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113815Z" creationid="grass" creationdate="20201016T113815Z">
+        <seg>如果你想看看即将到来的周年纪念日，并预告一下，你可以用以下几点来代替：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you would like to select a location via a file-path-like completion along the outline path, see the variables &lt;c1&gt;org-refile-use-outline-path&lt;/c1&gt; and &lt;c2&gt;org-outline-path-complete-in-steps&lt;/c2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T133252Z" creationid="grass" creationdate="20201006T133223Z">
@@ -12472,6 +12480,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083141Z" creationid="grass" creationdate="20201015T083141Z">
         <seg>这可以使用跳过条件来实现：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That will give you three days’ warning: on the anniversary date itself and the two days prior.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113827Z" creationid="grass" creationdate="20201016T113827Z">
+        <seg>这将给你三天的警告：在周年纪念日和前两天。</seg>
       </tuv>
     </tu>
     <tu>
