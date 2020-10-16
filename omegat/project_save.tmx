@@ -2892,6 +2892,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;&lt;&lt;/k0&gt; (&lt;c1&gt;org-speedbar-set-agenda-restriction&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T141356Z" creationid="Eli" creationdate="20201016T141356Z">
+        <seg>&lt;k0&gt;&lt;&lt;/k0&gt;(&lt;c1&gt;org-speedbar-set-agenda-restriction&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;&lt;s1&gt;DOWN&lt;/s1&gt;&lt;/k0&gt; / &lt;k2&gt;&lt;s3&gt;UP&lt;/s3&gt;&lt;/k2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063135Z" creationid="grass" creationdate="20201015T063135Z">
@@ -3040,6 +3048,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T140013Z" creationid="Eli" creationdate="20201016T140013Z">
         <seg>&lt;k0&gt;C-c C-x&lt;/k0&gt;(&lt;c1&gt;org-agenda-set-restriction-lock&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c C-x &gt;&lt;/k0&gt; (&lt;c1&gt;org-agenda-remove-restriction-lock&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T141122Z" creationid="Eli" creationdate="20201016T141122Z">
+        <seg>&lt;k0&gt;C-c C-x&lt;/k0&gt;()&lt;c1&gt;org-agenda-remove-restriction-lock&lt;/c1&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -6672,6 +6688,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T140353Z" creationid="Eli" creationdate="20201016T140353Z">
         <seg>如果已经限制在光标处的子树，那么就会移除限制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If there is a window displaying an agenda view, the new restriction takes effect immediately.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T141048Z" creationid="Eli" creationdate="20201016T141048Z">
+        <seg>如果在设置范围限制时有一个窗口在显示议程视图，那么新的限制会立刻生效。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11524,6 +11548,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Remove the restriction created by &lt;k0&gt;C-c C-x &lt;&lt;/k0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T141215Z" creationid="Eli" creationdate="20201016T141215Z">
+        <seg>移除由&lt;k0&gt;C-c C-x&lt;/k0&gt;创建的范围限制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Rendering objects.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110033Z" creationid="grass" creationdate="20201014T110033Z">
@@ -11568,6 +11600,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T140249Z" creationid="Eli" creationdate="20201016T140249Z">
         <seg>将agenda的范围限制在当前的子树中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Restrict the agenda to the item—either an Org file or a subtree in such a file—at point in the Speedbar frame.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T141749Z" creationid="Eli" creationdate="20201016T141749Z">
+        <seg>将agenda的范围限制在光标所在处的项──可以是org文件，也可以是文件里的子树。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14033,6 +14073,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101543Z" creationid="grass" creationdate="20201014T101543Z">
         <seg>此条目是何时标记为完成的？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When working with Speedbar, you can use the following commands in the Speedbar frame:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T141315Z" creationid="Eli" creationdate="20201016T141315Z">
+        <seg>若你启用了speedbar,则在speedbar frame中还能使用以下命令：</seg>
       </tuv>
     </tu>
     <tu>
