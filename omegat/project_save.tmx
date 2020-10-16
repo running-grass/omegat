@@ -4092,6 +4092,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Calendar/Diary integration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112733Z" creationid="grass" creationdate="20201016T112733Z">
+        <seg>日历/日记集成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Call functions from the command line.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111713Z" creationid="grass" creationdate="20201014T111713Z">
@@ -5068,6 +5076,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Emacs contains the calendar and diary by Edward M. Reingold.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112844Z" creationid="grass" creationdate="20201016T112742Z">
+        <seg>Emacs包含了Edward M. Reingold的日历和日记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Emacs is one of the most widely ported programs, so that Org mode is available on every major platform.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T101914Z" creationid="grass" creationdate="20200927T101914Z">
@@ -5734,8 +5750,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>For weekly agendas, the default is to start on the previous Monday (see &lt;c5&gt;org-agenda-start-on-weekday&lt;/c5&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112529Z" creationid="grass" creationdate="20201016T112529Z">
-        <seg>对于每周议程，默认情况下从上个星期一开始(请参阅&lt;c5&gt;org-Agenda-start-on-Weekday&lt;/c5&gt;)。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112623Z" creationid="grass" creationdate="20201016T112529Z">
+        <seg>对于每周议程，默认情况下从上个星期一开始(请参阅&lt;c5&gt;org-agenda-start-on-weekday&lt;/c5&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11260,6 +11276,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Remote editing from the agenda buffer means, for example, that you can change the dates of deadlines and appointments from the agenda buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112722Z" creationid="grass" creationdate="20201016T112722Z">
+        <seg>例如，从议程缓冲区进行远程编辑意味着您可以从议程缓冲区更改截止日期和约会日期。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Remote editing of Org trees.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T144027Z" creationid="grass" creationdate="20201014T103044Z">
@@ -12512,6 +12536,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T131154Z" creationid="grass" creationdate="20201005T131154Z">
         <seg>绑定到此类键的命令具有通用名称，例如&lt;c0&gt;org-metaright&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The commands available in the Agenda buffer are listed in &lt;a0&gt;Agenda Commands&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112729Z" creationid="grass" creationdate="20201016T112729Z">
+        <seg>&lt;a0&gt;议程命令&lt;/a0&gt;中列出了议程缓冲区中可用的命令。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13929,6 +13961,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062656Z" creationid="grass" creationdate="20200927T133316Z">
         <seg>你也可以使用'&lt;s0&gt;make&lt;/s0&gt;'进行编译，使用'&lt;s1&gt;make doc&lt;/s1&gt;'生成文档，使用'&lt;s2&gt;make config&lt;/s2&gt;'创建本地配置，使用'&lt;s3&gt;make install&lt;/s3&gt;'安装Org。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also set the start date using a date shift: ‘&lt;s6&gt;(setq org-agenda-start-day "+10d")&lt;/s6&gt;’ starts the agenda ten days from today in the future.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112653Z" creationid="grass" creationdate="20201016T112653Z">
+        <seg>您还可以使用日期转换设置开始日期：‘&lt;s6&gt;(setq org-Agenda-start-day “+10d”)&lt;/s6&gt;’从今天开始10天后开始将来的议程。</seg>
       </tuv>
     </tu>
     <tu>
