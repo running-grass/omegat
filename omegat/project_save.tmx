@@ -4428,6 +4428,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Command to use an Iswitchb-like interface to switch to and between Org buffers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T133645Z" creationid="Eli" creationdate="20201016T133645Z">
+        <seg>使用类似iswitchb的界面来在各org buffer之间切换.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Commands in the Agenda Buffer</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202126Z" creationid="grass" creationdate="20201010T202126Z">
@@ -6768,6 +6776,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T133455Z" creationid="grass" creationdate="20201006T133455Z">
         <seg>如果您希望能够创建一个新的父节点用于转接，请检查变量&lt;c3&gt;org-refile-allow-creating-parent-nodes&lt;/c3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you would like to focus the agenda temporarily on a file not in this list, or on just one file in the list, or even on only a subtree in a file, then this can be done in different ways.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T135439Z" creationid="Eli" creationdate="20201016T135439Z">
+        <seg>如果你想使agenda临时包括不在org-agenda-files里的文件、或是仅包括org-agenda-files里的单独某个文件，甚至是某个文件里的某个子树，你可以通过以下几种方式来完成：</seg>
       </tuv>
     </tu>
     <tu>
@@ -12640,6 +12656,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172043Z" creationid="grass" creationdate="20200927T075935Z">
         <seg>Org使用手册</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Org menu contains the current list of files and can be used to visit any of them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T133909Z" creationid="Eli" creationdate="20201016T133839Z">
+        <seg>org-switchb会列出当前agenda文件列表中的所有org文件,你可以用该菜单访问这些org文件。</seg>
       </tuv>
     </tu>
     <tu>
