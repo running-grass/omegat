@@ -3036,6 +3036,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c C-x &lt;&lt;/k0&gt; (&lt;c1&gt;org-agenda-set-restriction-lock&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T140013Z" creationid="Eli" creationdate="20201016T140013Z">
+        <seg>&lt;k0&gt;C-c C-x&lt;/k0&gt;(&lt;c1&gt;org-agenda-set-restriction-lock&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-c C-x C-w&lt;/k0&gt; (&lt;c1&gt;org-cut-subtree&lt;/c1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064243Z" creationid="grass" creationdate="20201015T064243Z">
@@ -5718,8 +5726,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>For a single agenda command, you may press &lt;k0&gt;&lt;&lt;/k0&gt; once or several times in the dispatcher (see &lt;a1&gt;Agenda Dispatcher&lt;/a1&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T135720Z" creationid="Eli" creationdate="20201016T135720Z">
-        <seg>通过单个agenda命令──在议程调度器里按一次或几次&lt;k0&gt;&lt;&lt;/k0&gt;；</seg>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T135845Z" creationid="Eli" creationdate="20201016T135720Z">
+        <seg>通过单个agenda命令──在议程调度器（详见 Agenda Dispatcher）里按一次或几次&lt;k0&gt;&lt;&lt;/k0&gt;，</seg>
       </tuv>
     </tu>
     <tu>
@@ -6656,6 +6664,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055706Z" creationid="grass" creationdate="20201016T055706Z">
         <seg>如果仅为日程安排信息设置复读机，您可能希望在截止日期之后忽略复读机。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If there already is a restriction at point, remove it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T140353Z" creationid="Eli" creationdate="20201016T140353Z">
+        <seg>如果已经限制在光标处的子树，那么就会移除限制。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11548,6 +11564,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Restrict the agenda to the current subtree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T140249Z" creationid="Eli" creationdate="20201016T140249Z">
+        <seg>将agenda的范围限制在当前的子树中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Results of Evaluation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052301Z" creationid="grass" creationdate="20201013T052301Z">
@@ -13236,6 +13260,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This restriction remains in effect until removed with &lt;k0&gt;C-c C-x &gt;&lt;/k0&gt;, or by typing either &lt;k1&gt;&lt;&lt;/k1&gt; or &lt;k2&gt;&gt;&lt;/k2&gt; in the agenda dispatcher.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T140926Z" creationid="Eli" creationdate="20201016T140926Z">
+        <seg>这个限制会一直保留，直到你使用&lt;k0&gt;C-c C-x&lt;/k0&gt;命令，或是在议程调度器中按&lt;k1&gt;&gt;&lt;/k1&gt;，限制才会移除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This variable can be set to any number of days you want to see by default in the agenda, or to a span name, such a &lt;c1&gt;day&lt;/c1&gt;, &lt;c2&gt;week&lt;/c2&gt;, &lt;c3&gt;month&lt;/c3&gt; or &lt;c4&gt;year&lt;/c4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112614Z" creationid="grass" creationdate="20201016T112521Z">
@@ -13360,6 +13392,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083718Z" creationid="grass" creationdate="20201015T083718Z">
         <seg>为了移动项目，我还使用转接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To restrict the agenda scope for an extended period, use the following commands:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T140104Z" creationid="Eli" creationdate="20201016T135933Z">
+        <seg>如果想要较长时间内agenda的范围,可以使用以下命令:</seg>
       </tuv>
     </tu>
     <tu>
@@ -13849,6 +13889,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182124Z" creationid="grass" creationdate="20201010T182124Z">
         <seg>当Emacs首次访问Org文件时，全局状态设置为&lt;c0&gt;showeverything&lt;/c0&gt;，即所有文件内容均可见&lt;a1&gt;&lt;s2&gt;6&lt;/s2&gt;&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When called with a universal prefix argument or with point before the first headline in a file, set the agenda scope to the entire file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T140532Z" creationid="Eli" creationdate="20201016T140532Z">
+        <seg>使用该命令时，如果附带了前缀参数，或是光标置于第一个标题之前，genda的范围被限制为整个这个文件。</seg>
       </tuv>
     </tu>
     <tu>
