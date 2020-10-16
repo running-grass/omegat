@@ -5716,6 +5716,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For a single agenda command, you may press &lt;k0&gt;&lt;&lt;/k0&gt; once or several times in the dispatcher (see &lt;a1&gt;Agenda Dispatcher&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T135720Z" creationid="Eli" creationdate="20201016T135720Z">
+        <seg>通过单个agenda命令──在议程调度器里按一次或几次&lt;k0&gt;&lt;&lt;/k0&gt;；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For bug reports, please first try to reproduce the bug with the latest version of Org available—if you are running an outdated version, it is quite possible that the bug has been fixed already.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T080816Z" creationid="grass" creationdate="20200929T080816Z">
