@@ -420,6 +420,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>** TODO Empty kitchen trash</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055124Z" creationid="grass" creationdate="20201016T055124Z">
+        <seg>** TODO Empty kitchen trash</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>** TODO Pay the rent</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054536Z" creationid="grass" creationdate="20201016T054536Z">
@@ -4604,6 +4612,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>DEADLINE: &lt;2008-02-08 Fri 20:00 ++1d&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055127Z" creationid="grass" creationdate="20201016T055127Z">
+        <seg>DEADLINE: &lt;2008-02-08 Fri 20:00 ++1d&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>DEADLINE: &lt;2008-02-10 Sun ++1w&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054952Z" creationid="grass" creationdate="20201016T054952Z">
@@ -6220,6 +6236,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, it stays on a Sunday, even if you called and marked it</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055112Z" creationid="grass" creationdate="20201016T055112Z">
+        <seg>然而，它停留在星期天，即使您打电话并标记了它</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, you may want to dynamically number some, or all, of them.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171809Z" creationid="grass" creationdate="20201010T171809Z">
@@ -7304,6 +7328,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100958Z" creationid="grass" creationdate="20201014T100958Z">
         <seg>标记和显示TODO条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Marking this DONE shifts the date by at least one day, and also</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055158Z" creationid="grass" creationdate="20201016T055158Z">
+        <seg>如果将此标记为DONE，则日期会更改为上一天，并且</seg>
       </tuv>
     </tu>
     <tu>
@@ -11492,6 +11524,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Since there is a time in the timestamp, the next deadline in the</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055305Z" creationid="grass" creationdate="20201016T055305Z">
+        <seg>由于时间戳中有时间，因此</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Single letter selection of state.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101310Z" creationid="grass" creationdate="20201014T101310Z">
@@ -13861,6 +13901,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>by as many days as it takes to get the timestamp into the future.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055302Z" creationid="grass" creationdate="20201016T055202Z">
+        <seg>通过很多天后才能把时间戳放到未来。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>by as many weeks as it takes to get this date into the future.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055012Z" creationid="grass" creationdate="20201016T055012Z">
@@ -13921,10 +13969,26 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>done on Saturday.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055118Z" creationid="grass" creationdate="20201016T055118Z">
+        <seg>周六就做好了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>en</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T060509Z" creationid="grass" creationdate="20201015T060509Z">
         <seg>zh-CN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>future will be on today's date if you complete the task before</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055322Z" creationid="grass" creationdate="20201016T055322Z">
+        <seg>如果您在此之前完成任务，未来将以今天的日期为准</seg>
       </tuv>
     </tu>
     <tu>
