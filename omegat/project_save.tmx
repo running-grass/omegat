@@ -13655,8 +13655,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>When you mark a ‘&lt;s0&gt;DEADLINE&lt;/s0&gt;’ or a ‘&lt;s1&gt;SCHEDULED&lt;/s1&gt;’ with the TODO keyword ‘&lt;s2&gt;DONE&lt;/s2&gt;’, it no longer produces entries in the agenda.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T060145Z" creationid="grass" creationdate="20201016T054310Z">
-        <seg>当您使用TODO关键字“DONE”标记“DEADLINE&lt;s0&gt;&lt;/s0&gt;&lt;s1&gt;&lt;/s1&gt;”或“SCHEDULED&lt;s2&gt;&lt;/s2&gt;”时，它不再在议程中生成条目。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T061240Z" creationid="grass" creationdate="20201016T054310Z">
+        <seg>当你把‘&lt;s0&gt;DEADLINE&lt;/s0&gt;’或‘&lt;s1&gt;SCHEDULED&lt;/s1&gt;’标记为TODO关键字 ‘&lt;s2&gt;DONE&lt;/s2&gt;’时，它不再在议程中生成条目。</seg>
       </tuv>
     </tu>
     <tu>
