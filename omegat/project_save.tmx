@@ -412,6 +412,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>** TODO Pay the rent</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054536Z" creationid="grass" creationdate="20201016T054536Z">
+        <seg>** TODO Pay the rent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>,-&gt; FOLDED -&gt; CHILDREN -&gt; SUBTREE --.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T173917Z" creationid="grass" creationdate="20201010T173917Z">
@@ -3252,6 +3260,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A timestamp&lt;a0&gt;&lt;s1&gt;71&lt;/s1&gt;&lt;/a0&gt; is added under the deadline, to keep a record that you actually acted on the previous instance of this deadline.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054810Z" creationid="grass" creationdate="20201016T054810Z">
+        <seg>截止日期下面会添加一条时间戳&lt;a0&gt;&lt;s1&gt;71&lt;/s1&gt;&lt;/a0&gt;，以记录您在此截止日期的上一个实例中实际操作的情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A tree works like your brain.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054941Z" creationid="grass" creationdate="20201013T054751Z">
@@ -4560,6 +4576,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T053503Z" creationid="grass" creationdate="20201016T053503Z">
         <seg>DEADLINE: &lt;2005-10-01 Sat +1m&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DEADLINE: &lt;2005-11-01 Tue +1m&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054538Z" creationid="grass" creationdate="20201016T054538Z">
+        <seg>DEADLINE: &lt;2005-11-01 Tue +1m&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6496,6 +6520,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T081748Z" creationid="grass" creationdate="20200929T081748Z">
         <seg>在这种情况下，以'&lt;s0&gt;emacs -Q&lt;/s0&gt;'启动Emacs就足够了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the example above, setting the state to ‘&lt;s7&gt;DONE&lt;/s7&gt;’ would actually switch the date like this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054533Z" creationid="grass" creationdate="20201016T054533Z">
+        <seg>在上面的示例中，将状态设置为“&lt;S7&gt;DONE&lt;/S7&gt;”实际上会切换日期，如下所示：</seg>
       </tuv>
     </tu>
     <tu>
@@ -9844,6 +9876,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Org mode deals with this in the following way: when you try to mark such an entry as done, using &lt;k4&gt;C-c C-t&lt;/k4&gt;, it shifts the base date of the repeating timestamp by the repeater interval, and immediately sets the entry state back to TODO&lt;a5&gt;&lt;s6&gt;70&lt;/s6&gt;&lt;/a5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054523Z" creationid="grass" creationdate="20201016T054523Z">
+        <seg>Org mode通过以下方式处理此问题：当您尝试使用&lt;k4&gt;C-c C-t&lt;/k4&gt;将这样的条目标记为完成时，它将重复时间戳的基准日期移位一个复读机间隔，并立即将条目状态设置回TODO&lt;a5&gt;&lt;s6&gt;70&lt;/s6&gt;&lt;/a5&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Org mode helps to organize such tasks using a so-called repeater in a ‘&lt;s0&gt;DEADLINE&lt;/s0&gt;’, ‘&lt;s1&gt;SCHEDULED&lt;/s1&gt;’, or plain timestamps&lt;a2&gt;&lt;s3&gt;69&lt;/s3&gt;&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T053446Z" creationid="grass" creationdate="20201016T053418Z">
@@ -12744,6 +12784,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T140148Z" creationid="grass" creationdate="20200927T140148Z">
         <seg>要使用此功能，您需要打开“瞬变标记”模式，这是默认设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To mark a task with a repeater as DONE, use &lt;k0&gt;C-- 1 C-c C-t&lt;/k0&gt;, i.e., &lt;c1&gt;org-todo&lt;/c1&gt; with a numeric prefix argument of ‘&lt;s2&gt;-1&lt;/s2&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054647Z" creationid="grass" creationdate="20201016T054647Z">
+        <seg>要使用复读机将任务标记为已完成，请使用&lt;k0&gt;C--1C-c C-t&lt;/k0&gt;，即&lt;c1&gt;org-todo&lt;/c1&gt;携带数字前缀参数‘&lt;s2&gt;-1&lt;/s2&gt;’。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17171,7 +17219,7 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>https://orgmode.org/org.html#FOOT71</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20200927T103116Z" creationid="grass" creationdate="20200927T103116Z">
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054654Z" creationid="grass" creationdate="20200927T103116Z">
         <seg>#FOOT71</seg>
       </tuv>
     </tu>
