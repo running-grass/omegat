@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_6a661c5e0" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_23349233" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -2916,6 +2916,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-,&lt;/k0&gt; (&lt;c1&gt;org-cycle-agenda-files&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T133303Z" creationid="Eli" creationdate="20201016T133303Z">
+        <seg>&lt;k0&gt;C-,&lt;/k0&gt;(org-cycle-agenda-files)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-insert-heading-respect-content&lt;/c2&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063552Z" creationid="grass" creationdate="20201015T063552Z">
@@ -3080,6 +3088,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T144926Z" creationid="Eli" creationdate="20201015T144926Z">
         <seg>&lt;k0&gt;C-c [&lt;/k0&gt;(&lt;c1&gt;org-agenda-file-to-front&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c ]&lt;/k0&gt; (&lt;c1&gt;org-remove-file&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T132912Z" creationid="Eli" creationdate="20201016T132912Z">
+        <seg>&lt;k0&gt;C-c ]&lt;/k0&gt;(org-remove-file)</seg>
       </tuv>
     </tu>
     <tu>
@@ -4680,6 +4696,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132012Z" creationid="grass" creationdate="20201006T132012Z">
         <seg>剪切，找到正确的位置，然后粘贴笔记。这样做很麻烦。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cycle through agenda file list, visiting one file after the other.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T133616Z" creationid="Eli" creationdate="20201016T133616Z">
+        <seg>按照agenda文件列表(org-agenda-files)的顺序,依次浏览所有文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6560,6 +6584,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082155Z" creationid="grass" creationdate="20200929T082155Z">
         <seg>如果发生错误，“回溯”可能会非常有用-请参阅下文，了解如何创建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If it was already in the list, it is moved to the front.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T132743Z" creationid="Eli" creationdate="20201016T132743Z">
+        <seg>如果该文件已经在列表中，那么就会将它移动到首位。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11444,6 +11476,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Remove current file from the list of agenda files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T132941Z" creationid="Eli" creationdate="20201016T132941Z">
+        <seg>将当前文件从agenda files中移除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Rendering objects.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110033Z" creationid="grass" creationdate="20201014T110033Z">
@@ -14033,6 +14073,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112503Z" creationid="grass" creationdate="20201016T112503Z">
         <seg>使用数字前缀参数&lt;a0&gt;&lt;s1&gt;95&lt;/s1&gt;&lt;/a0&gt;-就像&lt;k2&gt;C-u 2 1M-x org-Agenda a&lt;/k2&gt;一样，您可以设置要显示的天数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With a prefix argument, file is added/moved to the end.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T132851Z" creationid="Eli" creationdate="20201016T132851Z">
+        <seg>通过输入前缀参数，可以将所选文件添加/移动到列表尾部。</seg>
       </tuv>
     </tu>
     <tu>
