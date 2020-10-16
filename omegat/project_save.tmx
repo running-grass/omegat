@@ -4548,6 +4548,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>DEADLINE: &lt;2005-10-01 Sat +1m -3d&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054045Z" creationid="grass" creationdate="20201016T054045Z">
+        <seg>DEADLINE: &lt;2005-10-01 Sat +1m -3d&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>DEADLINE: &lt;2005-10-01 Sat +1m&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T053503Z" creationid="grass" creationdate="20201016T053503Z">
@@ -4576,6 +4584,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201220Z" creationid="grass" creationdate="20201010T201124Z">
         <seg>截止日期和日程安排</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Deadlines and scheduled items produce entries in the agenda when they are over-due, so it is important to be able to mark such an entry as done once you have done so.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054136Z" creationid="grass" creationdate="20201016T054136Z">
+        <seg>截止日期和日程安排在过期时会在议程中生成条目，因此，一旦您这样做了，就能够将此类条目标记为已完成，这一点很重要。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6360,6 +6376,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T080206Z" creationid="grass" creationdate="20200929T075919Z">
         <seg>如果你发现了Org的的问题，或者你有对Org的疑问、评价或者好的想法，请发送邮件到Org邮件列表&lt;a0&gt;emacs-orgmode@gnu.org&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you need both a repeater and a special warning period in a deadline entry, the repeater should come first and the warning period last</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054042Z" creationid="grass" creationdate="20201016T054042Z">
+        <seg>如果在截止日期输入中既需要复读机，又需要特殊的提醒天数，则应先有中继器，最后才有提醒天数</seg>
       </tuv>
     </tu>
     <tu>
@@ -13631,8 +13655,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>You can use yearly, monthly, weekly, daily and hourly repeat cookies by using the ‘&lt;s2&gt;y&lt;/s2&gt;’, ‘&lt;s3&gt;w&lt;/s3&gt;’, ‘&lt;s4&gt;m&lt;/s4&gt;’, ‘&lt;s5&gt;d&lt;/s5&gt;’ and ‘&lt;s6&gt;h&lt;/s6&gt;’ letters.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T053822Z" creationid="grass" creationdate="20201016T053822Z">
-        <seg>您可以通过使用“&lt;s2&gt;y&lt;/s2&gt;”、“&lt;s3&gt;w&lt;/s3&gt;”、“&lt;s4&gt;m&lt;/s4&gt;”、“&lt;s5&gt;d&lt;/s5&gt;”和“&lt;s6&gt;h&lt;/s6&gt;”字母来创建每年、每月、每周、每天和每小时的复读机。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T053830Z" creationid="grass" creationdate="20201016T053822Z">
+        <seg>您可以通过使用“&lt;s2&gt;y&lt;/s2&gt;”、“&lt;s3&gt;w&lt;/s3&gt;”、“&lt;s4&gt;m&lt;/s4&gt;”、“&lt;s5&gt;d&lt;/s5&gt;”和“&lt;s6&gt;h&lt;/s6&gt;”字母来创建每年、每月、每周、每天和每小时间隔的复读机。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17123,7 +17147,7 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>https://orgmode.org/org.html#FOOT70</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20200927T103116Z" creationid="grass" creationdate="20200927T103116Z">
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054056Z" creationid="grass" creationdate="20200927T103116Z">
         <seg>#FOOT70</seg>
       </tuv>
     </tu>
