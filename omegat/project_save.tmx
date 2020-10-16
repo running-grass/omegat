@@ -412,6 +412,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>** TODO Call Father</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054950Z" creationid="grass" creationdate="20201016T054950Z">
+        <seg>** TODO Call Father</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>** TODO Pay the rent</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054536Z" creationid="grass" creationdate="20201016T054536Z">
@@ -3652,6 +3660,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As a consequence of shifting the base date, this entry is no longer visible in the agenda when checking past dates, but all future instances will be visible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054818Z" creationid="grass" creationdate="20201016T054818Z">
+        <seg>由于更改了基准日期，在检查过去日期时，此条目在议程中不再可见，但所有将来的实例都将可见。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assigning a time to a tree entry.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102029Z" creationid="grass" creationdate="20201014T102029Z">
@@ -4588,6 +4604,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>DEADLINE: &lt;2008-02-10 Sun ++1w&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054952Z" creationid="grass" creationdate="20201016T054952Z">
+        <seg>DEADLINE: &lt;2008-02-10 Sun ++1w&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Dates and Times</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102004Z" creationid="grass" creationdate="20201014T102004Z">
@@ -4672,6 +4696,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132721Z" creationid="grass" creationdate="20201006T132639Z">
         <seg>是作为第一个还是最后一个子项，取决于&lt;c0&gt;org-reverse-note-order&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Depending on the task, this may not be the best way to handle it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054854Z" creationid="grass" creationdate="20201016T054854Z">
+        <seg>根据任务的不同，这可能不是处理它的最佳方式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5428,6 +5460,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Finally, there are tasks, like changing batteries, which should always repeat a certain time &lt;e1&gt;after&lt;/e1&gt; the last time you did it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054920Z" creationid="grass" creationdate="20201016T054920Z">
+        <seg>最后，还有一些任务，比如更换电池，它们应该始终在您上次操作&lt;/e1&gt;之后&lt;e1&gt;的特定时间重复执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Find entries by searching for text.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103223Z" creationid="grass" creationdate="20201014T103223Z">
@@ -5516,6 +5556,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, if you forgot to call your father for 3 weeks, it does not make sense to call him 3 times in a single day to make up for it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054859Z" creationid="grass" creationdate="20201016T054859Z">
+        <seg>例如，如果你有3个星期忘了给你父亲打电话，那么一天给他打3次电话来弥补是没有意义的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, in the chapter on document structure, &lt;k1&gt;M-&lt;s2&gt;RIGHT&lt;/s2&gt;&lt;/k1&gt; will be listed to call &lt;c3&gt;org-do-demote&lt;/c3&gt;, while in the chapter on tables, it will be listed to call &lt;c4&gt;org-table-move-column-right&lt;/c4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T131644Z" creationid="grass" creationdate="20201005T131644Z">
@@ -5584,6 +5632,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112916Z" creationid="grass" creationdate="20201014T112916Z">
         <seg>用于移动设备。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For these tasks, Org mode has special repeaters ‘&lt;s2&gt;++&lt;/s2&gt;’ and ‘&lt;s3&gt;.+&lt;/s3&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054946Z" creationid="grass" creationdate="20201016T054946Z">
+        <seg>对于这些任务，Org mode具有特殊的复读机“&lt;s2&gt;++&lt;/s2&gt;”和“&lt;s3&gt;.+&lt;/s3&gt;”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7248,6 +7304,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100958Z" creationid="grass" creationdate="20201014T100958Z">
         <seg>标记和显示TODO条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Marking this DONE shifts the date by at least one week, but also</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055043Z" creationid="grass" creationdate="20201016T055003Z">
+        <seg>将此标记为已完成会将日期更改为上一周，但同时</seg>
       </tuv>
     </tu>
     <tu>
@@ -11444,6 +11508,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>So if you have not paid the rent for three months, marking this entry DONE still keeps it as an overdue deadline.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054850Z" creationid="grass" creationdate="20201016T054850Z">
+        <seg>因此，如果你已经三个月没有付房租了，标记这个条目仍然是一个逾期的最后期限。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>So that &lt;c0&gt;C-c C-w&lt;/c0&gt; prompts me either for a project, the tickler, or someday/maybe list.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083414Z" creationid="grass" creationdate="20201015T080509Z">
@@ -13565,6 +13637,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With the ‘&lt;s0&gt;+1m&lt;/s0&gt;’ cookie, the date shift is always exactly one month.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054834Z" creationid="grass" creationdate="20201016T054834Z">
+        <seg>对于“&lt;s0&gt;+1m&lt;/s0&gt;”，日期转换始终正好是一个月。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Work quickly with code blocks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111612Z" creationid="grass" creationdate="20201014T111612Z">
@@ -13777,6 +13857,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201014T145407Z" creationid="Eli" creationdate="20201014T145310Z">
         <seg>&lt;e0&gt;agenda&lt;/e0&gt;视图和日历类似，能在特定日期显示相关信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>by as many weeks as it takes to get this date into the future.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055012Z" creationid="grass" creationdate="20201016T055012Z">
+        <seg>把这个日期拖到未来的几周内。</seg>
       </tuv>
     </tu>
     <tu>
