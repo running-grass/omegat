@@ -6294,7 +6294,7 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>However, it stays on a Sunday, even if you called and marked it</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055112Z" creationid="grass" creationdate="20201016T055112Z">
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062148Z" creationid="grass" creationdate="20201016T062148Z">
         <seg>然而，它停留在星期天，即使您打电话并标记了它</seg>
       </tuv>
     </tu>
@@ -7422,8 +7422,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Marking this DONE shifts the date by at least one week, but also</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T061812Z" creationid="grass" creationdate="20201016T055003Z">
-        <seg>将此标记为DONE会将日期更改为一周内的下一个重复日期，并且</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T061952Z" creationid="grass" creationdate="20201016T055003Z">
+        <seg>将此标记为DONE会将日期至少更改一周，同时</seg>
       </tuv>
     </tu>
     <tu>
@@ -14023,8 +14023,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>by as many weeks as it takes to get this date into the future.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T061900Z" creationid="grass" creationdate="20201016T055012Z">
-        <seg>通过多次完成拖到未来的几周内。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062036Z" creationid="grass" creationdate="20201016T062036Z">
+        <seg>把这个日期延长到未来一周内。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14083,8 +14083,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>done on Saturday.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055118Z" creationid="grass" creationdate="20201016T055118Z">
-        <seg>周六就做好了。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062159Z" creationid="grass" creationdate="20201016T055118Z">
+        <seg>在周六的时候。</seg>
       </tuv>
     </tu>
     <tu>
