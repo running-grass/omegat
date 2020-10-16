@@ -3244,6 +3244,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k10&gt;c&lt;/k10&gt; can be used to switch back and forth between calendar and agenda.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113228Z" creationid="grass" creationdate="20201016T113228Z">
+        <seg>&lt;k10&gt;c&lt;/k10&gt;可用于在日历和议程之间来回切换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt; Jun 30, 2017 &lt;/s0&gt; • Nicolas Petton</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T085923Z" creationid="grass" creationdate="20201015T085923Z">
@@ -3656,6 +3664,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T165143Z" creationid="grass" creationdate="20201010T165143Z">
         <seg>这种结构的概述是通过折叠来实现的，即隐藏文档的大部分以仅显示一般文档结构和当前正在处理的部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Anniversaries from BBDB</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113329Z" creationid="grass" creationdate="20201016T113329Z">
+        <seg>来自BBDB的周年纪念</seg>
       </tuv>
     </tu>
     <tu>
@@ -6584,6 +6600,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T081404Z" creationid="grass" creationdate="20200929T081404Z">
         <seg>如果您不是从Emacs内部发送电子邮件，请复制内容并将其粘贴到您的电子邮件程序中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you are using the diary only for expression entries and holidays, it is faster to not use the above setting, but instead to copy or even move the entries into an Org file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113243Z" creationid="grass" creationdate="20201016T113243Z">
+        <seg>如果仅将日记用于表达式条目和节假日，则不使用上述设置，而是将条目复制甚至移动到Org文件中会更快。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9844,6 +9868,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that the expression entries must start at the left margin, no whitespace is allowed before them, as seen in the following segment of an Org file:&lt;a0&gt;&lt;s1&gt;96&lt;/s1&gt;&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113316Z" creationid="grass" creationdate="20201016T113316Z">
+        <seg>请注意，表达式条目必须从左边距开始，前面不允许有空格，如Org文件的以下片段所示：&lt;a0&gt;&lt;s1&gt;96&lt;/s1&gt;&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that when point is inside a table (see &lt;a0&gt;Tables&lt;/a0&gt;), the Meta-Cursor keys have different functionality.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070410Z" creationid="grass" creationdate="20201015T070410Z">
@@ -10160,6 +10192,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054523Z" creationid="grass" creationdate="20201016T054523Z">
         <seg>Org mode通过以下方式处理此问题：当您尝试使用&lt;k4&gt;C-c C-t&lt;/k4&gt;将这样的条目标记为完成时，它将重复时间戳的基准日期移位一个复读机间隔，并立即将条目状态设置回TODO&lt;a5&gt;&lt;s6&gt;70&lt;/s6&gt;&lt;/a5&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Org mode evaluates diary-style expression entries, and does it faster because there is no overhead for first creating the diary display.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113300Z" creationid="grass" creationdate="20201016T113300Z">
+        <seg>Org mode计算日记样式的表达式条目，并且计算速度更快，因为第一次创建日记显示没有开销。</seg>
       </tuv>
     </tu>
     <tu>
