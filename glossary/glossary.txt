@@ -178,3 +178,4 @@ review	审查
 reference	参考资料
 Reference	参考文档
 Conclusion	结尾
+repeater	复读机
