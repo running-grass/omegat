@@ -420,6 +420,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>** TODO Check the batteries in the smoke detectors</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055458Z" creationid="grass" creationdate="20201016T055458Z">
+        <seg>** TODO Check the batteries in the smoke detectors</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>** TODO Empty kitchen trash</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055124Z" creationid="grass" creationdate="20201016T055124Z">
@@ -432,6 +440,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054536Z" creationid="grass" creationdate="20201016T054536Z">
         <seg>** TODO Pay the rent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>** TODO Wash my hands</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055531Z" creationid="grass" creationdate="20201016T055531Z">
+        <seg>** TODO Wash my hands</seg>
       </tuv>
     </tu>
     <tu>
@@ -2120,6 +2136,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T060553Z" creationid="grass" creationdate="20201015T060553Z">
         <seg>2.8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>20:00.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055453Z" creationid="grass" creationdate="20201016T055453Z">
+        <seg>20:00.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4612,6 +4636,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>DEADLINE: &lt;2005-11-01 Tue .+1m&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055500Z" creationid="grass" creationdate="20201016T055500Z">
+        <seg>DEADLINE: &lt;2005-11-01 Tue .+1m&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>DEADLINE: &lt;2008-02-08 Fri 20:00 ++1d&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055127Z" creationid="grass" creationdate="20201016T055127Z">
@@ -4624,6 +4656,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054952Z" creationid="grass" creationdate="20201016T054952Z">
         <seg>DEADLINE: &lt;2008-02-10 Sun ++1w&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DEADLINE: &lt;2019-04-05 08:00 Sun .+1h&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055535Z" creationid="grass" creationdate="20201016T055535Z">
+        <seg>DEADLINE: &lt;2019-04-05 08:00 Sun .+1h&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7344,6 +7384,22 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055043Z" creationid="grass" creationdate="20201016T055003Z">
         <seg>将此标记为已完成会将日期更改为上一周，但同时</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Marking this DONE shifts the date to exactly one hour from now.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055547Z" creationid="grass" creationdate="20201016T055547Z">
+        <seg>如果将此标记为DONE，则日期将恰好从现在起移至一个小时后。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Marking this DONE shifts the date to one month after today.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055520Z" creationid="grass" creationdate="20201016T055520Z">
+        <seg>将此标记为DONE会将日期移至今天之后的一个月。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13841,6 +13897,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T053830Z" creationid="grass" creationdate="20201016T053822Z">
         <seg>您可以通过使用“&lt;s2&gt;y&lt;/s2&gt;”、“&lt;s3&gt;w&lt;/s3&gt;”、“&lt;s4&gt;m&lt;/s4&gt;”、“&lt;s5&gt;d&lt;/s5&gt;”和“&lt;s6&gt;h&lt;/s6&gt;”字母来创建每年、每月、每周、每天和每小时间隔的复读机。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You may have both scheduling and deadline information for a specific task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055645Z" creationid="grass" creationdate="20201016T055645Z">
+        <seg>对于某些特定任务，您可能同时拥有日程安排和截止日期信息。</seg>
       </tuv>
     </tu>
     <tu>
