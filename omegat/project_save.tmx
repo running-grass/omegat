@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_23349233" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_6a661c5e0" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -9804,6 +9804,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Org mode helps to organize such tasks using a so-called repeater in a ‘&lt;s0&gt;DEADLINE&lt;/s0&gt;’, ‘&lt;s1&gt;SCHEDULED&lt;/s1&gt;’, or plain timestamps&lt;a2&gt;&lt;s3&gt;69&lt;/s3&gt;&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T053418Z" creationid="grass" creationdate="20201016T053418Z">
+        <seg>Org mode为了组织这样的任务，使通过在 ‘&lt;s0&gt;DEADLINE&lt;/s0&gt;’, ‘&lt;s1&gt;SCHEDULED&lt;/s1&gt;’,或普通时间戳&lt;a2&gt;&lt;s3&gt;69&lt;/s3&gt;&lt;/a2&gt; 使用被称为复读机的功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Org mode often uses the same key for different functions, depending on context.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T131110Z" creationid="grass" creationdate="20201005T131110Z">
@@ -11368,6 +11376,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171538Z" creationid="grass" creationdate="20201010T171538Z">
         <seg>有些人觉得星号太多了，他们更喜欢在大纲中使用空格后跟着一个星号作为标题的开头。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some tasks need to be repeated again and again.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T052639Z" creationid="grass" creationdate="20201016T052639Z">
+        <seg>有些任务需要一遍又一遍地重复。</seg>
       </tuv>
     </tu>
     <tu>
