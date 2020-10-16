@@ -3580,6 +3580,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An alternative to using a repeater is to create a number of copies of a task subtree, with dates shifted in each copy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055922Z" creationid="grass" creationdate="20201016T055922Z">
+        <seg>使用复读机的另一种选择是创建任务子树的多个副本，每个副本中的日期都会被移动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An earlier version (7.3) of this manual is available as a &lt;a0&gt;paperback book from Network Theory Ltd.&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062415Z" creationid="grass" creationdate="20200927T102129Z">
@@ -6268,6 +6276,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, any scheduling information without a repeater is no longer relevant once the task is done, and thus, removed upon repeating the task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055808Z" creationid="grass" creationdate="20201016T055808Z">
+        <seg>然而，一旦任务完成，任何没有复读机的日程安排信息都不再相关，因此在重复任务时将其删除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, if you leave at least two empty lines, one empty line remains visible after folding the subtree, in order to structure the collapsed view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171858Z" creationid="grass" creationdate="20201010T171858Z">
@@ -6436,6 +6452,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If so, set the variable &lt;c0&gt;org-agenda-skip-scheduled-if-deadline-is-shown&lt;/c0&gt; to &lt;c1&gt;repeated-after-deadline&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055743Z" creationid="grass" creationdate="20201016T055743Z">
+        <seg>如果是这样，请将变量&lt;c0&gt;org-agenda-skip-scheduled-if-deadline-is-shown&lt;/c0&gt;设置为&lt;c1&gt;repeat-after-deadline&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the bug persists, prepare a report and provide as much information as possible, including the version information of Emacs (&lt;k0&gt;M-x emacs-version&lt;/k0&gt;) and Org (&lt;k1&gt;M-x org-version&lt;/k1&gt;), as well as the Org related setup in the Emacs init file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T081149Z" creationid="grass" creationdate="20200929T081149Z">
@@ -6456,6 +6480,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070307Z" creationid="grass" creationdate="20201015T070307Z">
         <seg>如果区域中的第一行是列表项，则仅将列表项行变为标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the repeater is set for the scheduling information only, you probably want the repeater to be ignored after the deadline.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055706Z" creationid="grass" creationdate="20201016T055706Z">
+        <seg>如果仅为日程安排信息设置复读机，您可能希望在截止日期之后忽略复读机。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6536,6 +6568,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064930Z" creationid="grass" creationdate="20201015T064825Z">
         <seg>如果在在一次粘贴之后使用&lt;c6&gt;yank-pop&lt;/c6&gt;，它会简单的粘贴之前的内容，不会调整和折叠。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want both scheduling and deadline information to repeat after the same interval, set the same repeater for both timestamps.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055845Z" creationid="grass" creationdate="20201016T055845Z">
+        <seg>如果希望在同一时间间隔后同时重复日程安排和截止日期信息，请为这两个时间戳设置相同的复读机。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12416,6 +12456,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201341Z" creationid="grass" creationdate="20201010T201341Z">
         <seg>计时表格</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The command &lt;k0&gt;C-c C-x c&lt;/k0&gt; was created for this purpose; it is described in &lt;a1&gt;Structure Editing&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055948Z" creationid="grass" creationdate="20201016T055948Z">
+        <seg>命令&lt;k0&gt;C-c C-x c&lt;/k0&gt;就是为此创建的；&lt;a1&gt;结构编辑&lt;/a1&gt;中介绍了该命令。</seg>
       </tuv>
     </tu>
     <tu>
