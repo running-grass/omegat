@@ -6294,8 +6294,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>However, it stays on a Sunday, even if you called and marked it</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062148Z" creationid="grass" creationdate="20201016T062148Z">
-        <seg>然而，它停留在星期天，即使您打电话并标记了它</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062717Z" creationid="grass" creationdate="20201016T062148Z">
+        <seg>然而，它将停留在星期天，即使您在周六就打电话并标记了它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7414,16 +7414,16 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Marking this DONE shifts the date by at least one day, and also</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062229Z" creationid="grass" creationdate="20201016T062229Z">
-        <seg>如果将此标记为DONE，则日期至少会移动一天，并且</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062730Z" creationid="grass" creationdate="20201016T062229Z">
+        <seg>如果将此标记为DONE，则日期至少会移动一天，</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Marking this DONE shifts the date by at least one week, but also</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062237Z" creationid="grass" creationdate="20201016T055003Z">
-        <seg>将此标记为DONE会将日期至少移动一周，同时</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062648Z" creationid="grass" creationdate="20201016T055003Z">
+        <seg>将此标记为DONE会将日期至少移动一周，</seg>
       </tuv>
     </tu>
     <tu>
@@ -11622,8 +11622,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Since there is a time in the timestamp, the next deadline in the</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062517Z" creationid="grass" creationdate="20201016T055305Z">
-        <seg>由于时间戳中有时间，因此</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T063048Z" creationid="grass" creationdate="20201016T063048Z">
+        <seg>由于时间戳记中有时间，因此如果您在20:00之前完成任务，</seg>
       </tuv>
     </tu>
     <tu>
@@ -14015,16 +14015,16 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>by as many days as it takes to get the timestamp into the future.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062318Z" creationid="grass" creationdate="20201016T062318Z">
-        <seg>并尽可能的把时间戳放到未来。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062741Z" creationid="grass" creationdate="20201016T062318Z">
+        <seg>并且尽可能的把时间戳放到未来。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>by as many weeks as it takes to get this date into the future.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062036Z" creationid="grass" creationdate="20201016T062036Z">
-        <seg>把这个日期延长到未来一周内。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062750Z" creationid="grass" creationdate="20201016T062036Z">
+        <seg>并且尽可能的把时间戳放到未来。&lt;片段 5700&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14083,8 +14083,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>done on Saturday.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062159Z" creationid="grass" creationdate="20201016T055118Z">
-        <seg>在周六的时候。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062720Z" creationid="grass" creationdate="20201016T055118Z">
+        <seg></seg>
       </tuv>
     </tu>
     <tu>
