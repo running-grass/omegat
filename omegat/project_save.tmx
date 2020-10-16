@@ -7414,16 +7414,16 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Marking this DONE shifts the date by at least one day, and also</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055158Z" creationid="grass" creationdate="20201016T055158Z">
-        <seg>如果将此标记为DONE，则日期会更改为上一天，并且</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062229Z" creationid="grass" creationdate="20201016T062229Z">
+        <seg>如果将此标记为DONE，则日期至少会移动一天，并且</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Marking this DONE shifts the date by at least one week, but also</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T061952Z" creationid="grass" creationdate="20201016T055003Z">
-        <seg>将此标记为DONE会将日期至少更改一周，同时</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062237Z" creationid="grass" creationdate="20201016T055003Z">
+        <seg>将此标记为DONE会将日期至少移动一周，同时</seg>
       </tuv>
     </tu>
     <tu>
@@ -14015,8 +14015,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>by as many days as it takes to get the timestamp into the future.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055302Z" creationid="grass" creationdate="20201016T055202Z">
-        <seg>通过很多天后才能把时间戳放到未来。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062318Z" creationid="grass" creationdate="20201016T062318Z">
+        <seg>并尽可能的把时间戳放到未来。</seg>
       </tuv>
     </tu>
     <tu>
