@@ -2900,6 +2900,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;&lt;s1&gt;SPC&lt;/s1&gt;&lt;/k0&gt;, &lt;k2&gt;&lt;s3&gt;TAB&lt;/s3&gt;&lt;/k2&gt;, and &lt;k4&gt;&lt;s5&gt;RET&lt;/s5&gt;&lt;/k4&gt; can be used from the agenda buffer to jump to the diary file in order to edit existing diary entries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113033Z" creationid="grass" creationdate="20201016T113011Z">
+        <seg>&lt;k0&gt;&lt;s1&gt;SPC&lt;/s1&gt;&lt;/k0&gt;, &lt;k2&gt;&lt;s3&gt;TAB&lt;/s3&gt;&lt;/k2&gt;和 &lt;k4&gt;&lt;s5&gt;RET&lt;/s5&gt;&lt;/k4&gt;可以从议程缓冲区跳转到日记文件，以便编辑现有的日记条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-cycle&lt;/c2&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061815Z" creationid="grass" creationdate="20201015T061815Z">
@@ -3500,6 +3508,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After that, everything happens automatically.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112941Z" creationid="grass" creationdate="20201016T112941Z">
+        <seg>在那之后，一切都会自动发生。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Agenda Files</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201757Z" creationid="grass" creationdate="20201010T201757Z">
@@ -3512,6 +3528,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201749Z" creationid="grass" creationdate="20201010T201749Z">
         <seg>议程视图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All diary entries including holidays, anniversaries, etc., are included in the agenda buffer created by Org mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113000Z" creationid="grass" creationdate="20201016T113000Z">
+        <seg>所有日记条目(包括节假日、周年纪念等)都包含在由Org mode创建的议程缓冲区中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6716,6 +6740,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In order to include entries from the Emacs diary into Org mode’s agenda, you only need to customize the variable</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112937Z" creationid="grass" creationdate="20201016T112937Z">
+        <seg>要将Emacs日记中的条目包含到Org mode的议程中，您只需自定义变量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In that case it is sufficient to start Emacs as ‘&lt;s0&gt;emacs -Q&lt;/s0&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T081748Z" creationid="grass" creationdate="20200929T081748Z">
@@ -6760,6 +6792,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130420Z" creationid="grass" creationdate="20201005T130420Z">
         <seg>在本指南中，我们使用以下约定：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this way, it is quite complementary to Org.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112912Z" creationid="grass" creationdate="20201016T112912Z">
+        <seg>从这个意义上说，它与Org有很强的互补性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6992,6 +7032,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T093744Z" creationid="grass" creationdate="20200927T093736Z">
         <seg>它也是一个创作系统，对文学式编程和可重复性研究提供独特的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It can be very useful to combine output from Org with the diary.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112922Z" creationid="grass" creationdate="20201016T112922Z">
+        <seg>将来自Org的输出与日记相结合非常有用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12388,6 +12436,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;k6&gt;i&lt;/k6&gt; command to insert new entries for the current date works in the agenda buffer, as well as the commands &lt;k7&gt;S&lt;/k7&gt;, &lt;k8&gt;M&lt;/k8&gt;, and &lt;k9&gt;C&lt;/k9&gt; to display Sunrise/Sunset times, show lunar phases and to convert to other calendars, respectively.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113147Z" creationid="grass" creationdate="20201016T113147Z">
+        <seg>为当前日期插入新条目的&lt;k6&gt;I&lt;/k6&gt;命令在议程缓冲区中起作用，&lt;k7&gt;S&lt;/k7&gt;、&lt;k8&gt;M&lt;/k8&gt;和&lt;k9&gt;C&lt;/k9&gt;分别用于显示日出/日落时间、显示月相和转换为其他日历。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Agenda Dispatcher</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201807Z" creationid="grass" creationdate="20201010T201807Z">
@@ -12492,6 +12548,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The calendar displays a three-month calendar with holidays from different countries and cultures.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112856Z" creationid="grass" creationdate="20201016T112856Z">
+        <seg>该日历显示一个三个月的日历，其中包含来自不同国家和文化的假期。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The calendar page with current tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103145Z" creationid="grass" creationdate="20201014T103145Z">
@@ -12568,6 +12632,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112511Z" creationid="grass" creationdate="20201016T112511Z">
         <seg>议程中显示的默认天数由变量&lt;c0&gt;org-agenda-span&lt;/c0&gt;设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The diary allows you to keep track of anniversaries, lunar phases, sunrise/set, recurrent appointments (weekly, monthly) and more.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112904Z" creationid="grass" creationdate="20201016T112904Z">
+        <seg>这本日记可以让你记录周年纪念日、农历相位、日出/日落、定期约会(每周、每月)等等。</seg>
       </tuv>
     </tu>
     <tu>
