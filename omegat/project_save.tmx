@@ -4884,6 +4884,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Configure the list of stuck projects (see &lt;a0&gt;Stuck projects&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T144622Z" creationid="Eli" creationdate="20201019T144622Z">
+        <seg>可以通过设置变量org-stuck-projects来自定义停滞的项目和查找方式（详见&lt;a0&gt;停滞的项目）。&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configuring the attachment system</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102834Z" creationid="grass" creationdate="20201014T102834Z">
@@ -4974,8 +4982,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Create a list of stuck projects (see &lt;a0&gt;Stuck projects&lt;/a0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T144308Z" creationid="Eli" creationdate="20201019T144308Z">
-        <seg>创建一个列表，其包含所有停滞的项目。</seg>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T144345Z" creationid="Eli" creationdate="20201019T144308Z">
+        <seg>创建一个列表，其包含所有停滞的项目(详见&lt;a0&gt;停滞的项目&lt;/a0&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12216,6 +12224,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102438Z" creationid="grass" creationdate="20201014T102438Z">
         <seg>在你空闲的时候解决时间问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Restrict an agenda command to the current buffer&lt;a0&gt;&lt;s1&gt;93&lt;/s1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T144655Z" creationid="Eli" creationdate="20201019T144655Z">
+        <seg>限定接下来调用的议程视图的显示范围为当前buffer</seg>
       </tuv>
     </tu>
     <tu>
