@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_23349233" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_6a661c5e0" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -600,6 +600,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T174207Z" creationid="grass" creationdate="20201010T174207Z">
         <seg>,-&gt;  概述 -&gt; 内容 -&gt; 全部显示 --.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>./使用Orgmode实践GTD/index.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T172046Z" creationid="grass" creationdate="20201019T172046Z">
+        <seg>./使用Orgmode实践GTD/index.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -11104,6 +11112,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113105Z" creationid="grass" creationdate="20201014T113105Z">
         <seg>用于LaTeX和其他程序的Orgtbl。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Org使用手册(完整版)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T172043Z" creationid="grass" creationdate="20201019T172043Z">
+        <seg>Org使用手册(完整版)</seg>
       </tuv>
     </tu>
     <tu>
@@ -44413,6 +44429,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104625Z" creationid="grass" creationdate="20201014T104625Z">
         <seg>• &lt;a0&gt;iCalendar导出&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>使用Orgmode实践GTD</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T172047Z" creationid="grass" creationdate="20201019T172047Z">
+        <seg>使用Orgmode实践GTD</seg>
       </tuv>
     </tu>
     <tu>
