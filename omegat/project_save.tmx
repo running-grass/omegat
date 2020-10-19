@@ -3286,8 +3286,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-c ]&lt;/k0&gt; (&lt;c1&gt;org-remove-file&lt;/c1&gt;)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T132912Z" creationid="Eli" creationdate="20201016T132912Z">
-        <seg>&lt;k0&gt;C-c ]&lt;/k0&gt;(org-remove-file)</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025738Z" creationid="Eli" creationdate="20201016T132912Z">
+        <seg>&lt;k0&gt;C-c ]&lt;/k0&gt;(&lt;c1&gt;org-remove-file&lt;/c1&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -6094,8 +6094,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>For a single agenda command, you may press &lt;k0&gt;&lt;&lt;/k0&gt; once or several times in the dispatcher (see &lt;a1&gt;Agenda Dispatcher&lt;/a1&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T135845Z" creationid="Eli" creationdate="20201016T135720Z">
-        <seg>通过单个agenda命令──在议程调度器（详见 Agenda Dispatcher）里按一次或几次&lt;k0&gt;&lt;&lt;/k0&gt;，</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025824Z" creationid="Eli" creationdate="20201016T135720Z">
+        <seg>通过单个议程命令──在议程调度器（详见 &lt;a1&gt;议程调度器&lt;/a1&gt;）里按一次或几次&lt;k0&gt;&lt;&lt;/k0&gt;，</seg>
       </tuv>
     </tu>
     <tu>
@@ -7254,8 +7254,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>If you set the variable to the value &lt;c6&gt;expert&lt;/c6&gt;, the special window is not even shown for single-key tag selection, it comes up only when you press an extra &lt;k7&gt;C-c&lt;/k7&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025502Z" creationid="grass" creationdate="20201019T025502Z">
-        <seg>如果将变量设置为值&lt;c6&gt;expert&lt;/c6&gt;，则甚至不会显示用于单键标记选择的特殊窗口，只有当您额外按&lt;k7&gt;C-c&lt;/k7&gt;时才会出现该窗口。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025521Z" creationid="grass" creationdate="20201019T025502Z">
+        <seg>如果将变量设置为值&lt;c6&gt;expert&lt;/c6&gt;，则甚至不会显示用于单键标签选择的特殊窗口，只有当您额外按&lt;k7&gt;C-c&lt;/k7&gt;时才会出现该窗口。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12374,8 +12374,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Set &lt;c3&gt;org-agenda-use-tag-inheritance&lt;/c3&gt; to control this: the default value includes all agenda types, but setting this to &lt;c4&gt;nil&lt;/c4&gt; can really speed up agenda generation.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023447Z" creationid="grass" creationdate="20201019T023447Z">
-        <seg>设置&lt;c3&gt;org-agenda-use-tag-inheritance&lt;/c3&gt;来控制这一点：默认值包括所有议程类型，但是将其设置为nil可以真正加快议程生成的速度。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025541Z" creationid="grass" creationdate="20201019T023447Z">
+        <seg>设置&lt;c3&gt;org-agenda-use-tag-inheritance&lt;/c3&gt;来控制这一点：默认值包括所有议程类型，但是将其设置为&lt;c4&gt;nil&lt;/c4&gt;可以真正加快议程生成的速度。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12894,8 +12894,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Switching from ‘&lt;s6&gt;@home&lt;/s6&gt;’ to ‘&lt;s7&gt;@work&lt;/s7&gt;’ would be done with &lt;k8&gt;C-c C-c w &lt;s9&gt;RET&lt;/s9&gt;&lt;/k8&gt; or alternatively with &lt;k10&gt;C-c C-c C-c w&lt;/k10&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025253Z" creationid="grass" creationdate="20201019T025233Z">
-        <seg>从“@home&lt;/S6&gt;”切换到“@work&lt;/S7&gt;”将使用&lt;k8&gt;C-c C-c w&lt;s9&gt;RET&lt;/s9&gt;&lt;/k8&gt;或使用&lt;k10&gt;C-c w&lt;/k10&gt;进行切换。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025719Z" creationid="grass" creationdate="20201019T025233Z">
+        <seg>从“&lt;s6&gt;@home&lt;/s6&gt;”切换到“&lt;s7&gt;@work&lt;/s7&gt;”将使用&lt;k8&gt;C-c C-c w&lt;s9&gt;RET&lt;/s9&gt;&lt;/k8&gt;或使用&lt;k10&gt;C-c w&lt;/k10&gt;进行切换。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15023,8 +15023,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>With the above setup, you could clear the current tags and set ‘&lt;s0&gt;@home&lt;/s0&gt;’, ‘&lt;s1&gt;laptop&lt;/s1&gt;’ and ‘&lt;s2&gt;pc&lt;/s2&gt;’ tags with just the following keys: &lt;k3&gt;C-c C-c &lt;s4&gt;SPC&lt;/s4&gt; h l p &lt;s5&gt;RET&lt;/s5&gt;&lt;/k3&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025312Z" creationid="grass" creationdate="20201019T025230Z">
-        <seg>使用上面的设置，您可以清除当前标签，并仅使用以下键设置‘&lt;s0&gt;@home&lt;/s0&gt;’、‘&lt;s1&gt;Laptop&lt;/s1&gt;’和‘&lt;s2&gt;pc&lt;/s2&gt;’标记：&lt;k3&gt;C-c-c&lt;s4&gt;SPC&lt;/s4&gt;h l p&lt;/s5&gt;RET&lt;/s5&gt;&lt;/k3&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025645Z" creationid="grass" creationdate="20201019T025230Z">
+        <seg>使用上面的设置，您可以清除当前标签，并仅使用以下键设置‘&lt;s0&gt;@home&lt;/s0&gt;’、‘&lt;s1&gt;Laptop&lt;/s1&gt;’和‘&lt;s2&gt;pc&lt;/s2&gt;’标记：&lt;k3&gt;C-c-c&lt;s4&gt;SPC&lt;/s4&gt;h l p&lt;s5&gt;RET&lt;/s5&gt;&lt;/k3&gt;。</seg>
       </tuv>
     </tu>
     <tu>
