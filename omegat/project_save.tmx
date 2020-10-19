@@ -6988,6 +6988,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In other agenda types, &lt;c2&gt;org-use-tag-inheritance&lt;/c2&gt; has no effect.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023406Z" creationid="grass" creationdate="20201019T023335Z">
+        <seg>在其他议程类型中，&lt;c2&gt;org-use-tag-inheritance&lt;/c2&gt;的设置无效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In that case it is sufficient to start Emacs as ‘&lt;s0&gt;emacs -Q&lt;/s0&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T081748Z" creationid="grass" creationdate="20200929T081748Z">
@@ -9790,8 +9798,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Next: &lt;a0&gt;Tag Hierarchy&lt;/a0&gt;, Previous: &lt;a1&gt;Tag Inheritance&lt;/a1&gt;, Up: &lt;a2&gt;Tags&lt;/a2&gt;   [&lt;a3&gt;Contents&lt;/a3&gt;][&lt;a4&gt;Index&lt;/a4&gt;]</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20200927T103537Z" creationid="grass" creationdate="20200927T103324Z">
-        <seg>下一页: &lt;a0&gt;Tag Hierarchy&lt;/a0&gt;, 上一页: &lt;a1&gt;Tag Inheritance&lt;/a1&gt;, 返回: &lt;a2&gt;Tags&lt;/a2&gt;   [&lt;a3&gt;目录&lt;/a3&gt;][&lt;a4&gt;索引&lt;/a4&gt;]</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023543Z" creationid="grass" creationdate="20200927T103324Z">
+        <seg>下一页: &lt;a0&gt;标签层级&lt;/a0&gt;, 上一页: &lt;a1&gt;标签继承&lt;/a1&gt;, 返回: &lt;a2&gt;标签&lt;/a2&gt;   [&lt;a3&gt;目录&lt;/a3&gt;][&lt;a4&gt;索引&lt;/a4&gt;]</seg>
       </tuv>
     </tu>
     <tu>
@@ -11876,6 +11884,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set &lt;c3&gt;org-agenda-use-tag-inheritance&lt;/c3&gt; to control this: the default value includes all agenda types, but setting this to &lt;c4&gt;nil&lt;/c4&gt; can really speed up agenda generation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023447Z" creationid="grass" creationdate="20201019T023447Z">
+        <seg>设置&lt;c3&gt;org-agenda-use-tag-inheritance&lt;/c3&gt;来控制这一点：默认值包括所有议程类型，但是将其设置为nil可以真正加快议程生成的速度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Setting &lt;c0&gt;org-catch-invisible-edits&lt;/c0&gt; to non-&lt;c1&gt;nil&lt;/c1&gt; helps preventing this.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182348Z" creationid="grass" creationdate="20201010T182348Z">
@@ -12244,6 +12260,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Still, you may want to have your tags correctly set in the agenda, so that tag filtering works fine, with inherited tags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023428Z" creationid="grass" creationdate="20201019T023428Z">
+        <seg>不过，您可能希望在议程中正确设置标记，以便标记过滤可以很好地处理继承的标记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Store a link, push URL to kill-ring.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112833Z" creationid="grass" creationdate="20201014T112833Z">
@@ -12556,6 +12580,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tag inheritance is relevant when the agenda search tries to match a tag, either in the &lt;c0&gt;tags&lt;/c0&gt; or &lt;c1&gt;tags-todo&lt;/c1&gt; agenda types.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023323Z" creationid="grass" creationdate="20201019T023323Z">
+        <seg>当议程搜索尝试匹配&lt;c0&gt;标签&lt;/c0&gt;或&lt;c1&gt;标签-待办事项&lt;/c1&gt;议程类型中的标签时，标签继承是相关的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tagging headlines and matching sets of tags.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055259Z" creationid="grass" creationdate="20201013T055259Z">
@@ -12600,6 +12632,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T022915Z" creationid="grass" creationdate="20201019T022915Z">
         <seg>默认情况下，标签以粗体显示，颜色与标题相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tags can simply be typed into the buffer at the end of a headline.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023612Z" creationid="grass" creationdate="20201019T023612Z">
+        <seg>只需在缓冲区中的标题末尾键入标记即可。</seg>
       </tuv>
     </tu>
     <tu>
