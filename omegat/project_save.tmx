@@ -184,6 +184,14 @@ and with the Back-Cover Texts as in (a) below.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#+begin_src emacs-lisp</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173254Z" creationid="grass" creationdate="20201019T173254Z">
+        <seg>#+begin_src emacs-lisp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$ cd ~/src/
 $ git clone https://code.orgmode.org/bzg/org-mode.git
 $ cd org-mode/
@@ -477,6 +485,16 @@ EBDB是一个联系人管理软件包：它记录有关以下内容的信息人�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(setq ebdb-mua-auto-update-p nil)
+#+end_src</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173257Z" creationid="grass" creationdate="20201019T173257Z">
+        <seg>(setq ebdb-mua-auto-update-p nil)
+#+end_src</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(setq org-agenda-custom-commands</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T082818Z" creationid="grass" creationdate="20201015T082818Z">
@@ -623,6 +641,20 @@ EBDB是一个联系人管理软件包：它记录有关以下内容的信息人�
         <seg>* 顶级标题
 ** 二级标题
 *** 三级标题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>** Starting a New Database
+#+FINDEX: ebdb-open
+If you have no records you want to migrate from other contact
+management software, start by calling the command ~ebdb-open~.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173332Z" creationid="grass" creationdate="20201019T173332Z">
+        <seg>**启动新数据库
+#+Findex：ebdb-open
+如果您没有要从其他联系人迁移的记录
+管理软件，首先调用命令~ebdb-open~。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5596,6 +5628,18 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>EBDB comes with integration for a few other Emacs packages, including
+Org and a number of mail user agents; see the following sections below
+for details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173203Z" creationid="grass" creationdate="20201019T173203Z">
+        <seg>EBDB附带了对其他几个Emacs包的集成，包括
+org和许多邮件用户代理；请参阅以下各节
+有关详细信息，请参阅。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each project contains actions to be performed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080710Z" creationid="grass" creationdate="20201015T080650Z">
@@ -7300,6 +7344,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173315Z" creationid="grass" creationdate="20201019T173315Z">
+        <seg>如果你</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you are not a member of the mailing list, your mail will be passed to the list after a moderator has approved it&lt;a2&gt;&lt;s3&gt;2&lt;/s3&gt;&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T080440Z" creationid="grass" creationdate="20200929T080440Z">
@@ -7496,6 +7548,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T133252Z" creationid="grass" creationdate="20201006T133223Z">
         <seg>如果您想通过类似文件路径的大纲路径补全来选择位置，请查阅 &lt;c1&gt;org-refile-use-outline-path&lt;/c1&gt;和&lt;c2&gt;org-outline-path-complete-in-steps&lt;/c2&gt;变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If, God forbid, you</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173246Z" creationid="grass" creationdate="20201019T173246Z">
+        <seg>如果，上帝保佑，你</seg>
       </tuv>
     </tu>
     <tu>
@@ -7912,6 +7972,18 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075801Z" creationid="grass" creationdate="20201015T075801Z">
         <seg>它提供了很多定制选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It's easiest to install EBDB from the ELPA package repositories,
+though it's also possible to clone the package from [[https:github.com/girzel/ebdb][Github]] and put it
+on your load path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173133Z" creationid="grass" creationdate="20201019T173133Z">
+        <seg>从ELPA软件包存储库安装EBDB是最容易的，
+虽然也可以从[[https：github.com/Girzel/ebdb][Github]]克隆软件包并将其
+在你的装载路径上。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10684,6 +10756,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>No one</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173240Z" creationid="grass" creationdate="20201019T173240Z">
+        <seg>无名之辈</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Not all tasks are equal.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103339Z" creationid="grass" creationdate="20201014T103339Z">
@@ -12048,6 +12128,18 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053529Z" creationid="grass" creationdate="20201013T053529Z">
         <seg>推送到移动应用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Questions and bug reports can be raised on the
+Github issues page, or on the Emacs bug tracker or mailing lists,
+provided you cc the maintainer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173136Z" creationid="grass" creationdate="20201019T173136Z">
+        <seg>问题和错误报告可以在
+GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
+只要你抄送维护员。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13476,6 +13568,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>That will ensure that EBDB only runs when you explicitly command it</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173307Z" creationid="grass" creationdate="20201019T173307Z">
+        <seg>这将确保EBDB仅在您显式命令时运行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>That will give you three days’ warning: on the anniversary date itself and the two days prior.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113827Z" creationid="grass" creationdate="20201016T113827Z">
@@ -13512,6 +13612,17 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084007Z" creationid="grass" creationdate="20201015T084007Z">
         <seg>这就是备忘录的作用：在您的备忘录文件中添加一个带有时间戳的条目，然后忘掉它！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The
+principle parts of EBDB are records, which represent people and
+organizations; fields, representing detailed data about records; and
+databases, which hold and persist records.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173117Z" creationid="grass" creationdate="20201019T173117Z">
+        <seg>这个EBDB的主要部分是记录，它代表人和组织；表示有关记录的详细数据的字段；以及保存并保存记录的数据库。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14064,6 +14175,20 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082552Z" creationid="grass" creationdate="20200929T082552Z">
         <seg>然后，激活调试器：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are a large number of configuration options listed in this
+manual, but the only one you might want to tweak in advance is
+~ebdb-sources~ (see [[id:9a02f8fb-01e2-4cd8-8166-608814a031f7][The EBDB Database]]), which controls where EBDB
+stores its records.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173154Z" creationid="grass" creationdate="20201019T173154Z">
+        <seg>此中列出了大量配置选项
+手册，但您可能想要提前调整的唯一一个是
+~ebdb-sources~(请参阅[[id:9a02f8fb-01e2-4cd8-8166-608814a031f7][The EBDB数据库]])，它控制EBDB的位置
+存储其记录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15573,6 +15698,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>but due to the nature of the package, when bugs /do/ arise they can</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173233Z" creationid="grass" creationdate="20201019T173233Z">
+        <seg>但是由于包的性质，当bug/do/出现时，它们可以</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>by as many days as it takes to get the timestamp into the future.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062741Z" creationid="grass" creationdate="20201016T062318Z">
@@ -15629,6 +15762,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061738Z" creationid="grass" creationdate="20201015T061738Z">
         <seg>debug-on-signal nil</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>do encounter such a bug, you can prevent it from doing harm by</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173250Z" creationid="grass" creationdate="20201019T173250Z">
+        <seg>如果你真的遇到了这样的错误，你可以通过以下方式来防止它的危害</seg>
       </tuv>
     </tu>
     <tu>
@@ -41897,6 +42038,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>likes it when their email is interfered with.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173243Z" creationid="grass" creationdate="20201019T173243Z">
+        <seg>喜欢他们的电子邮件被干扰。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>mailto:emacs-orgmode@gnu.org</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061724Z" creationid="grass" creationdate="20201015T061724Z">
@@ -41955,10 +42104,34 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>potentially interfere with the reading and sending of email.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173238Z" creationid="grass" creationdate="20201019T173238Z">
+        <seg>可能会干扰电子邮件的阅读和发送。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>q</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063247Z" creationid="grass" creationdate="20201015T063247Z">
         <seg>q</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>really need to kill it and make it go away, use ~M-x ebdb-shutdown~.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173321Z" creationid="grass" creationdate="20201019T173321Z">
+        <seg>真的需要杀死它，让它消失，使用~M-x ebdb-shutdown~.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>running:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173252Z" creationid="grass" creationdate="20201019T173252Z">
+        <seg>正在运行：</seg>
       </tuv>
     </tu>
     <tu>
@@ -41985,6 +42158,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T053700Z" creationid="grass" creationdate="20201016T053700Z">
         <seg>“&lt;s0&gt;+1m&lt;/s0&gt;”是一个复读机；预期的解释是任务的截止日期为“&lt;s1&gt;&lt;2005-10-01&gt;&lt;/s1&gt;”，并从该时间开始每(一个)月重复一次。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>to do so; it won't interpose itself in other MUA operations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173312Z" creationid="grass" creationdate="20201019T173312Z">
+        <seg>这样做；它不会介入其他MUA操作。</seg>
       </tuv>
     </tu>
     <tu>
