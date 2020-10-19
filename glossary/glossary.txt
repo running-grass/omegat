@@ -190,3 +190,4 @@ Tag Hierarchy	标签层级
 minibuffer	迷你缓冲区
 anniversary	纪念日
 see	详见
+match	匹配
