@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025127Z" creationid="grass" creationdate="20201019T025127Z">
+        <seg>!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>"* %i%?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075741Z" creationid="grass" creationdate="20201015T075741Z">
@@ -174,10 +182,34 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>("@tennisclub" .</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024916Z" creationid="grass" creationdate="20201019T024916Z">
+        <seg>("@tennisclub" .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>("@work" .</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024913Z" creationid="grass" creationdate="20201019T024913Z">
+        <seg>("@work" .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>("T" "Tickler" entry</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075738Z" creationid="grass" creationdate="20201015T075738Z">
         <seg>("T" "Tickler" entry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>("laptop" .</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024919Z" creationid="grass" creationdate="20201019T024919Z">
+        <seg>("laptop" .</seg>
       </tuv>
     </tu>
     <tu>
@@ -210,6 +242,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T082822Z" creationid="grass" creationdate="20201015T082822Z">
         <seg>((org-agenda-overriding-header "Office")))))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(:endgroup .</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024917Z" creationid="grass" creationdate="20201019T024917Z">
+        <seg>(:endgroup .</seg>
       </tuv>
     </tu>
     <tu>
@@ -408,6 +448,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024248Z" creationid="grass" creationdate="20201019T024248Z">
         <seg>(setq org-tag-alist '(("@work" .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(setq org-tag-alist '((:startgroup .</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024911Z" creationid="grass" creationdate="20201019T024911Z">
+        <seg>(setq org-tag-alist '((:startgroup .</seg>
       </tuv>
     </tu>
     <tu>
@@ -3420,6 +3468,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>?h)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024915Z" creationid="grass" creationdate="20201019T024915Z">
+        <seg>?h)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>?h) ("laptop" .</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024255Z" creationid="grass" creationdate="20201019T024255Z">
@@ -3428,10 +3484,34 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>?l) ("pc" .</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024920Z" creationid="grass" creationdate="20201019T024920Z">
+        <seg>?l) ("pc" .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>?l)))</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024256Z" creationid="grass" creationdate="20201019T024256Z">
         <seg>?l)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>?p)))</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024921Z" creationid="grass" creationdate="20201019T024921Z">
+        <seg>?p)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>?t)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024916Z" creationid="grass" creationdate="20201019T024916Z">
+        <seg>?t)</seg>
       </tuv>
     </tu>
     <tu>
@@ -3640,6 +3720,22 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202911Z" creationid="grass" creationdate="20201010T202911Z">
         <seg>ASCII/Latin-1/UTF-8导出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Abort without installing changes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025117Z" creationid="grass" creationdate="20201019T025117Z">
+        <seg>在不安装更改的情况下中止。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Accept the modified set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025107Z" creationid="grass" creationdate="20201019T025102Z">
+        <seg>接受修改后的集合。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4340,6 +4436,22 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-c</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025144Z" creationid="grass" creationdate="20201019T025144Z">
+        <seg>C-c</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-g</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025110Z" creationid="grass" creationdate="20201019T025110Z">
+        <seg>C-g</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-u &lt;s0&gt;TAB&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061821Z" creationid="grass" creationdate="20201015T061821Z">
@@ -4520,6 +4632,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112726Z" creationid="grass" creationdate="20201014T112726Z">
         <seg>净化视图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Clear all tags for this line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025100Z" creationid="grass" creationdate="20201019T025100Z">
+        <seg>清除此行的所有标记。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5448,6 +5568,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111203Z" creationid="grass" creationdate="20201014T111203Z">
         <seg>享受源码块的多功能性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Enter a tag in the minibuffer, even if the tag is not in the predefined list.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025035Z" creationid="grass" creationdate="20201019T025035Z">
+        <seg>在迷你缓冲区中输入标签，即使该标签不在预定义列表中也是如此。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6852,6 +6980,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If &lt;k0&gt;q&lt;/k0&gt; is not assigned to a tag, it aborts like &lt;k1&gt;C-g&lt;/k1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025126Z" creationid="grass" creationdate="20201019T025126Z">
+        <seg>如果&lt;k0&gt;q&lt;/k0&gt;未分配给标记，它将像&lt;k1&gt;C-g&lt;/k1&gt;一样中止。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If &lt;v4&gt;N&lt;/v4&gt; is negative then go up that many levels.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T180601Z" creationid="grass" creationdate="20201010T180601Z">
@@ -6888,6 +7024,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082155Z" creationid="grass" creationdate="20200929T082155Z">
         <seg>如果发生错误，“回溯”可能会非常有用-请参阅下文，了解如何创建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If at least one tag has a selection key then pressing &lt;k0&gt;C-c C-c&lt;/k0&gt; automatically presents you with a special interface, listing inherited tags, the tags of the current headline, and a list of all valid tags with corresponding keys&lt;a1&gt;&lt;s2&gt;54&lt;/s2&gt;&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024957Z" creationid="grass" creationdate="20201019T024957Z">
+        <seg>如果至少有一个标签有选择键，则按&lt;k0&gt;C-c C-c&lt;/k0&gt;会自动显示一个特殊界面，其中列出继承的标签、当前标题的标签以及具有相应键的所有有效标签的列表&lt;a1&gt;&lt;s2&gt;54&lt;/s2&gt;&lt;/a1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7280,6 +7424,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T132308Z" creationid="grass" creationdate="20200927T132308Z">
         <seg>在这种情况下，请确保在Emacs初始化文件中正确设置了加载路径:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this interface, you can also use the following special keys:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025014Z" creationid="grass" creationdate="20201019T025014Z">
+        <seg>在此界面中，您还可以使用以下专用键：</seg>
       </tuv>
     </tu>
     <tu>
@@ -11076,6 +11228,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Pressing keys assigned to tags adds or removes them from the list of tags in the current line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025006Z" creationid="grass" creationdate="20201019T025006Z">
+        <seg>按分配给标签的键可以在当前行的标签列表中添加或删除它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Prevent Org from interpreting your writing.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112507Z" creationid="grass" creationdate="20201014T112507Z">
@@ -12004,6 +12164,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>SPC</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025057Z" creationid="grass" creationdate="20201019T025057Z">
+        <seg>SPC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sample Configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052005Z" creationid="grass" creationdate="20201013T052005Z">
@@ -12136,6 +12304,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063151Z" creationid="grass" creationdate="20201015T063151Z">
         <seg>选择此位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Selecting a tag in a group of mutually exclusive tags turns off any other tag from that group.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025011Z" creationid="grass" creationdate="20201019T025011Z">
+        <seg>选择一组互斥标签中的标签将关闭该组中的任何其他标签。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12304,6 +12480,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063114Z" creationid="grass" creationdate="20201015T063114Z">
         <seg>显示在临时缓冲区中的文档结构，您可以在其中使用以下键查找目标：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Similarly, you can use &lt;c3&gt;:newline&lt;/c3&gt; to indicate a line break.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024857Z" creationid="grass" creationdate="20201019T024857Z">
+        <seg>同样，您可以使用&lt;c3&gt;:newline&lt;/c3&gt;来指示换行符。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13484,6 +13668,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The previous example would be set globally by the following configuration:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024909Z" creationid="grass" creationdate="20201019T024909Z">
+        <seg>前面的示例将通过以下配置进行全局设置：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The problem with this is, however, is that then also the &lt;e3&gt;next&lt;/e3&gt; instance of the repeated entry will not be active.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054431Z" creationid="grass" creationdate="20201016T054431Z">
@@ -13964,6 +14156,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Toggle auto-exit after the next change (see below).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025149Z" creationid="grass" creationdate="20201019T025149Z">
+        <seg>在下一次更改后切换自动退出(见下文)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Top</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T060348Z" creationid="grass" creationdate="20201015T060348Z">
@@ -14016,6 +14216,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070151Z" creationid="grass" creationdate="20201015T070151Z">
         <seg>将普通行或普通列表项转换为标题-使其在其所在位置成为副标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Turn off groups of mutually exclusive tags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025136Z" creationid="grass" creationdate="20201019T025133Z">
+        <seg>关闭互斥标记组。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14144,6 +14352,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T134143Z" creationid="grass" creationdate="20201006T134143Z">
         <seg>使用转接界面跳转到标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use this to (as an exception) assign several tags from such a group.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025141Z" creationid="grass" creationdate="20201019T025141Z">
+        <seg>使用此选项(作为例外)从这样的组中分配多个标记。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14829,6 +15045,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also add several tags: just separate them with a comma.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025050Z" creationid="grass" creationdate="20201019T025050Z">
+        <seg>您还可以添加几个标记：只需用逗号分隔它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also compile with ‘&lt;s0&gt;make&lt;/s0&gt;’, generate the documentation with ‘&lt;s1&gt;make doc&lt;/s1&gt;’, create a local configuration with ‘&lt;s2&gt;make config&lt;/s2&gt;’ and install Org with ‘&lt;s3&gt;make install&lt;/s3&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062656Z" creationid="grass" creationdate="20200927T133316Z">
@@ -14873,6 +15097,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T132803Z" creationid="grass" creationdate="20200927T132803Z">
         <seg>你可以克隆Org的仓库到本地，然后安装Org，像这样:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can complete on all tags present in the buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025045Z" creationid="grass" creationdate="20201019T025045Z">
+        <seg>您可以补全缓冲区中存在的所有标记。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41391,6 +41623,14 @@ $ make autoloads</seg>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171226Z" creationid="grass" creationdate="20201010T171226Z">
         <seg>更多文本
 * 另一个顶级标题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>nil)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024912Z" creationid="grass" creationdate="20201019T024912Z">
+        <seg>nil)</seg>
       </tuv>
     </tu>
     <tu>
