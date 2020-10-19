@@ -5300,6 +5300,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Every headline can contain a list of tags; they occur at the end of the headline.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T022822Z" creationid="grass" creationdate="20201019T022822Z">
+        <seg>每个标题都可以包含一个标签列表；它们出现在标题的末尾。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Every thought should be collected there, and processed later on.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T091413Z" creationid="grass" creationdate="20201015T091413Z">
@@ -10380,6 +10388,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Org mode has extensive support for tags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T022817Z" creationid="grass" creationdate="20201019T022817Z">
+        <seg>Org mode对标签有广泛的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Org mode helps to organize such tasks using a so-called repeater in a ‘&lt;s0&gt;DEADLINE&lt;/s0&gt;’, ‘&lt;s1&gt;SCHEDULED&lt;/s1&gt;’, or plain timestamps&lt;a2&gt;&lt;s3&gt;69&lt;/s3&gt;&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T053446Z" creationid="grass" creationdate="20201016T053418Z">
@@ -11916,6 +11932,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Several tags can be specified, as in ‘&lt;s3&gt;:work:urgent:&lt;/s3&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T022909Z" creationid="grass" creationdate="20201019T022909Z">
+        <seg>可以指定几个标记，如“&lt;s3&gt;:work:ururent:&lt;/s3&gt;”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sharing and publishing notes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055653Z" creationid="grass" creationdate="20201013T055653Z">
@@ -12528,6 +12552,30 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130547Z" creationid="grass" creationdate="20201005T130547Z">
         <seg>标签要区分大小写。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tags are normal words containing letters, numbers, ‘&lt;s0&gt;_&lt;/s0&gt;’, and ‘&lt;s1&gt;@&lt;/s1&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T022832Z" creationid="grass" creationdate="20201019T022832Z">
+        <seg>标签是包含字母、数字、“&lt;s0&gt;_&lt;/s0&gt;”和“&lt;s1&gt;@&lt;/s1&gt;”的普通单词。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tags by default are in bold face with the same color as the headline.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T022915Z" creationid="grass" creationdate="20201019T022915Z">
+        <seg>默认情况下，标签以粗体显示，颜色与标题相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tags must be preceded and followed by a single colon, e.g., ‘&lt;s2&gt;:work:&lt;/s2&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T022854Z" creationid="grass" creationdate="20201019T022854Z">
+        <seg>标签必须前后各有一个冒号，例如，“&lt;s2&gt;:work:&lt;/s2&gt;”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14457,6 +14505,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055645Z" creationid="grass" creationdate="20201016T055645Z">
         <seg>对于某些特定任务，您可能同时拥有日程安排和截止日期信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You may specify special faces for specific tags using the variable &lt;c4&gt;org-tag-faces&lt;/c4&gt;, in much the same way as you can for TODO keywords (see &lt;a5&gt;Faces for TODO keywords&lt;/a5&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T022957Z" creationid="grass" creationdate="20201019T022957Z">
+        <seg>您可以使用变量&lt;c4&gt;org-tag-faces&lt;/c4&gt;为特定标记指定特殊的字符样式，方法与为TODO关键字指定的方式大致相同(请参阅&lt;a5&gt;为TODO关键字设置字符样式&lt;/a5&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
