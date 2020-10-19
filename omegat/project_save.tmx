@@ -60,6 +60,16 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#+TAGS: @work @home @tennisclub
+#+TAGS: laptop car pc sailboat</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023904Z" creationid="grass" creationdate="20201019T023904Z">
+        <seg>#+TAGS: @work @home @tennisclub
+#+TAGS: laptop car pc sailboat</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$ cd ~/src/
 $ git clone https://code.orgmode.org/bzg/org-mode.git
 $ cd org-mode/
@@ -2996,6 +3006,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c C-c&lt;/k0&gt; (&lt;c1&gt;org-set-tags-command&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023746Z" creationid="grass" creationdate="20201019T023746Z">
+        <seg>&lt;k0&gt;C-c C-c&lt;/k0&gt; (&lt;c1&gt;org-set-tags-command&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-c C-f&lt;/k0&gt; (&lt;c1&gt;org-forward-heading-same-level&lt;/c1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062838Z" creationid="grass" creationdate="20201015T062838Z">
@@ -3580,6 +3598,22 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After a colon, &lt;k0&gt;M-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; offers completion on tags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023623Z" creationid="grass" creationdate="20201019T023623Z">
+        <seg>冒号之后，&lt;k0&gt;M-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt;提供标记的补全。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After pressing &lt;k0&gt;&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt;, the tags are inserted and aligned to &lt;c2&gt;org-tags-column&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023657Z" creationid="grass" creationdate="20201019T023657Z">
+        <seg>按&lt;k0&gt;&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt;后，将插入标记并与&lt;c2&gt;org-tag-column&lt;/c2&gt;对齐。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After that, everything happens automatically.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112941Z" creationid="grass" creationdate="20201016T112941Z">
@@ -4160,6 +4194,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083812Z" creationid="grass" creationdate="20201015T083812Z">
         <seg>但是你也不想每次浏览你的GTD项目时都被提醒：因为现在不是付钱的时候。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default this list is constructed dynamically, containing all tags currently used in the buffer&lt;a1&gt;&lt;s2&gt;53&lt;/s2&gt;&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023824Z" creationid="grass" creationdate="20201019T023824Z">
+        <seg>默认情况下，此列表是动态构建的，包含缓冲区&lt;a1&gt;&lt;s2&gt;53&lt;/s2&gt;&lt;/a1&gt;中当前使用的所有标记。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5284,6 +5326,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Enter new tags for the current headline.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023637Z" creationid="grass" creationdate="20201019T023637Z">
+        <seg>为当前标题输入新标记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Environment of a Code Block</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052236Z" creationid="grass" creationdate="20201013T052236Z">
@@ -5696,6 +5746,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103609Z" creationid="grass" creationdate="20201010T202120Z">
         <seg>过滤/限制议程项数量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Finally you can set the default tags for a given file using the ‘&lt;s4&gt;TAGS&lt;/s4&gt;’ keyword, like</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023902Z" creationid="grass" creationdate="20201019T023902Z">
+        <seg>最后，您可以使用“&lt;s4&gt;TAGS&lt;/s4&gt;”关键字为给定文件设置默认标记，如</seg>
       </tuv>
     </tu>
     <tu>
@@ -6824,6 +6882,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T080206Z" creationid="grass" creationdate="20200929T075919Z">
         <seg>如果你发现了Org的的问题，或者你有对Org的疑问、评价或者好的想法，请发送邮件到Org邮件列表&lt;a0&gt;emacs-orgmode@gnu.org&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you have globally defined your preferred set of tags using the variable &lt;c0&gt;org-tag-alist&lt;/c0&gt;, but would like to use a dynamic tag list in a specific file, add an empty ‘&lt;s1&gt;TAGS&lt;/s1&gt;’ keyword to that file:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023932Z" creationid="grass" creationdate="20201019T023932Z">
+        <seg>如果您已使用变量&lt;c0&gt;org-tag-ist&lt;/c0&gt;全局定义了首选的标记集，但希望在特定文件中使用动态标记列表，请向该文件添加空的“&lt;s1&gt;TAGS&lt;/s1&gt;”关键字：</seg>
       </tuv>
     </tu>
     <tu>
@@ -10420,6 +10486,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Org mode either offers completion or a special single-key interface for setting tags, see below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023646Z" creationid="grass" creationdate="20201019T023646Z">
+        <seg>组织模式提供完成或特殊的单键界面来设置标签，如下所示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Org mode evaluates diary-style expression entries, and does it faster because there is no overhead for first creating the diary display.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113300Z" creationid="grass" creationdate="20201016T113300Z">
@@ -10472,6 +10546,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T101009Z" creationid="grass" creationdate="20200927T101009Z">
         <seg>Org源代码块功能齐全，可以对其进行求值，并将结果捕获到文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Org supports tag insertion based on a &lt;e0&gt;list of tags&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023811Z" creationid="grass" creationdate="20201019T023811Z">
+        <seg>Org支持基于&lt;e0&gt;标签列表&lt;/e0&gt;的标签插入。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12612,6 +12694,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tags are automatically realigned after promotion, demotion, and TODO state changes (see &lt;a4&gt;TODO Basics&lt;/a4&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023743Z" creationid="grass" creationdate="20201019T023743Z">
+        <seg>标签在升级、降级和待办事项状态更改后自动重新对齐(请参阅&lt;a4&gt;TODO基础知识&lt;/a4&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tags are case-sensitive.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130547Z" creationid="grass" creationdate="20201005T130547Z">
@@ -13328,6 +13418,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T102013Z" creationid="grass" creationdate="20200927T102013Z">
         <seg>有一个用于Org的网站，该网站提供指向Org最新版本的链接，以及其他信息，常见问题解答（FAQ），教程链接等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There is also a special command for inserting tags:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023629Z" creationid="grass" creationdate="20201019T023629Z">
+        <seg>There is also a special command for inserting tags:</seg>
       </tuv>
     </tu>
     <tu>
@@ -14117,6 +14215,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When called with a &lt;k3&gt;C-u&lt;/k3&gt; prefix, all tags in the current buffer are aligned to that column, just to make things look nice.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023706Z" creationid="grass" creationdate="20201019T023706Z">
+        <seg>当使用&lt;k3&gt;C-u&lt;/k3&gt;前缀调用时，当前缓冲区中的所有标记都与该列对齐，这只是为了让事情看起来更好看。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When called with a universal prefix argument or with point before the first headline in a file, set the agenda scope to the entire file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T140532Z" creationid="Eli" creationdate="20201016T140532Z">
@@ -14177,6 +14283,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101511Z" creationid="grass" creationdate="20201014T101511Z">
         <seg>当一个任务需要等待其他任务时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When point is in a headline, this does the same as &lt;k0&gt;C-c C-q&lt;/k0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023759Z" creationid="grass" creationdate="20201019T023759Z">
+        <seg>当光标位于标题中时，其作用与&lt;k0&gt;C-c C-q&lt;/k0&gt;相同。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14609,6 +14723,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T053830Z" creationid="grass" creationdate="20201016T053822Z">
         <seg>您可以通过使用“&lt;s2&gt;y&lt;/s2&gt;”、“&lt;s3&gt;w&lt;/s3&gt;”、“&lt;s4&gt;m&lt;/s4&gt;”、“&lt;s5&gt;d&lt;/s5&gt;”和“&lt;s6&gt;h&lt;/s6&gt;”字母来创建每年、每月、每周、每天和每小时间隔的复读机。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You may also globally specify a hard list of tags with the variable &lt;c3&gt;org-tag-alist&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023840Z" creationid="grass" creationdate="20201019T023840Z">
+        <seg>您还可以使用变量&lt;c3&gt;org-tag-ist&lt;/c3&gt;全局指定标记的硬列表。</seg>
       </tuv>
     </tu>
     <tu>
