@@ -188,3 +188,4 @@ label	标注
 subheading	子标题
 Tag Hierarchy	标签层级
 minibuffer	迷你缓冲区
+anniversary	纪念日
