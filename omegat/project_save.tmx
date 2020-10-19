@@ -54,6 +54,54 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg># -*- sentence-end-double-space: t -*-
+#+TEXINFO_CLASS: info
+#+TEXINFO_HEADER: @syncodeindex vr cp
+#+TEXINFO_HEADER: @syncodeindex fn cp
+#+TEXINFO_HEADER: @syncodeindex ky cp
+#+AUTHOR: Eric Abrahamsen &lt;eric@ericabrahamsen.net&gt;
+#+TITLE: EBDB Manual
+#+SUBTITLE: This manual is for version 0.6.7, updated 19 April, 2019
+#+TEXINFO_DIR_CATEGORY: Emacs
+#+TEXINFO_DIR_TITLE: EBDB: (ebdb)
+#+TEXINFO_DIR_DESC: Contact management package
+#+OPTIONS: *:nil num:t toc:2 h:4 num:3
+#+MACRO: buf \ast{}$1\ast{}
+#+MACRO: kbd @@texinfo:@kbd{$1}@@</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T172729Z" creationid="grass" creationdate="20201019T172729Z">
+        <seg># -*- sentence-end-double-space: t -*-
+#+TEXINFO_CLASS: info
+#+TEXINFO_HEADER: @syncodeindex vr cp
+#+TEXINFO_HEADER: @syncodeindex fn cp
+#+TEXINFO_HEADER: @syncodeindex ky cp
+#+AUTHOR: Eric Abrahamsen &lt;eric@ericabrahamsen.net&gt;
+#+TITLE: EBDB Manual
+#+SUBTITLE: This manual is for version 0.6.7, updated 19 April, 2019
+#+TEXINFO_DIR_CATEGORY: Emacs
+#+TEXINFO_DIR_TITLE: EBDB: (ebdb)
+#+TEXINFO_DIR_DESC: Contact management package
+#+OPTIONS: *:nil num:t toc:2 h:4 num:3
+#+MACRO: buf \ast{}$1\ast{}
+#+MACRO: kbd @@texinfo:@kbd{$1}@@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#+BEGIN_QUOTE
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.3 or
+any later version published by the Free Software Foundation; with no
+Invariant Sections, with the Front-Cover Texts being “A GNU Manual,”
+and with the Back-Cover Texts as in (a) below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T172916Z" creationid="grass" creationdate="20201019T172748Z">
+        <seg>#+BEGIN_QUOTE
+根据GNU自由文档许可证1.3版或自由软件基金会发布的任何更新版本的条款，允许复制、分发或修改本文档；没有固定章节，封面文本为“GNU手册”，封底文本如下(a)所示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#+FILETAGS: :Peter:Boss:Secret:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024224Z" creationid="grass" creationdate="20201019T024224Z">
@@ -250,6 +298,23 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024917Z" creationid="grass" creationdate="20201019T024917Z">
         <seg>(:endgroup .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(a) The FSF’s Back-Cover Text is: “You have the freedom to copy and
+modify this GNU manual.”
+#+END_QUOTE
+* Getting Started
+EBDB is a contact management package: it records information about
+people and organizations, and integrates with other Emacs software
+packages, mostly those concerned with sending and reading mail.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173102Z" creationid="grass" creationdate="20201019T173102Z">
+        <seg>(a) FSF的封底正文是：“您有复制和修改本GNU手册的自由。”
+#+END_QUOTE
+*入门
+EBDB是一个联系人管理软件包：它记录有关以下内容的信息人员和组织，并与其他Emacs包集成，主要是那些与发送和阅读邮件有关的包。</seg>
       </tuv>
     </tu>
     <tu>
@@ -520,6 +585,20 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083218Z" creationid="grass" creationdate="20201015T083218Z">
         <seg>(while (and (not should-skip-entry) (org-goto-sibling t))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* Copying
+:PROPERTIES:
+:COPYING:  t
+:END:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T172733Z" creationid="grass" creationdate="20201019T172733Z">
+        <seg>* Copying
+:PROPERTIES:
+:COPYING:  t
+:END:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3556,6 +3635,15 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A copy of the license
+is included in the section entitled “GNU Free Documentation License.”</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T172833Z" creationid="grass" creationdate="20201019T172833Z">
+        <seg>该许可证的副本包含在标题为“GNU自由文档许可证”的部分中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A copy of the license is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054552Z" creationid="grass" creationdate="20201013T054552Z">
@@ -4944,6 +5032,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T134910Z" creationid="grass" creationdate="20201006T134848Z">
         <seg>复制的过程与转接一样，只是不删除原始笔记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copyright \copy 2016 Free Software Foundation, Inc.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T172939Z" creationid="grass" creationdate="20201019T172746Z">
+        <seg>版权所有©2016自由软件基金会</seg>
       </tuv>
     </tu>
     <tu>
