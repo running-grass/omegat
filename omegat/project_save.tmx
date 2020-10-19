@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_23349233" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_6a661c5e0" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -3704,6 +3704,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171843Z" creationid="grass" creationdate="20201010T171843Z">
         <seg>子树末尾之后的空行被认为是子树的一部分，并且在子树折叠时被隐藏。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An excellent way to implement labels and contexts for cross-correlating information is to assign &lt;e0&gt;tags&lt;/e0&gt; to headlines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T022801Z" creationid="grass" creationdate="20201019T022801Z">
+        <seg>实现交叉关联信息的标注和上下文的一个很好的方法是将&lt;e0&gt;标签&lt;/e0&gt;分配给标题。</seg>
       </tuv>
     </tu>
     <tu>
