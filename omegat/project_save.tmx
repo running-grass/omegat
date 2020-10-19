@@ -6536,6 +6536,16 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>From there, you can use
+{{{kbd(c)}}} to make new records (see [[id:692cde31-73be-4faf-b436-7eae8a5d02d1][Creating Records]]).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173347Z" creationid="grass" creationdate="20201019T173347Z">
+        <seg>从那里，您可以使用
+{kbd(C)}创建新记录(请参阅[[id:692cde31-73be-4faf-b436-7eae8a5d02d1][Creating记录]])。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Furthermore, any entries with a ‘&lt;s0&gt;VISIBILITY&lt;/s0&gt;’ property (see &lt;a1&gt;Properties and Columns&lt;/a1&gt;) get their visibility adapted accordingly.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182211Z" creationid="grass" creationdate="20201010T182211Z">
@@ -14221,6 +14231,18 @@ stores its records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084227Z" creationid="grass" creationdate="20201015T084227Z">
         <seg>然后将它们从Dired缓冲区链接(使用&lt;c1&gt;org-store-link&lt;/c1&gt;)到我的项目中，以便快速访问。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This
+will open a new buffer in ~ebdb-mode~, and prompt you to create a
+database, if one doesn't already exist.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173343Z" creationid="grass" creationdate="20201019T173343Z">
+        <seg>这
+将在~ebdb-mode~中打开一个新缓冲区，并提示您创建
+数据库(如果尚不存在)。</seg>
       </tuv>
     </tu>
     <tu>
