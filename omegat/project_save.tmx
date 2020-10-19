@@ -3764,6 +3764,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Adding the non-predefined tag ‘&lt;s11&gt;sarah&lt;/s11&gt;’ could be done with &lt;k12&gt;C-c C-c &lt;s13&gt;TAB&lt;/s13&gt; s a r a h &lt;s14&gt;RET&lt;/s14&gt;&lt;/k12&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025414Z" creationid="grass" creationdate="20201019T025300Z">
+        <seg>可以使用&lt;k12&gt;C-c-c&lt;/s13&gt;TAB&lt;/s13&gt;s a r a h&lt;/s14&gt;ret&lt;/s14&gt;&lt;/k12&gt;添加非预定义标签&lt;s11&gt;arah&lt;/s11&gt;’。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Additional structure within an entry.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T061033Z" creationid="grass" creationdate="20201010T170557Z">
@@ -7148,6 +7156,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you are using expert mode, the first &lt;k0&gt;C-c&lt;/k0&gt; displays the selection window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025155Z" creationid="grass" creationdate="20201019T025155Z">
+        <seg>如果您使用的是专家模式，则第一个&lt;k0&gt;C-c&lt;/k0&gt;将显示选择窗口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you are using the diary only for expression entries and holidays, it is faster to not use the above setting, but instead to copy or even move the entries into an Org file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113243Z" creationid="grass" creationdate="20201016T113243Z">
@@ -7188,6 +7204,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you find that most of the time you need only a single key press to modify your list of tags, set the variable &lt;c0&gt;org-fast-tag-selection-single-key&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025429Z" creationid="grass" creationdate="20201019T025304Z">
+        <seg>如果您发现大多数情况下只需要按一次键来修改标签列表，那么可以设置变量&lt;c0&gt;org-fast-tag-election-single-key&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you have a preferred set of tags that you would like to use in every file, in addition to those defined on a per-file basis by ‘&lt;s0&gt;TAGS&lt;/s0&gt;’ keyword, then you may specify a list of tags with the variable &lt;c1&gt;org-tag-persistent-alist&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024637Z" creationid="grass" creationdate="20201019T024007Z">
@@ -7224,6 +7248,22 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024442Z" creationid="grass" creationdate="20201019T023312Z">
         <seg>如果您只希望看到子树优先的标签匹配，请配置变量&lt;c2&gt;org-tag-Match-list-subblelevel&lt;/c2&gt;(不推荐)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you set the variable to the value &lt;c6&gt;expert&lt;/c6&gt;, the special window is not even shown for single-key tag selection, it comes up only when you press an extra &lt;k7&gt;C-c&lt;/k7&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025502Z" creationid="grass" creationdate="20201019T025502Z">
+        <seg>如果将变量设置为值&lt;c6&gt;expert&lt;/c6&gt;，则甚至不会显示用于单键标记选择的特殊窗口，只有当您额外按&lt;k7&gt;C-c&lt;/k7&gt;时才会出现该窗口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you then occasionally need more keys, press &lt;k3&gt;C-c&lt;/k3&gt; to turn off auto-exit for the current tag selection process (in effect: start selection with &lt;k4&gt;C-c C-c C-c&lt;/k4&gt; instead of &lt;k5&gt;C-c C-c&lt;/k5&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025449Z" creationid="grass" creationdate="20201019T025449Z">
+        <seg>如果您偶尔需要更多键，请按&lt;k3&gt;C-c&lt;/k3&gt;关闭当前标签选择过程的自动退出(实际上：使用&lt;k4&gt;C-c-c C-c&lt;/k4&gt;而不是&lt;k5&gt;C-c C-c&lt;/k5&gt;开始选择)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12852,6 +12892,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Switching from ‘&lt;s6&gt;@home&lt;/s6&gt;’ to ‘&lt;s7&gt;@work&lt;/s7&gt;’ would be done with &lt;k8&gt;C-c C-c w &lt;s9&gt;RET&lt;/s9&gt;&lt;/k8&gt; or alternatively with &lt;k10&gt;C-c C-c C-c w&lt;/k10&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025253Z" creationid="grass" creationdate="20201019T025233Z">
+        <seg>从“@home&lt;/S6&gt;”切换到“@work&lt;/S7&gt;”将使用&lt;k8&gt;C-c C-c w&lt;s9&gt;RET&lt;/s9&gt;&lt;/k8&gt;或使用&lt;k10&gt;C-c w&lt;/k10&gt;进行切换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>TAB</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063119Z" creationid="grass" creationdate="20201015T063119Z">
@@ -13788,6 +13836,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Then you no longer have to press &lt;k1&gt;&lt;s2&gt;RET&lt;/s2&gt;&lt;/k1&gt; to exit fast tag selection—it exits after the first change.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025441Z" creationid="grass" creationdate="20201019T025441Z">
+        <seg>然后，您不必再按&lt;k1&gt;&lt;s2&gt;RET&lt;/s2&gt;&lt;/k1&gt;退出快速标签选择-它在第一次更改后退出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Then, activate the debugger:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082552Z" creationid="grass" creationdate="20200929T082552Z">
@@ -13944,6 +14000,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054501Z" creationid="grass" creationdate="20201013T054501Z">
         <seg>本手册适用于Org版本9.4。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This method lets you assign tags to a headline with very few keys.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025200Z" creationid="grass" creationdate="20201019T025200Z">
+        <seg>此方法允许您使用很少的键将标签分配给标题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14953,6 +15017,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112554Z" creationid="grass" creationdate="20201014T112554Z">
         <seg>与其他Emacs软件包一起使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With the above setup, you could clear the current tags and set ‘&lt;s0&gt;@home&lt;/s0&gt;’, ‘&lt;s1&gt;laptop&lt;/s1&gt;’ and ‘&lt;s2&gt;pc&lt;/s2&gt;’ tags with just the following keys: &lt;k3&gt;C-c C-c &lt;s4&gt;SPC&lt;/s4&gt; h l p &lt;s5&gt;RET&lt;/s5&gt;&lt;/k3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025312Z" creationid="grass" creationdate="20201019T025230Z">
+        <seg>使用上面的设置，您可以清除当前标签，并仅使用以下键设置‘&lt;s0&gt;@home&lt;/s0&gt;’、‘&lt;s1&gt;Laptop&lt;/s1&gt;’和‘&lt;s2&gt;pc&lt;/s2&gt;’标记：&lt;k3&gt;C-c-c&lt;s4&gt;SPC&lt;/s4&gt;h l p&lt;/s5&gt;RET&lt;/s5&gt;&lt;/k3&gt;。</seg>
       </tuv>
     </tu>
     <tu>
