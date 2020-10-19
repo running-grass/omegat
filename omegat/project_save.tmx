@@ -46,6 +46,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#+FILETAGS: :Peter:Boss:Secret:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024224Z" creationid="grass" creationdate="20201019T024224Z">
+        <seg>#+FILETAGS: :Peter:Boss:Secret:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#+STARTUP: overview
 #+STARTUP: content
 #+STARTUP: showall
@@ -3054,6 +3062,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-c C-q&lt;/k0&gt; (&lt;c1&gt;org-set-tags-command&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024219Z" creationid="grass" creationdate="20201019T024219Z">
+        <seg>&lt;k0&gt;C-c C-q&lt;/k0&gt; (&lt;c1&gt;org-set-tags-command&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-c C-r&lt;/k0&gt; (&lt;c1&gt;org-reveal&lt;/c1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061828Z" creationid="grass" creationdate="20201015T061828Z">
@@ -4194,6 +4210,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083812Z" creationid="grass" creationdate="20201015T083812Z">
         <seg>但是你也不想每次浏览你的GTD项目时都被提醒：因为现在不是付钱的时候。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default Org mode uses the standard minibuffer completion facilities for entering tags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024139Z" creationid="grass" creationdate="20201019T024139Z">
+        <seg>默认情况下，Org mode使用标准的迷你缓冲区完成功能来输入标记。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5894,6 +5918,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, you may find the need to tag many items in different files with ‘&lt;s2&gt;@home&lt;/s2&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024218Z" creationid="grass" creationdate="20201019T024218Z">
+        <seg>例如，您可能会发现需要用“&lt;s2&gt;@home&lt;/s2&gt;”标记不同文件中的许多项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171052Z" creationid="grass" creationdate="20201010T171052Z">
@@ -5962,6 +5994,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054946Z" creationid="grass" creationdate="20201016T054946Z">
         <seg>对于这些任务，Org mode具有特殊的复读机“&lt;s2&gt;++&lt;/s2&gt;”和“&lt;s3&gt;.+&lt;/s3&gt;”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For this to work well you should assign unique letters to most of your commonly used tags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024155Z" creationid="grass" creationdate="20201019T024155Z">
+        <seg>要使其正常工作，您应该为大多数常用的标记分配唯一的字母。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6574,6 +6614,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, it also implements another, quicker, tag selection method called &lt;e0&gt;fast tag selection&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024146Z" creationid="grass" creationdate="20201019T024146Z">
+        <seg>但是，它还实现了另一种更快的标记选择方法，称为&lt;e0&gt;快速标记选择&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, it stays on a Sunday, even if you called and marked it</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062717Z" creationid="grass" creationdate="20201016T062148Z">
@@ -6882,6 +6930,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T080206Z" creationid="grass" creationdate="20200929T075919Z">
         <seg>如果你发现了Org的的问题，或者你有对Org的疑问、评价或者好的想法，请发送邮件到Org邮件列表&lt;a0&gt;emacs-orgmode@gnu.org&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you have a preferred set of tags that you would like to use in every file, in addition to those defined on a per-file basis by ‘&lt;s0&gt;TAGS&lt;/s0&gt;’ keyword, then you may specify a list of tags with the variable &lt;c1&gt;org-tag-persistent-alist&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024007Z" creationid="grass" creationdate="20201019T024007Z">
+        <seg>除了由“&lt;s0&gt;TAGS&lt;/s0&gt;”关键字在每个文件基础上定义的标记之外，如果您有希望在每个文件中使用的首选标记集，则可以使用变量&lt;c1&gt;org-tag-persistent-ist&lt;/c1&gt;指定标记列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13438,6 +13494,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This allows you to select and deselect tags with just a single key press.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024151Z" creationid="grass" creationdate="20201019T024151Z">
+        <seg>这使您只需按一次键即可选择和取消选择标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This also keeps my agenda clean, free of any fake or self-imposed deadline or schedule.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081719Z" creationid="grass" creationdate="20201015T081719Z">
@@ -14663,6 +14727,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can do this globally by configuring the variable &lt;c1&gt;org-tag-alist&lt;/c1&gt; in your Emacs init file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024211Z" creationid="grass" creationdate="20201019T024211Z">
+        <seg>您可以通过在Emacs init文件中配置变量&lt;c1&gt;org-tag-ist&lt;/c1&gt;来全局执行此操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can download Org latest release from &lt;a0&gt;Org’s website&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T132240Z" creationid="grass" creationdate="20200927T132240Z">
@@ -14747,6 +14819,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T022957Z" creationid="grass" creationdate="20201019T022957Z">
         <seg>您可以使用变量&lt;c4&gt;org-tag-faces&lt;/c4&gt;为特定标记指定特殊的字符样式，方法与为TODO关键字指定的方式大致相同(请参阅&lt;a5&gt;为TODO关键字设置字符样式&lt;/a5&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You may turn this off on a per-file basis by adding a ‘&lt;s2&gt;STARTUP&lt;/s2&gt;’ keyword to that file:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024021Z" creationid="grass" creationdate="20201019T024021Z">
+        <seg>您可以通过将“&lt;s2&gt;STARTUP&lt;/s2&gt;”关键字添加到该文件来逐个文件关闭此功能：</seg>
       </tuv>
     </tu>
     <tu>
