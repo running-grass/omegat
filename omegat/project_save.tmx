@@ -3766,8 +3766,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Adding the non-predefined tag ‘&lt;s11&gt;sarah&lt;/s11&gt;’ could be done with &lt;k12&gt;C-c C-c &lt;s13&gt;TAB&lt;/s13&gt; s a r a h &lt;s14&gt;RET&lt;/s14&gt;&lt;/k12&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025414Z" creationid="grass" creationdate="20201019T025300Z">
-        <seg>可以使用&lt;k12&gt;C-c-c&lt;/s13&gt;TAB&lt;/s13&gt;s a r a h&lt;/s14&gt;ret&lt;/s14&gt;&lt;/k12&gt;添加非预定义标签&lt;s11&gt;arah&lt;/s11&gt;’。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T030207Z" creationid="grass" creationdate="20201019T025300Z">
+        <seg>可以使用&lt;k12&gt;C-c-c&lt;s13&gt;TAB&lt;/s13&gt;s a r a h&lt;s14&gt;ret&lt;/s14&gt;&lt;/k12&gt;添加非预定义标签&lt;s11&gt;arah&lt;/s11&gt;’。</seg>
       </tuv>
     </tu>
     <tu>
