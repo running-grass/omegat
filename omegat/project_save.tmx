@@ -604,14 +604,6 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>/</seg>
-      </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063152Z" creationid="grass" creationdate="20201015T063152Z">
-        <seg>/</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>1 Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T082219Z" creationid="grass" creationdate="20200927T082219Z">
@@ -3588,6 +3580,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A prefix argument can be used to specify the number of context lines for each match, default is</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T144234Z" creationid="Eli" creationdate="20201019T144234Z">
+        <seg>使用前缀参数可以定义每次查找匹配多少行,默认为1行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A timestamp&lt;a0&gt;&lt;s1&gt;71&lt;/s1&gt;&lt;/a0&gt; is added under the deadline, to keep a record that you actually acted on the previous instance of this deadline.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054810Z" creationid="grass" creationdate="20201016T054810Z">
@@ -4944,6 +4944,38 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101645Z" creationid="grass" creationdate="20201014T101645Z">
         <seg>创建标签的层次结构。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a list of all TODO items (see &lt;a0&gt;Global TODO list&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T143545Z" creationid="Eli" creationdate="20201019T143545Z">
+        <seg>创建一个列表，其包含所有的TODO事项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a list of entries selected by a boolean expression of keywords and/or regular expressions that must or must not occur in the entry.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T143910Z" creationid="Eli" creationdate="20201019T143910Z">
+        <seg>创建一个列表，其包含匹配/不匹配某关键字表达式/正则表达式的事项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a list of headlines matching a given expression (see &lt;a0&gt;Matching tags and properties&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T143734Z" creationid="Eli" creationdate="20201019T143734Z">
+        <seg>创建一个列表，其包含所有匹配给定表达式的标题(headlines)(详见&lt;a0&gt;匹配标签和属性&lt;/a0&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a list of stuck projects (see &lt;a0&gt;Stuck projects&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T144308Z" creationid="Eli" creationdate="20201019T144308Z">
+        <seg>创建一个列表，其包含所有停滞的项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12276,6 +12308,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Search for a regular expression in all agenda files and additionally in the files listed in &lt;c0&gt;org-agenda-text-search-extra-files&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T144035Z" creationid="Eli" creationdate="20201019T144019Z">
+        <seg>对所有议程文件和列在&lt;c0&gt;org-agenda-text-search-extra-files&lt;/c0&gt;里的文件内容进行正则查找。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Search view</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201840Z" creationid="grass" creationdate="20201010T201840Z">
@@ -14072,6 +14112,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025917Z" creationid="grass" creationdate="20201019T025917Z">
         <seg>此限制将一直有效，直到使用&lt;k0&gt;C-c C-x &gt;&lt;/k0&gt;删除，或通过在议程调度器中键入&lt;k1&gt;&lt;&lt;/k1&gt;或&lt;k2&gt;&gt;&lt;/k2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This uses the Emacs command &lt;c1&gt;multi-occur&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T144138Z" creationid="Eli" creationdate="20201019T144138Z">
+        <seg>该查找通过命令&lt;c1&gt;multi-occur&lt;/c1&gt;来实现。</seg>
       </tuv>
     </tu>
     <tu>
