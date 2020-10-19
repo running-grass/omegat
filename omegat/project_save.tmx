@@ -94,6 +94,40 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#+TAGS: @work(w)  @home(h)  @tennisclub(t)
+#+TAGS: laptop(l)  pc(p)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024743Z" creationid="grass" creationdate="20201019T024743Z">
+        <seg>#+TAGS: @work(w)  @home(h)  @tennisclub(t)
+#+TAGS: laptop(l)  pc(p)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#+TAGS: @work(w)  @home(h)  @tennisclub(t)  laptop(l)  pc(p)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024717Z" creationid="grass" creationdate="20201019T024717Z">
+        <seg>#+TAGS: @work(w)  @home(h)  @tennisclub(t)  laptop(l)  pc(p)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#+TAGS: @work(w) @home(h) @tennisclub(t) \n laptop(l) pc(p)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024738Z" creationid="grass" creationdate="20201019T024738Z">
+        <seg>#+TAGS: @work(w) @home(h) @tennisclub(t) \n laptop(l) pc(p)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#+TAGS: { @work(w)  @home(h)  @tennisclub(t) }  laptop(l)  pc(p)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024754Z" creationid="grass" creationdate="20201019T024754Z">
+        <seg>#+TAGS: { @work(w)  @home(h)  @tennisclub(t) }  laptop(l)  pc(p)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>$ cd ~/src/
 $ git clone https://code.orgmode.org/bzg/org-mode.git
 $ cd org-mode/
@@ -3684,8 +3718,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>After pressing &lt;k0&gt;&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt;, the tags are inserted and aligned to &lt;c2&gt;org-tags-column&lt;/c2&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023657Z" creationid="grass" creationdate="20201019T023657Z">
-        <seg>按&lt;k0&gt;&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt;后，将插入标记并与&lt;c2&gt;org-tag-column&lt;/c2&gt;对齐。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024544Z" creationid="grass" creationdate="20201019T023657Z">
+        <seg>按&lt;k0&gt;&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt;后，将插入标签并与&lt;c2&gt;org-tag-column&lt;/c2&gt;对齐。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4276,16 +4310,16 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>By default Org mode uses the standard minibuffer completion facilities for entering tags.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024139Z" creationid="grass" creationdate="20201019T024139Z">
-        <seg>默认情况下，Org mode使用标准的迷你缓冲区完成功能来输入标记。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024647Z" creationid="grass" creationdate="20201019T024139Z">
+        <seg>默认情况下，Org mode使用标准的迷你缓冲区完成功能来输入标签。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>By default this list is constructed dynamically, containing all tags currently used in the buffer&lt;a1&gt;&lt;s2&gt;53&lt;/s2&gt;&lt;/a1&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023824Z" creationid="grass" creationdate="20201019T023824Z">
-        <seg>默认情况下，此列表是动态构建的，包含缓冲区&lt;a1&gt;&lt;s2&gt;53&lt;/s2&gt;&lt;/a1&gt;中当前使用的所有标记。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024606Z" creationid="grass" creationdate="20201019T023824Z">
+        <seg>默认情况下，此列表是动态构建的，包含缓冲区&lt;a1&gt;&lt;s2&gt;53&lt;/s2&gt;&lt;/a1&gt;中当前使用的所有标签。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5154,6 +5188,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Do not forget to press &lt;k0&gt;C-c C-c&lt;/k0&gt; with point in one of these lines to activate any changes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024819Z" creationid="grass" creationdate="20201019T024819Z">
+        <seg>不要忘记将光标放在这些行中的一行上按&lt;k0&gt;C-c-c&lt;/k0&gt;以激活任何更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Do not use it as a title for your own headings.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171343Z" creationid="grass" creationdate="20201010T171343Z">
@@ -5412,8 +5454,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Enter new tags for the current headline.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023637Z" creationid="grass" creationdate="20201019T023637Z">
-        <seg>为当前标题输入新标记。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024540Z" creationid="grass" creationdate="20201019T023637Z">
+        <seg>为当前标题输入新标签。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5836,8 +5878,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Finally you can set the default tags for a given file using the ‘&lt;s4&gt;TAGS&lt;/s4&gt;’ keyword, like</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023902Z" creationid="grass" creationdate="20201019T023902Z">
-        <seg>最后，您可以使用“&lt;s4&gt;TAGS&lt;/s4&gt;”关键字为给定文件设置默认标记，如</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024617Z" creationid="grass" creationdate="20201019T023902Z">
+        <seg>最后，您可以使用“&lt;s4&gt;TAGS&lt;/s4&gt;”关键字为给定文件设置默认标签，如</seg>
       </tuv>
     </tu>
     <tu>
@@ -6060,8 +6102,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>For this to work well you should assign unique letters to most of your commonly used tags.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024155Z" creationid="grass" creationdate="20201019T024155Z">
-        <seg>要使其正常工作，您应该为大多数常用的标记分配唯一的字母。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024657Z" creationid="grass" creationdate="20201019T024155Z">
+        <seg>要使其正常工作，您应该为大多数常用的标签分配唯一的字母。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6676,8 +6718,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>However, it also implements another, quicker, tag selection method called &lt;e0&gt;fast tag selection&lt;/e0&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024146Z" creationid="grass" creationdate="20201019T024146Z">
-        <seg>但是，它还实现了另一种更快的标记选择方法，称为&lt;e0&gt;快速标记选择&lt;/e0&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024653Z" creationid="grass" creationdate="20201019T024146Z">
+        <seg>但是，它还实现了另一种更快的标签选择方法，称为&lt;e0&gt;快速标记选择&lt;/e0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6908,8 +6950,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>If the tag is only relevant to the file you are working on, then you can instead set the ‘&lt;s0&gt;TAGS&lt;/s0&gt;’ keyword as:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024322Z" creationid="grass" creationdate="20201019T024322Z">
-        <seg>如果标记仅与您正在处理的文件相关，则可以将“&lt;s0&gt;标记&lt;/s0&gt;”关键字设置为：</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024716Z" creationid="grass" creationdate="20201019T024322Z">
+        <seg>如果标签仅与您正在处理的文件相关，则可以将“&lt;s0&gt;TAGS&lt;/s0&gt;”关键字设置为：</seg>
       </tuv>
     </tu>
     <tu>
@@ -7004,16 +7046,16 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>If you have a preferred set of tags that you would like to use in every file, in addition to those defined on a per-file basis by ‘&lt;s0&gt;TAGS&lt;/s0&gt;’ keyword, then you may specify a list of tags with the variable &lt;c1&gt;org-tag-persistent-alist&lt;/c1&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024007Z" creationid="grass" creationdate="20201019T024007Z">
-        <seg>除了由“&lt;s0&gt;TAGS&lt;/s0&gt;”关键字在每个文件基础上定义的标记之外，如果您有希望在每个文件中使用的首选标记集，则可以使用变量&lt;c1&gt;org-tag-persistent-ist&lt;/c1&gt;指定标记列表。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024637Z" creationid="grass" creationdate="20201019T024007Z">
+        <seg>除了由“&lt;s0&gt;TAGS&lt;/s0&gt;”关键字在每个文件基础上定义的标签之外，如果您有希望在每个文件中使用的首选标签集，则可以使用变量&lt;c1&gt;org-tag-persistent-ist&lt;/c1&gt;指定标签列表。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If you have globally defined your preferred set of tags using the variable &lt;c0&gt;org-tag-alist&lt;/c0&gt;, but would like to use a dynamic tag list in a specific file, add an empty ‘&lt;s1&gt;TAGS&lt;/s1&gt;’ keyword to that file:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023932Z" creationid="grass" creationdate="20201019T023932Z">
-        <seg>如果您已使用变量&lt;c0&gt;org-tag-ist&lt;/c0&gt;全局定义了首选的标记集，但希望在特定文件中使用动态标记列表，请向该文件添加空的“&lt;s1&gt;TAGS&lt;/s1&gt;”关键字：</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024626Z" creationid="grass" creationdate="20201019T023932Z">
+        <seg>如果您已使用变量&lt;c0&gt;org-tag-ist&lt;/c0&gt;全局定义了首选的标签集，但希望在特定文件中使用动态标签列表，请向该文件添加空的“&lt;s1&gt;TAGS&lt;/s1&gt;”关键字：</seg>
       </tuv>
     </tu>
     <tu>
@@ -7054,6 +7096,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055845Z" creationid="grass" creationdate="20201016T055845Z">
         <seg>如果希望在同一时间间隔后同时重复日程安排和截止日期信息，请为这两个时间戳设置相同的复读机。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to start a new line after a specific tag, insert ‘&lt;s0&gt;\n&lt;/s0&gt;’ into the tag list</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024736Z" creationid="grass" creationdate="20201019T024736Z">
+        <seg>如果要在特定标签后开始新行，请在标签列表中插入“&lt;s0&gt;\n&lt;/s0&gt;”</seg>
       </tuv>
     </tu>
     <tu>
@@ -8118,6 +8168,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200106Z" creationid="grass" creationdate="20201010T200106Z">
         <seg>一个文件中的多个关键字集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Multiple such groups are allowed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024805Z" creationid="grass" creationdate="20201019T024805Z">
+        <seg>允许多个这样的组。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13482,6 +13540,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The tags interface shows the available tags in a splash window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024728Z" creationid="grass" creationdate="20201019T024728Z">
+        <seg>标签界面在启动窗口中显示可用标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The tickler</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083726Z" creationid="grass" creationdate="20201015T083726Z">
@@ -13862,6 +13928,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083309Z" creationid="grass" creationdate="20201015T083309Z">
         <seg>若要选择要执行的议程命令，请按&lt;c0&gt;C-c a&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To set these mutually exclusive groups in the variable &lt;c0&gt;org-tags-alist&lt;/c0&gt;, you must use the dummy tags &lt;c1&gt;:startgroup&lt;/c1&gt; and &lt;c2&gt;:endgroup&lt;/c2&gt; instead of the braces.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024850Z" creationid="grass" creationdate="20201019T024850Z">
+        <seg>要在变量&lt;c0&gt;org-tag-ist&lt;/c0&gt;中设置这些互斥的组，必须使用虚拟标签&lt;c1&gt;:startgroup&lt;/c1&gt;和&lt;c2&gt;:endgroup&lt;/c2&gt;，而不是大括号。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14357,8 +14431,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>When called with a &lt;k3&gt;C-u&lt;/k3&gt; prefix, all tags in the current buffer are aligned to that column, just to make things look nice.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023706Z" creationid="grass" creationdate="20201019T023706Z">
-        <seg>当使用&lt;k3&gt;C-u&lt;/k3&gt;前缀调用时，当前缓冲区中的所有标记都与该列对齐，这只是为了让事情看起来更好看。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024549Z" creationid="grass" creationdate="20201019T023706Z">
+        <seg>当使用&lt;k3&gt;C-u&lt;/k3&gt;前缀调用时，当前缓冲区中的所有标签都与该列对齐，这只是为了让事情看起来更好看。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14763,6 +14837,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also group together tags that are mutually exclusive by using braces, as in:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024752Z" creationid="grass" creationdate="20201019T024752Z">
+        <seg>还可以使用大括号将互斥的标记组合在一起，如在以下内容中所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also set tags that all entries in a file should inherit just as if these tags were defined in a hypothetical level zero that surrounds the entire file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023158Z" creationid="grass" creationdate="20201019T023158Z">
@@ -14877,8 +14959,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>You may also globally specify a hard list of tags with the variable &lt;c3&gt;org-tag-alist&lt;/c3&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023840Z" creationid="grass" creationdate="20201019T023840Z">
-        <seg>您还可以使用变量&lt;c3&gt;org-tag-ist&lt;/c3&gt;全局指定标记的硬列表。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024611Z" creationid="grass" creationdate="20201019T023840Z">
+        <seg>您还可以使用变量&lt;c3&gt;org-tag-ist&lt;/c3&gt;全局指定标签的硬列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41313,6 +41395,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>or write them in two lines:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024742Z" creationid="grass" creationdate="20201019T024742Z">
+        <seg>或者将它们写成两行：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>or, from the menu: Options → Enter Debugger on Error.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082701Z" creationid="grass" creationdate="20200929T082701Z">
@@ -41383,6 +41473,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T135906Z" creationid="grass" creationdate="20200927T135906Z">
         <seg>不管文件名是什么，都会为该缓冲区选择组织模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>you indicate that at most one of ‘&lt;s0&gt;@work&lt;/s0&gt;’, ‘&lt;s1&gt;@home&lt;/s1&gt;’, and ‘&lt;s2&gt;@tennisclub&lt;/s2&gt;’ should be selected.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024802Z" creationid="grass" creationdate="20201019T024802Z">
+        <seg>您指示最多应选择“&lt;s0&gt;@work&lt;/s0&gt;”、“&lt;s1&gt;@home&lt;/s1&gt;”和“&lt;s2&gt;@tennisClub&lt;/s2&gt;”中的一个。</seg>
       </tuv>
     </tu>
     <tu>
