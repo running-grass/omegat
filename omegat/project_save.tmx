@@ -54,6 +54,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#+STARTUP: noptag</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024238Z" creationid="grass" creationdate="20201019T024238Z">
+        <seg>#+STARTUP: noptag</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#+STARTUP: overview
 #+STARTUP: content
 #+STARTUP: showall
@@ -64,6 +72,14 @@
 #+STARTUP: content
 #+STARTUP: showall
 #+STARTUP: showeverything</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#+TAGS:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024235Z" creationid="grass" creationdate="20201019T024235Z">
+        <seg>#+TAGS:</seg>
       </tuv>
     </tu>
     <tu>
@@ -354,6 +370,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(setq org-tag-alist '(("@work" .</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024248Z" creationid="grass" creationdate="20201019T024248Z">
+        <seg>(setq org-tag-alist '(("@work" .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(setq org-todo-keywords '((sequence "TODO(t)" "WAITING(w)" "|" "DONE(d)" "CANCELLED(c)")))</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081635Z" creationid="grass" creationdate="20201015T081635Z">
@@ -414,6 +438,18 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083218Z" creationid="grass" creationdate="20201015T083218Z">
         <seg>(while (and (not should-skip-entry) (org-goto-sibling t))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>* Meeting with the French group      :work:
+** Summary by Frank                  :boss:notes:
+*** TODO Prepare slides for him      :action:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024227Z" creationid="grass" creationdate="20201019T024227Z">
+        <seg>* Meeting with the French group      :work:
+** Summary by Frank                  :boss:notes:
+*** TODO Prepare slides for him      :action:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3350,6 +3386,30 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>?h) ("laptop" .</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024255Z" creationid="grass" creationdate="20201019T024255Z">
+        <seg>?h) ("laptop" .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>?l)))</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024256Z" creationid="grass" creationdate="20201019T024256Z">
+        <seg>?l)))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>?w) ("@home" .</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024253Z" creationid="grass" creationdate="20201019T024253Z">
+        <seg>?w) ("@home" .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A Beamer example</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203124Z" creationid="grass" creationdate="20201010T203124Z">
@@ -3616,8 +3676,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>After a colon, &lt;k0&gt;M-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; offers completion on tags.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023623Z" creationid="grass" creationdate="20201019T023623Z">
-        <seg>冒号之后，&lt;k0&gt;M-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt;提供标记的补全。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024520Z" creationid="grass" creationdate="20201019T023623Z">
+        <seg>冒号之后，&lt;k0&gt;M-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt;提供标签的补全。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6768,8 +6828,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>If a heading has a certain tag, all subheadings inherit the tag as well.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023058Z" creationid="grass" creationdate="20201019T023058Z">
-        <seg>如果标题具有某个标记，则所有子标题也会继承该标记。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024357Z" creationid="grass" creationdate="20201019T023058Z">
+        <seg>如果标题具有某个标签，则所有子标题也会继承该标签。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6842,6 +6902,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055706Z" creationid="grass" creationdate="20201016T055706Z">
         <seg>如果仅为日程安排信息设置复读机，您可能希望在截止日期之后忽略复读机。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the tag is only relevant to the file you are working on, then you can instead set the ‘&lt;s0&gt;TAGS&lt;/s0&gt;’ keyword as:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024322Z" creationid="grass" creationdate="20201019T024322Z">
+        <seg>如果标记仅与您正在处理的文件相关，则可以将“&lt;s0&gt;标记&lt;/s0&gt;”关键字设置为：</seg>
       </tuv>
     </tu>
     <tu>
@@ -6968,8 +7036,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>If you only want to see the first tags match in a subtree, configure the variable &lt;c2&gt;org-tags-match-list-sublevels&lt;/c2&gt; (not recommended).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023312Z" creationid="grass" creationdate="20201019T023312Z">
-        <seg>如果您只希望看到子树优先的标记匹配，请配置变量&lt;c2&gt;org-tag-Match-list-subblelevel&lt;/c2&gt;(不推荐)。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024442Z" creationid="grass" creationdate="20201019T023312Z">
+        <seg>如果您只希望看到子树优先的标签匹配，请配置变量&lt;c2&gt;org-tag-Match-list-subblelevel&lt;/c2&gt;(不推荐)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7146,6 +7214,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T131421Z" creationid="grass" creationdate="20201005T131408Z">
         <seg>在手册中，我们将尽可能提供内部函数调用的通用命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this case you can set something like:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024244Z" creationid="grass" creationdate="20201019T024244Z">
+        <seg>在这种情况下，您可以设置如下内容：</seg>
       </tuv>
     </tu>
     <tu>
@@ -12120,8 +12196,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Several tags can be specified, as in ‘&lt;s3&gt;:work:urgent:&lt;/s3&gt;’.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T022909Z" creationid="grass" creationdate="20201019T022909Z">
-        <seg>可以指定几个标记，如“&lt;s3&gt;:work:ururent:&lt;/s3&gt;”。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024329Z" creationid="grass" creationdate="20201019T022909Z">
+        <seg>可以指定几个标签，如“&lt;s3&gt;:work:ururent:&lt;/s3&gt;”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12400,8 +12476,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Still, you may want to have your tags correctly set in the agenda, so that tag filtering works fine, with inherited tags.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023428Z" creationid="grass" creationdate="20201019T023428Z">
-        <seg>不过，您可能希望在议程中正确设置标记，以便标记过滤可以很好地处理继承的标记。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024459Z" creationid="grass" creationdate="20201019T023428Z">
+        <seg>不过，您可能希望在议程中正确设置标签，以便标记过滤可以很好地处理继承的标签。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12784,8 +12860,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Tags can simply be typed into the buffer at the end of a headline.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023612Z" creationid="grass" creationdate="20201019T023612Z">
-        <seg>只需在缓冲区中的标题末尾键入标记即可。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024516Z" creationid="grass" creationdate="20201019T023612Z">
+        <seg>只需在缓冲区中的标题末尾键入标签即可。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13480,8 +13556,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>There is also a special command for inserting tags:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023629Z" creationid="grass" creationdate="20201019T023629Z">
-        <seg>There is also a special command for inserting tags:</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024528Z" creationid="grass" creationdate="20201019T023629Z">
+        <seg>还有一个用于插入标签的特殊命令：</seg>
       </tuv>
     </tu>
     <tu>
@@ -13728,8 +13804,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>To limit tag inheritance to specific tags, or to turn it off entirely, use the variables &lt;c0&gt;org-use-tag-inheritance&lt;/c0&gt; and &lt;c1&gt;org-tags-exclude-from-inheritance&lt;/c1&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023217Z" creationid="grass" creationdate="20201019T023217Z">
-        <seg>要将标记继承限制为特定标记，或将其完全关闭，请使用变量&lt;c0&gt;org-use-tag-inheritation&lt;/c0&gt;和&lt;c1&gt;org-tag-exclude-from-heritation&lt;/c1&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024420Z" creationid="grass" creationdate="20201019T023217Z">
+        <seg>要将标签继承限制为特定标签，或将其完全关闭，请使用变量&lt;c0&gt;org-use-tag-inheritation&lt;/c0&gt;和&lt;c1&gt;org-tag-exclude-from-heritation&lt;/c1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14273,8 +14349,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>When a headline matches during a tags search while tag inheritance is turned on, all the sublevels in the same tree—for a simple match form—match as well&lt;a0&gt;&lt;s1&gt;52&lt;/s1&gt;&lt;/a0&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023227Z" creationid="grass" creationdate="20201019T023227Z">
-        <seg>如果在打开标记继承的情况下在标记搜索期间匹配标题，则同一树中的所有子级别(对于简单匹配表单)也会匹配&lt;a0&gt;&lt;s1&gt;52&lt;/s1&gt;&lt;/a0&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024434Z" creationid="grass" creationdate="20201019T023227Z">
+        <seg>如果在打开标记继承的情况下在标签搜索期间匹配标题，则同一树中的所有子级别(对于简单匹配表单)也会匹配&lt;a0&gt;&lt;s1&gt;52&lt;/s1&gt;&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14817,8 +14893,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>You may specify special faces for specific tags using the variable &lt;c4&gt;org-tag-faces&lt;/c4&gt;, in much the same way as you can for TODO keywords (see &lt;a5&gt;Faces for TODO keywords&lt;/a5&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T022957Z" creationid="grass" creationdate="20201019T022957Z">
-        <seg>您可以使用变量&lt;c4&gt;org-tag-faces&lt;/c4&gt;为特定标记指定特殊的字符样式，方法与为TODO关键字指定的方式大致相同(请参阅&lt;a5&gt;为TODO关键字设置字符样式&lt;/a5&gt;)。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024336Z" creationid="grass" creationdate="20201019T022957Z">
+        <seg>您可以使用变量&lt;c4&gt;org-tag-faces&lt;/c4&gt;为特定标签指定特殊的字符样式，方法与为TODO关键字指定的方式大致相同(请参阅&lt;a5&gt;为TODO关键字设置字符样式&lt;/a5&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41273,8 +41349,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>the final heading has the tags ‘&lt;s0&gt;work&lt;/s0&gt;’, ‘&lt;s1&gt;boss&lt;/s1&gt;’, ‘&lt;s2&gt;notes&lt;/s2&gt;’, and ‘&lt;s3&gt;action&lt;/s3&gt;’ even though the final heading is not explicitly marked with those tags.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023134Z" creationid="grass" creationdate="20201019T023134Z">
-        <seg>最后一个标题将具有标签“&lt;s0&gt;work&lt;/s0&gt;”、“&lt;s1&gt;boss&lt;/s1&gt;”、“&lt;s2&gt;notes&lt;/s2&gt;”和“&lt;s3&gt;action&lt;/s3&gt;”，即使最后一个标题没有用这些标签显式标记。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024406Z" creationid="grass" creationdate="20201019T023134Z">
+        <seg>最后一个标题将具有标签“&lt;s0&gt;work&lt;/s0&gt;”、“&lt;s1&gt;boss&lt;/s1&gt;”、“&lt;s2&gt;notes&lt;/s2&gt;”和“&lt;s3&gt;action&lt;/s3&gt;”，即使最后一个标题没有用这些标签显式标签。</seg>
       </tuv>
     </tu>
     <tu>
