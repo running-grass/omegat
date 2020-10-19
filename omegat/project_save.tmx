@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_6a661c5e0" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_23349233" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -13654,8 +13654,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>The information to be shown is normally collected from all &lt;e0&gt;agenda files&lt;/e0&gt;, the files listed in the variable &lt;c1&gt;org-agenda-files&lt;/c1&gt;&lt;a2&gt;&lt;s3&gt;91&lt;/s3&gt;&lt;/a2&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T060427Z" creationid="Eli" creationdate="20201015T144428Z">
-        <seg>agenda buffer显示的信息通常来自&lt;e0&gt;agenda file&lt;/e0&gt;， 所谓agenda files 指的是变量&lt;c1&gt;org-agenda-files&lt;/c1&gt;中的文件&lt;a2&gt;&lt;s3&gt;91&lt;/s3&gt;&lt;/a2&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T141833Z" creationid="Eli" creationdate="20201015T144428Z">
+        <seg>议程缓冲区显示的信息通常来自&lt;e0&gt;agenda file&lt;/e0&gt;， 所谓agenda files 指的是变量&lt;c1&gt;org-agenda-files&lt;/c1&gt;中的文件&lt;a2&gt;&lt;s3&gt;91&lt;/s3&gt;&lt;/a2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13824,6 +13824,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051115Z" creationid="grass" creationdate="20201013T051115Z">
         <seg>变量&lt;c0&gt;org-Publish-project-ist&lt;/c0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The views are created through a dispatcher, accessible with &lt;k0&gt;M-x org-agenda&lt;/k0&gt;, or, better, bound to a global key (see &lt;a1&gt;Activation&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T142707Z" creationid="Eli" creationdate="20201019T141759Z">
+        <seg>各种议程视图都是通过一个调度程序创建的，其可以通过输入&lt;k0&gt;M-x org-agenda&lt;/k0&gt;来显示，此外，你也可以将其绑定到一个全局快捷键上（详见&lt;a1&gt;激活&lt;/a1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -41995,8 +42003,8 @@ Introduction</seg>
       <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Agenda Dispatcher&lt;/a0&gt;:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102950Z" creationid="grass" creationdate="20201014T102950Z">
-        <seg>• &lt;a0&gt;议程调度器&lt;/a0&gt;：</seg>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T141941Z" creationid="grass" creationdate="20201014T102950Z">
+        <seg>议程• &lt;a0&gt;议程调度程序&lt;/a0&gt;：</seg>
       </tuv>
     </tu>
     <tu>
