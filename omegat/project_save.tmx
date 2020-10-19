@@ -3078,8 +3078,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-,&lt;/k0&gt; (&lt;c1&gt;org-cycle-agenda-files&lt;/c1&gt;)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T133303Z" creationid="Eli" creationdate="20201016T133303Z">
-        <seg>&lt;k0&gt;C-,&lt;/k0&gt;(org-cycle-agenda-files)</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025927Z" creationid="Eli" creationdate="20201016T133303Z">
+        <seg>&lt;k0&gt;C-,&lt;/k0&gt; (&lt;c1&gt;org-cycle-agenda-files&lt;/c1&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -4262,8 +4262,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>Basically, you need a field named ‘&lt;s0&gt;anniversary&lt;/s0&gt;’ for the BBDB record which contains the date in the format ‘&lt;s1&gt;YYYY-MM-DD&lt;/s1&gt;’ or ‘&lt;s2&gt;MM-DD&lt;/s2&gt;’, followed by a space and the class of the anniversary (‘&lt;s3&gt;birthday&lt;/s3&gt;’, ‘&lt;s4&gt;wedding&lt;/s4&gt;’, or a format string).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113633Z" creationid="grass" creationdate="20201016T113633Z">
-        <seg>基本上，您需要一个名为“&lt;s0&gt;周年纪念&lt;/s0&gt;”的字段用于BBDB记录，该字段包含格式为“&lt;S1&gt;YYYY-MM-DD&lt;/S1&gt;”或“&lt;S2&gt;MM-DD&lt;/S2&gt;”的日期，后跟一个空格和周年纪念的类别(“&lt;S3&gt;生日&lt;/S3&gt;”、“&lt;S4&gt;婚礼&lt;/S4&gt;”或格式字符串)。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T030056Z" creationid="grass" creationdate="20201016T113633Z">
+        <seg>基本上，您需要一个名为“&lt;s0&gt;纪念日&lt;/s0&gt;”的字段用于BBDB记录，该字段包含格式为“&lt;s1&gt;YYYY-MM-DD&lt;/s1&gt;”或“&lt;s2&gt;MM-DD&lt;/s2&gt;”的日期，后跟一个空格和周年纪念的类别(“&lt;s3&gt;生日&lt;/s3&gt;”、“&lt;s4&gt;婚礼&lt;/s4&gt;”或格式字符串)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4440,6 +4440,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T142600Z" creationid="Eli" creationdate="20201015T142600Z">
         <seg>默认情况下，agenda buffer 会忽略被注释（详见&lt;a0&gt;行注释&lt;/a0&gt;）和归档（详见&lt;a1&gt;内部归档&lt;/a1&gt;）的条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-'</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025829Z" creationid="grass" creationdate="20201019T025829Z">
+        <seg>C-'</seg>
       </tuv>
     </tu>
     <tu>
@@ -8072,6 +8080,14 @@ $ make autoloads</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061732Z" creationid="grass" creationdate="20201015T061732Z">
         <seg>M-x org-submit-bug-report &lt;RET&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-x org-switchb</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025827Z" creationid="grass" creationdate="20201019T025827Z">
+        <seg>M-x org-switchb</seg>
       </tuv>
     </tu>
     <tu>
@@ -14022,8 +14038,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>This restriction remains in effect until removed with &lt;k0&gt;C-c C-x &gt;&lt;/k0&gt;, or by typing either &lt;k1&gt;&lt;&lt;/k1&gt; or &lt;k2&gt;&gt;&lt;/k2&gt; in the agenda dispatcher.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T140926Z" creationid="Eli" creationdate="20201016T140926Z">
-        <seg>这个限制会一直保留，直到你使用&lt;k0&gt;C-c C-x&lt;/k0&gt;命令，或是在议程调度器中按&lt;k1&gt;&gt;&lt;/k1&gt;，限制才会移除。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025917Z" creationid="grass" creationdate="20201019T025917Z">
+        <seg>此限制将一直有效，直到使用&lt;k0&gt;C-c C-x &gt;&lt;/k0&gt;删除，或通过在议程调度器中键入&lt;k1&gt;&lt;&lt;/k1&gt;或&lt;k2&gt;&gt;&lt;/k2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
