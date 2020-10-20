@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_6a661c5e0" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_23349233" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -3067,6 +3067,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt; &lt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T140054Z" creationid="Eli" creationdate="20201020T140054Z">
+        <seg>&lt;&lt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;b0&gt;Important:&lt;/b0&gt; You need to do this in a session where no ‘&lt;s1&gt;.org&lt;/s1&gt;’ file has been visited, i.e., where no Org built-in function have been loaded.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062459Z" creationid="grass" creationdate="20200927T131829Z">
@@ -3956,6 +3964,22 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After pressing &lt;k2&gt;&lt; &lt;&lt;/k2&gt;, you still need to press the character selecting the command.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T140307Z" creationid="Eli" creationdate="20201020T140254Z">
+        <seg>按下&lt;k2&gt;&lt;&lt;&lt;/k2&gt;后，您仍需要再按下一个字符来选择要执行的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After pressing &lt;k2&gt;&lt;&lt;/k2&gt;, you still need to press the character selecting the command.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T140051Z" creationid="Eli" creationdate="20201020T140051Z">
+        <seg>按下&lt;k2&gt;&lt;&lt;/k2&gt;后，您仍需要再按下一个字符来选择要执行的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After that, everything happens automatically.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112941Z" creationid="grass" creationdate="20201016T112941Z">
@@ -4552,6 +4576,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024606Z" creationid="grass" creationdate="20201019T023824Z">
         <seg>默认情况下，此列表是动态构建的，包含缓冲区&lt;a1&gt;&lt;s2&gt;53&lt;/s2&gt;&lt;/a1&gt;中当前使用的所有标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default, Org maintains only a single agenda buffer and rebuilds it each time you change the view, to make sure everything is always up to date.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T140850Z" creationid="Eli" creationdate="20201020T140850Z">
+        <seg>默认情况下，Org只会维持一个议程buffer，为使显示的内容都是最新状态，当你更改议程视图使，其内容都会自动更新。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7266,6 +7298,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If narrowing is in effect restrict to the narrowed part of the buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T135819Z" creationid="Eli" creationdate="20201020T135819Z">
+        <seg>如果当前buffer使用了聚焦命令（org-narrow-to-subtree），那么只会限制议程视图的显示范围为聚焦的部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If need be, I create a new project out of it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080239Z" creationid="grass" creationdate="20201015T080239Z">
@@ -7334,6 +7374,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T141048Z" creationid="Eli" creationdate="20201016T141048Z">
         <seg>如果在设置范围限制时有一个窗口在显示议程视图，那么新的限制会立刻生效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If there is an active region, restrict the following agenda command to the region.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T140153Z" creationid="Eli" creationdate="20201020T140153Z">
+        <seg>如果有active region,则该命令限制接下来agenda视图的显示范围为该region. </seg>
       </tuv>
     </tu>
     <tu>
@@ -7478,6 +7526,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025521Z" creationid="grass" creationdate="20201019T025502Z">
         <seg>如果将变量设置为值&lt;c6&gt;expert&lt;/c6&gt;，则甚至不会显示用于单键标签选择的特殊窗口，只有当您额外按&lt;k7&gt;C-c&lt;/k7&gt;时才会出现该窗口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you switch between views often and the build time bothers you, you can turn on sticky agenda buffers (make this the default by customizing the variable &lt;c0&gt;org-agenda-sticky&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T141246Z" creationid="Eli" creationdate="20201020T140922Z">
+        <seg>如果您经常在议程视图间切换，但是不能忍受其更新时间，那么您可以打开粘滞议程buffer（设置变量&lt;c0&gt;org-agenda-sticky&lt;/c0&gt;使其默认打开）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11334,6 +11390,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Otherwise, restrict it to the current subtree&lt;a0&gt;&lt;s1&gt;94&lt;/s1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T140230Z" creationid="Eli" creationdate="20201020T140214Z">
+        <seg>否则,限制agenda视图的范围为当前的subtree</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Outlines allow a document to be organized in a hierarchical structure, which, least for me, is the best representation of notes and thoughts.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T165748Z" creationid="grass" creationdate="20201005T132143Z">
@@ -14599,6 +14663,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Toggle sticky agenda views.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T140547Z" creationid="Eli" creationdate="20201020T140547Z">
+        <seg>开启/关闭粘滞议程视图</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Top</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T060348Z" creationid="grass" creationdate="20201015T060348Z">
@@ -15388,6 +15460,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112554Z" creationid="grass" creationdate="20201014T112554Z">
         <seg>与其他Emacs软件包一起使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With sticky agendas, the dispatcher only switches to the selected view, you need to update it by hand with &lt;k1&gt;r&lt;/k1&gt; or &lt;k2&gt;g&lt;/k2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T141500Z" creationid="Eli" creationdate="20201020T141448Z">
+        <seg>通过打开粘滞议程模式，议程调度程序只会在不同议程视图间切换而不会自动更新内容，你需要通过按&lt;k1&gt;r&lt;/k1&gt;或&lt;k2&gt;g&lt;/k2&gt;来手动更新议程视图的内容。</seg>
       </tuv>
     </tu>
     <tu>
