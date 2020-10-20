@@ -191,3 +191,4 @@ minibuffer	迷你缓冲区
 anniversary	纪念日
 see	详见
 match	匹配
+sticky	粘滞的
