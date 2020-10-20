@@ -3539,10 +3539,26 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;M-x org-agenda T&lt;/k0&gt; (&lt;c1&gt;org-todo-list&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T143450Z" creationid="Eli" creationdate="20201020T143450Z">
+        <seg>&lt;k0&gt;M-x org-agenda T&lt;/k0&gt;(&lt;c1&gt;org-todo-list&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;M-x org-agenda a&lt;/k0&gt; (&lt;c1&gt;org-agenda-list&lt;/c1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112415Z" creationid="grass" creationdate="20201016T112415Z">
         <seg>&lt;k0&gt;M-x org-agenda a&lt;/k0&gt; (&lt;c1&gt;org-agenda-list&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;M-x org-agenda t&lt;/k0&gt; (&lt;c1&gt;org-todo-list&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T142920Z" creationid="Eli" creationdate="20201020T142920Z">
+        <seg>&lt;k0&gt;M-x org-agenda t&lt;/k0&gt;(&lt;c1&gt;org-todo-list&lt;/c1&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -4600,6 +4616,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T142600Z" creationid="Eli" creationdate="20201015T142600Z">
         <seg>默认情况下，agenda buffer 会忽略被注释（详见&lt;a0&gt;行注释&lt;/a0&gt;）和归档（详见&lt;a1&gt;内部归档&lt;/a1&gt;）的条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default, this lists items with a state the is not a DONE state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T143211Z" creationid="Eli" creationdate="20201020T143211Z">
+        <seg>默认情况下，该命令会列出所有状态不是“DONE”的事项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8258,6 +8282,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063628Z" creationid="grass" creationdate="20201015T063628Z">
         <seg>与&lt;k0&gt;C-&lt;s1&gt;ret&lt;/s1&gt;&lt;/k0&gt;类似，新标题插入到当前子树之后。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Like the above, but allows selection of a specific TODO keyword.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T143641Z" creationid="Eli" creationdate="20201020T143641Z">
+        <seg>类似M-x org-agenda t，但支持选择符合特定关键字的TODO事项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12890,6 +12922,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Show the global TODO list.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T142944Z" creationid="Eli" creationdate="20201020T142944Z">
+        <seg>显示全局TODO列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Shows the document structure in a temporary buffer, where you can use the following keys to find your destination:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063114Z" creationid="grass" creationdate="20201015T063114Z">
@@ -13853,6 +13893,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The buffer is in Agenda mode, so there are commands to examine and manipulate the TODO entries directly from that buffer (see &lt;a1&gt;Agenda Commands&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T143431Z" creationid="Eli" creationdate="20201020T143431Z">
+        <seg>该buffer的主模式为Agenda mode，因此在该buffer中，许多命令可以直接检查和操作TODO事项（详见&lt;a1&gt;议程命令&lt;/a1&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The calendar displays a three-month calendar with holidays from different countries and cultures.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112856Z" creationid="grass" creationdate="20201016T112856Z">
@@ -14025,6 +14073,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095149Z" creationid="grass" creationdate="20201010T201828Z">
         <seg>全局TODO列表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The global TODO list contains all unfinished TODO items formatted and collected into a single place.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T142853Z" creationid="Eli" creationdate="20201020T142853Z">
+        <seg>全局TODO列表会将所有未完成的TODO事项整合在一起显示。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14363,6 +14419,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064953Z" creationid="grass" creationdate="20201015T064953Z">
         <seg>例如，这对于创建与要准备的一系列讲座相关的多个任务非常有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This collects the TODO items from all agenda files (see &lt;a0&gt;Agenda Views&lt;/a0&gt;) into a single buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T143054Z" creationid="Eli" creationdate="20201020T143054Z">
+        <seg>该命令会从全部议程文件中收集TODO事项，并将其显示在一个buffer中（详见&lt;a0&gt;议程视图&lt;/a0&gt;）</seg>
       </tuv>
     </tu>
     <tu>
@@ -15604,6 +15668,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T142217Z" creationid="Eli" creationdate="20201020T142217Z">
         <seg>您可以定义自己的搜索命令，并像默认命令一样，可以通过议程调度程序来执行相应命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also do this by specifying a prefix argument to &lt;k0&gt;t&lt;/k0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T143753Z" creationid="Eli" creationdate="20201020T143753Z">
+        <seg>您也可以通过在输入M-</seg>
       </tuv>
     </tu>
     <tu>
