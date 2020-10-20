@@ -5126,8 +5126,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="EN-US">
         <seg>Create a list of all TODO items (see &lt;a0&gt;Global TODO list&lt;/a0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T143545Z" creationid="Eli" creationdate="20201019T143545Z">
-        <seg>创建一个列表，其包含所有的TODO事项</seg>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T142738Z" creationid="Eli" creationdate="20201019T143545Z">
+        <seg>创建一个列表，其包含所有的TODO事项（详见&lt;a0&gt;全局TODO列表&lt;/a0&gt;）</seg>
       </tuv>
     </tu>
     <tu>
@@ -12634,6 +12634,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Custom Agenda Views&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T142600Z" creationid="Eli" creationdate="20201020T142600Z">
+        <seg>详见&lt;a0&gt;自定义议程视图&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a0&gt;Dynamic Headline Numbering&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171816Z" creationid="grass" creationdate="20201010T171816Z">
@@ -14383,6 +14391,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This includes the possibility to create extended agenda buffers that contain several blocks together, for example the weekly agenda, the global TODO list and a number of special tags matches.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T142546Z" creationid="Eli" creationdate="20201020T142546Z">
+        <seg>自定义命令有很多功能，你可以创建一个自定义的议程buffer，其包含许多不同的模块，如每周议程、所有的TODO事项和一些匹配特定标签的标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is a very wide topic, so obviously I haven’t covered everything, but I hope that explains the basics of how I use Orgmode to implement GTD.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084318Z" creationid="grass" creationdate="20201015T084318Z">
@@ -15584,6 +15600,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also define custom commands that are accessible through the dispatcher, just like the default commands.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T142217Z" creationid="Eli" creationdate="20201020T142217Z">
+        <seg>您可以定义自己的搜索命令，并像默认命令一样，可以通过议程调度程序来执行相应命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also group together tags that are mutually exclusive by using braces, as in:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024752Z" creationid="grass" creationdate="20201019T024752Z">
@@ -15706,8 +15730,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>You can toggle sticky agenda view any time with &lt;c3&gt;org-toggle-sticky-agenda&lt;/c3&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T141653Z" creationid="Eli" creationdate="20201020T141653Z">
-        <seg>通过&lt;c3&gt;org-toggle-stick-agenda&lt;/c3&gt;命令，您可以随时切换粘滞议程视图</seg>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T141715Z" creationid="Eli" creationdate="20201020T141653Z">
+        <seg>通过&lt;c3&gt;org-toggle-stick-agenda&lt;/c3&gt;命令，您可以随时切换粘滞议程视图。</seg>
       </tuv>
     </tu>
     <tu>
