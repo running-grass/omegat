@@ -15520,6 +15520,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With a numeric prefix, the Nth keyword in &lt;c2&gt;org-todo-keywords&lt;/c2&gt; is selected.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T144330Z" creationid="Eli" creationdate="20201020T144330Z">
+        <seg>如果输入该命令时输入来一个数字前缀n，那么则会选择变量&lt;c2&gt;org-todo-keywords&lt;/c2&gt;中第n个关键字进行筛选。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>With a prefix argument, file is added/moved to the end.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T132851Z" creationid="Eli" creationdate="20201016T132851Z">
@@ -15640,6 +15648,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You are prompted for a keyword, and you may also specify several keywords by separating them with ‘&lt;s1&gt;|&lt;/s1&gt;’ as the boolean OR operator.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T144145Z" creationid="Eli" creationdate="20201020T144145Z">
+        <seg>在输入完M-x org-agenda T后，您会被提示输入一个关键字，您也可以在多个关键字间加“|“来输入多个关键字。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You are prompted for the number of copies to make, and you can also specify if any timestamps in the entry should be shifted.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064948Z" creationid="grass" creationdate="20201015T064948Z">
@@ -15674,8 +15690,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>You can also do this by specifying a prefix argument to &lt;k0&gt;t&lt;/k0&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T143753Z" creationid="Eli" creationdate="20201020T143753Z">
-        <seg>您也可以通过在输入M-</seg>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T143913Z" creationid="Eli" creationdate="20201020T143753Z">
+        <seg>您也可以通过在输入M-x org-agenda t时增加一个前缀参数来达到相同的效果。该前缀参数即为您要筛选的关键字。</seg>
       </tuv>
     </tu>
     <tu>
