@@ -3555,6 +3555,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;M-x org-agenda m&lt;/k0&gt; (&lt;c1&gt;org-tags-view&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T144020Z" creationid="Eli" creationdate="20201021T144020Z">
+        <seg>&lt;k0&gt;M-x org-agenda m&lt;/k0&gt;）（&lt;c1&gt;org-tags-view&lt;/c1&gt;）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;M-x org-agenda t&lt;/k0&gt; (&lt;c1&gt;org-todo-list&lt;/c1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T142920Z" creationid="Eli" creationdate="20201020T142920Z">
@@ -5072,6 +5080,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T144622Z" creationid="Eli" creationdate="20201019T144622Z">
         <seg>可以通过设置变量org-stuck-projects来自定义停滞的项目和查找方式（详见&lt;a0&gt;停滞的项目）。&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Configure the variable &lt;c0&gt;org-agenda-todo-list-sublevels&lt;/c0&gt; to get this behavior.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T143516Z" creationid="Eli" creationdate="20201021T143516Z">
+        <seg>您可以通过设置变量&lt;c0&gt;org-agenda-todo-list-sublevels&lt;/c0&gt;来实现。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7322,6 +7338,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If headlines in the agenda files are marked with &lt;e0&gt;tags&lt;/e0&gt; (see &lt;a1&gt;Tags&lt;/a1&gt;), or have properties (see &lt;a2&gt;Properties and Columns&lt;/a2&gt;), you can select headlines based on this metadata and collect them into an agenda buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T143924Z" creationid="Eli" creationdate="20201021T143924Z">
+        <seg>如果议程文件中的headline带有标签（详见&lt;e0&gt;标签&lt;/e0&gt;）和属性（详见&lt;a1&gt;属性和列视图&lt;/a1&gt;）,则你可以根据这些元数据作为匹配条件来筛选事项.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If it was already in the list, it is moved to the front.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T132743Z" creationid="Eli" creationdate="20201016T132743Z">
@@ -7742,6 +7766,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023406Z" creationid="grass" creationdate="20201019T023335Z">
         <seg>在其他议程类型中，&lt;c2&gt;org-use-tag-inheritance&lt;/c2&gt;的设置无效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In such cases it may be enough to list only the highest level TODO headline and omit the sublevels from the global list.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T143436Z" creationid="Eli" creationdate="20201021T143436Z">
+        <seg>在这种情况下，只显示顶层的TODO标题可能就已经足够了。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12118,6 +12150,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Produce a list of all headlines that match a given set of tags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T144056Z" creationid="Eli" creationdate="20201021T144056Z">
+        <seg>筛选所有匹配给定标签的TODO标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Producing DOC, PDF files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105852Z" creationid="grass" creationdate="20201014T105852Z">
@@ -14209,6 +14249,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T131048Z" creationid="grass" creationdate="20201005T131048Z">
         <seg>该手册列出了用于访问一个功能的按键和相应的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The match syntax described here also applies when creating sparse trees with &lt;k3&gt;C-c / m&lt;/k3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T143951Z" creationid="Eli" creationdate="20201021T143951Z">
+        <seg> 这里使用的匹配规则语法与创建sparse tree（&lt;k3&gt;C-c / m&lt;/k3&gt;）时使用的语法是一样的。</seg>
       </tuv>
     </tu>
     <tu>
