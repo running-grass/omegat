@@ -7530,6 +7530,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you often need a search for a specific keyword, define a custom command for it (see &lt;a2&gt;Agenda Dispatcher&lt;/a2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T141334Z" creationid="Eli" creationdate="20201021T141334Z">
+        <seg>如果您经常要搜索某个TODO关键字，您可以写一个自定义命令来进行搜索（详见&lt;a2&gt;议程调度程序&lt;/a2&gt;）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you omit the class, it defaults to ‘&lt;s5&gt;birthday&lt;/s5&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113639Z" creationid="grass" creationdate="20201016T113639Z">
@@ -8586,6 +8594,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101723Z" creationid="grass" creationdate="20201014T101723Z">
         <seg>匹配属性值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Matching specific TODO keywords can also be done as part of a tags search (see &lt;a0&gt;Tag Searches&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T141447Z" creationid="Eli" creationdate="20201021T141447Z">
+        <seg>通过标签搜索也能匹配特定的TODO关键字（详见&lt;a0&gt;标签搜索&lt;/a0&gt;）</seg>
       </tuv>
     </tu>
     <tu>
@@ -10862,6 +10878,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Normally the global TODO list simply shows all headlines with TODO keywords.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T141953Z" creationid="Eli" creationdate="20201021T141953Z">
+        <seg>一般来说，全局TODO列表只是简单的展示所有带有TODO关键字的大纲标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Not all tasks are equal.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103339Z" creationid="grass" creationdate="20201014T103339Z">
@@ -12474,6 +12498,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Remote editing of TODO items means that you can change the state of a TODO entry with a single key press.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T141645Z" creationid="Eli" creationdate="20201021T141645Z">
+        <seg>在议程buffer可以远程编辑TODO事项，这意味着您按一次键就可以改变某TODO事项的状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Remove current file from the list of agenda files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T132941Z" creationid="Eli" creationdate="20201016T132941Z">
@@ -13006,6 +13038,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171538Z" creationid="grass" creationdate="20201010T171538Z">
         <seg>有些人觉得星号太多了，他们更喜欢在大纲中使用空格后跟着一个星号作为标题的开头。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some people view a TODO item that has been &lt;e0&gt;scheduled&lt;/e0&gt; for execution or have a &lt;e1&gt;deadline&lt;/e1&gt; (see &lt;a2&gt;Timestamps&lt;/a2&gt;) as no longer &lt;e3&gt;open&lt;/e3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T142401Z" creationid="Eli" creationdate="20201021T142401Z">
+        <seg>有人认为定期事项（有schedule属性）和有截止日期的事项（有deadline属性）不属于代办事项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13773,6 +13813,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;k0&gt;r&lt;/k0&gt; key in the agenda buffer regenerates it, and you can give a prefix argument to this command to change the selected TODO keyword, for example &lt;k1&gt;3 r&lt;/k1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T140951Z" creationid="Eli" creationdate="20201021T140951Z">
+        <seg>在议程buffer中按&lt;k0&gt;r&lt;/k0&gt;会刷新议程视图，您也可以通过一个前缀参数n筛选第n个TODO关键字，如&lt;k1&gt;3 r&lt;/k1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;k6&gt;i&lt;/k6&gt; command to insert new entries for the current date works in the agenda buffer, as well as the commands &lt;k7&gt;S&lt;/k7&gt;, &lt;k8&gt;M&lt;/k8&gt;, and &lt;k9&gt;C&lt;/k9&gt; to display Sunrise/Sunset times, show lunar phases and to convert to other calendars, respectively.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113147Z" creationid="grass" creationdate="20201016T113147Z">
@@ -13961,6 +14009,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112729Z" creationid="grass" creationdate="20201016T112729Z">
         <seg>&lt;a0&gt;议程命令&lt;/a0&gt;中列出了议程缓冲区中可用的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The commands available in the TODO list are described in &lt;a0&gt;Agenda Commands&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T141906Z" creationid="Eli" creationdate="20201021T141906Z">
+        <seg>&lt;a0&gt;议程相关命令&lt;/a0&gt;中提供了在议程buffer中的可用命令。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14339,6 +14395,14 @@ stores its records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are two ways to keep it more compact:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T142042Z" creationid="Eli" creationdate="20201021T142042Z">
+        <seg>有两种方法可以使其更加简洁紧凑。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There is a website for Org which provides links to the newest version of Org, as well as additional information, frequently asked questions (FAQ), links to tutorials, etc.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T102013Z" creationid="grass" creationdate="20200927T102013Z">
@@ -14491,6 +14555,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172129Z" creationid="grass" creationdate="20200927T081910Z">
         <seg>这是最新版本 &lt;a0&gt;Org mode&lt;/a0&gt; 的官方手册.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This list can become very long.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T142008Z" creationid="Eli" creationdate="20201021T142008Z">
+        <seg>这个列表可能会很长。</seg>
       </tuv>
     </tu>
     <tu>
