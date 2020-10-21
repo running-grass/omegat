@@ -5076,6 +5076,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Configure the variables &lt;c4&gt;org-agenda-todo-ignore-scheduled&lt;/c4&gt; to exclude some or all scheduled items from the global TODO list, &lt;c5&gt;org-agenda-todo-ignore-deadlines&lt;/c5&gt; to exclude some or all items with a deadline set, &lt;c6&gt;org-agenda-todo-ignore-timestamp&lt;/c6&gt; to exclude some or all items with an active timestamp other than a DEADLINE or a SCHEDULED timestamp and/or &lt;c7&gt;org-agenda-todo-ignore-with-date&lt;/c7&gt; to exclude items with at least one active timestamp.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T142939Z" creationid="Eli" creationdate="20201021T142939Z">
+        <seg>您可以设置变量&lt;c4&gt;org-agenda-todo-ignore-scheduled&lt;/c4&gt;来剔除部分或所有定期事项，设置变量&lt;c5&gt;org-agenda-todo-ignore-deadlines&lt;/c5&gt;来剔除部分或所有带有截止日期的事项，设置变量&lt;c6&gt;org-agenda-todo-ignore-timestamp&lt;/c6&gt;来剔除部分或所有含有除DEADLINE和SCHEDULED之外时间戳的事项，设置变量&lt;c7&gt;org-agenda-todo-ignore-with-date&lt;/c7&gt;来剔除所有含有至少一个时间戳的事项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configuring the attachment system</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102834Z" creationid="grass" creationdate="20201014T102834Z">
@@ -13044,8 +13052,8 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       <tuv lang="EN-US">
         <seg>Some people view a TODO item that has been &lt;e0&gt;scheduled&lt;/e0&gt; for execution or have a &lt;e1&gt;deadline&lt;/e1&gt; (see &lt;a2&gt;Timestamps&lt;/a2&gt;) as no longer &lt;e3&gt;open&lt;/e3&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T142401Z" creationid="Eli" creationdate="20201021T142401Z">
-        <seg>有人认为定期事项（有schedule属性）和有截止日期的事项（有deadline属性）不属于代办事项。</seg>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T142510Z" creationid="Eli" creationdate="20201021T142401Z">
+        <seg>有人认为定期事项（有schedule属性）和有截止日期（有deadline属性）的事项（详见&lt;e0&gt;时间戳&lt;/e0&gt;）不属于代办事项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13382,6 +13390,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200317Z" creationid="grass" creationdate="20201010T200317Z">
         <seg>TODO依赖关系</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TODO items may have sublevels to break up the task into subtasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T143118Z" creationid="Eli" creationdate="20201021T143118Z">
+        <seg>TODO事项可能含有多个层级，用于将一个任务分解为多个子任务。</seg>
       </tuv>
     </tu>
     <tu>
