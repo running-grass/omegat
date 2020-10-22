@@ -6480,6 +6480,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, ‘&lt;s0&gt;work+{^boss.*}&lt;/s0&gt;’ matches headlines that contain the tag ‘&lt;s1&gt;:work:&lt;/s1&gt;’ and any tag &lt;e2&gt;starting&lt;/e2&gt; with ‘&lt;s3&gt;boss&lt;/s3&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T144327Z" creationid="Eli" creationdate="20201022T144322Z">
+        <seg>举个例子，&lt;s3&gt;work+{^boss.*}&lt;/s3&gt;匹配所有带有&lt;s0&gt;:work:&lt;/s0&gt;标签和任意以&lt;s1&gt;boss&lt;/s1&gt;&lt;e2&gt;开头&lt;/e2&gt;的标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171052Z" creationid="grass" creationdate="20201010T171052Z">
@@ -6892,8 +6900,8 @@ org和许多邮件用户代理；请参阅以下各节
       <tuv lang="EN-US">
         <seg>Here are some examples, using only tags.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T143350Z" creationid="Eli" creationdate="20201022T143350Z">
-        <seg>下面是一些例子</seg>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T143408Z" creationid="Eli" creationdate="20201022T143350Z">
+        <seg>下面是一些搜索标签的例子，</seg>
       </tuv>
     </tu>
     <tu>
@@ -8050,6 +8058,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Instead of a tag, you may also specify a regular expression enclosed in curly braces.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T144013Z" creationid="Eli" creationdate="20201022T144013Z">
+        <seg>除了使用标签搜索，您也可以用带有大括号的正则表达式来筛选。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Integrating captured and flagged items.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112946Z" creationid="grass" creationdate="20201014T112946Z">
@@ -8386,6 +8402,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T141750Z" creationid="Eli" creationdate="20201022T141709Z">
         <seg>该命令和&lt;k0&gt;m&lt;/k0&gt;类似，但是只会选择标记为TODO的标题，并且强制检查子项。（详见变量&lt;c1&gt;org-tags-match-list-sublevels&lt;/c1&gt;）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Like before, but require the ‘&lt;s0&gt;laptop&lt;/s0&gt;’ lines to be tagged also ‘&lt;s1&gt;night&lt;/s1&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T143832Z" creationid="Eli" creationdate="20201022T143832Z">
+        <seg>和前者类似，但是要带有&lt;s0&gt;laptop&lt;/s0&gt;标签的标题同时带有&lt;s1&gt;night&lt;/s1&gt;标签。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12898,6 +12922,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Select headlines tagged ‘&lt;s0&gt;work&lt;/s0&gt;’, but discard those also tagged ‘&lt;s1&gt;boss&lt;/s1&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T143623Z" creationid="Eli" creationdate="20201022T143509Z">
+        <seg>搜索带有&lt;s0&gt;work&lt;/s0&gt;标签的标题，但是会剔除同时带有&lt;s1&gt;boss&lt;/s1&gt;标签的标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Select this location.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063151Z" creationid="grass" creationdate="20201015T063151Z">
@@ -12918,6 +12950,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051158Z" creationid="grass" creationdate="20201013T051158Z">
         <seg>文件选择</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Selects lines tagged ‘&lt;s0&gt;work&lt;/s0&gt;’ or ‘&lt;s1&gt;laptop&lt;/s1&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T143718Z" creationid="Eli" creationdate="20201022T143718Z">
+        <seg>选择带有&lt;s0&gt;work&lt;/s0&gt;或&lt;s1&gt;laptop&lt;/s1&gt;标签的标题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42676,6 +42716,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>‘&lt;s0&gt;+work-boss&lt;/s0&gt;’</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T143520Z" creationid="Eli" creationdate="20201022T143422Z">
+        <seg>&lt;s0&gt;+work-boss&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>‘&lt;s0&gt;ARCHIVE&lt;/s0&gt;’</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061806Z" creationid="grass" creationdate="20201015T061806Z">
@@ -42736,6 +42784,22 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061805Z" creationid="grass" creationdate="20201015T061805Z">
         <seg>‘&lt;s0&gt;boss&lt;/s0&gt;’</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>‘&lt;s0&gt;work|laptop+night&lt;/s0&gt;’</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T143738Z" creationid="Eli" creationdate="20201022T143738Z">
+        <seg>&lt;s0&gt;work | laptop+night&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>‘&lt;s0&gt;work|laptop&lt;/s0&gt;’</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T143638Z" creationid="Eli" creationdate="20201022T143638Z">
+        <seg>&lt;s0&gt;work | laptop&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
