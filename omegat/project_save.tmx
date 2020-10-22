@@ -3539,6 +3539,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;M-x org-agenda M&lt;/k0&gt; (&lt;c1&gt;org-tags-view&lt;/c1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T141403Z" creationid="Eli" creationdate="20201022T141403Z">
+        <seg>&lt;k0&gt;M-x org-agenda M&lt;/k0&gt;(&lt;c1&gt;org-tags-view&lt;/c1&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;M-x org-agenda T&lt;/k0&gt; (&lt;c1&gt;org-todo-list&lt;/c1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T143450Z" creationid="Eli" creationdate="20201020T143450Z">
@@ -3744,6 +3752,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T144234Z" creationid="Eli" creationdate="20201019T144234Z">
         <seg>使用前缀参数可以定义每次查找匹配多少行,默认为1行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A search string can use Boolean operators ‘&lt;s0&gt;&amp;&lt;/s0&gt;’ for AND and ‘&lt;s1&gt;|&lt;/s1&gt;’ for OR.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T142351Z" creationid="Eli" creationdate="20201022T142351Z">
+        <seg>搜索字符串可以使用布尔运算. `&amp;`表示`与`,`|`表示`或`.  </seg>
       </tuv>
     </tu>
     <tu>
@@ -8342,6 +8358,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Like &lt;k0&gt;m&lt;/k0&gt;, but only select headlines that are also TODO items and force checking subitems (see the variable &lt;c1&gt;org-tags-match-list-sublevels&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T141750Z" creationid="Eli" creationdate="20201022T141709Z">
+        <seg>该命令和&lt;k0&gt;m&lt;/k0&gt;类似，但是只会选择标记为TODO的标题，并且强制检查子项。（详见变量&lt;c1&gt;org-tags-match-list-sublevels&lt;/c1&gt;）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Like the above, but allows selection of a specific TODO keyword.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T143641Z" creationid="Eli" creationdate="20201020T143641Z">
@@ -8650,6 +8674,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T141447Z" creationid="Eli" creationdate="20201021T141447Z">
         <seg>通过标签搜索也能匹配特定的TODO关键字（详见&lt;a0&gt;标签搜索&lt;/a0&gt;）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Matching specific TODO keywords together with a tags match is also possible, see &lt;a3&gt;Tag Searches&lt;/a3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T142037Z" creationid="Eli" creationdate="20201022T142026Z">
+        <seg>同时匹配TODO关键字和标签也是可行的，详见&lt;a3&gt;标签搜索&lt;/a3&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14093,6 +14125,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The commands available in the tags list are described in &lt;a0&gt;Agenda Commands&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T142146Z" creationid="Eli" creationdate="20201022T142146Z">
+        <seg>要了解tags list视图中的可用命令,请参见&lt;a0&gt;议程视图中的命令&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The completion percentage you see on the screenshot is &lt;a0&gt;yet another neat feature&lt;/a0&gt; of Orgmode :)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080927Z" creationid="grass" creationdate="20201015T080927Z">
@@ -14779,6 +14819,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082506Z" creationid="grass" creationdate="20200929T082506Z">
         <seg>为此，请使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To exclude scheduled/deadline items, see the variable &lt;c2&gt;org-agenda-tags-todo-honor-ignore-options&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T141946Z" creationid="Eli" creationdate="20201022T141946Z">
+        <seg>您如果想要在搜索结果中剔除含有 Scheduled和Deadline 的事项，请参见&lt;c2&gt;org-agenda-tags-todo-honor-ignore-options&lt;/c2&gt;.</seg>
       </tuv>
     </tu>
     <tu>
