@@ -3758,8 +3758,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="EN-US">
         <seg>A search string can use Boolean operators ‘&lt;s0&gt;&amp;&lt;/s0&gt;’ for AND and ‘&lt;s1&gt;|&lt;/s1&gt;’ for OR.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T142351Z" creationid="Eli" creationdate="20201022T142351Z">
-        <seg>搜索字符串可以使用布尔运算. `&amp;`表示`与`,`|`表示`或`.  </seg>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T142649Z" creationid="Eli" creationdate="20201022T142351Z">
+        <seg>搜索过程可以使用布尔运算符. `&amp;`表示`与`,`|`表示`或`.  </seg>
       </tuv>
     </tu>
     <tu>
@@ -5736,6 +5736,22 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each element in the search is either a tag, a regular expression matching tags, or an expression like ‘&lt;s4&gt;PROPERTY OPERATOR VALUE&lt;/s4&gt;’ with a comparison operator, accessing a property value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T142927Z" creationid="Eli" creationdate="20201022T142545Z">
+        <seg>搜索过程中的每一匹配项可以是一个标签，一条匹配某个标签的正则，或是一条型如`PROPERTY OPERATOR VALUE`的表达式。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each element may be preceded by ‘&lt;s5&gt;-&lt;/s5&gt;’ to select against it, and ‘&lt;s6&gt;+&lt;/s6&gt;’ is syntactic sugar for positive selection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T143100Z" creationid="Eli" creationdate="20201022T143100Z">
+        <seg>每个匹配项之前可以附加前缀，'&lt;s5&gt;-&lt;/s5&gt;'表示不匹配，'&lt;s6&gt;+&lt;/s6&gt;'表示匹配。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each project contains actions to be performed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080710Z" creationid="grass" creationdate="20201015T080650Z">
@@ -6870,6 +6886,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113721Z" creationid="grass" creationdate="20201016T113721Z">
         <seg>以下是几个示例，文件‘&lt;s6&gt;ol-bbdb.el&lt;/s6&gt;’的标头包含更详细的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here are some examples, using only tags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T143350Z" creationid="Eli" creationdate="20201022T143350Z">
+        <seg>下面是一些例子</seg>
       </tuv>
     </tu>
     <tu>
@@ -11606,6 +11630,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Parentheses are currently not implemented.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T142426Z" creationid="Eli" creationdate="20201022T142426Z">
+        <seg>目前不能用使用括号.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Passing values down a tree.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101809Z" creationid="grass" creationdate="20201014T101809Z">
@@ -13921,6 +13953,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113147Z" creationid="grass" creationdate="20201016T113147Z">
         <seg>为当前日期插入新条目的&lt;k6&gt;I&lt;/k6&gt;命令在议程缓冲区中起作用，&lt;k7&gt;S&lt;/k7&gt;、&lt;k8&gt;M&lt;/k8&gt;和&lt;k9&gt;C&lt;/k9&gt;分别用于显示日出/日落时间、显示月相和转换为其他日历。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The AND operator ‘&lt;s7&gt;&amp;&lt;/s7&gt;’ is optional when ‘&lt;s8&gt;+&lt;/s8&gt;’ or ‘&lt;s9&gt;-&lt;/s9&gt;’ is present.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T143213Z" creationid="Eli" creationdate="20201022T143213Z">
+        <seg>在有使用'&lt;s7&gt;+&lt;/s7&gt;'或'&lt;s8&gt;-&lt;/s8&gt;'时，'&lt;s9&gt;&amp;&lt;/s9&gt;'是可选的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42696,6 +42736,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061805Z" creationid="grass" creationdate="20201015T061805Z">
         <seg>‘&lt;s0&gt;boss&lt;/s0&gt;’</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>‘&lt;s2&gt;&amp;&lt;/s2&gt;’ binds more strongly than ‘&lt;s3&gt;|&lt;/s3&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T142413Z" creationid="Eli" creationdate="20201022T142413Z">
+        <seg>`&amp;`的优先级要高于`|`,</seg>
       </tuv>
     </tu>
     <tu>
