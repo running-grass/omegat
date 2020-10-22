@@ -5724,6 +5724,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>E.g., if ‘&lt;s1&gt;work&lt;/s1&gt;’ is a group tag for the group ‘&lt;s2&gt;:work:lab:conf:&lt;/s2&gt;’, then searching for ‘&lt;s3&gt;work&lt;/s3&gt;’ also searches for ‘&lt;s4&gt;{\(?:work\|lab\|conf\)}&lt;/s4&gt;’ and searching for ‘&lt;s5&gt;-work&lt;/s5&gt;’ searches for all headlines but those with one of the tags in the group (i.e., ‘&lt;s6&gt;-{\(?:work\|lab\|conf\)}&lt;/s6&gt;’).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T145251Z" creationid="Eli" creationdate="20201022T144821Z">
+        <seg>举个例子，如果&lt;s1&gt;work&lt;/s1&gt;是一个标签组&lt;s2&gt;:work:lab:conf&lt;/s2&gt;里的标签，那么搜索&lt;s3&gt;work&lt;/s3&gt;时会同时搜索&lt;s4&gt;{\(?:work\|lab\|conf\)}&lt;/s4&gt;，搜索&lt;s5&gt;-work&lt;/s5&gt;时会搜索所有不包含在标签组（&lt;s6&gt;{\(?:work\|lab\|conf\)}&lt;/s6&gt;)中的标签的标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>EBDB comes with integration for a few other Emacs packages, including
 Org and a number of mail user agents; see the following sections below
 for details.</seg>
@@ -6766,6 +6774,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103903Z" creationid="grass" creationdate="20201014T103903Z">
         <seg>希腊字母和其他符号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Group tags (see &lt;a0&gt;Tag Hierarchy&lt;/a0&gt;) are expanded as regular expressions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T144857Z" creationid="Eli" creationdate="20201022T144728Z">
+        <seg>对标签组中标签（详见&lt;a0&gt;标签层级&lt;/a0&gt;）的检索会自动扩展为正则表达式。</seg>
       </tuv>
     </tu>
     <tu>
