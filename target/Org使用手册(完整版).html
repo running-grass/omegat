@@ -826,17 +826,17 @@ TODO扩展
 <tr><th colspan="3" align="left" valign="top"><pre class="menu-comment">
 议程视图
 
-</pre></th></tr><tr><td align="left" valign="top">• <a href="#Agenda-Files">议程文件</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">正在搜索议程信息的文件。
+</pre></th></tr><tr><td align="left" valign="top">• <a href="#Agenda-Files">议程文件</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">从哪些文件中搜索提供给agenda展示的信息
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Agenda-Dispatcher">议程调度器</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">通过键盘访问议程视图。
+<tr><td align="left" valign="top">议程• <a href="#Agenda-Dispatcher">议程调度程序</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">议程视图快捷键
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Built_002din-Agenda-Views">内置议程视图</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">开箱即用的是什么？
+<tr><td align="left" valign="top">• <a href="#Built_002din-Agenda-Views">内置议程视图</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">开箱即用的功能有哪些？
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Presentation-and-Sorting">展示和排序</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">议程项的显示方式。
+<tr><td align="left" valign="top">• <a href="#Presentation-and-Sorting">展示和排序</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">议程事项的显示方式。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Agenda-Commands">议程命令</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">远程编辑Org树。
+<tr><td align="left" valign="top">• <a href="#Agenda-Commands">议程命令</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">远程编辑原Org文件。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Custom-Agenda-Views">自定义议程视图</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">定义特殊搜索和视图。
+<tr><td align="left" valign="top">• <a href="#Custom-Agenda-Views">自定义议程视图</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">定义自定义搜索内容和显示视图。
 </td></tr>
 <tr><td align="left" valign="top">• <a href="#Exporting-Agenda-Views">导出议程视图</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">将视图写入文件。
 </td></tr>
@@ -1907,7 +1907,7 @@ $ make autoloads
 <a name="index-org_002dM_002dRET_002dmay_002dsplit_002dline"></a>
 <p>插入新标题、项或行。
 </p>
-<p>如果在行的<em>开头</em>处使用该命令，并且在光标处有标题或普通列表项(请参阅<a href="#Plain-Lists">普通列表</a>)，则在<em>当前行之前创建新的标题/项。在常规文本行的开头使用时，会将该行转换为标题。
+<p>如果在行的<em>开始</em>处使用该命令，并且在光标处有标题或普通列表项(请参阅<a href="#Plain-Lists">普通列表</a>)，则在当前行<em>之前</em>创建新的标题/项。在常规文本行的开头使用时，会将该行转换为标题。
 </p>
 <p>当在行中间使用此命令时，该行将被拆分，该行的剩余部分将成为新项或标题。如果不想拆分该行，请自定义<code>org-M-ret-May-plit-line</code>。
 </p>
@@ -5495,14 +5495,9 @@ arguments, find all TODO states, both un-done and done.
 
 </p>
 </dd>
-<dt><kbd>M-x org-agenda t</kbd> (<code>org-todo-list</code>)</dt>
+<dt><kbd>M-x org-agenda t</kbd>(<code>org-todo-list</code>)</dt>
 <dd><a name="index-t-_0028Agenda-dispatcher_0029"></a>
-<p>Show the global TODO list.  Collects the TODO items (with not-DONE
-states) from all agenda files (see <a href="#Agenda-Views">Agenda Views</a>) into a single
-buffer.  The new buffer is in Org Agenda mode, which provides
-commands to examine and manipulate the TODO entries from the new
-buffer (see <a href="#Agenda-Commands">Agenda Commands</a>).  See <a href="#Global-TODO-list">Global TODO list</a>, for more information.
-
+<p>显示全局TODO列表。Collects the TODO items (with not-DONE states) from all agenda files (see <a href="#Agenda-Views">Agenda Views</a>) into a single buffer. The new buffer is in Org Agenda mode, which provides commands to examine and manipulate the TODO entries from the new buffer (see <a href="#Agenda-Commands">Agenda Commands</a>). See <a href="#Global-TODO-list">Global TODO list</a>, for more information.
 </p>
 </dd>
 <dt><kbd>S-M-<span class="key">RET</span></kbd> (<code>org-insert-todo-heading</code>)</dt>
@@ -6562,21 +6557,10 @@ hand, use this command to get things back into sync.
 <a name="index-matching_002c-tags"></a>
 <a name="index-sparse-tree_002c-tag-based"></a>
 
-<p>An excellent way to implement labels and contexts for
-cross-correlating information is to assign <em>tags</em> to headlines.  Org
-mode has extensive support for tags.
-
+<p>实现交叉关联信息的标注和上下文的一个很好的方法是将<em>标签</em>分配给标题。Org mode对标签有广泛的支持。
 </p>
 <a name="index-org_002dtag_002dfaces"></a>
-<p>Every headline can contain a list of tags; they occur at the end of
-the headline.  Tags are normal words containing letters, numbers, ‘<samp>_</samp>’,
-and ‘<samp>@</samp>’.  Tags must be preceded and followed by a single colon, e.g.,
-‘<samp>:work:</samp>’.  Several tags can be specified, as in ‘<samp>:work:urgent:</samp>’.  Tags
-by default are in bold face with the same color as the headline.  You
-may specify special faces for specific tags using the variable
-<code>org-tag-faces</code>, in much the same way as you can for TODO keywords
-(see <a href="#Faces-for-TODO-keywords">Faces for TODO keywords</a>).
-
+<p>每个标题都可以包含一个标签列表；它们出现在标题的末尾。标签是包含字母、数字、“<samp>_</samp>”和“<samp>@</samp>”的普通单词。标签必须前后各有一个冒号，例如，“<samp>:work:</samp>”。可以指定几个标签，如“<samp>:work:ururent:</samp>”。默认情况下，标签以粗体显示，颜色与标题相同。您可以使用变量<code>org-tag-faces</code>为特定标签指定特殊的字符样式，方法与为TODO关键字指定的方式大致相同(请参阅<a href="#Faces-for-TODO-keywords">为TODO关键字设置字符样式</a>)。
 </p>
 <table class="menu" border="0" cellspacing="0">
 <tbody><tr><td align="left" valign="top">• <a href="#Tag-Inheritance" accesskey="1">标签继承</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">标签使用大纲的树形结构。
@@ -6593,7 +6577,7 @@ may specify special faces for specific tags using the variable
 <a name="Tag-Inheritance"></a>
 <div class="header">
 <p>
-下一页: <a href="#Setting-Tags" accesskey="n" rel="next">Setting Tags</a>, 返回: <a href="#Tags" accesskey="u" rel="up">Tags</a> &nbsp; [<a href="#SEC_Contents" title="目录" rel="contents">目录</a>][<a href="#Main-Index" title="主索引" rel="index">索引</a>]</p>
+下一页: <a href="#Setting-Tags" accesskey="n" rel="next">标签设置</a>, 返回: <a href="#Tags" accesskey="u" rel="up">标签</a> &nbsp; [<a href="#SEC_Contents" title="目录" rel="contents">目录</a>][<a href="#Main-Index" title="主索引" rel="index">索引</a>]</p>
 </div>
 <a name="Tag-Inheritance-1"></a>
 <h3 class="section">6.1标签继承</h3>
@@ -6602,10 +6586,7 @@ may specify special faces for specific tags using the variable
 <a name="index-inheritance_002c-of-tags"></a>
 <a name="index-sublevels_002c-inclusion-into-tags-match"></a>
 
-<p><em>Tags</em> make use of the hierarchical structure of outline trees.  If
-a heading has a certain tag, all subheadings inherit the tag as well.
-For example, in the list
-
+<p><em>标签</em>利用大纲树的层次结构。如果标题具有某个标签，则所有子标题也会继承该标签。例如，在列表中
 </p>
 <div class="example">
 <pre class="example">* Meeting with the French group      :work:
@@ -6613,11 +6594,7 @@ For example, in the list
 *** TODO Prepare slides for him      :action:
 </pre></div>
 
-<p>the final heading has the tags ‘<samp>work</samp>’, ‘<samp>boss</samp>’, ‘<samp>notes</samp>’, and ‘<samp>action</samp>’
-even though the final heading is not explicitly marked with those
-tags.  You can also set tags that all entries in a file should inherit
-just as if these tags were defined in a hypothetical level zero that
-surrounds the entire file.  Use a line like this<a name="DOCF51" href="#FOOT51"><sup>51</sup></a>
+<p>最后一个标题将具有标签“<samp>work</samp>”、“<samp>boss</samp>”、“<samp>notes</samp>”和“<samp>action</samp>”，即使最后一个标题没有用这些标签显式标签。您还可以设置文件中的所有条目都应该继承的标签，就像这些标签是在围绕整个文件的假设级别0中定义的一样。使用这样的行<a name="DOCF51" href="#FOOT51"><sup>51</sup></a>
 </p>
 <a name="index-FILETAGS_002c-keyword"></a>
 <div class="example">
@@ -6627,36 +6604,19 @@ surrounds the entire file.  Use a line like this<a name="DOCF51" href="#FOOT51">
 
 <a name="index-org_002duse_002dtag_002dinheritance"></a>
 <a name="index-org_002dtags_002dexclude_002dfrom_002dinheritance"></a>
-<p>To limit tag inheritance to specific tags, or to turn it off entirely,
-use the variables <code>org-use-tag-inheritance</code> and
-<code>org-tags-exclude-from-inheritance</code>.
-
+<p>要将标签继承限制为特定标签，或将其完全关闭，请使用变量<code>org-use-tag-inheritation</code>和<code>org-tag-exclude-from-heritation</code>。
 </p>
 <a name="index-org_002dtags_002dmatch_002dlist_002dsublevels"></a>
-<p>When a headline matches during a tags search while tag inheritance is
-turned on, all the sublevels in the same tree—for a simple match
-form—match as well<a name="DOCF52" href="#FOOT52"><sup>52</sup></a>.  The list of matches may then become
-very long.  If you only want to see the first tags match in a subtree,
-configure the variable <code>org-tags-match-list-sublevels</code> (not
-recommended).
-
+<p>如果在打开标记继承的情况下在标签搜索期间匹配标题，则同一树中的所有子级别(对于简单匹配表单)也会匹配<a name="DOCF52" href="#FOOT52"><sup>52</sup></a>。然后，匹配的列表可能会变得非常长。如果您只希望看到子树优先的标签匹配，请配置变量<code>org-tag-Match-list-subblelevel</code>(不推荐)。
 </p>
 <a name="index-org_002dagenda_002duse_002dtag_002dinheritance"></a>
-<p>Tag inheritance is relevant when the agenda search tries to match
-a tag, either in the <code>tags</code> or <code>tags-todo</code> agenda types.  In other
-agenda types, <code>org-use-tag-inheritance</code> has no effect.  Still, you may
-want to have your tags correctly set in the agenda, so that tag
-filtering works fine, with inherited tags.  Set
-<code>org-agenda-use-tag-inheritance</code> to control this: the default value
-includes all agenda types, but setting this to <code>nil</code> can really speed
-up agenda generation.
-
+<p>当议程搜索尝试匹配<code>标签</code>或<code>标签-待办事项</code>议程类型中的标签时，标签继承是相关的。在其他议程类型中，<code>org-use-tag-inheritance</code>的设置无效。不过，您可能希望在议程中正确设置标签，以便标记过滤可以很好地处理继承的标签。设置<code>org-agenda-use-tag-inheritance</code>来控制这一点：默认值包括所有议程类型，但是将其设置为<code>nil</code>可以真正加快议程生成的速度。
 </p>
 <hr>
 <a name="Setting-Tags"></a>
 <div class="header">
 <p>
-下一页: <a href="#Tag-Hierarchy" accesskey="n" rel="next">Tag Hierarchy</a>, 上一页: <a href="#Tag-Inheritance" accesskey="p" rel="prev">Tag Inheritance</a>, 返回: <a href="#Tags" accesskey="u" rel="up">Tags</a> &nbsp; [<a href="#SEC_Contents" title="目录" rel="contents">目录</a>][<a href="#Main-Index" title="主索引" rel="index">索引</a>]</p>
+下一页: <a href="#Tag-Hierarchy" accesskey="n" rel="next">标签层级</a>, 上一页: <a href="#Tag-Inheritance" accesskey="p" rel="prev">标签继承</a>, 返回: <a href="#Tags" accesskey="u" rel="up">标签</a> &nbsp; [<a href="#SEC_Contents" title="目录" rel="contents">目录</a>][<a href="#Main-Index" title="主索引" rel="index">索引</a>]</p>
 </div>
 <a name="Setting-Tags-1"></a>
 <h3 class="section">6.2设置标签</h3>
@@ -6665,10 +6625,7 @@ up agenda generation.
 <a name="index-tags_002c-setting"></a>
 
 <a name="index-M_002dTAB-2"></a>
-<p>Tags can simply be typed into the buffer at the end of a headline.
-After a colon, <kbd>M-<span class="key">TAB</span></kbd> offers completion on tags.  There is
-also a special command for inserting tags:
-
+<p>只需在缓冲区中的标题末尾键入标签即可。冒号之后，<kbd>M-<span class="key">TAB</span></kbd>提供标签的补全。还有一个用于插入标签的特殊命令：
 </p>
 <dl compact="compact">
 <dt><kbd>C-c C-q</kbd> (<code>org-set-tags-command</code>)</dt>
@@ -6676,42 +6633,26 @@ also a special command for inserting tags:
 <a name="index-org_002dset_002dtags_002dcommand"></a>
 <a name="index-completion_002c-of-tags"></a>
 <a name="index-org_002dtags_002dcolumn"></a>
-<p>Enter new tags for the current headline.  Org mode either offers
-completion or a special single-key interface for setting tags, see
-below.  After pressing <kbd><span class="key">RET</span></kbd>, the tags are inserted and
-aligned to <code>org-tags-column</code>.  When called with a <kbd>C-u</kbd>
-prefix, all tags in the current buffer are aligned to that column,
-just to make things look nice.  Tags are automatically realigned
-after promotion, demotion, and TODO state changes (see <a href="#TODO-Basics">TODO Basics</a>).
-
+<p>为当前标题输入新标签。组织模式提供完成或特殊的单键界面来设置标签，如下所示。按<kbd><span class="key">RET</span></kbd>后，将插入标签并与<code>org-tag-column</code>对齐。当使用<kbd>C-u</kbd>前缀调用时，当前缓冲区中的所有标签都与该列对齐，这只是为了让事情看起来更好看。标签在升级、降级和待办事项状态更改后自动重新对齐(请参阅<a href="#TODO-Basics">TODO基础知识</a>)。
 </p>
 </dd>
 <dt><kbd>C-c C-c</kbd> (<code>org-set-tags-command</code>)</dt>
 <dd><a name="index-C_002dc-C_002dc-7"></a>
-<p>When point is in a headline, this does the same as <kbd>C-c C-q</kbd>.
-
+<p>当光标位于标题中时，其作用与<kbd>C-c C-q</kbd>相同。
 </p></dd>
 </dl>
 
 <a name="index-org_002dcomplete_002dtags_002dalways_002doffer_002dall_002dagenda_002dtags"></a>
 <a name="index-org_002dtag_002dalist"></a>
 <a name="index-TAGS_002c-keyword"></a>
-<p>Org supports tag insertion based on a <em>list of tags</em>.  By default this
-list is constructed dynamically, containing all tags currently used in
-the buffer<a name="DOCF53" href="#FOOT53"><sup>53</sup></a>.  You may also globally specify a hard list of tags
-with the variable <code>org-tag-alist</code>.  Finally you can set the default
-tags for a given file using the ‘<samp>TAGS</samp>’ keyword, like
-
+<p>Org支持基于<em>标签列表</em>的标签插入。默认情况下，此列表是动态构建的，包含缓冲区<a name="DOCF53" href="#FOOT53"><sup>53</sup></a>中当前使用的所有标签。您还可以使用变量<code>org-tag-ist</code>全局指定标签的硬列表。最后，您可以使用“<samp>TAGS</samp>”关键字为给定文件设置默认标签，如
 </p>
 <div class="example">
 <pre class="example">#+TAGS: @work @home @tennisclub
 #+TAGS: laptop car pc sailboat
 </pre></div>
 
-<p>If you have globally defined your preferred set of tags using the
-variable <code>org-tag-alist</code>, but would like to use a dynamic tag list in
-a specific file, add an empty ‘<samp>TAGS</samp>’ keyword to that file:
-
+<p>如果您已使用变量<code>org-tag-ist</code>全局定义了首选的标签集，但希望在特定文件中使用动态标签列表，请向该文件添加空的“<samp>TAGS</samp>”关键字：
 </p>
 <div class="example">
 <pre class="example">#+TAGS:
@@ -6719,83 +6660,52 @@ a specific file, add an empty ‘<samp>TAGS</samp>’ keyword to that file:
 
 
 <a name="index-org_002dtag_002dpersistent_002dalist"></a>
-<p>If you have a preferred set of tags that you would like to use in
-every file, in addition to those defined on a per-file basis by ‘<samp>TAGS</samp>’
-keyword, then you may specify a list of tags with the variable
-<code>org-tag-persistent-alist</code>.  You may turn this off on a per-file basis
-by adding a ‘<samp>STARTUP</samp>’ keyword to that file:
-
+<p>除了由“<samp>TAGS</samp>”关键字在每个文件基础上定义的标签之外，如果您有希望在每个文件中使用的首选标签集，则可以使用变量<code>org-tag-persistent-alist</code>指定标签列表。您可以通过将“<samp>STARTUP</samp>”关键字添加到该文件来逐个文件关闭此功能：
 </p>
 <div class="example">
 <pre class="example">#+STARTUP: noptag
 </pre></div>
 
 
-<p>By default Org mode uses the standard minibuffer completion facilities
-for entering tags.  However, it also implements another, quicker, tag
-selection method called <em>fast tag selection</em>.  This allows you to
-select and deselect tags with just a single key press.  For this to
-work well you should assign unique letters to most of your commonly
-used tags.  You can do this globally by configuring the variable
-<code>org-tag-alist</code> in your Emacs init file.  For example, you may find
-the need to tag many items in different files with ‘<samp>@home</samp>’.  In this
-case you can set something like:
-
+<p>默认情况下，Org mode使用标准的迷你缓冲区完成功能来输入标签。但是，它还实现了另一种更快的标签选择方法，称为<em>快速标记选择</em>。这使您只需按一次键即可选择和取消选择标签。要使其正常工作，您应该为大多数常用的标签分配唯一的字母。您可以通过在Emacs init文件中配置变量<code>org-tag-ist</code>来全局执行此操作。例如，您可能会发现需要用“<samp>@home</samp>”标记不同文件中的许多项目。在这种情况下，您可以设置如下内容：
 </p>
 <div class="lisp">
 <pre class="lisp">(setq org-tag-alist '(("@work" . ?w) ("@home" . ?h) ("laptop" . ?l)))
 </pre></div>
 
-<p>If the tag is only relevant to the file you are working on, then you
-can instead set the ‘<samp>TAGS</samp>’ keyword as:
-
+<p>如果标签仅与您正在处理的文件相关，则可以将“<samp>TAGS</samp>”关键字设置为：
 </p>
 <div class="example">
 <pre class="example">#+TAGS: @work(w)  @home(h)  @tennisclub(t)  laptop(l)  pc(p)
 </pre></div>
 
 
-<p>The tags interface shows the available tags in a splash window.  If
-you want to start a new line after a specific tag, insert ‘<samp>\n</samp>’ into
-the tag list
-
+<p>标签界面在启动窗口中显示可用标签。如果要在特定标签后开始新行，请在标签列表中插入“<samp>\n</samp>”
 </p>
 <div class="example">
 <pre class="example">#+TAGS: @work(w) @home(h) @tennisclub(t) \n laptop(l) pc(p)
 </pre></div>
 
 
-<p>or write them in two lines:
-
+<p>或者将它们写成两行：
 </p>
 <div class="example">
 <pre class="example">#+TAGS: @work(w)  @home(h)  @tennisclub(t)
 #+TAGS: laptop(l)  pc(p)
 </pre></div>
 
-<p>You can also group together tags that are mutually exclusive by using
-braces, as in:
-
+<p>还可以使用大括号将互斥的标记组合在一起，如在以下内容中所示：
 </p>
 <div class="example">
 <pre class="example">#+TAGS: { @work(w)  @home(h)  @tennisclub(t) }  laptop(l)  pc(p)
 </pre></div>
 
 
-<p>you indicate that at most one of ‘<samp>@work</samp>’, ‘<samp>@home</samp>’, and ‘<samp>@tennisclub</samp>’
-should be selected.  Multiple such groups are allowed.
-
+<p>您指示最多应选择“<samp>@work</samp>”、“<samp>@home</samp>”和“<samp>@tennisClub</samp>”中的一个。允许多个这样的组。
 </p>
-<p>Do not forget to press <kbd>C-c C-c</kbd> with point in one of these
-lines to activate any changes.
-
+<p>不要忘记将光标放在这些行中的一行上按<kbd>C-c-c</kbd>以激活任何更改。
 </p>
-<p>To set these mutually exclusive groups in the variable
-<code>org-tags-alist</code>, you must use the dummy tags <code>:startgroup</code> and
-<code>:endgroup</code> instead of the braces.  Similarly, you can use <code>:newline</code>
-to indicate a line break.  The previous example would be set globally
-by the following configuration:
-
+<p>要在变量<code>org-tag-ist</code>中设置这些互斥的组，必须使用虚拟标签<code>:startgroup</code>和<code>:endgroup</code>，而不是大括号。同样，您可以使用<code>:newline</code>来指示换行符。前面的示例将通过以下配置进行全局设置：
 </p>
 <div class="lisp">
 <pre class="lisp">(setq org-tag-alist '((:startgroup . nil)
@@ -6805,91 +6715,53 @@ by the following configuration:
                       ("laptop" . ?l) ("pc" . ?p)))
 </pre></div>
 
-<p>If at least one tag has a selection key then pressing <kbd>C-c C-c</kbd> automatically presents you with a special interface, listing
-inherited tags, the tags of the current headline, and a list of all
-valid tags with corresponding keys<a name="DOCF54" href="#FOOT54"><sup>54</sup></a>.
-
+<p>如果至少有一个标签有选择键，则按<kbd>C-c C-c</kbd>会自动显示一个特殊界面，其中列出继承的标签、当前标题的标签以及具有相应键的所有有效标签的列表<a name="DOCF54" href="#FOOT54"><sup>54</sup></a>。
 </p>
-<p>Pressing keys assigned to tags adds or removes them from the list of
-tags in the current line.  Selecting a tag in a group of mutually
-exclusive tags turns off any other tag from that group.
-
+<p>按分配给标签的键可以在当前行的标签列表中添加或删除它们。选择一组互斥标签中的标签将关闭该组中的任何其他标签。
 </p>
-<p>In this interface, you can also use the following special keys:
-
+<p>在此界面中，您还可以使用以下专用键：
 </p>
 <dl compact="compact">
 <dt><kbd><span class="key">TAB</span></kbd></dt>
 <dd><a name="index-TAB-5"></a>
-<p>Enter a tag in the minibuffer, even if the tag is not in the
-predefined list.  You can complete on all tags present in the
-buffer.  You can also add several tags: just separate them with
-a comma.
-
+<p>在迷你缓冲区中输入标签，即使该标签不在预定义列表中也是如此。您可以补全缓冲区中存在的所有标记。您还可以添加几个标记：只需用逗号分隔它们。
 </p>
 </dd>
 <dt><kbd><span class="key">SPC</span></kbd></dt>
 <dd><a name="index-SPC"></a>
-<p>Clear all tags for this line.
-
+<p>清除此行的所有标记。
 </p>
 </dd>
 <dt><kbd><span class="key">RET</span></kbd></dt>
 <dd><a name="index-RET-2"></a>
-<p>Accept the modified set.
-
+<p>接受修改后的集合。
 </p>
 </dd>
 <dt><kbd>C-g</kbd></dt>
 <dd><a name="index-C_002dg"></a>
-<p>Abort without installing changes.
-
+<p>在不安装更改的情况下中止。
 </p>
 </dd>
 <dt><kbd>q</kbd></dt>
 <dd><a name="index-q"></a>
-<p>If <kbd>q</kbd> is not assigned to a tag, it aborts like
-<kbd>C-g</kbd>.
-
+<p>如果<kbd>q</kbd>未分配给标记，它将像<kbd>C-g</kbd>一样中止。
 </p>
 </dd>
 <dt><kbd>!</kbd></dt>
 <dd><a name="index-_0021"></a>
-<p>Turn off groups of mutually exclusive tags.  Use this to (as an
-exception) assign several tags from such a group.
-
+<p>关闭互斥标记组。使用此选项(作为例外)从这样的组中分配多个标记。
 </p>
 </dd>
 <dt><kbd>C-c</kbd></dt>
 <dd><a name="index-C_002dc-C_002dc-8"></a>
-<p>Toggle auto-exit after the next change (see below).  If you are
-using expert mode, the first <kbd>C-c</kbd> displays the selection
-window.
-
+<p>在下一次更改后切换自动退出(见下文)。如果您使用的是专家模式，则第一个<kbd>C-c</kbd>将显示选择窗口。
 </p></dd>
 </dl>
 
-<p>This method lets you assign tags to a headline with very few keys.
-With the above setup, you could clear the current tags and set
-‘<samp>@home</samp>’, ‘<samp>laptop</samp>’ and ‘<samp>pc</samp>’ tags with just the following keys:
-<kbd>C-c C-c <span class="key">SPC</span> h l p <span class="key">RET</span></kbd>.  Switching from ‘<samp>@home</samp>’ to ‘<samp>@work</samp>’
-would be done with <kbd>C-c C-c w <span class="key">RET</span></kbd> or alternatively with
-<kbd>C-c C-c C-c w</kbd>.  Adding the non-predefined tag ‘<samp>sarah</samp>’ could
-be done with <kbd>C-c C-c <span class="key">TAB</span> s a r a h <span class="key">RET</span></kbd>.
-
+<p>此方法允许您使用很少的键将标签分配给标题。使用上面的设置，您可以清除当前标签，并仅使用以下键设置‘<samp>@home</samp>’、‘<samp>Laptop</samp>’和‘<samp>pc</samp>’标记：<kbd>C-c-c<span class="key">SPC</span>h l p<span class="key">RET</span></kbd>。从“<samp>@home</samp>”切换到“<samp>@work</samp>”将使用<kbd>C-c C-c w<span class="key">RET</span></kbd>或使用<kbd>C-c w</kbd>进行切换。可以使用<kbd>C-c-c<span class="key">TAB</span>s a r a h<span class="key">ret</span></kbd>添加非预定义标签<samp>arah</samp>’。
 </p>
 <a name="index-org_002dfast_002dtag_002dselection_002dsingle_002dkey"></a>
-<p>If you find that most of the time you need only a single key press to
-modify your list of tags, set the variable
-<code>org-fast-tag-selection-single-key</code>.  Then you no longer have to press
-<kbd><span class="key">RET</span></kbd> to exit fast tag selection—it exits after the first
-change.  If you then occasionally need more keys, press <kbd>C-c</kbd>
-to turn off auto-exit for the current tag selection process (in
-effect: start selection with <kbd>C-c C-c C-c</kbd> instead of
-<kbd>C-c C-c</kbd>).  If you set the variable to the value <code>expert</code>,
-the special window is not even shown for single-key tag selection, it
-comes up only when you press an extra <kbd>C-c</kbd>.
-
+<p>如果您发现大多数情况下只需要按一次键来修改标签列表，那么可以设置变量<code>org-fast-tag-election-single-key</code>。然后，您不必再按<kbd><span class="key">RET</span></kbd>退出快速标签选择-它在第一次更改后退出。如果您偶尔需要更多键，请按<kbd>C-c</kbd>关闭当前标签选择过程的自动退出(实际上：使用<kbd>C-c-c C-c</kbd>而不是<kbd>C-c C-c</kbd>开始选择)。如果将变量设置为值<code>expert</code>，则甚至不会显示用于单键标签选择的特殊窗口，只有当您额外按<kbd>C-c</kbd>时才会出现该窗口。
 </p>
 <hr>
 <a name="Tag-Hierarchy"></a>
@@ -7061,7 +6933,7 @@ a TODO line.
 
 </p>
 </dd>
-<dt><kbd>M-x org-agenda m</kbd> (<code>org-tags-view</code>)</dt>
+<dt><kbd>M-x org-agenda m</kbd>）（<code>org-tags-view</code>）</dt>
 <dd><a name="index-m-_0028Agenda-dispatcher_0029"></a>
 <a name="index-org_002dtags_002dview"></a>
 <p>Create a global list of tag matches from all agenda files.  See
@@ -7069,7 +6941,7 @@ a TODO line.
 
 </p>
 </dd>
-<dt><kbd>M-x org-agenda M</kbd> (<code>org-tags-view</code>)</dt>
+<dt><kbd>M-x org-agenda M</kbd>(<code>org-tags-view</code>).</dt>
 <dd><a name="index-M-_0028Agenda-dispatcher_0029"></a>
 <a name="index-org_002dtags_002dmatch_002dlist_002dsublevels-1"></a>
 <p>Create a global list of tag matches from all agenda files, but check
@@ -7401,14 +7273,14 @@ a TODO line.
 
 </p>
 </dd>
-<dt><kbd>M-x org-agenda m</kbd> (<code>org-tags-view</code>)</dt>
+<dt><kbd>M-x org-agenda m</kbd>）（<code>org-tags-view</code>）</dt>
 <dd><a name="index-m-_0028Agenda-dispatcher_0029-1"></a>
 <a name="index-org_002dtags_002dview-1"></a>
 <p>Create a global list of tag/property matches from all agenda files.
 
 </p>
 </dd>
-<dt><kbd>M-x org-agenda M</kbd> (<code>org-tags-view</code>)</dt>
+<dt><kbd>M-x org-agenda M</kbd>(<code>org-tags-view</code>).</dt>
 <dd><a name="index-M-_0028Agenda-dispatcher_0029-1"></a>
 <a name="index-org_002dtags_002dmatch_002dlist_002dsublevels-2"></a>
 <p>Create a global list of tag matches from all agenda files, but check
@@ -8695,24 +8567,14 @@ any current timestamp.
 <a name="index-tasks_002c-repeated"></a>
 <a name="index-repeated-tasks"></a>
 
-<p>Some tasks need to be repeated again and again.  Org mode helps to
-organize such tasks using a so-called repeater in a ‘<samp>DEADLINE</samp>’,
-‘<samp>SCHEDULED</samp>’, or plain timestamps<a name="DOCF69" href="#FOOT69"><sup>69</sup></a>.  In the following example:
-
+<p>有些任务需要一遍又一遍地重复。Org mode为了组织这样的任务，使通过在 ‘<samp>DEADLINE</samp>’, ‘<samp>SCHEDULED</samp>’,或普通时间戳<a name="DOCF69" href="#FOOT69"><sup>69</sup></a> 上使用被称为复读机的功能。在以下示例中：
 </p>
 <div class="example">
 <pre class="example">** TODO Pay the rent
    DEADLINE: &lt;2005-10-01 Sat +1m&gt;
 </pre></div>
 
-<p>the ‘<samp>+1m</samp>’ is a repeater; the intended interpretation is that the task
-has a deadline on ‘<samp>&lt;2005-10-01&gt;</samp>’ and repeats itself every (one) month
-starting from that time.  You can use yearly, monthly, weekly, daily
-and hourly repeat cookies by using the ‘<samp>y</samp>’, ‘<samp>w</samp>’, ‘<samp>m</samp>’, ‘<samp>d</samp>’ and ‘<samp>h</samp>’
-letters.  If you need both a repeater and a special warning period in
-a deadline entry, the repeater should come first and the warning
-period last
-
+<p>“<samp>+1m</samp>”是一个复读机；预期的解释是任务的截止日期为“<samp>&lt;2005-10-01&gt;</samp>”，并从该时间开始每(一个)月重复一次。您可以通过使用“<samp>y</samp>”、“<samp>w</samp>”、“<samp>m</samp>”、“<samp>d</samp>”和“<samp>h</samp>”字母来创建每年、每月、每周、每天和每小时间隔的复读机。如果在截止日期输入中既需要复读机，又需要特殊的提醒天数，则应先有中继器，最后才有提醒天数
 </p>
 <div class="example">
 <pre class="example">DEADLINE: &lt;2005-10-01 Sat +1m -3d&gt;
@@ -8720,83 +8582,51 @@ period last
 
 
 <a name="index-org_002dtodo_002drepeat_002dto_002dstate"></a>
-<p>Deadlines and scheduled items produce entries in the agenda when they
-are over-due, so it is important to be able to mark such an entry as
-done once you have done so.  When you mark a ‘<samp>DEADLINE</samp>’ or
-a ‘<samp>SCHEDULED</samp>’ with the TODO keyword ‘<samp>DONE</samp>’, it no longer produces
-entries in the agenda.  The problem with this is, however, is that
-then also the <em>next</em> instance of the repeated entry will not be
-active.  Org mode deals with this in the following way: when you try
-to mark such an entry as done, using <kbd>C-c C-t</kbd>, it shifts the
-base date of the repeating timestamp by the repeater interval, and
-immediately sets the entry state back to TODO<a name="DOCF70" href="#FOOT70"><sup>70</sup></a>.  In the example
-above, setting the state to ‘<samp>DONE</samp>’ would actually switch the date like
-this:
-
+<p>截止日期和日程安排在过期时会在议程中生成条目，因此，一旦您这样做了，就能够将此类条目标记为已完成，这一点很重要。当你把‘<samp>DEADLINE</samp>’或‘<samp>SCHEDULED</samp>’标记为TODO关键字 ‘<samp>DONE</samp>’时，它不再在议程中生成条目。然而，这样做的问题是，重复条目的<em>下一个</em>实例也将不会处于正在进行的状态。Org mode通过以下方式处理此问题：当您尝试使用<kbd>C-c C-t</kbd>将这样的条目标记为完成时，它将重复时间戳的基准日期移位一个复读机间隔，并立即将条目状态设置回TODO<a name="DOCF70" href="#FOOT70"><sup>70</sup></a>。在上面的示例中，将状态设置为“<samp>DONE</samp>”实际上会切换日期，如下所示：
 </p>
 <div class="example">
 <pre class="example">** TODO Pay the rent
    DEADLINE: &lt;2005-11-01 Tue +1m&gt;
 </pre></div>
 
-<p>To mark a task with a repeater as DONE, use <kbd>C-- 1 C-c C-t</kbd>,
-i.e., <code>org-todo</code> with a numeric prefix argument of ‘<samp>-1</samp>’.
-
+<p>要使用复读机将任务标记为已完成，请使用<kbd>C--1C-c C-t</kbd>，即<code>org-todo</code>携带数字前缀参数‘<samp>-1</samp>’。
 </p>
 <a name="index-org_002dlog_002drepeat"></a>
-<p>A timestamp<a name="DOCF71" href="#FOOT71"><sup>71</sup></a> is added under the deadline, to keep a record that
-you actually acted on the previous instance of this deadline.
-
+<p>截止日期下面会添加一条时间戳<a name="DOCF71" href="#FOOT71"><sup>71</sup></a>，以记录您在此截止日期的上一个实例中实际操作的情况。
 </p>
-<p>As a consequence of shifting the base date, this entry is no longer
-visible in the agenda when checking past dates, but all future
-instances will be visible.
-
+<p>由于更改了基准日期，在检查过去日期时，此条目在议程中不再可见，但所有将来的实例都将可见。
 </p>
-<p>With the ‘<samp>+1m</samp>’ cookie, the date shift is always exactly one month. So if you have not paid the rent for three months, marking this entry DONE still keeps it as an overdue deadline. Depending on the task, this may not be the best way to handle it. For example, if you forgot to call your father for 3 weeks, it does not make sense to call him 3 times in a single day to make up for it. Finally, there are tasks, like changing batteries, which should always repeat a certain time <em>after</em> the last time you did it. For these tasks, Org mode has special repeaters ‘<samp>++</samp>’ and ‘<samp>.+</samp>’. 例如：
+<p>对于“<samp>+1m</samp>”，日期转换始终正好是一个月。因此，如果你已经三个月没有付房租了，标记这个条目仍然是一个逾期的最后期限。根据任务的不同，这可能不是处理它的最佳方式。例如，如果你有3个星期忘了给你父亲打电话，那么一天给他打3次电话来弥补是没有意义的。最后，还有一些任务，比如更换电池，它们应该始终在您上次操作<em>之后</em>的特定时间重复执行。对于这些任务，Org mode具有特殊的复读机“<samp>++</samp>”和“<samp>.+</samp>”。例如：
 </p>
 <div class="example">
 <pre class="example">** TODO Call Father
    DEADLINE: &lt;2008-02-10 Sun ++1w&gt;
-   Marking this DONE shifts the date by at least one week, but also
-   by as many weeks as it takes to get this date into the future.
-   However, it stays on a Sunday, even if you called and marked it
-   done on Saturday.
+   将此标记为DONE会将日期至少移动一周，
+   并且尽可能的把时间戳放到未来。
+   然而，它将停留在星期天，即使您在周六就打电话并标记了它。
+   
 
 ** TODO Empty kitchen trash
    DEADLINE: &lt;2008-02-08 Fri 20:00 ++1d&gt;
-   Marking this DONE shifts the date by at least one day, and also
-   by as many days as it takes to get the timestamp into the future.
-   Since there is a time in the timestamp, the next deadline in the
-   future will be on today's date if you complete the task before
-   20:00.
+   如果将此标记为DONE，则日期至少会移动一天，
+   并且尽可能的把时间戳放到未来。
+   由于时间戳记中有时间，因此如果您在20:00之前完成任务，
+   则将来的下一个截止日期将是今天的日期。
+   
 
 ** TODO Check the batteries in the smoke detectors
    DEADLINE: &lt;2005-11-01 Tue .+1m&gt;
-   Marking this DONE shifts the date to one month after today.
+   将此标记为DONE会将日期移至今天之后的一个月。
 
 ** TODO Wash my hands
    DEADLINE: &lt;2019-04-05 08:00 Sun .+1h&gt;
-   Marking this DONE shifts the date to exactly one hour from now.
+   如果将此标记为DONE，则日期将恰好从现在起移至一个小时后。
 </pre></div>
 
 <a name="index-org_002dagenda_002dskip_002dscheduled_002dif_002ddeadline_002dis_002dshown"></a>
-<p>You may have both scheduling and deadline information for a specific
-task.  If the repeater is set for the scheduling information only, you
-probably want the repeater to be ignored after the deadline.  If so,
-set the variable <code>org-agenda-skip-scheduled-if-deadline-is-shown</code> to
-<code>repeated-after-deadline</code>.  However, any scheduling information
-without a repeater is no longer relevant once the task is done, and
-thus, removed upon repeating the task.  If you want both scheduling
-and deadline information to repeat after the same interval, set the
-same repeater for both timestamps.
-
+<p>对于某些特定任务，您可能同时拥有日程安排和截止日期信息。如果仅为日程安排信息设置复读机，您可能希望在截止日期之后忽略复读机。如果是这样，请将变量<code>org-agenda-skip-scheduled-if-deadline-is-shown</code>设置为<code>repeat-after-deadline</code>。然而，一旦任务完成，任何没有复读机的日程安排信息都不再相关，因此在重复任务时将其删除。如果希望在同一时间间隔后同时重复日程安排和截止日期信息，请为这两个时间戳设置相同的复读机。
 </p>
-<p>An alternative to using a repeater is to create a number of copies of
-a task subtree, with dates shifted in each copy.  The command
-<kbd>C-c C-x c</kbd> was created for this purpose; it is described in
-<a href="#Structure-Editing">Structure Editing</a>.
-
+<p>使用复读机的另一种选择是创建任务子树的多个副本，每个副本中的日期都会被移动。命令<kbd>C-c C-x c</kbd>就是为此创建的；<a href="#Structure-Editing">结构编辑</a>中介绍了该命令。
 </p>
 <hr>
 <a name="Clocking-Work-Time"></a>
@@ -11201,53 +11031,37 @@ adding the same item several times.
 
 </li><li> <em>match view</em>能够根据标签、属性和TODO状态来筛选事项。
 
-</li><li> <em>text search view</em>能从多个文件查找包含关键字的全部条目。
+</li><li> <em>text search view</em>能从多个文件中查找所有包含关键字的条目。
 
-</li><li>  a <em>stuck projects view</em> showing projects that currently do not move
-along, and
+</li><li> <em>stuck projects view</em>显示所有没有下一步行动的项目。
 
-
-
-</li><li> <em>custom views</em> that are special searches and combinations of
-different views.
-
+</li><li> <em>custom views</em>可以自定义搜索,并结合多种不同的视图。
 </li></ul>
 
-<p>The extracted information is displayed in a special <em>agenda buffer</em>.
-This buffer is read-only, but provides commands to visit the
-corresponding locations in the original Org files, and even to edit
-these files remotely.
-
+<p>检索出来的信息会显示在一个特殊的<em>agenda buffer</em>中。这个 agenda buffer 是只读的，但是它提供了一些命令来访问和编辑原文件的相应内容。
 </p>
 <a name="index-org_002dagenda_002dskip_002dcomment_002dtrees"></a>
 <a name="index-org_002dagenda_002dskip_002darchived_002dtrees-1"></a>
 <a name="index-commented-entries_002c-in-agenda-views"></a>
 <a name="index-archived-entries_002c-in-agenda-views"></a>
-<p>By default, the report ignores commented (see <a href="#Comment-Lines">Comment Lines</a>) and
-archived (see <a href="#Internal-archiving">Internal archiving</a>) entries.  You can override this by
-setting <code>org-agenda-skip-comment-trees</code> and
-<code>org-agenda-skip-archived-trees</code> to <code>nil</code>.
-
+<p>默认情况下，agenda buffer 会忽略被注释（详见<a href="#Comment-Lines">行注释</a>）和归档（详见<a href="#Internal-archiving">内部归档</a>）的条目。可以通过设置<code>org-agenda-skip-comment-trees</code>和<code>org-agenda-skip-archived-trees</code>为<code>nil</code>来取消忽略。
 </p>
 <a name="index-org_002dagenda_002dwindow_002dsetup"></a>
 <a name="index-org_002dagenda_002drestore_002dwindows_002dafter_002dquit"></a>
-<p>Two variables control how the agenda buffer is displayed and whether
-the window configuration is restored when the agenda exits:
-<code>org-agenda-window-setup</code> and <code>org-agenda-restore-windows-after-quit</code>.
-
+<p>变量<code>org-agenda-window-setup</code>控制agenda buffer的显示方式，变量<code>org-agenda-restore-windows-after-quit</code>决定在退出agenda后是否恢复之前的窗口配置状态。
 </p>
 <table class="menu" border="0" cellspacing="0">
-<tbody><tr><td align="left" valign="top">• <a href="#Agenda-Files" accesskey="1">议程文件</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">正在搜索议程信息的文件。
+<tbody><tr><td align="left" valign="top">• <a href="#Agenda-Files" accesskey="1">议程文件</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">从哪些文件中搜索提供给agenda展示的信息
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Agenda-Dispatcher" accesskey="2">议程调度器</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">通过键盘访问议程视图。
+<tr><td align="left" valign="top">议程• <a href="#Agenda-Dispatcher" accesskey="2">议程调度程序</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">议程视图快捷键
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Built_002din-Agenda-Views" accesskey="3">内置议程视图</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">开箱即用的是什么？
+<tr><td align="left" valign="top">• <a href="#Built_002din-Agenda-Views" accesskey="3">内置议程视图</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">开箱即用的功能有哪些？
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Presentation-and-Sorting" accesskey="4">展示和排序</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">议程项的显示方式。
+<tr><td align="left" valign="top">• <a href="#Presentation-and-Sorting" accesskey="4">展示和排序</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">议程事项的显示方式。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Agenda-Commands" accesskey="5">议程命令</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">远程编辑Org树。
+<tr><td align="left" valign="top">• <a href="#Agenda-Commands" accesskey="5">议程命令</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">远程编辑原Org文件。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Custom-Agenda-Views" accesskey="6">自定义议程视图</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">定义特殊搜索和视图。
+<tr><td align="left" valign="top">• <a href="#Custom-Agenda-Views" accesskey="6">自定义议程视图</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">定义自定义搜索内容和显示视图。
 </td></tr>
 <tr><td align="left" valign="top">• <a href="#Exporting-Agenda-Views" accesskey="7">导出议程视图</a>：</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">将视图写入文件。
 </td></tr>
@@ -11268,34 +11082,22 @@ the window configuration is restored when the agenda exits:
 <a name="index-files-for-agenda"></a>
 
 <a name="index-org_002dagenda_002dfiles"></a>
-<p>The information to be shown is normally collected from all <em>agenda
-files</em>, the files listed in the variable <code>org-agenda-files</code><a name="DOCF91" href="#FOOT91"><sup>91</sup></a>.
-If a directory is part of this list, all files with the extension
-‘<samp>.org</samp>’ in this directory are part of the list.
-
+<p>议程缓冲区显示的信息通常来自<em>agenda file</em>， 所谓agenda files 指的是变量<code>org-agenda-files</code>中的文件<a name="DOCF91" href="#FOOT91"><sup>91</sup></a>。如果变量org-agenda-files为一个文件目录，则该目录下所有‘<samp>.org</samp>’文件都为agenda files。
 </p>
-<p>Thus, even if you only work with a single Org file, that file should
-be put into the list<a name="DOCF92" href="#FOOT92"><sup>92</sup></a>.  You can customize <code>org-agenda-files</code>,
-but the easiest way to maintain it is through the following commands
-
+<p>因此，即使你只使用一个org文件,也需要把该文件列入变量`org-agenda-files`中<a name="DOCF92" href="#FOOT92"><sup>92</sup></a>。你可以自定义<code>org-agenda-file</code>变量，但是修改它最简单的方法是通过如下命令：
 </p>
 <dl compact="compact">
-<dt><kbd>C-c [</kbd> (<code>org-agenda-file-to-front</code>)</dt>
+<dt><kbd>C-c [</kbd>(<code>org-agenda-file-to-front</code>)</dt>
 <dd><a name="index-C_002dc-_005b"></a>
 <a name="index-org_002dagenda_002dfile_002dto_002dfront"></a>
 <a name="index-files_002c-adding-to-agenda-list"></a>
-<p>Add current file to the list of agenda files.  The file is added to
-the front of the list.  If it was already in the list, it is moved
-to the front.  With a prefix argument, file is added/moved to the
-end.
-
+<p>将当前文件加入变量org-agenda files。当前文件会被添加在变量列表的首位。如果该文件已经在列表中，那么就会将它移动到首位。通过输入前缀参数，可以将所选文件添加/移动到列表尾部。
 </p>
 </dd>
-<dt><kbd>C-c ]</kbd> (<code>org-remove-file</code>)</dt>
+<dt><kbd>C-c ]</kbd>(<code>org-remove-file</code>)</dt>
 <dd><a name="index-C_002dc-_005d"></a>
 <a name="index-org_002dremove_002dfile"></a>
-<p>Remove current file from the list of agenda files.
-
+<p>将当前文件从agenda files中移除。
 </p>
 </dd>
 <dt><kbd>C-'</kbd></dt>
@@ -11304,72 +11106,44 @@ end.
 <a name="index-C_002d_002c"></a>
 <a name="index-org_002dcycle_002dagenda_002dfiles"></a>
 <a name="index-cycling_002c-of-agenda-files"></a>
-<p>Cycle through agenda file list, visiting one file after the other.
-
+<p>按照agenda文件列表(org-agenda-files)的顺序,依次浏览所有文件。
 </p>
 </dd>
 <dt><kbd>M-x org-switchb</kbd></dt>
 <dd><a name="index-org_002dswitchb"></a>
-<p>Command to use an Iswitchb-like interface to switch to and between
-Org buffers.
-
+<p>使用类似iswitchb的界面来在各org buffer之间切换.
 </p></dd>
 </dl>
 
-<p>The Org menu contains the current list of files and can be used to
-visit any of them.
-
+<p>org-switchb会列出当前agenda文件列表中的所有org文件,你可以用该菜单访问这些org文件。
 </p>
-<p>If you would like to focus the agenda temporarily on a file not in
-this list, or on just one file in the list, or even on only a subtree
-in a file, then this can be done in different ways.  For a single
-agenda command, you may press <kbd>&lt;</kbd> once or several times in
-the dispatcher (see <a href="#Agenda-Dispatcher">Agenda Dispatcher</a>).  To restrict the agenda
-scope for an extended period, use the following commands:
-
+<p>如果你想使agenda临时包括不在org-agenda-files里的文件、或是仅包括org-agenda-files里的单独某个文件，甚至是某个文件里的某个子树，你可以通过以下几种方式来完成：通过单个议程命令──在议程调度器（详见 <a href="#Agenda-Dispatcher">议程调度器</a>）里按一次或几次<kbd>&lt;</kbd>，如果想要较长时间内agenda的范围,可以使用以下命令:
 </p>
 <dl compact="compact">
-<dt><kbd>C-c C-x &lt;</kbd> (<code>org-agenda-set-restriction-lock</code>)</dt>
+<dt><kbd>C-c C-x</kbd>(<code>org-agenda-set-restriction-lock</code>)</dt>
 <dd><a name="index-C_002dc-C_002dx-_003c"></a>
 <a name="index-org_002dagenda_002dset_002drestriction_002dlock"></a>
-<p>Restrict the agenda to the current subtree.  If there already is
-a restriction at point, remove it.  When called with a universal
-prefix argument or with point before the first headline in a file,
-set the agenda scope to the entire file.  This restriction remains
-in effect until removed with <kbd>C-c C-x &gt;</kbd>, or by typing
-either <kbd>&lt;</kbd> or <kbd>&gt;</kbd> in the agenda dispatcher.  If
-there is a window displaying an agenda view, the new restriction
-takes effect immediately.
-
+<p>将agenda的范围限制在当前的子树中。如果已经限制在光标处的子树，那么就会移除限制。使用该命令时，如果附带了前缀参数，或是光标置于第一个标题之前，genda的范围被限制为整个这个文件。此限制将一直有效，直到使用<kbd>C-c C-x &gt;</kbd>删除，或通过在议程调度器中键入<kbd>&lt;</kbd>或<kbd>&gt;</kbd>。如果在设置范围限制时有一个窗口在显示议程视图，那么新的限制会立刻生效。
 </p>
 </dd>
-<dt><kbd>C-c C-x &gt;</kbd> (<code>org-agenda-remove-restriction-lock</code>)</dt>
+<dt><kbd>C-c C-x</kbd>()<code>org-agenda-remove-restriction-lock</code>)</dt>
 <dd><a name="index-C_002dc-C_002dx-_003e"></a>
 <a name="index-org_002dagenda_002dremove_002drestriction_002dlock"></a>
-<p>Remove the restriction created by <kbd>C-c C-x &lt;</kbd>.
-
+<p>移除由<kbd>C-c C-x</kbd>创建的范围限制。
 </p></dd>
 </dl>
 
-<p>When working with Speedbar, you can use the following commands in the
-Speedbar frame:
-
+<p>若你启用了speedbar,则在speedbar frame中还能使用以下命令：
 </p>
 <dl compact="compact">
-<dt><kbd>&lt;</kbd> (<code>org-speedbar-set-agenda-restriction</code>)</dt>
+<dt><kbd>&lt;</kbd>(<code>org-speedbar-set-agenda-restriction</code>)</dt>
 <dd><a name="index-org_002dspeedbar_002dset_002dagenda_002drestriction"></a>
-<p>Restrict the agenda to the item—either an Org file or a subtree in
-such a file—at point in the Speedbar frame.  If agenda is already
-restricted there, remove the restriction.  If there is a window
-displaying an agenda view, the new restriction takes effect
-immediately.
-
+<p>将agenda的范围限制在光标所在处的项──可以是org文件，也可以是文件里的子树。如果此处已经有限制，那么会移除它。如果在设置范围限制时有一个窗口在显示议程视图，那么新的限制会立刻生效。
 </p>
 </dd>
-<dt><kbd>&gt;</kbd> (<code>org-agenda-remove-restriction-lock</code>)</dt>
+<dt><kbd>&gt;</kbd>(<code>org-agenda-remove-restriction-lock</code>)</dt>
 <dd><a name="index-org_002dagenda_002dremove_002drestriction_002dlock-1"></a>
-<p>Remove the restriction.
-
+<p>移除agenda的范围限制
 </p></dd>
 </dl>
 
@@ -11385,100 +11159,61 @@ immediately.
 <a name="index-agenda-dispatcher"></a>
 <a name="index-dispatching-agenda-commands"></a>
 
-<p>The views are created through a dispatcher, accessible with <kbd>M-x org-agenda</kbd>, or, better, bound to a global key (see <a href="#Activation">Activation</a>).
-It displays a menu from which an additional letter is required to
-execute a command.  The dispatcher offers the following default
-commands:
-
+<p>各种议程视图都是通过一个调度程序创建的，其可以通过输入<kbd>M-x org-agenda</kbd>来显示，此外，更好的方式是将其绑定到一个全局快捷键上（详见<a href="#Activation">激活</a>该命令会显示一个菜单界面，在该界面输入不同的字母会执行不同的命令。议程调度程序提供了以下一些默认命令：
 </p>
 <dl compact="compact">
 <dt><kbd>a</kbd></dt>
-<dd><p>Create the calendar-like agenda (see <a href="#Weekly_002fdaily-agenda">Weekly/daily agenda</a>).
-
+<dd><p>创建类似一个类似日历风格的议程视图（详见<a href="#Weekly_002fdaily-agenda">每周/每日 议程视图</a>）。
 </p>
 </dd>
 <dt><kbd>t</kbd></dt>
 <dt><kbd>T</kbd></dt>
-<dd><p>Create a list of all TODO items (see <a href="#Global-TODO-list">Global TODO list</a>).
-
+<dd><p>创建一个列表，其包含所有的TODO事项（详见<a href="#Global-TODO-list">全局TODO列表</a>）
 </p>
 </dd>
 <dt><kbd>m</kbd></dt>
 <dt><kbd>M</kbd></dt>
-<dd><p>Create a list of headlines matching a given expression (see
-<a href="#Matching-tags-and-properties">Matching tags and properties</a>).
-
+<dd><p>创建一个列表，其包含所有匹配给定表达式的标题(headlines)(详见<a href="#Matching-tags-and-properties">匹配标签和属性</a>)
 </p>
 </dd>
 <dt><kbd>s</kbd></dt>
 <dd><a name="index-s-_0028Agenda-dispatcher_0029"></a>
-<p>Create a list of entries selected by a boolean expression of
-keywords and/or regular expressions that must or must not occur in
-the entry.
-
+<p>创建一个列表，其包含匹配/不匹配某关键字表达式/正则表达式的事项。
 </p>
 </dd>
 <dt><kbd>/</kbd></dt>
 <dd><a name="index-_002f-_0028Agenda-dispatcher_0029"></a>
 <a name="index-org_002dagenda_002dtext_002dsearch_002dextra_002dfiles"></a>
-<p>Search for a regular expression in all agenda files and additionally
-in the files listed in <code>org-agenda-text-search-extra-files</code>.  This
-uses the Emacs command <code>multi-occur</code>.  A prefix argument can be used
-to specify the number of context lines for each match, default is
-
+<p>对所有议程文件和列在<code>org-agenda-text-search-extra-files</code>里的文件内容进行正则查找。该查找通过命令<code>multi-occur</code>来实现。使用前缀参数可以定义每次查找匹配多少行,默认为1行。
 </p>
 </dd>
 <dt><kbd>#</kbd></dt>
-<dd><p>Create a list of stuck projects (see <a href="#Stuck-projects">Stuck projects</a>).
-
+<dd><p>创建一个列表，其包含所有停滞的项目(详见<a href="#Stuck-projects">停滞的项目</a>）。
 </p>
 </dd>
 <dt><kbd>!</kbd></dt>
-<dd><p>Configure the list of stuck projects (see <a href="#Stuck-projects">Stuck projects</a>).
-
+<dd><p>可以通过设置变量org-stuck-projects来自定义停滞的项目和查找方式（详见<a href="#Stuck-projects">停滞的项目）。</a>
 </p>
 </dd>
 <dt><kbd>&lt;</kbd></dt>
 <dd><a name="index-_003c-_0028Agenda-dispatcher_0029"></a>
-<p>Restrict an agenda command to the current buffer<a name="DOCF93" href="#FOOT93"><sup>93</sup></a>.  If
-narrowing is in effect restrict to the narrowed part of the buffer.
-After pressing <kbd>&lt;</kbd>, you still need to press the character
-selecting the command.
-
+<p>限定接下来调用的议程视图的显示范围为当前buffer如果当前buffer使用了聚焦命令（org-narrow-to-subtree），那么只会限制议程视图的显示范围为聚焦的部分。按下<kbd>&lt;</kbd>后，您仍需要再按下一个字符来选择要执行的命令。
 </p>
 </dd>
-<dt><kbd>&lt; &lt;</kbd></dt>
+<dt><kbd>&lt;&lt;</kbd></dt>
 <dd><a name="index-_003c-_003c-_0028Agenda-dispatcher_0029"></a>
-<p>If there is an active region, restrict the following agenda command
-to the region.  Otherwise, restrict it to the current
-subtree<a name="DOCF94" href="#FOOT94"><sup>94</sup></a>.  After pressing <kbd>&lt; &lt;</kbd>, you still need to
-press the character selecting the command.
-
+<p>如果有active region,则该命令限制接下来agenda视图的显示范围为该region. 否则,限制agenda视图的范围为当前的subtree按下<kbd>&lt;&lt;</kbd>后，您仍需要再按下一个字符来选择要执行的命令。
 </p>
 </dd>
 <dt><kbd>*</kbd></dt>
 <dd><a name="index-_002a-_0028Agenda-dispatcher_0029"></a>
 <a name="index-org_002dagenda_002dsticky"></a>
 <a name="index-org_002dtoggle_002dsticky_002dagenda"></a>
-<p>Toggle sticky agenda views.  By default, Org maintains only a single
-agenda buffer and rebuilds it each time you change the view, to make
-sure everything is always up to date.  If you switch between views
-often and the build time bothers you, you can turn on sticky agenda
-buffers (make this the default by customizing the variable
-<code>org-agenda-sticky</code>).  With sticky agendas, the dispatcher only
-switches to the selected view, you need to update it by hand with
-<kbd>r</kbd> or <kbd>g</kbd>.  You can toggle sticky agenda view any
-time with <code>org-toggle-sticky-agenda</code>.
-
+<p>开启/关闭粘滞议程视图默认情况下，Org只会维持一个议程buffer，为使显示的内容都是最新状态，当你更改议程视图使，其内容都会自动更新。如果您经常在议程视图间切换，但是不能忍受其更新时间，那么您可以打开粘滞议程buffer（设置变量<code>org-agenda-sticky</code>使其默认打开）。通过打开粘滞议程模式，议程调度程序只会在不同议程视图间切换而不会自动更新内容，你需要通过按<kbd>r</kbd>或<kbd>g</kbd>来手动更新议程视图的内容。通过<code>org-toggle-stick-agenda</code>命令，您可以随时切换粘滞议程视图。
 </p></dd>
 </dl>
 
-<p>You can also define custom commands that are accessible through the
-dispatcher, just like the default commands.  This includes the
-possibility to create extended agenda buffers that contain several
-blocks together, for example the weekly agenda, the global TODO list
-and a number of special tags matches.  See <a href="#Custom-Agenda-Views">Custom Agenda Views</a>.
-
+<p>您可以定义自己的搜索命令，并像默认命令一样，可以通过议程调度程序来执行相应命令。自定义命令有很多功能，你可以创建一个自定义的议程buffer，其包含许多不同的模块，如每周议程、所有的TODO事项和一些匹配特定标签的标题。详见<a href="#Custom-Agenda-Views">自定义议程视图</a>
 </p>
 <hr>
 <a name="Built_002din-Agenda-Views"></a>
@@ -11518,82 +11253,41 @@ and a number of special tags matches.  See <a href="#Custom-Agenda-Views">Custom
 <a name="index-weekly-agenda"></a>
 <a name="index-daily-agenda"></a>
 
-<p>The purpose of the weekly/daily <em>agenda</em> is to act like a page of
-a paper agenda, showing all the tasks for the current week or day.
-
+<p>每周/每日<em>议程</em>的目的是充当纸质议程的页面，显示当前一周或一天的所有任务。
 </p>
 <dl compact="compact">
 <dt><kbd>M-x org-agenda a</kbd> (<code>org-agenda-list</code>)</dt>
 <dd><a name="index-a-_0028Agenda-dispatcher_0029"></a>
 <a name="index-org_002dagenda_002dlist"></a>
 <a name="index-org_002dagenda_002c-command"></a>
-<p>Compile an agenda for the current week from a list of Org files.
-The agenda shows the entries for each day.  With a numeric prefix
-argument<a name="DOCF95" href="#FOOT95"><sup>95</sup></a>—like <kbd>C-u 2 1 M-x org-agenda a</kbd>—you may
-set the number of days to be displayed.
-
+<p>从Org文件列表中编译本周的议程。议程显示了每天的条目。使用数字前缀参数<a name="DOCF95" href="#FOOT95"><sup>95</sup></a>-就像<kbd>C-u 2 1M-x org-Agenda a</kbd>一样，您可以设置要显示的天数。
 </p></dd>
 </dl>
 
 <a name="index-org_002dagenda_002dspan"></a>
 <a name="index-org_002dagenda_002dstart_002dday"></a>
 <a name="index-org_002dagenda_002dstart_002don_002dweekday"></a>
-<p>The default number of days displayed in the agenda is set by the
-variable <code>org-agenda-span</code>.  This variable can be set to any number of
-days you want to see by default in the agenda, or to a span name, such
-a <code>day</code>, <code>week</code>, <code>month</code> or <code>year</code>.  For weekly agendas, the default
-is to start on the previous Monday (see
-<code>org-agenda-start-on-weekday</code>).  You can also set the start date using
-a date shift: ‘<samp>(setq org-agenda-start-day "+10d")</samp>’ starts the agenda
-ten days from today in the future.
-
+<p>议程中显示的默认天数由变量<code>org-agenda-span</code>设置。此变量可以设置为您希望在议程中默认看到的任意天数，也可以设置为范围名称，例如<code>日</code>、<code>周</code>、<code>月</code>或<code>年</code>。对于每周议程，默认情况下从上个星期一开始(请参阅<code>org-agenda-start-on-weekday</code>)。您还可以使用日期转换设置开始日期：‘<samp>(setq org-Agenda-start-day “+10d”)</samp>’从今天开始10天后开始将来的议程。
 </p>
-<p>Remote editing from the agenda buffer means, for example, that you can
-change the dates of deadlines and appointments from the agenda buffer.
-The commands available in the Agenda buffer are listed in <a href="#Agenda-Commands">Agenda Commands</a>.
-
+<p>例如，从议程缓冲区进行远程编辑意味着您可以从议程缓冲区更改截止日期和约会日期。<a href="#Agenda-Commands">议程命令</a>中列出了议程缓冲区中可用的命令。
 </p>
 <a name="Calendar_002fDiary-integration"></a><a name="Calendar_002fDiary-integration-1"></a>
-<h4 class="subsubheading">Calendar/Diary integration</h4>
+<h4 class="subsubheading">日历/日记集成</h4>
 
 <a name="index-calendar-integration"></a>
 <a name="index-diary-integration"></a>
 
-<p>Emacs contains the calendar and diary by Edward&nbsp;M.&nbsp;Reingold.  The
-calendar displays a three-month calendar with holidays from different
-countries and cultures.  The diary allows you to keep track of
-anniversaries, lunar phases, sunrise/set, recurrent appointments
-(weekly, monthly) and more.  In this way, it is quite complementary to
-Org.  It can be very useful to combine output from Org with the diary.
-
+<p>Emacs包含了Edward&nbsp;M.&nbsp;Reingold的日历和日记。该日历显示一个三个月的日历，其中包含来自不同国家和文化的假期。这本日记可以让你记录周年纪念日、农历相位、日出/日落、定期约会(每周、每月)等等。从这个意义上说，它与Org有很强的互补性。将来自Org的输出与日记相结合非常有用。
 </p>
-<p>In order to include entries from the Emacs diary into Org mode’s
-agenda, you only need to customize the variable
-
+<p>要将Emacs日记中的条目包含到Org mode的议程中，您只需自定义变量
 </p>
 <div class="lisp">
 <pre class="lisp">(setq org-agenda-include-diary t)
 </pre></div>
 
-<p>After that, everything happens automatically.  All diary entries
-including holidays, anniversaries, etc., are included in the agenda
-buffer created by Org mode.  <kbd><span class="key">SPC</span></kbd>, <kbd><span class="key">TAB</span></kbd>, and
-<kbd><span class="key">RET</span></kbd> can be used from the agenda buffer to jump to the diary
-file in order to edit existing diary entries.  The <kbd>i</kbd>
-command to insert new entries for the current date works in the agenda
-buffer, as well as the commands <kbd>S</kbd>, <kbd>M</kbd>, and
-<kbd>C</kbd> to display Sunrise/Sunset times, show lunar phases and to
-convert to other calendars, respectively.  <kbd>c</kbd> can be used to
-switch back and forth between calendar and agenda.
-
+<p>在那之后，一切都会自动发生。所有日记条目(包括节假日、周年纪念等)都包含在由Org mode创建的议程缓冲区中。<kbd><span class="key">SPC</span></kbd>, <kbd><span class="key">TAB</span></kbd>和 <kbd><span class="key">RET</span></kbd>可以从议程缓冲区跳转到日记文件，以便编辑现有的日记条目。为当前日期插入新条目的<kbd>I</kbd>命令在议程缓冲区中起作用，<kbd>S</kbd>、<kbd>M</kbd>和<kbd>C</kbd>分别用于显示日出/日落时间、显示月相和转换为其他日历。<kbd>c</kbd>可用于在日历和议程之间来回切换。
 </p>
-<p>If you are using the diary only for expression entries and holidays,
-it is faster to not use the above setting, but instead to copy or even
-move the entries into an Org file.  Org mode evaluates diary-style
-expression entries, and does it faster because there is no overhead
-for first creating the diary display.  Note that the expression
-entries must start at the left margin, no whitespace is allowed before
-them, as seen in the following segment of an Org file:<a name="DOCF96" href="#FOOT96"><sup>96</sup></a>
+<p>如果仅将日记用于表达式条目和节假日，则不使用上述设置，而是将条目复制甚至移动到Org文件中会更快。Org mode计算日记样式的表达式条目，并且计算速度更快，因为第一次创建日记显示没有开销。请注意，表达式条目必须从左边距开始，前面不允许有空格，如Org文件的以下片段所示：<a name="DOCF96" href="#FOOT96"><sup>96</sup></a>
 </p>
 <div class="example">
 <pre class="example">* Holidays
@@ -11611,18 +11305,13 @@ them, as seen in the following segment of an Org file:<a name="DOCF96" href="#FO
 </pre></div>
 
 <a name="Anniversaries-from-BBDB"></a><a name="Anniversaries-from-BBDB-1"></a>
-<h4 class="subsubheading">Anniversaries from BBDB</h4>
+<h4 class="subsubheading">来自BBDB的周年纪念</h4>
 
 <a name="index-BBDB_002c-anniversaries"></a>
 <a name="index-anniversaries_002c-from-BBDB"></a>
 
 <a name="index-org_002dbbdb_002danniversaries"></a>
-<p>If you are using the Insidious Big Brother Database to store your
-contacts, you very likely prefer to store anniversaries in BBDB rather
-than in a separate Org or diary file.  Org supports this and can show
-BBDB anniversaries as part of the agenda.  All you need to do is to
-add the following to one of your agenda files:
-
+<p>If you are using the Insidious Big Brother Database to store your contacts, you very likely prefer to store anniversaries in BBDB rather than in a separate Org or diary file. Org支持这一点，并可以将BBDB周年纪念作为议程的一部分。您只需将以下内容添加到您的一个议程文件中：
 </p>
 <div class="example">
 <pre class="example">* Anniversaries
@@ -11632,14 +11321,7 @@ add the following to one of your agenda files:
 %%(org-bbdb-anniversaries)
 </pre></div>
 
-<p>You can then go ahead and define anniversaries for a BBDB record.
-Basically, you need a field named ‘<samp>anniversary</samp>’ for the BBDB record
-which contains the date in the format ‘<samp>YYYY-MM-DD</samp>’ or ‘<samp>MM-DD</samp>’,
-followed by a space and the class of the anniversary (‘<samp>birthday</samp>’,
-‘<samp>wedding</samp>’, or a format string).  If you omit the class, it defaults to
-‘<samp>birthday</samp>’.  Here are a few examples, the header for the file
-‘<samp>ol-bbdb.el</samp>’ contains more detailed information.
-
+<p>然后，您可以继续为BBDB记录定义周年纪念。基本上，您需要一个名为“<samp>纪念日</samp>”的字段用于BBDB记录，该字段包含格式为“<samp>YYYY-MM-DD</samp>”或“<samp>MM-DD</samp>”的日期，后跟一个空格和周年纪念的类别(“<samp>生日</samp>”、“<samp>婚礼</samp>”或格式字符串)。如果省略该类，则默认为“<samp>生日</samp>”。以下是几个示例，文件‘<samp>ol-bbdb.el</samp>’的标头包含更详细的信息。
 </p>
 <div class="example">
 <pre class="example">1973-06-22
@@ -11648,17 +11330,10 @@ followed by a space and the class of the anniversary (‘<samp>birthday</samp>�
 2008-04-14 %s released version 6.01 of Org mode, %d years ago
 </pre></div>
 
-<p>After a change to BBDB, or for the first agenda display during an
-Emacs session, the agenda display suffers a short delay as Org updates
-its hash with anniversaries.  However, from then on things will be
-very fast, much faster in fact than a long list of
-‘<samp>%%(diary-anniversary)</samp>’ entries in an Org or Diary file.
-
+<p>在更改BBDB之后，或者对于Emacs会话期间的第一次议程显示，由于Org使用周年纪念更新其散列，因此议程显示会出现短暂延迟。然而，从那时起，事情将变得非常快，实际上比Org或日记文件中的‘<samp>%%(diary-anniversary)</samp>’条目的长列表要快得多。
 </p>
 <a name="index-org_002dbbdb_002danniversaries_002dfuture"></a>
-<p>If you would like to see upcoming anniversaries with a bit of
-forewarning, you can use the following instead:
-
+<p>如果你想看看即将到来的周年纪念日，并预告一下，你可以用以下几点来代替：
 </p>
 <div class="example">
 <pre class="example">* Anniversaries
@@ -11668,10 +11343,7 @@ forewarning, you can use the following instead:
 %%(org-bbdb-anniversaries-future 3)
 </pre></div>
 
-<p>That will give you three days’ warning: on the anniversary date itself
-and the two days prior.  The argument is optional: if omitted, it
-defaults to 7.
-
+<p>这将给你三天的警告：在周年纪念日和前两天。The argument is optional: if omitted, it defaults to 7.
 </p>
 <a name="Appointment-reminders"></a><a name="Appointment-reminders-1"></a>
 <h4 class="subsubheading">Appointment reminders</h4>
@@ -11704,85 +11376,43 @@ for details.
 <a name="index-global-TODO-list"></a>
 <a name="index-TODO-list_002c-global"></a>
 
-<p>The global TODO list contains all unfinished TODO items formatted and
-collected into a single place.
-
+<p>全局TODO列表会将所有未完成的TODO事项整合在一起显示。
 </p>
 <dl compact="compact">
-<dt><kbd>M-x org-agenda t</kbd> (<code>org-todo-list</code>)</dt>
+<dt><kbd>M-x org-agenda t</kbd>(<code>org-todo-list</code>)</dt>
 <dd><a name="index-t-_0028Agenda-dispatcher_0029-1"></a>
 <a name="index-org_002dtodo_002dlist"></a>
-<p>Show the global TODO list.  This collects the TODO items from all
-agenda files (see <a href="#Agenda-Views">Agenda Views</a>) into a single buffer.  By default,
-this lists items with a state the is not a DONE state.  The buffer
-is in Agenda mode, so there are commands to examine and manipulate
-the TODO entries directly from that buffer (see <a href="#Agenda-Commands">Agenda Commands</a>).
-
+<p>显示全局TODO列表。该命令会从全部议程文件中收集TODO事项，并将其显示在一个buffer中（详见<a href="#Agenda-Views">议程视图</a>）默认情况下，该命令会列出所有状态不是“DONE”的事项。该buffer的主模式为Agenda mode，因此在该buffer中，许多命令可以直接检查和操作TODO事项（详见<a href="#Agenda-Commands">议程命令</a>）。
 </p>
 </dd>
-<dt><kbd>M-x org-agenda T</kbd> (<code>org-todo-list</code>)</dt>
+<dt><kbd>M-x org-agenda T</kbd>(<code>org-todo-list</code>)</dt>
 <dd><a name="index-T-_0028Agenda-dispatcher_0029"></a>
 <a name="index-org_002dtodo_002dlist-1"></a>
 <a name="index-TODO-keyword-matching"></a>
 <a name="index-org_002dtodo_002dkeywords-2"></a>
-<p>Like the above, but allows selection of a specific TODO keyword.
-You can also do this by specifying a prefix argument to
-<kbd>t</kbd>.  You are prompted for a keyword, and you may also
-specify several keywords by separating them with ‘<samp>|</samp>’ as the boolean
-OR operator.  With a numeric prefix, the Nth keyword in
-<code>org-todo-keywords</code> is selected.
-
+<p>类似M-x org-agenda t，但支持选择符合特定关键字的TODO事项。您也可以通过在输入M-x org-agenda t时增加一个前缀参数来达到相同的效果。该前缀参数即为您要筛选的关键字。在输入完M-x org-agenda T后，Org会提示你输入一个关键字，您也可以在多个关键字间加“|“来输入多个关键字。如果输入该命令时输入来一个数字前缀n，那么则会选择变量<code>org-todo-keywords</code>中第n个关键字进行筛选。
 </p>
 <a name="index-r-1"></a>
-<p>The <kbd>r</kbd> key in the agenda buffer regenerates it, and you
-can give a prefix argument to this command to change the selected
-TODO keyword, for example <kbd>3 r</kbd>.  If you often need
-a search for a specific keyword, define a custom command for it (see
-<a href="#Agenda-Dispatcher">Agenda Dispatcher</a>).
-
+<p>在议程buffer中按<kbd>r</kbd>会刷新议程视图，您也可以通过一个前缀参数n筛选第n个TODO关键字，如<kbd>3 r</kbd>. 如果您经常要搜索某个TODO关键字，您可以写一个自定义命令来进行搜索（详见<a href="#Agenda-Dispatcher">议程调度程序</a>）
 </p>
-<p>Matching specific TODO keywords can also be done as part of a tags
-search (see <a href="#Tag-Searches">Tag Searches</a>).
-
+<p>通过标签搜索也能匹配特定的TODO关键字（详见<a href="#Tag-Searches">标签搜索</a>）
 </p></dd>
 </dl>
 
-<p>Remote editing of TODO items means that you can change the state of
-a TODO entry with a single key press.  The commands available in the
-TODO list are described in <a href="#Agenda-Commands">Agenda Commands</a>.
-
+<p>在议程buffer可以远程编辑TODO事项，这意味着您按一次键就可以改变某TODO事项的状态。<a href="#Agenda-Commands">议程相关命令</a>中提供了在议程buffer中的可用命令。
 </p>
 <a name="index-sublevels_002c-inclusion-into-TODO-list"></a>
-<p>Normally the global TODO list simply shows all headlines with TODO
-keywords.  This list can become very long.  There are two ways to keep
-it more compact:
-
+<p>一般来说，全局TODO列表只是简单的展示所有带有TODO关键字的大纲标题。这个列表可能会很长。有两种方法可以使其更加简洁紧凑。
 </p>
 <ul>
 <li> <a name="index-org_002dagenda_002dtodo_002dignore_002dscheduled"></a>
 <a name="index-org_002dagenda_002dtodo_002dignore_002ddeadlines"></a>
 <a name="index-org_002dagenda_002dtodo_002dignore_002dtimestamp"></a>
 <a name="index-org_002dagenda_002dtodo_002dignore_002dwith_002ddate"></a>
-
-Some people view a TODO item that has been <em>scheduled</em> for execution
-or have a <em>deadline</em> (see <a href="#Timestamps">Timestamps</a>) as no longer <em>open</em>.
-Configure the variables <code>org-agenda-todo-ignore-scheduled</code> to
-exclude some or all scheduled items from the global TODO list,
-<code>org-agenda-todo-ignore-deadlines</code> to exclude some or all items with
-a deadline set, <code>org-agenda-todo-ignore-timestamp</code> to exclude some
-or all items with an active timestamp other than a DEADLINE or
-a SCHEDULED timestamp and/or <code>org-agenda-todo-ignore-with-date</code> to
-exclude items with at least one active timestamp.
-
-
+有人认为定期事项（有schedule属性）和有截止日期（有deadline属性）的事项（详见<em>时间戳</em>）不属于代办事项。您可以设置变量<code>org-agenda-todo-ignore-scheduled</code>来剔除部分或所有定期事项，设置变量<code>org-agenda-todo-ignore-deadlines</code>来剔除部分或所有带有截止日期的事项，设置变量<code>org-agenda-todo-ignore-timestamp</code>来剔除部分或所有含有除DEADLINE和SCHEDULED之外时间戳的事项，设置变量<code>org-agenda-todo-ignore-with-date</code>来剔除所有含有至少一个时间戳的事项。
 
 </li><li> <a name="index-org_002dagenda_002dtodo_002dlist_002dsublevels-1"></a>
-
-TODO items may have sublevels to break up the task into subtasks.
-In such cases it may be enough to list only the highest level TODO
-headline and omit the sublevels from the global list.  Configure the
-variable <code>org-agenda-todo-list-sublevels</code> to get this behavior.
-
+TODO事项可能含有多个层级，用于将一个任务分解为多个子任务。在这种情况下，只显示顶层的TODO标题可能就已经足够了。您可以通过设置变量<code>org-agenda-todo-list-sublevels</code>来实现。
 </li></ul>
 
 <hr>
@@ -11799,87 +11429,48 @@ variable <code>org-agenda-todo-list-sublevels</code> to get this behavior.
 <a name="index-tags-view"></a>
 <a name="index-match-view"></a>
 
-<p>If headlines in the agenda files are marked with <em>tags</em> (see <a href="#Tags">Tags</a>),
-or have properties (see <a href="#Properties-and-Columns">Properties and Columns</a>), you can select
-headlines based on this metadata and collect them into an agenda
-buffer.  The match syntax described here also applies when creating
-sparse trees with <kbd>C-c / m</kbd>.
-
+<p>如果议程文件中的headline带有标签（详见<em>标签</em>）和属性（详见<a href="#Tags">属性和列视图</a>）,则你可以根据这些元数据作为匹配条件来筛选事项.  这里使用的匹配规则语法与创建sparse tree（<kbd>C-c / m</kbd>）时使用的语法是一样的。
 </p>
 <dl compact="compact">
-<dt><kbd>M-x org-agenda m</kbd> (<code>org-tags-view</code>)</dt>
+<dt><kbd>M-x org-agenda m</kbd>）（<code>org-tags-view</code>）</dt>
 <dd><a name="index-m-_0028Agenda-dispatcher_0029-2"></a>
 <a name="index-org_002dtags_002dview-2"></a>
-<p>Produce a list of all headlines that match a given set of tags.  The
-command prompts for a selection criterion, which is a boolean logic
-expression with tags, like ‘<samp>+work+urgent-withboss</samp>’ or ‘<samp>work|home</samp>’
-(see <a href="#Tags">Tags</a>).  If you often need a specific search, define a custom
-command for it (see <a href="#Agenda-Dispatcher">Agenda Dispatcher</a>).
-
+<p>筛选所有匹配给定标签的TODO标题。该命令会提示你输入筛选条件，该条件可使用布尔表达式，如“<samp>+word+urgent-withboss</samp>”或"<samp>work | home</samp>"（详见 <a href="#Tags">标签</a>）。如果您经常需要搜索某个特定的标签，您可以自定义一个命令专门进行搜索（详见 <a href="#Agenda-Dispatcher">议程调度程序</a>）。
 </p>
 </dd>
-<dt><kbd>M-x org-agenda M</kbd> (<code>org-tags-view</code>)</dt>
+<dt><kbd>M-x org-agenda M</kbd>(<code>org-tags-view</code>).</dt>
 <dd><a name="index-M-_0028Agenda-dispatcher_0029-2"></a>
 <a name="index-org_002dtags_002dview-3"></a>
 <a name="index-org_002dtags_002dmatch_002dlist_002dsublevels-3"></a>
 <a name="index-org_002dagenda_002dtags_002dtodo_002dhonor_002dignore_002doptions"></a>
-<p>Like <kbd>m</kbd>, but only select headlines that are also TODO
-items and force checking subitems (see the variable
-<code>org-tags-match-list-sublevels</code>).  To exclude scheduled/deadline
-items, see the variable <code>org-agenda-tags-todo-honor-ignore-options</code>.
-Matching specific TODO keywords together with a tags match is also
-possible, see <a href="#Tag-Searches">Tag Searches</a>.
-
+<p>该命令和<kbd>m</kbd>类似，但是只会选择标记为TODO的标题，并且强制检查子项。（详见变量<code>org-tags-match-list-sublevels</code>）您如果想要在搜索结果中剔除含有 Scheduled和Deadline 的事项，请参见<code>org-agenda-tags-todo-honor-ignore-options</code>. 同时匹配TODO关键字和标签也是可行的，详见<a href="#Tag-Searches">标签搜索</a>。
 </p></dd>
 </dl>
 
-<p>The commands available in the tags list are described in <a href="#Agenda-Commands">Agenda Commands</a>.
-
+<p>要了解tags list视图中的可用命令,请参见<a href="#Agenda-Commands">议程视图中的命令</a>。
 </p>
 <a name="index-boolean-logic_002c-for-agenda-searches"></a>
-<p>A search string can use Boolean operators ‘<samp>&amp;</samp>’ for AND and ‘<samp>|</samp>’ for OR.
-‘<samp>&amp;</samp>’ binds more strongly than ‘<samp>|</samp>’.  Parentheses are currently not
-implemented.  Each element in the search is either a tag, a regular
-expression matching tags, or an expression like ‘<samp>PROPERTY OPERATOR
-VALUE</samp>’ with a comparison operator, accessing a property value.  Each
-element may be preceded by ‘<samp>-</samp>’ to select against it, and ‘<samp>+</samp>’ is
-syntactic sugar for positive selection.  The AND operator ‘<samp>&amp;</samp>’ is
-optional when ‘<samp>+</samp>’ or ‘<samp>-</samp>’ is present.  Here are some examples, using
-only tags.
-
+<p>搜索过程可以使用布尔运算符. `&amp;`表示`与`,`|`表示`或`.  `&amp;`的优先级要高于`|`,目前不能用使用括号. 搜索过程中的每一匹配项可以是一个标签，一条匹配某个标签的正则，或是一条型如`PROPERTY OPERATOR VALUE`的表达式。 每个匹配项之前可以附加前缀，'<samp>-</samp>'表示不匹配，'<samp>+</samp>'表示匹配。在有使用'<samp>+</samp>'或'<samp>-</samp>'时，'<samp>&amp;</samp>'是可选的。下面是一些搜索标签的例子，
 </p>
 <dl compact="compact">
-<dt>‘<samp>+work-boss</samp>’</dt>
-<dd><p>Select headlines tagged ‘<samp>work</samp>’, but discard those also tagged
-‘<samp>boss</samp>’.
-
+<dt><samp>+work-boss</samp></dt>
+<dd><p>搜索带有<samp>work</samp>标签的标题，但是会剔除同时带有<samp>boss</samp>标签的标题。
 </p>
 </dd>
-<dt>‘<samp>work|laptop</samp>’</dt>
-<dd><p>Selects lines tagged ‘<samp>work</samp>’ or ‘<samp>laptop</samp>’.
-
+<dt><samp>work | laptop</samp></dt>
+<dd><p>选择带有<samp>work</samp>或<samp>laptop</samp>标签的标题。
 </p>
 </dd>
-<dt>‘<samp>work|laptop+night</samp>’</dt>
-<dd><p>Like before, but require the ‘<samp>laptop</samp>’ lines to be tagged also
-‘<samp>night</samp>’.
-
+<dt><samp>work | laptop+night</samp></dt>
+<dd><p>和前者类似，但是要带有<samp>laptop</samp>标签的标题同时带有<samp>night</samp>标签。
 </p></dd>
 </dl>
 
 <a name="index-regular-expressions_002c-with-tags-search"></a>
-<p>Instead of a tag, you may also specify a regular expression enclosed
-in curly braces.  For example, ‘<samp>work+{^boss.*}</samp>’ matches headlines that
-contain the tag ‘<samp>:work:</samp>’ and any tag <em>starting</em> with ‘<samp>boss</samp>’.
-
+<p>除了使用标签搜索，您也可以用带有大括号的正则表达式来筛选。举个例子，<samp>work+{^boss.*}</samp>匹配所有带有<samp>:work:</samp>标签和任意以<samp>boss</samp><em>开头</em>的标签。
 </p>
 <a name="index-group-tags_002c-as-regular-expressions"></a>
-<p>Group tags (see <a href="#Tag-Hierarchy">Tag Hierarchy</a>) are expanded as regular expressions.
-E.g., if ‘<samp>work</samp>’ is a group tag for the group ‘<samp>:work:lab:conf:</samp>’, then
-searching for ‘<samp>work</samp>’ also searches for ‘<samp>{\(?:work\|lab\|conf\)}</samp>’ and
-searching for ‘<samp>-work</samp>’ searches for all headlines but those with one of
-the tags in the group (i.e., ‘<samp>-{\(?:work\|lab\|conf\)}</samp>’).
-
+<p>对标签组中标签（详见<a href="#Tag-Hierarchy">标签层级</a>）的检索会自动扩展为正则表达式。举个例子，如果<samp>work</samp>是一个标签组<samp>:work:lab:conf</samp>里的标签，那么搜索<samp>work</samp>时会同时搜索<samp>{\(?:work\|lab\|conf\)}</samp>，搜索<samp>-work</samp>时会搜索所有不包含在标签组（<samp>{\(?:work\|lab\|conf\)}</samp>)中的标签的标题。
 </p>
 <a name="index-TODO-keyword-matching_002c-with-tags-search"></a>
 <a name="index-level_002c-for-tags_002fproperty-match"></a>
@@ -12939,7 +12530,7 @@ agenda.
 
 </p>
 </dd>
-<dt><kbd>C-c C-x &gt;</kbd> (<code>org-agenda-remove-restriction-lock</code>)</dt>
+<dt><kbd>C-c C-x</kbd>()<code>org-agenda-remove-restriction-lock</code>)</dt>
 <dd><a name="index-C_002dc-C_002dx-_003e-1"></a>
 <a name="index-org_002dagenda_002dremove_002drestriction_002dlock-2"></a>
 <p>Remove the restriction lock on the agenda, if it is currently
@@ -19514,7 +19105,7 @@ itself does not appear in the structure of the document.
 
   This is a short example of a complete Texinfo file, version 1.0.
 
-  Copyright \copy 2016 Free Software Foundation, Inc.
+  版权所有©2016自由软件基金会
 </pre></div>
 
 <hr>
@@ -19909,7 +19500,7 @@ This manual is for GNU Sample (version {{{version}}},
   This manual is for GNU Sample (version {{{version}}},
   {{{updated}}}), which is an example in the Texinfo documentation.
 
-  Copyright \copy 2016 Free Software Foundation, Inc.
+  版权所有©2016自由软件基金会
 
   #+BEGIN_QUOTE
   Permission is granted to copy, distribute and/or modify this
