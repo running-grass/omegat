@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_23349233" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.2_0_6a661c5e0" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -3101,8 +3101,8 @@ management software, start by calling the command ~ebdb-open~.</seg>
       <tuv lang="EN-US">
         <seg>&lt;c0&gt;someday.org&lt;/c0&gt;: All inactive tasks that I might do at some point in the future, but don’t want to see all the time;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075535Z" creationid="grass" creationdate="20201015T075535Z">
-        <seg>&lt;c0&gt;ome eday.org&lt;/c0&gt;：所有我可能在将来某个时候完成但不想一直看到的非当前活动任务；</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201105T045831Z" creationid="grass" creationdate="20201015T075535Z">
+        <seg>&lt;c0&gt;someday.org&lt;/c0&gt;：所有我可能在将来某个时候完成但不想一直看到的非当前活动任务；</seg>
       </tuv>
     </tu>
     <tu>
@@ -8216,8 +8216,8 @@ on your load path.</seg>
       <tuv lang="EN-US">
         <seg>It’s important to add these files to the agenda file (more on the agenda later), like the following:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075557Z" creationid="grass" creationdate="20201015T075557Z">
-        <seg>将这些文件添加到议程文件(稍后将详细介绍议程)非常重要，如下所示：</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201105T045937Z" creationid="grass" creationdate="20201015T075557Z">
+        <seg>将这些文件添加到议程文件非常重要(稍后将详细介绍议程)，如下所示：</seg>
       </tuv>
     </tu>
     <tu>
