@@ -6402,8 +6402,8 @@ org和许多邮件用户代理；请参阅以下各节
       <tuv lang="EN-US">
         <seg>Following the GTD principle, what I usually want is to only show the &lt;e0&gt;first action to be done&lt;/e0&gt; (or next action) for each project with the &lt;c1&gt;@office&lt;/c1&gt; tag.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083018Z" creationid="grass" creationdate="20201015T082853Z">
-        <seg>遵循GTD原则，我通常希望使用&lt;c1&gt;@办公室&lt;/c1&gt;标签为每个项目仅显示要完成的&lt;e0&gt;首要行动&lt;/e0&gt;(或下一步行动)。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201105T050944Z" creationid="grass" creationdate="20201015T082853Z">
+        <seg>遵循GTD原则，我通常希望使用&lt;c1&gt;@office&lt;/c1&gt;标签为每个项目仅显示要完成的&lt;e0&gt;首要行动&lt;/e0&gt;(或下一步行动)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6940,8 +6940,8 @@ org和许多邮件用户代理；请参阅以下各节
       <tuv lang="EN-US">
         <seg>Here’s an example custom agenda command that will display all actions for the &lt;c0&gt;@office&lt;/c0&gt; context:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T082814Z" creationid="grass" creationdate="20201015T082814Z">
-        <seg>下面是一个自定义议程命令示例，它将显示&lt;c0&gt;@办公室&lt;/c0&gt;上下文的所有行动：</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201105T050914Z" creationid="grass" creationdate="20201015T082814Z">
+        <seg>下面是一个自定义议程命令示例，它将显示&lt;c0&gt;@office&lt;/c0&gt;上下文的所有行动：</seg>
       </tuv>
     </tu>
     <tu>
@@ -11040,8 +11040,8 @@ on your load path.</seg>
       <tuv lang="EN-US">
         <seg>Note that Orgmode is quite smart about how you can enter a date, if you don’t know about it, refer to the &lt;a2&gt;manual entry&lt;/a2&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081919Z" creationid="grass" creationdate="20201015T081919Z">
-        <seg>请注意，Orgmode在如何输入日期方面非常聪明，如果您不知道日期，请参阅&lt;a2&gt;使用手册&lt;/a2&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201105T050812Z" creationid="grass" creationdate="20201015T081919Z">
+        <seg>请注意，Orgmode在如何输入日期方面非常聪明，如果你不会使用，请参阅&lt;a2&gt;使用手册&lt;/a2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14479,8 +14479,8 @@ databases, which hold and persist records.</seg>
       <tuv lang="EN-US">
         <seg>The reason is simple: unless an entry is an appointment (to the dentist for instance) or has a fixed deadline (a release scheduled with a customer), I should decide what to work on depending on the current context (among other things).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081710Z" creationid="grass" creationdate="20201015T081710Z">
-        <seg>原因很简单：除非条目是预约的(例如，去看牙医)，或者有固定的截止日期(与客户安排的发布)，否则我应该根据当前的上下文(以及其他事情)来决定要做什么。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201105T050704Z" creationid="grass" creationdate="20201015T081710Z">
+        <seg>原因很简单：除非条目是预约的(例如去看牙医)，或者有固定的截止日期(与客户安排的发布)，否则我应该根据当前的上下文(以及其他事情)来决定要做什么。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14905,8 +14905,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>To do that, press &lt;c0&gt;C-c C-s&lt;/c0&gt; on an entry, and enter the date and/or time.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081745Z" creationid="grass" creationdate="20201015T081745Z">
-        <seg>为此，请条目上按&lt;c0&gt;C-c C-s&lt;/c0&gt;，然后输入日期或时间。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201105T050759Z" creationid="grass" creationdate="20201015T081745Z">
+        <seg>为此，请在条目上按&lt;c0&gt;C-c C-s&lt;/c0&gt;，然后输入日期或时间。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15546,8 +15546,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>When deciding what to work on, I use either &lt;a0&gt;sparse trees&lt;/a0&gt; – which makes it easy to filter the content of my GTD projects by tag, search term, etc., or I use &lt;a1&gt;custom agenda commands&lt;/a1&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T082017Z" creationid="grass" creationdate="20201015T081948Z">
-        <seg>当决定要处理什么时，我使用&lt;a0&gt;稀疏树&lt;/a0&gt;-这使得通过标签、搜索词等过滤我的GTD项目内容变得很容易，或者我使用&lt;a1&gt;自定义议程命令&lt;/a1&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201105T050901Z" creationid="grass" creationdate="20201015T081948Z">
+        <seg>当决定要处理什么时，我会使用&lt;a0&gt;稀疏树&lt;/a0&gt;——这使得通过标签、搜索词等过滤我的GTD项目内容变得很容易，或者我使用&lt;a1&gt;自定义议程命令&lt;/a1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
