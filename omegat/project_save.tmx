@@ -11144,8 +11144,8 @@ on your load path.</seg>
       <tuv lang="EN-US">
         <seg>Once you’re done capturing, &lt;c1&gt;C-c C-c&lt;/c1&gt; and it will get stored in the inbox.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075720Z" creationid="grass" creationdate="20201015T075720Z">
-        <seg>一旦您完成捕获，&lt;c1&gt;C-c-c&lt;/c1&gt;它将存储在收件箱中。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201105T050249Z" creationid="grass" creationdate="20201015T075720Z">
+        <seg>一旦您完成捕获，使用&lt;c1&gt;C-c C-c&lt;/c1&gt;将它存储在收件箱中。</seg>
       </tuv>
     </tu>
     <tu>
