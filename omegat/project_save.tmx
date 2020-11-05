@@ -4062,8 +4062,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="EN-US">
         <seg>All reference documents are put in a &lt;c0&gt;references&lt;/c0&gt; folder next to my Orgmode files.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084214Z" creationid="grass" creationdate="20201015T084047Z">
-        <seg>所有参考文档都放在我的Orgmode文件旁边的&lt;c0&gt;references&lt;/c0&gt;文件夹中。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201105T051201Z" creationid="grass" creationdate="20201015T084047Z">
+        <seg>所有引用文件都放在我的Orgmode文件旁边的&lt;c0&gt;references&lt;/c0&gt;文件夹中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5686,8 +5686,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="EN-US">
         <seg>During each weekly review, I move projects back and forth between the “active” state (in &lt;c0&gt;gtd.org&lt;/c0&gt;) and “later” state (in &lt;c1&gt;someday.org&lt;/c1&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083625Z" creationid="grass" creationdate="20201015T083619Z">
-        <seg>在每周评审期间，我在“正在进行”状态(在&lt;c0&gt;gtd.org&lt;/c0&gt;中)和“稍后”状态(在&lt;c1&gt;someday.org&lt;/c1&gt;中)之间来回移动项目。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201105T051012Z" creationid="grass" creationdate="20201015T083619Z">
+        <seg>在每周审查期间，我在“正在进行”状态(在&lt;c0&gt;gtd.org&lt;/c0&gt;中)和“将来/也许”状态(在&lt;c1&gt;someday.org&lt;/c1&gt;中)之间来回移动项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12556,8 +12556,8 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       <tuv lang="EN-US">
         <seg>References</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084202Z" creationid="grass" creationdate="20201010T194746Z">
-        <seg>参考文档</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201105T051155Z" creationid="grass" creationdate="20201010T194746Z">
+        <seg>引用文件</seg>
       </tuv>
     </tu>
     <tu>
