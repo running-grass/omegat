@@ -193,3 +193,5 @@ see	详见
 match	匹配
 sticky	粘滞的
 References	引用文件
+Editor	编辑器
+Emacs	Emacs
