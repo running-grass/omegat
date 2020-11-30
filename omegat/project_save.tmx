@@ -4348,6 +4348,22 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>At the top of the frame is a &lt;e0&gt;menu bar&lt;/e0&gt;, which allows you to access commands via a series of menus.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113924Z" creationid="grass" creationdate="20201130T113924Z">
+        <seg>窗体顶部有一个&lt;e0&gt;菜单栏&lt;/e0&gt;，允许您通过一系列菜单访问命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At the very bottom of the frame is an &lt;e2&gt;echo area&lt;/e2&gt;, where informative messages are displayed and where you enter information when Emacs asks for it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114232Z" creationid="grass" creationdate="20201130T114232Z">
+        <seg>在窗体的最底部是&lt;e2&gt;回显区&lt;/e2&gt;，在此显示信息性消息，并在Emacs要求输入信息时在其中输入信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Attach files to outlines.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102527Z" creationid="grass" creationdate="20201014T102527Z">
@@ -5868,6 +5884,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T143100Z" creationid="Eli" creationdate="20201022T143100Z">
         <seg>每个匹配项之前可以附加前缀，'&lt;s5&gt;-&lt;/s5&gt;'表示不匹配，'&lt;s6&gt;+&lt;/s6&gt;'表示匹配。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each frame consists of several distinct regions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113913Z" creationid="grass" creationdate="20201130T113853Z">
+        <seg>每个窗体由几个不同的区域组成。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8468,6 +8492,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T180140Z" creationid="grass" creationdate="20201010T175125Z">
         <seg>对于在由稀疏树命令(请参阅&lt;a0&gt;稀疏树&lt;/a0&gt;)或议程命令(请参阅&lt;a1&gt;议程命令&lt;/a1&gt;)暴露出来的位置操作时，它非常有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It normally starts out with just one frame, but you can create additional frames if you wish (see &lt;a1&gt;Frames&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113905Z" creationid="grass" creationdate="20201130T113848Z">
+        <seg>它通常只从一个窗体开始，但如果您愿意，也可以创建其他窗体(请参阅&lt;a1&gt;窗体&lt;/a1&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11424,6 +11456,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082212Z" creationid="grass" creationdate="20200929T082212Z">
         <seg>通常，一个小的示例文件会有所帮助，同时提供以下方面的清晰信息：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On a graphical display, directly below the menu bar is a &lt;e1&gt;tool bar&lt;/e1&gt;, a row of icons that perform editing commands when you click on them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113955Z" creationid="grass" creationdate="20201130T113955Z">
+        <seg>在图形显示器上，菜单栏正下方是&lt;e1&gt;工具栏&lt;/e1&gt;，这是一行图标，当您单击它们时，它们会执行编辑命令。</seg>
       </tuv>
     </tu>
     <tu>
