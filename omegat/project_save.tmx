@@ -6744,6 +6744,20 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Free Software Foundation
+51 Franklin Street, Fifth Floor
+Boston, MA 02110-1301
+USA</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T083421Z" creationid="grass" creationdate="20201130T083359Z">
+        <seg>自由软件基金会
+富兰克林大街51号，五楼
+马萨诸塞州波士顿，邮编：02110-1301.
+美国</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>From TODO to DONE in steps.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101113Z" creationid="grass" creationdate="20201014T101113Z">
@@ -7766,6 +7780,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054042Z" creationid="grass" creationdate="20201016T054042Z">
         <seg>如果在截止日期输入中既需要复读机，又需要特殊的提醒天数，则应先有中继器，最后才有提醒天数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you need to contact the Free Software Foundation, see &lt;a0&gt;https://www.fsf.org/about/contact/&lt;/a0&gt;, or write to</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T083348Z" creationid="grass" creationdate="20201130T083348Z">
+        <seg>如果您需要联系自由软件基金会，请参阅&lt;a0&gt;https://www.fsf.org/about/contact/&lt;/a0&gt;，或写信给</seg>
       </tuv>
     </tu>
     <tu>
@@ -42904,6 +42926,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T080518Z" creationid="grass" creationdate="20201130T080518Z">
         <seg>https://shop.fsf.org/product/emacs-manual/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://www.fsf.org/about/contact/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T083319Z" creationid="grass" creationdate="20201130T083319Z">
+        <seg>https://www.fsf.org/about/contact/</seg>
       </tuv>
     </tu>
     <tu>
