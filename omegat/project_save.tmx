@@ -15749,6 +15749,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We call Emacs &lt;e0&gt;advanced&lt;/e0&gt; because it can do much more than simple insertion and deletion of text.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T112729Z" creationid="grass" creationdate="20201130T112729Z">
+        <seg>我们称Emacs&lt;e0&gt;高级&lt;/e0&gt;是因为它不只是简单地插入和删除文本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Weekly/daily agenda</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201822Z" creationid="grass" creationdate="20201010T201822Z">
