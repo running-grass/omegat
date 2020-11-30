@@ -310,6 +310,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(The ‘&lt;s0&gt;G&lt;/s0&gt;’ in &lt;a1&gt;GNU&lt;/a1&gt; (GNU’s Not Unix) is not silent.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T093115Z" creationid="grass" creationdate="20201130T093115Z">
+        <seg>(&lt;a1&gt;GNU&lt;/a1&gt;(GNU’s Not Unix)中的“&lt;s0&gt;G&lt;/s0&gt;”是发声的。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(a) The FSF’s Back-Cover Text is: “You have the freedom to copy and
 modify this GNU manual.”
 #+END_QUOTE
@@ -6818,8 +6826,8 @@ USA</seg>
       <tuv lang="EN-US">
         <seg>GNU’s Not Unix</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T092558Z" creationid="grass" creationdate="20201130T092558Z">
-        <seg>GNU不是Unix</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T093016Z" creationid="grass" creationdate="20201130T092558Z">
+        <seg>GNU’s Not Unix</seg>
       </tuv>
     </tu>
     <tu>
