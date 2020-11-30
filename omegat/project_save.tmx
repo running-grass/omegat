@@ -4740,6 +4740,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, the cursor in the selected window is drawn as a solid block and appears to be &lt;e0&gt;on&lt;/e0&gt; a character, but you should think of point as &lt;e1&gt;between&lt;/e1&gt; two characters; it is situated &lt;e2&gt;before&lt;/e2&gt; the character under the cursor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T120151Z" creationid="grass" creationdate="20201130T120151Z">
+        <seg>默认情况下，所选窗口中的光标绘制为实心框，并在字符&lt;/e0&gt;上&lt;e0&gt;显示，但您应将光标视为两个字符&lt;e1&gt;之间&lt;e1&gt;的点；它位于光标&lt;/e2&gt;下&lt;e2&gt;的字符之前。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, the report ignores commented (see &lt;a0&gt;Comment Lines&lt;/a0&gt;) and archived (see &lt;a1&gt;Internal archiving&lt;/a1&gt;) entries.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T142600Z" creationid="Eli" creationdate="20201015T142600Z">
@@ -9008,6 +9016,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055429Z" creationid="grass" creationdate="20201013T055429Z">
         <seg>使条目对计划有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Many Emacs commands move point to different places in the buffer; for example, you can place point by clicking mouse button 1 (normally the left button) at the desired location.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T115934Z" creationid="grass" creationdate="20201130T115851Z">
+        <seg>许多Emacs命令将指针移动到缓冲区中的不同位置；例如，您可以通过单击鼠标键1(通常是左键)将光标放在所需位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14775,6 +14791,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080927Z" creationid="grass" creationdate="20201015T080927Z">
         <seg>您在屏幕截图上看到的完成百分比是&lt;a0&gt;Orgmode的另一个出色的功能&lt;/a0&gt;：)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The cursor in the selected window shows the location where most editing commands take effect, which is called &lt;e0&gt;point&lt;/e0&gt;&lt;a1&gt;&lt;s2&gt;2&lt;/s2&gt;&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T115847Z" creationid="grass" creationdate="20201130T115847Z">
+        <seg>选定窗口中的光标是大多数编辑命令生效的位置，称为&lt;e0&gt;光标&lt;/e0&gt;&lt;a1&gt;&lt;s2&gt;2&lt;/s2&gt;&lt;/a1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
