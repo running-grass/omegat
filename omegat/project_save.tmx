@@ -8386,8 +8386,8 @@ USA</seg>
       <tuv lang="EN-US">
         <seg>Introduction</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075422Z" creationid="grass" creationdate="20201015T075422Z">
-        <seg>引言</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113315Z" creationid="grass" creationdate="20201015T075422Z">
+        <seg>简介</seg>
       </tuv>
     </tu>
     <tu>
@@ -13200,6 +13200,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;Preface&lt;/a1&gt; in &lt;c2&gt;An Introduction to Programming in Emacs Lisp&lt;/c2&gt;, if you want to learn Emacs Lisp programming.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113454Z" creationid="grass" creationdate="20201130T113256Z">
+        <seg>如果您想学习Emacs Lisp编程，请参阅&lt;c2&gt;Emacs Lisp编程入门&lt;/c2&gt;中的&lt;a1&gt;序言&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a2&gt;Help&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T112922Z" creationid="grass" creationdate="20201130T112922Z">
@@ -16346,6 +16354,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103107Z" creationid="grass" creationdate="20201014T103107Z">
         <seg>将视图写入文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Writing an extension is programming, but non-programmers can use it afterwards.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113206Z" creationid="grass" creationdate="20201130T113206Z">
+        <seg>编写扩展就是编程，但非程序员可以在之后使用它。</seg>
       </tuv>
     </tu>
     <tu>
