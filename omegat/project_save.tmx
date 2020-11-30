@@ -3139,6 +3139,22 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;e0&gt;Customizable&lt;/e0&gt; means that you can easily alter the behavior of Emacs commands in simple ways.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T112931Z" creationid="grass" creationdate="20201130T112931Z">
+        <seg>&lt;e0&gt;可自定义&lt;/e0&gt;意味着您可以通过简单的方式轻松地更改Emacs命令的行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;Extensible&lt;/e0&gt; means that you can go beyond simple customization and create entirely new commands.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113047Z" creationid="grass" creationdate="20201130T113047Z">
+        <seg>&lt;e0&gt;可扩展&lt;/e0&gt;意味着您可以超越简单的自定义，创建全新的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;e0&gt;Global cycling&lt;/e0&gt;: Rotate the entire buffer among the states</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T174029Z" creationid="grass" creationdate="20201010T174029Z">
@@ -6128,6 +6144,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Existing commands can even be redefined in the middle of an editing session, without having to restart Emacs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113055Z" creationid="grass" creationdate="20201130T113055Z">
+        <seg>甚至可以在编辑会话过程中重新定义现有命令，而不必重新启动Emacs。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Export Settings</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202808Z" creationid="grass" creationdate="20201010T202808Z">
@@ -6620,6 +6644,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083652Z" creationid="grass" creationdate="20201015T083652Z">
         <seg>例如，如果一个项目已经前进到某个点，但我知道由于某种原因它会停滞几周，我会将其移到&lt;c0&gt;someday.org&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance, if you use a programming language in which comments start with ‘&lt;s1&gt;&lt;**&lt;/s1&gt;’ and end with ‘&lt;s2&gt;**&gt;&lt;/s2&gt;’, you can tell the Emacs comment manipulation commands to use those strings (see &lt;a3&gt;Comments&lt;/a3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T112953Z" creationid="grass" creationdate="20201130T112953Z">
+        <seg>例如，如果您使用的编程语言的注释以“&lt;s1&gt;&lt;**&lt;/s1&gt;”开始，以“&lt;s2&gt;**&gt;&lt;/s2&gt;”结束，则可以告诉Emacs注释操作命令使用这些字符串(请参见&lt;a3&gt;注释&lt;/a3&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9036,6 +9068,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Most of the editing commands in Emacs are written in Lisp; the few exceptions could have been written in Lisp but use C instead for efficiency.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113200Z" creationid="grass" creationdate="20201130T113200Z">
+        <seg>Emacs中的大多数编辑命令都是用Lisp编写的；少数例外可能是用Lisp编写的，但为了提高效率改用C语言实现。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Most users will simply activate Org and begin exploring its many features.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T125802Z" creationid="grass" creationdate="20200927T125802Z">
@@ -9152,6 +9192,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070109Z" creationid="grass" creationdate="20201015T065844Z">
         <seg>将缓冲区聚焦到当前子树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New commands are simply programs written in the Lisp language, which are run by Emacs’s own Lisp interpreter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113052Z" creationid="grass" creationdate="20201130T113052Z">
+        <seg>新命令只是用Lisp语言编写的程序，由Emacs自己的Lisp解释器运行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13152,10 +13200,26 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a2&gt;Help&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T112922Z" creationid="grass" creationdate="20201130T112922Z">
+        <seg>请参阅&lt;a2&gt;帮助&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a3&gt;Copying&lt;/a3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082406Z" creationid="grass" creationdate="20201130T082406Z">
         <seg>请参阅&lt;A3&gt;复制&lt;/A3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a4&gt;Customization&lt;/a4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113026Z" creationid="grass" creationdate="20201130T113026Z">
+        <seg>请参阅&lt;a4&gt;自定义&lt;/a4&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15345,6 +15409,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132031Z" creationid="grass" creationdate="20201006T132031Z">
         <seg>为了简化此过程，可以使用以下特殊命令：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To take another example, you can rebind the basic cursor motion commands (up, down, left and right) to any keys on the keyboard that you find comfortable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113018Z" creationid="grass" creationdate="20201130T113018Z">
+        <seg>再举一个例子，您可以将基本光标移动命令(上、下、左和右)重新绑定到键盘上您觉得舒服的任何键上。</seg>
       </tuv>
     </tu>
     <tu>
@@ -43038,6 +43110,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T080514Z" creationid="grass" creationdate="20201130T080514Z">
         <seg>https://www.gnu.org/software/emacs/manual/emacs.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://www.gnu.org/software/emacs/manual/html_mono/eintr.html#Top</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113037Z" creationid="grass" creationdate="20201130T113037Z">
+        <seg>https://www.gnu.org/software/emacs/manual/html_mono/eintr.html#Top</seg>
       </tuv>
     </tu>
     <tu>
