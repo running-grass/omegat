@@ -12252,6 +12252,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Point</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T115808Z" creationid="grass" creationdate="20201130T115808Z">
+        <seg>光标</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Point must be on a headline for this to work&lt;a0&gt;&lt;s1&gt;4&lt;/s1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T173951Z" creationid="grass" creationdate="20201010T173951Z">
