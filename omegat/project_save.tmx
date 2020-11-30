@@ -3147,6 +3147,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;e0&gt;Self-documenting&lt;/e0&gt; means that at any time you can use special commands, known as &lt;e1&gt;help commands&lt;/e1&gt;, to find out what your options are, or to find out what any command does, or to find all the commands that pertain to a given topic.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T112917Z" creationid="grass" creationdate="20201130T112917Z">
+        <seg>&lt;e0&gt;自文档&lt;/e0&gt;意味着您可以随时使用称为&lt;e1&gt;帮助命令&lt;/e1&gt;的特殊命令来找出您的选项是什么，或者找出任何命令的作用，或者查找与给定主题相关的所有命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;e0&gt;Subtree cycling&lt;/e0&gt;: Rotate current subtree among the states</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T173608Z" creationid="grass" creationdate="20201010T173444Z">
@@ -5928,6 +5936,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Emacs editing commands operate in terms of characters, words, lines, sentences, paragraphs, and pages, as well as expressions and comments in various programming languages.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T112752Z" creationid="grass" creationdate="20201130T112752Z">
+        <seg>Emacs编辑命令根据字符、单词、行、句子、段落和页面以及各种编程语言的表达式和注释进行操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Emacs is one of the most widely ported programs, so that Org mode is available on every major platform.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T101914Z" creationid="grass" creationdate="20200927T101914Z">
@@ -8380,6 +8396,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112922Z" creationid="grass" creationdate="20201016T112922Z">
         <seg>将来自Org的输出与日记相结合非常有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It can control subprocesses, indent programs automatically, show multiple files at once, edit remote files like they were local files, and more.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T112744Z" creationid="grass" creationdate="20201130T112744Z">
+        <seg>它可以控制子进程，自动缩进程序，一次显示多个文件，编辑远程文件，就像编辑本地文件一样，等等。</seg>
       </tuv>
     </tu>
     <tu>
