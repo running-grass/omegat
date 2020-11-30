@@ -6818,8 +6818,8 @@ USA</seg>
       <tuv lang="EN-US">
         <seg>GNU’s Not Unix</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T091742Z" creationid="grass" creationdate="20201130T091742Z">
-        <seg>[TencentCloudSDKException]message:java.net.SocketException-Can't connect to SOCKS proxy:Connection refused (Connection refused) requestId:</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T092558Z" creationid="grass" creationdate="20201130T092558Z">
+        <seg>GNU不是Unix</seg>
       </tuv>
     </tu>
     <tu>
@@ -16282,6 +16282,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064948Z" creationid="grass" creationdate="20201015T064948Z">
         <seg>系统会提示您输入要制作的副本数量，您还可以指定条目中的任何时间戳是否应该移位。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You are reading about GNU Emacs, the GNU incarnation of the advanced, self-documenting, customizable, extensible editor Emacs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T092812Z" creationid="grass" creationdate="20201130T092812Z">
+        <seg>您正在阅读关于GNU Emacs的文章，GNU Emacs是高级的、自文档化的、可定制的、可扩展的编辑器Emacs的GNU版本。</seg>
       </tuv>
     </tu>
     <tu>
