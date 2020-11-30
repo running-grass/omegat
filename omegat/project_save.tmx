@@ -2635,6 +2635,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>42.256233,-71.006581</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T075944Z" creationid="grass" creationdate="20201130T075944Z">
+        <seg>42.256233,-71.006581</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>5 TODO Items</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095321Z" creationid="grass" creationdate="20201010T200022Z">
@@ -5852,6 +5860,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T101914Z" creationid="grass" creationdate="20200927T101914Z">
         <seg>Emacs是最广泛的移植程序之一，因此Org模式可以在每个主流平台上使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Emacs is the extensible, customizable, self-documenting real-time display editor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T080418Z" creationid="grass" creationdate="20201130T080418Z">
+        <seg>Emacs是可扩展的、可自定义的、子文档的实时显示编辑器。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14045,6 +14061,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Emacs Editor</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T080010Z" creationid="grass" creationdate="20201130T080010Z">
+        <seg>Emacs编辑器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Export Dispatcher</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202757Z" creationid="grass" creationdate="20201010T202757Z">
@@ -16328,6 +16352,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T060022Z" creationid="grass" creationdate="20201015T060022Z">
         <seg>整体</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gnu.org</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T075941Z" creationid="grass" creationdate="20201130T075941Z">
+        <seg>gnu.org</seg>
       </tuv>
     </tu>
     <tu>
@@ -42548,6 +42580,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>https://www.gnu.org/graphics/gnu-head-mini.png</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T075930Z" creationid="grass" creationdate="20201130T075930Z">
+        <seg>https://www.gnu.org/graphics/gnu-head-mini.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>https://www.gnu.org/philosophy/kind-communication.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061729Z" creationid="grass" creationdate="20201015T061729Z">
@@ -42560,6 +42600,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173243Z" creationid="grass" creationdate="20201019T173243Z">
         <seg>喜欢他们的电子邮件被干扰。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mailto:bug-gnu-emacs@gnu.org</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T075920Z" creationid="grass" creationdate="20201130T075920Z">
+        <seg>mailto:bug-gnu-emacs@gnu.org</seg>
       </tuv>
     </tu>
     <tu>
