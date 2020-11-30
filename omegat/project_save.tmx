@@ -13026,6 +13026,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a3&gt;Copying&lt;/a3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082406Z" creationid="grass" creationdate="20201130T082406Z">
+        <seg>请参阅&lt;A3&gt;复制&lt;/A3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See also the variable &lt;c0&gt;org-goto-interface&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063310Z" creationid="grass" creationdate="20201015T063310Z">
@@ -14597,6 +14605,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The precise conditions are found in the GNU General Public License that comes with Emacs and also appears in this manual&lt;a1&gt;&lt;s2&gt;1&lt;/s2&gt;&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081931Z" creationid="grass" creationdate="20201130T081931Z">
+        <seg>确切的条件可以在Emacs附带的GNU通用公共许可证中找到，也可以在本手册&lt;a1&gt;&lt;s2&gt;1&lt;/s2&gt;&lt;/a1&gt;中找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The previous example would be set globally by the following configuration:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024909Z" creationid="grass" creationdate="20201019T024909Z">
@@ -15652,6 +15668,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102712Z" creationid="grass" creationdate="20201014T102712Z">
         <seg>完整的模板条目需要什么。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What is not allowed is to try to prevent others from further sharing any version of GNU Emacs that they might get from you.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081906Z" creationid="grass" creationdate="20201130T081906Z">
+        <seg>不允许的是试图阻止其他人进一步分享他们可能从您那里获得的任何版本的GNU Emacs。</seg>
       </tuv>
     </tu>
     <tu>
