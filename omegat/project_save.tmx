@@ -5866,8 +5866,8 @@ org和许多邮件用户代理；请参阅以下各节
       <tuv lang="EN-US">
         <seg>Emacs is the extensible, customizable, self-documenting real-time display editor.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T080418Z" creationid="grass" creationdate="20201130T080418Z">
-        <seg>Emacs是可扩展的、可自定义的、子文档的实时显示编辑器。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T080454Z" creationid="grass" creationdate="20201130T080418Z">
+        <seg>Emacs是可扩展的、可自定义的、自文档的实时显示编辑器。</seg>
       </tuv>
     </tu>
     <tu>
