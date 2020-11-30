@@ -3755,6 +3755,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A buffer that is not currently displayed remembers its value of point if you later display it again.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T121118Z" creationid="grass" creationdate="20201130T121118Z">
+        <seg>如果稍后再次显示当前未显示的缓冲区，则它会记住其游标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A complete presentation.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104931Z" creationid="grass" creationdate="20201014T104931Z">
@@ -6916,6 +6924,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182211Z" creationid="grass" creationdate="20201010T182211Z">
         <seg>此外，任何具有“&lt;s0&gt;VISIBILITY&lt;/s0&gt;”属性的条目(请参阅&lt;a1&gt;属性和列&lt;/a1&gt;)都会相应地调整其可见性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Furthermore, if a buffer is displayed in multiple windows, each of those windows has its own value of point.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T121127Z" creationid="grass" creationdate="20201130T121127Z">
+        <seg>此外，如果缓冲区显示在多个窗口中，则每个窗口都有自己的游标。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13380,6 +13396,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172828Z" creationid="grass" creationdate="20201010T171720Z">
         <seg>有关详细信息，请参阅&lt;a0&gt;干净的视图&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Cursor Display&lt;/a0&gt;, for options that control how Emacs displays the cursor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T121141Z" creationid="grass" creationdate="20201130T121141Z">
+        <seg>有关控制Emacs如何显示光标的选项，请参阅&lt;a0&gt;光标显示&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
