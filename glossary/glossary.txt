@@ -215,3 +215,4 @@ cursor	光标
 current buffer	当前缓冲区
 menu bar	菜单栏
 Block	框
+Point	游标
