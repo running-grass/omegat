@@ -202,3 +202,7 @@ Distribution	发行版
 incarnation	版本
 Preface	序言
 An Introduction to Programming in Emacs Lisp	Emacs Lisp编程入门
+Frame	窗体
+>tool bar	工具栏
+echo	回显
+echo area	回显区
