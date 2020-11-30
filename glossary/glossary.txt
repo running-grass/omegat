@@ -198,3 +198,4 @@ Emacs	Emacs
 real-time	实时
 self-documenting	自文档
 homepage	主页
+Distribution	发行版
