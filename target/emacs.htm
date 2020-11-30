@@ -398,20 +398,16 @@ The Organization of the Screen
 
 </th></tr>
 <tr><td bgcolor="white"><a href="#Point">Point</a></td>
-<td>The place in the text where editing commands operate.
-
+<td>文本中操作编辑命令的位置。
 </td></tr>
 <tr><td bgcolor="white"><a href="#Echo-Area">Echo Area</a></td>
-<td>Short messages appear at the bottom of the screen.
-
+<td>短消息显示在屏幕底部。
 </td></tr>
 <tr><td bgcolor="white"><a href="#Mode-Line">Mode Line</a></td>
-<td>Interpreting the mode line.
-
+<td>状态栏的解释。
 </td></tr>
 <tr><td bgcolor="white"><a href="#Menu-Bar">Menu Bar</a></td>
-<td>How to use the menu bar.
-
+<td>如何使用菜单栏。
 </td></tr>
 <tr><th colspan="2" align="left" style="text-align:left">
 
@@ -3744,52 +3740,17 @@ Next: <a href="#Intro" accesskey="n" rel="next">Intro</a>, Previous: <a href="#T
 Next: <a href="#Screen" accesskey="n" rel="next">Screen</a>, Previous: <a href="#Distrib" accesskey="p" rel="prev">Distrib</a>, Up: <a href="#Top" accesskey="u" rel="up">Top</a> &nbsp; [<a href="#SEC_Contents" title="目录" rel="contents">Contents</a>][<a href="#Key-Index" title="主索引" rel="index">Index</a>]</p>
 </div>
 <a name="Introduction"></a>
-<h2 class="unnumbered">引言</h2>
+<h2 class="unnumbered">简介</h2>
 
-<p>You are reading about GNU Emacs, the GNU incarnation of the
-advanced, self-documenting, customizable, extensible editor Emacs.
-(The ‘<samp>G</samp>’ in
-<acronym title="GNU’s Not Unix">GNU</acronym> (GNU’s Not Unix)
-is not silent.)
-
+<p>您正在阅读关于GNU Emacs的文章，GNU Emacs是高级的、自文档化的、可定制的、可扩展的编辑器Emacs的GNU版本。(<acronym title="GNU’s Not Unix">GNU</acronym>(GNU’s Not Unix)中的“<samp>G</samp>”是发声的。)
 </p>
-<p>We call Emacs <em>advanced</em> because it can do much more than simple
-insertion and deletion of text.  It can control subprocesses, indent
-programs automatically, show multiple files at once, edit remote files
-like they were local files, and more.  Emacs editing commands operate
-in terms of characters, words, lines, sentences, paragraphs, and
-pages, as well as expressions and comments in various programming
-languages.
-
+<p>我们称Emacs<em>高级</em>是因为它不只是简单地插入和删除文本。它可以控制子进程，自动缩进程序，一次显示多个文件，编辑远程文件，就像编辑本地文件一样，等等。Emacs编辑命令根据字符、单词、行、句子、段落和页面以及各种编程语言的表达式和注释进行操作。
 </p>
-<p><em>Self-documenting</em> means that at any time you can use special
-commands, known as <em>help commands</em>, to find out what your options
-are, or to find out what any command does, or to find all the
-commands that pertain to a given topic.  See <a href="#Help">Help</a>.
-
+<p><em>自文档</em>意味着您可以随时使用称为<em>帮助命令</em>的特殊命令来找出您的选项是什么，或者找出任何命令的作用，或者查找与给定主题相关的所有命令。请参阅<a href="#Help">帮助</a>。
 </p>
-<p><em>Customizable</em> means that you can easily alter the behavior of
-Emacs commands in simple ways.  For instance, if you use a programming
-language in which comments start with ‘<samp>&lt;**</samp>’ and end with
-‘<samp>**&gt;</samp>’, you can tell the Emacs comment manipulation commands to
-use those strings (see <a href="#Comments">Comments</a>).  To take another example, you
-can rebind the basic cursor motion commands (up, down, left and right)
-to any keys on the keyboard that you find comfortable.
-See <a href="#Customization">Customization</a>.
-
+<p><em>可自定义</em>意味着您可以通过简单的方式轻松地更改Emacs命令的行为。例如，如果您使用的编程语言的注释以“<samp>&lt;**</samp>”开始，以“<samp>**&gt;</samp>”结束，则可以告诉Emacs注释操作命令使用这些字符串(请参见<a href="#Comments">注释</a>)。再举一个例子，您可以将基本光标移动命令(上、下、左和右)重新绑定到键盘上您觉得舒服的任何键上。请参阅<a href="#Customization">自定义</a>。
 </p>
-<p><em>Extensible</em> means that you can go beyond simple customization
-and create entirely new commands.  New commands are simply programs
-written in the Lisp language, which are run by Emacs’s own Lisp
-interpreter.  Existing commands can even be redefined in the middle of
-an editing session, without having to restart Emacs.  Most of the
-editing commands in Emacs are written in Lisp; the few exceptions
-could have been written in Lisp but use C instead for efficiency.
-Writing an extension is programming, but non-programmers can use it
-afterwards.  See <a href="https://www.gnu.org/software/emacs/manual/html_mono/eintr.html#Top">Preface</a> in <cite>An
-Introduction to Programming in Emacs Lisp</cite>, if you want to learn Emacs
-Lisp programming.
-
+<p><em>可扩展</em>意味着您可以超越简单的自定义，创建全新的命令。新命令只是用Lisp语言编写的程序，由Emacs自己的Lisp解释器运行。甚至可以在编辑会话过程中重新定义现有命令，而不必重新启动Emacs。Emacs中的大多数编辑命令都是用Lisp编写的；少数例外可能是用Lisp编写的，但为了提高效率改用C语言实现。编写扩展就是编程，但非程序员可以在之后使用它。如果您想学习Emacs Lisp编程，请参阅<cite>Emacs Lisp编程入门</cite>中的<a href="https://www.gnu.org/software/emacs/manual/html_mono/eintr.html#Top">序言</a>。
 </p>
 
 <a name="Screen"></a>
@@ -3799,75 +3760,30 @@ Lisp programming.
 Next: <a href="#User-Input" accesskey="n" rel="next">User Input</a>, Previous: <a href="#Intro" accesskey="p" rel="prev">Intro</a>, Up: <a href="#Top" accesskey="u" rel="up">Top</a> &nbsp; [<a href="#SEC_Contents" title="目录" rel="contents">Contents</a>][<a href="#Key-Index" title="主索引" rel="index">Index</a>]</p>
 </div>
 <a name="The-Organization-of-the-Screen"></a>
-<h2 class="chapter">1 The Organization of the Screen</h2>
+<h2 class="chapter">1 屏幕的组织方式</h2>
 <a name="index-screen"></a>
 <a name="index-frame"></a>
 
-<p>On a graphical display, such as on GNU/Linux using the X Window
-System, Emacs occupies a graphical window.  On a text terminal,
-Emacs occupies the entire terminal screen.  We will use the term
-<em>frame</em> to mean a graphical window or terminal screen occupied by
-Emacs.  Emacs behaves very similarly on both kinds of frames.  It
-normally starts out with just one frame, but you can create additional
-frames if you wish (see <a href="#Frames">Frames</a>).
-
+<p>在图形显示器上，例如在使用X窗口系统的GNU/Linux上，Emacs占据一个图形窗口。在文本终端上，Emacs占据整个终端屏幕。我们将使用术语<em>窗体</em>来表示Emacs占据的图形窗口或终端屏幕。Emacs在这两种窗体上的行为非常相似。它通常只从一个窗体开始，但如果您愿意，也可以创建其他窗体(请参阅<a href="#Frames">窗体</a>)。
 </p>
-<p>Each frame consists of several distinct regions.  At the top of the
-frame is a <em>menu bar</em>, which allows you to access commands via a
-series of menus.  On a graphical display, directly below the menu bar
-is a <em>tool bar</em>, a row of icons that perform editing commands when
-you click on them.  At the very bottom of the frame is an <em>echo
-area</em>, where informative messages are displayed and where you enter
-information when Emacs asks for it.
-
+<p>每个窗体由几个不同的区域组成。窗体顶部有一个<em>菜单栏</em>，允许您通过一系列菜单访问命令。在图形显示器上，菜单栏正下方是<em>工具栏</em>，这是一行图标，当您单击它们时，它们会执行编辑命令。在窗体的最底部是<em>回显区</em>，在此显示信息性消息，并在Emacs要求输入信息时在其中输入信息。
 </p>
-<p>The main area of the frame, below the tool bar (if one exists) and
-above the echo area, is called <em>the window</em>.  Henceforth in this
-manual, we will use the word “window” in this sense.  Graphical
-display systems commonly use the word “window” with a different
-meaning; but, as stated above, we refer to those graphical windows
-as “frames”.
-
+<p>位于工具栏(如果存在)下方、回显区上方的窗体主区域称为<em>窗口</em>。此后，在本手册中，我们将在此意义上使用单词“窗口”。图形显示系统通常使用具有不同含义的词“窗口”；但是如上所述，我们将那些图形窗口称为“窗体”。
 </p>
-<p>An Emacs window is where the <em>buffer</em>—the text or other
-graphics you are editing or viewing—is displayed.  On a graphical
-display, the window possesses a <em>scroll bar</em> on one side, which
-can be used to scroll through the buffer.  The last line of the window
-is a <em>mode line</em>.  This displays various information about what is
-going on in the buffer, such as whether there are unsaved changes, the
-editing modes that are in use, the current line number, and so forth.
-
+<p>Emacs窗口显示<em>缓冲区</em>-您正在编辑或查看的文本或其他图形。在图形显示器上，窗口的一侧有一个<em>滚动条</em>，可用于在缓冲区中滚动。窗口的最后一行是<em>状态栏</em>。这将显示有关缓冲区中正在进行的操作的各种信息，例如是否存在未保存的更改、正在使用的编辑模式、当前行号等。
 </p>
-<p>When you start Emacs, there is normally only one window in the
-frame.  However, you can subdivide this window horizontally or
-vertically to create multiple windows, each of which can independently
-display a buffer (see <a href="#Windows">Windows</a>).
-
+<p>启动Emacs时，窗体中通常只有一个窗口。但是，您可以水平或垂直分割此窗口以创建多个窗口，每个窗口都可以独立显示一个缓冲区(请参阅<a href="#Windows">窗口</a>)。
 </p>
-<p>At any time, one window is the <em>selected window</em>.  On a
-graphical display, the selected window shows a more prominent cursor
-(usually solid and blinking); other windows show a less prominent
-cursor (usually a hollow box).  On a text terminal, there is only one
-cursor, which is shown in the selected window.  The buffer displayed
-in the selected window is called the <em>current buffer</em>, and it is
-where editing happens.  Most Emacs commands implicitly apply to the
-current buffer; the text displayed in unselected windows is mostly
-visible for reference.  If you use multiple frames on a graphical
-display, selecting a particular frame selects a window in that frame.
-
+<p>在任何时候，都有一个窗口是<em>选定窗口</em>。在图形显示器上，所选窗口显示较突出的光标(通常为实心且闪烁)；其他窗口显示较不突出的光标(通常为空心框)。在文本终端上，只有一个光标显示在所选窗口中。所选窗口中显示的缓冲区称为<em>当前缓冲区</em>，它是进行编辑的地方。大多数Emacs命令都隐式应用于当前缓冲区；显示在未选中窗口中的文本大多可见以供参考。如果在图形显示上使用多个窗体，则选择特定窗体将选择该窗体中的一个窗口。
 </p>
 <table class="menu" border="0" cellspacing="0">
-<tbody><tr><td align="left" valign="top">• <a href="#Point" accesskey="1">Point</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">The place in the text where editing commands operate.
-
+<tbody><tr><td align="left" valign="top">• <a href="#Point" accesskey="1">光标</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">文本中操作编辑命令的位置。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Echo-Area" accesskey="2">Echo Area</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Short messages appear at the bottom of the screen.
-
+<tr><td align="left" valign="top">• <a href="#Echo-Area" accesskey="2">回显区</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">短消息显示在屏幕底部。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Mode-Line" accesskey="3">Mode Line</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Interpreting the mode line.
-
+<tr><td align="left" valign="top">• <a href="#Mode-Line" accesskey="3">状态栏</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">状态栏的解释。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Menu-Bar" accesskey="4">Menu Bar</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">How to use the menu bar.
-
+<tr><td align="left" valign="top">• <a href="#Menu-Bar" accesskey="4">菜单栏</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">如何使用菜单栏。
 </td></tr>
 </tbody></table>
 
