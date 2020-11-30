@@ -7448,6 +7448,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>How to use the menu bar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T115145Z" creationid="grass" creationdate="20201130T115145Z">
+        <seg>如何使用菜单栏。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>How to write new export back-ends.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113048Z" creationid="grass" creationdate="20201014T113048Z">
@@ -8460,6 +8468,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201431Z" creationid="grass" creationdate="20201010T201431Z">
         <seg>内部归档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Interpreting the mode line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T115123Z" creationid="grass" creationdate="20201130T115123Z">
+        <seg>状态栏的解释。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13592,6 +13608,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Short messages appear at the bottom of the screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T115054Z" creationid="grass" creationdate="20201130T115054Z">
+        <seg>短消息显示在屏幕底部。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Shortcuts for writing complex links.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100911Z" creationid="grass" creationdate="20201014T100911Z">
@@ -14983,6 +15007,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075515Z" creationid="grass" creationdate="20201015T075515Z">
         <seg>orgmode文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The place in the text where editing commands operate.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T115033Z" creationid="grass" creationdate="20201130T115033Z">
+        <seg>文本中操作编辑命令的位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -50114,6 +50146,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Echo Area&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T115048Z" creationid="grass" creationdate="20201130T115048Z">
+        <seg>• &lt;a0&gt;回显区&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Editing Source Code&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111401Z" creationid="grass" creationdate="20201014T111401Z">
@@ -50850,10 +50890,26 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Menu Bar&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T115143Z" creationid="grass" creationdate="20201130T115143Z">
+        <seg>• &lt;a0&gt;菜单栏&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Miscellaneous&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055828Z" creationid="grass" creationdate="20201013T055828Z">
         <seg>• &lt;a0&gt;杂项&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Mode Line&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T115101Z" creationid="grass" creationdate="20201130T115101Z">
+        <seg>• &lt;a0&gt;状态栏&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
@@ -51014,6 +51070,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110527Z" creationid="grass" creationdate="20201014T110527Z">
         <seg>• &lt;a0&gt;Texinfo导出中的普通列表&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Point&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T115037Z" creationid="grass" creationdate="20201130T115037Z">
+        <seg>• &lt;a0&gt;光标&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
