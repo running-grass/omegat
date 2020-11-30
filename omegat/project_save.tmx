@@ -4742,8 +4742,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="EN-US">
         <seg>By default, the cursor in the selected window is drawn as a solid block and appears to be &lt;e0&gt;on&lt;/e0&gt; a character, but you should think of point as &lt;e1&gt;between&lt;/e1&gt; two characters; it is situated &lt;e2&gt;before&lt;/e2&gt; the character under the cursor.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T120151Z" creationid="grass" creationdate="20201130T120151Z">
-        <seg>默认情况下，所选窗口中的光标绘制为实心框，并在字符&lt;/e0&gt;上&lt;e0&gt;显示，但您应将光标视为两个字符&lt;e1&gt;之间&lt;e1&gt;的点；它位于光标&lt;/e2&gt;下&lt;e2&gt;的字符之前。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T120334Z" creationid="grass" creationdate="20201130T120151Z">
+        <seg>默认情况下，所选窗口中的光标绘制为实心框，并在字符&lt;/e0&gt;上&lt;e0&gt;显示，但您应将光标视为两个字符&lt;e1&gt;之间&lt;e1&gt;的指针；它位于光标下的字符&lt;/e2&gt;之前&lt;e2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6656,6 +6656,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, if your text looks like ‘&lt;s3&gt;frob&lt;/s3&gt;’ with the cursor over the ‘&lt;s4&gt;b&lt;/s4&gt;’, then point is between the ‘&lt;s5&gt;o&lt;/s5&gt;’ and the ‘&lt;s6&gt;b&lt;/s6&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T120303Z" creationid="grass" creationdate="20201130T120303Z">
+        <seg>例如，如果您的文本看起来像“&lt;s3&gt;frob&lt;/s3&gt;”，而光标位于“&lt;s4&gt;b&lt;/s4&gt;”上，则指针位于“&lt;s5&gt;o&lt;/s5&gt;”和“&lt;s6&gt;b&lt;/s6&gt;”之间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, in the chapter on document structure, &lt;k1&gt;M-&lt;s2&gt;RIGHT&lt;/s2&gt;&lt;/k1&gt; will be listed to call &lt;c3&gt;org-do-demote&lt;/c3&gt;, while in the chapter on tables, it will be listed to call &lt;c4&gt;org-table-move-column-right&lt;/c4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T131644Z" creationid="grass" creationdate="20201005T131644Z">
@@ -7932,6 +7940,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024626Z" creationid="grass" creationdate="20201019T023932Z">
         <seg>如果您已使用变量&lt;c0&gt;org-tag-ist&lt;/c0&gt;全局定义了首选的标签集，但希望在特定文件中使用动态标签列表，请向该文件添加空的“&lt;s1&gt;TAGS&lt;/s1&gt;”关键字：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you insert the character ‘&lt;s7&gt;!&lt;/s7&gt;’ at that position, the result is ‘&lt;s8&gt;fro!b&lt;/s8&gt;’, with point between the ‘&lt;s9&gt;!&lt;/s9&gt;’ and the ‘&lt;s10&gt;b&lt;/s10&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T120441Z" creationid="grass" creationdate="20201130T120441Z">
+        <seg>如果在该位置插入字符“&lt;s7&gt;!&lt;/s7&gt;”，则结果为“&lt;s8&gt;fro!b&lt;/s8&gt;”，同时光标位于“&lt;s9&gt;!&lt;/s9&gt;”和“&lt;s10&gt;b&lt;/s10&gt;”之间。</seg>
       </tuv>
     </tu>
     <tu>
