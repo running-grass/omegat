@@ -4196,6 +4196,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An introduction to Emacs concepts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081319Z" creationid="grass" creationdate="20201130T081319Z">
+        <seg>Emacs概念简介。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An overview of this structure is achieved by folding, i.e., hiding large parts of the document to show only the general document structure and the parts currently being worked on.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T165143Z" creationid="grass" creationdate="20201010T165143Z">
@@ -5622,8 +5630,16 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="EN-US">
         <seg>Distrib</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081152Z" creationid="grass" creationdate="20201130T081128Z">
-        <seg>分发</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081239Z" creationid="grass" creationdate="20201130T081128Z">
+        <seg>发行版</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Distribution</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081536Z" creationid="grass" creationdate="20201130T081536Z">
+        <seg>发行版</seg>
       </tuv>
     </tu>
     <tu>
@@ -6746,6 +6762,22 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>GNU Emacs is &lt;e0&gt;free software&lt;/e0&gt;; this means that everyone is free to use it and free to redistribute it under certain conditions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081553Z" creationid="grass" creationdate="20201130T081553Z">
+        <seg>GNU Emacs是&lt;e0&gt;自由软件&lt;/e0&gt;；这意味着在某些条件下，每个人都可以自由使用和自由重新分发它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>GNU Emacs is not in the public domain; it is copyrighted and there are restrictions on its distribution, but these restrictions are designed to permit everything that a good cooperating citizen would want to do.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081858Z" creationid="grass" creationdate="20201130T081858Z">
+        <seg>GNU Emacs不属于公共领域；它是受版权保护的，并且对其分发有限制，但这些限制旨在允许好的合作公民想要做的一切。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>GTD contexts are just regular tags, starting with &lt;c0&gt;@&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081123Z" creationid="grass" creationdate="20201015T081123Z">
@@ -7198,6 +7230,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105639Z" creationid="grass" creationdate="20201014T105639Z">
         <seg>如何将图形插入到LaTeX输出中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How to interpret what you see on the screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081338Z" creationid="grass" creationdate="20201130T081332Z">
+        <seg>如何解读你在屏幕上看到的东西。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7882,6 +7922,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Important General Concepts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081321Z" creationid="grass" creationdate="20201130T081321Z">
+        <seg>重要的一般概念</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In a new entry with no text yet, the first &lt;k0&gt;&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; demotes the entry to become a child of the previous one.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063718Z" creationid="grass" creationdate="20201015T063642Z">
@@ -8182,6 +8230,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201431Z" creationid="grass" creationdate="20201010T201431Z">
         <seg>内部归档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Intro</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081316Z" creationid="grass" creationdate="20201130T081316Z">
+        <seg>简介</seg>
       </tuv>
     </tu>
     <tu>
@@ -12886,6 +12942,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200832Z" creationid="grass" creationdate="20201010T200832Z">
         <seg>列定义的范围</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Screen</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081331Z" creationid="grass" creationdate="20201130T081331Z">
+        <seg>屏幕</seg>
       </tuv>
     </tu>
     <tu>
@@ -42716,10 +42780,74 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Copying</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081541Z" creationid="grass" creationdate="20201130T081541Z">
+        <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Copying</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Distrib</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081048Z" creationid="grass" creationdate="20201130T081048Z">
         <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Distrib</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#FOOT1</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081538Z" creationid="grass" creationdate="20201130T081538Z">
+        <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#FOOT1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Intro</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081304Z" creationid="grass" creationdate="20201130T081304Z">
+        <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Intro</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Key-Index</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081454Z" creationid="grass" creationdate="20201130T081454Z">
+        <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Key-Index</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081451Z" creationid="grass" creationdate="20201130T081451Z">
+        <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Screen</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081324Z" creationid="grass" creationdate="20201130T081324Z">
+        <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Screen</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Top</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081447Z" creationid="grass" creationdate="20201130T081447Z">
+        <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Top</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#User-Input</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081339Z" creationid="grass" creationdate="20201130T081339Z">
+        <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#User-Input</seg>
       </tuv>
     </tu>
     <tu>
