@@ -6816,6 +6816,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>GNU’s Not Unix</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T091742Z" creationid="grass" creationdate="20201130T091742Z">
+        <seg>[TencentCloudSDKException]message:java.net.SocketException-Can't connect to SOCKS proxy:Connection refused (Connection refused) requestId:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>GTD contexts are just regular tags, starting with &lt;c0&gt;@&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081123Z" creationid="grass" creationdate="20201015T081123Z">
