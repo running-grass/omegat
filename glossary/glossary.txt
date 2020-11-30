@@ -209,3 +209,7 @@ echo area	回显区
 window	窗口
 scroll bar	滚动条
 mode line	状态栏
+subdivide	分割
+selected window	选中窗口
+cursor	光标
+current buffer	当前缓冲区
