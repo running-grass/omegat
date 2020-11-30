@@ -11500,6 +11500,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>On a graphical display, the window possesses a &lt;e1&gt;scroll bar&lt;/e1&gt; on one side, which can be used to scroll through the buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114445Z" creationid="grass" creationdate="20201130T114445Z">
+        <seg>在图形显示器上，窗口的一侧有一个&lt;e1&gt;滚动条&lt;/e1&gt;，可用于在缓冲区中滚动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>On a text terminal, Emacs occupies the entire terminal screen.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113610Z" creationid="grass" creationdate="20201130T113610Z">
@@ -14835,6 +14843,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The last line of the window is a &lt;e2&gt;mode line&lt;/e2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114653Z" creationid="grass" creationdate="20201130T114653Z">
+        <seg>窗口的最后一行是&lt;e2&gt;状态栏&lt;/e2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The license for this documentation.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060352Z" creationid="grass" creationdate="20201013T060352Z">
@@ -15201,6 +15217,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132258Z" creationid="grass" creationdate="20201006T132258Z">
         <seg>此命令提供了可能的位置来转接该条记录，并让您选择一个完整的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This displays various information about what is going on in the buffer, such as whether there are unsaved changes, the editing modes that are in use, the current line number, and so forth.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114709Z" creationid="grass" creationdate="20201130T114709Z">
+        <seg>这将显示有关缓冲区中正在进行的操作的各种信息，例如是否存在未保存的更改、正在使用的编辑模式、当前行号等。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16266,6 +16290,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T061240Z" creationid="grass" creationdate="20201016T054310Z">
         <seg>当你把‘&lt;s0&gt;DEADLINE&lt;/s0&gt;’或‘&lt;s1&gt;SCHEDULED&lt;/s1&gt;’标记为TODO关键字 ‘&lt;s2&gt;DONE&lt;/s2&gt;’时，它不再在议程中生成条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you start Emacs, there is normally only one window in the frame.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114736Z" creationid="grass" creationdate="20201130T114736Z">
+        <seg>启动Emacs时，窗体中通常只有一个窗口。</seg>
       </tuv>
     </tu>
     <tu>
