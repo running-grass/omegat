@@ -4356,6 +4356,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>At any time, one window is the &lt;e0&gt;selected window&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114839Z" creationid="grass" creationdate="20201130T114839Z">
+        <seg>在任何时候，都有一个窗口是&lt;e0&gt;选定窗口&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>At the top of the frame is a &lt;e0&gt;menu bar&lt;/e0&gt;, which allows you to access commands via a series of menus.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113924Z" creationid="grass" creationdate="20201130T113924Z">
@@ -7496,6 +7504,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, you can subdivide this window horizontally or vertically to create multiple windows, each of which can independently display a buffer (see &lt;a0&gt;Windows&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114823Z" creationid="grass" creationdate="20201130T114823Z">
+        <seg>但是，您可以水平或垂直分割此窗口以创建多个窗口，每个窗口都可以独立显示一个缓冲区(请参阅&lt;a0&gt;窗口&lt;/a0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, you may want to dynamically number some, or all, of them.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171809Z" creationid="grass" creationdate="20201010T171809Z">
@@ -7988,6 +8004,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082628Z" creationid="grass" creationdate="20201130T082628Z">
         <seg>如果您在工作场所使用GNU Emacs，请建议公司捐款。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you use multiple frames on a graphical display, selecting a particular frame selects a window in that frame.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T115017Z" creationid="grass" creationdate="20201130T115017Z">
+        <seg>如果在图形显示上使用多个窗体，则选择特定窗体将选择该窗体中的一个窗口。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9136,6 +9160,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101223Z" creationid="grass" creationdate="20201014T101223Z">
         <seg>把它们混合在一起，仍然能找到你的路。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Most Emacs commands implicitly apply to the current buffer; the text displayed in unselected windows is mostly visible for reference.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114947Z" creationid="grass" creationdate="20201130T114947Z">
+        <seg>大多数Emacs命令都隐式应用于当前缓冲区；显示在未选中窗口中的文本大多可见以供参考。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11500,6 +11532,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>On a graphical display, the selected window shows a more prominent cursor (usually solid and blinking); other windows show a less prominent cursor (usually a hollow box).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114903Z" creationid="grass" creationdate="20201130T114903Z">
+        <seg>在图形显示器上，所选窗口显示较突出的光标(通常为实心且闪烁)；其他窗口显示较不突出的光标(通常为空心框)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>On a graphical display, the window possesses a &lt;e1&gt;scroll bar&lt;/e1&gt; on one side, which can be used to scroll through the buffer.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114445Z" creationid="grass" creationdate="20201130T114445Z">
@@ -11512,6 +11552,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113610Z" creationid="grass" creationdate="20201130T113610Z">
         <seg>在文本终端上，Emacs占据整个终端屏幕。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On a text terminal, there is only one cursor, which is shown in the selected window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114907Z" creationid="grass" creationdate="20201130T114907Z">
+        <seg>在文本终端上，只有一个光标显示在所选窗口中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14583,6 +14631,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082346Z" creationid="grass" creationdate="20200929T082346Z">
         <seg>最好的报告方法是，除了上面提到的以外，还提供回溯。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The buffer displayed in the selected window is called the &lt;e1&gt;current buffer&lt;/e1&gt;, and it is where editing happens.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114925Z" creationid="grass" creationdate="20201130T114925Z">
+        <seg>所选窗口中显示的缓冲区称为&lt;e1&gt;当前缓冲区&lt;/e1&gt;，它是进行编辑的地方。</seg>
       </tuv>
     </tu>
     <tu>
