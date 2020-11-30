@@ -214,3 +214,4 @@ selected window	选中窗口
 cursor	光标
 current buffer	当前缓冲区
 menu bar	菜单栏
+Block	框
