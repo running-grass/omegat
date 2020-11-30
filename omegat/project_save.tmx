@@ -12310,8 +12310,8 @@ on your load path.</seg>
       <tuv lang="EN-US">
         <seg>Point</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T115808Z" creationid="grass" creationdate="20201130T115808Z">
-        <seg>光标</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T121218Z" creationid="grass" creationdate="20201130T115808Z">
+        <seg>游标</seg>
       </tuv>
     </tu>
     <tu>
