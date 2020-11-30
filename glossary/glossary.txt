@@ -200,3 +200,5 @@ self-documenting	自文档
 homepage	主页
 Distribution	发行版
 incarnation	版本
+Preface	序言
+An Introduction to Programming in Emacs Lisp	Emacs Lisp编程入门
