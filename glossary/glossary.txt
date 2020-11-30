@@ -195,3 +195,5 @@ sticky	粘滞的
 References	引用文件
 Editor	编辑器
 Emacs	Emacs
+real-time	实时
+self-documenting	自文档
