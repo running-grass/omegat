@@ -5100,6 +5100,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Computer manufacturers are free to distribute copies on the same terms that apply to everyone else.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082459Z" creationid="grass" creationdate="20201130T082459Z">
+        <seg>计算机制造商可以按照适用于其他所有人的相同条款自由分发副本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Conclusion</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084556Z" creationid="grass" creationdate="20201015T084311Z">
@@ -5696,6 +5704,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T081616Z" creationid="grass" creationdate="20200929T081544Z">
         <seg>这样做通常可以帮助您确定问题出在您的自定义设置还是Org模式本身。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Donations to the Free Software Foundation are tax-deductible in the US.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082618Z" creationid="grass" creationdate="20201130T082618Z">
+        <seg>在美国，对自由软件基金会的捐款是免税的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6596,6 +6612,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065032Z" creationid="grass" creationdate="20201015T065032Z">
         <seg>有关更多详细信息，请参阅命令&lt;c0&gt;org-clone-subtree-with-time-Shift&lt;/c0&gt;的文档说明。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For other ways in which you can help, see &lt;a2&gt;https://www.gnu.org/help/help.html&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082645Z" creationid="grass" creationdate="20201130T082645Z">
+        <seg>有关您可以提供帮助的其他方式，请参阅https://www.gnu.org/help/help.html&lt;/a2&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7690,6 +7714,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you find GNU Emacs useful, please &lt;s0&gt;send a donation&lt;/s0&gt; to the Free Software Foundation to support our work.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082611Z" creationid="grass" creationdate="20201130T082611Z">
+        <seg>如果您觉得GNU Emacs有用，请向自由软件基金会&lt;s0&gt;捐赠&lt;/s0&gt;以支持我们的工作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you find problems with Org, or if you have questions, remarks, or ideas about it, please send an email to the Org mailing list &lt;a0&gt;emacs-orgmode@gnu.org&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T080206Z" creationid="grass" creationdate="20200929T075919Z">
@@ -7710,6 +7742,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T031505Z" creationid="grass" creationdate="20201019T024007Z">
         <seg>除了由“&lt;s0&gt;TAGS&lt;/s0&gt;”关键字在每个文件基础上定义的标签之外，如果您有希望在每个文件中使用的首选标签集，则可以使用变量&lt;c1&gt;org-tag-persistent-alist&lt;/c1&gt;指定标签列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you have access to the Internet, you can get the latest distribution version of GNU Emacs by anonymous FTP; see &lt;a0&gt;https://www.gnu.org/software/emacs&lt;/a0&gt; on our website for more information.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082444Z" creationid="grass" creationdate="20201130T082444Z">
+        <seg>如果您可以访问互联网，您可以通过匿名FTP获得GNU Emacs的最新分发版本；有关更多信息，请参阅我们网站上的&lt;a0&gt;https://www.gnu.org/software/emacs&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7790,6 +7830,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064930Z" creationid="grass" creationdate="20201015T064825Z">
         <seg>如果在在一次粘贴之后使用&lt;c6&gt;yank-pop&lt;/c6&gt;，它会简单的粘贴之前的内容，不会调整和折叠。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you use GNU Emacs at your workplace, please suggest that the company make a donation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082628Z" creationid="grass" creationdate="20201130T082628Z">
+        <seg>如果您在工作场所使用GNU Emacs，请建议公司捐款。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7950,6 +7998,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023406Z" creationid="grass" creationdate="20201019T023335Z">
         <seg>在其他议程类型中，&lt;c2&gt;org-use-tag-inheritance&lt;/c2&gt;的设置无效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In other words, the program must be free for you when you get it, not just free for the manufacturer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082522Z" creationid="grass" creationdate="20201130T082522Z">
+        <seg>换句话说，当您获得程序时，程序必须对您免费，而不仅仅是制造商免费。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11282,6 +11338,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075625Z" creationid="grass" creationdate="20201015T075625Z">
         <seg>GTD最重要的一个方面是收件箱。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One way to get a copy of GNU Emacs is from someone else who has it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082419Z" creationid="grass" creationdate="20201130T082419Z">
+        <seg>获得GNU Emacs副本的一种方式是从其他拥有它的人那里。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14803,6 +14867,14 @@ stores its records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These terms require them to give you the full sources, including whatever changes they may have made, and to permit you to redistribute the GNU Emacs received from them under the usual terms of the General Public License.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082513Z" creationid="grass" creationdate="20201130T082513Z">
+        <seg>这些条款要求他们向您提供完整的源代码，包括他们可能做出的任何更改，并允许您根据通用公共许可证的通常条款重新分发从他们那里收到的GNU Emacs。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>They are then linked (using &lt;c1&gt;org-store-link&lt;/c1&gt;) from Dired buffers into my projects for quick access.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084227Z" creationid="grass" creationdate="20201015T084227Z">
@@ -15099,6 +15171,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082506Z" creationid="grass" creationdate="20200929T082506Z">
         <seg>为此，请使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To donate, see &lt;a1&gt;https://my.fsf.org/donate/&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082637Z" creationid="grass" creationdate="20201130T082637Z">
+        <seg>要捐款，请参阅&lt;a1&gt;https://my.fsf.org/donate/&lt;/a1&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -15603,6 +15683,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T130930Z" creationid="grass" creationdate="20200927T130930Z">
         <seg>我们&lt;s0&gt;强烈建议&lt;/s0&gt;坚持只使用一种安装方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We also sell hardcopy versions of this manual and &lt;c0&gt;An Introduction to Programming in Emacs Lisp&lt;/c0&gt;, by Robert J. Chassell.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T083240Z" creationid="grass" creationdate="20201130T083240Z">
+        <seg>我们还销售本手册的硬拷贝版本和Robert J. Chassell.编写的&lt;c0&gt;Emacs Lisp编程入门&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16344,6 +16432,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You may also receive GNU Emacs when you buy a computer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082451Z" creationid="grass" creationdate="20201130T082451Z">
+        <seg>您还可以在购买计算机时收到GNU Emacs。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You may have both scheduling and deadline information for a specific task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055645Z" creationid="grass" creationdate="20201016T055645Z">
@@ -16364,6 +16460,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024021Z" creationid="grass" creationdate="20201019T024021Z">
         <seg>您可以通过将“&lt;s2&gt;STARTUP&lt;/s2&gt;”关键字添加到该文件来逐个文件关闭此功能：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You need not ask for our permission to do so, or tell anyone else; just copy it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082434Z" creationid="grass" creationdate="20201130T082434Z">
+        <seg>你不需要征得我们的许可，也不需要告诉任何人，只需拷贝就行了。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16664,6 +16768,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061727Z" creationid="grass" creationdate="20201015T061727Z">
         <seg>https://lists.gnu.org/mailman/listinfo/emacs-orgmode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://my.fsf.org/donate/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082525Z" creationid="grass" creationdate="20201130T082525Z">
+        <seg>https://my.fsf.org/donate/</seg>
       </tuv>
     </tu>
     <tu>
@@ -42764,6 +42876,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>https://shop.fsf.org/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082648Z" creationid="grass" creationdate="20201130T082648Z">
+        <seg>https://shop.fsf.org/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>https://shop.fsf.org/product/emacs-manual/</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T080518Z" creationid="grass" creationdate="20201130T080518Z">
@@ -42780,10 +42900,26 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>https://www.gnu.org/help/help.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082527Z" creationid="grass" creationdate="20201130T082527Z">
+        <seg>https://www.gnu.org/help/help.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>https://www.gnu.org/philosophy/kind-communication.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061729Z" creationid="grass" creationdate="20201015T061729Z">
         <seg>https://www.gnu.org/philosophy/kind-communication.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://www.gnu.org/software/emacs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082410Z" creationid="grass" creationdate="20201130T082410Z">
+        <seg>https://www.gnu.org/software/emacs</seg>
       </tuv>
     </tu>
     <tu>
