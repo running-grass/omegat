@@ -747,6 +747,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>1 The Organization of the Screen</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113523Z" creationid="grass" creationdate="20201130T113523Z">
+        <seg>1 屏幕的组织方式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080303Z" creationid="grass" creationdate="20201015T080303Z">
@@ -5940,6 +5948,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195117Z" creationid="grass" creationdate="20201010T194933Z">
         <seg>Emacs Lisp形式的公式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Emacs behaves very similarly on both kinds of frames.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113805Z" creationid="grass" creationdate="20201130T113805Z">
+        <seg>Emacs在这两种窗体上的行为非常相似。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11412,6 +11428,22 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>On a graphical display, such as on GNU/Linux using the X Window System, Emacs occupies a graphical window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113616Z" creationid="grass" creationdate="20201130T113602Z">
+        <seg>在图形显示器上，例如在使用X窗口系统的GNU/Linux上，Emacs占据一个图形窗口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On a text terminal, Emacs occupies the entire terminal screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113610Z" creationid="grass" creationdate="20201130T113610Z">
+        <seg>在文本终端上，Emacs占据整个终端屏幕。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once a task is done, I mark it as such using the &lt;c0&gt;DONE&lt;/c0&gt; todo keyword.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080759Z" creationid="grass" creationdate="20201015T080759Z">
@@ -15857,6 +15889,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T112729Z" creationid="grass" creationdate="20201130T112729Z">
         <seg>我们称Emacs&lt;e0&gt;高级&lt;/e0&gt;是因为它不只是简单地插入和删除文本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We will use the term &lt;e0&gt;frame&lt;/e0&gt; to mean a graphical window or terminal screen occupied by Emacs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113750Z" creationid="grass" creationdate="20201130T113750Z">
+        <seg>我们将使用术语&lt;e0&gt;窗体&lt;/e0&gt;来表示Emacs占据的图形窗口或终端屏幕。</seg>
       </tuv>
     </tu>
     <tu>
