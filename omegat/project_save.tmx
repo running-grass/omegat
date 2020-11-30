@@ -4180,6 +4180,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An Emacs window is where the &lt;e0&gt;buffer&lt;/e0&gt;—the text or other graphics you are editing or viewing—is displayed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114424Z" creationid="grass" creationdate="20201130T114424Z">
+        <seg>Emacs窗口显示&lt;e0&gt;缓冲区&lt;/e0&gt;-您正在编辑或查看的文本或其他图形。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An alternate way to show an example.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105256Z" creationid="grass" creationdate="20201014T105256Z">
@@ -7000,6 +7008,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Graphical display systems commonly use the word “window” with a different meaning; but, as stated above, we refer to those graphical windows as “frames”.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114358Z" creationid="grass" creationdate="20201130T114358Z">
+        <seg>图形显示系统通常使用具有不同含义的词“窗口”；但是如上所述，我们将那些图形窗口称为“窗体”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Greek letters and other symbols.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103903Z" creationid="grass" creationdate="20201014T103903Z">
@@ -7132,6 +7148,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203306Z" creationid="grass" creationdate="20201010T203306Z">
         <seg>HTML导出中的标题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Henceforth in this manual, we will use the word “window” in this sense.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114339Z" creationid="grass" creationdate="20201130T114339Z">
+        <seg>此后，在本手册中，我们将在此意义上使用单词“窗口”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14823,6 +14847,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023231Z" creationid="grass" creationdate="20201019T023231Z">
         <seg>然后，匹配的列表可能会变得非常长。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The main area of the frame, below the tool bar (if one exists) and above the echo area, is called &lt;e0&gt;the window&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114328Z" creationid="grass" creationdate="20201130T114328Z">
+        <seg>位于工具栏(如果存在)下方、回显区上方的窗体主区域称为&lt;e0&gt;窗口&lt;/e0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
