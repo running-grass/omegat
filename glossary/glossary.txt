@@ -197,3 +197,4 @@ Editor	编辑器
 Emacs	Emacs
 real-time	实时
 self-documenting	自文档
+homepage	主页
