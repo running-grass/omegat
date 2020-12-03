@@ -318,6 +318,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(We have not explained buffers yet; see &lt;a1&gt;Buffers&lt;/a1&gt;, for more information about them.) If you miss a message that appeared briefly on the screen, you can switch to the &lt;s2&gt;*Messages*&lt;/s2&gt; buffer to see it again.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023024Z" creationid="grass" creationdate="20201203T023024Z">
+        <seg>(我们尚未解释缓冲区；有关它们的详细信息，请参阅&lt;a1&gt;缓冲区&lt;/a1&gt;。)如果您错过了屏幕上短暂显示的消息，可以切换到&lt;s2&gt;*Messages*&lt;/s2&gt;缓冲区再次查看。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(a) The FSF’s Back-Cover Text is: “You have the freedom to copy and
 modify this GNU manual.”
 #+END_QUOTE
@@ -5116,6 +5124,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Commands that take a long time often display messages ending in ‘&lt;s6&gt;...&lt;/s6&gt;’ while they are working (sometimes also indicating how much progress has been made, as a percentage), and add ‘&lt;s7&gt;done&lt;/s7&gt;’ when they are finished.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022918Z" creationid="grass" creationdate="20201203T022918Z">
+        <seg>耗时较长的命令通常在工作时显示以“&lt;s6&gt;.&lt;/s6&gt;”结尾的消息(有时还以百分比形式指示已取得的进展)，并在完成时添加“&lt;s7&gt;完成&lt;/s7&gt;”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Commands to insert timestamps.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102036Z" creationid="grass" creationdate="20201014T102036Z">
@@ -6668,6 +6684,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104825Z" creationid="grass" creationdate="20201014T104825Z">
         <seg>用于自定义Beamer导出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, &lt;k1&gt;C-x =&lt;/k1&gt; (hold down &lt;t2&gt;Ctrl&lt;/t2&gt; and type &lt;k3&gt;x&lt;/k3&gt;, then let go of &lt;t4&gt;Ctrl&lt;/t4&gt; and type &lt;k5&gt;=&lt;/k5&gt;) displays a message describing the character at point, its position in the buffer, and its current column in the window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022854Z" creationid="grass" creationdate="20201203T022854Z">
+        <seg>例如，&lt;k1&gt;C-x=&lt;/k1&gt;(按住&lt;t2&gt;Ctrl&lt;/t2&gt;并键入&lt;k3&gt;x&lt;/k3&gt;，然后松开&lt;t4&gt;Ctrl&lt;/T4&gt;并键入&lt;k5&gt;=&lt;/k5&gt;)将显示一条消息，描述该点的字符、其在缓冲区中的位置以及其在窗口中的当前列。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8396,6 +8420,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050520Z" creationid="grass" creationdate="20201013T050520Z">
         <seg>信息目录文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Informative echo area messages are saved in a special buffer named &lt;s0&gt;*Messages*&lt;/s0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022947Z" creationid="grass" creationdate="20201203T022947Z">
+        <seg>信息性回显区消息保存在名为&lt;s0&gt;*Messages*&lt;/s0&gt;的特殊缓冲区中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13848,6 +13880,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Some commands display informative messages in the echo area to tell you what the command has done, or to provide you with some specific information.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022741Z" creationid="grass" creationdate="20201203T022741Z">
+        <seg>某些命令在回显区域显示信息性消息，以告诉您该命令执行了什么操作，或者为您提供一些特定信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some people find the many stars too noisy and would prefer an outline that has whitespace followed by a single star as headline starters.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171538Z" creationid="grass" creationdate="20201010T171538Z">
@@ -15373,6 +15413,14 @@ stores its records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024528Z" creationid="grass" creationdate="20201019T023629Z">
         <seg>还有一个用于插入标签的特殊命令：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These &lt;e0&gt;informative&lt;/e0&gt; messages, unlike error messages, are not accompanied with a beep or flash.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022825Z" creationid="grass" creationdate="20201203T022825Z">
+        <seg>与错误信息不同，这些&lt;e0&gt;信息性&lt;/e0&gt;消息不会伴随蜂鸣声或闪烁。</seg>
       </tuv>
     </tu>
     <tu>
