@@ -9100,6 +9100,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Kinds of input events (characters, buttons, function keys).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T033214Z" creationid="grass" creationdate="20201203T033214Z">
+        <seg>各种输入事件(字符、按钮、功能键)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>LaTeX Export</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203400Z" creationid="grass" creationdate="20201010T203400Z">
@@ -16781,6 +16789,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>User Input</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T033210Z" creationid="grass" creationdate="20201203T033210Z">
+        <seg>用户输入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>User-defined properties are capitalized; built-in properties with special meaning are written with all capitals.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130720Z" creationid="grass" creationdate="20201005T130720Z">
@@ -18118,6 +18134,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061718Z" creationid="grass" creationdate="20201015T061718Z">
         <seg>http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Key-Binding-Conventions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Top</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T033203Z" creationid="grass" creationdate="20201203T033203Z">
+        <seg>http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Top</seg>
       </tuv>
     </tu>
     <tu>
