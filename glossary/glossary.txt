@@ -222,3 +222,4 @@ error message	错误信息
 beeping	蜂鸣声
 done	完成
 screen	屏幕
+variable	变量
