@@ -9326,8 +9326,8 @@ on your load path.</seg>
       <tuv lang="EN-US">
         <seg>Multi-character commands (see &lt;a1&gt;Keys&lt;/a1&gt;) are echoed if you pause for more than a second in the middle of a command.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T014110Z" creationid="grass" creationdate="20201203T014110Z">
-        <seg>如果您在命令中间暂停超过一秒，则会回显多字符命令(请参阅&lt;a1&gt;键&lt;/a1&gt;)。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T014125Z" creationid="grass" creationdate="20201203T014110Z">
+        <seg>如果您在命令中间暂停超过一秒，则会回显多字符命令(请参阅&lt;a1&gt;快捷键&lt;/a1&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15061,8 +15061,8 @@ databases, which hold and persist records.</seg>
       <tuv lang="EN-US">
         <seg>The line at the very bottom of the frame is the &lt;e0&gt;echo area&lt;/e0&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T013616Z" creationid="grass" creationdate="20201203T013616Z">
-        <seg>窗体最底部的一行是&lt;e0&gt;回音区&lt;/e0&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T014118Z" creationid="grass" creationdate="20201203T013616Z">
+        <seg>窗体最底部的一栏是&lt;e0&gt;回音区&lt;/e0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
