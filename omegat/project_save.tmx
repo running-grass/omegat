@@ -3940,6 +3940,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A ‘&lt;s1&gt;...&lt;/s1&gt;’ at the end of a menu item means that the command will prompt you for further input before it actually does anything.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T030107Z" creationid="grass" creationdate="20201203T030107Z">
+        <seg>菜单项末尾的“&lt;s1&gt;.&lt;/s1&gt;”表示该命令将在实际执行任何操作之前提示您进一步输入。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A.1 Hooks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053556Z" creationid="grass" creationdate="20201013T053556Z">
@@ -4312,6 +4320,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055922Z" creationid="grass" creationdate="20201016T055922Z">
         <seg>使用复读机的另一种选择是创建任务子树的多个副本，每个副本中的日期都会被移动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An arrow on the right edge of a menu item means it leads to a subsidiary menu, or &lt;e0&gt;submenu&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025946Z" creationid="grass" creationdate="20201203T025946Z">
+        <seg>菜单项右边缘的箭头表示它通向子菜单或&lt;e0&gt;子菜单&lt;/e0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11884,6 +11900,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>On a display that supports a mouse, you can use the mouse to choose a command from the menu bar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025944Z" creationid="grass" creationdate="20201203T025944Z">
+        <seg>在支持鼠标的显示器上，您可以使用鼠标从菜单栏中选择命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>On a graphical display, directly below the menu bar is a &lt;e1&gt;tool bar&lt;/e1&gt;, a row of icons that perform editing commands when you click on them.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113955Z" creationid="grass" creationdate="20201130T113955Z">
@@ -14276,6 +14300,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025012Z" creationid="grass" creationdate="20201203T025012Z">
         <seg>某些主模式在主模式名称后显示附加信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some of the commands in the menu bar have ordinary key bindings as well; if so, a key binding is shown after the item itself.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T030301Z" creationid="grass" creationdate="20201203T030301Z">
+        <seg>菜单栏中的一些命令也有普通的按键绑定；如果是这样，则在项本身之后显示一个按键绑定。</seg>
       </tuv>
     </tu>
     <tu>
