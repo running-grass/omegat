@@ -6048,6 +6048,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Emacs then echoes all the characters of the command so far, to prompt you for the rest.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022553Z" creationid="grass" creationdate="20201203T022512Z">
+        <seg>然后，Emacs会回显到目前为止键入的所有命令字符，以提示您输入剩余部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Embedded LaTeX</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202516Z" creationid="grass" creationdate="20201010T202516Z">
@@ -6116,6 +6124,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052236Z" creationid="grass" creationdate="20201013T052236Z">
         <seg>代号块的环境</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Error messages may be accompanied by beeping or by flashing the screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022724Z" creationid="grass" creationdate="20201203T022640Z">
+        <seg>错误信息可能伴随有蜂鸣声或屏幕闪烁。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11660,6 +11676,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once echoing has started, the rest of the command echoes immediately as you type it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022537Z" creationid="grass" creationdate="20201203T022537Z">
+        <seg>回显开始后，命令的剩余部分会在您键入它时立即回显。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once information is in the system, it may need to be moved around.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T131214Z" creationid="grass" creationdate="20201006T131214Z">
@@ -14931,6 +14955,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The echo area is also used to display an &lt;e0&gt;error message&lt;/e0&gt; when a command cannot do its job.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022635Z" creationid="grass" creationdate="20201203T022635Z">
+        <seg>回显区还用于在命令无法执行其工作时显示&lt;e0&gt;错误信息&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The echo area is so-named because one of the things it is used for is &lt;e0&gt;echoing&lt;/e0&gt;, which means displaying the characters of a multi-character command as you type.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T013651Z" creationid="grass" creationdate="20201203T013651Z">
@@ -15385,6 +15417,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081719Z" creationid="grass" creationdate="20201015T081719Z">
         <seg>这也让我的议程保持干净，没有任何虚假的或自我强加的最后期限或时间表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This behavior is designed to give confident users fast response, while giving hesitant users maximum feedback.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022608Z" creationid="grass" creationdate="20201203T022608Z">
+        <seg>此行为旨在为自信的用户提供快速响应，同时为犹豫不决的用户提供最大反馈。</seg>
       </tuv>
     </tu>
     <tu>
