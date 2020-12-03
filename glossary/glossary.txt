@@ -231,3 +231,6 @@ Emacs Server	Emacs服务器
 dash	破折号
 see	请参阅
 size	尺寸
+keyboard macro	键盘宏
+recursive edit	递归编辑
+tooltip	工具提示
