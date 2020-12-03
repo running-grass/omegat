@@ -3691,6 +3691,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;v0&gt;buf&lt;/v0&gt; is the name of the buffer displayed in the window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024539Z" creationid="grass" creationdate="20201203T024539Z">
+        <seg>&lt;v0&gt;buf&lt;/v0&gt;是窗口中显示的缓冲区的名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;v0&gt;cs&lt;/v0&gt; describes the character set of the text in the buffer (see &lt;a1&gt;Coding Systems&lt;/a1&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023821Z" creationid="grass" creationdate="20201203T023821Z">
@@ -3703,6 +3711,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023627Z" creationid="grass" creationdate="20201203T023627Z">
         <seg>&lt;v0&gt;cs&lt;/v0&gt;:&lt;v1&gt;ch&lt;/v1&gt;-&lt;v2&gt;fr&lt;/v2&gt;  &lt;v3&gt;buf&lt;/v3&gt;      &lt;v4&gt;pos&lt;/v4&gt; &lt;v5&gt;line&lt;/v5&gt;   (&lt;v6&gt;major&lt;/v6&gt; &lt;v7&gt;minor&lt;/v7&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;v0&gt;fr&lt;/v0&gt; gives the selected frame name (see &lt;a1&gt;Frames&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024520Z" creationid="grass" creationdate="20201203T024520Z">
+        <seg>&lt;v0&gt;fr&lt;/v0&gt;提供选定的窗体名(请参阅&lt;a1&gt;窗体&lt;/a1&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6696,6 +6712,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For a read-only buffer, it shows ‘&lt;s3&gt;%*&lt;/s3&gt;’ if the buffer is modified, and ‘&lt;s4&gt;%%&lt;/s4&gt;’ otherwise.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024430Z" creationid="grass" creationdate="20201203T024430Z">
+        <seg>对于只读缓冲区，如果修改了缓冲区，则显示“&lt;s3&gt;%*&lt;/s3&gt;”，否则显示“&lt;s4&gt;%%&lt;/s4&gt;”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For a single agenda command, you may press &lt;k0&gt;&lt;&lt;/k0&gt; once or several times in the dispatcher (see &lt;a1&gt;Agenda Dispatcher&lt;/a1&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025824Z" creationid="Eli" creationdate="20201016T135720Z">
@@ -7616,6 +7640,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, if &lt;c2&gt;default-directory&lt;/c2&gt; (see &lt;a3&gt;File Names&lt;/a3&gt;) for the current buffer is on a remote machine, ‘&lt;s4&gt;@&lt;/s4&gt;’ is displayed instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024459Z" creationid="grass" creationdate="20201203T024459Z">
+        <seg>但是，如果当前缓冲区的&lt;c2&gt;默认目录&lt;/c2&gt;(请参阅&lt;a3&gt;文件名&lt;/a3&gt;)位于远程计算机上，则会显示“&lt;s4&gt;@&lt;/s4&gt;”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, if you leave at least two empty lines, one empty line remains visible after folding the subtree, in order to structure the collapsed view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171858Z" creationid="grass" creationdate="20201010T171858Z">
@@ -7876,6 +7908,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055743Z" creationid="grass" creationdate="20201016T055743Z">
         <seg>如果是这样，请将变量&lt;c0&gt;org-agenda-skip-scheduled-if-deadline-is-shown&lt;/c0&gt;设置为&lt;c1&gt;repeat-after-deadline&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the buffer is modified, it shows two stars (‘&lt;s2&gt;**&lt;/s2&gt;’).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024424Z" creationid="grass" creationdate="20201203T024424Z">
+        <seg>如果修改缓冲区，它将显示两个星号(‘&lt;s2&gt;**&lt;/s2&gt;’)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8692,6 +8732,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T093744Z" creationid="grass" creationdate="20200927T093736Z">
         <seg>它也是一个创作系统，对文学式编程和可重复性研究提供独特的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It appears only on text terminals.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024523Z" creationid="grass" creationdate="20201203T024523Z">
+        <seg>它只出现在文本终端上。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15043,6 +15091,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The character after &lt;v0&gt;ch&lt;/v0&gt; is normally a dash (‘&lt;s1&gt;-&lt;/s1&gt;’).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024444Z" creationid="grass" creationdate="20201203T024444Z">
+        <seg>&lt;v0&gt;ch&lt;/v0&gt;后面的字符通常是破折号(‘&lt;s1&gt;-&lt;/s1&gt;’)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The character after &lt;v0&gt;cs&lt;/v0&gt; is usually a colon.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024022Z" creationid="grass" creationdate="20201203T024015Z">
@@ -15299,6 +15355,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The initial frame’s name is ‘&lt;s2&gt;F1&lt;/s2&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024534Z" creationid="grass" creationdate="20201203T024534Z">
+        <seg>初始窗体的名称为“&lt;s2&gt;F1&lt;/s2&gt;”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The item (or all items in the region) is filed below the target heading as a subitem.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132658Z" creationid="grass" creationdate="20201006T132458Z">
@@ -15383,6 +15447,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063714Z" creationid="grass" creationdate="20201015T063714Z">
         <seg>下一次&lt;k2&gt;&lt;s3&gt;TAB&lt;/s3&gt;&lt;/k2&gt;使其成为父级，依此类推，一直到顶层。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The next element on the mode line is the string indicated by &lt;v0&gt;ch&lt;/v0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024355Z" creationid="grass" creationdate="20201203T024355Z">
+        <seg>状态栏上的下一个元素是&lt;v0&gt;ch&lt;/v0&gt;指示的字符串。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15765,6 +15837,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This indication is typical for frames of an Emacs process running as a daemon (see &lt;a3&gt;Emacs Server&lt;/a3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024344Z" creationid="grass" creationdate="20201203T024344Z">
+        <seg>此指示通常用于作为守护程序运行的Emacs进程的窗体(请参阅&lt;a3&gt;Emacs服务器&lt;/a3&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is a very wide topic, so obviously I haven’t covered everything, but I hope that explains the basics of how I use Orgmode to implement GTD.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084318Z" creationid="grass" creationdate="20201015T084318Z">
@@ -15857,6 +15937,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025917Z" creationid="grass" creationdate="20201019T025917Z">
         <seg>此限制将一直有效，直到使用&lt;k0&gt;C-c C-x &gt;&lt;/k0&gt;删除，或通过在议程调度器中键入&lt;k1&gt;&lt;&lt;/k1&gt;或&lt;k2&gt;&gt;&lt;/k2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This shows two dashes (‘&lt;s1&gt;--&lt;/s1&gt;’) if the buffer displayed in the window has the same contents as the corresponding file on the disk; i.e., if the buffer is unmodified.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024408Z" creationid="grass" creationdate="20201203T024408Z">
+        <seg>如果窗口中显示的缓冲区与磁盘上的相应文件具有相同的内容，即如果缓冲区未修改，则会显示两个破折号(‘&lt;s1&gt;--&lt;/s1&gt;’)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16449,6 +16537,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024051Z" creationid="grass" creationdate="20201203T024051Z">
         <seg>通常，文件中的文本行由&lt;e1&gt;换行符&lt;/e1&gt;分隔，但有时还会使用另外两个约定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Usually, this is the same as the name of a file you are editing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024550Z" creationid="grass" creationdate="20201203T024550Z">
+        <seg>通常，这与您正在编辑的文件的名称相同。</seg>
       </tuv>
     </tu>
     <tu>
