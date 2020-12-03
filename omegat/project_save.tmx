@@ -4708,6 +4708,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Basic Editing Commands</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032859Z" creationid="grass" creationdate="20201203T032859Z">
+        <seg>基本编辑命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Basic TODO Functionality</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095149Z" creationid="grass" creationdate="20201010T200036Z">
@@ -6116,6 +6124,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080710Z" creationid="grass" creationdate="20201015T080650Z">
         <seg>每个项目都包含要执行的行动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Echo Area</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032837Z" creationid="grass" creationdate="20201203T032837Z">
+        <seg>回显区</seg>
       </tuv>
     </tu>
     <tu>
@@ -8728,6 +8744,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Inserting Text</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032902Z" creationid="grass" creationdate="20201203T032902Z">
+        <seg>插入文本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Inserting and formatting links.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105158Z" creationid="grass" creationdate="20201014T105158Z">
@@ -9556,6 +9580,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Menu Bar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032846Z" creationid="grass" creationdate="20201203T032846Z">
+        <seg>菜单栏</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Miscellaneous</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052633Z" creationid="grass" creationdate="20201013T052633Z">
@@ -9568,6 +9600,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101223Z" creationid="grass" creationdate="20201014T101223Z">
         <seg>把它们混合在一起，仍然能找到你的路。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Mode Line</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032841Z" creationid="grass" creationdate="20201203T032841Z">
+        <seg>状态栏Mode Line</seg>
       </tuv>
     </tu>
     <tu>
