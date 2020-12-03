@@ -310,6 +310,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(However, note that when Emacs was built with a GUI toolkit, the menus are drawn and controlled by the toolkit, and the key sequences to cancel menu navigation might be different from the above description.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T031109Z" creationid="grass" creationdate="20201203T031109Z">
+        <seg>(但是，请注意，当Emacs使用GUI工具包构建时，菜单由该工具包绘制和控制，用于取消菜单导航的键序列可能与上面的描述不同。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(The ‘&lt;s0&gt;G&lt;/s0&gt;’ in &lt;a1&gt;GNU&lt;/a1&gt; (GNU’s Not Unix) is not silent.)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T093115Z" creationid="grass" creationdate="20201130T093115Z">
@@ -8760,6 +8768,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Instead of using the mouse, you can also invoke the first menu bar item by pressing &lt;t0&gt;F10&lt;/t0&gt; (to run the command &lt;c1&gt;menu-bar-open&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T030400Z" creationid="grass" creationdate="20201203T030400Z">
+        <seg>您也可以通过按&lt;t0&gt;F10&lt;/t0&gt;(运行命令&lt;c1&gt;menu-bar-open&lt;/c1&gt;)来调用第一个菜单栏项目，而不是使用鼠标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Integrating captured and flagged items.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112946Z" creationid="grass" creationdate="20201014T112946Z">
@@ -16277,6 +16293,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To activate a selected menu item, press &lt;t6&gt;RET&lt;/t6&gt;; to cancel menu navigation, press &lt;k7&gt;C-g&lt;/k7&gt; or &lt;k8&gt;&lt;s9&gt;ESC&lt;/s9&gt; &lt;s10&gt;ESC&lt;/s10&gt; &lt;s11&gt;ESC&lt;/s11&gt;&lt;/k8&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T030456Z" creationid="grass" creationdate="20201203T030456Z">
+        <seg>要激活选定的菜单项，请按&lt;t6&gt;RET&lt;/t6&gt;；要取消菜单导航，请按&lt;k7&gt;C-g&lt;/k7&gt;或&lt;k8&gt;&lt;s9&gt;ESC&lt;/s9&gt;&lt;s10&gt;ESC&lt;/s10&gt;&lt;s11&gt;ESC&lt;/s11&gt;&lt;/k8&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To add a deadline, press &lt;c1&gt;C-c C-d&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081756Z" creationid="grass" creationdate="20201015T081756Z">
@@ -16425,6 +16449,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T135753Z" creationid="grass" creationdate="20200927T135753Z">
         <seg>要在非“ &lt;s1&gt;.org&lt;/s1&gt;'扩展名的文件中打开Org模式，请在文件的第一行增加以下内容：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To view the full command name and documentation for a menu item, type &lt;k0&gt;C-h k&lt;/k0&gt;, and then select the menu bar with the mouse in the usual way (see &lt;a1&gt;Key Help&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T030324Z" creationid="grass" creationdate="20201203T030324Z">
+        <seg>若要查看菜单项的完整命令名和文档，请键入&lt;k0&gt;C-h k&lt;/k0&gt;，然后按常规方式使用鼠标选择菜单栏(请参阅&lt;a1&gt;按键帮助&lt;/a1&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17634,6 +17666,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113603Z" creationid="grass" creationdate="20201016T113603Z">
         <seg>然后，您可以继续为BBDB记录定义周年纪念。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can then navigate the menus with the arrow keys or with &lt;k2&gt;C-b&lt;/k2&gt;, &lt;k3&gt;C-f&lt;/k3&gt; (left/right), &lt;k4&gt;C-p&lt;/k4&gt;, and &lt;k5&gt;C-n&lt;/k5&gt; (up/down).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T030416Z" creationid="grass" creationdate="20201203T030416Z">
+        <seg>然后，您可以使用箭头键或&lt;k2&gt;C-b&lt;/k2&gt;、&lt;k3&gt;C-f&lt;/k3&gt;(左/右)、&lt;k4&gt;C-p&lt;/k4&gt;和&lt;k5&gt;C-n&lt;/k5&gt;(上/下)来导航菜单。</seg>
       </tuv>
     </tu>
     <tu>
