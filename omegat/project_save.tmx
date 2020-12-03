@@ -15897,6 +15897,14 @@ stores its records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There’s no need to list them here, as you can more easily see them yourself.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025923Z" creationid="grass" creationdate="20201203T025923Z">
+        <seg>没有必要在这里列出它们，因为您可以更容易地亲眼看到它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These &lt;e0&gt;informative&lt;/e0&gt; messages, unlike error messages, are not accompanied with a beep or flash.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022825Z" creationid="grass" creationdate="20201203T022825Z">
