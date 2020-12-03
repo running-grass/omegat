@@ -334,6 +334,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(You can display the current column number too, by turning on Column Number mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024932Z" creationid="grass" creationdate="20201203T024932Z">
+        <seg>(通过打开列号模式，也可以显示当前列号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(a) The FSF’s Back-Cover Text is: “You have the freedom to copy and
 modify this GNU manual.”
 #+END_QUOTE
@@ -3723,6 +3731,30 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;v0&gt;line&lt;/v0&gt; is the character ‘&lt;s1&gt;L&lt;/s1&gt;’ followed by the line number at point.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024910Z" creationid="grass" creationdate="20201203T024910Z">
+        <seg>&lt;v0&gt;line&lt;/v0&gt;是字符“&lt;S1&gt;L&lt;/S1&gt;”，后跟游标处的行号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;v0&gt;major&lt;/v0&gt; is the name of the &lt;e1&gt;major mode&lt;/e1&gt; used in the buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024959Z" creationid="grass" creationdate="20201203T024959Z">
+        <seg>&lt;v0&gt;major&lt;/v0&gt;是缓冲区中使用的&lt;e1&gt;主模式&lt;/e1&gt;的名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;v0&gt;minor&lt;/v0&gt; is a list of some of the enabled &lt;e1&gt;minor modes&lt;/e1&gt;, which are optional editing modes that provide additional features on top of the major mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025045Z" creationid="grass" creationdate="20201203T025045Z">
+        <seg>&lt;v0&gt;minor&lt;/v0&gt;是一些已启用的&lt;e1&gt;辅模式&lt;/e1&gt;的列表，它们是在主模式之上提供附加功能的可选编辑模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;v0&gt;pos&lt;/v0&gt; tells you whether there is additional text above the top of the window, or below the bottom.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024632Z" creationid="grass" creationdate="20201203T024632Z">
@@ -3856,6 +3888,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064823Z" creationid="grass" creationdate="20201015T064823Z">
         <seg>强制执行一个普通粘贴的一个好方法是&lt;k5&gt;C-u C-y&lt;/k5&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A major mode is a principal editing mode for the buffer, such as Text mode, Lisp mode, C mode, and so forth.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025004Z" creationid="grass" creationdate="20201203T025004Z">
+        <seg>主模式是缓冲区的主要编辑模式，诸如文本模式、Lisp模式、C模式等。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6772,6 +6812,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022854Z" creationid="grass" creationdate="20201203T022854Z">
         <seg>例如，&lt;k1&gt;C-x=&lt;/k1&gt;(按住&lt;t2&gt;Ctrl&lt;/t2&gt;并键入&lt;k3&gt;x&lt;/k3&gt;，然后松开&lt;t4&gt;Ctrl&lt;/T4&gt;并键入&lt;k5&gt;=&lt;/k5&gt;)将显示一条消息，描述该点的字符、其在缓冲区中的位置以及其在窗口中的当前列。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, Compilation buffers and Shell buffers display the status of the subprocess.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025014Z" creationid="grass" creationdate="20201203T025014Z">
+        <seg>例如，编译缓冲区和Shell缓冲区显示子进程的状态。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13744,6 +13792,30 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a2&gt;Major Modes&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025008Z" creationid="grass" creationdate="20201203T025008Z">
+        <seg>请参阅&lt;a2&gt;主模式&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a2&gt;Minor Modes&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025049Z" creationid="grass" creationdate="20201203T025049Z">
+        <seg>请参阅&lt;a2&gt;辅模式&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a2&gt;Optional Mode Line&lt;/a2&gt;.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024941Z" creationid="grass" creationdate="20201203T024941Z">
+        <seg>请参阅&lt;a2&gt;可选状态栏&lt;/a2&gt;。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a3&gt;Copying&lt;/a3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082406Z" creationid="grass" creationdate="20201130T082406Z">
@@ -14116,6 +14188,22 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022741Z" creationid="grass" creationdate="20201203T022741Z">
         <seg>某些命令在回显区域显示信息性消息，以告诉您该命令执行了什么操作，或者为您提供一些特定信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some features are listed together with the minor modes whenever they are turned on, even though they are not really minor modes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025106Z" creationid="grass" creationdate="20201203T025106Z">
+        <seg>某些功能在打开时会与辅模式一起列出，即使它们不是真正的辅模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some major modes display additional information after the major mode name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025012Z" creationid="grass" creationdate="20201203T025012Z">
+        <seg>某些主模式在主模式名称后显示附加信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -50062,6 +50150,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061811Z" creationid="grass" creationdate="20201015T061811Z">
         <seg>‘&lt;s0&gt;BEGIN&lt;/s0&gt;’ … ‘&lt;s1&gt;END&lt;/s1&gt;’</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>‘&lt;s0&gt;Narrow&lt;/s0&gt;’ means that the buffer being displayed has editing restricted to only a portion of its text (see &lt;a1&gt;Narrowing&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025227Z" creationid="grass" creationdate="20201203T025227Z">
+        <seg>‘&lt;s0&gt;Narrow&lt;/s0&gt;’表示正在显示的缓冲区的编辑仅限于其文本的一部分(请参阅&lt;a1&gt;聚焦&lt;/a1&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
