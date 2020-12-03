@@ -8600,6 +8600,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is used to display small amounts of text for various purposes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T013623Z" creationid="grass" creationdate="20201203T013623Z">
+        <seg>它用于显示用于各种目的的少量文本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is useful for working near a location that has been exposed by a sparse tree command (see &lt;a0&gt;Sparse Trees&lt;/a0&gt;) or an agenda command (see &lt;a1&gt;Agenda Commands&lt;/a1&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T180140Z" creationid="grass" creationdate="20201010T175125Z">
@@ -9312,6 +9320,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T125805Z" creationid="grass" creationdate="20201006T125805Z">
         <seg>移动/拷贝一棵节点树到另外一个地方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Multi-character commands (see &lt;a1&gt;Keys&lt;/a1&gt;) are echoed if you pause for more than a second in the middle of a command.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T014110Z" creationid="grass" creationdate="20201203T014110Z">
+        <seg>如果您在命令中间暂停超过一秒，则会回显多字符命令(请参阅&lt;a1&gt;键&lt;/a1&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13776,6 +13792,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Single-character commands are not echoed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T013658Z" creationid="grass" creationdate="20201203T013658Z">
+        <seg>不回显单字符命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Six different view types are provided:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201014T145320Z" creationid="Eli" creationdate="20201014T145239Z">
@@ -14903,6 +14927,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T081224Z" creationid="grass" creationdate="20200929T081224Z">
         <seg>最简单的方式就是使用命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The echo area is so-named because one of the things it is used for is &lt;e0&gt;echoing&lt;/e0&gt;, which means displaying the characters of a multi-character command as you type.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T013651Z" creationid="grass" creationdate="20201203T013651Z">
+        <seg>回显区之所以这样命名，是因为它的用途之一是&lt;e0&gt;回显&lt;/e0&gt;，这意味着在您键入时显示多字符命令的字符。</seg>
       </tuv>
     </tu>
     <tu>
