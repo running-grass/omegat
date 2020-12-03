@@ -3691,6 +3691,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;v0&gt;cs&lt;/v0&gt;:&lt;v1&gt;ch&lt;/v1&gt;-&lt;v2&gt;fr&lt;/v2&gt;  &lt;v3&gt;buf&lt;/v3&gt;      &lt;v4&gt;pos&lt;/v4&gt; &lt;v5&gt;line&lt;/v5&gt;   (&lt;v6&gt;major&lt;/v6&gt; &lt;v7&gt;minor&lt;/v7&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023627Z" creationid="grass" creationdate="20201203T023627Z">
+        <seg>&lt;v0&gt;cs&lt;/v0&gt;:&lt;v1&gt;ch&lt;/v1&gt;-&lt;v2&gt;fr&lt;/v2&gt;  &lt;v3&gt;buf&lt;/v3&gt;      &lt;v4&gt;pos&lt;/v4&gt; &lt;v5&gt;line&lt;/v5&gt;   (&lt;v6&gt;major&lt;/v6&gt; &lt;v7&gt;minor&lt;/v7&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>?h)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024915Z" creationid="grass" creationdate="20201019T024915Z">
@@ -4384,6 +4392,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114839Z" creationid="grass" creationdate="20201130T114839Z">
         <seg>在任何时候，都有一个窗口是&lt;e0&gt;选定窗口&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At the bottom of each window is a &lt;e0&gt;mode line&lt;/e0&gt;, which describes what is going on in the current buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023413Z" creationid="grass" creationdate="20201203T023413Z">
+        <seg>在每个窗口的底部是一个&lt;e0&gt;状态栏&lt;/e0&gt;，它描述当前缓冲区中正在发生的事情。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6028,6 +6044,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195117Z" creationid="grass" creationdate="20201010T194933Z">
         <seg>Emacs Lisp形式的公式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Emacs also usually draws the mode line of the selected window with a different color from that of unselected windows, in order to make it stand out.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023517Z" creationid="grass" creationdate="20201203T023517Z">
+        <seg>Emacs通常还使用与未选择窗口不同的颜色绘制所选窗口的状态栏，以使其突出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11676,6 +11700,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>On a graphical display, the mode line is drawn with a 3D box appearance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023458Z" creationid="grass" creationdate="20201203T023458Z">
+        <seg>在图形显示上，状态栏以3D长方体外观绘制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>On a graphical display, the selected window shows a more prominent cursor (usually solid and blinking); other windows show a less prominent cursor (usually a hollow box).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114903Z" creationid="grass" creationdate="20201130T114903Z">
@@ -13552,6 +13584,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a3&gt;Minibuffer&lt;/a3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023350Z" creationid="grass" creationdate="20201203T023350Z">
+        <seg>请参见&lt;a3&gt;迷你缓冲区&lt;/a3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a4&gt;Customization&lt;/a4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113026Z" creationid="grass" creationdate="20201130T113026Z">
@@ -14779,6 +14819,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Mode Line</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023402Z" creationid="grass" creationdate="20201203T023402Z">
+        <seg>状态栏</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Org Manual</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172043Z" creationid="grass" creationdate="20200927T075935Z">
@@ -15327,6 +15375,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024728Z" creationid="grass" creationdate="20201019T024728Z">
         <seg>标签界面在启动窗口中显示可用标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The text displayed in the mode line has the following format:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023530Z" creationid="grass" creationdate="20201203T023530Z">
+        <seg>状态栏中显示的文本格式如下：</seg>
       </tuv>
     </tu>
     <tu>
@@ -16590,6 +16646,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When there is only one window, the mode line appears right above the echo area; it is the next-to-last line in the frame.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023437Z" creationid="grass" creationdate="20201203T023437Z">
+        <seg>当只有一个窗口时，模式行显示在回声区域的正上方；它是窗体中倒数第二行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When this command is used in the middle of a line, the line is split and the rest of the line becomes the new item or headline.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063526Z" creationid="grass" creationdate="20201015T063526Z">
@@ -16986,6 +17050,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065836Z" creationid="grass" creationdate="20201015T065836Z">
         <seg>您还可以提供自己的函数来提取排序关键字。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can always get out of the minibuffer by typing &lt;k2&gt;C-g&lt;/k2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023340Z" creationid="grass" creationdate="20201203T023340Z">
+        <seg>您始终可以通过键入&lt;k2&gt;C-g&lt;/k2&gt;来退出迷你缓冲区。</seg>
       </tuv>
     </tu>
     <tu>
