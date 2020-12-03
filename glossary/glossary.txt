@@ -220,3 +220,5 @@ multi-character command	多字符命令
 key	快捷键
 error message	错误信息
 beeping	蜂鸣声
+done	完成
+screen	屏幕
