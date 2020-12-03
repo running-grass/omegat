@@ -223,3 +223,4 @@ beeping	蜂鸣声
 done	完成
 screen	屏幕
 variable	变量
+character set	字符集
