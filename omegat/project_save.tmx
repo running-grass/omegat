@@ -3691,6 +3691,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;v0&gt;cs&lt;/v0&gt; describes the character set of the text in the buffer (see &lt;a1&gt;Coding Systems&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023821Z" creationid="grass" creationdate="20201203T023821Z">
+        <seg>&lt;v0&gt;cs&lt;/v0&gt;描述缓冲区中文本的字符集(请参阅&lt;a1&gt;编码系统&lt;/a1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;v0&gt;cs&lt;/v0&gt;:&lt;v1&gt;ch&lt;/v1&gt;-&lt;v2&gt;fr&lt;/v2&gt;  &lt;v3&gt;buf&lt;/v3&gt;      &lt;v4&gt;pos&lt;/v4&gt; &lt;v5&gt;line&lt;/v5&gt;   (&lt;v6&gt;major&lt;/v6&gt; &lt;v7&gt;minor&lt;/v7&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023627Z" creationid="grass" creationdate="20201203T023627Z">
@@ -7008,6 +7016,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Furthermore, if you are using an input method, &lt;v1&gt;cs&lt;/v1&gt; is preceded by a string that identifies the input method (see &lt;a2&gt;Input Methods&lt;/a2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023952Z" creationid="grass" creationdate="20201203T023952Z">
+        <seg>此外，如果您使用输入法，&lt;v1&gt;cs&lt;/v1&gt;前面会有标识输入法的字符串(请参阅&lt;a2&gt;输入法&lt;/a2&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>G Variable Index</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054416Z" creationid="grass" creationdate="20201013T054416Z">
@@ -7804,6 +7820,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T143924Z" creationid="Eli" creationdate="20201021T143924Z">
         <seg>如果议程文件中的headline带有标签（详见&lt;e0&gt;标签&lt;/e0&gt;）和属性（详见&lt;a1&gt;属性和列视图&lt;/a1&gt;）,则你可以根据这些元数据作为匹配条件来筛选事项.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If it is a dash (‘&lt;s2&gt;-&lt;/s2&gt;’), that indicates no special character set handling (with the possible exception of end-of-line conventions, described in the next paragraph).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023842Z" creationid="grass" creationdate="20201203T023842Z">
+        <seg>如果它是破折号(‘&lt;s2&gt;-&lt;/s2&gt;’)，则表示没有特殊的字符集处理(下一段中描述的行尾约定可能除外)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11588,6 +11612,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Normally, Emacs automatically handles these settings for you, but it is sometimes useful to have this information.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023737Z" creationid="grass" creationdate="20201203T023737Z">
+        <seg>通常，Emacs会自动为您处理这些设置，但有时拥有此信息很有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Not all tasks are equal.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103339Z" creationid="grass" creationdate="20201014T103339Z">
@@ -11724,6 +11756,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>On a text terminal, &lt;v0&gt;cs&lt;/v0&gt; is preceded by two additional characters that describe the coding systems for keyboard input and terminal output.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023920Z" creationid="grass" creationdate="20201203T023920Z">
+        <seg>在文本终端上，&lt;v0&gt;cs&lt;/v0&gt;前面有两个额外的字符，用于描述键盘输入和终端输出的编码系统。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>On a text terminal, Emacs occupies the entire terminal screen.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113610Z" creationid="grass" creationdate="20201130T113610Z">
@@ -11736,6 +11776,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114907Z" creationid="grass" creationdate="20201130T114907Z">
         <seg>在文本终端上，只有一个光标显示在所选窗口中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On a text terminal, this text is followed by a series of dashes extending to the right edge of the window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023641Z" creationid="grass" creationdate="20201203T023641Z">
+        <seg>在文本终端上，此文本后面跟着一系列延伸到窗口右边缘的破折号。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12200,6 +12248,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050941Z" creationid="grass" creationdate="20201013T050941Z">
         <seg>其他内置后端</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Other characters represent various &lt;e4&gt;coding systems&lt;/e4&gt;—for example, ‘&lt;s5&gt;1&lt;/s5&gt;’ represents ISO Latin-1.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023909Z" creationid="grass" creationdate="20201203T023909Z">
+        <seg>其他字符表示各种&lt;e4&gt;编码系统&lt;/e4&gt;-例如，‘&lt;s5&gt;1&lt;/s5&gt;’表示ISO Latin-1。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14755,6 +14811,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;v0&gt;cs&lt;/v0&gt; string and the colon character after it describe the character set and newline convention used for the current buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023734Z" creationid="grass" creationdate="20201203T023734Z">
+        <seg>&lt;v0&gt;cs&lt;/v0&gt;字符串及其后面的冒号字符描述了用于当前缓冲区的字符集和换行符约定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The AND operator ‘&lt;s7&gt;&amp;&lt;/s7&gt;’ is optional when ‘&lt;s8&gt;+&lt;/s8&gt;’ or ‘&lt;s9&gt;-&lt;/s9&gt;’ is present.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T143213Z" creationid="Eli" creationdate="20201022T143213Z">
@@ -15509,6 +15573,14 @@ stores its records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022825Z" creationid="grass" creationdate="20201203T022825Z">
         <seg>与错误信息不同，这些&lt;e0&gt;信息性&lt;/e0&gt;消息不会伴随蜂鸣声或闪烁。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These dashes are omitted on a graphical display.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023711Z" creationid="grass" creationdate="20201203T023711Z">
+        <seg>这些破折号在图形显示上被省略。</seg>
       </tuv>
     </tu>
     <tu>
@@ -49862,6 +49934,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T142413Z" creationid="Eli" creationdate="20201022T142413Z">
         <seg>`&amp;`的优先级要高于`|`,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>‘&lt;s3&gt;=&lt;/s3&gt;’ means no conversion whatsoever, and is usually used for files containing non-textual data.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023852Z" creationid="grass" creationdate="20201203T023852Z">
+        <seg>“&lt;s3&gt;=&lt;/s3&gt;”表示不进行任何转换，通常用于包含非文本数据的文件。</seg>
       </tuv>
     </tu>
     <tu>
