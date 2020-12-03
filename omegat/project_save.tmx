@@ -14635,6 +14635,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Echo Area</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T013502Z" creationid="grass" creationdate="20201203T013502Z">
+        <seg>回显区</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Emacs Editor</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T080010Z" creationid="grass" creationdate="20201130T080010Z">
@@ -15015,6 +15023,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060352Z" creationid="grass" creationdate="20201013T060352Z">
         <seg>此文档的许可证。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The line at the very bottom of the frame is the &lt;e0&gt;echo area&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T013616Z" creationid="grass" creationdate="20201203T013616Z">
+        <seg>窗体最底部的一行是&lt;e0&gt;回音区&lt;/e0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
