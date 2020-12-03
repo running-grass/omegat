@@ -4284,6 +4284,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Also, hovering the mouse pointer above mouse-sensitive portions of the mode line shows tooltips (see &lt;a2&gt;Tooltips&lt;/a2&gt;) with information about commands you can invoke by clicking on the mode line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025843Z" creationid="grass" creationdate="20201203T025843Z">
+        <seg>此外，将鼠标指针悬停在模式行的鼠标敏感部分上方会显示工具提示(请参阅&lt;a2&gt;工具提示&lt;/a2&gt;)，其中包含有关通过单击状态栏可以调用的命令的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An Emacs window is where the &lt;e0&gt;buffer&lt;/e0&gt;—the text or other graphics you are editing or viewing—is displayed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114424Z" creationid="grass" creationdate="20201130T114424Z">
@@ -6020,6 +6028,14 @@ for details.</seg>
         <seg>EBDB附带了对其他几个Emacs包的集成，包括
 org和许多邮件用户代理；请参阅以下各节
 有关详细信息，请参阅。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each Emacs frame normally has a &lt;e0&gt;menu bar&lt;/e0&gt; at the top which you can use to perform common operations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025902Z" creationid="grass" creationdate="20201203T025902Z">
+        <seg>每个Emacs窗体的顶部通常都有一个&lt;e0&gt;菜单栏&lt;/e0&gt;，您可以使用它来执行常见操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7872,6 +7888,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If Emacs is in one recursive editing level within another, double square brackets appear, and so on.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025633Z" creationid="grass" creationdate="20201203T025633Z">
+        <seg>如果Emacs在另一个递归编辑级别中处于另一个递归编辑级别，则会出现双方括号，依此类推。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a different string is displayed, that indicates a nontrivial end-of-line convention for encoding a file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024037Z" creationid="grass" creationdate="20201203T024037Z">
@@ -8428,6 +8452,22 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063718Z" creationid="grass" creationdate="20201015T063642Z">
         <seg>在还没有文本的新条目中，第一次&lt;k0&gt;&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt;将该条目降级为前一个条目的子项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In addition, if Emacs is inside a recursive editing level, square brackets (‘&lt;s0&gt;[…]&lt;/s0&gt;’) appear around the parentheses that surround the modes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025621Z" creationid="grass" creationdate="20201203T025621Z">
+        <seg>此外，如果Emacs在递归编辑级别内，则方括号(‘&lt;s0&gt;[…]&lt;/s0&gt;‘)出现在模式周围的括号中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In addition, the mode line is mouse-sensitive; clicking on different parts of the mode line performs various commands.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025740Z" creationid="grass" creationdate="20201203T025740Z">
+        <seg>此外，状态栏是鼠标敏感的；单击模式行的不同部分可执行各种命令。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13752,6 +13792,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Optional Mode Line&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025729Z" creationid="grass" creationdate="20201203T025729Z">
+        <seg>请参阅&lt;a0&gt;可选状态栏&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a0&gt;Refile and Copy&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T071125Z" creationid="grass" creationdate="20201015T065057Z">
@@ -13776,10 +13824,26 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;Mode Line Mouse&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025753Z" creationid="grass" creationdate="20201203T025753Z">
+        <seg>请参阅&lt;a1&gt;状态栏鼠标操作&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a1&gt;Preface&lt;/a1&gt; in &lt;c2&gt;An Introduction to Programming in Emacs Lisp&lt;/c2&gt;, if you want to learn Emacs Lisp programming.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113454Z" creationid="grass" creationdate="20201130T113256Z">
         <seg>如果您想学习Emacs Lisp编程，请参阅&lt;c2&gt;Emacs Lisp编程入门&lt;/c2&gt;中的&lt;a1&gt;序言&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;Recursive Edit&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025704Z" creationid="grass" creationdate="20201203T025704Z">
+        <seg>请参阅&lt;a1&gt;递归编辑&lt;/a1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14132,6 +14196,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095639Z" creationid="grass" creationdate="20201014T095639Z">
         <seg>简单的表格。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Since recursive editing levels affect Emacs globally, such square brackets appear in the mode line of every window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025646Z" creationid="grass" creationdate="20201203T025646Z">
+        <seg>由于递归编辑级别在全局范围内影响Emacs，因此这样的方括号出现在每个窗口的模式行中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15095,6 +15167,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024107Z" creationid="grass" creationdate="20201203T024107Z">
         <seg>MS-DOS约定使用回车字符后跟换行符；编辑此类文件时，冒号将更改为反斜杠(‘&lt;s2&gt;\&lt;/s2&gt;’)或‘&lt;s3&gt;(DOS)&lt;/s3&gt;’，具体取决于操作系统。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Menu Bar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025852Z" creationid="grass" creationdate="20201203T025852Z">
+        <seg>菜单栏</seg>
       </tuv>
     </tu>
     <tu>
@@ -17418,6 +17498,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023340Z" creationid="grass" creationdate="20201203T023340Z">
         <seg>您始终可以通过键入&lt;k2&gt;C-g&lt;/k2&gt;来退出迷你缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can change the appearance of the mode line as well as the format of its contents.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025717Z" creationid="grass" creationdate="20201203T025717Z">
+        <seg>您可以更改状态栏的外观及其内容的格式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -50230,6 +50318,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T142413Z" creationid="Eli" creationdate="20201022T142413Z">
         <seg>`&amp;`的优先级要高于`|`,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>‘&lt;s2&gt;Def&lt;/s2&gt;’ means that a keyboard macro is currently being defined (see &lt;a3&gt;Keyboard Macros&lt;/a3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025509Z" creationid="grass" creationdate="20201203T025509Z">
+        <seg>“&lt;s2&gt;Def&lt;/s2&gt;”表示当前正在定义键盘宏(请参阅&lt;a3&gt;键盘宏&lt;/a3&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
