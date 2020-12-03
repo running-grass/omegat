@@ -4708,6 +4708,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Basic</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T033453Z" creationid="grass" creationdate="20201203T033434Z">
+        <seg>基础</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Basic Editing Commands</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032859Z" creationid="grass" creationdate="20201203T032859Z">
@@ -5272,6 +5280,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T133645Z" creationid="Eli" creationdate="20201016T133645Z">
         <seg>使用类似iswitchb的界面来在各org buffer之间切换.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Commands</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T033302Z" creationid="grass" creationdate="20201203T033302Z">
+        <seg>命令</seg>
       </tuv>
     </tu>
     <tu>
@@ -6328,6 +6344,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Entering Emacs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T033309Z" creationid="grass" creationdate="20201203T033309Z">
+        <seg>进入Emacs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Environment of a Code Block</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052236Z" creationid="grass" creationdate="20201013T052236Z">
@@ -6444,6 +6468,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113055Z" creationid="grass" creationdate="20201130T113055Z">
         <seg>甚至可以在编辑会话过程中重新定义现有命令，而不必重新启动Emacs。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Exiting</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T033330Z" creationid="grass" creationdate="20201203T033330Z">
+        <seg>退出</seg>
       </tuv>
     </tu>
     <tu>
@@ -7164,6 +7196,14 @@ USA</seg>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173347Z" creationid="grass" creationdate="20201019T173347Z">
         <seg>从那里，您可以使用
 {kbd(C)}创建新记录(请参阅[[id:692cde31-73be-4faf-b436-7eae8a5d02d1][Creating记录]])。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fundamental Editing Commands</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T033349Z" creationid="grass" creationdate="20201203T033349Z">
+        <seg>基本编辑命令</seg>
       </tuv>
     </tu>
     <tu>
@@ -9076,10 +9116,26 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Key sequences: what you type to request one editing action.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T033259Z" creationid="grass" creationdate="20201203T033259Z">
+        <seg>键序列：您键入的内容以请求一个编辑操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Keyboard access to agenda views.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T143757Z" creationid="grass" creationdate="20201014T102958Z">
         <seg>议程视图快捷键</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Keys</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T033252Z" creationid="grass" creationdate="20201203T033252Z">
+        <seg>快捷键</seg>
       </tuv>
     </tu>
     <tu>
@@ -9744,6 +9800,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080515Z" creationid="grass" creationdate="20201015T080515Z">
         <seg>我的主文件是&lt;c0&gt;gtd.org&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Named functions run by key sequences to do editing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T033306Z" creationid="grass" creationdate="20201203T033306Z">
+        <seg>命名函数由键序列运行以进行编辑。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14568,6 +14632,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Starting Emacs from the shell.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T033317Z" creationid="grass" creationdate="20201203T033317Z">
+        <seg>从shell启动Emacs。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Starting and stopping a clock.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102350Z" creationid="grass" creationdate="20201014T102350Z">
@@ -14588,6 +14660,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024459Z" creationid="grass" creationdate="20201019T023428Z">
         <seg>不过，您可能希望在议程中正确设置标签，以便标记过滤可以很好地处理继承的标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Stopping or killing Emacs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T033423Z" creationid="grass" creationdate="20201203T033345Z">
+        <seg>终止或杀死Emacs。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15767,6 +15847,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T143951Z" creationid="Eli" creationdate="20201021T143951Z">
         <seg> 这里使用的匹配规则语法与创建sparse tree（&lt;k3&gt;C-c / m&lt;/k3&gt;）时使用的语法是一样的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The most basic editing commands.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T033437Z" creationid="grass" creationdate="20201203T033437Z">
+        <seg>最基本的编辑命令。</seg>
       </tuv>
     </tu>
     <tu>
