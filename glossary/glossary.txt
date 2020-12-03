@@ -224,3 +224,6 @@ done	完成
 screen	屏幕
 variable	变量
 character set	字符集
+slash	斜杠
+backslash	反斜杠
+forward slash	正斜杠
