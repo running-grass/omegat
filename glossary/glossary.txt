@@ -229,3 +229,5 @@ backslash	反斜杠
 forward slash	正斜杠
 Emacs Server	Emacs服务器
 dash	破折号
+see	请参阅
+size	尺寸
