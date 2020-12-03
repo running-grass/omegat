@@ -11996,6 +11996,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>On a text terminal, you can optionally access the menu-bar menus in the echo area.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T031122Z" creationid="grass" creationdate="20201203T031122Z">
+        <seg>在文本终端上，您可以选择访问回显区的菜单栏菜单。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>On frames created for &lt;c0&gt;emacsclient&lt;/c0&gt; (see &lt;a1&gt;Invoking emacsclient&lt;/a1&gt;), the next character is ‘&lt;s2&gt;@&lt;/s2&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024250Z" creationid="grass" creationdate="20201203T024250Z">
@@ -16441,6 +16449,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T135409Z" creationid="grass" creationdate="20200927T135409Z">
         <seg>为此，你需要把它们绑定到全局可用的按键上，例如为用户保留的按键（请参阅 &lt;a3&gt;(elisp)键绑定约定&lt;/a3&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To this end, customize the variable &lt;c0&gt;tty-menu-open-use-tmm&lt;/c0&gt; to a non-&lt;c1&gt;nil&lt;/c1&gt; value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032508Z" creationid="grass" creationdate="20201203T032508Z">
+        <seg>为此，将变量&lt;c0&gt;tty-menu-open-use-tmm&lt;/c0&gt;自定义为非&lt;c1&gt;nil&lt;/c1&gt;值。</seg>
       </tuv>
     </tu>
     <tu>
