@@ -218,3 +218,5 @@ Block	框
 Point	游标
 multi-character command	多字符命令
 key	快捷键
+error message	错误信息
+beeping	蜂鸣声
