@@ -771,6 +771,22 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>./Org使用手册(完整版).html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T034204Z" creationid="grass" creationdate="20201203T034204Z">
+        <seg>./Org使用手册(完整版).html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>./emacs.htm</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T034200Z" creationid="grass" creationdate="20201203T034200Z">
+        <seg>./emacs.htm</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>./使用Orgmode实践GTD/index.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T172046Z" creationid="grass" creationdate="20201019T172046Z">
@@ -6276,6 +6292,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022553Z" creationid="grass" creationdate="20201203T022512Z">
         <seg>然后，Emacs会回显到目前为止键入的所有命令字符，以提示您输入剩余部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Emacs手册</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T034202Z" creationid="grass" creationdate="20201203T034202Z">
+        <seg>Emacs手册</seg>
       </tuv>
     </tu>
     <tu>
