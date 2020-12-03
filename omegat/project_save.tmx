@@ -3723,6 +3723,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;v0&gt;pos&lt;/v0&gt; tells you whether there is additional text above the top of the window, or below the bottom.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024632Z" creationid="grass" creationdate="20201203T024632Z">
+        <seg>&lt;v0&gt;pos&lt;/v0&gt;告诉您窗口顶部上方还是底部下方有其他文本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>?h)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024915Z" creationid="grass" creationdate="20201019T024915Z">
@@ -8288,6 +8296,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If your buffer is small and all of it is visible in the window, &lt;v1&gt;pos&lt;/v1&gt; is ‘&lt;s2&gt;All&lt;/s2&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024638Z" creationid="grass" creationdate="20201203T024638Z">
+        <seg>如果您的缓冲区很小，并且所有缓冲区在窗口中都可见，则&lt;v1&gt;pos&lt;/v1&gt;为“&lt;s2&gt;all&lt;/s2&gt;”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If, God forbid, you</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173246Z" creationid="grass" creationdate="20201019T173246Z">
@@ -12356,6 +12372,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Otherwise, it is ‘&lt;s3&gt;Top&lt;/s3&gt;’ if you are looking at the beginning of the buffer, ‘&lt;s4&gt;Bot&lt;/s4&gt;’ if you are looking at the end of the buffer, or ‘&lt;s5&gt;&lt;v6&gt;nn&lt;/v6&gt;%&lt;/s5&gt;’, where &lt;v7&gt;nn&lt;/v7&gt; is the percentage of the buffer above the top of the window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024704Z" creationid="grass" creationdate="20201203T024704Z">
+        <seg>否则，如果查看的是缓冲区的开头，则为“&lt;s3&gt;Top&lt;/s3&gt;”，如果查看的是缓冲区的末尾，则为“&lt;s4&gt;Bot&lt;/s4&gt;”，或者为“&lt;s5&gt;&lt;v6&gt;nn&lt;/v6&gt;%&lt;/s5&gt;”，其中&lt;v7&gt;nn&lt;/v7&gt;是窗口顶部以上的缓冲区的百分比。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Otherwise, restrict it to the current subtree&lt;a0&gt;&lt;s1&gt;94&lt;/s1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T140230Z" creationid="Eli" creationdate="20201020T140214Z">
@@ -13696,6 +13720,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;Buffers&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024614Z" creationid="grass" creationdate="20201203T024614Z">
+        <seg>请参阅&lt;a1&gt;缓冲区&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a1&gt;Preface&lt;/a1&gt; in &lt;c2&gt;An Introduction to Programming in Emacs Lisp&lt;/c2&gt;, if you want to learn Emacs Lisp programming.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113454Z" creationid="grass" creationdate="20201130T113256Z">
@@ -13732,6 +13764,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113026Z" creationid="grass" creationdate="20201130T113026Z">
         <seg>请参阅&lt;a4&gt;自定义&lt;/a4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a8&gt;Optional Mode Line&lt;/a8&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024850Z" creationid="grass" creationdate="20201203T024850Z">
+        <seg>请参阅&lt;a8&gt;可选状态栏&lt;/a8&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16970,6 +17010,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070140Z" creationid="grass" creationdate="20201015T070055Z">
         <seg>扩大缓冲区以取消聚焦。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With Size Indication mode, you can display the size of the buffer as well.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024839Z" creationid="grass" creationdate="20201203T024839Z">
+        <seg>使用尺寸指示模式，您还可以显示缓冲区的尺寸。</seg>
       </tuv>
     </tu>
     <tu>
