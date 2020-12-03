@@ -326,6 +326,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(We have not explained variables either; see &lt;a5&gt;Variables&lt;/a5&gt;, for more information about them.) Beyond this limit, one line is deleted from the beginning whenever a new message line is added at the end.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023108Z" creationid="grass" creationdate="20201203T023108Z">
+        <seg>(我们也没有解释变量；有关它们的更多信息，请参阅&lt;a5&gt;变量&lt;/a5&gt;。)超过此限制后，每当在末尾添加新消息行时，将从开头删除一行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(a) The FSF’s Back-Cover Text is: “You have the freedom to copy and
 modify this GNU manual.”
 #+END_QUOTE
@@ -13488,6 +13496,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Display Custom&lt;/a0&gt;, for options that control how Emacs uses the echo area.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023123Z" creationid="grass" creationdate="20201203T023123Z">
+        <seg>有关控制Emacs如何使用回显区的选项，请参阅&lt;a0&gt;显示自定义&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a0&gt;Dynamic Headline Numbering&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171816Z" creationid="grass" creationdate="20201010T171816Z">
@@ -14691,6 +14707,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;s3&gt;*Messages*&lt;/s3&gt; buffer is limited to a certain number of lines, specified by the variable &lt;c4&gt;message-log-max&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023043Z" creationid="grass" creationdate="20201203T023043Z">
+        <seg>&lt;s3&gt;*Messages*&lt;/s3&gt;缓冲区限制为一定的行数，由变量&lt;c4&gt;message-log-max&lt;/c4&gt;指定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The AND operator ‘&lt;s7&gt;&amp;&lt;/s7&gt;’ is optional when ‘&lt;s8&gt;+&lt;/s8&gt;’ or ‘&lt;s9&gt;-&lt;/s9&gt;’ is present.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T143213Z" creationid="Eli" creationdate="20201022T143213Z">
@@ -14999,6 +15023,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022635Z" creationid="grass" creationdate="20201203T022635Z">
         <seg>回显区还用于在命令无法执行其工作时显示&lt;e0&gt;错误信息&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The echo area is also used to display the &lt;e0&gt;minibuffer&lt;/e0&gt;, a special window where you can input arguments to commands, such as the name of a file to be edited.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023156Z" creationid="grass" creationdate="20201203T023156Z">
+        <seg>回显区还用于显示&lt;e0&gt;迷你缓冲区&lt;/e0&gt;，这是一个特殊窗口，您可以在其中为命令输入参数，例如要编辑的文件名。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16522,6 +16554,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100929Z" creationid="grass" creationdate="20201014T100929Z">
         <seg>当默认搜索不够用时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the minibuffer is in use, the text displayed in the echo area begins with a &lt;e1&gt;prompt string&lt;/e1&gt;, and the active cursor appears within the minibuffer, which is temporarily considered the selected window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023329Z" creationid="grass" creationdate="20201203T023329Z">
+        <seg>当迷你缓冲区正在使用时，回显区中显示的文本以&lt;e1&gt;提示字符串&lt;/e1&gt;开头，活动光标出现在迷你缓冲区内，该窗口暂时被视为选中的窗口。</seg>
       </tuv>
     </tu>
     <tu>
