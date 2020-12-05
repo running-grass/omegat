@@ -7218,8 +7218,8 @@ org和许多邮件用户代理；请参阅以下各节
       <tuv lang="EN-US">
         <seg>For example, &lt;k1&gt;C-x =&lt;/k1&gt; (hold down &lt;t2&gt;Ctrl&lt;/t2&gt; and type &lt;k3&gt;x&lt;/k3&gt;, then let go of &lt;t4&gt;Ctrl&lt;/t4&gt; and type &lt;k5&gt;=&lt;/k5&gt;) displays a message describing the character at point, its position in the buffer, and its current column in the window.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022854Z" creationid="grass" creationdate="20201203T022854Z">
-        <seg>例如，&lt;k1&gt;C-x=&lt;/k1&gt;(按住&lt;t2&gt;Ctrl&lt;/t2&gt;并键入&lt;k3&gt;x&lt;/k3&gt;，然后松开&lt;t4&gt;Ctrl&lt;/T4&gt;并键入&lt;k5&gt;=&lt;/k5&gt;)将显示一条消息，描述该点的字符、其在缓冲区中的位置以及其在窗口中的当前列。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T090506Z" creationid="grass" creationdate="20201203T022854Z">
+        <seg>例如，&lt;k1&gt;C-x=&lt;/k1&gt;(按住&lt;t2&gt;Ctrl&lt;/t2&gt;并键入&lt;k3&gt;x&lt;/k3&gt;，然后松开&lt;t4&gt;Ctrl&lt;/t4&gt;并键入&lt;k5&gt;=&lt;/k5&gt;)将显示一条消息，描述该点的字符、其在缓冲区中的位置以及其在窗口中的当前列。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14698,8 +14698,8 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       <tuv lang="EN-US">
         <seg>See &lt;a1&gt;Keymaps&lt;/a1&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T090404Z" creationid="grass" creationdate="20201205T032103Z">
-        <seg>请参阅&lt;a1&gt;键映射&lt;/A1&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T090417Z" creationid="grass" creationdate="20201205T032103Z">
+        <seg>请参阅&lt;a1&gt;键映射&lt;/a1&gt;1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14786,8 +14786,8 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       <tuv lang="EN-US">
         <seg>See &lt;a3&gt;Lisp Interaction&lt;/a3&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072948Z" creationid="grass" creationdate="20201205T072948Z">
-        <seg>请参见&lt;A3&gt;Lisp交互&lt;/A3&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T090429Z" creationid="grass" creationdate="20201205T072948Z">
+        <seg>请参见&lt;a3&gt;Lisp交互&lt;/a3&gt;。</seg>
       </tuv>
     </tu>
     <tu>
