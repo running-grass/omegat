@@ -7202,8 +7202,8 @@ org和许多邮件用户代理；请参阅以下各节
       <tuv lang="EN-US">
         <seg>For instance, activating the ‘&lt;s3&gt;Emacs Tutorial&lt;/s3&gt;’ link opens the Emacs tutorial; this does the same thing as the command &lt;k4&gt;C-h t&lt;/k4&gt; (&lt;c5&gt;help-with-tutorial&lt;/c5&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T033321Z" creationid="grass" creationdate="20201205T033321Z">
-        <seg>例如，激活“&lt;s3&gt;Emacs Tutorial&lt;/s3&gt;”链接将打开Emacs教程；这与命令&lt;k4&gt;C-h t&lt;/k4&gt;(&lt;c5&gt;教程帮助&lt;/c5&gt;)的作用相同。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072406Z" creationid="grass" creationdate="20201205T033321Z">
+        <seg>例如，激活“&lt;s3&gt;Emacs Tutorial&lt;/s3&gt;”链接将打开Emacs教程；这与命令&lt;k4&gt;C-h t&lt;/k4&gt;(&lt;c5&gt;help-with-tutorial&lt;/c5&gt;)的作用相同。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16961,6 +16961,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113123Z" creationid="grass" creationdate="20201014T113123Z">
         <seg>关于如何加快日程安排的小贴士。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To activate a link, either move point onto it and type &lt;k6&gt;&lt;s7&gt;RET&lt;/s7&gt;&lt;/k6&gt;, or click on it with &lt;k8&gt;mouse-1&lt;/k8&gt; (the left mouse button).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072419Z" creationid="grass" creationdate="20201205T072419Z">
+        <seg>要激活链接，可以将指针移到该链接上并键入&lt;k6&gt;&lt;s7&gt;RET&lt;/s7&gt;&lt;/k6&gt;，或者用-1\f25&lt;k8&gt;鼠标&lt;/k8&gt;(鼠标左键)单击该链接。</seg>
       </tuv>
     </tu>
     <tu>
