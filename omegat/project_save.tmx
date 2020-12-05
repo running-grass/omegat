@@ -3619,6 +3619,22 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-q&lt;/k0&gt; followed by a sequence of octal digits inserts the character with the specified octal character code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091220Z" creationid="grass" creationdate="20201205T091220Z">
+        <seg>&lt;k0&gt;C-q&lt;/k0&gt;后跟一个八进制数字序列插入具有指定八进制字符代码的字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-q&lt;/k0&gt; followed by any non-graphic character (even &lt;k1&gt;C-g&lt;/k1&gt;) inserts that character.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091143Z" creationid="grass" creationdate="20201205T091143Z">
+        <seg>&lt;k0&gt;C-q&lt;/k0&gt;后跟任何非图形字符(甚至&lt;k1&gt;C-g&lt;/k1&gt;)都会插入该字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-u C-u &lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-set-startup-visibility&lt;/c2&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061825Z" creationid="grass" creationdate="20201015T061825Z">
@@ -7324,6 +7340,22 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T080834Z" creationid="grass" creationdate="20201130T080834Z">
         <seg>有关扩展Emacs的信息，请参阅&lt;c1&gt;Emacs Lisp参考手册&lt;/c1&gt;中的&lt;a0&gt;Emacs Lisp&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance, &lt;k2&gt;C-q &lt;s3&gt;DEL&lt;/s3&gt;&lt;/k2&gt; inserts a literal ‘&lt;s4&gt;DEL&lt;/s4&gt;’ character.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091210Z" creationid="grass" creationdate="20201205T091210Z">
+        <seg>例如，&lt;k2&gt;C-q&lt;s3&gt;DEL&lt;/s3&gt;&lt;/k2&gt;插入文字“&lt;s4&gt;DEL&lt;/s4&gt;”字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance, &lt;t0&gt;DEL&lt;/t0&gt; runs the command &lt;c1&gt;delete-backward-char&lt;/c1&gt; by default (some modes bind it to a different command); it does not insert a literal ‘&lt;s2&gt;DEL&lt;/s2&gt;’ character (&lt;a3&gt;ASCII&lt;/a3&gt; character code 127).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091017Z" creationid="grass" creationdate="20201205T091017Z">
+        <seg>例如，&lt;t0&gt;DEL&lt;/t0&gt;默认情况下运行命令&lt;c1&gt;delete-back-char&lt;/c1&gt;(某些模式将其绑定到不同的命令)；它不插入文字“&lt;s2&gt;DEL&lt;/s2&gt;”字符(&lt;a3&gt;ASCII&lt;/a3&gt;字符代码127)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12884,6 +12916,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Only graphic characters can be inserted by typing the associated key; other keys act as editing commands and do not insert themselves.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T090952Z" creationid="grass" creationdate="20201205T090952Z">
+        <seg>只有图形字符可以通过键入相关键来插入；其他键充当编辑命令，不会自行插入。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Only show a template in a specific context.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102751Z" creationid="grass" creationdate="20201014T102751Z">
@@ -17001,6 +17041,14 @@ stores its records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are two ways to use &lt;k3&gt;C-q&lt;/k3&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091100Z" creationid="grass" creationdate="20201205T091100Z">
+        <seg>&lt;k3&gt;C-q&lt;/k3&gt;有两种使用方式：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There is a website for Org which provides links to the newest version of Org, as well as additional information, frequently asked questions (FAQ), links to tutorials, etc.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T102013Z" creationid="grass" creationdate="20200927T102013Z">
@@ -17545,6 +17593,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201014T144925Z" creationid="Eli" creationdate="20201014T144925Z">
         <seg>你如果要查看所有未完成的行动事项，或者某些特定日期的重要事件，那么必须要有一种方式来有组织地收集、分类和展示这些信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To insert a non-graphic character, or a character that your keyboard does not support, first &lt;e0&gt;quote&lt;/e0&gt; it by typing &lt;k1&gt;C-q&lt;/k1&gt; (&lt;c2&gt;quoted-insert&lt;/c2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091135Z" creationid="grass" creationdate="20201205T091054Z">
+        <seg>若要插入非图形字符或键盘不支持的字符，请先通过键入&lt;k1&gt;C-q&lt;/k1&gt;(&lt;c2&gt;quoted-insert&lt;/c2&gt;)对其加&lt;e0&gt;引号&lt;/e0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19066,6 +19122,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032638Z" creationid="grass" creationdate="20201203T032638Z">
         <seg>您可以键入项目的字母或数字来选择项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use any number of octal digits; any non-digit terminates the sequence.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091227Z" creationid="grass" creationdate="20201205T091227Z">
+        <seg>您可以使用任意数量的八进制数字；任何非数字都可以终止序列。</seg>
       </tuv>
     </tu>
     <tu>
