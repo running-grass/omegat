@@ -250,3 +250,5 @@ registers	寄存器
 undo history	撤销历史
 mark ring	选区
 Invocation	调用
+Kill	终止
+suspend	挂起
