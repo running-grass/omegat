@@ -249,3 +249,4 @@ Enter	进入
 registers	寄存器
 undo history	撤销历史
 mark ring	选区
+Invocation	调用
