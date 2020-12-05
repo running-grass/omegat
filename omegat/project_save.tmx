@@ -3227,6 +3227,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;b0&gt;This terminal feature is turned off while you are in Emacs.&lt;/b0&gt; The meanings of &lt;k1&gt;C-z&lt;/k1&gt; and &lt;k2&gt;C-x C-c&lt;/k2&gt; as keys in Emacs were inspired by the use of &lt;k3&gt;C-z&lt;/k3&gt; and &lt;k4&gt;C-c&lt;/k4&gt; on several operating systems as the characters for stopping or killing a program, but that is their only relationship with the operating system.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073954Z" creationid="grass" creationdate="20201205T073840Z">
+        <seg>&lt;b0&gt;此终端功能在您处于Emacs中时关闭。&lt;/b0&gt;在Emacs中，&lt;k1&gt;C-z&lt;/k1&gt;和&lt;k2&gt;C-x C-c&lt;/k2&gt;作为快捷键键的含义源于在几个操作系统上使用&lt;k3&gt;C-z&lt;/k3&gt;和&lt;k4&gt;C-c&lt;/k4&gt;作为停止或终止程序的字符，但这是它们与操作系统唯一的关系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;gtd.org&lt;/c0&gt;: where I put all my projects;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075522Z" creationid="grass" creationdate="20201015T075522Z">
@@ -12604,6 +12612,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>On a graphical display, this command &lt;e2&gt;minimizes&lt;/e2&gt; (or &lt;e3&gt;iconifies&lt;/e3&gt;) the selected Emacs frame, hiding it in a way that lets you bring it back later (exactly how this hiding occurs depends on the window system).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073717Z" creationid="grass" creationdate="20201205T073717Z">
+        <seg>在图形显示上，此命令&lt;e2&gt;最小化&lt;/e2&gt;(或&lt;e3&gt;图标化&lt;/e3&gt;)选定的Emacs窗体，以允许您稍后将其恢复的方式将其隐藏(隐藏的确切方式取决于窗口系统)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>On a text terminal, &lt;v0&gt;cs&lt;/v0&gt; is preceded by two additional characters that describe the coding systems for keyboard input and terminal output.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023920Z" creationid="grass" creationdate="20201203T023920Z">
@@ -12624,6 +12640,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073243Z" creationid="grass" creationdate="20201205T073154Z">
         <seg>在文本终端上挂起Emacs；在图形显示器上，图标化(或“最小化”)选定的窗体(&lt;c0&gt;suspend-frame&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On a text terminal, the &lt;k4&gt;C-z&lt;/k4&gt; command &lt;e5&gt;suspends&lt;/e5&gt; Emacs, stopping the program temporarily and returning control to the parent process (usually a shell); in most shells, you can resume Emacs after suspending it with the shell command &lt;c6&gt;%emacs&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073756Z" creationid="grass" creationdate="20201205T073756Z">
+        <seg>在文本终端上，&lt;k4&gt;C-z&lt;/k4&gt;命令&lt;e5&gt;挂起&lt;/e5&gt;emacs，暂时停止程序并将控制权返回给父进程(通常是shell)；在大多数shell中，挂起Emacs后，您可以使用shell命令&lt;c6&gt;%emacs&lt;/c6&gt;恢复Emacs。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15820,6 +15844,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203337Z" creationid="grass" creationdate="20201010T203337Z">
         <seg>HTML导出中的文本区域</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Text terminals usually listen for certain special characters whose meaning is to kill or suspend the program you are running.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073806Z" creationid="grass" creationdate="20201205T073806Z">
+        <seg>文本终端通常会监听某些特殊字符，这些字符的含义是终止或挂起您正在运行的程序。</seg>
       </tuv>
     </tu>
     <tu>
