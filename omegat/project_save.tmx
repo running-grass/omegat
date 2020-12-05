@@ -310,6 +310,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(&lt;t17&gt;F1&lt;/t17&gt; and &lt;t18&gt;F2&lt;/t18&gt; are aliases for &lt;k19&gt;C-h&lt;/k19&gt; and &lt;k20&gt;C-x 6&lt;/k20&gt;.) This list is not cast in stone; if you customize Emacs, you can make new prefix keys.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031514Z" creationid="grass" creationdate="20201205T031514Z">
+        <seg>(&lt;t17&gt;F1&lt;/t17&gt; 和 &lt;t18&gt;F2&lt;/t18&gt; 是 &lt;k19&gt;C-h&lt;/k19&gt; 和 &lt;k20&gt;C-x 6&lt;/k20&gt;的别名) 这个列表不是一成不变的；如果您自定义Emacs，您可以创建新的前缀键。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(However, note that when Emacs was built with a GUI toolkit, the menus are drawn and controlled by the toolkit, and the key sequences to cancel menu navigation might be different from the above description.)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T031109Z" creationid="grass" creationdate="20201203T031109Z">
@@ -4998,8 +5006,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="EN-US">
         <seg>By default, the prefix keys in Emacs are &lt;k0&gt;C-c&lt;/k0&gt;, &lt;k1&gt;C-h&lt;/k1&gt;, &lt;k2&gt;C-x&lt;/k2&gt;, &lt;k3&gt;C-x &lt;s4&gt;RET&lt;/s4&gt;&lt;/k3&gt;, &lt;k5&gt;C-x @&lt;/k5&gt;, &lt;k6&gt;C-x a&lt;/k6&gt;, &lt;k7&gt;C-x n&lt;/k7&gt;, &lt;k8&gt;C-x r&lt;/k8&gt;, &lt;k9&gt;C-x t&lt;/k9&gt;, &lt;k10&gt;C-x v&lt;/k10&gt;, &lt;k11&gt;C-x 4&lt;/k11&gt;, &lt;k12&gt;C-x 5&lt;/k12&gt;, &lt;k13&gt;C-x 6&lt;/k13&gt;, &lt;t14&gt;ESC&lt;/t14&gt;, &lt;k15&gt;M-g&lt;/k15&gt;, and &lt;k16&gt;M-o&lt;/k16&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031329Z" creationid="grass" creationdate="20201205T031329Z">
-        <seg>By default, the prefix keys in Emacs are &lt;k0&gt;C-c&lt;/k0&gt;, &lt;k1&gt;C-h&lt;/k1&gt;, &lt;k2&gt;C-x&lt;/k2&gt;, &lt;k3&gt;C-x &lt;s4&gt;RET&lt;/s4&gt;&lt;/k3&gt;, &lt;k5&gt;C-x @&lt;/k5&gt;, &lt;k6&gt;C-x a&lt;/k6&gt;, &lt;k7&gt;C-x n&lt;/k7&gt;, &lt;k8&gt;C-x r&lt;/k8&gt;, &lt;k9&gt;C-x t&lt;/k9&gt;, &lt;k10&gt;C-x v&lt;/k10&gt;, &lt;k11&gt;C-x 4&lt;/k11&gt;, &lt;k12&gt;C-x 5&lt;/k12&gt;, &lt;k13&gt;C-x 6&lt;/k13&gt;, &lt;t14&gt;ESC&lt;/t14&gt;, &lt;k15&gt;M-g&lt;/k15&gt;, and &lt;k16&gt;M-o&lt;/k16&gt;.</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031420Z" creationid="grass" creationdate="20201205T031329Z">
+        <seg>默认情况下，Emacs中的前缀键为&lt;k0&gt;C-c&lt;/k0&gt;, &lt;k1&gt;C-h&lt;/k1&gt;, &lt;k2&gt;C-x&lt;/k2&gt;, &lt;k3&gt;C-x &lt;s4&gt;RET&lt;/s4&gt;&lt;/k3&gt;, &lt;k5&gt;C-x @&lt;/k5&gt;, &lt;k6&gt;C-x a&lt;/k6&gt;, &lt;k7&gt;C-x n&lt;/k7&gt;, &lt;k8&gt;C-x r&lt;/k8&gt;, &lt;k9&gt;C-x t&lt;/k9&gt;, &lt;k10&gt;C-x v&lt;/k10&gt;, &lt;k11&gt;C-x 4&lt;/k11&gt;, &lt;k12&gt;C-x 5&lt;/k12&gt;, &lt;k13&gt;C-x 6&lt;/k13&gt;, &lt;t14&gt;ESC&lt;/t14&gt;, &lt;k15&gt;M-g&lt;/k15&gt;和 &lt;k16&gt;M-o&lt;/k16&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14232,6 +14240,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a23&gt;Key Bindings&lt;/a23&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031618Z" creationid="grass" creationdate="20201205T031618Z">
+        <seg>请参阅&lt;a23&gt;键绑定&lt;/a23&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a2&gt;Help&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T112922Z" creationid="grass" creationdate="20201130T112922Z">
@@ -16187,6 +16203,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The sole exception to this rule is &lt;t2&gt;ESC&lt;/t2&gt;: &lt;k3&gt;&lt;s4&gt;ESC&lt;/s4&gt; C-h&lt;/k3&gt; is equivalent to &lt;k5&gt;C-M-h&lt;/k5&gt;, which does something else entirely.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031705Z" creationid="grass" creationdate="20201205T031705Z">
+        <seg>此规则的唯一例外是&lt;t2&gt;ESC&lt;/t2&gt;:&lt;k3&gt;&lt;s4&gt;ESC&lt;/s4&gt;C-h&lt;/k3&gt;等同于&lt;k5&gt;C-M-h&lt;/k5&gt;，它执行完全不同的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The syntax of capture templates is explained &lt;a0&gt;here&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075759Z" creationid="grass" creationdate="20201015T075759Z">
@@ -17049,6 +17073,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060940Z" creationid="grass" creationdate="20200927T084827Z">
         <seg>本指南的排版约定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Typing the help character (&lt;k0&gt;C-h&lt;/k0&gt; or &lt;t1&gt;F1&lt;/t1&gt;) after a prefix key displays a list of the commands starting with that prefix.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031633Z" creationid="grass" creationdate="20201205T031633Z">
+        <seg>在前缀键后键入帮助字符(&lt;k0&gt;C-h&lt;/k0&gt;或&lt;t1&gt;F1&lt;/t1&gt;)将显示以该前缀开头的命令列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18226,6 +18258,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031213Z" creationid="grass" creationdate="20201205T031204Z">
         <seg>您不能将输入事件追加到完全键上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You could even eliminate some of the standard ones, though this is not recommended for most users; for example, if you remove the prefix definition of &lt;k21&gt;C-x 4&lt;/k21&gt;, then &lt;k22&gt;C-x 4 C-f&lt;/k22&gt; becomes an invalid key sequence.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031533Z" creationid="grass" creationdate="20201205T031533Z">
+        <seg>您甚至可以删除一些标准的键序列，尽管不建议大多数用户这样做；例如，如果删除&lt;k21&gt;C-x 4&lt;/k21&gt;的前缀定义，则&lt;k22&gt;C-x 4 C-f&lt;/k22&gt;将成为无效的键序列。</seg>
       </tuv>
     </tu>
     <tu>
