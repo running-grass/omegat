@@ -2907,6 +2907,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>6 Exiting Emacs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073129Z" creationid="grass" creationdate="20201205T073129Z">
+        <seg>6 退出Emacs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6 Tags</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200533Z" creationid="grass" creationdate="20201010T200533Z">
@@ -3271,6 +3279,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T174029Z" creationid="grass" creationdate="20201010T174029Z">
         <seg>&lt;e0&gt;全局循环&lt;/e0&gt;：整个缓冲区在多个状态之间循环</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;Killing&lt;/e0&gt; Emacs means terminating the Emacs program.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073252Z" creationid="grass" creationdate="20201205T073252Z">
+        <seg>&lt;e0&gt;终止&lt;/e0&gt;Emacs意味着终止Emacs程序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4064,6 +4080,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054941Z" creationid="grass" creationdate="20201013T054751Z">
         <seg>类似大脑工作原理的一棵树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A two-character key sequence is used to make it harder to type by accident.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073306Z" creationid="grass" creationdate="20201205T073306Z">
+        <seg>使用两个字符的按键序列是为了增加意外键入的难度。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5104,6 +5128,22 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061741Z" creationid="grass" creationdate="20201015T061741Z">
         <seg>C-u M-x org-reload &lt;RET&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-x C-c</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073131Z" creationid="grass" creationdate="20201205T073131Z">
+        <seg>C-x C-c</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-z</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073150Z" creationid="grass" creationdate="20201205T073150Z">
+        <seg>C-z</seg>
       </tuv>
     </tu>
     <tu>
@@ -8224,6 +8264,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If &lt;c2&gt;initial-buffer-choice&lt;/c2&gt; is non-&lt;c3&gt;nil&lt;/c3&gt;, then if you specify any files on the command line, Emacs still visits them, but does not display them initially.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073120Z" creationid="grass" creationdate="20201205T073120Z">
+        <seg>如果&lt;c2&gt;initial-buffer-option&lt;/c2&gt;不是&lt;c3&gt;nil&lt;/c3&gt;，那么如果您在命令行上指定任何文件，Emacs仍然会访问它们，但最初不会显示它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If &lt;k0&gt;q&lt;/k0&gt; is not assigned to a tag, it aborts like &lt;k1&gt;C-g&lt;/k1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025126Z" creationid="grass" creationdate="20201019T025126Z">
@@ -8424,6 +8472,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If there are any modified file-visiting buffers when you type &lt;k3&gt;C-x C-c&lt;/k3&gt;, Emacs first offers to save these buffers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073355Z" creationid="grass" creationdate="20201205T073313Z">
+        <seg>如果在您键入&lt;k3&gt;C-x C-c&lt;/k3&gt;时有任何修改过的文件访问缓冲区，Emacs会首先提示保存这些缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If there is a window displaying an agenda view, the new restriction takes effect immediately.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T141048Z" creationid="Eli" creationdate="20201016T141048Z">
@@ -8516,6 +8572,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T140303Z" creationid="grass" creationdate="20200927T140303Z">
         <seg>如果您不喜欢它，可以通过使用鼠标选择一个区域或在光标之前按两次&lt;k1&gt;C-&lt;s2&gt;SPC&lt;/s2&gt;&lt;/k1&gt;来创建活动区域。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you do not save them all, it asks for confirmation again, since the unsaved changes will be lost.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073316Z" creationid="grass" creationdate="20201205T073316Z">
+        <seg>如果不全部保存，系统会再次要求确认，因为未保存的更改将丢失。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9488,6 +9552,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130830Z" creationid="grass" creationdate="20201005T130830Z">
         <seg>关键字和块以大写形式编写，以增强其可读性，但是您可以在Org文件中使用小写形式。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Kill Emacs (&lt;c0&gt;save-buffers-kill-terminal&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073149Z" creationid="grass" creationdate="20201205T073149Z">
+        <seg>终止Emacs(&lt;c0&gt;save-buffers-kill-terminal&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12480,6 +12552,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113610Z" creationid="grass" creationdate="20201130T113610Z">
         <seg>在文本终端上，Emacs占据整个终端屏幕。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On a text terminal, suspend Emacs; on a graphical display, iconify (or “minimize”) the selected frame (&lt;c0&gt;suspend-frame&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073243Z" creationid="grass" creationdate="20201205T073154Z">
+        <seg>在文本终端上挂起Emacs；在图形显示器上，图标化(或“最小化”)选定的窗体(&lt;c0&gt;suspend-frame&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16547,6 +16627,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The value of &lt;c1&gt;initial-buffer-choice&lt;/c1&gt; may also be a function (of no arguments) that should return a buffer which is then displayed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073109Z" creationid="grass" creationdate="20201205T073109Z">
+        <seg>&lt;c1&gt;initial-buffer-choice&lt;/c1&gt;的值也可以是一个函数(没有参数)，它应该返回一个缓冲区，然后显示该缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The variable &lt;c0&gt;org-publish-project-alist&lt;/c0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051115Z" creationid="grass" creationdate="20201013T051115Z">
@@ -17113,6 +17201,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201105T050759Z" creationid="grass" creationdate="20201015T081745Z">
         <seg>为此，请在条目上按&lt;c0&gt;C-c C-s&lt;/c0&gt;，然后输入日期或时间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To do this, type &lt;k1&gt;C-x C-c&lt;/k1&gt; (&lt;c2&gt;save-buffers-kill-terminal&lt;/c2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073301Z" creationid="grass" creationdate="20201205T073301Z">
+        <seg>为此，请键入&lt;k1&gt;C-x C-c&lt;/k1&gt;(&lt;c2&gt;save-buffers-kill-terminal&lt;/c2&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
