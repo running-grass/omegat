@@ -243,3 +243,4 @@ modifier key	修饰键
 prefix key	前缀键
 complete key	完全键
 key binding	键绑定
+keymap	键映射
