@@ -2483,6 +2483,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>3 Keys</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030623Z" creationid="grass" creationdate="20201205T030623Z">
+        <seg>3 快捷键</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3 Tables</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T193527Z" creationid="grass" creationdate="20201010T193527Z">
@@ -3863,6 +3871,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024253Z" creationid="grass" creationdate="20201019T024253Z">
         <seg>?w) ("@home" .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;e0&gt;key sequence&lt;/e0&gt;, or &lt;e1&gt;key&lt;/e1&gt; for short, is a sequence of one or more input events that is meaningful as a unit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030747Z" creationid="grass" creationdate="20201205T030747Z">
+        <seg>&lt;e0&gt;键序列&lt;/e0&gt;或简称&lt;e1&gt;快捷键&lt;/e1&gt;是把有意义的一个或多个输入事件的序列作为一个单元。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6976,6 +6992,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For details about how Emacs internally handles input events, see &lt;a1&gt;Input Events&lt;/a1&gt; in &lt;c2&gt;The Emacs Lisp Reference Manual&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030600Z" creationid="grass" creationdate="20201205T030600Z">
+        <seg>有关Emacs如何在内部处理输入事件的详细信息，请参阅&lt;c2&gt;Emacs Lisp参考手册&lt;/c2&gt;中的&lt;a1&gt;输入事件&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, &lt;k1&gt;C-x =&lt;/k1&gt; (hold down &lt;t2&gt;Ctrl&lt;/t2&gt; and type &lt;k3&gt;x&lt;/k3&gt;, then let go of &lt;t4&gt;Ctrl&lt;/t4&gt; and type &lt;k5&gt;=&lt;/k5&gt;) displays a message describing the character at point, its position in the buffer, and its current column in the window.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022854Z" creationid="grass" creationdate="20201203T022854Z">
@@ -8372,6 +8396,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024626Z" creationid="grass" creationdate="20201019T023932Z">
         <seg>如果您已使用变量&lt;c0&gt;org-tag-ist&lt;/c0&gt;全局定义了首选的标签集，但希望在特定文件中使用动态标签列表，请向该文件添加空的“&lt;s1&gt;TAGS&lt;/s1&gt;”关键字：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you have this problem, you can either customize your window manager to not block those keys, or rebind the affected Emacs commands (see &lt;a6&gt;Customization&lt;/a6&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030512Z" creationid="grass" creationdate="20201205T030512Z">
+        <seg>如果遇到此问题，您可以自定义窗口管理器，使其不拦截那些键，或者重新绑定受影响的Emacs命令(请参阅&lt;a6&gt;自定义&lt;/a6&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12724,6 +12756,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Other commands take two or more input events to invoke, such as &lt;k1&gt;C-x C-f&lt;/k1&gt; and &lt;k2&gt;C-x 4 C-f&lt;/k2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030645Z" creationid="grass" creationdate="20201205T030645Z">
+        <seg>其他命令需要调用两个或多个输入事件，例如&lt;k1&gt;C-x C-f&lt;/k1&gt;和&lt;k2&gt;C-x 4 C-f&lt;/k2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Otherwise autoload Org functions will mess up the installation.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T131916Z" creationid="grass" creationdate="20200927T131916Z">
@@ -14472,6 +14512,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Simple characters and control characters, as well as certain non-keyboard inputs such as mouse clicks, are collectively referred to as &lt;e0&gt;input events&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030537Z" creationid="grass" creationdate="20201205T030537Z">
+        <seg>简单字符和控制字符以及某些非键盘输入(如鼠标单击)统称为&lt;e0&gt;输入事件&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Simple characters, like ‘&lt;s1&gt;a&lt;/s1&gt;’, ‘&lt;s2&gt;B&lt;/s2&gt;’, ‘&lt;s3&gt;3&lt;/s3&gt;’, ‘&lt;s4&gt;=&lt;/s4&gt;’, and the space character (denoted as &lt;t5&gt;SPC&lt;/t5&gt;), are entered by typing the corresponding key.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T023104Z" creationid="grass" creationdate="20201205T023104Z">
@@ -14548,6 +14596,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201105T050423Z" creationid="grass" creationdate="20201015T080509Z">
         <seg>因此&lt;c0&gt;C-c C-w&lt;/c0&gt;会提示我选择一个项目、备忘录或将来/也许清单。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some Emacs commands are invoked by just one input event; for example, &lt;k0&gt;C-f&lt;/k0&gt; moves forward one character in the buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030632Z" creationid="grass" creationdate="20201205T030632Z">
+        <seg>一些Emacs命令仅由一个输入事件调用；例如，&lt;k0&gt;C-f&lt;/k0&gt;在缓冲区中向前移动一个字符。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18398,6 +18454,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081059Z" creationid="grass" creationdate="20201015T081059Z">
         <seg>http://orgmode.org/worg/org-tutorials/org-custom-agenda-commands.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Input-Events</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030516Z" creationid="grass" creationdate="20201205T030516Z">
+        <seg>http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Input-Events</seg>
       </tuv>
     </tu>
     <tu>
