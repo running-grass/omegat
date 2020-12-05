@@ -6976,6 +6976,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, &lt;k7&gt;Control-a&lt;/k7&gt; is entered by holding down the &lt;t8&gt;Ctrl&lt;/t8&gt; key while pressing &lt;k9&gt;a&lt;/k9&gt;; we will refer to this as &lt;k10&gt;C-a&lt;/k10&gt; for short.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T023438Z" creationid="grass" creationdate="20201205T023438Z">
+        <seg>例如，&lt;k7&gt;Control-a&lt;/k7&gt;是在按住&lt;t8&gt;Ctrl&lt;/t8&gt;键的同时按&lt;k9&gt;a&lt;/k9&gt;输入的，我们简称为&lt;k10&gt;C-a&lt;/k10&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, Compilation buffers and Shell buffers display the status of the subprocess.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025014Z" creationid="grass" creationdate="20201203T025014Z">
@@ -9736,6 +9744,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032841Z" creationid="grass" creationdate="20201203T032841Z">
         <seg>状态栏Mode Line</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Modifier keys can also be applied to non-alphanumerical characters, e.g., &lt;k16&gt;C-&lt;s17&gt;F1&lt;/s17&gt;&lt;/k16&gt; or &lt;k18&gt;M-&lt;s19&gt;LEFT&lt;/s19&gt;&lt;/k18&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T023521Z" creationid="grass" creationdate="20201205T023521Z">
+        <seg>修饰键还可以应用于非字母数字字符，例如，&lt;k16&gt;C-&lt;s17&gt;F1&lt;/k16&gt;或&lt;k18&gt;M-&lt;/s19&gt;LEFT&lt;/s19&gt;&lt;/k18&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14424,6 +14440,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Similarly, &lt;k11&gt;&lt;s12&gt;Meta&lt;/s12&gt;-a&lt;/k11&gt;, or &lt;k13&gt;M-a&lt;/k13&gt; for short, is entered by holding down the &lt;t14&gt;Alt&lt;/t14&gt; key and pressing &lt;k15&gt;a&lt;/k15&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T023502Z" creationid="grass" creationdate="20201205T023502Z">
+        <seg>类似地，&lt;k11&gt;&lt;s12&gt;Meta&lt;/s12&gt;-a&lt;/k11&gt;或简称&lt;k13&gt;M-a&lt;/k13&gt;通过按住&lt;t14&gt;Alt&lt;/t14&gt;键并按&lt;k15&gt;a&lt;/k15&gt;来输入。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Similarly, you can use &lt;c3&gt;:newline&lt;/c3&gt; to indicate a line break.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024857Z" creationid="grass" creationdate="20201019T024857Z">
@@ -16517,6 +16541,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Thus, you can enter &lt;k1&gt;M-a&lt;/k1&gt; by typing &lt;k2&gt;&lt;s3&gt;ESC&lt;/s3&gt; a&lt;/k2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030203Z" creationid="grass" creationdate="20201205T030203Z">
+        <seg>因此，您可以通过键入&lt;k2&gt;&lt;s3&gt;ESC&lt;/s3&gt;a&lt;/k2&gt;来输入&lt;k1&gt;M-a&lt;/k1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tick-off lists.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101041Z" creationid="grass" creationdate="20201014T101041Z">
@@ -16825,6 +16857,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111035Z" creationid="grass" creationdate="20201014T111035Z">
         <seg>调整HTML/LaTeX导出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Two commonly-used modifier keys are &lt;t1&gt;Control&lt;/t1&gt; (usually labeled &lt;t2&gt;Ctrl&lt;/t2&gt;), and &lt;t3&gt;Meta&lt;/t3&gt; (usually labeled &lt;t4&gt;Alt&lt;/t4&gt;)&lt;a5&gt;&lt;s6&gt;3&lt;/s6&gt;&lt;/a5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T023402Z" creationid="grass" creationdate="20201205T023402Z">
+        <seg>两个常用的修饰键是&lt;t1&gt;Control&lt;/t1&gt;(通常标记为&lt;t2&gt;Ctrl&lt;/t2&gt;)和&lt;t3&gt;Meta&lt;/t3&gt;(通常标记为&lt;t4&gt;Alt&lt;/t4&gt;)&lt;a5&gt;&lt;s6&gt;3&lt;/s6&gt;&lt;/a5&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17850,6 +17890,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065836Z" creationid="grass" creationdate="20201015T065836Z">
         <seg>您还可以提供自己的函数来提取排序关键字。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also type Meta characters using two-character sequences starting with &lt;t0&gt;ESC&lt;/t0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T023547Z" creationid="grass" creationdate="20201205T023547Z">
+        <seg>您还可以使用以&lt;t0&gt;ESC&lt;/t0&gt;开头的双字符序列键入元字符。</seg>
       </tuv>
     </tu>
     <tu>
