@@ -240,3 +240,5 @@ basic	基础
 issue	触发
 International	国际化
 modifier key	修饰键
+prefix key	前缀键
+complete key	完全键
