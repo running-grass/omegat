@@ -7200,6 +7200,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For instance, activating the ‘&lt;s3&gt;Emacs Tutorial&lt;/s3&gt;’ link opens the Emacs tutorial; this does the same thing as the command &lt;k4&gt;C-h t&lt;/k4&gt; (&lt;c5&gt;help-with-tutorial&lt;/c5&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T033321Z" creationid="grass" creationdate="20201205T033321Z">
+        <seg>例如，激活“&lt;s3&gt;Emacs Tutorial&lt;/s3&gt;”链接将打开Emacs教程；这与命令&lt;k4&gt;C-h t&lt;/k4&gt;(&lt;c5&gt;教程帮助&lt;/c5&gt;)的作用相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For instance, if a project has moved forward to a certain point, but I know that it will stall for a few weeks for some reason, I move it to &lt;c0&gt;someday.org&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083652Z" creationid="grass" creationdate="20201015T083652Z">
@@ -16617,6 +16625,14 @@ database, if one doesn't already exist.</seg>
         <seg>这
 将在~ebdb-mode~中打开一个新缓冲区，并提示您创建
 数据库(如果尚不存在)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This &lt;e1&gt;startup screen&lt;/e1&gt; contains information about Emacs and &lt;e2&gt;links&lt;/e2&gt; to common tasks that are useful for beginning users.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T033250Z" creationid="grass" creationdate="20201205T033250Z">
+        <seg>此&lt;e1&gt;启动屏幕&lt;/e1&gt;包含有关Emacs的信息，并且&lt;e2&gt;链接&lt;/e2&gt;指向对初学者有用的常见任务。</seg>
       </tuv>
     </tu>
     <tu>
