@@ -2363,6 +2363,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>2 Kinds of User Input</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T022608Z" creationid="grass" creationdate="20201205T022608Z">
+        <seg>2 用户输类型入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2)))</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080305Z" creationid="grass" creationdate="20201015T080305Z">
@@ -7276,6 +7284,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081858Z" creationid="grass" creationdate="20201130T081858Z">
         <seg>GNU Emacs不属于公共领域；它是受版权保护的，并且对其分发有限制，但这些限制旨在允许好的合作公民想要做的一切。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>GNU Emacs is primarily designed for use with the keyboard.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T022619Z" creationid="grass" creationdate="20201205T022619Z">
+        <seg>GNU Emacs主要设计用于键盘。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17466,6 +17482,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111051Z" creationid="grass" creationdate="20201014T111051Z">
         <seg>哪些链接在发布后仍然有效？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While it is possible to use the mouse to issue editing commands through the menu bar and tool bar, that is not as efficient as using the keyboard.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T022747Z" creationid="grass" creationdate="20201205T022747Z">
+        <seg>虽然可以使用鼠标通过菜单栏和工具栏触发编辑命令，但效率不如使用键盘。</seg>
       </tuv>
     </tu>
     <tu>
