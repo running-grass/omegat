@@ -6312,6 +6312,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Emacs supports 3 additional modifier keys, see &lt;a0&gt;Modifier Keys&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030318Z" creationid="grass" creationdate="20201205T030318Z">
+        <seg>Emacs支持3个额外的修饰键，请参见&lt;a0&gt;修饰键&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Emacs then echoes all the characters of the command so far, to prompt you for the rest.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022553Z" creationid="grass" creationdate="20201203T022512Z">
@@ -12228,6 +12236,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>On graphical displays, the window manager might block some keyboard inputs, including &lt;k0&gt;M-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt;, &lt;k2&gt;M-&lt;s3&gt;SPC&lt;/s3&gt;&lt;/k2&gt;, &lt;k4&gt;C-M-d&lt;/k4&gt; and &lt;k5&gt;C-M-l&lt;/k5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030450Z" creationid="grass" creationdate="20201205T030450Z">
+        <seg>在图形显示上，窗口管理器可能会拦截一些键盘输入，包括&lt;k0&gt;M-&lt;s1&gt;TAB&lt;/k0&gt;、&lt;k2&gt;M-&lt;s3&gt;SPC&lt;/s3&gt;&lt;/k2&gt;、&lt;k4&gt;C-M-d&lt;/k4&gt;和&lt;k5&gt;C-M-l&lt;/k5&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>On some systems, Emacs displays ‘&lt;s6&gt;(Unix)&lt;/s6&gt;’ instead of the colon for files that use newline as the line separator.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024225Z" creationid="grass" creationdate="20201203T024225Z">
@@ -16365,6 +16381,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This feature is useful on certain text terminals where the &lt;t14&gt;Meta&lt;/t14&gt; key does not function reliably.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030302Z" creationid="grass" creationdate="20201205T030302Z">
+        <seg>此功能在&lt;t14&gt;Meta&lt;/t14&gt;键功能不可靠的某些文本终端上非常有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This file should be reviewed once a week as part of the weekly review (which I do this on Sunday evenings).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083544Z" creationid="grass" creationdate="20201015T083544Z">
@@ -16913,6 +16937,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105504Z" creationid="grass" creationdate="20201014T105504Z">
         <seg>这是这个LaTeX后端独有的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unlike &lt;t10&gt;Meta&lt;/t10&gt;, &lt;t11&gt;ESC&lt;/t11&gt; is entered as a separate character.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030236Z" creationid="grass" creationdate="20201205T030236Z">
+        <seg>与&lt;t10&gt;Meta&lt;/t10&gt;不同，&lt;t11&gt;ESC&lt;/t11&gt;作为单独的字符输入。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17958,6 +17990,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can enter &lt;k4&gt;C-M-a&lt;/k4&gt; (holding down both &lt;t5&gt;Ctrl&lt;/t5&gt; and &lt;t6&gt;Alt&lt;/t6&gt;, then pressing &lt;k7&gt;a&lt;/k7&gt;) by typing &lt;k8&gt;&lt;s9&gt;ESC&lt;/s9&gt; C-a&lt;/k8&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030229Z" creationid="grass" creationdate="20201205T030229Z">
+        <seg>您可以通过键入&lt;k8&gt;&lt;s9&gt;ESC&lt;/s9&gt;C-a&lt;/k8&gt;来输入&lt;k4&gt;C-M-a&lt;/k4&gt;(同时按住&lt;t5&gt;Ctrl&lt;/t5&gt;和&lt;t6&gt;Alt&lt;/t6&gt;，然后按&lt;k7&gt;a&lt;/k7&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can install Org from the “package menu”, with &lt;k0&gt;M-x list-packages&lt;/k0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T140645Z" creationid="grass" creationdate="20200927T131307Z">
@@ -18050,6 +18090,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T083255Z" creationid="grass" creationdate="20201130T083255Z">
         <seg>您可以访问我们的在线商店&lt;a1&gt;https://shop.fsf.org/&lt;/a1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You don’t hold down &lt;t12&gt;ESC&lt;/t12&gt; while typing the next character; instead, press &lt;t13&gt;ESC&lt;/t13&gt; and release it, then enter the next character.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030252Z" creationid="grass" creationdate="20201205T030252Z">
+        <seg>键入下一个字符时不要按住&lt;t12&gt;ESC&lt;/t12&gt;；而是按&lt;t13&gt;ESC&lt;/t13&gt;并松开它，然后输入下一个字符。</seg>
       </tuv>
     </tu>
     <tu>
