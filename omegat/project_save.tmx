@@ -2659,6 +2659,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>4 Keys and Commands</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031732Z" creationid="grass" creationdate="20201205T031732Z">
+        <seg>4 快捷键和命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083719Z" creationid="grass" creationdate="20201015T083719Z">
@@ -4940,6 +4948,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>But Emacs does not assign meanings to keys directly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031757Z" creationid="grass" creationdate="20201205T031757Z">
+        <seg>但是Emacs不直接为快捷键分配含义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>But scheduling sometimes makes sense.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081725Z" creationid="grass" creationdate="20201015T081725Z">
@@ -6484,6 +6500,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052254Z" creationid="grass" creationdate="20201013T052254Z">
         <seg>代码块求值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Every command has a name chosen by a programmer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031913Z" creationid="grass" creationdate="20201205T031913Z">
+        <seg>每个命令都有一个由程序员选择的名称。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9040,6 +9064,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Instead, Emacs assigns meanings to named &lt;e0&gt;commands&lt;/e0&gt;, and then gives keys their meanings by &lt;e1&gt;binding&lt;/e1&gt; them to commands.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031851Z" creationid="grass" creationdate="20201205T031851Z">
+        <seg>相反，Emacs为命名的&lt;e0&gt;命令&lt;/e0&gt;分配含义，然后通过&lt;e1&gt;绑定&lt;/e1&gt;到命令来赋予快捷键含义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Integrating captured and flagged items.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112946Z" creationid="grass" creationdate="20201014T112946Z">
@@ -9076,6 +9108,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201431Z" creationid="grass" creationdate="20201010T201431Z">
         <seg>内部归档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Internally, each command is a special type of Lisp &lt;e2&gt;function&lt;/e2&gt;, and the actions associated with the command are performed by running the function.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032000Z" creationid="grass" creationdate="20201205T032000Z">
+        <seg>在内部，每个命令都是一种特殊类型的Lisp&lt;e2&gt;函数&lt;/e2&gt;，与该命令相关联的操作通过运行该函数来执行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16115,6 +16155,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The name is usually made of a few English words separated by dashes; for example, &lt;c0&gt;next-line&lt;/c0&gt; or &lt;c1&gt;forward-word&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031929Z" creationid="grass" creationdate="20201205T031929Z">
+        <seg>名称通常由几个用短划线分隔的英文单词组成；例如，&lt;c0&gt;next-line&lt;/c0&gt;或&lt;c1&gt;forward-word&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The next &lt;k2&gt;&lt;s3&gt;TAB&lt;/s3&gt;&lt;/k2&gt; makes it a parent, and so on, all the way to top level.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063714Z" creationid="grass" creationdate="20201015T063714Z">
@@ -16641,6 +16689,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054501Z" creationid="grass" creationdate="20201013T054501Z">
         <seg>本手册适用于Org版本9.4。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This manual is full of passages that tell you what particular keys do.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031743Z" creationid="grass" creationdate="20201205T031743Z">
+        <seg>这本手册有很多段落告诉你特定的快捷键键有什么作用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18254,6 +18310,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can, however, use &lt;t6&gt;F1&lt;/t6&gt; to display a list of commands starting with &lt;t7&gt;ESC&lt;/t7&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031714Z" creationid="grass" creationdate="20201205T031714Z">
+        <seg>但是，您可以使用&lt;t6&gt;F1&lt;/t6&gt;显示以&lt;t7&gt;ESC&lt;/t7&gt;开头的命令列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can’t add input events onto a complete key.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031213Z" creationid="grass" creationdate="20201205T031204Z">
@@ -18598,6 +18662,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T033203Z" creationid="grass" creationdate="20201203T033203Z">
         <seg>http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Top</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#What-Is-a-Function</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031854Z" creationid="grass" creationdate="20201205T031854Z">
+        <seg>http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#What-Is-a-Function</seg>
       </tuv>
     </tu>
     <tu>
