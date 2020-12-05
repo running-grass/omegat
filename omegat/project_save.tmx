@@ -4500,10 +4500,26 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Also, a working &lt;t10&gt;Alt&lt;/t10&gt; key acts like &lt;k11&gt;C-x 8&lt;/k11&gt; (unless followed by &lt;t12&gt;RET&lt;/t12&gt;); e.g., &lt;k13&gt;A-[&lt;/k13&gt; acts like &lt;k14&gt;C-x 8 [&lt;/k14&gt; and inserts &lt;t15&gt;‘&lt;/t15&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091646Z" creationid="grass" creationdate="20201205T091646Z">
+        <seg>此外，工作的&lt;t10&gt;Alt&lt;/t10&gt;键类似于&lt;k11&gt;C-x 8&lt;/k11&gt;(除非后面紧跟&lt;t12&gt;RET&lt;/t12&gt;)；例如，&lt;k13&gt;A-[&lt;/k13&gt;类似于&lt;k14&gt;C-x 8 [&lt;/k14&gt;并插入&lt;t15&gt;‘&lt;/t15&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Also, hovering the mouse pointer above mouse-sensitive portions of the mode line shows tooltips (see &lt;a2&gt;Tooltips&lt;/a2&gt;) with information about commands you can invoke by clicking on the mode line.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025843Z" creationid="grass" creationdate="20201203T025843Z">
         <seg>此外，将鼠标指针悬停在模式行的鼠标敏感部分上方会显示工具提示(请参阅&lt;a2&gt;工具提示&lt;/a2&gt;)，其中包含有关通过单击状态栏可以调用的命令的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Alternatively, you can use the command &lt;k0&gt;C-x 8 &lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;insert-char&lt;/c2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091722Z" creationid="grass" creationdate="20201205T091722Z">
+        <seg>或者，您可以使用命令&lt;k0&gt;C-x 8&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt;(&lt;c2&gt;insert-char&lt;/c2&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8812,6 +8828,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075512Z" creationid="grass" creationdate="20201015T075512Z">
         <seg>如果您不了解Orgmode并对其感兴趣，您应该先访问其&lt;a0&gt;网站&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you enter a name, the command provides completion (see &lt;a3&gt;Completion&lt;/a3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091859Z" creationid="grass" creationdate="20201205T091741Z">
+        <seg>如果输入名称，该命令将提供完成(请参见&lt;a3&gt;补全&lt;/a3&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15216,6 +15240,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Similarly, &lt;k4&gt;C-x 8 ]&lt;/k4&gt;, &lt;k5&gt;C-x 8 {&lt;/k5&gt; and &lt;k6&gt;C-x 8 }&lt;/k6&gt; insert the curved quotes &lt;t7&gt;’&lt;/t7&gt;, &lt;t8&gt;“&lt;/t8&gt; and &lt;t9&gt;”&lt;/t9&gt;, respectively.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091603Z" creationid="grass" creationdate="20201205T091603Z">
+        <seg>同样，&lt;k4&gt;C-x 8 ]&lt;/k4&gt;、&lt;k5&gt;C-x 8 {&lt;/k5&gt;和&lt;k6&gt;C-x 8 }&lt;/k6&gt;分别插入弧形引号&lt;t7&gt;‘&lt;/t7&gt;、&lt;t8&gt;“&lt;/t8&gt;和&lt;t9&gt;”&lt;/t9&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Similarly, you can use &lt;c3&gt;:newline&lt;/c3&gt; to indicate a line break.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024857Z" creationid="grass" creationdate="20201019T024857Z">
@@ -17453,6 +17485,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This prompts for the Unicode name or code-point of a character, using the minibuffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091830Z" creationid="grass" creationdate="20201205T091738Z">
+        <seg>这会提示使用迷你缓冲区输入字符的Unicode名称或编码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This restriction remains in effect until removed with &lt;k0&gt;C-c C-x &gt;&lt;/k0&gt;, or by typing either &lt;k1&gt;&lt;&lt;/k1&gt; or &lt;k2&gt;&gt;&lt;/k2&gt; in the agenda dispatcher.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025917Z" creationid="grass" creationdate="20201019T025917Z">
@@ -17713,6 +17753,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T140104Z" creationid="Eli" creationdate="20201016T135933Z">
         <seg>如果想要较长时间内agenda的范围,可以使用以下命令:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To see which characters have &lt;k16&gt;C-x 8&lt;/k16&gt; shorthands, type &lt;k17&gt;C-x 8 C-h&lt;/k17&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091705Z" creationid="grass" creationdate="20201205T091705Z">
+        <seg>若要查看哪些字符具有&lt;k16&gt;C-x 8&lt;/k16&gt;速记，请键入&lt;k17&gt;C-x 8 C-h&lt;/k17&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19558,6 +19606,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030516Z" creationid="grass" creationdate="20201205T030516Z">
         <seg>http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Input-Events</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Integer-Basics</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091709Z" creationid="grass" creationdate="20201205T091709Z">
+        <seg>http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Integer-Basics</seg>
       </tuv>
     </tu>
     <tu>
