@@ -10238,8 +10238,8 @@ on your load path.</seg>
       <tuv lang="EN-US">
         <seg>Modifier keys can also be applied to non-alphanumerical characters, e.g., &lt;k16&gt;C-&lt;s17&gt;F1&lt;/s17&gt;&lt;/k16&gt; or &lt;k18&gt;M-&lt;s19&gt;LEFT&lt;/s19&gt;&lt;/k18&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T023521Z" creationid="grass" creationdate="20201205T023521Z">
-        <seg>修饰键还可以应用于非字母数字字符，例如，&lt;k16&gt;C-&lt;s17&gt;F1&lt;/k16&gt;或&lt;k18&gt;M-&lt;/s19&gt;LEFT&lt;/s19&gt;&lt;/k18&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T085225Z" creationid="grass" creationdate="20201205T023521Z">
+        <seg>修饰键还可以应用于非字母数字字符，例如，&lt;k16&gt;C-&lt;s17&gt;F1&lt;/s17&gt;&lt;/k16&gt;或&lt;k18&gt;M-&lt;s19&gt;LEFT&lt;/s19&gt;&lt;/k18&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12774,8 +12774,8 @@ on your load path.</seg>
       <tuv lang="EN-US">
         <seg>On graphical displays, the window manager might block some keyboard inputs, including &lt;k0&gt;M-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt;, &lt;k2&gt;M-&lt;s3&gt;SPC&lt;/s3&gt;&lt;/k2&gt;, &lt;k4&gt;C-M-d&lt;/k4&gt; and &lt;k5&gt;C-M-l&lt;/k5&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030450Z" creationid="grass" creationdate="20201205T030450Z">
-        <seg>在图形显示上，窗口管理器可能会拦截一些键盘输入，包括&lt;k0&gt;M-&lt;s1&gt;TAB&lt;/k0&gt;、&lt;k2&gt;M-&lt;s3&gt;SPC&lt;/s3&gt;&lt;/k2&gt;、&lt;k4&gt;C-M-d&lt;/k4&gt;和&lt;k5&gt;C-M-l&lt;/k5&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T085310Z" creationid="grass" creationdate="20201205T030450Z">
+        <seg>在图形显示上，窗口管理器可能会拦截一些键盘输入，包括&lt;k0&gt;M-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt;、&lt;k2&gt;M-&lt;s3&gt;SPC&lt;/s3&gt;&lt;/k2&gt;、&lt;k4&gt;C-M-d&lt;/k4&gt;和&lt;k5&gt;C-M-l&lt;/k5&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14698,8 +14698,8 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       <tuv lang="EN-US">
         <seg>See &lt;a1&gt;Keymaps&lt;/a1&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032103Z" creationid="grass" creationdate="20201205T032103Z">
-        <seg>请参阅&lt;A1&gt;键映射&lt;/A1&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T090404Z" creationid="grass" creationdate="20201205T032103Z">
+        <seg>请参阅&lt;a1&gt;键映射&lt;/A1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
