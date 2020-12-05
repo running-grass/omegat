@@ -3763,6 +3763,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k2&gt;C-n&lt;/k2&gt; has this effect &lt;e3&gt;because&lt;/e3&gt; it is bound to &lt;c4&gt;next-line&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032238Z" creationid="grass" creationdate="20201205T032223Z">
+        <seg>&lt;k2&gt;C-n&lt;/k2&gt;有此效果是&lt;e3&gt;因为&lt;/e3&gt;它绑定到&lt;c4&gt;next-line&lt;/c4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k4&gt;C-x&lt;/k4&gt; combines with the next input event to make a two-event key sequence, which could itself be a prefix key (such as &lt;k5&gt;C-x 4&lt;/k5&gt;), or a complete key (such as &lt;k6&gt;C-x C-f&lt;/k6&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031141Z" creationid="grass" creationdate="20201205T031141Z">
@@ -8556,6 +8564,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024442Z" creationid="grass" creationdate="20201019T023312Z">
         <seg>如果您只希望看到子树优先的标签匹配，请配置变量&lt;c2&gt;org-tag-Match-list-subblelevel&lt;/c2&gt;(不推荐)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you rebind &lt;k5&gt;C-n&lt;/k5&gt; to the command &lt;c6&gt;forward-word&lt;/c6&gt;, &lt;k7&gt;C-n&lt;/k7&gt; will move forward one word instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032312Z" creationid="grass" creationdate="20201205T032312Z">
+        <seg>如果将&lt;k5&gt;C-n&lt;/k5&gt;重新绑定到命令&lt;c6&gt;forward-word&lt;/c6&gt;，&lt;k7&gt;C-n&lt;/k7&gt;将改为向前移动一个单词。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14256,6 +14272,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;Keymaps&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032103Z" creationid="grass" creationdate="20201205T032103Z">
+        <seg>请参阅&lt;A1&gt;键映射&lt;/A1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a1&gt;Mode Line Mouse&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025753Z" creationid="grass" creationdate="20201203T025753Z">
@@ -14332,6 +14356,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023350Z" creationid="grass" creationdate="20201203T023350Z">
         <seg>请参见&lt;a3&gt;迷你缓冲区&lt;/a3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a3&gt;What Is a Function&lt;/a3&gt; in &lt;c4&gt;The Emacs Lisp Reference Manual&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032007Z" creationid="grass" creationdate="20201205T032007Z">
+        <seg>请参阅&lt;c4&gt;Emacs Lisp参考手册&lt;/c4&gt;中的&lt;a3&gt;什么是函数&lt;/a3&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15755,6 +15787,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The bindings between keys and commands are recorded in tables called &lt;e0&gt;keymaps&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032056Z" creationid="grass" creationdate="20201205T032056Z">
+        <seg>快捷键和命令之间的绑定记录在称为&lt;e0&gt;键映射&lt;/e0&gt;的表中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The buffer displayed in the selected window is called the &lt;e1&gt;current buffer&lt;/e1&gt;, and it is where editing happens.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114925Z" creationid="grass" creationdate="20201130T114925Z">
@@ -15815,6 +15855,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201341Z" creationid="grass" creationdate="20201010T201341Z">
         <seg>计时表格</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The command &lt;c1&gt;next-line&lt;/c1&gt; does a vertical move downward.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032208Z" creationid="grass" creationdate="20201205T032208Z">
+        <seg>命令&lt;c1&gt;next-line&lt;/c1&gt;是垂直向下移动。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17754,6 +17802,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101543Z" creationid="grass" creationdate="20201014T101543Z">
         <seg>此条目是何时标记为完成的？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When we say that “&lt;k0&gt;C-n&lt;/k0&gt; moves down vertically one line” we are glossing over a subtle distinction that is irrelevant in ordinary use, but vital for Emacs customization.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032120Z" creationid="grass" creationdate="20201205T032120Z">
+        <seg>当我们说“&lt;k0&gt;C-n&lt;/k0&gt;垂直下移一行”时，我们忽略了一个微妙的区别，这个区别在普通使用中并不相关，但对于Emacs定制至关重要。</seg>
       </tuv>
     </tu>
     <tu>
