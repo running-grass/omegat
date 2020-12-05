@@ -7088,6 +7088,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, &lt;c0&gt;emacs foo.txt&lt;/c0&gt; starts Emacs with a buffer displaying the contents of the file ‘&lt;s1&gt;foo.txt&lt;/s1&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072517Z" creationid="grass" creationdate="20201205T072517Z">
+        <seg>例如，&lt;c0&gt;emacs foo.txt&lt;/c0&gt;使用一个缓冲区启动Emacs，该缓冲区显示文件“&lt;s1&gt;foo.txt&lt;/s1&gt;”的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, &lt;k0&gt;C-x&lt;/k0&gt; is a prefix key, so typing &lt;k1&gt;C-x&lt;/k1&gt; alone does not invoke a command; instead, Emacs waits for further input (if you pause for longer than a second, it echoes the &lt;k2&gt;C-x&lt;/k2&gt; key to prompt for that input; see &lt;a3&gt;Echo Area&lt;/a3&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031117Z" creationid="grass" creationdate="20201205T031117Z">
@@ -7500,6 +7508,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081057Z" creationid="grass" creationdate="20201015T081057Z">
         <seg>GTD上下文。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generally, it is unnecessary and wasteful to start Emacs afresh each time you want to edit a file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072542Z" creationid="grass" creationdate="20201205T072542Z">
+        <seg>通常，每次要编辑文件时都重新启动Emacs是不必要的，也是浪费的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8472,6 +8488,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you call Emacs this way, the initial frame is split into two windows—one showing the specified file, and the other showing the startup screen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072531Z" creationid="grass" creationdate="20201205T072531Z">
+        <seg>如果以这种方式调用Emacs，初始帧将被分成两个窗口-一个显示指定的文件，另一个显示启动屏幕。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you do not like it, you can create an active region by using the mouse to select a region, or pressing &lt;k1&gt;C-&lt;s2&gt;SPC&lt;/s2&gt;&lt;/k1&gt; twice before moving point.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T140303Z" creationid="grass" creationdate="20200927T140303Z">
@@ -8644,6 +8668,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064930Z" creationid="grass" creationdate="20201015T064825Z">
         <seg>如果在在一次粘贴之后使用&lt;c6&gt;yank-pop&lt;/c6&gt;，它会简单的粘贴之前的内容，不会调整和折叠。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you use Emacs this way, the Emacs session accumulates valuable context, such as the kill ring, registers, undo history, and mark ring data, which together make editing more convenient.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072757Z" creationid="grass" creationdate="20201205T072757Z">
+        <seg>如果您以这种方式使用Emacs，则Emacs会话将积累有价值的上下文，如剪切板、寄存器、撤销历史和选区数据，这些都使得编辑更加方便。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14304,6 +14336,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Files&lt;/a0&gt;, for information on visiting more than one file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072551Z" creationid="grass" creationdate="20201205T072551Z">
+        <seg>有关访问多个文件的信息，请参阅&lt;a0&gt;文件&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a0&gt;Optional Mode Line&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025729Z" creationid="grass" creationdate="20201203T025729Z">
@@ -14404,6 +14444,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024941Z" creationid="grass" creationdate="20201203T024941Z">
         <seg>请参阅&lt;a2&gt;可选状态栏&lt;/a2&gt;。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a2&gt;Windows&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072537Z" creationid="grass" creationdate="20201205T072537Z">
+        <seg>请参阅&lt;a2&gt;窗口&lt;/a2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16371,6 +16419,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The recommended way to use Emacs is to start it just once, just after you log in, and do all your editing in the same Emacs session.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072545Z" creationid="grass" creationdate="20201205T072545Z">
+        <seg>建议使用Emacs的方法是在登录后只启动一次，然后在同一个Emacs会话中进行所有编辑。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The sole exception to this rule is &lt;t2&gt;ESC&lt;/t2&gt;: &lt;k3&gt;&lt;s4&gt;ESC&lt;/s4&gt; C-h&lt;/k3&gt; is equivalent to &lt;k5&gt;C-M-h&lt;/k5&gt;, which does something else entirely.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031705Z" creationid="grass" creationdate="20201205T031705Z">
@@ -16725,6 +16781,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This feature exists mainly for compatibility with other editors, which are designed to be launched from the shell for short editing sessions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072521Z" creationid="grass" creationdate="20201205T072521Z">
+        <seg>此功能的存在主要是为了与其他编辑器兼容，这些编辑器设计为从shell启动，用于简短的编辑会话。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This feature is useful on certain text terminals where the &lt;t14&gt;Meta&lt;/t14&gt; key does not function reliably.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030302Z" creationid="grass" creationdate="20201205T030302Z">
@@ -16967,8 +17031,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>To activate a link, either move point onto it and type &lt;k6&gt;&lt;s7&gt;RET&lt;/s7&gt;&lt;/k6&gt;, or click on it with &lt;k8&gt;mouse-1&lt;/k8&gt; (the left mouse button).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072419Z" creationid="grass" creationdate="20201205T072419Z">
-        <seg>要激活链接，可以将指针移到该链接上并键入&lt;k6&gt;&lt;s7&gt;RET&lt;/s7&gt;&lt;/k6&gt;，或者用-1\f25&lt;k8&gt;鼠标&lt;/k8&gt;(鼠标左键)单击该链接。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072503Z" creationid="grass" creationdate="20201205T072419Z">
+        <seg>要激活链接，可以将指针移到该链接上并键入&lt;k6&gt;&lt;s7&gt;RET&lt;/s7&gt;&lt;/k6&gt;，或者用&lt;k8&gt;鼠标键1&lt;/k8&gt;(鼠标左键)单击该链接。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17489,6 +17553,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T132726Z" creationid="grass" creationdate="20200927T132726Z">
         <seg>使用Org的git仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using a command line argument, you can tell Emacs to visit one or more files as soon as it starts up.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072508Z" creationid="grass" creationdate="20201205T072508Z">
+        <seg>使用命令行参数，您可以告诉Emacs在启动时立即访问一个或多个文件。</seg>
       </tuv>
     </tu>
     <tu>
