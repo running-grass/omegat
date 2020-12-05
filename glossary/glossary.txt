@@ -246,3 +246,6 @@ key binding	键绑定
 keymap	键映射
 manual	手册
 Enter	进入
+registers	寄存器
+undo history	撤销历史
+mark ring	选区
