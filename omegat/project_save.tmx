@@ -9328,6 +9328,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Insertion moves point forward, so that point remains just after the inserted text.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074654Z" creationid="grass" creationdate="20201205T074654Z">
+        <seg>插入会将游标向前移动，因此该指针将保留在插入的文本之后。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Installation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T082627Z" creationid="grass" creationdate="20200927T082627Z">
@@ -12596,6 +12604,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Numeric arguments for repeating a command N times.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074533Z" creationid="grass" creationdate="20201205T074533Z">
+        <seg>用于将命令重复N次的数字参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ODT export commands</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203805Z" creationid="grass" creationdate="20201010T203805Z">
@@ -14404,6 +14420,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201245Z" creationid="grass" creationdate="20201010T201245Z">
         <seg>重复任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Repeating the previous command quickly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074540Z" creationid="grass" creationdate="20201205T074540Z">
+        <seg>快速重复前面的命令。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17029,6 +17053,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This adds the character to the buffer at point.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074630Z" creationid="grass" creationdate="20201205T074630Z">
+        <seg>这将在游标处将字符添加到缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This allows you to select and deselect tags with just a single key press.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024151Z" creationid="grass" creationdate="20201019T024151Z">
@@ -18158,6 +18190,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>What line, row, or column is point on?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074517Z" creationid="grass" creationdate="20201205T074517Z">
+        <seg>游标处于哪一行、那一列？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>What to do with finished products.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T125907Z" creationid="grass" creationdate="20201006T125907Z">
@@ -18874,6 +18914,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032847Z" creationid="grass" creationdate="20201205T032847Z">
         <seg>您可以忽略有关变量的信息，直到您对自定义它们感兴趣为止。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can insert an ordinary &lt;e0&gt;graphic character&lt;/e0&gt; (e.g., ‘&lt;s1&gt;a&lt;/s1&gt;’, ‘&lt;s2&gt;B&lt;/s2&gt;’, ‘&lt;s3&gt;3&lt;/s3&gt;’, and ‘&lt;s4&gt;=&lt;/s4&gt;’) by typing the associated key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074617Z" creationid="grass" creationdate="20201205T074617Z">
+        <seg>您可以通过键入关联键插入普通&lt;e0&gt;图形字符&lt;/e0&gt;(例如，“&lt;s1&gt;a&lt;/s1&gt;”、“&lt;s2&gt;B&lt;/s2&gt;”、“&lt;s3&gt;3&lt;/s3&gt;”和“&lt;s4&gt;=&lt;/s4&gt;”)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -51906,6 +51954,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Arguments&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074528Z" creationid="grass" creationdate="20201205T074528Z">
+        <seg>• &lt;a0&gt;参数&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Attach from Dired&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102922Z" creationid="grass" creationdate="20201014T102922Z">
@@ -53378,6 +53434,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Position Info&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074444Z" creationid="grass" creationdate="20201205T074444Z">
+        <seg>• &lt;a0&gt;位置信息&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Pre-requisites for ODT export&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113624Z" creationid="grass" creationdate="20201014T105828Z">
@@ -53598,6 +53662,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102321Z" creationid="grass" creationdate="20201014T102321Z">
         <seg>• &lt;a0&gt;重复任务&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Repeating&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074538Z" creationid="grass" creationdate="20201205T074538Z">
+        <seg>• &lt;a0&gt;重复&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
