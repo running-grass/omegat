@@ -7352,6 +7352,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, the following all insert the same character:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091939Z" creationid="grass" creationdate="20201205T091939Z">
+        <seg>例如，以下所有代码都插入相同的字符：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, we will say that “The command &lt;k1&gt;C-n&lt;/k1&gt; (&lt;c2&gt;next-line&lt;/c2&gt;) moves point vertically down”, meaning that the command &lt;c3&gt;next-line&lt;/c3&gt; moves vertically down, and the key &lt;k4&gt;C-n&lt;/k4&gt; is normally bound to it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032649Z" creationid="grass" creationdate="20201205T032649Z">
@@ -8828,6 +8836,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075512Z" creationid="grass" creationdate="20201015T075512Z">
         <seg>如果您不了解Orgmode并对其感兴趣，您应该先访问其&lt;a0&gt;网站&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you enter a code-point, it should be as a hexadecimal number (the convention for Unicode), or a number with a specified radix, e.g., &lt;c4&gt;#o23072&lt;/c4&gt; (octal); See &lt;a5&gt;Integer Basics&lt;/a5&gt; in &lt;c6&gt;The Emacs Lisp Reference Manual&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091926Z" creationid="grass" creationdate="20201205T091926Z">
+        <seg>如果输入编码，它应该是十六进制数字(Unicode的约定)或具有指定基数的数字，例如，&lt;c4&gt;#o23072&lt;/c4&gt;(八进制)；请参阅&lt;c6&gt;Emacs Lisp参考手册&lt;/c6&gt;中的&lt;a5&gt;整数基础&lt;/a5&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16503,6 +16519,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T131154Z" creationid="grass" creationdate="20201005T131154Z">
         <seg>绑定到此类键的命令具有通用名称，例如&lt;c0&gt;org-metaright&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The command then inserts the corresponding character into the buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091935Z" creationid="grass" creationdate="20201205T091935Z">
+        <seg>然后，该命令将相应的字符插入到缓冲区中。</seg>
       </tuv>
     </tu>
     <tu>
