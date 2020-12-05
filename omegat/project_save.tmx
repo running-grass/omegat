@@ -3747,6 +3747,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k4&gt;C-x&lt;/k4&gt; combines with the next input event to make a two-event key sequence, which could itself be a prefix key (such as &lt;k5&gt;C-x 4&lt;/k5&gt;), or a complete key (such as &lt;k6&gt;C-x C-f&lt;/k6&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031141Z" creationid="grass" creationdate="20201205T031141Z">
+        <seg>&lt;k4&gt;C-x&lt;/k4&gt;与下一个输入事件组合形成两个事件的按键序列，该序列本身可以是前缀键(如&lt;k5&gt;C-x 4&lt;/k5&gt;)，也可以是完整键(如&lt;k6&gt;C-x C-f&lt;/k6&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt; Jun 30, 2017 &lt;/s0&gt; • Nicolas Petton</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T085923Z" creationid="grass" creationdate="20201015T085923Z">
@@ -4984,6 +4992,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T121030Z" creationid="grass" creationdate="20201130T120151Z">
         <seg>默认情况下，所选窗口中的光标绘制为实心框，并在字符&lt;/e0&gt;上&lt;e0&gt;显示，但您应将游标视为在两个字符&lt;e1&gt;之间&lt;e1&gt;；它位于光标下的字符&lt;/e2&gt;之前&lt;e2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default, the prefix keys in Emacs are &lt;k0&gt;C-c&lt;/k0&gt;, &lt;k1&gt;C-h&lt;/k1&gt;, &lt;k2&gt;C-x&lt;/k2&gt;, &lt;k3&gt;C-x &lt;s4&gt;RET&lt;/s4&gt;&lt;/k3&gt;, &lt;k5&gt;C-x @&lt;/k5&gt;, &lt;k6&gt;C-x a&lt;/k6&gt;, &lt;k7&gt;C-x n&lt;/k7&gt;, &lt;k8&gt;C-x r&lt;/k8&gt;, &lt;k9&gt;C-x t&lt;/k9&gt;, &lt;k10&gt;C-x v&lt;/k10&gt;, &lt;k11&gt;C-x 4&lt;/k11&gt;, &lt;k12&gt;C-x 5&lt;/k12&gt;, &lt;k13&gt;C-x 6&lt;/k13&gt;, &lt;t14&gt;ESC&lt;/t14&gt;, &lt;k15&gt;M-g&lt;/k15&gt;, and &lt;k16&gt;M-o&lt;/k16&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031329Z" creationid="grass" creationdate="20201205T031329Z">
+        <seg>By default, the prefix keys in Emacs are &lt;k0&gt;C-c&lt;/k0&gt;, &lt;k1&gt;C-h&lt;/k1&gt;, &lt;k2&gt;C-x&lt;/k2&gt;, &lt;k3&gt;C-x &lt;s4&gt;RET&lt;/s4&gt;&lt;/k3&gt;, &lt;k5&gt;C-x @&lt;/k5&gt;, &lt;k6&gt;C-x a&lt;/k6&gt;, &lt;k7&gt;C-x n&lt;/k7&gt;, &lt;k8&gt;C-x r&lt;/k8&gt;, &lt;k9&gt;C-x t&lt;/k9&gt;, &lt;k10&gt;C-x v&lt;/k10&gt;, &lt;k11&gt;C-x 4&lt;/k11&gt;, &lt;k12&gt;C-x 5&lt;/k12&gt;, &lt;k13&gt;C-x 6&lt;/k13&gt;, &lt;t14&gt;ESC&lt;/t14&gt;, &lt;k15&gt;M-g&lt;/k15&gt;, and &lt;k16&gt;M-o&lt;/k16&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7016,6 +7032,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, &lt;k0&gt;C-x&lt;/k0&gt; is a prefix key, so typing &lt;k1&gt;C-x&lt;/k1&gt; alone does not invoke a command; instead, Emacs waits for further input (if you pause for longer than a second, it echoes the &lt;k2&gt;C-x&lt;/k2&gt; key to prompt for that input; see &lt;a3&gt;Echo Area&lt;/a3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031117Z" creationid="grass" creationdate="20201205T031117Z">
+        <seg>例如，&lt;k0&gt;C-x&lt;/k0&gt;是前缀键，因此单独键入&lt;k1&gt;C-x&lt;/k1&gt;不会调用命令；相反，Emacs会等待进一步的输入(如果暂停时间超过一秒，则会回显&lt;k2&gt;C-x&lt;/k2&gt;键以提示输入；请参阅&lt;a3&gt;回显区&lt;/a3&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, &lt;k1&gt;C-x =&lt;/k1&gt; (hold down &lt;t2&gt;Ctrl&lt;/t2&gt; and type &lt;k3&gt;x&lt;/k3&gt;, then let go of &lt;t4&gt;Ctrl&lt;/t4&gt; and type &lt;k5&gt;=&lt;/k5&gt;) displays a message describing the character at point, its position in the buffer, and its current column in the window.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022854Z" creationid="grass" creationdate="20201203T022854Z">
@@ -7036,6 +7060,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025014Z" creationid="grass" creationdate="20201203T025014Z">
         <seg>例如，编译缓冲区和Shell缓冲区显示子进程的状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, because &lt;k0&gt;C-f&lt;/k0&gt; is a complete key, the two-event sequence &lt;k1&gt;C-f C-k&lt;/k1&gt; is two key sequences, not one.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031321Z" creationid="grass" creationdate="20201205T031321Z">
+        <seg>例如，因为&lt;k0&gt;C-f&lt;/k0&gt;是一个完全键，所以&lt;k1&gt;C-f C-k&lt;/k1&gt;是两个分离的键序列，而不是一个。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16321,6 +16353,14 @@ stores its records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There is no limit to the length of key sequences, but in practice they are seldom longer than three or four input events.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031148Z" creationid="grass" creationdate="20201205T031148Z">
+        <seg>键序列的长度没有限制，但实际上它们很少超过三个或四个输入事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Therefore, this manual mainly documents how to edit with the keyboard.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T022809Z" creationid="grass" creationdate="20201205T022809Z">
@@ -18178,6 +18218,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T083255Z" creationid="grass" creationdate="20201130T083255Z">
         <seg>您可以访问我们的在线商店&lt;a1&gt;https://shop.fsf.org/&lt;/a1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can’t add input events onto a complete key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031213Z" creationid="grass" creationdate="20201205T031204Z">
+        <seg>您不能将输入事件追加到完全键上。</seg>
       </tuv>
     </tu>
     <tu>
