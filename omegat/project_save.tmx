@@ -14808,6 +14808,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a5&gt;Point&lt;/a5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074702Z" creationid="grass" creationdate="20201205T074702Z">
+        <seg>请参阅&lt;a5&gt;游标&lt;/a5&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a8&gt;Optional Mode Line&lt;/a8&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024850Z" creationid="grass" creationdate="20201203T024850Z">
