@@ -7144,6 +7144,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, we will say that “The command &lt;k1&gt;C-n&lt;/k1&gt; (&lt;c2&gt;next-line&lt;/c2&gt;) moves point vertically down”, meaning that the command &lt;c3&gt;next-line&lt;/c3&gt; moves vertically down, and the key &lt;k4&gt;C-n&lt;/k4&gt; is normally bound to it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032649Z" creationid="grass" creationdate="20201205T032649Z">
+        <seg>例如，我们会说“命令&lt;k1&gt;C-n&lt;/k1&gt;(&lt;c2&gt;next-line&lt;/c2&gt;)垂直下移一行”，即&lt;c3&gt;next-line&lt;/c3&gt;命令是垂直下移一行，正常情况下&lt;k4&gt;C-n&lt;/k4&gt;键绑定到该命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, you may find the need to tag many items in different files with ‘&lt;s2&gt;@home&lt;/s2&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024218Z" creationid="grass" creationdate="20201019T024218Z">
@@ -8884,6 +8892,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130420Z" creationid="grass" creationdate="20201005T130420Z">
         <seg>在本指南中，我们使用以下约定：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this manual, we will often speak of keys like &lt;k0&gt;C-n&lt;/k0&gt; as commands, even though strictly speaking the key is bound to a command.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032348Z" creationid="grass" creationdate="20201205T032328Z">
+        <seg>在本手册中，我们经常将&lt;k0&gt;C-n&lt;/k0&gt;这样的快捷键称为命令，即使严格地说，快捷键是绑定到命令的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17441,6 +17457,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024550Z" creationid="grass" creationdate="20201203T024550Z">
         <seg>通常，这与您正在编辑的文件的名称相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Usually, we state the name of the command which really does the work in parentheses after mentioning the key that runs it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032404Z" creationid="grass" creationdate="20201205T032336Z">
+        <seg>通常，在提到运行该命令的快捷键之后，我们会在括号中说明真正执行该工作的命令的名称。</seg>
       </tuv>
     </tu>
     <tu>
