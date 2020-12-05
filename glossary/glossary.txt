@@ -238,3 +238,5 @@ Exit	退出
 Stopping	终止
 basic	基础
 issue	触发
+International	国际化
+modifier key	修饰键
