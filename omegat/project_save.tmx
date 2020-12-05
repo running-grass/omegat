@@ -2755,6 +2755,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>5 Entering Emacs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032920Z" creationid="grass" creationdate="20201205T032920Z">
+        <seg>5 进入Emacs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>5 TODO Items</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095321Z" creationid="grass" creationdate="20201010T200022Z">
@@ -9956,6 +9964,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Most of the variables documented in this manual are meant for customization: some command or other part of Emacs examines the variable and behaves differently according to the value that you set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032842Z" creationid="grass" creationdate="20201205T032842Z">
+        <seg>本手册中记录的大多数变量都用于自定义：Emacs的某些命令或其他部分会检查变量，并根据您设置的值采取不同的行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Most users will simply activate Org and begin exploring its many features.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T125802Z" creationid="grass" creationdate="20200927T125802Z">
@@ -12312,6 +12328,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082212Z" creationid="grass" creationdate="20200929T082212Z">
         <seg>通常，一个小的示例文件会有所帮助，同时提供以下方面的清晰信息：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Often the description of a command will say, “To change this, set the variable &lt;c1&gt;mumble-foo&lt;/c1&gt;.” A variable is a name used to store a value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032731Z" creationid="grass" creationdate="20201205T032731Z">
+        <seg>通常，命令的描述会说，“要更改这一点，请设置变量&lt;c1&gt;mumble-foo&lt;/c1&gt;。”变量是用于存储值的名称。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14728,6 +14752,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Since we are discussing customization, we should tell you about &lt;e0&gt;variables&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032705Z" creationid="grass" creationdate="20201205T032705Z">
+        <seg>因为我们正在讨论定制，所以我们应该告诉您有关&lt;e0&gt;变量&lt;/e0&gt;的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Single letter selection of state.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101310Z" creationid="grass" creationdate="20201014T101310Z">
@@ -16379,6 +16411,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The usual way to invoke Emacs is with the shell command &lt;c0&gt;emacs&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032931Z" creationid="grass" creationdate="20201205T032931Z">
+        <seg>调用Emacs的通常方式是使用shell命令&lt;c0&gt;emacs&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The variable &lt;c0&gt;org-publish-project-alist&lt;/c0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T051115Z" creationid="grass" creationdate="20201013T051115Z">
@@ -16415,6 +16455,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083348Z" creationid="grass" creationdate="20201015T083348Z">
         <seg>“将来/也许”清单</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Then read the basic information on variables (see &lt;a2&gt;Variables&lt;/a2&gt;) and the information about specific variables will make sense.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032856Z" creationid="grass" creationdate="20201205T032856Z">
+        <seg>然后阅读有关变量的基本信息(请参阅&lt;a2&gt;变量&lt;/a2&gt;)，有关特定变量的信息就有意义了。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18290,6 +18338,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030229Z" creationid="grass" creationdate="20201205T030229Z">
         <seg>您可以通过键入&lt;k8&gt;&lt;s9&gt;ESC&lt;/s9&gt;C-a&lt;/k8&gt;来输入&lt;k4&gt;C-M-a&lt;/k4&gt;(同时按住&lt;t5&gt;Ctrl&lt;/t5&gt;和&lt;t6&gt;Alt&lt;/t6&gt;，然后按&lt;k7&gt;a&lt;/k7&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can ignore the information about variables until you are interested in customizing them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032847Z" creationid="grass" creationdate="20201205T032847Z">
+        <seg>您可以忽略有关变量的信息，直到您对自定义它们感兴趣为止。</seg>
       </tuv>
     </tu>
     <tu>
