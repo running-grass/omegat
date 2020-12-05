@@ -18758,6 +18758,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can customize these keys to run any commands of your choice (see &lt;a5&gt;Keymaps&lt;/a5&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074008Z" creationid="grass" creationdate="20201205T074008Z">
+        <seg>您可以自定义这些键以运行您选择的任何命令(请参阅&lt;a5&gt;键绑定&lt;/a5&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can do this globally by configuring the variable &lt;c1&gt;org-tag-alist&lt;/c1&gt; in your Emacs init file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024211Z" creationid="grass" creationdate="20201019T024211Z">
