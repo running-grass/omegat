@@ -3619,6 +3619,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-x C-c&lt;/k0&gt; behaves specially if you are using Emacs as a server.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073432Z" creationid="grass" creationdate="20201205T073432Z">
+        <seg>&lt;k0&gt;C-x C-c&lt;/k0&gt;在使用Emacs作为服务器时会有特殊行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-x n b&lt;/k0&gt; (&lt;c1&gt;org-narrow-to-block&lt;/c1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065845Z" creationid="grass" creationdate="20201015T065845Z">
@@ -3647,6 +3655,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064625Z" creationid="grass" creationdate="20201015T064625Z">
         <seg>&lt;k0&gt;C-y&lt;/k0&gt; (&lt;c1&gt;org-yank&lt;/c1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-z&lt;/k0&gt; runs the command &lt;c1&gt;suspend-frame&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073641Z" creationid="grass" creationdate="20201205T073641Z">
+        <seg>&lt;k0&gt;C-z&lt;/k0&gt;运行命令&lt;c1&gt;suspend-frame&lt;/c1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6392,6 +6408,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Emacs also asks for confirmation if any subprocesses are still running, since killing Emacs will also kill the subprocesses (see &lt;a4&gt;Shell&lt;/a4&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073428Z" creationid="grass" creationdate="20201205T073428Z">
+        <seg>Emacs还要求确认是否有任何子进程仍在运行，因为终止Emacs也会终止子进程(请参阅&lt;a4&gt;Shell&lt;/a4&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Emacs also recognizes control characters that are entered using &lt;e0&gt;modifier keys&lt;/e0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T023340Z" creationid="grass" creationdate="20201205T023340Z">
@@ -6412,6 +6436,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113805Z" creationid="grass" creationdate="20201130T113805Z">
         <seg>Emacs在这两种窗体上的行为非常相似。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Emacs can, optionally, record certain session information when you kill it, such as the files you were visiting at the time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073458Z" creationid="grass" creationdate="20201205T073458Z">
+        <seg>当您终止Emacs时，Emacs可以选择性地记录某些会话信息，例如您当时正在访问的文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8448,10 +8480,34 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the result of the function call is non-&lt;c3&gt;nil&lt;/c3&gt;, the session is killed, otherwise Emacs continues to run.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073522Z" creationid="grass" creationdate="20201205T073522Z">
+        <seg>如果函数调用的结果为非&lt;c3&gt;nil&lt;/c3&gt;，会话将被终止，否则Emacs将继续运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the tag is only relevant to the file you are working on, then you can instead set the ‘&lt;s0&gt;TAGS&lt;/s0&gt;’ keyword as:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024716Z" creationid="grass" creationdate="20201019T024322Z">
         <seg>如果标签仅与您正在处理的文件相关，则可以将“&lt;s0&gt;TAGS&lt;/s0&gt;”关键字设置为：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the value of the variable &lt;c0&gt;confirm-kill-emacs&lt;/c0&gt; is non-&lt;c1&gt;nil&lt;/c1&gt;, &lt;k2&gt;C-x C-c&lt;/k2&gt; assumes that its value is a predicate function, and calls that function.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073552Z" creationid="grass" creationdate="20201205T073517Z">
+        <seg>如果变量&lt;c0&gt;confirm-kill-emacs&lt;/c0&gt;的值非&lt;c1&gt;nil&lt;/c1&gt;，则&lt;k2&gt;C-x C-c&lt;/k2&gt;假定其值是谓词函数(译者注: 返回值为布尔类型)，并调用该函数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the value of the variable &lt;c0&gt;confirm-kill-processes&lt;/c0&gt; is &lt;c1&gt;nil&lt;/c1&gt;, &lt;k2&gt;C-x C-c&lt;/k2&gt; does not ask for confirmation before killing subprocesses started by Emacs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073616Z" creationid="grass" creationdate="20201205T073616Z">
+        <seg>如果变量&lt;c0&gt;confirm-kill-process&lt;/c0&gt;的值为&lt;c1&gt;nil&lt;/c1&gt;，则&lt;k2&gt;C-x C-c&lt;/k2&gt;在终止Emacs启动的子进程之前不会要求确认。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8740,6 +8796,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025449Z" creationid="grass" creationdate="20201019T025449Z">
         <seg>如果您偶尔需要更多键，请按&lt;k3&gt;C-c&lt;/k3&gt;关闭当前标签选择过程的自动退出(实际上：使用&lt;k4&gt;C-c-c C-c&lt;/k4&gt;而不是&lt;k5&gt;C-c C-c&lt;/k5&gt;开始选择)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you type it from a client frame, it closes the client connection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073451Z" creationid="grass" creationdate="20201205T073451Z">
+        <seg>如果您从客户端窗体中键入它，它将关闭客户端连接。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12644,6 +12708,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>One convenient function to use as the value of &lt;c4&gt;confirm-kill-emacs&lt;/c4&gt; is the function &lt;c5&gt;yes-or-no-p&lt;/c5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073604Z" creationid="grass" creationdate="20201205T073604Z">
+        <seg>用作&lt;c4&gt;confirm-kill-emacs&lt;/c4&gt;值的一个方便函数是&lt;c5&gt;yes-or-no-p&lt;/c5&gt;函数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>One level up.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063242Z" creationid="grass" creationdate="20201015T063242Z">
@@ -14472,6 +14544,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Saving Emacs Sessions&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073502Z" creationid="grass" creationdate="20201205T073502Z">
+        <seg>请参阅&lt;a0&gt;保存Emacs会话&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a1&gt;(emacs)Package Menu&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T140634Z" creationid="grass" creationdate="20200927T131556Z">
@@ -16203,6 +16283,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default value of &lt;c6&gt;confirm-kill-emacs&lt;/c6&gt; is &lt;c7&gt;nil&lt;/c7&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073607Z" creationid="grass" creationdate="20201205T073607Z">
+        <seg>&lt;c6&gt;confirm-kill-emacs&lt;/c6&gt;的默认值为&lt;c7&gt;nil&lt;/c7&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The diary allows you to keep track of anniversaries, lunar phases, sunrise/set, recurrent appointments (weekly, monthly) and more.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112904Z" creationid="grass" creationdate="20201016T112904Z">
@@ -16627,6 +16715,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The value is &lt;c3&gt;t&lt;/c3&gt; by default.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073619Z" creationid="grass" creationdate="20201205T073619Z">
+        <seg>默认情况下，该值为&lt;c3&gt;t&lt;/c3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The value of &lt;c1&gt;initial-buffer-choice&lt;/c1&gt; may also be a function (of no arguments) that should return a buffer which is then displayed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073109Z" creationid="grass" creationdate="20201205T073109Z">
@@ -16965,6 +17061,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This information is then available the next time you start Emacs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073500Z" creationid="grass" creationdate="20201205T073500Z">
+        <seg>此信息在下次启动Emacs时可用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is a very wide topic, so obviously I haven’t covered everything, but I hope that explains the basics of how I use Orgmode to implement GTD.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084318Z" creationid="grass" creationdate="20201015T084318Z">
@@ -17245,10 +17349,26 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To further customize what happens when Emacs is exiting, see &lt;a0&gt;Killing Emacs&lt;/a0&gt; in &lt;c1&gt;The GNU Emacs Lisp Reference Manual&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073629Z" creationid="grass" creationdate="20201205T073629Z">
+        <seg>要进一步自定义退出Emacs时发生的情况，请参阅&lt;c1&gt;GNU Emacs Lisp参考手册&lt;/c1&gt;中的&lt;a0&gt;终止Emacs&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To get an overview of open action items, or of events that are important for a particular date, this information must be collected, sorted and displayed in an organized way.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201014T144925Z" creationid="Eli" creationdate="20201014T144925Z">
         <seg>你如果要查看所有未完成的行动事项，或者某些特定日期的重要事件，那么必须要有一种方式来有组织地收集、分类和展示这些信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To kill Emacs without being prompted about saving, type &lt;k0&gt;M-x kill-emacs&lt;/k0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073636Z" creationid="grass" creationdate="20201205T073636Z">
+        <seg>要在不提示保存的情况下终止Emacs，请键入&lt;k0&gt;M-x kill-emacs&lt;/k0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19086,6 +19206,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061718Z" creationid="grass" creationdate="20201015T061718Z">
         <seg>http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Key-Binding-Conventions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Killing-Emacs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073622Z" creationid="grass" creationdate="20201205T073622Z">
+        <seg>http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Killing-Emacs</seg>
       </tuv>
     </tu>
     <tu>
