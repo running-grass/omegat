@@ -3267,6 +3267,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;e6&gt;Control characters&lt;/e6&gt;, such as &lt;t7&gt;RET&lt;/t7&gt;, &lt;t8&gt;TAB&lt;/t8&gt;, &lt;t9&gt;DEL&lt;/t9&gt;, &lt;t10&gt;ESC&lt;/t10&gt;, &lt;t11&gt;F1&lt;/t11&gt;, &lt;t12&gt;Home&lt;/t12&gt;, and &lt;t13&gt;LEFT&lt;/t13&gt;, are also entered this way, as are certain characters found on non-English keyboards (see &lt;a14&gt;International&lt;/a14&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T023307Z" creationid="grass" creationdate="20201205T023307Z">
+        <seg>&lt;e6&gt;控制字符(如&lt;t7&gt;RET&lt;/t7&gt;、&lt;t8&gt;TAB&lt;/t8&gt;、&lt;t9&gt;DEL&lt;/t9&gt;、&lt;t10&gt;ESC&lt;/t10&gt;、&lt;t11&gt;F1&lt;/t11&gt;、&lt;t12&gt;Home&lt;/t12&gt;和&lt;t13&gt;LEFT&lt;/t13&gt;)也是通过这种方式输入的，非英语键盘上的某些字符也是如此(请参见&lt;a14&gt;国际化&lt;/a14&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;0&lt;/k0&gt; … &lt;k1&gt;9&lt;/k1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063243Z" creationid="grass" creationdate="20201015T063243Z">
@@ -6244,6 +6252,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195117Z" creationid="grass" creationdate="20201010T194933Z">
         <seg>Emacs Lisp形式的公式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Emacs also recognizes control characters that are entered using &lt;e0&gt;modifier keys&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T023340Z" creationid="grass" creationdate="20201205T023340Z">
+        <seg>Emacs还可以识别使用&lt;e0&gt;修饰键&lt;/e0&gt;输入的控制字符。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14412,6 +14428,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024857Z" creationid="grass" creationdate="20201019T024857Z">
         <seg>同样，您可以使用&lt;c3&gt;:newline&lt;/c3&gt;来指示换行符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Simple characters, like ‘&lt;s1&gt;a&lt;/s1&gt;’, ‘&lt;s2&gt;B&lt;/s2&gt;’, ‘&lt;s3&gt;3&lt;/s3&gt;’, ‘&lt;s4&gt;=&lt;/s4&gt;’, and the space character (denoted as &lt;t5&gt;SPC&lt;/t5&gt;), are entered by typing the corresponding key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T023104Z" creationid="grass" creationdate="20201205T023104Z">
+        <seg>通过键入相应的键来输入简单字符，如‘&lt;s1&gt;a&lt;/s1&gt;’、‘&lt;s2&gt;B&lt;/s2&gt;&gt;’、‘&lt;s3&gt;3&lt;/s3&gt;&gt;’、‘&lt;s4&gt;=&lt;/s4&gt;’和空格字符(表示为&lt;t5&gt;SPC&lt;/t5&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
