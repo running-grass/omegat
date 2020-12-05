@@ -3980,6 +3980,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A prefix key combines with the following input event to make a longer key sequence.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031037Z" creationid="grass" creationdate="20201205T031037Z">
+        <seg>前缀键与随后的输入事件相结合以形成更长的按键序列。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A provisional choice appears in the echo area.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032607Z" creationid="grass" creationdate="20201203T032607Z">
@@ -6464,6 +6472,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Every key sequence is either a complete key or a prefix key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031022Z" creationid="grass" creationdate="20201205T031022Z">
+        <seg>每个键序列要么是完全键，要么是前缀键。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Every thought should be collected there, and processed later on.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T091413Z" creationid="grass" creationdate="20201015T091413Z">
@@ -8116,6 +8132,22 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024357Z" creationid="grass" creationdate="20201019T023058Z">
         <seg>如果标题具有某个标签，则所有子标题也会继承该标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a key sequence invokes a command, we call it a &lt;e2&gt;complete key&lt;/e2&gt;; for example, &lt;k3&gt;C-f&lt;/k3&gt;, &lt;k4&gt;C-x C-f&lt;/k4&gt; and &lt;k5&gt;C-x 4 C-f&lt;/k5&gt; are all complete keys.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030925Z" creationid="grass" creationdate="20201205T030925Z">
+        <seg>如果使用按键序列调用命令，我们将其称为&lt;e2&gt;完全键&lt;/e2&gt;；例如，&lt;k3&gt;C-f&lt;/k3&gt;、&lt;k4&gt;C-x C-f&lt;/k4&gt;和&lt;k5&gt;C-x 4 C-f&lt;/k5&gt;都是完全键。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a key sequence isn’t long enough to invoke a command, we call it a &lt;e6&gt;prefix key&lt;/e6&gt;; from the preceding example, we see that &lt;k7&gt;C-x&lt;/k7&gt; and &lt;k8&gt;C-x 4&lt;/k8&gt; are prefix keys.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031013Z" creationid="grass" creationdate="20201205T030948Z">
+        <seg>如果键序列不足以调用命令，我们将其称为&lt;e6&gt;前缀键&lt;/e6&gt;；从前面的示例中，我们可以看到&lt;k7&gt;C-x&lt;/k7&gt;和&lt;k8&gt;C-x 4&lt;/k8&gt;是前缀键。</seg>
       </tuv>
     </tu>
     <tu>
