@@ -4668,6 +4668,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As we explain later in this manual, you can change the way Emacs handles text insertion by turning on &lt;e0&gt;minor modes&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T090825Z" creationid="grass" creationdate="20201205T090825Z">
+        <seg>正如我们在本手册后面部分所解释的，您可以通过打开&lt;e0&gt;辅模式&lt;/e0&gt;来更改Emacs处理文本插入的方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Asking what a character does.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074224Z" creationid="grass" creationdate="20201205T074224Z">
@@ -7344,6 +7352,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For instance, the minor mode called Auto Fill mode splits lines automatically when they get too long (see &lt;a1&gt;Filling&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T090855Z" creationid="grass" creationdate="20201205T090855Z">
+        <seg>例如，称为自动填充模式的辅模式会在行过长时自动拆分行(请参阅&lt;a1&gt;填充&lt;/a1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For more detailed explanations on Org’s build system, please check the Org Build System page on &lt;a0&gt;Worg&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T133650Z" creationid="grass" creationdate="20200927T133650Z">
@@ -8476,6 +8492,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080239Z" creationid="grass" creationdate="20201015T080239Z">
         <seg>如果需要，我会用它创建一个新项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If point is at the end of the line, the effect is to create a new blank line after it and indent the new line; if point is in the middle of a line, the line is split at that position.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T090719Z" creationid="grass" creationdate="20201205T090710Z">
+        <seg>如果游标在行尾，则效果是在它之后创建新的空行并缩进新行；如果游标在行的中间，则该行将在该位置拆分。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16659,6 +16683,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The minor mode called Overwrite mode causes inserted characters to replace (overwrite) existing text, instead of shoving it to the right.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T090925Z" creationid="grass" creationdate="20201205T090925Z">
+        <seg>称为覆盖模式的辅模式会导致插入的字符替换(覆盖)现有文本，而不是将其推到右侧。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The most basic editing commands.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T033437Z" creationid="grass" creationdate="20201203T033437Z">
@@ -17625,6 +17657,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032508Z" creationid="grass" creationdate="20201203T032508Z">
         <seg>为此，将变量&lt;c0&gt;tty-menu-open-use-tmm&lt;/c0&gt;自定义为非&lt;c1&gt;nil&lt;/c1&gt;值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To turn off the auto-indentation, you can either disable Electric Indent mode (see &lt;a7&gt;Indent Convenience&lt;/a7&gt;) or type &lt;k8&gt;C-j&lt;/k8&gt;, which inserts just a newline, without any auto-indentation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T090809Z" creationid="grass" creationdate="20201205T090809Z">
+        <seg>要关闭自动缩进，您可以禁用电子缩进模式(请参阅&lt;a7&gt;缩进便利性&lt;/a7&gt;)或键入&lt;k8&gt;C-j&lt;/k8&gt;，它只插入换行符，而不自动缩进。</seg>
       </tuv>
     </tu>
     <tu>
