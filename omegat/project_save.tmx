@@ -5102,8 +5102,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="EN-US">
         <seg>By default, the cursor in the selected window is drawn as a solid block and appears to be &lt;e0&gt;on&lt;/e0&gt; a character, but you should think of point as &lt;e1&gt;between&lt;/e1&gt; two characters; it is situated &lt;e2&gt;before&lt;/e2&gt; the character under the cursor.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T121030Z" creationid="grass" creationdate="20201130T120151Z">
-        <seg>默认情况下，所选窗口中的光标绘制为实心框，并在字符&lt;/e0&gt;上&lt;e0&gt;显示，但您应将游标视为在两个字符&lt;e1&gt;之间&lt;e1&gt;；它位于光标下的字符&lt;/e2&gt;之前&lt;e2&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T084945Z" creationid="grass" creationdate="20201130T120151Z">
+        <seg>默认情况下，所选窗口中的光标绘制为实心框，并在字符&lt;e0&gt;上&lt;/e0&gt;显示，但您应将游标视为在两个字符&lt;e1&gt;之间&lt;/e1&gt;；它位于光标下的字符&lt;e2&gt;之前&lt;/e2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7362,8 +7362,8 @@ org和许多邮件用户代理；请参阅以下各节
       <tuv lang="EN-US">
         <seg>For other ways in which you can help, see &lt;a2&gt;https://www.gnu.org/help/help.html&lt;/a2&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082645Z" creationid="grass" creationdate="20201130T082645Z">
-        <seg>有关您可以提供帮助的其他方式，请参阅https://www.gnu.org/help/help.html&lt;/a2&gt;.</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T084821Z" creationid="grass" creationdate="20201130T082645Z">
+        <seg>有关您可以提供帮助的其他方式，请参阅&lt;a2&gt;https://www.gnu.org/help/help.html&lt;/a2&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -14778,8 +14778,8 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       <tuv lang="EN-US">
         <seg>See &lt;a3&gt;Copying&lt;/a3&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082406Z" creationid="grass" creationdate="20201130T082406Z">
-        <seg>请参阅&lt;A3&gt;复制&lt;/A3&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T084309Z" creationid="grass" creationdate="20201130T082406Z">
+        <seg>请参阅&lt;a3&gt;复制&lt;/a3&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17647,8 +17647,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>To view this manual in other formats, click &lt;a2&gt;here&lt;/a2&gt;.&lt;br3&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T080547Z" creationid="grass" creationdate="20201130T080528Z">
-        <seg>若要以其他格式查看本手册，请单击&lt;a2&gt;此处&lt;/a2&gt;。&lt;BR3&gt;</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T084200Z" creationid="grass" creationdate="20201130T080528Z">
+        <seg>若要以其他格式查看本手册，请单击&lt;a2&gt;此处&lt;/a2&gt;&lt;br3&gt;。</seg>
       </tuv>
     </tu>
     <tu>
