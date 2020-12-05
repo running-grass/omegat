@@ -4060,6 +4060,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A few common Unicode characters can be inserted via a command starting with &lt;k0&gt;C-x 8&lt;/k0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091420Z" creationid="grass" creationdate="20201205T091420Z">
+        <seg>可以通过以&lt;k0&gt;C-x 8&lt;/k0&gt;开头的命令插入一些常见的Unicode字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A good way to force a normal yank is &lt;k5&gt;C-u C-y&lt;/k5&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064823Z" creationid="grass" creationdate="20201015T064823Z">
@@ -4600,6 +4608,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024141Z" creationid="grass" creationdate="20201203T024141Z">
         <seg>较旧的Macintosh系统使用的另一个约定是使用回车符而不是换行符；当编辑这样的文件时，冒号变为正斜杠(‘&lt;s4&gt;/&lt;/s4&gt;’)或‘&lt;s5&gt;(Mac)&lt;/s5&gt;’。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Any other non-digit terminates the sequence and then acts as normal input—thus, &lt;k3&gt;C-q 1 0 1 B&lt;/k3&gt; inserts ‘&lt;s4&gt;AB&lt;/s4&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091259Z" creationid="grass" creationdate="20201205T091259Z">
+        <seg>任何其他非数字都会终止序列，然后充当正常输入-因此，&lt;k3&gt;C-q 1 0 1 B&lt;/k3&gt;插入‘&lt;s4&gt;AB&lt;/s4&gt;’。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5312,6 +5328,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102515Z" creationid="grass" creationdate="20201014T102515Z">
         <seg>捕捉新的东西。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Case is ignored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091410Z" creationid="grass" creationdate="20201205T091410Z">
+        <seg>忽略大小写。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7240,6 +7264,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, &lt;k1&gt;C-x 8 [&lt;/k1&gt; inserts &lt;t2&gt;‘&lt;/t2&gt; which is Unicode code-point U+2018 &lt;s3&gt;LEFT SINGLE QUOTATION MARK&lt;/s3&gt;, sometimes called a left single “curved quote” or “curly quote”.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091527Z" creationid="grass" creationdate="20201205T091527Z">
+        <seg>例如，&lt;k1&gt;C-x 8 [&lt;/k1&gt;inserts&lt;t2&gt;‘&lt;/t2&gt;，它是Unicode代码点U+2018&lt;s3&gt;左单引号&lt;/s3&gt;，有时称为左单引号“弯曲引号”或“卷引号”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, &lt;k1&gt;C-x =&lt;/k1&gt; (hold down &lt;t2&gt;Ctrl&lt;/t2&gt; and type &lt;k3&gt;x&lt;/k3&gt;, then let go of &lt;t4&gt;Ctrl&lt;/t4&gt; and type &lt;k5&gt;=&lt;/k5&gt;) displays a message describing the character at point, its position in the buffer, and its current column in the window.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T090557Z" creationid="grass" creationdate="20201203T022854Z">
@@ -8576,6 +8608,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the radix is 16, the letters &lt;k1&gt;a&lt;/k1&gt; to &lt;k2&gt;f&lt;/k2&gt; serve as part of a character code, just like digits.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091407Z" creationid="grass" creationdate="20201205T091407Z">
+        <seg>如果基数是16，字母&lt;k1&gt;a&lt;/k1&gt;到&lt;k2&gt;f&lt;/k2&gt;将作为字符代码的一部分，就像数字一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the repeater is set for the scheduling information only, you probably want the repeater to be ignored after the deadline.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055706Z" creationid="grass" creationdate="20201016T055706Z">
@@ -8596,6 +8636,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024716Z" creationid="grass" creationdate="20201019T024322Z">
         <seg>如果标签仅与您正在处理的文件相关，则可以将“&lt;s0&gt;TAGS&lt;/s0&gt;”关键字设置为：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the terminating character is &lt;t1&gt;RET&lt;/t1&gt;, that &lt;t2&gt;RET&lt;/t2&gt; serves only to terminate the sequence.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091232Z" creationid="grass" creationdate="20201205T091232Z">
+        <seg>如果终止字符是&lt;t1&gt;RET&lt;/t1&gt;，则&lt;t2&gt;RET&lt;/t2&gt;仅用于终止序列。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16915,6 +16963,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The use of octal sequences is disabled in ordinary non-binary Overwrite mode, to give you a convenient way to insert a digit instead of overwriting with it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091317Z" creationid="grass" creationdate="20201205T091317Z">
+        <seg>在普通的非二进制覆盖模式下禁用八进制序列，以便为您提供插入数字而不是用其覆盖的便捷方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The usual way to invoke Emacs is with the shell command &lt;c0&gt;emacs&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032931Z" creationid="grass" creationdate="20201205T032931Z">
@@ -17729,6 +17785,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T135753Z" creationid="grass" creationdate="20200927T135753Z">
         <seg>要在非“ &lt;s1&gt;.org&lt;/s1&gt;'扩展名的文件中打开Org模式，请在文件的第一行增加以下内容：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use decimal or hexadecimal instead of octal, set the variable &lt;c0&gt;read-quoted-char-radix&lt;/c0&gt; to 10 or 16.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091359Z" creationid="grass" creationdate="20201205T091359Z">
+        <seg>要使用十进制或十六进制而不是八进制，请将变量&lt;c0&gt;read-quoted-char-radix&lt;/c0&gt;设置为10或16。</seg>
       </tuv>
     </tu>
     <tu>
