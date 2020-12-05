@@ -3341,8 +3341,8 @@ management software, start by calling the command ~ebdb-open~.</seg>
       <tuv lang="EN-US">
         <seg>&lt;e6&gt;Control characters&lt;/e6&gt;, such as &lt;t7&gt;RET&lt;/t7&gt;, &lt;t8&gt;TAB&lt;/t8&gt;, &lt;t9&gt;DEL&lt;/t9&gt;, &lt;t10&gt;ESC&lt;/t10&gt;, &lt;t11&gt;F1&lt;/t11&gt;, &lt;t12&gt;Home&lt;/t12&gt;, and &lt;t13&gt;LEFT&lt;/t13&gt;, are also entered this way, as are certain characters found on non-English keyboards (see &lt;a14&gt;International&lt;/a14&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T023307Z" creationid="grass" creationdate="20201205T023307Z">
-        <seg>&lt;e6&gt;控制字符(如&lt;t7&gt;RET&lt;/t7&gt;、&lt;t8&gt;TAB&lt;/t8&gt;、&lt;t9&gt;DEL&lt;/t9&gt;、&lt;t10&gt;ESC&lt;/t10&gt;、&lt;t11&gt;F1&lt;/t11&gt;、&lt;t12&gt;Home&lt;/t12&gt;和&lt;t13&gt;LEFT&lt;/t13&gt;)也是通过这种方式输入的，非英语键盘上的某些字符也是如此(请参见&lt;a14&gt;国际化&lt;/a14&gt;)</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T085050Z" creationid="grass" creationdate="20201205T023307Z">
+        <seg>&lt;e6&gt;控制字符&lt;/e6&gt;(如&lt;t7&gt;RET&lt;/t7&gt;、&lt;t8&gt;TAB&lt;/t8&gt;、&lt;t9&gt;DEL&lt;/t9&gt;、&lt;t10&gt;ESC&lt;/t10&gt;、&lt;t11&gt;F1&lt;/t11&gt;、&lt;t12&gt;Home&lt;/t12&gt;和&lt;t13&gt;LEFT&lt;/t13&gt;)也是通过这种方式输入的，非英语键盘上的某些字符也是如此(请参见&lt;a14&gt;国际化&lt;/a14&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -3885,8 +3885,8 @@ management software, start by calling the command ~ebdb-open~.</seg>
       <tuv lang="EN-US">
         <seg>&lt;v0&gt;line&lt;/v0&gt; is the character ‘&lt;s1&gt;L&lt;/s1&gt;’ followed by the line number at point.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024910Z" creationid="grass" creationdate="20201203T024910Z">
-        <seg>&lt;v0&gt;line&lt;/v0&gt;是字符“&lt;S1&gt;L&lt;/S1&gt;”，后跟游标处的行号。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T085026Z" creationid="grass" creationdate="20201203T024910Z">
+        <seg>&lt;v0&gt;line&lt;/v0&gt;是字符“&lt;s1&gt;L&lt;/s1&gt;”，后跟游标处的行号。</seg>
       </tuv>
     </tu>
     <tu>
