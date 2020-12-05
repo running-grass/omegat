@@ -9172,6 +9172,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Keyboard input into Emacs is based on a heavily-extended version of &lt;a0&gt;ASCII&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T023038Z" creationid="grass" creationdate="20201205T023038Z">
+        <seg>Emacs中的键盘输入基于&lt;a0&gt;ASCII&lt;/a0&gt;的高度扩展版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Keys</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T033252Z" creationid="grass" creationdate="20201203T033252Z">
@@ -16157,6 +16165,14 @@ stores its records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024528Z" creationid="grass" creationdate="20201019T023629Z">
         <seg>还有一个用于插入标签的特殊命令：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Therefore, this manual mainly documents how to edit with the keyboard.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T022809Z" creationid="grass" creationdate="20201205T022809Z">
+        <seg>因此，本手册主要介绍如何使用键盘进行编辑。</seg>
       </tuv>
     </tu>
     <tu>
