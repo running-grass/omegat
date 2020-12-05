@@ -334,6 +334,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(The &lt;t2&gt;RET&lt;/t2&gt; key may be labeled &lt;t3&gt;Return&lt;/t3&gt;, or &lt;t4&gt;Enter&lt;/t4&gt;, or with a funny-looking left-pointing arrow on your keyboard, but we refer to it as &lt;t5&gt;RET&lt;/t5&gt; in this manual.) This command inserts a newline character into the buffer, then indents (see &lt;a6&gt;Indentation&lt;/a6&gt;) according to the major mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T083933Z" creationid="grass" creationdate="20201205T083933Z">
+        <seg>(&lt;t2&gt;RET&lt;/t2&gt;键可能标记为&lt;t3&gt;Return&lt;/t3&gt;、&lt;t4&gt;Enter&lt;/t4&gt;，或者键盘上有一个外观滑稽的向左箭头，但我们在本手册中将其称为&lt;t5&gt;RET&lt;/t5&gt;。)该命令将换行符插入缓冲区，然后根据主模式缩进(请参阅&lt;a6&gt;缩进&lt;/a6&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(The ‘&lt;s0&gt;G&lt;/s0&gt;’ in &lt;a1&gt;GNU&lt;/a1&gt; (GNU’s Not Unix) is not silent.)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T093115Z" creationid="grass" creationdate="20201130T093115Z">
@@ -17473,6 +17481,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072827Z" creationid="grass" creationdate="20201205T072827Z">
         <seg>要在Emacs运行时编辑另一个程序中的文件，可以使用&lt;c0&gt;emacsclient&lt;/c0&gt;帮助程序在现有Emacs会话中打开文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To end a line and start a new one, type &lt;t0&gt;RET&lt;/t0&gt; (&lt;c1&gt;newline&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T083812Z" creationid="grass" creationdate="20201205T083812Z">
+        <seg>若要结束一行并开始新行，请键入&lt;t0&gt;RET&lt;/t0&gt;(&lt;c1&gt;newline&lt;/c1&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
