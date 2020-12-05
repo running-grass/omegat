@@ -237,3 +237,4 @@ tooltip	工具提示
 Exit	退出
 Stopping	终止
 basic	基础
+issue	触发
