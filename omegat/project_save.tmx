@@ -318,6 +318,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(For comparable methods of starting Emacs on MS-Windows, see &lt;a2&gt;Windows Startup&lt;/a2&gt;.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T033204Z" creationid="grass" creationdate="20201205T033204Z">
+        <seg>(有关在MS-Windows上启动Emacs的类似方法，请参阅&lt;a2&gt;Windows启动&lt;/a2&gt;。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(However, note that when Emacs was built with a GUI toolkit, the menus are drawn and controlled by the toolkit, and the key sequences to cancel menu navigation might be different from the above description.)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T031109Z" creationid="grass" creationdate="20201203T031109Z">
@@ -7370,6 +7378,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101113Z" creationid="grass" creationdate="20201014T101113Z">
         <seg>从TODO到DONE的步骤。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>From a terminal window running a Unix shell on a GUI terminal, you can run Emacs in the background with &lt;k1&gt;emacs &amp;&lt;/k1&gt;; this way, Emacs won’t tie up the terminal window, so you can use it to run other shell commands.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T033158Z" creationid="grass" creationdate="20201205T033158Z">
+        <seg>在GUI终端上运行Unix shell的终端窗口中，您可以使用&lt;k1&gt;emacs &amp;&lt;/k1&gt;在后台运行Emacs；这样，Emacs就不会占用终端窗口，因此您可以使用它来运行其他shell命令。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17690,6 +17706,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182124Z" creationid="grass" creationdate="20201010T182124Z">
         <seg>当Emacs首次访问Org文件时，全局状态设置为&lt;c0&gt;showeverything&lt;/c0&gt;，即所有文件内容均可见&lt;a1&gt;&lt;s2&gt;6&lt;/s2&gt;&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When Emacs starts up, the initial frame displays a special buffer named ‘&lt;s0&gt;*GNU Emacs*&lt;/s0&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T033230Z" creationid="grass" creationdate="20201205T033230Z">
+        <seg>当Emacs启动时，初始窗体中显示一个名为‘&lt;s0&gt;*GNU Emacs*&lt;/s0&gt;’的特殊缓冲区。</seg>
       </tuv>
     </tu>
     <tu>
