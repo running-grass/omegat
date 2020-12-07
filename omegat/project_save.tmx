@@ -5324,6 +5324,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-u C-x C-n</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151136Z" creationid="grass" creationdate="20201207T151136Z">
+        <seg>C-u C-x C-n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-u M-x org-reload &lt;RET&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061741Z" creationid="grass" creationdate="20201015T061741Z">
@@ -5408,6 +5416,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063539Z" creationid="grass" creationdate="20201015T063539Z">
         <seg>无条件地调用带有&lt;k0&gt;C-u&lt;/k0&gt;前缀的命令会在当前子树的末尾插入一个新标题，从而保留其内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cancel the goal column.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151140Z" creationid="grass" creationdate="20201207T151140Z">
+        <seg>取消目标列。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7400,6 +7416,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For convenience, &lt;k1&gt;C-n&lt;/k1&gt; and &lt;k2&gt;C-p&lt;/k2&gt; move point by screen lines, as do the equivalent keys &lt;k3&gt;&lt;s4&gt;down&lt;/s4&gt;&lt;/k3&gt; and &lt;k5&gt;&lt;s6&gt;up&lt;/s6&gt;&lt;/k5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151236Z" creationid="grass" creationdate="20201207T151236Z">
+        <seg>为方便起见，&lt;k1&gt;C-n&lt;/k1&gt;和&lt;k2&gt;C-p&lt;/k2&gt;逐行移动指针，等价键&lt;k3&gt;&lt;s4&gt;down&lt;/s4&gt;&lt;/k3&gt;和&lt;k5&gt;&lt;s6&gt;up&lt;/s6&gt;&lt;/k5&gt;也是如此。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For creating Beamer documents.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104801Z" creationid="grass" creationdate="20201014T104801Z">
@@ -7420,6 +7444,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030600Z" creationid="grass" creationdate="20201205T030600Z">
         <seg>有关Emacs如何在内部处理输入事件的详细信息，请参阅&lt;c2&gt;Emacs Lisp参考手册&lt;/c2&gt;中的&lt;a1&gt;输入事件&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For details, see &lt;a10&gt;Continuation Lines&lt;/a10&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151346Z" creationid="grass" creationdate="20201207T151346Z">
+        <seg>有关详细信息，请参阅&lt;a10&gt;连续行&lt;/a10&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8108,6 +8140,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114339Z" creationid="grass" creationdate="20201130T114339Z">
         <seg>此后，在本手册中，我们将在此意义上使用单词“窗口”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Henceforth, &lt;k0&gt;C-n&lt;/k0&gt; and &lt;k1&gt;C-p&lt;/k1&gt; try to preserve the horizontal position, as usual.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151148Z" creationid="grass" creationdate="20201207T151148Z">
+        <seg>此后，&lt;k0&gt;C-n&lt;/k0&gt;和&lt;k1&gt;C-p&lt;/k1&gt;像往常一样尝试保持水平位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15336,6 +15376,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a11&gt;Variables&lt;/a11&gt;, for how to set variables such as &lt;c12&gt;line-move-visual&lt;/c12&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151353Z" creationid="grass" creationdate="20201207T151353Z">
+        <seg>有关如何设置&lt;c12&gt;line-move-visual&lt;/c12&gt;等变量的信息，请参阅&lt;a11&gt;变量&lt;/a11&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a1&gt;(emacs)Package Menu&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T140634Z" creationid="grass" creationdate="20200927T131556Z">
@@ -17275,6 +17323,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The goal column remains in effect until canceled.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151134Z" creationid="grass" creationdate="20201207T151134Z">
+        <seg>目标列在取消之前保持有效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The homepage for GNU Emacs is at &lt;a0&gt;https://www.gnu.org/software/emacs/&lt;/a0&gt;.&lt;br1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T080526Z" creationid="grass" creationdate="20201130T080526Z">
@@ -18677,6 +18733,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Unlike &lt;k0&gt;C-n&lt;/k0&gt; and &lt;k1&gt;C-p&lt;/k1&gt;, most of the Emacs commands that work on lines work on &lt;e2&gt;logical&lt;/e2&gt; lines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151405Z" creationid="grass" creationdate="20201207T151405Z">
+        <seg>与&lt;k0&gt;C-n&lt;/k0&gt;和&lt;k1&gt;C-p&lt;/k1&gt;不同，大多数适用于行的Emacs命令都适用于&lt;e2&gt;逻辑行&lt;/e2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Unlike &lt;t10&gt;Meta&lt;/t10&gt;, &lt;t11&gt;ESC&lt;/t11&gt; is entered as a separate character.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030236Z" creationid="grass" creationdate="20201205T030236Z">
@@ -19146,6 +19210,22 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024434Z" creationid="grass" creationdate="20201019T023227Z">
         <seg>如果在打开标记继承的情况下在标签搜索期间匹配标题，则同一树中的所有子级别(对于简单匹配表单)也会匹配&lt;a0&gt;&lt;s1&gt;52&lt;/s1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a line of text in the buffer is longer than the width of the window, Emacs usually displays it on two or more &lt;e0&gt;screen lines&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151157Z" creationid="grass" creationdate="20201207T151157Z">
+        <seg>当缓冲区中的一行文本长于窗口宽度时，Emacs通常将其显示在两个或多个&lt;e0&gt;屏幕行&lt;/e0&gt;上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a semipermanent goal column is in effect, those commands always try to move to this column, or as close as possible to it, after moving vertically.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151128Z" creationid="grass" creationdate="20201207T151128Z">
+        <seg>当半永久性目标列生效时，这些命令始终在垂直移动后尝试移动到该列或尽可能靠近该列。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19842,6 +19922,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030229Z" creationid="grass" creationdate="20201205T030229Z">
         <seg>您可以通过键入&lt;k8&gt;&lt;s9&gt;ESC&lt;/s9&gt;C-a&lt;/k8&gt;来输入&lt;k4&gt;C-M-a&lt;/k4&gt;(同时按住&lt;t5&gt;Ctrl&lt;/t5&gt;和&lt;t6&gt;Alt&lt;/t6&gt;，然后按&lt;k7&gt;a&lt;/k7&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can force these commands to move according to &lt;e7&gt;logical lines&lt;/e7&gt; (i.e., according to the text lines in the buffer) by setting the variable &lt;c8&gt;line-move-visual&lt;/c8&gt; to &lt;c9&gt;nil&lt;/c9&gt;; if a logical line occupies multiple screen lines, the cursor then skips over the additional screen lines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151332Z" creationid="grass" creationdate="20201207T151332Z">
+        <seg>通过将变量&lt;c8&gt;line-move-visual&lt;/c8&gt;设置为&lt;c9&gt;nil&lt;/c9&gt;，可以强制这些命令根据&lt;e7&gt;逻辑行&lt;/e7&gt;(即根据缓冲区中的文本行)移动；如果一个逻辑行占据多个屏幕行，则光标将跳过附加的屏幕行。</seg>
       </tuv>
     </tu>
     <tu>
