@@ -2987,6 +2987,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>7 Basic Editing Commands</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T153129Z" creationid="grass" creationdate="20201207T153129Z">
+        <seg>7 基本编辑命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>7 Properties and Columns</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200633Z" creationid="grass" creationdate="20201010T200633Z">
@@ -10478,8 +10486,8 @@ on your load path.</seg>
       <tuv lang="EN-US">
         <seg>Like &lt;k2&gt;&lt;s3&gt;DEL&lt;/s3&gt;&lt;/k2&gt;, it deletes the text in the region if the region is active (see &lt;a4&gt;Mark&lt;/a4&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152225Z" creationid="grass" creationdate="20201207T152225Z">
-        <seg>与&lt;K2&gt;&lt;S3&gt;DEL&lt;/S3&gt;&lt;/K2&gt;类似，如果选区处于活动状态，它会删除选区中的文本(请参阅&lt;a4&gt;标记&lt;/a4&gt;)。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T153357Z" creationid="grass" creationdate="20201207T152225Z">
+        <seg>与&lt;k2&gt;&lt;s3&gt;DEL&lt;/s3&gt;&lt;/k2&gt;类似，如果选区处于活动状态，它会删除选区中的文本(请参阅&lt;a4&gt;标记&lt;/a4&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18359,8 +18367,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>This command (&lt;c0&gt;right-word&lt;/c0&gt;) behaves like &lt;k1&gt;M-f&lt;/k1&gt;, except it moves &lt;e2&gt;backward&lt;/e2&gt; by one word if the current paragraph is right-to-left.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150309Z" creationid="grass" creationdate="20201207T150309Z">
-        <seg>此命令(&lt;c0&gt;right-word&lt;/c0&gt;)的行为与&lt;k1&gt;M-f&lt;/k1&gt;类似，不同之处在于，如果当前段落是从右向左的，则它将&lt;e2&gt;向后移动一个单词。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T153241Z" creationid="grass" creationdate="20201207T150309Z">
+        <seg>此命令(&lt;c0&gt;right-word&lt;/c0&gt;)的行为与&lt;k1&gt;M-f&lt;/k1&gt;类似，不同之处在于，如果当前段落是从右向左的，则它将&lt;e2&gt;向后&lt;/e2&gt;移动一个单词。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19223,8 +19231,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>Use the current column of point as the &lt;e0&gt;semipermanent goal column&lt;/e0&gt; for &lt;k1&gt;C-n&lt;/k1&gt; and &lt;k2&gt;C-p&lt;/k2&gt; (&lt;c3&gt;set-goal-column&lt;/c3&gt;) in the current buffer.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151111Z" creationid="grass" creationdate="20201207T151111Z">
-        <seg>将当前游标所在的列用作当前缓冲区中&lt;k1&gt;C-n&lt;/k1&gt;和&lt;k2&gt;C-p&lt;/k2&gt;(&lt;c3&gt;set-target-column&lt;/c3&gt;)的半永久目标列。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T153335Z" creationid="grass" creationdate="20201207T151111Z">
+        <seg>将当前游标所在的列用作当前缓冲区中&lt;k1&gt;C-n&lt;/k1&gt;和&lt;k2&gt;C-p&lt;/k2&gt;(&lt;c3&gt;set-target-column&lt;/c3&gt;)的&lt;e0&gt;半永久目标列&lt;/e0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -51610,14 +51618,6 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents</seg>
-      </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T083622Z" creationid="grass" creationdate="20201130T081451Z">
-        <seg>#SEC_Contents</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Safe-File-Variables</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T083622Z" creationid="grass" creationdate="20201130T083622Z">
@@ -53500,8 +53500,8 @@ Introduction</seg>
       <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Basic Undo&lt;/a0&gt;:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074156Z" creationid="grass" creationdate="20201205T074156Z">
-        <seg>• &lt;a0&gt;基本撤销o&lt;/a0&gt;:</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T153138Z" creationid="grass" creationdate="20201205T074156Z">
+        <seg>• &lt;a0&gt;基本撤销&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
