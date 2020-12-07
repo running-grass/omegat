@@ -18797,6 +18797,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To learn more about the &lt;c0&gt;undo&lt;/c0&gt; command, see &lt;a1&gt;Undo&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152943Z" creationid="grass" creationdate="20201207T152943Z">
+        <seg>若要了解有关&lt;c0&gt;撤消&lt;/c0&gt;命令的详细信息，请参阅&lt;a1&gt;撤消&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To limit tag inheritance to specific tags, or to turn it off entirely, use the variables &lt;c0&gt;org-use-tag-inheritance&lt;/c0&gt; and &lt;c1&gt;org-tags-exclude-from-inheritance&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024420Z" creationid="grass" creationdate="20201019T023217Z">
