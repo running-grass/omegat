@@ -2507,6 +2507,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>25.5</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T093210Z" creationid="grass" creationdate="20201205T093210Z">
+        <seg>25.5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3 Keys</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030623Z" creationid="grass" creationdate="20201205T030623Z">
@@ -4616,6 +4624,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113329Z" creationid="grass" creationdate="20201016T113329Z">
         <seg>来自BBDB的周年纪念</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Another common way is the curved quote convention, which uses left and right single or double quotation marks ‘&lt;t2&gt;like this&lt;/t2&gt;’ or “&lt;t3&gt;like this&lt;/t3&gt;”&lt;a4&gt;&lt;s5&gt;11&lt;/s5&gt;&lt;/a4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T093450Z" creationid="grass" creationdate="20201205T093450Z">
+        <seg>另一种常见的方法是弯曲引号约定，它使用左右单引号或双引号‘&lt;t2&gt;像这样&lt;/t2&gt;’或“&lt;t3&gt;像这样&lt;/t3&gt;”&lt;a4&gt;&lt;s5&gt;11&lt;/s5&gt;&lt;/a4&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9240,6 +9256,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In text files, typewriter quotes are simple and portable; curved quotes are less ambiguous and typically look nicer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T093552Z" creationid="grass" creationdate="20201205T093552Z">
+        <seg>在文本文件中，打字机引号简单且便携；弧形引号不那么模棱两可，通常看起来更美观。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In that case it is sufficient to start Emacs as ‘&lt;s0&gt;emacs -Q&lt;/s0&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T081748Z" creationid="grass" creationdate="20200929T081748Z">
@@ -12964,6 +12988,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>One common way to quote is the typewriter convention, which quotes using straight apostrophes &lt;t0&gt;'like this'&lt;/t0&gt; or double-quotes &lt;t1&gt;"like this"&lt;/t1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T093235Z" creationid="grass" creationdate="20201205T093235Z">
+        <seg>一种常见的引用方式是打字机约定，它使用直撇号&lt;t0&gt;‘像这样’&lt;/t0&gt;或双引号&lt;t1&gt;“像这样”&lt;/t1&gt;引用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>One convenient function to use as the value of &lt;c4&gt;confirm-kill-emacs&lt;/c4&gt; is the function &lt;c5&gt;yes-or-no-p&lt;/c5&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073604Z" creationid="grass" creationdate="20201205T073604Z">
@@ -14324,6 +14356,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063253Z" creationid="grass" creationdate="20201015T063253Z">
         <seg>退出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Quotation Marks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T093304Z" creationid="grass" creationdate="20201205T093304Z">
+        <seg>引号</seg>
       </tuv>
     </tu>
     <tu>
