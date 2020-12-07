@@ -266,3 +266,4 @@ erase	擦除
 region	选区
 mark	标记
 delete	删除
+killing	剪切
