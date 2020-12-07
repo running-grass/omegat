@@ -3627,6 +3627,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-n&lt;/k0&gt; normally stops at the end of the buffer when you use it on the last line in the buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151526Z" creationid="grass" creationdate="20201207T151526Z">
+        <seg>当您在缓冲区的最后一行使用它时，&lt;k0&gt;C-n&lt;/k0&gt;通常会在缓冲区末尾停止。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-q&lt;/k0&gt; followed by a sequence of octal digits inserts the character with the specified octal character code.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091220Z" creationid="grass" creationdate="20201205T091220Z">
@@ -4956,6 +4964,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>BACKSPACE</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151616Z" creationid="grass" creationdate="20201207T151616Z">
+        <seg>BACKSPACE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Backward to higher level heading.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063010Z" creationid="grass" creationdate="20201015T063010Z">
@@ -6164,6 +6180,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>DEL</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151615Z" creationid="grass" creationdate="20201207T151615Z">
+        <seg>DEL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>DOWN</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150024Z" creationid="grass" creationdate="20201207T150024Z">
@@ -6240,6 +6264,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T144106Z" creationid="grass" creationdate="20201014T103053Z">
         <seg>定义自定义搜索内容和显示视图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Delete the character before point, or the region if it is active (&lt;c0&gt;delete-backward-char&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151705Z" creationid="grass" creationdate="20201207T151705Z">
+        <seg>删除游标之前的字符，或者如果选区处于活动状态(&lt;c0&gt;delete-back-char&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6852,6 +6884,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052236Z" creationid="grass" creationdate="20201013T052236Z">
         <seg>代号块的环境</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Erasing Text</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151613Z" creationid="grass" creationdate="20201207T151613Z">
+        <seg>擦除文本</seg>
       </tuv>
     </tu>
     <tu>
@@ -7596,6 +7636,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091210Z" creationid="grass" creationdate="20201205T091210Z">
         <seg>例如，&lt;k2&gt;C-q&lt;s3&gt;DEL&lt;/s3&gt;&lt;/k2&gt;插入文字“&lt;s4&gt;DEL&lt;/s4&gt;”字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance, &lt;k3&gt;C-a&lt;/k3&gt; (&lt;c4&gt;move-beginning-of-line&lt;/c4&gt;) and &lt;k5&gt;C-e&lt;/k5&gt; (&lt;c6&gt;move-end-of-line&lt;/c6&gt;) respectively move to the beginning and end of the logical line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151419Z" creationid="grass" creationdate="20201207T151419Z">
+        <seg>例如，&lt;k3&gt;C-a&lt;/k3&gt;(&lt;c4&gt;move-beginning-of-line&lt;/c4&gt;)和&lt;k5&gt;C-e&lt;/k5&gt;(&lt;c6&gt;move-end-of-line&lt;/c6&gt;)分别移动到逻辑行的开始和结束。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8508,6 +8556,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171858Z" creationid="grass" creationdate="20201010T171858Z">
         <seg>但是，如果您保留至少两个空行，则在折叠子树后仍有一个空行可见，以便构建折叠视图的结构。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, if you set the variable &lt;c1&gt;next-line-add-newlines&lt;/c1&gt; to a non-&lt;c2&gt;nil&lt;/c2&gt; value, &lt;k3&gt;C-n&lt;/k3&gt; on the last line of a buffer creates an additional line at the end and moves down into it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151540Z" creationid="grass" creationdate="20201207T151540Z">
+        <seg>但是，如果将变量&lt;c1&gt;next-line-add-newlines&lt;/c1&gt;设置为非&lt;c2&gt;nil&lt;/c2&gt;值，则缓冲区最后一行上的&lt;k3&gt;C-n&lt;/k3&gt;将在末尾创建一个附加行并向下移动。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13116,6 +13172,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Normally, &lt;c6&gt;track-eol&lt;/c6&gt; is &lt;c7&gt;nil&lt;/c7&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151520Z" creationid="grass" creationdate="20201207T151520Z">
+        <seg>正常情况下，&lt;c6&gt;track-eol&lt;/c6&gt;为&lt;c7&gt;nil&lt;/c7&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Normally, Emacs automatically handles these settings for you, but it is sometimes useful to have this information.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023737Z" creationid="grass" creationdate="20201203T023737Z">
@@ -17715,6 +17779,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Then &lt;k4&gt;C-n&lt;/k4&gt; and &lt;k5&gt;C-p&lt;/k5&gt;, when starting at the end of the logical line, move to the end of the next logical line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151514Z" creationid="grass" creationdate="20201207T151514Z">
+        <seg>然后&lt;k4&gt;C-n&lt;/k4&gt;和&lt;k5&gt;C-p&lt;/k5&gt;从逻辑行的末尾开始，移动到下一个逻辑行的末尾。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Then read the basic information on variables (see &lt;a2&gt;Variables&lt;/a2&gt;) and the information about specific variables will make sense.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032856Z" creationid="grass" creationdate="20201205T032856Z">
@@ -19182,6 +19254,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When &lt;c0&gt;line-move-visual&lt;/c0&gt; is &lt;c1&gt;nil&lt;/c1&gt;, you can also set the variable &lt;c2&gt;track-eol&lt;/c2&gt; to a non-&lt;c3&gt;nil&lt;/c3&gt; value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151505Z" creationid="grass" creationdate="20201207T151505Z">
+        <seg>当&lt;c0&gt;line-move-visual&lt;/c0&gt;为&lt;c1&gt;nil&lt;/c1&gt;时，您还可以将变量&lt;c2&gt;track-eol&lt;/c2&gt;设置为非&lt;c3&gt;nil&lt;/c3&gt;值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When &lt;k0&gt;S-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; is called with a numeric prefix argument &lt;v2&gt;N&lt;/v2&gt;, view contents only up to headlines of level &lt;v3&gt;N&lt;/v3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T174230Z" creationid="grass" creationdate="20201010T174230Z">
@@ -19442,6 +19522,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114736Z" creationid="grass" creationdate="20201130T114736Z">
         <seg>启动Emacs时，窗体中通常只有一个窗口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whenever we encounter commands that work on screen lines, such as &lt;k7&gt;C-n&lt;/k7&gt; and &lt;k8&gt;C-p&lt;/k8&gt;, we will point these out.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151425Z" creationid="grass" creationdate="20201207T151425Z">
+        <seg>每当我们遇到在屏幕行上工作的命令时，例如&lt;k7&gt;C-n&lt;/k7&gt;和&lt;k8&gt;C-p&lt;/k8&gt;，我们都会指出这些命令。</seg>
       </tuv>
     </tu>
     <tu>
