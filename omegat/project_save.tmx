@@ -4100,6 +4100,22 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A negative argument counts lines up from the bottom (-1 means the bottom line).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150445Z" creationid="grass" creationdate="20201207T150445Z">
+        <seg>负参数从底部向上计数行(-1表示底线)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A numeric argument says which screen line to place point on, counting downward from the top of the window (zero means the top line).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150441Z" creationid="grass" creationdate="20201207T150441Z">
+        <seg>一个数字参数表示从窗口顶部开始向下计数，将游标放在哪个屏幕行上(零表示顶行)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A numeric argument to &lt;k0&gt;C-q&lt;/k0&gt; or &lt;k1&gt;C-x 8 ...&lt;/k1&gt; specifies how many copies of the character to insert (see &lt;a2&gt;Arguments&lt;/a2&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145200Z" creationid="grass" creationdate="20201207T145200Z">
@@ -5220,6 +5236,22 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-&lt;s0&gt;LEFT&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150330Z" creationid="grass" creationdate="20201207T150330Z">
+        <seg>C-&lt;s0&gt;LEFT&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-&lt;s0&gt;RIGHT&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150247Z" creationid="grass" creationdate="20201207T150247Z">
+        <seg>C-&lt;s0&gt;RIGHT&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-a</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150125Z" creationid="grass" creationdate="20201207T150125Z">
@@ -5240,6 +5272,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025144Z" creationid="grass" creationdate="20201019T025144Z">
         <seg>C-c</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-e</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150136Z" creationid="grass" creationdate="20201207T150136Z">
+        <seg>C-e</seg>
       </tuv>
     </tu>
     <tu>
@@ -6724,6 +6764,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112656Z" creationid="grass" creationdate="20201014T112656Z">
         <seg>加密Org文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>End</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150137Z" creationid="grass" creationdate="20201207T150137Z">
+        <seg>End</seg>
       </tuv>
     </tu>
     <tu>
@@ -10220,6 +10268,46 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>M-&lt;s0&gt;LEFT&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150331Z" creationid="grass" creationdate="20201207T150331Z">
+        <seg>M-&lt;s0&gt;LEFT&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-&lt;s0&gt;RIGHT&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150249Z" creationid="grass" creationdate="20201207T150249Z">
+        <seg>M-&lt;s0&gt;RIGHT&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-b</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150319Z" creationid="grass" creationdate="20201207T150319Z">
+        <seg>M-b</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-f</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150145Z" creationid="grass" creationdate="20201207T150145Z">
+        <seg>M-f</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-r</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150345Z" creationid="grass" creationdate="20201207T150345Z">
+        <seg>M-r</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>M-x org-submit-bug-report &lt;RET&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061732Z" creationid="grass" creationdate="20201015T061732Z">
@@ -10556,6 +10644,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Move backward one word (&lt;c0&gt;backward-word&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150327Z" creationid="grass" creationdate="20201207T150327Z">
+        <seg>向后移动一个单词(&lt;c0&gt;backward-word&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Move down one screen line (&lt;c0&gt;next-line&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150118Z" creationid="grass" creationdate="20201207T150035Z">
@@ -10568,6 +10664,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145853Z" creationid="grass" creationdate="20201207T145853Z">
         <seg>向前移动一个字符(&lt;c0&gt;forward-char&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Move forward one word (&lt;c0&gt;forward-word&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150233Z" creationid="grass" creationdate="20201207T150233Z">
+        <seg>向前移动一个字(&lt;c0&gt;forward-word&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10592,6 +10696,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150135Z" creationid="grass" creationdate="20201207T150135Z">
         <seg>移至行首(&lt;c0&gt;move-beginning-of-line&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Move to the end of the line (&lt;c0&gt;move-end-of-line&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150144Z" creationid="grass" creationdate="20201207T150144Z">
+        <seg>移到行尾(&lt;c0&gt;move-end-of-line&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15064,6 +15176,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;Words&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150245Z" creationid="grass" creationdate="20201207T150245Z">
+        <seg>请参阅&lt;a1&gt;词&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a23&gt;Key Bindings&lt;/a23&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031618Z" creationid="grass" creationdate="20201205T031618Z">
@@ -15108,6 +15228,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072537Z" creationid="grass" creationdate="20201205T072537Z">
         <seg>请参阅&lt;a2&gt;窗口&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a3&gt;Bidirectional Editing&lt;/a3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150319Z" creationid="grass" creationdate="20201207T150319Z">
+        <seg>请参阅&lt;a3&gt;双向编辑&lt;/a3&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17549,10 +17677,26 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This command (&lt;c0&gt;left-word&lt;/c0&gt;) behaves like &lt;k1&gt;M-b&lt;/k1&gt;, except it moves &lt;e2&gt;forward&lt;/e2&gt; by one word if the current paragraph is right-to-left.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150343Z" creationid="grass" creationdate="20201207T150343Z">
+        <seg>此命令(&lt;c0&gt;left-word&lt;/c0&gt;)的行为与&lt;k1&gt;M-b&lt;/k1&gt;类似，不同之处在于，如果当前段落是从右向左的，则它将&lt;e2&gt;向前移动&lt;/e2&gt;一个单词。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This command (&lt;c0&gt;right-char&lt;/c0&gt;) behaves like &lt;k1&gt;C-f&lt;/k1&gt;, except when point is in a right-to-left paragraph (see &lt;a2&gt;Bidirectional Editing&lt;/a2&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145952Z" creationid="grass" creationdate="20201207T145952Z">
         <seg>此命令(&lt;c0&gt;right-char&lt;/c0&gt;)的行为类似于&lt;k1&gt;C-f&lt;/k1&gt;，但游标位于从右向左的段落时除外(请参阅&lt;a2&gt;双向编辑&lt;/a2&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This command (&lt;c0&gt;right-word&lt;/c0&gt;) behaves like &lt;k1&gt;M-f&lt;/k1&gt;, except it moves &lt;e2&gt;backward&lt;/e2&gt; by one word if the current paragraph is right-to-left.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150309Z" creationid="grass" creationdate="20201207T150309Z">
+        <seg>此命令(&lt;c0&gt;right-word&lt;/c0&gt;)的行为与&lt;k1&gt;M-f&lt;/k1&gt;类似，不同之处在于，如果当前段落是从右向左的，则它将&lt;e2&gt;向后移动一个单词。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19162,6 +19306,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054834Z" creationid="grass" creationdate="20201016T054834Z">
         <seg>对于“&lt;s0&gt;+1m&lt;/s0&gt;”，日期转换始终正好是一个月。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Without moving the text on the screen, reposition point on the left margin of the center-most text line of the window; on subsequent consecutive invocations, move point to the left margin of the top-most line, the bottom-most line, and so forth, in cyclic order (&lt;c0&gt;move-to-window-line-top-bottom&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150416Z" creationid="grass" creationdate="20201207T150416Z">
+        <seg>在不移动屏幕上的文本的情况下，将指针重新定位在窗口最中间文本行的左边距上；在随后的连续调用中，按循环顺序将指针移动到最顶行、最底行的左边距，依此类推(&lt;c0&gt;move-to-window-line-top-bottom&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
