@@ -2389,8 +2389,8 @@ management software, start by calling the command ~ebdb-open~.</seg>
       <tuv lang="EN-US">
         <seg>2 Kinds of User Input</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T022608Z" creationid="grass" creationdate="20201205T022608Z">
-        <seg>2 用户输类型入</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T013619Z" creationid="grass" creationdate="20201205T022608Z">
+        <seg>2 用户输入类型</seg>
       </tuv>
     </tu>
     <tu>
