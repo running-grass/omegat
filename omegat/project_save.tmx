@@ -5276,6 +5276,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152423Z" creationid="grass" creationdate="20201207T152423Z">
+        <seg>C-/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-&lt;s0&gt;LEFT&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150330Z" creationid="grass" creationdate="20201207T150330Z">
@@ -5288,6 +5296,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150247Z" creationid="grass" creationdate="20201207T150247Z">
         <seg>C-&lt;s0&gt;RIGHT&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-_</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152425Z" creationid="grass" creationdate="20201207T152425Z">
+        <seg>C-_</seg>
       </tuv>
     </tu>
     <tu>
@@ -5416,6 +5432,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151033Z" creationid="grass" creationdate="20201207T151033Z">
         <seg>C-x C-n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-x u</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152424Z" creationid="grass" creationdate="20201207T152424Z">
+        <seg>C-x u</seg>
       </tuv>
     </tu>
     <tu>
@@ -15592,6 +15616,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Killing&lt;/a0&gt;, for more information about &lt;k1&gt;C-k&lt;/k1&gt; and related commands.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152410Z" creationid="grass" creationdate="20201207T152410Z">
+        <seg>有关&lt;k1&gt;C-k&lt;/k1&gt;和相关命令的详细信息，请参阅&lt;a0&gt;剪切&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a0&gt;Optional Mode Line&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025729Z" creationid="grass" creationdate="20201203T025729Z">
@@ -18993,6 +19025,22 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100825Z" creationid="grass" creationdate="20201014T100825Z">
         <seg>指向互联网的类似URL的链接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Undo one entry of the undo records—usually, one command worth (&lt;c0&gt;undo&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152726Z" creationid="grass" creationdate="20201207T152726Z">
+        <seg>撤消一个撤消记录条目-通常相当于一个命令(&lt;c0&gt;undo&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Undoing Changes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152422Z" creationid="grass" creationdate="20201207T152422Z">
+        <seg>撤消更改</seg>
       </tuv>
     </tu>
     <tu>
