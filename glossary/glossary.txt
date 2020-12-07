@@ -264,3 +264,4 @@ scroll	滚动
 logical line	逻辑行
 erase	擦除
 region	选区
+mark	标记
