@@ -3635,6 +3635,22 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-d&lt;/k0&gt; (&lt;c1&gt;delete-char&lt;/c1&gt;) deletes the character after point, similar to &lt;t2&gt;Delete&lt;/t2&gt;, but regardless of whether the region is active.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152250Z" creationid="grass" creationdate="20201207T152250Z">
+        <seg>&lt;k0&gt;C-d&lt;/k0&gt;(&lt;c1&gt;delete-char&lt;/c1&gt;)删除游标之后的字符，与&lt;t2&gt;Delete&lt;/t2&gt;类似，但与选区是否处于活动状态无关。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-k&lt;/k0&gt; (&lt;c1&gt;kill-line&lt;/c1&gt;) erases (kills) a line at a time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152319Z" creationid="grass" creationdate="20201207T152319Z">
+        <seg>&lt;k0&gt;C-k&lt;/k0&gt;(&lt;c1&gt;kill-line&lt;/c1&gt;)一次擦除(杀死)一行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-n&lt;/k0&gt; normally stops at the end of the buffer when you use it on the last line in the buffer.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151526Z" creationid="grass" creationdate="20201207T151526Z">
@@ -6310,8 +6326,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="EN-US">
         <seg>Delete the character after point, or the region if it is active (&lt;c0&gt;delete-forward-char&lt;/c0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151720Z" creationid="grass" creationdate="20201207T151720Z">
-        <seg>一个接一个地删除字符，如果选区处于活动状态，则将其删除(&lt;c0&gt;delete-ward-char&lt;/c0&gt;)。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152201Z" creationid="grass" creationdate="20201207T151720Z">
+        <seg>删除游标之后的字符，如果选区处于活动状态，则将其删除(&lt;c0&gt;delete-ward-char&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8928,6 +8944,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If point was at the end of a line, this joins the following line onto this one.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152101Z" creationid="grass" creationdate="20201207T152101Z">
+        <seg>如果点在一条线的末尾，这会将下面的线连接到这条线上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If so, set the variable &lt;c0&gt;org-agenda-skip-scheduled-if-deadline-is-shown&lt;/c0&gt; to &lt;c1&gt;repeated-after-deadline&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055743Z" creationid="grass" creationdate="20201016T055743Z">
@@ -9332,6 +9356,22 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025449Z" creationid="grass" creationdate="20201019T025449Z">
         <seg>如果您偶尔需要更多键，请按&lt;k3&gt;C-c&lt;/k3&gt;关闭当前标签选择过程的自动退出(实际上：使用&lt;k4&gt;C-c-c C-c&lt;/k4&gt;而不是&lt;k5&gt;C-c C-c&lt;/k5&gt;开始选择)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you type &lt;k2&gt;C-k&lt;/k2&gt; at the beginning or middle of a line, it kills all the text up to the end of the line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152323Z" creationid="grass" creationdate="20201207T152323Z">
+        <seg>如果您在行首或行中键入&lt;k2&gt;C-k&lt;/k2&gt;，则会取消直到行尾的所有文本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you type &lt;k3&gt;C-k&lt;/k3&gt; at the end of a line, it joins that line with the following line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152327Z" creationid="grass" creationdate="20201207T152327Z">
+        <seg>如果您在行尾键入&lt;k3&gt;C-k&lt;/k3&gt;，它会将该行与以下行连接起来。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10368,6 +10408,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T141750Z" creationid="Eli" creationdate="20201022T141709Z">
         <seg>该命令和&lt;k0&gt;m&lt;/k0&gt;类似，但是只会选择标记为TODO的标题，并且强制检查子项。（详见变量&lt;c1&gt;org-tags-match-list-sublevels&lt;/c1&gt;）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Like &lt;k2&gt;&lt;s3&gt;DEL&lt;/s3&gt;&lt;/k2&gt;, it deletes the text in the region if the region is active (see &lt;a4&gt;Mark&lt;/a4&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152225Z" creationid="grass" creationdate="20201207T152225Z">
+        <seg>与&lt;K2&gt;&lt;S3&gt;DEL&lt;/S3&gt;&lt;/K2&gt;类似，如果选区处于活动状态，它会删除选区中的文本(请参阅&lt;a4&gt;标记&lt;/a4&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15504,6 +15552,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Deletion&lt;/a0&gt;, for more detailed information about the above deletion commands.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152310Z" creationid="grass" creationdate="20201207T152310Z">
+        <seg>有关上述删除命令的详细信息，请参阅&lt;a0&gt;删除&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a0&gt;Display Custom&lt;/a0&gt;, for options that control how Emacs uses the echo area.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023123Z" creationid="grass" creationdate="20201203T023123Z">
@@ -17055,6 +17111,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023043Z" creationid="grass" creationdate="20201203T023043Z">
         <seg>&lt;s3&gt;*Messages*&lt;/s3&gt;缓冲区限制为一定的行数，由变量&lt;c4&gt;message-log-max&lt;/c4&gt;指定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;t0&gt;Delete&lt;/t0&gt; (&lt;c1&gt;delete-forward-char&lt;/c1&gt;) command deletes in the opposite direction: it deletes the character after point, i.e., the character under the cursor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152147Z" creationid="grass" creationdate="20201207T152058Z">
+        <seg>&lt;t0&gt;Delete&lt;/t0&gt;(&lt;c1&gt;delete-ward-char&lt;/c1&gt;)命令以相反的方向删除：它删除游标之后的字符，即光标下的字符。</seg>
       </tuv>
     </tu>
     <tu>
