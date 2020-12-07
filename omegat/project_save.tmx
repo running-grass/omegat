@@ -5404,6 +5404,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Changing the Location of Point</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145740Z" creationid="grass" creationdate="20201207T145740Z">
+        <seg>更改游标的位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Changing the appearance of the output.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105316Z" creationid="grass" creationdate="20201014T105316Z">
@@ -15032,6 +15040,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a5&gt;Quotation Marks&lt;/a5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145728Z" creationid="grass" creationdate="20201207T145728Z">
+        <seg>请参阅&lt;a5&gt;引号&lt;/a5&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a8&gt;Optional Mode Line&lt;/a8&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024850Z" creationid="grass" creationdate="20201203T024850Z">
@@ -15316,6 +15332,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091603Z" creationid="grass" creationdate="20201205T091603Z">
         <seg>同样，&lt;k4&gt;C-x 8 ]&lt;/k4&gt;、&lt;k5&gt;C-x 8 {&lt;/k5&gt;和&lt;k6&gt;C-x 8 }&lt;/k6&gt;分别插入弧形引号&lt;t7&gt;‘&lt;/t7&gt;、&lt;t8&gt;“&lt;/t8&gt;和&lt;t9&gt;”&lt;/t9&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Similarly, typing a quotation &lt;k3&gt;``like this''&lt;/k3&gt; using double grave accent and apostrophe converts it to a form &lt;t4&gt;“like this”&lt;/t4&gt; using double quotation marks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145724Z" creationid="grass" creationdate="20201207T145724Z">
+        <seg>同样，使用双重音符和撇号键入引号&lt;k3&gt;``像这样‘’&lt;/k3&gt;会将其转换为使用双引号的形式&lt;t4&gt;“像这样”&lt;/t4&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16819,6 +16843,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The keyboard commands &lt;k1&gt;C-f&lt;/k1&gt;, &lt;k2&gt;C-b&lt;/k2&gt;, &lt;k3&gt;C-n&lt;/k3&gt;, and &lt;k4&gt;C-p&lt;/k4&gt; move point to the right, left, down, and up, respectively.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145757Z" creationid="grass" creationdate="20201207T145757Z">
+        <seg>键盘命令&lt;k1&gt;C-f&lt;/k1&gt;、&lt;k2&gt;C-b&lt;/k2&gt;、&lt;k3&gt;C-n&lt;/k3&gt;和&lt;k4&gt;C-p&lt;/k4&gt;分别指向右、左、下和上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The last line of the window is a &lt;e2&gt;mode line&lt;/e2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114653Z" creationid="grass" creationdate="20201130T114653Z">
@@ -17697,6 +17729,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081756Z" creationid="grass" creationdate="20201015T081756Z">
         <seg>若要添加截止日期，请按&lt;c1&gt;C-c C-d&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To do more than insert characters, you have to know how to move point (see &lt;a0&gt;Point&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145752Z" creationid="grass" creationdate="20201207T145752Z">
+        <seg>要做的不仅仅是插入字符，您必须知道如何移动游标(请参阅&lt;a0&gt;游标&lt;/a0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19070,6 +19110,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also click the left mouse button to move point to the position clicked.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145834Z" creationid="grass" creationdate="20201207T145834Z">
+        <seg>您也可以单击鼠标左键将游标移动到单击的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also compile with ‘&lt;s0&gt;make&lt;/s0&gt;’, generate the documentation with ‘&lt;s1&gt;make doc&lt;/s1&gt;’, create a local configuration with ‘&lt;s2&gt;make config&lt;/s2&gt;’ and install Org with ‘&lt;s3&gt;make install&lt;/s3&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062656Z" creationid="grass" creationdate="20200927T133316Z">
@@ -19106,6 +19154,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024752Z" creationid="grass" creationdate="20201019T024752Z">
         <seg>还可以使用大括号将互斥的标记组合在一起，如在以下内容中所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also move point using the &lt;e5&gt;arrow keys&lt;/e5&gt; present on most keyboards: &lt;t6&gt;RIGHT&lt;/t6&gt;, &lt;t7&gt;LEFT&lt;/t7&gt;, &lt;t8&gt;DOWN&lt;/t8&gt;, and &lt;t9&gt;UP&lt;/t9&gt;; however, many Emacs users find that it is slower to use the arrow keys than the control keys, because you need to move your hand to the area of the keyboard where those keys are located.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145821Z" creationid="grass" creationdate="20201207T145821Z">
+        <seg>您还可以使用大多数键盘上的&lt;e5&gt;箭头键&lt;/e5&gt;移动游标：&lt;t6&gt;右&lt;/t6&gt;、&lt;t7&gt;左&lt;/t7&gt;、&lt;t8&gt;下&lt;/t8&gt;和&lt;t9&gt;上&lt;/t9&gt;；但是，许多Emacs用户发现使用箭头键比使用控制键要慢，因为您需要将手移动到这些键所在的键盘区域。</seg>
       </tuv>
     </tu>
     <tu>
