@@ -4100,6 +4100,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A numeric argument to &lt;k0&gt;C-q&lt;/k0&gt; or &lt;k1&gt;C-x 8 ...&lt;/k1&gt; specifies how many copies of the character to insert (see &lt;a2&gt;Arguments&lt;/a2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145200Z" creationid="grass" creationdate="20201207T145200Z">
+        <seg>&lt;k0&gt;C-q&lt;/k0&gt;或&lt;k1&gt;C-x 8 ...&lt;/k1&gt;的数字参数指定要插入多少个字符副本(请参阅&lt;a2&gt;参数&lt;/a2&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A prefix argument can be used to specify the number of context lines for each match, default is</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T144234Z" creationid="Eli" creationdate="20201019T144234Z">
@@ -9212,6 +9220,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025621Z" creationid="grass" creationdate="20201203T025621Z">
         <seg>此外，如果Emacs在递归编辑级别内，则方括号(‘&lt;s0&gt;[…]&lt;/s0&gt;‘)出现在模式周围的括号中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In addition, in some contexts, if you type a quotation using grave accent and apostrophe &lt;k0&gt;`like this'&lt;/k0&gt;, it is converted to a form &lt;t1&gt;‘like this’&lt;/t1&gt; using single quotation marks, even without &lt;k2&gt;C-x 8&lt;/k2&gt; commands.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145636Z" creationid="grass" creationdate="20201207T145636Z">
+        <seg>此外，在某些上下文中，如果&lt;k0&gt;像这样&lt;/k0&gt;使用重音符和撇号键入引号，则即使没有&lt;k2&gt;C-x 8&lt;/k2&gt;命令，也会使用单引号将其转换为&lt;t1&gt;‘这种’&lt;/t1&gt;形式。</seg>
       </tuv>
     </tu>
     <tu>
