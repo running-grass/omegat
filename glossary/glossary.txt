@@ -261,3 +261,4 @@ grave accent	重音符
 screen line	屏幕行
 word	词
 scroll	滚动
+logical line	逻辑行
