@@ -5348,6 +5348,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-x C-n</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151033Z" creationid="grass" creationdate="20201207T151033Z">
+        <seg>C-x C-n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-z</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073150Z" creationid="grass" creationdate="20201205T073150Z">
@@ -5608,6 +5616,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055522Z" creationid="grass" creationdate="20201013T055522Z">
         <seg>将信息收集到视图中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Column 0 is the leftmost column.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151028Z" creationid="grass" creationdate="20201207T151028Z">
+        <seg>列0是最左边的列。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8696,6 +8712,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If called with a prefix argument, move to the column number specified by the argument’s numeric value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151032Z" creationid="grass" creationdate="20201207T151032Z">
+        <seg>如果使用前缀参数调用，请移动到参数的数字值指定的列号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If headlines in the agenda files are marked with &lt;e0&gt;tags&lt;/e0&gt; (see &lt;a1&gt;Tags&lt;/a1&gt;), or have properties (see &lt;a2&gt;Properties and Columns&lt;/a2&gt;), you can select headlines based on this metadata and collect them into an agenda buffer.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T143924Z" creationid="Eli" creationdate="20201021T143924Z">
@@ -8740,6 +8764,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T090719Z" creationid="grass" creationdate="20201205T090710Z">
         <seg>如果游标在行尾，则效果是在它之后创建新的空行并缩进新行；如果游标在行的中间，则该行将在该位置拆分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If point is on or just after a number in the buffer, that is the default for &lt;v3&gt;n&lt;/v3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150931Z" creationid="grass" creationdate="20201207T150931Z">
+        <seg>如果游标处于打开状态或恰好在缓冲区中的数字之后，则这是&lt;v3&gt;n&lt;/v3&gt;的默认设置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9940,6 +9972,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Just type &lt;t4&gt;RET&lt;/t4&gt; in the minibuffer to use it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150949Z" creationid="grass" creationdate="20201207T150949Z">
+        <seg>只需在迷你缓冲区中键入&lt;t4&gt;RET&lt;/t4&gt;即可使用它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Key bindings and Useful Functions</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111629Z" creationid="grass" creationdate="20201013T052627Z">
@@ -10164,6 +10204,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Line 1 is the beginning of the buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150904Z" creationid="grass" creationdate="20201207T150904Z">
+        <seg>第1行是缓冲区的开始。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Link Abbreviations</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195959Z" creationid="grass" creationdate="20201010T195959Z">
@@ -10324,10 +10372,50 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>M-g &lt;s0&gt;TAB&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151020Z" creationid="grass" creationdate="20201207T151020Z">
+        <seg>M-g &lt;s0&gt;TAB&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-g M-g</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150849Z" creationid="grass" creationdate="20201207T150849Z">
+        <seg>M-g M-g</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-g c</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150835Z" creationid="grass" creationdate="20201207T150835Z">
+        <seg>M-g c</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-g g</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150850Z" creationid="grass" creationdate="20201207T150850Z">
+        <seg>M-g g</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>M-r</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150345Z" creationid="grass" creationdate="20201207T150345Z">
         <seg>M-r</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-v</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150800Z" creationid="grass" creationdate="20201207T150800Z">
+        <seg>M-v</seg>
       </tuv>
     </tu>
     <tu>
@@ -13868,6 +13956,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PageUp</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150801Z" creationid="grass" creationdate="20201207T150801Z">
+        <seg>PageUp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Paragraphs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202416Z" creationid="grass" creationdate="20201010T202416Z">
@@ -14008,6 +14104,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T173951Z" creationid="grass" creationdate="20201010T173951Z">
         <seg>必须位于标题上才能正常工作&lt;a0&gt;&lt;s1&gt;4&lt;/s1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Position 1 is the beginning of the buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150847Z" creationid="grass" creationdate="20201207T150847Z">
+        <seg>位置1是缓冲区的开始。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14768,6 +14872,30 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Read a number &lt;v0&gt;n&lt;/v0&gt; and move point to buffer position &lt;v1&gt;n&lt;/v1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150844Z" creationid="grass" creationdate="20201207T150844Z">
+        <seg>读取数字&lt;v0&gt;n&lt;/v0&gt;并将指针移动到缓冲区位置&lt;v1&gt;n&lt;/v1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Read a number &lt;v0&gt;n&lt;/v0&gt; and move point to the beginning of line number &lt;v1&gt;n&lt;/v1&gt; (&lt;c2&gt;goto-line&lt;/c2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150901Z" creationid="grass" creationdate="20201207T150901Z">
+        <seg>读取数字&lt;v0&gt;n&lt;/v0&gt;并将指针移动到行号&lt;v1&gt;n&lt;/v1&gt;的开头(&lt;c2&gt;goto-line&lt;/c2&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Read a number &lt;v0&gt;n&lt;/v0&gt; and move to column &lt;v1&gt;n&lt;/v1&gt; in the current line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151025Z" creationid="grass" creationdate="20201207T151025Z">
+        <seg>读取一个数字&lt;v0&gt;n&lt;/v0&gt;并移动到当前行中的列&lt;v1&gt;n&lt;/v1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Read documentation about current syntax.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112458Z" creationid="grass" creationdate="20201014T112458Z">
@@ -15072,10 +15200,18 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Scroll one screen backward, and move point onscreen if necessary (&lt;c0&gt;scroll-down-command&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150827Z" creationid="grass" creationdate="20201207T150827Z">
+        <seg>向后滚动一屏，必要时在屏幕上移动游标(&lt;c0&gt;scroll-down-command&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Scroll the display one screen forward, and move point onscreen if necessary (&lt;c0&gt;scroll-up-command&lt;/c0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150739Z" creationid="grass" creationdate="20201207T150739Z">
-        <seg>将显示屏向前滚动一个屏幕，如有必要，在屏幕上移动游标(&lt;c0&gt;scroll-up-command&lt;/c0&gt;)。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150831Z" creationid="grass" creationdate="20201207T150739Z">
+        <seg>将显示屏向前滚动一屏，如有必要，在屏幕上移动游标(&lt;c0&gt;scroll-up-command&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15380,6 +15516,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145728Z" creationid="grass" creationdate="20201207T145728Z">
         <seg>请参阅&lt;a5&gt;引号&lt;/a5&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a7&gt;Select Buffer&lt;/a7&gt;, for the behavior of &lt;k8&gt;M-g M-g&lt;/k8&gt; when you give it a plain prefix argument.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151017Z" creationid="grass" creationdate="20201207T151017Z">
+        <seg>有关&lt;k8&gt;M-g M-g&lt;/k8&gt;在为其提供纯前缀参数时的行为，请参阅&lt;a7&gt;选择缓冲区&lt;/a7&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18605,6 +18749,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use the current column of point as the &lt;e0&gt;semipermanent goal column&lt;/e0&gt; for &lt;k1&gt;C-n&lt;/k1&gt; and &lt;k2&gt;C-p&lt;/k2&gt; (&lt;c3&gt;set-goal-column&lt;/c3&gt;) in the current buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151111Z" creationid="grass" creationdate="20201207T151111Z">
+        <seg>将当前游标所在的列用作当前缓冲区中&lt;k1&gt;C-n&lt;/k1&gt;和&lt;k2&gt;C-p&lt;/k2&gt;(&lt;c3&gt;set-target-column&lt;/c3&gt;)的半永久目标列。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use the refile interface to jump to a heading.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T134143Z" creationid="grass" creationdate="20201006T134143Z">
@@ -19594,6 +19746,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112653Z" creationid="grass" creationdate="20201016T112653Z">
         <seg>您还可以使用日期转换设置开始日期：‘&lt;s6&gt;(setq org-Agenda-start-day “+10d”)&lt;/s6&gt;’从今天开始10天后开始将来的议程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also specify &lt;v5&gt;n&lt;/v5&gt; by giving &lt;k6&gt;M-g M-g&lt;/k6&gt; a numeric prefix argument.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151003Z" creationid="grass" creationdate="20201207T151003Z">
+        <seg>您还可以通过向&lt;k6&gt;M-g M-g&lt;/k6&gt;提供数字前缀参数来指定&lt;v5&gt;n&lt;/v5&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -52384,6 +52544,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173238Z" creationid="grass" creationdate="20201019T173238Z">
         <seg>可能会干扰电子邮件的阅读和发送。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>prior</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150802Z" creationid="grass" creationdate="20201207T150802Z">
+        <seg>prior</seg>
       </tuv>
     </tu>
     <tu>
