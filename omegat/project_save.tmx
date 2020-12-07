@@ -5220,6 +5220,22 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-a</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150125Z" creationid="grass" creationdate="20201207T150125Z">
+        <seg>C-a</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-b</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145954Z" creationid="grass" creationdate="20201207T145954Z">
+        <seg>C-b</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-c</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025144Z" creationid="grass" creationdate="20201019T025144Z">
@@ -5228,10 +5244,34 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-f</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145844Z" creationid="grass" creationdate="20201207T145844Z">
+        <seg>C-f</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-g</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025110Z" creationid="grass" creationdate="20201019T025110Z">
         <seg>C-g</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-n</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150023Z" creationid="grass" creationdate="20201207T150023Z">
+        <seg>C-n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-p</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150043Z" creationid="grass" creationdate="20201207T150043Z">
+        <seg>C-p</seg>
       </tuv>
     </tu>
     <tu>
@@ -6044,6 +6084,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>DOWN</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150024Z" creationid="grass" creationdate="20201207T150024Z">
+        <seg>DOWN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Dates and Times</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102004Z" creationid="grass" creationdate="20201014T102004Z">
@@ -6540,6 +6588,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073428Z" creationid="grass" creationdate="20201205T073428Z">
         <seg>Emacs还要求确认是否有任何子进程仍在运行，因为终止Emacs也会终止子进程(请参阅&lt;a4&gt;Shell&lt;/a4&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Emacs also provides a variety of additional keyboard commands that move point in more sophisticated ways.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145839Z" creationid="grass" creationdate="20201207T145839Z">
+        <seg>Emacs还提供了以更复杂的方式移动点的各种附加键盘命令。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8068,6 +8124,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064242Z" creationid="grass" creationdate="20201015T064242Z">
         <seg>重复执行标记命令将会标记的与该子树相同级别的后续子树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Home</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150127Z" creationid="grass" creationdate="20201207T150127Z">
+        <seg>Home</seg>
       </tuv>
     </tu>
     <tu>
@@ -9908,6 +9972,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>LEFT</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150003Z" creationid="grass" creationdate="20201207T150003Z">
+        <seg>LEFT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>LaTeX Export</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203400Z" creationid="grass" creationdate="20201010T203400Z">
@@ -10476,6 +10548,30 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Move backward one character (&lt;c0&gt;backward-char&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150001Z" creationid="grass" creationdate="20201207T150001Z">
+        <seg>向后移动一个字符(&lt;c0&gt;backward-char&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Move down one screen line (&lt;c0&gt;next-line&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150118Z" creationid="grass" creationdate="20201207T150035Z">
+        <seg>向下移动一个屏幕行(&lt;c0&gt;next-line&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Move forward one character (&lt;c0&gt;forward-char&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145853Z" creationid="grass" creationdate="20201207T145853Z">
+        <seg>向前移动一个字符(&lt;c0&gt;forward-char&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Move subtree down, i.e., swap with next subtree of same level.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064003Z" creationid="grass" creationdate="20201015T064003Z">
@@ -10488,6 +10584,22 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063957Z" creationid="grass" creationdate="20201015T063957Z">
         <seg>上移子树，即与同级的上一个子树互换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Move to the beginning of the line (&lt;c0&gt;move-beginning-of-line&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150135Z" creationid="grass" creationdate="20201207T150135Z">
+        <seg>移至行首(&lt;c0&gt;move-beginning-of-line&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Move up one screen line (&lt;c0&gt;previous-line&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150113Z" creationid="grass" creationdate="20201207T150113Z">
+        <seg>上移一个屏幕行(&lt;c0&gt;previous-line&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14448,6 +14560,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>RIGHT</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145856Z" creationid="grass" creationdate="20201207T145856Z">
+        <seg>RIGHT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>RSS Feeds</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201741Z" creationid="grass" creationdate="20201010T201741Z">
@@ -17421,10 +17541,42 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This command (&lt;c0&gt;left-char&lt;/c0&gt;) behaves like &lt;k1&gt;C-b&lt;/k1&gt;, except if the current paragraph is right-to-left (see &lt;a2&gt;Bidirectional Editing&lt;/a2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150021Z" creationid="grass" creationdate="20201207T150021Z">
+        <seg>此命令(&lt;c0&gt;left-char&lt;/c0&gt;)的行为类似于&lt;k1&gt;C-b&lt;/k1&gt;，除非当前段落是从右向左的(请参阅&lt;a2&gt;双向编辑&lt;/a2&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This command (&lt;c0&gt;right-char&lt;/c0&gt;) behaves like &lt;k1&gt;C-f&lt;/k1&gt;, except when point is in a right-to-left paragraph (see &lt;a2&gt;Bidirectional Editing&lt;/a2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145952Z" creationid="grass" creationdate="20201207T145952Z">
+        <seg>此命令(&lt;c0&gt;right-char&lt;/c0&gt;)的行为类似于&lt;k1&gt;C-f&lt;/k1&gt;，但游标位于从右向左的段落时除外(请参阅&lt;a2&gt;双向编辑&lt;/a2&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This command attempts to keep the horizontal position unchanged, so if you start in the middle of one line, you move to the middle of the next.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150042Z" creationid="grass" creationdate="20201207T150042Z">
+        <seg>此命令尝试保持水平位置不变，因此如果您从一行的中间开始，则会移动到下一行的中间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This command offers possible locations for refiling the entry and lets you select one with completion.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132258Z" creationid="grass" creationdate="20201006T132258Z">
         <seg>此命令提供了可能的位置来转接该条记录，并让您选择一个完整的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This command preserves position within the line, like &lt;k1&gt;C-n&lt;/k1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150124Z" creationid="grass" creationdate="20201207T150124Z">
+        <seg>此命令保留行内的位置，如&lt;k1&gt;C-n&lt;/k1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18113,6 +18265,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031633Z" creationid="grass" creationdate="20201205T031633Z">
         <seg>在前缀键后键入帮助字符(&lt;k0&gt;C-h&lt;/k0&gt;或&lt;t1&gt;F1&lt;/t1&gt;)将显示以该前缀开头的命令列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>UP</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150044Z" creationid="grass" creationdate="20201207T150044Z">
+        <seg>UP</seg>
       </tuv>
     </tu>
     <tu>
@@ -19160,8 +19320,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>You can also move point using the &lt;e5&gt;arrow keys&lt;/e5&gt; present on most keyboards: &lt;t6&gt;RIGHT&lt;/t6&gt;, &lt;t7&gt;LEFT&lt;/t7&gt;, &lt;t8&gt;DOWN&lt;/t8&gt;, and &lt;t9&gt;UP&lt;/t9&gt;; however, many Emacs users find that it is slower to use the arrow keys than the control keys, because you need to move your hand to the area of the keyboard where those keys are located.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145821Z" creationid="grass" creationdate="20201207T145821Z">
-        <seg>您还可以使用大多数键盘上的&lt;e5&gt;箭头键&lt;/e5&gt;移动游标：&lt;t6&gt;右&lt;/t6&gt;、&lt;t7&gt;左&lt;/t7&gt;、&lt;t8&gt;下&lt;/t8&gt;和&lt;t9&gt;上&lt;/t9&gt;；但是，许多Emacs用户发现使用箭头键比使用控制键要慢，因为您需要将手移动到这些键所在的键盘区域。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145924Z" creationid="grass" creationdate="20201207T145821Z">
+        <seg>您还可以使用大多数键盘上的&lt;e5&gt;箭头键&lt;/e5&gt;移动游标：&lt;t6&gt;RIGHT&lt;/t6&gt;、&lt;t7&gt;LEFT&lt;/t7&gt;、&lt;t8&gt;DOWN&lt;/t8&gt;和&lt;t9&gt;UP&lt;/t9&gt;；但是，许多Emacs用户发现使用箭头键比使用控制键要慢，因为您需要将手移动到这些键所在的键盘区域。</seg>
       </tuv>
     </tu>
     <tu>
