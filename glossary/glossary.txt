@@ -259,3 +259,5 @@ code-point	编码
 quotation Mark	引号
 grave accent	重音符
 screen line	屏幕行
+word	词
+scroll	滚动
