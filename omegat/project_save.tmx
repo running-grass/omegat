@@ -5332,6 +5332,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-v</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150656Z" creationid="grass" creationdate="20201207T150656Z">
+        <seg>C-v</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-x C-c</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073131Z" creationid="grass" creationdate="20201205T073131Z">
@@ -10268,6 +10276,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>M-&lt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150453Z" creationid="grass" creationdate="20201207T150453Z">
+        <seg>M-&lt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>M-&lt;s0&gt;LEFT&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150331Z" creationid="grass" creationdate="20201207T150331Z">
@@ -10280,6 +10296,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150249Z" creationid="grass" creationdate="20201207T150249Z">
         <seg>M-&lt;s0&gt;RIGHT&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150637Z" creationid="grass" creationdate="20201207T150637Z">
+        <seg>M-&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10700,10 +10724,26 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Move to the end of the buffer (&lt;c0&gt;end-of-buffer&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150645Z" creationid="grass" creationdate="20201207T150645Z">
+        <seg>移动到缓冲区末尾(&lt;c0&gt;end-of-buffer&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Move to the end of the line (&lt;c0&gt;move-end-of-line&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150144Z" creationid="grass" creationdate="20201207T150144Z">
         <seg>移到行尾(&lt;c0&gt;move-end-of-line&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Move to the top of the buffer (&lt;c0&gt;beginning-of-buffer&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150459Z" creationid="grass" creationdate="20201207T150459Z">
+        <seg>移动到缓冲区的顶部(&lt;c0&gt;beginning-of-buffer&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13188,6 +13228,22 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>On graphical displays, &lt;k1&gt;C-&lt;s2&gt;END&lt;/s2&gt;&lt;/k1&gt; does the same.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150654Z" creationid="grass" creationdate="20201207T150654Z">
+        <seg>在图形显示上，&lt;k1&gt;C-&lt;s2&gt;END&lt;/s2&gt;&lt;/k1&gt;执行同样的操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On graphical displays, &lt;k3&gt;C-&lt;s4&gt;HOME&lt;/s4&gt;&lt;/k3&gt; does the same.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150635Z" creationid="grass" creationdate="20201207T150635Z">
+        <seg>在图形显示上，&lt;k3&gt;C-&lt;s4&gt;HOME&lt;/s4&gt;&lt;/k3&gt;执行同样的操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>On graphical displays, the window manager might block some keyboard inputs, including &lt;k0&gt;M-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt;, &lt;k2&gt;M-&lt;s3&gt;SPC&lt;/s3&gt;&lt;/k2&gt;, &lt;k4&gt;C-M-d&lt;/k4&gt; and &lt;k5&gt;C-M-l&lt;/k5&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T085310Z" creationid="grass" creationdate="20201205T030450Z">
@@ -13800,6 +13856,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112808Z" creationid="grass" creationdate="20201014T112808Z">
         <seg>导致冲突的包。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PageDown</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150700Z" creationid="grass" creationdate="20201207T150700Z">
+        <seg>PageDown</seg>
       </tuv>
     </tu>
     <tu>
@@ -15008,6 +15072,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Scroll the display one screen forward, and move point onscreen if necessary (&lt;c0&gt;scroll-up-command&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150739Z" creationid="grass" creationdate="20201207T150739Z">
+        <seg>将显示屏向前滚动一个屏幕，如有必要，在屏幕上移动游标(&lt;c0&gt;scroll-up-command&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Search Options in File Links</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200006Z" creationid="grass" creationdate="20201010T200006Z">
@@ -15036,6 +15108,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101650Z" creationid="grass" creationdate="20201014T101650Z">
         <seg>搜索标签的组合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Arguments&lt;/a0&gt;, for more information on numeric arguments.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150451Z" creationid="grass" creationdate="20201207T150451Z">
+        <seg>有关数值参数的详细信息，请参阅&lt;a0&gt;参数&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15172,6 +15252,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025704Z" creationid="grass" creationdate="20201203T025704Z">
         <seg>请参阅&lt;a1&gt;递归编辑&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;Scrolling&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150759Z" creationid="grass" creationdate="20201207T150759Z">
+        <seg>请参阅&lt;a1&gt;滚动&lt;/a1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19266,6 +19354,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T175257Z" creationid="grass" creationdate="20201010T175257Z">
         <seg>使用前缀参数，在每个级别上显示所有同级标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With numeric argument &lt;v1&gt;n&lt;/v1&gt;, move to &lt;v2&gt;n&lt;/v2&gt;/10 of the way from the top.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150620Z" creationid="grass" creationdate="20201207T150620Z">
+        <seg>使用数字参数&lt;v1&gt;n&lt;/v1&gt;，从顶部移动到路径的&lt;v2&gt;n&lt;/v2&gt;/10</seg>
       </tuv>
     </tu>
     <tu>
@@ -52240,6 +52336,14 @@ database, if one doesn't already exist.</seg>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171226Z" creationid="grass" creationdate="20201010T171226Z">
         <seg>更多文本
 * 另一个顶级标题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>next</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150714Z" creationid="grass" creationdate="20201207T150714Z">
+        <seg>next</seg>
       </tuv>
     </tu>
     <tu>
