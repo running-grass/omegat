@@ -350,6 +350,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(The first key might be unavailable on text-mode displays.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152735Z" creationid="grass" creationdate="20201207T152735Z">
+        <seg>(第一个键可能在文本模式显示器上不可用。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(The ‘&lt;s0&gt;G&lt;/s0&gt;’ in &lt;a1&gt;GNU&lt;/a1&gt; (GNU’s Not Unix) is not silent.)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T093115Z" creationid="grass" creationdate="20201130T093115Z">
@@ -4588,6 +4596,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Although each editing command usually makes a separate entry in the undo records, very simple commands may be grouped together.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152910Z" creationid="grass" creationdate="20201207T152910Z">
+        <seg>虽然每个编辑命令通常会在撤消记录中创建一个单独的条目，但也可以将非常简单的命令组合在一起。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An Emacs window is where the &lt;e0&gt;buffer&lt;/e0&gt;—the text or other graphics you are editing or viewing—is displayed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114424Z" creationid="grass" creationdate="20201130T114424Z">
@@ -6864,6 +6880,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Emacs records a list of changes made in the buffer text, so you can undo recent changes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152747Z" creationid="grass" creationdate="20201207T152747Z">
+        <seg>Emacs记录缓冲区文本中所做更改的列表，因此您可以撤消最近的更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Emacs supports 3 additional modifier keys, see &lt;a0&gt;Modifier Keys&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030318Z" creationid="grass" creationdate="20201205T030318Z">
@@ -8880,6 +8904,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If all recorded changes have already been undone, the undo command displays an error message and does nothing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152937Z" creationid="grass" creationdate="20201207T152937Z">
+        <seg>如果所有记录的更改都已撤消，则撤消命令将显示一条错误消息，并且不执行任何操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If an error occurs, a “backtrace” can be very useful—see below on how to create one.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082155Z" creationid="grass" creationdate="20200929T082155Z">
@@ -9356,6 +9388,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032312Z" creationid="grass" creationdate="20201205T032312Z">
         <seg>如果将&lt;k5&gt;C-n&lt;/k5&gt;重新绑定到命令&lt;c6&gt;forward-word&lt;/c6&gt;，&lt;k7&gt;C-n&lt;/k7&gt;将改为向前移动一个单词。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you repeat &lt;k0&gt;C-/&lt;/k0&gt; (or its aliases), each repetition undoes another, earlier change, back to the limit of the undo information available.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152924Z" creationid="grass" creationdate="20201207T152924Z">
+        <seg>如果您重复&lt;k0&gt;C-/&lt;/k0&gt;(或其别名)，则每次重复都会撤消另一个较早的更改，返回到可用撤消信息的限制。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13372,6 +13412,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Normally, this command undoes the last change, moving point back to where it was before the change.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152827Z" creationid="grass" creationdate="20201207T152827Z">
+        <seg>通常，此命令会撤消上一次更改，将游标移回更改前的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Not all tasks are equal.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103339Z" creationid="grass" creationdate="20201014T103339Z">
@@ -16352,6 +16400,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sometimes, an entry may cover just part of a complex command.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152915Z" creationid="grass" creationdate="20201207T152915Z">
+        <seg>有时，一个条目可能只包含复杂命令的一部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sort same-level entries.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065104Z" creationid="grass" creationdate="20201015T065104Z">
@@ -17947,6 +18003,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The undo command applies only to changes in the buffer; you can’t use it to undo cursor motion.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152834Z" creationid="grass" creationdate="20201207T152834Z">
+        <seg>撤消命令仅适用于缓冲区中的更改；您不能使用它来撤消光标移动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The use of octal sequences is disabled in ordinary non-binary Overwrite mode, to give you a convenient way to insert a digit instead of overwriting with it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091317Z" creationid="grass" creationdate="20201205T091317Z">
@@ -18393,6 +18457,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084318Z" creationid="grass" creationdate="20201015T084318Z">
         <seg>这是一个非常广泛的主题，所以显然我没有涵盖所有内容，但我希望这解释了我如何使用Orgmode实现GTD的基础知识。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is done using the &lt;c0&gt;undo&lt;/c0&gt; command, which is bound to &lt;k1&gt;C-/&lt;/k1&gt; (as well as &lt;k2&gt;C-x u&lt;/k2&gt; and &lt;k3&gt;C-_&lt;/k3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152804Z" creationid="grass" creationdate="20201207T152804Z">
+        <seg>这是使用&lt;c0&gt;undo&lt;/c0&gt;命令完成的，该命令绑定到&lt;k1&gt;C-/&lt;/k1&gt;(以及&lt;k2&gt;C-x u&lt;/k2&gt;和&lt;k3&gt;C-_&lt;/k3&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
