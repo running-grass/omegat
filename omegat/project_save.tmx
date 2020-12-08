@@ -3091,6 +3091,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>7.7</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013515Z" creationid="grass" creationdate="20201208T013515Z">
+        <seg>7.7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>8 Dates and Times</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201031Z" creationid="grass" creationdate="20201010T201031Z">
@@ -4444,6 +4452,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After &lt;k5&gt;C-o&lt;/k5&gt;, type the text for the new line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013623Z" creationid="grass" creationdate="20201208T013623Z">
+        <seg>在&lt;k5&gt;C-o&lt;/k5&gt;之后，键入新行的文本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After a change to BBDB, or for the first agenda display during an Emacs session, the agenda display suffers a short delay as Org updates its hash with anniversaries.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113740Z" creationid="grass" creationdate="20201016T113740Z">
@@ -5140,6 +5156,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Blank Lines</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013517Z" creationid="grass" creationdate="20201208T013517Z">
+        <seg>空行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Block agenda</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202236Z" creationid="grass" creationdate="20201010T202236Z">
@@ -5420,6 +5444,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-o</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013520Z" creationid="grass" creationdate="20201208T013520Z">
+        <seg>C-o</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-p</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150043Z" creationid="grass" creationdate="20201207T150043Z">
@@ -5480,6 +5512,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151033Z" creationid="grass" creationdate="20201207T151033Z">
         <seg>C-x C-n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-x C-o</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013533Z" creationid="grass" creationdate="20201208T013533Z">
+        <seg>C-x C-o</seg>
       </tuv>
     </tu>
     <tu>
@@ -6384,6 +6424,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151707Z" creationid="grass" creationdate="20201207T151707Z">
         <seg>Delete</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Delete all but one of many consecutive blank lines (&lt;c0&gt;delete-blank-lines&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013552Z" creationid="grass" creationdate="20201208T013552Z">
+        <seg>删除多个连续空行中的一个以外的所有行(&lt;c0&gt;delete-blank-lines&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8392,6 +8440,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here are special commands and techniques for inserting and deleting blank lines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013519Z" creationid="grass" creationdate="20201208T013519Z">
+        <seg>以下是用于插入和删除空行的特殊命令和技术。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here are suggested bindings, please modify the keys to your own liking.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T135500Z" creationid="grass" creationdate="20200927T135500Z">
@@ -8760,6 +8816,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, it may be easier to see what you are doing if you first make a blank line and then insert the desired text into it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013603Z" creationid="grass" creationdate="20201208T013603Z">
+        <seg>但是，如果您首先创建一个空行，然后在其中插入所需的文本，则可能更容易看到您正在执行的操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, it stays on a Sunday, even if you called and marked it</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062717Z" creationid="grass" creationdate="20201016T062148Z">
@@ -9056,10 +9120,34 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If point is on a nonblank line, &lt;k4&gt;C-x C-o&lt;/k4&gt; deletes all following blank lines, if any exists.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013809Z" creationid="grass" creationdate="20201208T013809Z">
+        <seg>如果游标位于非空行上，&lt;k4&gt;C-x C-o&lt;/k4&gt;将删除后面的所有空行(如果存在)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If point is on a single blank line, &lt;k3&gt;C-x C-o&lt;/k3&gt; deletes it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013755Z" creationid="grass" creationdate="20201208T013755Z">
+        <seg>如果游标在单个空行上，&lt;k3&gt;C-x C-o&lt;/k3&gt;会将其删除。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If point is on or just after a number in the buffer, that is the default for &lt;v3&gt;n&lt;/v3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150931Z" creationid="grass" creationdate="20201207T150931Z">
         <seg>如果游标处于打开状态或恰好在缓冲区中的数字之后，则这是&lt;v3&gt;n&lt;/v3&gt;的默认设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If point lies within a run of several blank lines, &lt;k2&gt;C-x C-o&lt;/k2&gt; deletes all but one of them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013745Z" creationid="grass" creationdate="20201208T013745Z">
+        <seg>如果游标位于几个空行的运行范围内，&lt;k2&gt;C-x C-o&lt;/k2&gt;将删除除一个空行之外的所有空行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9380,6 +9468,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013249Z" creationid="grass" creationdate="20201208T013249Z">
         <seg>如果忘记了快捷键的作用，可以通过键入&lt;k0&gt;C-h k&lt;/k0&gt;(&lt;c1&gt;describe-key&lt;/c1&gt;)，然后键入感兴趣的键；例如，&lt;k2&gt;C-h k C-n&lt;/k2&gt;告诉您&lt;k3&gt;C-n&lt;/k3&gt;的作用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you have a fill prefix, the &lt;k2&gt;C-o&lt;/k2&gt; command inserts the fill prefix on the new line, if typed at the beginning of a line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013636Z" creationid="grass" creationdate="20201208T013636Z">
+        <seg>如果您有填充前缀，&lt;k2&gt;C-o&lt;/k2&gt;命令将在新行上插入填充前缀(如果在行首键入)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9956,6 +10052,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182101Z" creationid="grass" creationdate="20201010T182016Z">
         <seg>初始可见性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Insert a blank line after the cursor (&lt;c0&gt;open-line&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013532Z" creationid="grass" creationdate="20201208T013532Z">
+        <seg>在光标后插入空行(&lt;c0&gt;open-line&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15752,6 +15856,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Help&lt;/a0&gt;, for details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013512Z" creationid="grass" creationdate="20201208T013512Z">
+        <seg>有关详细信息，请参阅&lt;a0&gt;帮助&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a0&gt;Killing&lt;/a0&gt;, for more information about &lt;k1&gt;C-k&lt;/k1&gt; and related commands.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152410Z" creationid="grass" creationdate="20201207T152410Z">
@@ -15796,6 +15908,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T140634Z" creationid="grass" creationdate="20200927T131556Z">
         <seg>详情查阅&lt;a1&gt;(emacs)软件包清单&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;Arguments&lt;/a1&gt;, for how.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013651Z" creationid="grass" creationdate="20201208T013633Z">
+        <seg>有关操作方法，请参阅&lt;a1&gt;参数&lt;/a1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15932,6 +16052,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T084309Z" creationid="grass" creationdate="20201130T082406Z">
         <seg>请参阅&lt;a3&gt;复制&lt;/a3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a3&gt;Fill Prefix&lt;/a3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013708Z" creationid="grass" creationdate="20201208T013708Z">
+        <seg>请参阅&lt;a3&gt;填充前缀&lt;/a3&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17707,6 +17835,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The easy way to get rid of extra blank lines is with the command &lt;k0&gt;C-x C-o&lt;/k0&gt; (&lt;c1&gt;delete-blank-lines&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013720Z" creationid="grass" creationdate="20201208T013720Z">
+        <seg>删除多余空行的简单方法是使用命令&lt;k0&gt;C-x C-o&lt;/k0&gt;(&lt;c1&gt;delete-blank-lines&lt;/c1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The echo area is also used to display an &lt;e0&gt;error message&lt;/e0&gt; when a command cannot do its job.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022635Z" creationid="grass" creationdate="20201203T022635Z">
@@ -18609,6 +18745,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152804Z" creationid="grass" creationdate="20201207T152804Z">
         <seg>这是使用&lt;c0&gt;undo&lt;/c0&gt;命令完成的，该命令绑定到&lt;k1&gt;C-/&lt;/k1&gt;(以及&lt;k2&gt;C-x u&lt;/k2&gt;和&lt;k3&gt;C-_&lt;/k3&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is easy to do using the key &lt;k3&gt;C-o&lt;/k3&gt; (&lt;c4&gt;open-line&lt;/c4&gt;), which inserts a newline after point but leaves point in front of the newline.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013616Z" creationid="grass" creationdate="20201208T013616Z">
+        <seg>使用键&lt;k3&gt;C-o&lt;/k3&gt;(&lt;c4&gt;open-line&lt;/c4&gt;)很容易做到这一点，它在换行符之后插入一个换行符，但将游标留在换行符前面。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19669,6 +19813,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We have seen how &lt;k0&gt;&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;newline&lt;/c2&gt;) starts a new line of text.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013558Z" creationid="grass" creationdate="20201208T013558Z">
+        <seg>我们已经看到&lt;k0&gt;&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt;(&lt;c2&gt;newline&lt;/c2&gt;)如何开始新的文本行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We will use the term &lt;e0&gt;frame&lt;/e0&gt; to mean a graphical window or terminal screen occupied by Emacs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113750Z" creationid="grass" creationdate="20201130T113750Z">
@@ -20562,6 +20714,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T140645Z" creationid="grass" creationdate="20200927T131307Z">
         <seg>输入命令 &lt;k0&gt;M-x list-packages&lt;/k0&gt;，你便可以从“软件包清单”中安装Org。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can make several blank lines by typing &lt;k0&gt;C-o&lt;/k0&gt; several times, or by giving it a numeric argument specifying how many blank lines to make.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013631Z" creationid="grass" creationdate="20201208T013631Z">
+        <seg>您可以通过多次键入&lt;k0&gt;C-o&lt;/k0&gt;，或者通过给它一个指定要创建多少个空行的数字参数来创建几个空行。</seg>
       </tuv>
     </tu>
     <tu>
