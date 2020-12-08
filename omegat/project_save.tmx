@@ -3099,6 +3099,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>7.8</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013813Z" creationid="grass" creationdate="20201208T013813Z">
+        <seg>7.8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>8 Dates and Times</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201031Z" creationid="grass" creationdate="20201010T201031Z">
@@ -4844,6 +4852,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As described earlier, &lt;k1&gt;C-n&lt;/k1&gt; (&lt;c2&gt;next-line&lt;/c2&gt;) and &lt;k3&gt;C-p&lt;/k3&gt; (&lt;c4&gt;previous-line&lt;/c4&gt;) are special exceptions: they move point down and up, respectively, by one screen line (see &lt;a5&gt;Moving Point&lt;/a5&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013937Z" creationid="grass" creationdate="20201208T013937Z">
+        <seg>如前所述，&lt;k1&gt;C-n&lt;/k1&gt;(&lt;c2&gt;next-line&lt;/c2&gt;)和&lt;k3&gt;C-p&lt;/k3&gt;(&lt;c4&gt;previous-line&lt;/c4&gt;)是特殊例外：它们分别将指针向下和向上移动一个屏幕行(请参阅&lt;a5&gt;移动游标&lt;/a5&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As we explain later in this manual, you can change the way Emacs handles text insertion by turning on &lt;e0&gt;minor modes&lt;/e0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T090825Z" creationid="grass" creationdate="20201205T090825Z">
@@ -5296,6 +5312,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132854Z" creationid="grass" creationdate="20201006T132854Z">
         <seg>默认情况下，当前缓冲区中的所有一级标题均被视为目标，但是您可以在多个文件中使用更复杂的定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default, continued lines are wrapped at the right window edge.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014047Z" creationid="grass" creationdate="20201208T014047Z">
+        <seg>默认情况下，连续行在窗口右边缘换行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6032,6 +6056,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052950Z" creationid="grass" creationdate="20201013T052950Z">
         <seg>上下文相关文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Continuation Lines</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013820Z" creationid="grass" creationdate="20201208T013820Z">
+        <seg>连续行</seg>
       </tuv>
     </tu>
     <tu>
@@ -6924,6 +6956,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113805Z" creationid="grass" creationdate="20201130T113805Z">
         <seg>Emacs在这两种窗体上的行为非常相似。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Emacs can optionally &lt;e0&gt;truncate&lt;/e0&gt; long logical lines instead of continuing them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014008Z" creationid="grass" creationdate="20201208T014008Z">
+        <seg>Emacs可以选择&lt;e0&gt;截断&lt;/e0&gt;长逻辑行，而不是接续它们。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7844,6 +7884,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T080834Z" creationid="grass" creationdate="20201130T080834Z">
         <seg>有关扩展Emacs的信息，请参阅&lt;c1&gt;Emacs Lisp参考手册&lt;/c1&gt;中的&lt;a0&gt;Emacs Lisp&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance, &lt;k0&gt;C-k&lt;/k0&gt; kills a logical line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013919Z" creationid="grass" creationdate="20201208T013919Z">
+        <seg>例如，&lt;k0&gt;C-k&lt;/k0&gt;会剪切逻辑行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9568,6 +9616,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you prefer, you can make Emacs insert a newline automatically when a line gets too long, by using Auto Fill mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014146Z" creationid="grass" creationdate="20201208T014146Z">
+        <seg>如果您愿意，可以使用自动填充模式让Emacs在行过长时自动插入换行符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you rebind &lt;k5&gt;C-n&lt;/k5&gt; to the command &lt;c6&gt;forward-word&lt;/c6&gt;, &lt;k7&gt;C-n&lt;/k7&gt; will move forward one word instead.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032312Z" creationid="grass" creationdate="20201205T032312Z">
@@ -11224,6 +11280,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114947Z" creationid="grass" creationdate="20201130T114947Z">
         <seg>大多数Emacs命令都隐式应用于当前缓冲区；显示在未选中窗口中的文本大多可见以供参考。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Most commands that act on lines act on logical lines, not screen lines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013910Z" creationid="grass" creationdate="20201208T013910Z">
+        <seg>大多数作用于行的命令作用于逻辑行，而不是屏幕行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13732,6 +13796,22 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>On a graphical display, Emacs indicates line wrapping with small bent arrows in the left and right window fringes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013853Z" creationid="grass" creationdate="20201208T013853Z">
+        <seg>在图形显示上，Emacs表示在左右窗口边缘用小弯曲箭头换行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On a graphical display, a truncated line is indicated by a small straight arrow in the right fringe; on a text terminal, it is indicated by a ‘&lt;s1&gt;$&lt;/s1&gt;’ character in the right margin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014038Z" creationid="grass" creationdate="20201208T014038Z">
+        <seg>在图形显示上，一条截断的行由右边缘的小直箭头表示；在文本终端上，它由右边缘的“&lt;s1&gt;$&lt;/s1&gt;”字符表示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>On a graphical display, directly below the menu bar is a &lt;e1&gt;tool bar&lt;/e1&gt;, a row of icons that perform editing commands when you click on them.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113955Z" creationid="grass" creationdate="20201130T113955Z">
@@ -13784,6 +13864,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023920Z" creationid="grass" creationdate="20201203T023920Z">
         <seg>在文本终端上，&lt;v0&gt;cs&lt;/v0&gt;前面有两个额外的字符，用于描述键盘输入和终端输出的编码系统。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On a text terminal, Emacs indicates line wrapping by displaying a ‘&lt;s5&gt;\&lt;/s5&gt;’ character at the right margin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013900Z" creationid="grass" creationdate="20201208T013900Z">
+        <seg>在文本终端上，Emacs通过在右边距显示‘&lt;s5&gt;\&lt;/s5&gt;’字符来指示换行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16000,6 +16088,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a2&gt;Line Truncation&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014043Z" creationid="grass" creationdate="20201208T014043Z">
+        <seg>请参阅&lt;a2&gt;行截断&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a2&gt;Major Modes&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025008Z" creationid="grass" creationdate="20201203T025008Z">
@@ -16472,6 +16568,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Since the wrapping may occur in the middle of a word, continued lines can be difficult to read.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014056Z" creationid="grass" creationdate="20201208T014056Z">
+        <seg>由于换行可能发生在单词的中间，因此连续的行会很难阅读。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Since there is a time in the timestamp, the next deadline in the</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T063048Z" creationid="grass" creationdate="20201016T063048Z">
@@ -16612,6 +16716,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T081426Z" creationid="grass" creationdate="20200929T081426Z">
         <seg>有时您可能会由于Emacs或Org模式设置错误而遇到问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sometimes, a line of text in the buffer—a &lt;e0&gt;logical line&lt;/e0&gt;—is too long to fit in the window, and Emacs displays it as two or more &lt;e1&gt;screen lines&lt;/e1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013830Z" creationid="grass" creationdate="20201208T013830Z">
+        <seg>有时，缓冲区中的一行文本(&lt;e0&gt;逻辑行&lt;/e0&gt;)太长，窗口无法容纳，Emacs会将其显示为两个或多个&lt;e1&gt;屏幕行&lt;/e1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18283,6 +18395,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The usual solution is to break your lines before they get too long, by inserting newlines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014123Z" creationid="grass" creationdate="20201208T014123Z">
+        <seg>通常的解决方案是在行太长之前插入换行符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The usual way to invoke Emacs is with the shell command &lt;c0&gt;emacs&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032931Z" creationid="grass" creationdate="20201205T032931Z">
@@ -18741,6 +18861,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is called &lt;e2&gt;line wrapping&lt;/e2&gt; or &lt;e3&gt;continuation&lt;/e3&gt;, and the long logical line is called a &lt;e4&gt;continued line&lt;/e4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013844Z" creationid="grass" creationdate="20201208T013844Z">
+        <seg>这称为&lt;e2&gt;换行&lt;/e2&gt;或&lt;e3&gt;继续&lt;/e3&gt;，长逻辑行称为&lt;e4&gt;连续行&lt;/e4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is done using the &lt;c0&gt;undo&lt;/c0&gt; command, which is bound to &lt;k1&gt;C-/&lt;/k1&gt; (as well as &lt;k2&gt;C-x u&lt;/k2&gt; and &lt;k3&gt;C-_&lt;/k3&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152804Z" creationid="grass" creationdate="20201207T152804Z">
@@ -18833,6 +18961,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031743Z" creationid="grass" creationdate="20201205T031743Z">
         <seg>这本手册有很多段落告诉你特定的快捷键键有什么作用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means that every logical line occupies a single screen line; if it is longer than the width of the window, the rest of the line is not displayed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014023Z" creationid="grass" creationdate="20201208T014023Z">
+        <seg>这意味着每条逻辑线都占据一条屏幕行；如果长于窗口宽度，则不会显示该行的剩余部分。</seg>
       </tuv>
     </tu>
     <tu>
