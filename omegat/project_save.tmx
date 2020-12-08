@@ -5452,6 +5452,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-x C-f test.emacs &lt;s0&gt;RET&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013018Z" creationid="grass" creationdate="20201208T013018Z">
+        <seg>C-x C-f test.emacs &lt;s0&gt;RET&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-x C-n</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151033Z" creationid="grass" creationdate="20201207T151033Z">
@@ -6888,6 +6896,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Emacs obeys this command by &lt;e0&gt;visiting&lt;/e0&gt; the file: it creates a buffer, copies the contents of the file into the buffer, and then displays the buffer for editing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013118Z" creationid="grass" creationdate="20201208T013118Z">
+        <seg>Emacs遵循此命令，&lt;e0&gt;访问&lt;/e0&gt;文件：它创建一个缓冲区，将文件内容复制到缓冲区中，然后显示缓冲区进行编辑。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Emacs records a list of changes made in the buffer text, so you can undo recent changes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152747Z" creationid="grass" creationdate="20201207T152747Z">
@@ -7412,6 +7428,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195129Z" creationid="grass" creationdate="20201010T195129Z">
         <seg>字段和范围公式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T012941Z" creationid="grass" creationdate="20201208T012941Z">
+        <seg>文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -8352,6 +8376,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here the file name is given as an &lt;e0&gt;argument&lt;/e0&gt; to the command &lt;k1&gt;C-x C-f&lt;/k1&gt; (&lt;c2&gt;find-file&lt;/c2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013028Z" creationid="grass" creationdate="20201208T013028Z">
+        <seg>这里，文件名作为&lt;k1&gt;C-x C-f&lt;/k1&gt;(&lt;c2&gt;find-file&lt;/c2&gt;)的&lt;e0&gt;参数&lt;/e0&gt;提供给命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here we explain the basics of how to enter text, make corrections, and save the text in a file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074031Z" creationid="grass" creationdate="20201205T074031Z">
@@ -9180,6 +9212,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T173315Z" creationid="grass" creationdate="20201019T173315Z">
         <seg>如果你</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you alter the text, you can &lt;e1&gt;save&lt;/e1&gt; the new text in the file by typing &lt;k2&gt;C-x C-s&lt;/k2&gt; (&lt;c3&gt;save-buffer&lt;/c3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013128Z" creationid="grass" creationdate="20201208T013128Z">
+        <seg>如果更改文本，可以通过键入&lt;k2&gt;C-x C-s&lt;/k2&gt;(&lt;c3&gt;save-buffer&lt;/c3&gt;)&lt;e1&gt;保存&lt;/e1&gt;文件中的新文本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16664,6 +16704,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Suppose there is a file named &lt;s0&gt;test.emacs&lt;/s0&gt; in your home directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013013Z" creationid="grass" creationdate="20201208T013013Z">
+        <seg>假设您的主目录中有一个名为&lt;s0&gt;test.emacs&lt;/s0&gt;的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sure, it does daily/weekly agendas, but it offers much more than that.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T082115Z" creationid="grass" creationdate="20201015T082115Z">
@@ -17080,6 +17128,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Text that you insert in an Emacs buffer lasts only as long as the Emacs session.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013004Z" creationid="grass" creationdate="20201208T012946Z">
+        <seg>您插入到Emacs缓冲区中的文本仅与Emacs会话的生命周期一样长。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Thank you for helping to improve this program.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082309Z" creationid="grass" creationdate="20200929T082309Z">
@@ -17092,6 +17148,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083141Z" creationid="grass" creationdate="20201015T083141Z">
         <seg>这可以使用跳过条件来实现：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That command uses the &lt;e3&gt;minibuffer&lt;/e3&gt; to read the argument, and you type &lt;t4&gt;RET&lt;/t4&gt; to terminate the argument (see &lt;a5&gt;Minibuffer&lt;/a5&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013107Z" creationid="grass" creationdate="20201208T013107Z">
+        <seg>该命令使用&lt;e3&gt;迷你缓冲区&lt;/e3&gt;读取参数，然后键入&lt;t4&gt;RET&lt;/t4&gt;终止参数(请参阅&lt;a5&gt;迷你缓冲区&lt;/a5&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18397,6 +18461,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This copies the altered buffer contents back into the file &lt;s4&gt;test.emacs&lt;/s4&gt;, making them permanent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013134Z" creationid="grass" creationdate="20201208T013134Z">
+        <seg>这会将更改后的缓冲区内容复制回文件&lt;s4&gt;test.emacs&lt;/s4&gt;，使其成为永久性内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This displays various information about what is going on in the buffer, such as whether there are unsaved changes, the editing modes that are in use, the current line number, and so forth.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114709Z" creationid="grass" creationdate="20201130T114709Z">
@@ -18709,6 +18781,22 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To begin editing this file in Emacs, type</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013016Z" creationid="grass" creationdate="20201208T013016Z">
+        <seg>要开始在Emacs中编辑此文件，请键入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To create a file, just visit it with &lt;k0&gt;C-x C-f&lt;/k0&gt; as if it already existed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013159Z" creationid="grass" creationdate="20201208T013159Z">
+        <seg>要创建文件，只需使用&lt;k0&gt;C-x C-f&lt;/k0&gt;访问它，就好像它已经存在一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To do more than insert characters, you have to know how to move point (see &lt;a0&gt;Point&lt;/a0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145752Z" creationid="grass" creationdate="20201207T145752Z">
@@ -18793,6 +18881,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091135Z" creationid="grass" creationdate="20201205T091054Z">
         <seg>若要插入非图形字符或键盘不支持的字符，请先通过键入&lt;k1&gt;C-q&lt;/k1&gt;(&lt;c2&gt;quoted-insert&lt;/c2&gt;)对其加&lt;e0&gt;引号&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To keep any text permanently, you must put it in a &lt;e0&gt;file&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013008Z" creationid="grass" creationdate="20201208T013008Z">
+        <seg>若要永久保留任何文本，必须将其放入&lt;e0&gt;文件&lt;/e0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19169,6 +19265,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084031Z" creationid="grass" creationdate="20201015T084031Z">
         <seg>在那之前，你可以把注意力放在别的事情上，把你的思想从这项任务中解放出来。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Until you save, the changed text exists only inside Emacs, and the file &lt;s5&gt;test.emacs&lt;/s5&gt; is unaltered.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013141Z" creationid="grass" creationdate="20201208T013141Z">
+        <seg>在保存之前，更改后的文本仅存在于Emacs中，文件&lt;s5&gt;test.emacs&lt;/s5&gt;未更改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -51614,6 +51718,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T083622Z" creationid="grass" creationdate="20201130T083622Z">
         <seg>#Rmail-Summary-Edit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T012931Z" creationid="grass" creationdate="20201208T012931Z">
+        <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents</seg>
       </tuv>
     </tu>
     <tu>
