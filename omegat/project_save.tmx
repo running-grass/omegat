@@ -9618,8 +9618,8 @@ USA</seg>
       <tuv lang="EN-US">
         <seg>If you prefer, you can make Emacs insert a newline automatically when a line gets too long, by using Auto Fill mode.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014146Z" creationid="grass" creationdate="20201208T014146Z">
-        <seg>如果您愿意，可以使用自动填充模式让Emacs在行过长时自动插入换行符。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014230Z" creationid="grass" creationdate="20201208T014146Z">
+        <seg>如果您愿意，可以使用Auto Fill mode让Emacs在行过长时自动插入换行符。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9956,6 +9956,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072940Z" creationid="grass" creationdate="20201205T072940Z">
         <seg>在这种情况下，如果在命令行上指定了一个或多个文件，则Emacs只显示这些文件；否则，它将显示名为&lt;s2&gt;*scratch*&lt;/s2&gt;的缓冲区，该缓冲区可用于以交互方式计算Emacs Lisp表达式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In that case, you can use Visual Line mode, which enables &lt;e0&gt;word wrapping&lt;/e0&gt;: instead of wrapping long lines exactly at the right window edge, Emacs wraps them at the word boundaries (i.e., space or tab characters) nearest to the right window edge.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014217Z" creationid="grass" creationdate="20201208T014217Z">
+        <seg>在这种情况下，您可以使用Visual Line模式，该模式启用&lt;e0&gt;单词换行&lt;/e0&gt;：Emacs不是精确地在窗口右边缘换行，而是在最靠近窗口右边缘的单词边界(即空格或制表符)换行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15944,6 +15952,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Filling&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014148Z" creationid="grass" creationdate="20201208T014148Z">
+        <seg>请参阅&lt;a0&gt;填充&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a0&gt;Help&lt;/a0&gt;, for details.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013512Z" creationid="grass" creationdate="20201208T013512Z">
@@ -16188,6 +16204,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113026Z" creationid="grass" creationdate="20201130T113026Z">
         <seg>请参阅&lt;a4&gt;自定义&lt;/a4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a4&gt;Visual Line Mode&lt;/a4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014352Z" creationid="grass" creationdate="20201208T014349Z">
+        <seg>请参阅 &lt;a4&gt;Visual Line Mode&lt;/a4&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -16732,6 +16756,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152915Z" creationid="grass" creationdate="20201207T152915Z">
         <seg>有时，一个条目可能只包含复杂命令的一部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sometimes, you may need to edit files containing many long logical lines, and it may not be practical to break them all up by adding newlines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014200Z" creationid="grass" creationdate="20201208T014200Z">
+        <seg>有时，您可能需要编辑包含许多长逻辑行的文件，而通过添加换行符将它们全部拆分可能并不实际。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19913,6 +19945,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074212Z" creationid="grass" creationdate="20201205T074212Z">
         <seg>访问、创建和保存文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Visual Line mode also redefines editing commands such as &lt;k1&gt;C-a&lt;/k1&gt;, &lt;k2&gt;C-n&lt;/k2&gt;, and &lt;k3&gt;C-k&lt;/k3&gt; to operate on screen lines rather than logical lines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014342Z" creationid="grass" creationdate="20201208T014342Z">
+        <seg>Visual Line mode还重新定义编辑命令，如&lt;k1&gt;C-a&lt;/k1&gt;、&lt;k2&gt;C-n&lt;/k2&gt;和&lt;k3&gt;C-k&lt;/k3&gt;，以在屏幕行而不是逻辑行上操作。</seg>
       </tuv>
     </tu>
     <tu>
