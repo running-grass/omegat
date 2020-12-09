@@ -3979,6 +3979,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k5&gt;M--&lt;/k5&gt; without digits normally means -1.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T020640Z" creationid="grass" creationdate="20201209T020640Z">
+        <seg>&lt;k5&gt;M--&lt;/k5&gt;没有数字通常表示-1。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt; Jun 30, 2017 &lt;/s0&gt; • Nicolas Petton</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T085923Z" creationid="grass" creationdate="20201015T085923Z">
@@ -9684,6 +9692,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091859Z" creationid="grass" creationdate="20201205T091741Z">
         <seg>如果输入名称，该命令将提供完成(请参见&lt;a3&gt;补全&lt;/a3&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you enter more than one digit, you need not hold down the &lt;t0&gt;Meta&lt;/t0&gt; key for the second and subsequent digits.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T020730Z" creationid="grass" creationdate="20201209T020730Z">
+        <seg>如果输入多个数字，则不需要按住&lt;t0&gt;Meta&lt;/t0&gt;键输入第二个和后续数字。</seg>
       </tuv>
     </tu>
     <tu>
