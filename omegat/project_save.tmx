@@ -3019,6 +3019,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>7.10</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015908Z" creationid="grass" creationdate="20201209T015908Z">
+        <seg>7.10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>7.2</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061035Z" creationid="grass" creationdate="20201015T061035Z">
@@ -5804,6 +5812,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Char: C (67, #o103, #x43) point=252 of 889 (28%) &lt;231-599&gt; column=0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015821Z" creationid="grass" creationdate="20201209T015821Z">
+        <seg>Char: C (67, #o103, #x43) point=252 of 889 (28%) &lt;231-599&gt; column=0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Checkboxes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200516Z" creationid="grass" creationdate="20201010T200516Z">
@@ -7872,6 +7888,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example,</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T020039Z" creationid="grass" creationdate="20201209T020039Z">
+        <seg>例如,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, &lt;c0&gt;emacs foo.txt&lt;/c0&gt; starts Emacs with a buffer displaying the contents of the file ‘&lt;s1&gt;foo.txt&lt;/s1&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072517Z" creationid="grass" creationdate="20201205T072517Z">
@@ -7928,6 +7952,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, giving &lt;k3&gt;C-f&lt;/k3&gt; an argument of ten causes it to move point forward by ten characters instead of one.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015949Z" creationid="grass" creationdate="20201209T015949Z">
+        <seg>例如，如果将&lt;k3&gt;C-f&lt;/k3&gt;的参数设为10，则它会将点向前移动10个字符，而不是1个字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, if you forgot to call your father for 3 weeks, it does not make sense to call him 3 times in a single day to make up for it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054859Z" creationid="grass" creationdate="20201016T054859Z">
@@ -7956,6 +7988,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023101Z" creationid="grass" creationdate="20201019T023101Z">
         <seg>例如，在列表中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, it might display this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015819Z" creationid="grass" creationdate="20201209T015819Z">
+        <seg>例如，它可能会显示以下内容：</seg>
       </tuv>
     </tu>
     <tu>
@@ -9360,6 +9400,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the buffer has been narrowed, making some of the text at the beginning and the end temporarily inaccessible, &lt;k0&gt;C-x =&lt;/k0&gt; displays additional text describing the currently accessible range.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015817Z" creationid="grass" creationdate="20201209T015817Z">
+        <seg>如果缓冲区被聚焦，导致开头和结尾的某些文本暂时不可访问，&lt;k0&gt;C-x =&lt;/k0&gt;将显示描述当前可访问范围的附加文本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the buffer is modified, it shows two stars (‘&lt;s2&gt;**&lt;/s2&gt;’).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024424Z" creationid="grass" creationdate="20201203T024424Z">
@@ -10148,6 +10196,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T131421Z" creationid="grass" creationdate="20201005T131408Z">
         <seg>在手册中，我们将尽可能提供内部函数调用的通用命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the terminology of mathematics and computing, &lt;e0&gt;argument&lt;/e0&gt; means “data provided to a function or operation”.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015922Z" creationid="grass" creationdate="20201209T015922Z">
+        <seg>在数学和计算术语中，&lt;e0&gt;参数&lt;/e0&gt;表示“提供给函数或运算的数据”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11048,6 +11104,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100615Z" creationid="grass" creationdate="20201014T100615Z">
         <seg>用于搜索表格的查找函数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-5 C-n</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T020041Z" creationid="grass" creationdate="20201209T020041Z">
+        <seg>M-5 C-n</seg>
       </tuv>
     </tu>
     <tu>
@@ -13988,6 +14052,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Numeric Arguments</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015917Z" creationid="grass" creationdate="20201209T015917Z">
+        <seg>数值参数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Numeric arguments for repeating a command N times.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074533Z" creationid="grass" creationdate="20201205T074533Z">
@@ -15856,6 +15928,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Related, but different feature is &lt;c0&gt;display-line-numbers-mode&lt;/c0&gt; (see &lt;a1&gt;Display Custom&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015904Z" creationid="grass" creationdate="20201209T015904Z">
+        <seg>相关但不同的功能是&lt;c0&gt;display-line-numbers-mode&lt;/c0&gt;(请参阅&lt;a1&gt;显示自定义&lt;/a1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Reload uncompiled versions of all Org mode Lisp files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082436Z" creationid="grass" creationdate="20200929T082436Z">
@@ -16212,6 +16292,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152410Z" creationid="grass" creationdate="20201207T152410Z">
         <seg>有关&lt;k1&gt;C-k&lt;/k1&gt;和相关命令的详细信息，请参阅&lt;a0&gt;剪切&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Narrowing&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015853Z" creationid="grass" creationdate="20201209T015853Z">
+        <seg>请参阅&lt;a0&gt;聚焦&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16916,6 +17004,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022741Z" creationid="grass" creationdate="20201203T022741Z">
         <seg>某些命令在回显区域显示信息性消息，以告诉您该命令执行了什么操作，或者为您提供一些特定信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some commands interpret the argument as a repetition count.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015929Z" creationid="grass" creationdate="20201209T015929Z">
+        <seg>一些命令将参数解释为重复计数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18075,6 +18171,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The characters between those two positions are the accessible ones.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015845Z" creationid="grass" creationdate="20201209T015845Z">
+        <seg>这两个位置之间的字符是可访问的字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The clock table</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201341Z" creationid="grass" creationdate="20201010T201341Z">
@@ -18243,6 +18347,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The easiest way to specify a numeric argument is to type a digit and/or a minus sign while holding down the &lt;t0&gt;Meta&lt;/t0&gt; key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T020036Z" creationid="grass" creationdate="20201209T020036Z">
+        <seg>指定数字参数的最简单方法是在按住&lt;t0&gt;Meta&lt;/t0&gt;键的同时键入数字或减号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The easy way to get rid of extra blank lines is with the command &lt;k0&gt;C-x C-o&lt;/k0&gt; (&lt;c1&gt;delete-blank-lines&lt;/c1&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013720Z" creationid="grass" creationdate="20201208T013720Z">
@@ -18407,6 +18519,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145757Z" creationid="grass" creationdate="20201207T145757Z">
         <seg>键盘命令&lt;k1&gt;C-f&lt;/k1&gt;、&lt;k2&gt;C-b&lt;/k2&gt;、&lt;k3&gt;C-n&lt;/k3&gt;和&lt;k4&gt;C-p&lt;/k4&gt;分别指向右、左、下和上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The keys &lt;k0&gt;M-1&lt;/k0&gt;, &lt;k1&gt;M-2&lt;/k1&gt;, and so on, as well as &lt;k2&gt;M--&lt;/k2&gt;, are bound to commands (&lt;c3&gt;digit-argument&lt;/c3&gt; and &lt;c4&gt;negative-argument&lt;/c4&gt;) that set up an argument for the next command.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T020634Z" creationid="grass" creationdate="20201209T020634Z">
+        <seg>键&lt;k0&gt;M-1&lt;/k0&gt;、&lt;k1&gt;M-2&lt;/k1&gt;等等以及&lt;k2&gt;M--&lt;/k2&gt;被绑定到为下一个命令设置参数的命令(&lt;c3&gt;数字参数&lt;/c3&gt;和&lt;c4&gt;负参数&lt;/c4&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20894,6 +21014,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With these commands, no argument is equivalent to an argument of one, and negative arguments cause them to move or act in the opposite direction.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015955Z" creationid="grass" creationdate="20201209T015955Z">
+        <seg>使用这些命令时，没有任何参数等同于参数1，而负参数会导致它们朝相反的方向移动或操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Without moving the text on the screen, reposition point on the left margin of the center-most text line of the window; on subsequent consecutive invocations, move point to the left margin of the top-most line, the bottom-most line, and so forth, in cyclic order (&lt;c0&gt;move-to-window-line-top-bottom&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150416Z" creationid="grass" creationdate="20201207T150416Z">
@@ -21186,6 +21314,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151332Z" creationid="grass" creationdate="20201207T151332Z">
         <seg>通过将变量&lt;c8&gt;line-move-visual&lt;/c8&gt;设置为&lt;c9&gt;nil&lt;/c9&gt;，可以强制这些命令根据&lt;e7&gt;逻辑行&lt;/e7&gt;(即根据缓冲区中的文本行)移动；如果一个逻辑行占据多个屏幕行，则光标将跳过附加的屏幕行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can give any Emacs command a &lt;e1&gt;numeric argument&lt;/e1&gt; (also called a &lt;e2&gt;prefix argument&lt;/e2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015927Z" creationid="grass" creationdate="20201209T015927Z">
+        <seg>您可以为任何Emacs命令提供&lt;e1&gt;数字参数&lt;/e1&gt;(也称为&lt;e2&gt;前缀参数&lt;/e2&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -53852,6 +53988,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>moves down five lines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T020043Z" creationid="grass" creationdate="20201209T020043Z">
+        <seg>向下移动五行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>next</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150714Z" creationid="grass" creationdate="20201207T150714Z">
@@ -53970,6 +54114,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063228Z" creationid="grass" creationdate="20201015T063228Z">
         <seg>u</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>where the two extra numbers give the smallest and largest character position that point is allowed to assume.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015837Z" creationid="grass" creationdate="20201209T015837Z">
+        <seg>其中两个额外的数字给出了该游标被允许的最小和最大字符位置。</seg>
       </tuv>
     </tu>
     <tu>
