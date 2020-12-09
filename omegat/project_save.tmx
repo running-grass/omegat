@@ -3835,6 +3835,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;M-=&lt;/k0&gt; (&lt;c1&gt;count-words-region&lt;/c1&gt;) displays a message reporting the number of lines, words, and characters in the region (see &lt;a2&gt;Mark&lt;/a2&gt;, for an explanation of the region).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T014113Z" creationid="grass" creationdate="20201209T014113Z">
+        <seg>&lt;k0&gt;M-=&lt;/k0&gt;(&lt;c1&gt;count-words-region&lt;/c1&gt;)显示一条消息，报告选区中的行数、字数和字符数(有关选区的说明，请参阅&lt;a2&gt;标记&lt;/a2&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;M-S-&lt;s1&gt;LEFT&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-promote-subtree&lt;/c2&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063904Z" creationid="grass" creationdate="20201015T063904Z">
@@ -5296,6 +5304,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081046Z" creationid="grass" creationdate="20201130T081046Z">
         <seg>从FSF购买拷贝支持它开发GNU和促进软件自由。“</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By contrast, &lt;c3&gt;what-line&lt;/c3&gt; displays both the line number relative to the narrowed region and the line number relative to the whole buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T014045Z" creationid="grass" creationdate="20201209T014045Z">
+        <seg>相比之下，&lt;c3&gt;what-line&lt;/c3&gt;既显示相对于聚焦区域的行号，又显示相对于整个缓冲区的行号。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8928,6 +8944,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, if you narrow the buffer, the mode line shows the line number relative to the accessible portion (see &lt;a2&gt;Narrowing&lt;/a2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T014032Z" creationid="grass" creationdate="20201209T014032Z">
+        <seg>但是，如果聚焦缓冲区，状态栏将显示相对于可访问部分的行号(请参阅&lt;a2&gt;聚焦&lt;/a2&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, if you set the variable &lt;c1&gt;next-line-add-newlines&lt;/c1&gt; to a non-&lt;c2&gt;nil&lt;/c2&gt; value, &lt;k3&gt;C-n&lt;/k3&gt; on the last line of a buffer creates an additional line at the end and moves down into it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151540Z" creationid="grass" creationdate="20201207T151540Z">
@@ -10476,6 +10500,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T112744Z" creationid="grass" creationdate="20201130T112744Z">
         <seg>它可以控制子进程，自动缩进程序，一次显示多个文件，编辑远程文件，就像编辑本地文件一样，等等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It displays a count for the region if the region is active, and for the buffer otherwise.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T014145Z" creationid="grass" creationdate="20201209T014145Z">
+        <seg>如果选区处于活动状态，它将显示选区的计数，否则将显示缓冲区的计数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18019,6 +18051,22 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The command &lt;k0&gt;C-x =&lt;/k0&gt; (&lt;c1&gt;what-cursor-position&lt;/c1&gt;) shows information about the current cursor position and the buffer contents at that position.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T014313Z" creationid="grass" creationdate="20201209T014152Z">
+        <seg>命令&lt;k0&gt;C-x =&lt;/k0&gt;(&lt;c1&gt;what-cursor-position&lt;/c1&gt;)显示有关当前光标位置和该位置的缓冲区内容的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The command &lt;k0&gt;M-x count-words&lt;/k0&gt; does the same job, but with a different calling convention.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T014133Z" creationid="grass" creationdate="20201209T014133Z">
+        <seg>命令&lt;k0&gt;M-x count-words&lt;/k0&gt;执行相同的任务，但具有不同的调用约定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The command prompts for a selection criterion, which is a boolean logic expression with tags, like ‘&lt;s0&gt;+work+urgent-withboss&lt;/s0&gt;’ or ‘&lt;s1&gt;work|home&lt;/s1&gt;’ (see &lt;a2&gt;Tags&lt;/a2&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T141217Z" creationid="Eli" creationdate="20201022T141217Z">
@@ -20698,6 +20746,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T144330Z" creationid="Eli" creationdate="20201020T144330Z">
         <seg>如果输入该命令时输入来一个数字前缀n，那么则会选择变量&lt;c2&gt;org-todo-keywords&lt;/c2&gt;中第n个关键字进行筛选。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With a prefix argument, &lt;k3&gt;C-u M-=&lt;/k3&gt;, the command displays a count for the entire buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T014124Z" creationid="grass" creationdate="20201209T014124Z">
+        <seg>使用前缀参数&lt;k3&gt;C-u M-=&lt;/k3&gt;，该命令显示整个缓冲区的计数。</seg>
       </tuv>
     </tu>
     <tu>
