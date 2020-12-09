@@ -3899,6 +3899,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;M-x what-line&lt;/k0&gt; displays the current line number in the echo area.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013935Z" creationid="grass" creationdate="20201209T013935Z">
+        <seg>&lt;k0&gt;M-x what-line&lt;/k0&gt;在回显区中显示当前行号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;S-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-global-cycle&lt;/c2&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061820Z" creationid="grass" creationdate="20201015T061820Z">
@@ -5524,6 +5532,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-x =</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013650Z" creationid="grass" creationdate="20201209T013650Z">
+        <seg>C-x =</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-x C-c</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073131Z" creationid="grass" creationdate="20201205T073131Z">
@@ -6612,6 +6628,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Display the character code of character after point, character position of point, and column of point (&lt;c0&gt;what-cursor-position&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013742Z" creationid="grass" creationdate="20201209T013742Z">
+        <seg>显示游标之后的字符编码、游标的字符位置、游标的列(&lt;c0&gt;what-cursor-position&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Display the line number of point.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013555Z" creationid="grass" creationdate="20201209T013555Z">
@@ -7116,6 +7140,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103830Z" creationid="grass" creationdate="20201010T202445Z">
         <seg>强调与等宽</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Enable or disable highlighting of the current line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013754Z" creationid="grass" creationdate="20201209T013754Z">
+        <seg>启用或禁用当前行的高亮显示。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11084,6 +11116,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>M-x hl-line-mode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013747Z" creationid="grass" creationdate="20201209T013747Z">
+        <seg>M-x hl-line-mode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>M-x line-number-mode</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013556Z" creationid="grass" creationdate="20201209T013556Z">
@@ -11104,6 +11144,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025827Z" creationid="grass" creationdate="20201019T025827Z">
         <seg>M-x org-switchb</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-x size-indication-mode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013818Z" creationid="grass" creationdate="20201209T013818Z">
+        <seg>M-x size-indication-mode</seg>
       </tuv>
     </tu>
     <tu>
@@ -16008,6 +16056,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Cursor Display&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013824Z" creationid="grass" creationdate="20201209T013824Z">
+        <seg>请参见&lt;a0&gt;光标显示&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a0&gt;Custom Agenda Views&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T142600Z" creationid="Eli" creationdate="20201020T142600Z">
@@ -18901,6 +18957,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This command is usually redundant because the current line number is shown in the mode line (see &lt;a1&gt;Mode Line&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013951Z" creationid="grass" creationdate="20201209T013951Z">
+        <seg>此命令通常是冗余的，因为当前行号显示在状态栏中(请参阅&lt;a1&gt;状态栏&lt;/a1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This command offers possible locations for refiling the entry and lets you select one with completion.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132258Z" creationid="grass" creationdate="20201006T132258Z">
@@ -19569,6 +19633,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013605Z" creationid="grass" creationdate="20201209T013605Z">
         <seg>切换当前行号或列号的自动显示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Toggle automatic display of the size of the buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013837Z" creationid="grass" creationdate="20201209T013837Z">
+        <seg>切换缓冲区大小的自动显示。</seg>
       </tuv>
     </tu>
     <tu>
