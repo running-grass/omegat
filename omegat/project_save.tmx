@@ -3763,6 +3763,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-u&lt;/k0&gt; alone has the special meaning of “four times”: it multiplies the argument for the next command by four.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021204Z" creationid="grass" creationdate="20201209T021204Z">
+        <seg>&lt;k0&gt;C-u&lt;/k0&gt;本身就有“四次”的特殊含义：它将下一个命令的参数乘以四。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-x C-c&lt;/k0&gt; behaves specially if you are using Emacs as a server.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073432Z" creationid="grass" creationdate="20201205T073432Z">
@@ -3967,6 +3975,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113228Z" creationid="grass" creationdate="20201016T113228Z">
         <seg>&lt;k10&gt;c&lt;/k10&gt;可用于在日历和议程之间来回切换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k1&gt;C-u C-u&lt;/k1&gt; multiplies it by sixteen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021226Z" creationid="grass" creationdate="20201209T021226Z">
+        <seg>&lt;k1&gt;C-u C-u&lt;/k1&gt;将其乘以16。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4216,6 +4232,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025004Z" creationid="grass" creationdate="20201203T025004Z">
         <seg>主模式是缓冲区的主要编辑模式，诸如文本模式、Lisp模式、C模式等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A minus sign without digits normally means -1.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021147Z" creationid="grass" creationdate="20201209T021147Z">
+        <seg>不带数字的负号通常表示-1。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8184,6 +8208,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For the usual role of &lt;k4&gt;C-u&lt;/k4&gt;, see below.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021051Z" creationid="grass" creationdate="20201209T021051Z">
+        <seg>有关&lt;k4&gt;C-u&lt;/k4&gt;的常见角色，请参见下面的内容。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For these tasks, Org mode has special repeaters ‘&lt;s2&gt;++&lt;/s2&gt;’ and ‘&lt;s3&gt;.+&lt;/s3&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054946Z" creationid="grass" creationdate="20201016T054946Z">
@@ -10484,6 +10516,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T144013Z" creationid="Eli" creationdate="20201022T144013Z">
         <seg>除了使用标签搜索，您也可以用带有大括号的正则表达式来筛选。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead of typing &lt;k0&gt;M-1&lt;/k0&gt;, &lt;k1&gt;M-2&lt;/k1&gt;, and so on, another way to specify a numeric argument is to type &lt;k2&gt;C-u&lt;/k2&gt; (&lt;c3&gt;universal-argument&lt;/c3&gt;) followed by some digits, or (for a negative argument) a minus sign followed by digits.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021144Z" creationid="grass" creationdate="20201209T021144Z">
+        <seg>指定数字参数的另一种方法不是键入&lt;k0&gt;M-1&lt;/k0&gt;、&lt;k1&gt;M-2&lt;/k1&gt;等，而是键入&lt;k2&gt;C-u&lt;/k2&gt;(&lt;c3&gt;universal-argument&lt;/c3&gt;)，后跟一些数字，或后跟数字的减号(对于负参数)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14068,6 +14108,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that this meaning of &lt;k3&gt;C-u&lt;/k3&gt; applies only to this case.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021047Z" creationid="grass" creationdate="20201209T021047Z">
+        <seg>请注意，&lt;k3&gt;C-u&lt;/k3&gt;的这一含义仅适用于此情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that when point is inside a table (see &lt;a0&gt;Tables&lt;/a0&gt;), the Meta-Cursor keys have different functionality.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070410Z" creationid="grass" creationdate="20201015T070410Z">
@@ -14832,6 +14880,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030645Z" creationid="grass" creationdate="20201205T030645Z">
         <seg>其他命令需要调用两个或多个输入事件，例如&lt;k1&gt;C-x C-f&lt;/k1&gt;和&lt;k2&gt;C-x 4 C-f&lt;/k2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Other useful combinations are &lt;k3&gt;C-u C-n&lt;/k3&gt;, &lt;k4&gt;C-u C-u C-n&lt;/k4&gt; (move down a good fraction of a screen), &lt;k5&gt;C-u C-u C-o&lt;/k5&gt; (make sixteen blank lines), and &lt;k6&gt;C-u C-k&lt;/k6&gt; (kill four lines).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021244Z" creationid="grass" creationdate="20201209T021244Z">
+        <seg>其他有用的组合有&lt;k3&gt;C-u C-n&lt;/k3&gt;、&lt;k4&gt;C-u C-u C-n&lt;/k4&gt;(向下移动相当一部分屏幕)、&lt;k5&gt;C-u C-u C-o&lt;/k5&gt;(留出16个空行)和&lt;k6&gt;C-u C-k&lt;/k6&gt;(删除四行)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19397,6 +19453,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is straightforward when the character is not a digit; for example, &lt;k0&gt;&lt;s1&gt;C-u&lt;/s1&gt; 6 4 a&lt;/k0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021342Z" creationid="grass" creationdate="20201209T021342Z">
+        <seg>当字符不是数字时，这很简单；例如，&lt;k0&gt;&lt;s1&gt;C-u&lt;/s1&gt;6 4 a&lt;/k0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is the &lt;c0&gt;GNU Emacs Manual&lt;/c0&gt;, updated for Emacs version 27.1.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T080842Z" creationid="grass" creationdate="20201130T080842Z">
@@ -19529,6 +19593,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084308Z" creationid="grass" creationdate="20201015T084308Z">
         <seg>这样，我的GTD文件就会保持整洁，而且我永远不会删除任何数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thus, &lt;k2&gt;C-u C-u C-f&lt;/k2&gt; moves forward sixteen characters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021228Z" creationid="grass" creationdate="20201209T021228Z">
+        <seg>因此，&lt;k2&gt;C-u C-u C-f&lt;/k2&gt;向前移动了16个字符。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21490,6 +21562,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032638Z" creationid="grass" creationdate="20201203T032638Z">
         <seg>您可以键入项目的字母或数字来选择项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use a numeric argument before a self-inserting character to insert multiple copies of it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021251Z" creationid="grass" creationdate="20201209T021251Z">
+        <seg>您可以在自插入字符之前使用数字参数来插入该字符的多个副本。</seg>
       </tuv>
     </tu>
     <tu>
