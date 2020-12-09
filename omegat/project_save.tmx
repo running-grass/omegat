@@ -302,6 +302,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(99, #o143, #x63, LATIN SMALL LETTER C)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015800Z" creationid="grass" creationdate="20201209T015800Z">
+        <seg>(99, #o143, #x63, LATIN SMALL LETTER C)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(:endgroup .</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024917Z" creationid="grass" creationdate="20201019T024917Z">
@@ -4544,6 +4552,22 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T014427Z" creationid="grass" creationdate="20201209T014427Z">
         <seg>在“&lt;s0&gt;Char:&lt;/s0&gt;”之后，显示缓冲区中的游标所在的字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After ‘&lt;s3&gt;point=&lt;/s3&gt;’ is the position of point as a character count (the first character in the buffer is position 1, the second character is position 2, and so on).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015712Z" creationid="grass" creationdate="20201209T015712Z">
+        <seg>在‘&lt;s3&gt;point=&lt;/s3&gt;’之后是游标位置的字符计数(缓冲区中的第一个字符是位置1，第二个字符是位置2，依此类推)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After ‘&lt;s4&gt;column=&lt;/s4&gt;’ is the horizontal position of point, in columns counting from the left edge of the window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015737Z" creationid="grass" creationdate="20201209T015737Z">
+        <seg>在‘&lt;s4&gt;column=&lt;/s4&gt;’之后是游标的水平位置，以从窗口左边缘开始计数的列为单位。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9412,6 +9436,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091232Z" creationid="grass" creationdate="20201205T091232Z">
         <seg>如果终止字符是&lt;t1&gt;RET&lt;/t1&gt;，则&lt;t2&gt;RET&lt;/t2&gt;仅用于终止序列。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the user option &lt;c0&gt;what-cursor-show-names&lt;/c0&gt; is non-&lt;c1&gt;nil&lt;/c1&gt;, the name of the character, as defined by the Unicode Character Database, is shown as well.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015751Z" creationid="grass" creationdate="20201209T015751Z">
+        <seg>如果用户选项&lt;c0&gt;what-cursor-show-names&lt;/c0&gt;为非&lt;c1&gt;nil&lt;/c1&gt;，则还会显示Unicode字符数据库定义的字符名称。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18491,6 +18523,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The number after that is the total number of characters in the buffer, and the number in parenthesis expresses the position as a percentage of the total.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015727Z" creationid="grass" creationdate="20201209T015727Z">
+        <seg>后面的数字是缓冲区中的总字符数，括号中的数字以总字符数的百分比表示位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The order of things.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103539Z" creationid="grass" creationdate="20201014T103539Z">
@@ -18503,6 +18543,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075515Z" creationid="grass" creationdate="20201015T075515Z">
         <seg>orgmode文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The part in parentheses would then become:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015755Z" creationid="grass" creationdate="20201209T015755Z">
+        <seg>然后，括号中的部分将变为：</seg>
       </tuv>
     </tu>
     <tu>
