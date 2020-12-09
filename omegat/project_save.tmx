@@ -390,6 +390,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(What if you do want to insert five copies of ‘&lt;s0&gt;0&lt;/s0&gt;’?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021008Z" creationid="grass" creationdate="20201209T021008Z">
+        <seg>(如果您确实要插入“&lt;s0&gt;0&lt;/s0&gt;”的五个副本，该怎么办？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(You can also type &lt;k4&gt;M-`&lt;/k4&gt;, which always invokes &lt;c5&gt;tmm-menubar&lt;/c5&gt;.) &lt;c6&gt;tmm-menubar&lt;/c6&gt; lets you select a menu item with the keyboard.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032557Z" creationid="grass" creationdate="20201203T032526Z">
@@ -8704,6 +8712,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here, &lt;k2&gt;C-u&lt;/k2&gt; terminates the prefix argument, so that the next keystroke begins the command that you want to execute.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021041Z" creationid="grass" creationdate="20201209T021041Z">
+        <seg>这里，&lt;k2&gt;C-u&lt;/k2&gt;终止前缀参数，以便下一次击键开始您想要执行的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here’s an example custom agenda command that will display all actions for the &lt;c0&gt;@office&lt;/c0&gt; context:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201105T050914Z" creationid="grass" creationdate="20201015T082814Z">
@@ -11120,6 +11136,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100615Z" creationid="grass" creationdate="20201014T100615Z">
         <seg>用于搜索表格的查找函数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-5 0 C-n</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T020736Z" creationid="grass" creationdate="20201209T020736Z">
+        <seg>M-5 0 C-n</seg>
       </tuv>
     </tu>
     <tu>
@@ -14032,6 +14056,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113316Z" creationid="grass" creationdate="20201016T113316Z">
         <seg>请注意，表达式条目必须从左边距开始，前面不允许有空格，如Org文件的以下片段所示：&lt;a0&gt;&lt;s1&gt;96&lt;/s1&gt;&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that this &lt;e0&gt;does not&lt;/e0&gt; insert five copies of ‘&lt;s1&gt;0&lt;/s1&gt;’ and move down one line, as you might expect—the ‘&lt;s2&gt;0&lt;/s2&gt;’ is treated as part of the prefix argument.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021003Z" creationid="grass" creationdate="20201209T021003Z">
+        <seg>请注意，张扬&lt;e0&gt;不会&lt;/e0&gt;像您预期的那样插入5个‘&lt;s1&gt;0&lt;/s1&gt;’副本并向下移动一行——‘&lt;s2&gt;0&lt;/s2&gt;’被视为前缀参数的一部分。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19517,6 +19549,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Thus, to move down fifty lines, type</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T020735Z" creationid="grass" creationdate="20201209T020735Z">
+        <seg>因此，要向下移动50行，请键入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Thus, you can enter &lt;k1&gt;M-a&lt;/k1&gt; by typing &lt;k2&gt;&lt;s3&gt;ESC&lt;/s3&gt; a&lt;/k2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030203Z" creationid="grass" creationdate="20201205T030203Z">
@@ -19993,6 +20033,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T143221Z" creationid="Eli" creationdate="20201015T143221Z">
         <seg>变量&lt;c0&gt;org-agenda-window-setup&lt;/c0&gt;控制agenda buffer的显示方式，变量&lt;c1&gt;org-agenda-restore-windows-after-quit&lt;/c1&gt;决定在退出agenda后是否恢复之前的窗口配置状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Type &lt;k1&gt;M-5 C-u 0&lt;/k1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021019Z" creationid="grass" creationdate="20201209T021019Z">
+        <seg>键入&lt;k1&gt;M-5 C-u 0&lt;/k1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
