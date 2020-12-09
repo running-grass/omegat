@@ -4540,6 +4540,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After ‘&lt;s0&gt;Char:&lt;/s0&gt;’, this shows the character in the buffer at point.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T014427Z" creationid="grass" creationdate="20201209T014427Z">
+        <seg>在“&lt;s0&gt;Char:&lt;/s0&gt;”之后，显示缓冲区中的游标所在的字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Agenda Files</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201757Z" creationid="grass" creationdate="20201010T201757Z">
@@ -10508,6 +10516,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T014145Z" creationid="grass" creationdate="20201209T014145Z">
         <seg>如果选区处于活动状态，它将显示选区的计数，否则将显示缓冲区的计数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It displays a line in the echo area that looks like this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T014327Z" creationid="grass" creationdate="20201209T014327Z">
+        <seg>它在回显区显示为一行，如下所示：</seg>
       </tuv>
     </tu>
     <tu>
@@ -18607,6 +18623,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023530Z" creationid="grass" creationdate="20201203T023530Z">
         <seg>状态栏中显示的文本格式如下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The text inside the parenthesis shows the corresponding decimal, octal and hex character codes; for more information about how &lt;k1&gt;C-x =&lt;/k1&gt; displays character information, see &lt;a2&gt;International Chars&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T014514Z" creationid="grass" creationdate="20201209T014514Z">
+        <seg>括号内的文本显示相应的十进制、八进制和十六进制字符代码；有关&lt;k1&gt;C-x =&lt;/k1&gt;如何显示字符信息的详细信息，请参阅&lt;a2&gt;国际字符&lt;/a2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
