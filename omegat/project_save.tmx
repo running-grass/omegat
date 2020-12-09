@@ -3107,6 +3107,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>7.9</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013526Z" creationid="grass" creationdate="20201209T013526Z">
+        <seg>7.9</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>8 Dates and Times</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201031Z" creationid="grass" creationdate="20201010T201031Z">
@@ -6236,6 +6244,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Cursor Position Information</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013531Z" creationid="grass" creationdate="20201209T013531Z">
+        <seg>光标位置信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Custom Agenda Views</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202132Z" creationid="grass" creationdate="20201010T202132Z">
@@ -6592,6 +6608,30 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112351Z" creationid="grass" creationdate="20201014T112351Z">
         <seg>显示和更新大纲编号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Display the line number of point.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013555Z" creationid="grass" creationdate="20201209T013555Z">
+        <seg>显示游标的行号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Display the number of lines, words, and characters that are present in the buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013629Z" creationid="grass" creationdate="20201209T013629Z">
+        <seg>显示缓冲区中存在的行数、字数和字符数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Display the number of lines, words, and characters that are present in the region (&lt;c0&gt;count-words-region&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013616Z" creationid="grass" creationdate="20201209T013616Z">
+        <seg>显示区域中存在的行数、字数和字符数(&lt;c0&gt;count-word-region&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8480,6 +8520,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here are commands to get information about the size and position of parts of the buffer, and to count words and lines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013539Z" creationid="grass" creationdate="20201209T013539Z">
+        <seg>以下命令用于获取有关缓冲区各部分的大小和位置的信息，并对字数和行数进行计数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here are some examples, using only tags.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T143408Z" creationid="Eli" creationdate="20201022T143350Z">
@@ -9264,6 +9312,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the region is active (see &lt;a0&gt;Mark&lt;/a0&gt;), display the numbers for the region instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013649Z" creationid="grass" creationdate="20201209T013649Z">
+        <seg>如果该选区处于活动状态(请参阅&lt;a0&gt;标记&lt;/a0&gt;)，则改为显示该选区的数字。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the repeater is set for the scheduling information only, you probably want the repeater to be ignored after the deadline.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055706Z" creationid="grass" creationdate="20201016T055706Z">
@@ -9724,6 +9780,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055845Z" creationid="grass" creationdate="20201016T055845Z">
         <seg>如果希望在同一时间间隔后同时重复日程安排和截止日期信息，请为这两个时间戳设置相同的复读机。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to have a line number displayed before each line, see &lt;a1&gt;Display Custom&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013609Z" creationid="grass" creationdate="20201209T013609Z">
+        <seg>如果要在每行之前显示行号，请参阅&lt;a1&gt;显示自定义&lt;/a1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10916,6 +10980,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>M-=</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013611Z" creationid="grass" creationdate="20201209T013611Z">
+        <seg>M-=</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>M-&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150637Z" creationid="grass" creationdate="20201207T150637Z">
@@ -10996,6 +11068,30 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>M-x column-number-mode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013559Z" creationid="grass" creationdate="20201209T013559Z">
+        <seg>M-x column-number-mode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-x count-words</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013626Z" creationid="grass" creationdate="20201209T013626Z">
+        <seg>M-x count-words</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-x line-number-mode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013556Z" creationid="grass" creationdate="20201209T013556Z">
+        <seg>M-x line-number-mode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>M-x org-submit-bug-report &lt;RET&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061732Z" creationid="grass" creationdate="20201015T061732Z">
@@ -11016,6 +11112,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061744Z" creationid="grass" creationdate="20201015T061744Z">
         <seg>M-x toggle-debug-on-error &lt;RET&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-x what-line</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013543Z" creationid="grass" creationdate="20201209T013543Z">
+        <seg>M-x what-line</seg>
       </tuv>
     </tu>
     <tu>
@@ -16048,6 +16152,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;Mark&lt;/a1&gt;, for information about the region.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013625Z" creationid="grass" creationdate="20201209T013625Z">
+        <seg>有关选区的信息，请参阅&lt;a1&gt;标记&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a1&gt;Mode Line Mouse&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025753Z" creationid="grass" creationdate="20201203T025753Z">
@@ -19449,6 +19561,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025149Z" creationid="grass" creationdate="20201019T025149Z">
         <seg>在下一次更改后切换自动退出(见下文)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Toggle automatic display of the current line number or column number.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013605Z" creationid="grass" creationdate="20201209T013605Z">
+        <seg>切换当前行号或列号的自动显示。</seg>
       </tuv>
     </tu>
     <tu>
