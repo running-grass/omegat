@@ -7310,8 +7310,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="EN-US">
         <seg>During completion, Emacs tries each completion style in turn.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110116Z" creationid="grass" creationdate="20201212T110116Z">
-        <seg>在补全过程中，Emacs会依次尝试每种补全样式。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111003Z" creationid="grass" creationdate="20201212T110116Z">
+        <seg>在补全过程中，Emacs会依次尝试每种补全风格。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7410,8 +7410,8 @@ org和许多邮件用户代理；请参阅以下各节
       <tuv lang="EN-US">
         <seg>Each list element is the name of a completion style (a Lisp symbol).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110148Z" creationid="grass" creationdate="20201212T110148Z">
-        <seg>每个列表元素都是一个补全样式的名称(一个Lisp符号)。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111003Z" creationid="grass" creationdate="20201212T110148Z">
+        <seg>每个列表元素都是一个补全风格的名称(一个Lisp符号)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7658,8 +7658,8 @@ org和许多邮件用户代理；请参阅以下各节
       <tuv lang="EN-US">
         <seg>Emacs performs completion using one or more &lt;e0&gt;completion styles&lt;/e0&gt;—sets of criteria for matching minibuffer text to completion alternatives.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110105Z" creationid="grass" creationdate="20201212T110101Z">
-        <seg>Emacs使用一个或多个&lt;e0&gt;补全样式&lt;/e0&gt;-用于将迷你缓冲区文本与补全备选方案相匹配的标准集来执行补全。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111003Z" creationid="grass" creationdate="20201212T110101Z">
+        <seg>Emacs使用一个或多个&lt;e0&gt;补全风格&lt;/e0&gt;-用于将迷你缓冲区文本与补全备选方案相匹配的标准集来执行补全。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17634,8 +17634,8 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       <tuv lang="EN-US">
         <seg>See &lt;a2&gt;Completion Styles&lt;/a2&gt;, for how completion alternatives are chosen.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104759Z" creationid="grass" creationdate="20201212T104759Z">
-        <seg>有关如何选择补全备选方案，请参阅&lt;a2&gt;补全样式&lt;/a2&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111003Z" creationid="grass" creationdate="20201212T104759Z">
+        <seg>有关如何选择补全备选方案，请参阅&lt;a2&gt;补全风格&lt;/a2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19621,8 +19621,8 @@ databases, which hold and persist records.</seg>
       <tuv lang="EN-US">
         <seg>The default completion styles are (in order):</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110152Z" creationid="grass" creationdate="20201212T110152Z">
-        <seg>默认补全样式为(按顺序)：</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111003Z" creationid="grass" creationdate="20201212T110152Z">
+        <seg>默认补全风格为(按顺序)：</seg>
       </tuv>
     </tu>
     <tu>
@@ -19781,8 +19781,8 @@ databases, which hold and persist records.</seg>
       <tuv lang="EN-US">
         <seg>The following additional completion styles are also defined, and you can add them to &lt;c0&gt;completion-styles&lt;/c0&gt; if you wish (see &lt;a1&gt;Customization&lt;/a1&gt;):</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110421Z" creationid="grass" creationdate="20201212T110421Z">
-        <seg>还定义了以下其他完成样式，如果您愿意，可以将它们添加到&lt;c0&gt;补全样式&lt;/c0&gt;中(请参阅&lt;a1&gt;自定义&lt;/a1&gt;)：</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111003Z" creationid="grass" creationdate="20201212T110421Z">
+        <seg>还定义了以下其他完成样式，如果您愿意，可以将它们添加到&lt;c0&gt;补全风格&lt;/c0&gt;中(请参阅&lt;a1&gt;自定义&lt;/a1&gt;)：</seg>
       </tuv>
     </tu>
     <tu>
@@ -19949,8 +19949,8 @@ databases, which hold and persist records.</seg>
       <tuv lang="EN-US">
         <seg>The list variable &lt;c0&gt;completion-styles&lt;/c0&gt; specifies the completion styles to use.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110143Z" creationid="grass" creationdate="20201212T110143Z">
-        <seg>列表变量&lt;c0&gt;completion-styles&lt;/c0&gt;指定要使用的补全样式。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111003Z" creationid="grass" creationdate="20201212T110143Z">
+        <seg>列表变量&lt;c0&gt;completion-styles&lt;/c0&gt;指定要使用的补全风格。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20491,8 +20491,8 @@ stores its records.</seg>
       <tuv lang="EN-US">
         <seg>There is also a very simple completion style called &lt;c0&gt;emacs21&lt;/c0&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110735Z" creationid="grass" creationdate="20201212T110735Z">
-        <seg>还有一种非常简单的补全样式，称为&lt;c0&gt;emacs21&lt;/c0&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111003Z" creationid="grass" creationdate="20201212T110735Z">
+        <seg>还有一种非常简单的补全风格，称为&lt;c0&gt;emacs21&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20607,8 +20607,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>This aggressive completion style divides the minibuffer text into words separated by hyphens or spaces, and completes each word separately.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110305Z" creationid="grass" creationdate="20201212T110305Z">
-        <seg>这种积极的补全样式将迷你缓冲区文本分成用连字符或空格分隔的单词，并分别完成每个单词。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111003Z" creationid="grass" creationdate="20201212T110305Z">
+        <seg>这种积极的补全风格将迷你缓冲区文本分成用连字符或空格分隔的单词，并分别完成每个单词。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20775,8 +20775,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>This completion style is similar to &lt;c0&gt;basic&lt;/c0&gt;, except that it ignores the text in the minibuffer after point.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110400Z" creationid="grass" creationdate="20201212T110400Z">
-        <seg>此补全样式类似于&lt;c0&gt;basic&lt;/c0&gt;，不同之处在于它忽略了迷你缓冲区中游标之后的文本。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111003Z" creationid="grass" creationdate="20201212T110400Z">
+        <seg>此补全风格类似于&lt;c0&gt;basic&lt;/c0&gt;，不同之处在于它忽略了迷你缓冲区中游标之后的文本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21087,8 +21087,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>This very aggressive completion style attempts to complete acronyms and initialisms.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110713Z" creationid="grass" creationdate="20201212T110713Z">
-        <seg>这种非常激进的补全样式视图补全缩略词和缩写。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111003Z" creationid="grass" creationdate="20201212T110713Z">
+        <seg>这种非常激进的补全风格视图补全缩略词和缩写。</seg>
       </tuv>
     </tu>
     <tu>
@@ -56900,8 +56900,8 @@ Introduction</seg>
       <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Completion Styles&lt;/a0&gt;:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103917Z" creationid="grass" creationdate="20201212T103815Z">
-        <seg>• &lt;a0&gt;补全样式&lt;/a0&gt;:</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111003Z" creationid="grass" creationdate="20201212T103815Z">
+        <seg>• &lt;a0&gt;补全风格&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
