@@ -5172,6 +5172,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Any element ending in a slash (&lt;s1&gt;/&lt;/s1&gt;) represents a subdirectory name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111550Z" creationid="grass" creationdate="20201212T111550Z">
+        <seg>任何以斜杠(&lt;s1&gt;/&lt;/s1&gt;)结尾的元素都表示一个子目录名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Any leading directory name in front of the &lt;s7&gt;~&lt;/s7&gt; is ignored: thus, &lt;s8&gt;/u2/emacs/~/foo/bar.txt&lt;/s8&gt; is equivalent to &lt;s9&gt;~/foo/bar.txt&lt;/s9&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101356Z" creationid="grass" creationdate="20201212T101356Z">
@@ -7416,6 +7424,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each element in the list should be a string; any file name ending in such a string is ignored as a completion alternative.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111539Z" creationid="grass" creationdate="20201212T111539Z">
+        <seg>列表中的每个元素都应该是一个字符串；任何以这样的字符串结尾的文件名都会被忽略，作为补全选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each element in the search is either a tag, a regular expression matching tags, or an expression like ‘&lt;s4&gt;PROPERTY OPERATOR VALUE&lt;/s4&gt;’ with a comparison operator, accessing a property value.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T142927Z" creationid="Eli" creationdate="20201022T142545Z">
@@ -7636,6 +7652,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112844Z" creationid="grass" creationdate="20201016T112742Z">
         <seg>Emacs包含了Edward M. Reingold的日历和日记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Emacs disregards &lt;c13&gt;completion-ignored-extensions&lt;/c13&gt; when showing completion alternatives in the completion list.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111651Z" creationid="grass" creationdate="20201212T111651Z">
+        <seg>在补全列表中显示补全备选选项时，Emacs忽略&lt;c13&gt;completion-ignored-extensions&lt;/c13&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8580,6 +8604,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104201Z" creationid="grass" creationdate="20201212T104201Z">
         <seg>例如，如果定义了名为&lt;c9&gt;authorize-me&lt;/c9&gt;的命令，则Emacs只能在“&lt;s10&gt;aut&lt;/s10&gt;”范围内补全。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, if a directory contains ‘&lt;s6&gt;foo.c&lt;/s6&gt;’ and ‘&lt;s7&gt;foo.elc&lt;/s7&gt;’, ‘&lt;s8&gt;foo&lt;/s8&gt;’ completes to ‘&lt;s9&gt;foo.c&lt;/s9&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111611Z" creationid="grass" creationdate="20201212T111611Z">
+        <seg>例如，如果目录包含“&lt;s6&gt;foo.c&lt;/s6&gt;”和“&lt;s7&gt;foo.elc&lt;/s7&gt;”，则“&lt;s8&gt;foo&lt;/s8&gt;”将补全为“&lt;s9&gt;foo.c&lt;/s9&gt;”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9800,6 +9832,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, if &lt;e10&gt;all&lt;/e10&gt; possible completions end in otherwise-ignored strings, they are not ignored: in the previous example, ‘&lt;s11&gt;foo.e&lt;/s11&gt;’ completes to ‘&lt;s12&gt;foo.elc&lt;/s12&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111639Z" creationid="grass" creationdate="20201212T111639Z">
+        <seg>但是，如果&lt;e10&gt;所有&lt;/e10&gt;可能的补全都以其他被忽略的字符串结尾，则它们不会被忽略：在上一个示例中，“&lt;s11&gt;foo.e&lt;/s11&gt;”补全于“&lt;s12&gt;foo.elc&lt;/s12&gt;”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, if the command you want to repeat prompts for input, or uses a numeric argument in another way, that method won’t work.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T022244Z" creationid="grass" creationdate="20201209T022244Z">
@@ -9988,6 +10028,22 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080535Z" creationid="grass" creationdate="20201015T080535Z">
         <seg>我通常在同一时间有大约30个正在进行的项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If &lt;c0&gt;completion-auto-help&lt;/c0&gt; is set to &lt;c1&gt;nil&lt;/c1&gt;, the completion commands never display the completion list buffer; you must type &lt;k2&gt;?&lt;/k2&gt; to display the list.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111716Z" creationid="grass" creationdate="20201212T111716Z">
+        <seg>如果&lt;c0&gt;completion-auto-help&lt;/c0&gt;设置为&lt;c1&gt;nil&lt;/c1&gt;，则补全命令永远不会显示补全列表缓冲区；您必须键入&lt;k2&gt;？&lt;/k2&gt;才能显示列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If &lt;c0&gt;completion-cycle-threshold&lt;/c0&gt; is non-&lt;c1&gt;nil&lt;/c1&gt;, completion commands can cycle through completion alternatives.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111810Z" creationid="grass" creationdate="20201212T111810Z">
+        <seg>如果&lt;c0&gt;completion-cycle-threshold&lt;/c0&gt;为非&lt;c1&gt;nil&lt;/c1&gt;，则补全命令可以循环补全备选方案。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10348,6 +10404,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T102146Z" creationid="grass" creationdate="20201212T102146Z">
         <seg>如果该值为&lt;c2&gt;t&lt;/c2&gt;，如果您从迷你缓冲区中删除一些文本行，则迷你缓冲区窗口也会自动缩小，最小只有一个屏幕行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the value is &lt;c3&gt;lazy&lt;/c3&gt;, Emacs only shows the completion list buffer on the second attempt to complete.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111726Z" creationid="grass" creationdate="20201212T111726Z">
+        <seg>如果值为&lt;c3&gt;lazy&lt;/c3&gt;，则Emacs仅在第二次尝试补全时显示补全列表缓冲区。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11092,6 +11156,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023406Z" creationid="grass" creationdate="20201019T023335Z">
         <seg>在其他议程类型中，&lt;c2&gt;org-use-tag-inheritance&lt;/c2&gt;的设置无效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In other words, if there is nothing to complete, the first &lt;t4&gt;TAB&lt;/t4&gt; echoes ‘&lt;s5&gt;Next char not unique&lt;/s5&gt;’; the second &lt;t6&gt;TAB&lt;/t6&gt; shows the completion list buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111800Z" creationid="grass" creationdate="20201212T111800Z">
+        <seg>换句话说，如果没有要补全的内容，则第一个&lt;t4&gt;TAB&lt;/t4&gt;回显“&lt;s5&gt;Next char not only&lt;/s5&gt;”；第二个&lt;t6&gt;TAB&lt;/t6&gt;显示补全列表缓冲区。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15044,6 +15116,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Normally, if there is more than one completion alternative for the text in the minibuffer, a completion command completes up to the longest common substring.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111827Z" creationid="grass" creationdate="20201212T111827Z">
+        <seg>通常，如果迷你缓冲区中的文本有多个可选补全选项，则补全命令最多会补全到最长的公共子字符串。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Normally, the minibuffer window occupies a single screen line.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T102050Z" creationid="grass" creationdate="20201212T102050Z">
@@ -18072,6 +18152,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Shell completion is an extended version of filename completion, see &lt;a0&gt;Shell Options&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111701Z" creationid="grass" creationdate="20201212T111701Z">
+        <seg>Shell补全是文件名完成的扩展版本，请参阅&lt;a0&gt;Shell选项&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Short messages appear at the bottom of the screen.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T115054Z" creationid="grass" creationdate="20201130T115054Z">
@@ -20251,6 +20339,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The standard value of &lt;c2&gt;completion-ignored-extensions&lt;/c2&gt; has several elements including &lt;c3&gt;".o"&lt;/c3&gt;, &lt;c4&gt;".elc"&lt;/c4&gt;, and &lt;c5&gt;"~"&lt;/c5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111601Z" creationid="grass" creationdate="20201212T111601Z">
+        <seg>&lt;c2&gt;completion-ignored-extensions&lt;/c2&gt;的标准值有几个元素，包括&lt;c3&gt;“.o”&lt;/c3&gt;、&lt;c4&gt;“.elc”&lt;/c4&gt;和&lt;c5&gt;“~”&lt;/c5&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The syntax of capture templates is explained &lt;a0&gt;here&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075759Z" creationid="grass" creationdate="20201015T075759Z">
@@ -22426,6 +22522,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111514Z" creationid="grass" creationdate="20201212T111514Z">
         <seg>补全缓冲区名称时，如果变量&lt;c4&gt;read-buffer-completion-ignore-case&lt;/c4&gt;非&lt;c5&gt;nil&lt;/c5&gt;，则忽略大小写差异；默认值为&lt;c6&gt;nil&lt;/c6&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When completing file names, Emacs usually omits certain alternatives that are considered unlikely to be chosen, as determined by the list variable &lt;c0&gt;completion-ignored-extensions&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111529Z" creationid="grass" creationdate="20201212T111529Z">
+        <seg>在补全文件名时，Emacs通常会省略某些被认为不太可能选择的备选方案，这由列表变量&lt;c0&gt;completion-ignored-extensions&lt;/c0&gt;确定。</seg>
       </tuv>
     </tu>
     <tu>
