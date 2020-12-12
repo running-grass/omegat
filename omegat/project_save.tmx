@@ -4011,6 +4011,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;M-x&lt;/k0&gt; uses the minibuffer to read the name of a command, so completion works by matching the minibuffer text against the names of existing Emacs commands.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103955Z" creationid="grass" creationdate="20201212T103955Z">
+        <seg>&lt;k0&gt;M-x&lt;/k0&gt;使用迷你缓冲区读取命令的名称，因此补全是通过将迷你缓冲区文本与现有Emacs命令的名称进行匹配来实现的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;S-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-global-cycle&lt;/c2&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061820Z" creationid="grass" creationdate="20201015T061820Z">
@@ -4408,6 +4416,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T142649Z" creationid="Eli" creationdate="20201022T142351Z">
         <seg>搜索过程可以使用布尔运算符. `&amp;`表示`与`,`|`表示`或`.  </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A simple example may help here.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103939Z" creationid="grass" creationdate="20201212T103939Z">
+        <seg>这里有一个简单的例子可能会有所帮助。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6296,6 +6312,22 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052823Z" creationid="grass" creationdate="20201013T052823Z">
         <seg>补全功能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Completion Example</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103937Z" creationid="grass" creationdate="20201212T103937Z">
+        <seg>补全示例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Completion and minibuffer text submission.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103800Z" creationid="grass" creationdate="20201212T103800Z">
+        <seg>补全并且提交迷你缓冲区文本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9220,6 +9252,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T144002Z" creationid="grass" creationdate="20201014T103015Z">
         <seg>议程事项的显示方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How completion matches are chosen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103827Z" creationid="grass" creationdate="20201212T103827Z">
+        <seg>选择补全匹配的方式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15028,6 +15068,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Options for completion.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103929Z" creationid="grass" creationdate="20201212T103929Z">
+        <seg>补全的选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Options for exporting tables to LaTeX.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105633Z" creationid="grass" creationdate="20201014T105633Z">
@@ -18148,6 +18196,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013013Z" creationid="grass" creationdate="20201208T013013Z">
         <seg>假设您的主目录中有一个名为&lt;s0&gt;test.emacs&lt;/s0&gt;的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Suppose you wish to run the command &lt;c1&gt;auto-fill-mode&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104010Z" creationid="grass" creationdate="20201212T104002Z">
+        <seg>假设您希望运行命令&lt;c1&gt;auto-fill-mode&lt;/c1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22434,6 +22490,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074008Z" creationid="grass" creationdate="20201205T074008Z">
         <seg>您可以自定义这些键以运行您选择的任何命令(请参阅&lt;a5&gt;键绑定&lt;/a5&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can do that by typing &lt;k2&gt;M-x auto-fill-mode &lt;s3&gt;RET&lt;/s3&gt;&lt;/k2&gt;, but it is easier to use completion.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104022Z" creationid="grass" creationdate="20201212T104022Z">
+        <seg>您可以通过键入&lt;k2&gt;M-x auto-fill-mode&lt;s3&gt;RET&lt;/s3&gt;&lt;/k2&gt;来做到这一点，但是使用完成更容易。</seg>
       </tuv>
     </tu>
     <tu>
@@ -56054,6 +56118,22 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103718Z" creationid="grass" creationdate="20201212T103718Z">
         <seg>• &lt;a0&gt;补全退出&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Completion Options&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103925Z" creationid="grass" creationdate="20201212T103925Z">
+        <seg>• &lt;a0&gt;补全选项&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Completion Styles&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103917Z" creationid="grass" creationdate="20201212T103815Z">
+        <seg>• &lt;a0&gt;补全样式&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
