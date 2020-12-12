@@ -7384,6 +7384,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Emacs normally disallows most commands that use the minibuffer while the minibuffer is active.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103156Z" creationid="grass" creationdate="20201212T103156Z">
+        <seg>在迷你缓冲区处于活动状态时，Emacs通常不允许大多数使用迷你缓冲区的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Emacs obeys this command by &lt;e0&gt;visiting&lt;/e0&gt; the file: it creates a buffer, copies the contents of the file into the buffer, and then displays the buffer for editing.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013118Z" creationid="grass" creationdate="20201208T013118Z">
@@ -17280,6 +17288,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a9&gt;Other Window&lt;/a9&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T102952Z" creationid="grass" creationdate="20201212T102952Z">
+        <seg>请参见&lt;a9&gt;其他窗口&lt;/a9&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See also the variable &lt;c0&gt;org-goto-interface&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063310Z" creationid="grass" creationdate="20201015T063310Z">
@@ -20205,6 +20221,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is especially useful with long lists of possible completions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T102944Z" creationid="grass" creationdate="20201212T102932Z">
+        <seg>对于可能补全的长列表，这尤其有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is information from the built-in debugger about where and how the error occurred.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130126Z" creationid="grass" creationdate="20201005T130103Z">
@@ -22234,6 +22258,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T080752Z" creationid="grass" creationdate="20201130T080752Z">
         <seg>您还可以从&lt;a4&gt;FSF商店&lt;/a4&gt;购买打印版。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also scroll the help text with &lt;k1&gt;M-&lt;s2&gt;PageUp&lt;/s2&gt;&lt;/k1&gt; and &lt;k3&gt;M-&lt;s4&gt;PageDown&lt;/s4&gt;&lt;/k3&gt; (or, equivalently, &lt;k5&gt;M-&lt;s6&gt;prior&lt;/s6&gt;&lt;/k5&gt; and &lt;k7&gt;M-&lt;s8&gt;next&lt;/s8&gt;&lt;/k7&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T102856Z" creationid="grass" creationdate="20201212T102856Z">
+        <seg>您还可以使用&lt;k1&gt;M-&lt;s2&gt;PageUp&lt;/s2&gt;&lt;/k1&gt;和&lt;k3&gt;M-&lt;s4&gt;PageDown&lt;/s4&gt;&lt;/k3&gt;(或等效的&lt;k5&gt;M-&lt;s6&gt;prior&lt;/s6&gt;&lt;/k5&gt;和&lt;k7&gt;M-&lt;/s8&gt;next&lt;/s8&gt;&lt;/k7&gt;)滚动帮助文本。</seg>
       </tuv>
     </tu>
     <tu>
