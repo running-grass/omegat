@@ -10392,6 +10392,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you use a dedicated frame for minibuffers, Emacs also recognizes certain keys there, for example, &lt;k3&gt;n&lt;/k3&gt; to make a new frame.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103429Z" creationid="grass" creationdate="20201212T103429Z">
+        <seg>如果您为迷你缓冲区使用专用窗体，Emacs还会识别那里的某些关键点，例如，&lt;k3&gt;n&lt;/k3&gt;来创建新窗体。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you use multiple frames on a graphical display, selecting a particular frame selects a window in that frame.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T115017Z" creationid="grass" creationdate="20201130T115017Z">
@@ -20517,6 +20525,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To allow such commands in the minibuffer, set the variable &lt;c0&gt;enable-recursive-minibuffers&lt;/c0&gt; to &lt;c1&gt;t&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103213Z" creationid="grass" creationdate="20201212T103213Z">
+        <seg>要在迷你缓冲区中允许这样的命令，请将变量&lt;c0&gt;enable-recursive-minibuffers&lt;/c0&gt;设置为&lt;c1&gt;t&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To begin editing this file in Emacs, type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013016Z" creationid="grass" creationdate="20201208T013016Z">
@@ -21670,6 +21686,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When not active, the minibuffer is in &lt;c0&gt;minibuffer-inactive-mode&lt;/c0&gt;, and clicking &lt;k1&gt;mouse-1&lt;/k1&gt; there shows the &lt;s2&gt;*Messages*&lt;/s2&gt; buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103346Z" creationid="grass" creationdate="20201212T103346Z">
+        <seg>不活动时，迷你缓冲区处于&lt;c0&gt;minibuffer-inactive-mode&lt;/c0&gt;，单击&lt;k1&gt;鼠标&lt;/k1&gt;会显示&lt;s2&gt;*Messages*&lt;/s2&gt;缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When on a headline, press &lt;c0&gt;C-c C-t&lt;/c0&gt; to set the TODO keyword.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T081642Z" creationid="grass" creationdate="20201015T081642Z">
@@ -22658,6 +22682,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024021Z" creationid="grass" creationdate="20201019T024021Z">
         <seg>您可以通过将“&lt;s2&gt;STARTUP&lt;/s2&gt;”关键字添加到该文件来逐个文件关闭此功能：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You might need also to enable &lt;c2&gt;minibuffer-depth-indicate-mode&lt;/c2&gt; to show the current recursion depth in the minibuffer prompt on recursive use of the minibuffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103320Z" creationid="grass" creationdate="20201212T103320Z">
+        <seg>您可能还需要启用&lt;c2&gt;minibuffer-depth-indicate-mode&lt;/c2&gt;，以便在递归使用迷你缓冲区时在迷你缓冲区提示符中显示当前的递归深度。</seg>
       </tuv>
     </tu>
     <tu>
