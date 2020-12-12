@@ -7840,6 +7840,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Entering arguments that are prompted for.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T112929Z" creationid="grass" creationdate="20201212T112929Z">
+        <seg>输入提示的参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Entering file names with the minibuffer.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094122Z" creationid="grass" creationdate="20201212T094122Z">
@@ -12680,6 +12688,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032846Z" creationid="grass" creationdate="20201203T032846Z">
         <seg>菜单栏</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Minibuffer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T112906Z" creationid="grass" creationdate="20201212T112906Z">
+        <seg>迷你缓冲区</seg>
       </tuv>
     </tu>
     <tu>
