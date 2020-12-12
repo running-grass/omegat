@@ -4099,6 +4099,22 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;t0&gt;SPC&lt;/t0&gt; (&lt;c1&gt;minibuffer-complete-word&lt;/c1&gt;) completes like &lt;t2&gt;TAB&lt;/t2&gt;, but only up to the next hyphen or space.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104837Z" creationid="grass" creationdate="20201212T104837Z">
+        <seg>&lt;t0&gt;SPC&lt;/t0&gt;(&lt;c1&gt;minibuffer-complete-word&lt;/c1&gt;)像&lt;t2&gt;TAB&lt;/t2&gt;一样补全，但只到下一个连字符或空格。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;t0&gt;TAB&lt;/t0&gt; (&lt;c1&gt;minibuffer-complete&lt;/c1&gt;) is the most fundamental completion command.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104720Z" creationid="grass" creationdate="20201212T104715Z">
+        <seg>&lt;t0&gt;TAB&lt;/t0&gt;(&lt;c1&gt;minibuffer-complete&lt;/c1&gt;)是最基本的补全命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;v0&gt;buf&lt;/v0&gt; is the name of the buffer displayed in the window.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024539Z" creationid="grass" creationdate="20201203T024539Z">
@@ -4159,6 +4175,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024632Z" creationid="grass" creationdate="20201203T024632Z">
         <seg>&lt;v0&gt;pos&lt;/v0&gt;告诉您窗口顶部上方还是底部下方有其他文本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104658Z" creationid="grass" creationdate="20201212T104658Z">
+        <seg>?</seg>
       </tuv>
     </tu>
     <tu>
@@ -5024,6 +5048,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T113329Z" creationid="grass" creationdate="20201016T113329Z">
         <seg>来自BBDB的周年纪念</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Another &lt;t8&gt;SPC&lt;/t8&gt; at this point completes all the way to ‘&lt;s9&gt;auto-fill-mode&lt;/s9&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104930Z" creationid="grass" creationdate="20201212T104930Z">
+        <seg>此时，另一个&lt;t8&gt;SPC&lt;/t8&gt;将一直完成到“&lt;s9&gt;auto-fill-mode&lt;/s9&gt;”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6984,6 +7016,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063246Z" creationid="grass" creationdate="20201015T063246Z">
         <seg>数字参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Display a list of completions (&lt;c0&gt;minibuffer-completion-help&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104708Z" creationid="grass" creationdate="20201212T104708Z">
+        <seg>显示补全列表(&lt;c0&gt;minibuffer-completion-help&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9744,6 +9784,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If &lt;t0&gt;TAB&lt;/t0&gt; or &lt;t1&gt;SPC&lt;/t1&gt; is unable to complete, it displays a list of matching completion alternatives (if there are any) in another window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104944Z" creationid="grass" creationdate="20201212T104944Z">
+        <seg>如果&lt;t0&gt;TAB&lt;/t0&gt;或&lt;t1&gt;SPC&lt;/t1&gt;无法补全，它会在另一个窗口中显示匹配的补全备选方案(如果有)的列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If &lt;v4&gt;N&lt;/v4&gt; is negative then go up that many levels.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T180601Z" creationid="grass" creationdate="20201010T180601Z">
@@ -10348,6 +10396,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030512Z" creationid="grass" creationdate="20201205T030512Z">
         <seg>如果遇到此问题，您可以自定义窗口管理器，使其不拦截那些键，或者重新绑定受影响的Emacs命令(请参阅&lt;a6&gt;自定义&lt;/a6&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you have ‘&lt;s3&gt;auto-f&lt;/s3&gt;’ in the minibuffer and type &lt;t4&gt;SPC&lt;/t4&gt;, it finds that the completion is ‘&lt;s5&gt;auto-fill-mode&lt;/s5&gt;’, but it only inserts ‘&lt;s6&gt;ill-&lt;/s6&gt;’, giving ‘&lt;s7&gt;auto-fill-&lt;/s7&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104921Z" creationid="grass" creationdate="20201212T104921Z">
+        <seg>如果在迷你缓冲区中有“&lt;s3&gt;auto-f&lt;/s3&gt;”并键入&lt;t4&gt;SPC&lt;/t4&gt;，它会发现补全是“&lt;s5&gt;auto-fill-mode&lt;/s5&gt;”，但它只插入“&lt;s6&gt;ill-&lt;/s6&gt;”，给出“&lt;s7&gt;auto-ill-&lt;/s7&gt;”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11324,6 +11380,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075801Z" creationid="grass" creationdate="20201015T075801Z">
         <seg>它提供了很多定制选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It searches for all possible completions that match the existing minibuffer text, and attempts to complete as much as it can.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104743Z" creationid="grass" creationdate="20201212T104743Z">
+        <seg>它搜索与现有迷你缓冲区文本匹配的所有可能的补全，并尝试尽可能多地补全。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17200,6 +17264,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;Completion Exit&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104656Z" creationid="grass" creationdate="20201212T104656Z">
+        <seg>请参见&lt;a1&gt;补全退出&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a1&gt;Emacs Server&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072835Z" creationid="grass" creationdate="20201205T072835Z">
@@ -17284,6 +17356,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031618Z" creationid="grass" creationdate="20201205T031618Z">
         <seg>请参阅&lt;a23&gt;键绑定&lt;/a23&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a2&gt;Completion Styles&lt;/a2&gt;, for how completion alternatives are chosen.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104759Z" creationid="grass" creationdate="20201212T104759Z">
+        <seg>有关如何选择补全备选方案，请参阅&lt;a2&gt;补全样式&lt;/a2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
