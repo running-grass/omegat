@@ -270,3 +270,4 @@ killing	剪切
 continue	接续
 truncate	截断
 colon	冒号
+tilde	波浪号
