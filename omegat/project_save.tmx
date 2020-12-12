@@ -4308,6 +4308,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A floating-point number specifies a fraction of the frame’s height; an integer specifies the maximum number of lines; &lt;c1&gt;nil&lt;/c1&gt; means do not resize the minibuffer window automatically.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T102333Z" creationid="grass" creationdate="20201212T102333Z">
+        <seg>浮点数表示占窗体的比例；整数表示指定最大行数；&lt;c1&gt;nil&lt;/c1&gt;表示不自动调整迷你缓冲区窗口的大小。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A good way to force a normal yank is &lt;k5&gt;C-u C-y&lt;/k5&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064823Z" creationid="grass" creationdate="20201015T064823Z">
@@ -18635,6 +18643,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;k0&gt;C-M-v&lt;/k0&gt; command in the minibuffer scrolls the help text from commands that display help text of any sort in another window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T102820Z" creationid="grass" creationdate="20201212T102820Z">
+        <seg>在任何窗口中都可以使用&lt;k0&gt;C-M-v&lt;/k0&gt;命令来滚动显示在迷你缓冲区中的帮助文本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;k0&gt;r&lt;/k0&gt; key in the agenda buffer regenerates it, and you can give a prefix argument to this command to change the selected TODO keyword, for example &lt;k1&gt;3 r&lt;/k1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T140951Z" creationid="Eli" creationdate="20201021T140951Z">
@@ -19039,6 +19055,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112511Z" creationid="grass" creationdate="20201016T112511Z">
         <seg>议程中显示的默认天数由变量&lt;c0&gt;org-agenda-span&lt;/c0&gt;设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The default value is 0.25.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T102336Z" creationid="grass" creationdate="20201212T102336Z">
+        <seg>默认值为0.25。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19663,6 +19687,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073109Z" creationid="grass" creationdate="20201205T073109Z">
         <seg>&lt;c1&gt;initial-buffer-choice&lt;/c1&gt;的值也可以是一个函数(没有参数)，它应该返回一个缓冲区，然后显示该缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The variable &lt;c0&gt;max-mini-window-height&lt;/c0&gt; controls the maximum height for resizing the minibuffer window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T102207Z" creationid="grass" creationdate="20201212T102207Z">
+        <seg>变量&lt;c0&gt;max-mini-window-height&lt;/c0&gt;控制调整迷你缓冲区窗口大小的最大高度。</seg>
       </tuv>
     </tu>
     <tu>
