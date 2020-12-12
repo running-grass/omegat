@@ -8624,6 +8624,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, the default setting says to use only &lt;c1&gt;basic&lt;/c1&gt; and &lt;c2&gt;substring&lt;/c2&gt; completion for buffer names.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110934Z" creationid="grass" creationdate="20201212T110934Z">
+        <seg>例如，默认设置表示为缓冲区名称仅使用&lt;c1&gt;basic&lt;/c1&gt;和&lt;c2&gt;substring&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, the following all insert the same character:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091939Z" creationid="grass" creationdate="20201205T091939Z">
@@ -8644,6 +8652,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032649Z" creationid="grass" creationdate="20201205T032649Z">
         <seg>例如，我们会说“命令&lt;k1&gt;C-n&lt;/k1&gt;(&lt;c2&gt;next-line&lt;/c2&gt;)垂直下移一行”，即&lt;c3&gt;next-line&lt;/c3&gt;命令是垂直下移一行，正常情况下&lt;k4&gt;C-n&lt;/k4&gt;键绑定到该命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, when completing command names, it matches ‘&lt;s0&gt;lch&lt;/s0&gt;’ to ‘&lt;s1&gt;list-command-history&lt;/s1&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110727Z" creationid="grass" creationdate="20201212T110727Z">
+        <seg>例如，在补全命令名时，它将“&lt;s0&gt;lch&lt;/s0&gt;”与“&lt;s1&gt;list-command-history&lt;/s1&gt;”匹配。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11172,6 +11188,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032348Z" creationid="grass" creationdate="20201205T032328Z">
         <seg>在本手册中，我们经常将&lt;k0&gt;C-n&lt;/k0&gt;这样的快捷键称为命令，即使严格地说，快捷键是绑定到命令的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this style, if the text in the minibuffer is ‘&lt;s1&gt;foobar&lt;/s1&gt;’, only matches starting with ‘&lt;s2&gt;foobar&lt;/s2&gt;’ are considered.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110750Z" creationid="grass" creationdate="20201212T110750Z">
+        <seg>在此风格中，如果迷你缓冲区中的文本是“&lt;s1&gt;foobar&lt;/s1&gt;”，则只考虑以“&lt;s2&gt;foobar&lt;/s2&gt;”开头的匹配项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20465,6 +20489,14 @@ stores its records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There is also a very simple completion style called &lt;c0&gt;emacs21&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110735Z" creationid="grass" creationdate="20201212T110735Z">
+        <seg>还有一种非常简单的补全样式，称为&lt;c0&gt;emacs21&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There is no limit to the length of key sequences, but in practice they are seldom longer than three or four input events.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031148Z" creationid="grass" creationdate="20201205T031148Z">
@@ -21049,6 +21081,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112614Z" creationid="grass" creationdate="20201016T112521Z">
         <seg>此变量可以设置为您希望在议程中默认看到的任意天数，也可以设置为范围名称，例如&lt;c1&gt;日&lt;/c1&gt;、&lt;c2&gt;周&lt;/c2&gt;、&lt;c3&gt;月&lt;/c3&gt;或&lt;c4&gt;年&lt;/c4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This very aggressive completion style attempts to complete acronyms and initialisms.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110713Z" creationid="grass" creationdate="20201212T110713Z">
+        <seg>这种非常激进的补全样式视图补全缩略词和缩写。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23362,6 +23402,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091227Z" creationid="grass" creationdate="20201205T091227Z">
         <seg>您可以使用任意数量的八进制数字；任何非数字都可以终止序列。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use different completion styles in different situations, by setting the variable &lt;c0&gt;completion-category-overrides&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110801Z" creationid="grass" creationdate="20201212T110801Z">
+        <seg>通过设置变量&lt;c0&gt;completion-category-overrides&lt;/c0&gt;，您可以在不同的情况下使用不同的完成样式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -55926,6 +55974,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T083622Z" creationid="grass" creationdate="20201130T083622Z">
         <seg>#ls-in-Lisp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>initials</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110600Z" creationid="grass" creationdate="20201212T110600Z">
+        <seg>initials</seg>
       </tuv>
     </tu>
     <tu>
