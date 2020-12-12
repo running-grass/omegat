@@ -3315,6 +3315,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>8.4.4</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105945Z" creationid="grass" creationdate="20201212T105945Z">
+        <seg>8.4.4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>8.5</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061107Z" creationid="grass" creationdate="20201015T061107Z">
@@ -4424,6 +4432,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025004Z" creationid="grass" creationdate="20201203T025004Z">
         <seg>主模式是缓冲区的主要编辑模式，诸如文本模式、Lisp模式、C模式等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A matching completion alternative must have the same beginning as the text in the minibuffer before point.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110210Z" creationid="grass" creationdate="20201212T110210Z">
+        <seg>匹配的补全替换必须与迷你缓冲区中游标之前的文本具有相同的开头。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6468,6 +6484,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Completion commands work by narrowing a large list of possible completion alternatives to a smaller subset that matches what you have typed in the minibuffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110022Z" creationid="grass" creationdate="20201212T110022Z">
+        <seg>补全命令的工作方式是将可能的补全备选方案的大列表缩小到与您在迷你缓冲区中键入的内容相匹配的较小子集。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Complex formulas made easy.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104053Z" creationid="grass" creationdate="20201014T104053Z">
@@ -7268,6 +7292,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>During completion, Emacs tries each completion style in turn.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110116Z" creationid="grass" creationdate="20201212T110116Z">
+        <seg>在补全过程中，Emacs会依次尝试每种补全样式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>During each weekly review, I move projects back and forth between the “active” state (in &lt;c0&gt;gtd.org&lt;/c0&gt;) and “later” state (in &lt;c1&gt;someday.org&lt;/c1&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201105T051012Z" creationid="grass" creationdate="20201015T083619Z">
@@ -7356,6 +7388,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113913Z" creationid="grass" creationdate="20201130T113853Z">
         <seg>每个窗体由几个不同的区域组成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each list element is the name of a completion style (a Lisp symbol).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110148Z" creationid="grass" creationdate="20201212T110148Z">
+        <seg>每个列表元素都是一个补全样式的名称(一个Lisp符号)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7512,6 +7552,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Emacs attempts to offer plausible completions under most circumstances.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110044Z" creationid="grass" creationdate="20201212T110039Z">
+        <seg>Emacs试图在大多数情况下提供看似合理的补全。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Emacs behaves very similarly on both kinds of frames.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113805Z" creationid="grass" creationdate="20201130T113805Z">
@@ -7588,6 +7636,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013118Z" creationid="grass" creationdate="20201208T013118Z">
         <seg>Emacs遵循此命令，&lt;e0&gt;访问&lt;/e0&gt;文件：它创建一个缓冲区，将文件内容复制到缓冲区中，然后显示缓冲区进行编辑。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Emacs performs completion using one or more &lt;e0&gt;completion styles&lt;/e0&gt;—sets of criteria for matching minibuffer text to completion alternatives.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110105Z" creationid="grass" creationdate="20201212T110101Z">
+        <seg>Emacs使用一个或多个&lt;e0&gt;补全样式&lt;/e0&gt;-用于将迷你缓冲区文本与补全备选方案相匹配的标准集来执行补全。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8912,6 +8968,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Furthermore, if there is any text in the minibuffer after point, the rest of the completion alternative must contain that text as a substring.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110228Z" creationid="grass" creationdate="20201212T110228Z">
+        <seg>此外，如果在游标之后的微型缓冲区中有任何文本，则补全备选方案的剩余部分必须将该文本作为子字符串包含。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Furthermore, if you are using an input method, &lt;v1&gt;cs&lt;/v1&gt; is preceded by a string that identifies the input method (see &lt;a2&gt;Input Methods&lt;/a2&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023952Z" creationid="grass" creationdate="20201203T023952Z">
@@ -9388,6 +9452,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203731Z" creationid="grass" creationdate="20201010T203731Z">
         <seg>LaTeX导出中的横向规则</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How Completion Alternatives Are Chosen</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105956Z" creationid="grass" creationdate="20201212T105956Z">
+        <seg>如何选择补全备选方案</seg>
       </tuv>
     </tu>
     <tu>
@@ -9916,6 +9988,22 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031013Z" creationid="grass" creationdate="20201205T030948Z">
         <seg>如果键序列不足以调用命令，我们将其称为&lt;e6&gt;前缀键&lt;/e6&gt;；从前面的示例中，我们可以看到&lt;k7&gt;C-x&lt;/k7&gt;和&lt;k8&gt;C-x 4&lt;/k8&gt;是前缀键。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a style produces no matches, Emacs falls back on the next style.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110134Z" creationid="grass" creationdate="20201212T110134Z">
+        <seg>如果某个样式没有生成匹配项，则Emacs会退回到下一个样式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a style yields one or more matches, that is used as the list of completion alternatives.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110127Z" creationid="grass" creationdate="20201212T110127Z">
+        <seg>如果样式生成一个或多个匹配项，则将其用作补全备选方案的列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10860,6 +10948,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T081321Z" creationid="grass" creationdate="20201130T081321Z">
         <seg>重要的一般概念</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In &lt;a0&gt;Completion Example&lt;/a0&gt;, we gave a simple example of such matching.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110029Z" creationid="grass" creationdate="20201212T110029Z">
+        <seg>在&lt;a0&gt;补全示例&lt;/a0&gt;中，我们给出了一个简单的匹配示例。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19467,6 +19563,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default completion styles are (in order):</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110152Z" creationid="grass" creationdate="20201212T110152Z">
+        <seg>默认补全样式为(按顺序)：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The default number of days displayed in the agenda is set by the variable &lt;c0&gt;org-agenda-span&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112511Z" creationid="grass" creationdate="20201016T112511Z">
@@ -19779,6 +19883,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The list variable &lt;c0&gt;completion-styles&lt;/c0&gt; specifies the completion styles to use.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110143Z" creationid="grass" creationdate="20201212T110143Z">
+        <seg>列表变量&lt;c0&gt;completion-styles&lt;/c0&gt;指定要使用的补全样式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The main area of the frame, below the tool bar (if one exists) and above the echo area, is called &lt;e0&gt;the window&lt;/e0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114328Z" creationid="grass" creationdate="20201130T114328Z">
@@ -19951,6 +20063,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054431Z" creationid="grass" creationdate="20201016T054431Z">
         <seg>然而，这样做的问题是，重复条目的&lt;e3&gt;下一个&lt;/e3&gt;实例也将不会处于正在进行的状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The procedure of determining what constitutes a match is quite intricate.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110032Z" creationid="grass" creationdate="20201212T110032Z">
+        <seg>确定什么构成匹配的过程相当复杂。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20409,6 +20529,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074630Z" creationid="grass" creationdate="20201205T074630Z">
         <seg>这将在游标处将字符添加到缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This aggressive completion style divides the minibuffer text into words separated by hyphens or spaces, and completes each word separately.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110305Z" creationid="grass" creationdate="20201212T110305Z">
+        <seg>这种积极的补全样式将迷你缓冲区文本分成用连字符或空格分隔的单词，并分别完成每个单词。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23362,6 +23490,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201014T145407Z" creationid="Eli" creationdate="20201014T145310Z">
         <seg>&lt;e0&gt;agenda&lt;/e0&gt;视图和日历类似，能在特定日期显示相关信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>basic</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110154Z" creationid="grass" creationdate="20201212T110154Z">
+        <seg>basic</seg>
       </tuv>
     </tu>
     <tu>
@@ -55840,6 +55976,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082707Z" creationid="grass" creationdate="20200929T082540Z">
         <seg>或者，从菜单中进入：Org→刷新/重新加载→重新加载未编译的Org。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>partial-completion</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110230Z" creationid="grass" creationdate="20201212T110230Z">
+        <seg>partial-completion</seg>
       </tuv>
     </tu>
     <tu>
