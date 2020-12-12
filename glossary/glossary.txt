@@ -269,3 +269,4 @@ delete	删除
 killing	剪切
 continue	接续
 truncate	截断
+colon	冒号
