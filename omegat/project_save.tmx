@@ -8128,6 +8128,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For convenience, &lt;k0&gt;C-a&lt;/k0&gt; (&lt;c1&gt;move-beginning-of-line&lt;/c1&gt;) in a minibuffer moves point to the beginning of the argument text, not the beginning of the prompt.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101858Z" creationid="grass" creationdate="20201212T101858Z">
+        <seg>为方便起见，迷你缓冲区中的&lt;k0&gt;C-a&lt;/k0&gt;(&lt;c1&gt;move-beginning-of-line&lt;/c1&gt;)将指向参数文本的开头，而不是提示符的开头。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For convenience, &lt;k1&gt;C-n&lt;/k1&gt; and &lt;k2&gt;C-p&lt;/k2&gt; move point by screen lines, as do the equivalent keys &lt;k3&gt;&lt;s4&gt;down&lt;/s4&gt;&lt;/k3&gt; and &lt;k5&gt;&lt;s6&gt;up&lt;/s6&gt;&lt;/k5&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151236Z" creationid="grass" creationdate="20201207T151236Z">
@@ -8328,6 +8336,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, this allows you to erase the entire argument with &lt;k2&gt;C-a C-k&lt;/k2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101903Z" creationid="grass" creationdate="20201212T101903Z">
+        <seg>例如，这允许您使用&lt;k2&gt;C-a C-k&lt;/k2&gt;擦除整个参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, we will say that “The command &lt;k1&gt;C-n&lt;/k1&gt; (&lt;c2&gt;next-line&lt;/c2&gt;) moves point vertically down”, meaning that the command &lt;c3&gt;next-line&lt;/c3&gt; moves vertically down, and the key &lt;k4&gt;C-n&lt;/k4&gt; is normally bound to it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032649Z" creationid="grass" creationdate="20201205T032649Z">
@@ -8436,6 +8452,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T090855Z" creationid="grass" creationdate="20201205T090855Z">
         <seg>例如，称为自动填充模式的辅模式会在行过长时自动拆分行(请参阅&lt;a1&gt;填充&lt;/a1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance, you can switch to another window (with &lt;k0&gt;C-x o&lt;/k0&gt;), edit text there, then return to the minibuffer window to finish the argument.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101945Z" creationid="grass" creationdate="20201212T101945Z">
+        <seg>例如，您可以切换到另一个窗口(使用&lt;k0&gt;C-x o&lt;/k0&gt;)，在那里编辑文本，然后返回到迷你缓冲区窗口完成参数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9384,6 +9408,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, if you add two or more lines’ worth of text into the minibuffer, it expands automatically to accommodate the text.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T102100Z" creationid="grass" creationdate="20201212T102100Z">
+        <seg>但是，如果您将两行或更多行的文本添加到迷你缓冲区中，它会自动扩展以容纳文本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, if you leave at least two empty lines, one empty line remains visible after folding the subtree, in order to structure the collapsed view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171858Z" creationid="grass" creationdate="20201010T171858Z">
@@ -9876,6 +9908,22 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015751Z" creationid="grass" creationdate="20201209T015751Z">
         <seg>如果用户选项&lt;c0&gt;what-cursor-show-names&lt;/c0&gt;为非&lt;c1&gt;nil&lt;/c1&gt;，则还会显示Unicode字符数据库定义的字符名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the value is &lt;c2&gt;t&lt;/c2&gt;, the minibuffer window will also shrink automatically if you remove some lines of text from the minibuffer, down to a minimum of one screen line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T102146Z" creationid="grass" creationdate="20201212T102146Z">
+        <seg>如果该值为&lt;c2&gt;t&lt;/c2&gt;，如果您从迷你缓冲区中删除一些文本行，则迷你缓冲区窗口也会自动缩小，最小只有一个屏幕行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the value is &lt;c3&gt;nil&lt;/c3&gt;, the minibuffer window never changes size automatically, but you can use the usual window-resizing commands on it (see &lt;a4&gt;Windows&lt;/a4&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T102157Z" creationid="grass" creationdate="20201212T102157Z">
+        <seg>如果该值为&lt;c3&gt;nil&lt;/c3&gt;，则微型缓冲区窗口永远不会自动更改大小，但您可以在其上使用常用的窗口大小调整命令(请参阅&lt;a4&gt;窗口&lt;/a4&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14460,6 +14508,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Normally, the minibuffer window occupies a single screen line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T102050Z" creationid="grass" creationdate="20201212T102050Z">
+        <seg>通常，迷你缓冲区窗口占据单个屏幕行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Normally, this command undoes the last change, moving point back to where it was before the change.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152827Z" creationid="grass" creationdate="20201207T152827Z">
@@ -17016,6 +17072,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;Windows&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T102034Z" creationid="grass" creationdate="20201212T102034Z">
+        <seg>请参阅&lt;a1&gt;窗口&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a1&gt;Words&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150245Z" creationid="grass" creationdate="20201207T150245Z">
@@ -18979,6 +19043,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default value is &lt;c1&gt;grow-only&lt;/c1&gt;, which means the behavior we have just described.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T102126Z" creationid="grass" creationdate="20201212T102126Z">
+        <seg>默认值是&lt;c1&gt;grow-only&lt;/c1&gt;，这意味着我们刚才描述的行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The default value of &lt;c6&gt;confirm-kill-emacs&lt;/c6&gt; is &lt;c7&gt;nil&lt;/c7&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073607Z" creationid="grass" creationdate="20201205T073607Z">
@@ -19603,6 +19675,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The variable &lt;c0&gt;resize-mini-windows&lt;/c0&gt; controls the resizing of the minibuffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T102115Z" creationid="grass" creationdate="20201212T102115Z">
+        <seg>变量&lt;c0&gt;resize-mini-windows&lt;/c0&gt;控制迷你缓冲区的大小调整。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The views are created through a dispatcher, accessible with &lt;k0&gt;M-x org-agenda&lt;/k0&gt;, or, better, bound to a global key (see &lt;a1&gt;Activation&lt;/a1&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T142851Z" creationid="Eli" creationdate="20201019T141759Z">
@@ -19693,6 +19773,14 @@ stores its records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T134131Z" creationid="grass" creationdate="20200927T134037Z">
         <seg>Org模式与某些其他Elisp软件包之间存在兼容性问题（请参见&lt;a0&gt;冲突&lt;/a0&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are some restrictions on the minibuffer window, however: for instance, you cannot split it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T102023Z" creationid="grass" creationdate="20201212T102023Z">
+        <seg>但是，对迷你缓冲区窗口有一些限制：例如，您不能拆分它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21574,6 +21662,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When the minibuffer is active, the echo area is treated much like an ordinary Emacs window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101918Z" creationid="grass" creationdate="20201212T101918Z">
+        <seg>当迷你缓冲区处于活动状态时，回显区的处理方式与普通Emacs窗口非常相似。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When the minibuffer is in use, it appears in the echo area, with a cursor.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094508Z" creationid="grass" creationdate="20201212T094508Z">
@@ -22226,6 +22322,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030229Z" creationid="grass" creationdate="20201205T030229Z">
         <seg>您可以通过键入&lt;k8&gt;&lt;s9&gt;ESC&lt;/s9&gt;C-a&lt;/k8&gt;来输入&lt;k4&gt;C-M-a&lt;/k4&gt;(同时按住&lt;t5&gt;Ctrl&lt;/t5&gt;和&lt;t6&gt;Alt&lt;/t6&gt;，然后按&lt;k7&gt;a&lt;/k7&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can even kill text in another window, return to the minibuffer window, and yank the text into the argument.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T102015Z" creationid="grass" creationdate="20201212T102015Z">
+        <seg>您甚至可以剪切另一个窗口中的文本，返回到迷你缓冲区窗口，然后将文本粘贴为参数。</seg>
       </tuv>
     </tu>
     <tu>
