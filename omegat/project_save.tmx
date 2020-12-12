@@ -4812,6 +4812,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An abbreviation facility for minibuffer input.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094203Z" creationid="grass" creationdate="20201212T094203Z">
+        <seg>一种用于迷你缓冲区输入的缩写工具。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An alternate way to show an example.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105256Z" creationid="grass" creationdate="20201014T105256Z">
@@ -7392,6 +7400,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Entering passwords in the echo area.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094324Z" creationid="grass" creationdate="20201212T094324Z">
+        <seg>在回显区输入密码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Environment of a Code Block</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052236Z" creationid="grass" creationdate="20201013T052236Z">
@@ -9044,6 +9060,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101904Z" creationid="grass" creationdate="20201014T101904Z">
         <seg>如何创建和使用列视图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How to edit in the minibuffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094146Z" creationid="grass" creationdate="20201212T094146Z">
+        <seg>如何在迷你缓冲区中编辑。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16048,6 +16072,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Re-executing commands that used the minibuffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094308Z" creationid="grass" creationdate="20201212T094308Z">
+        <seg>重新执行使用迷你缓冲区的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Read a number &lt;v0&gt;n&lt;/v0&gt; and move point to buffer position &lt;v1&gt;n&lt;/v1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150844Z" creationid="grass" creationdate="20201207T150844Z">
@@ -16288,6 +16320,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Replying yes or no in the echo area.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094420Z" creationid="grass" creationdate="20201212T094348Z">
+        <seg>在回显区回答是或否。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Required packages.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105834Z" creationid="grass" creationdate="20201014T105834Z">
@@ -16340,6 +16380,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052301Z" creationid="grass" creationdate="20201013T052301Z">
         <seg>求值结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reusing recent minibuffer arguments.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094258Z" creationid="grass" creationdate="20201212T094258Z">
+        <seg>重用最近的迷你缓冲区参数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20681,6 +20729,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102925Z" creationid="grass" creationdate="20201014T102925Z">
         <seg>使用Dired选择附件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using the Minibuffer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094446Z" creationid="grass" creationdate="20201212T094442Z">
+        <seg>使用迷你缓冲区</seg>
       </tuv>
     </tu>
     <tu>
@@ -56178,6 +56234,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Minibuffer History&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094238Z" creationid="grass" creationdate="20201212T094238Z">
+        <seg>• &lt;a0&gt;迷你缓冲区历史&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Miscellaneous&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055828Z" creationid="grass" creationdate="20201013T055828Z">
@@ -56326,6 +56390,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103741Z" creationid="grass" creationdate="20201014T103741Z">
         <seg>• &lt;a0&gt;段落&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Passwords&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094312Z" creationid="grass" creationdate="20201212T094312Z">
+        <seg>• &lt;a0&gt;密码&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
@@ -56605,6 +56677,14 @@ Introduction</seg>
         <seg>• &lt;a0&gt;Repeating&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074538Z" creationid="grass" creationdate="20201205T074538Z">
+        <seg>• &lt;a0&gt;重复&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Repetition&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094303Z" creationid="grass" creationdate="20201212T094303Z">
         <seg>• &lt;a0&gt;重复&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
@@ -57286,6 +57366,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055738Z" creationid="grass" creationdate="20201013T055738Z">
         <seg>• &lt;a0&gt;使用源代码&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Yes or No Prompts&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094414Z" creationid="grass" creationdate="20201212T094343Z">
+        <seg>• &lt;a0&gt;确认提示&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
