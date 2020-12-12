@@ -4324,6 +4324,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A list of completion commands.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103711Z" creationid="grass" creationdate="20201212T103711Z">
+        <seg>补全命令的列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A major mode is a principal editing mode for the buffer, such as Text mode, Lisp mode, C mode, and so forth.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025004Z" creationid="grass" creationdate="20201203T025004Z">
@@ -4872,6 +4880,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091722Z" creationid="grass" creationdate="20201205T091722Z">
         <seg>或者，您可以使用命令&lt;k0&gt;C-x 8&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt;(&lt;c2&gt;insert-char&lt;/c2&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Although completion is usually done in the minibuffer, the feature is sometimes available in ordinary buffers too.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103639Z" creationid="grass" creationdate="20201212T103639Z">
+        <seg>虽然补全通常是在小缓冲区中完成的，但有时普通缓冲区中也可以使用该功能。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7652,6 +7668,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052015Z" creationid="grass" creationdate="20201013T052015Z">
         <seg>示例：简单发布配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Examples of using completion.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103700Z" creationid="grass" creationdate="20201212T103700Z">
+        <seg>使用补全的示例。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17000,6 +17024,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Symbol Completion&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103645Z" creationid="grass" creationdate="20201212T103645Z">
+        <seg>请参见&lt;a0&gt;符号补全&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a11&gt;Variables&lt;/a11&gt;, for how to set variables such as &lt;c12&gt;line-move-visual&lt;/c12&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151353Z" creationid="grass" creationdate="20201207T151353Z">
@@ -19905,6 +19937,14 @@ stores its records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These commands attempt to complete the text in the minibuffer, based on a set of &lt;e4&gt;completion alternatives&lt;/e4&gt; provided by the command that requested the argument.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103623Z" creationid="grass" creationdate="20201212T103623Z">
+        <seg>这些命令尝试根据请求参数的命令提供的一组&lt;e4&gt;补全选项&lt;/e4&gt;来完成迷你缓冲区中的文本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These dashes are omitted on a graphical display.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023711Z" creationid="grass" creationdate="20201203T023711Z">
@@ -20329,6 +20369,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031743Z" creationid="grass" creationdate="20201205T031743Z">
         <seg>这本手册有很多段落告诉你特定的快捷键键有什么作用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means that after you type part of the argument, Emacs can fill in the rest, or some of it, based on what was typed so far.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103452Z" creationid="grass" creationdate="20201212T103452Z">
+        <seg>这意味着在您键入部分参数后，Emacs可以根据到目前为止键入的内容填充剩余或其中的一部分。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21646,6 +21694,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When completion is available, certain keys (usually &lt;t0&gt;TAB&lt;/t0&gt;, &lt;t1&gt;RET&lt;/t1&gt;, and &lt;t2&gt;SPC&lt;/t2&gt;) are rebound in the minibuffer to special completion commands (see &lt;a3&gt;Completion Commands&lt;/a3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103608Z" creationid="grass" creationdate="20201212T103608Z">
+        <seg>当补全可用时，某些键(通常为&lt;t0&gt;TAB&lt;/t0&gt;、&lt;t1&gt;RET&lt;/t1&gt;和&lt;t2&gt;SPC&lt;/t2&gt;)在迷你缓冲区中表现为特殊的补全命令(请参阅&lt;a3&gt;补全命令&lt;/a3&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When deciding what to work on, I use either &lt;a0&gt;sparse trees&lt;/a0&gt; – which makes it easy to filter the content of my GTD projects by tag, search term, etc., or I use &lt;a1&gt;custom agenda commands&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201105T050901Z" creationid="grass" creationdate="20201015T081948Z">
@@ -22470,6 +22526,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can often use a feature called &lt;e0&gt;completion&lt;/e0&gt; to help enter arguments.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103441Z" creationid="grass" creationdate="20201212T103441Z">
+        <seg>您通常可以使用名为&lt;e0&gt;补全&lt;/e0&gt;的功能来帮助输入参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can override this by setting &lt;c2&gt;org-agenda-skip-comment-trees&lt;/c2&gt; and &lt;c3&gt;org-agenda-skip-archived-trees&lt;/c3&gt; to &lt;c4&gt;nil&lt;/c4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T060228Z" creationid="Eli" creationdate="20201015T142859Z">
@@ -22602,6 +22666,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T053830Z" creationid="grass" creationdate="20201016T053822Z">
         <seg>您可以通过使用“&lt;s2&gt;y&lt;/s2&gt;”、“&lt;s3&gt;w&lt;/s3&gt;”、“&lt;s4&gt;m&lt;/s4&gt;”、“&lt;s5&gt;d&lt;/s5&gt;”和“&lt;s6&gt;h&lt;/s6&gt;”字母来创建每年、每月、每周、每天和每小时间隔的复读机。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can usually type &lt;k5&gt;?&lt;/k5&gt; to see a list of completion alternatives.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103630Z" creationid="grass" creationdate="20201212T103630Z">
+        <seg>您通常可以键入&lt;k5&gt;？&lt;/k5&gt;来查看可供选择的补全列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -55958,6 +56030,30 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104322Z" creationid="grass" creationdate="20201014T104322Z">
         <seg>• &lt;a0&gt;注释行&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Completion Commands&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103707Z" creationid="grass" creationdate="20201212T103707Z">
+        <seg>• &lt;a0&gt;补全命令&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Completion Example&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103656Z" creationid="grass" creationdate="20201212T103656Z">
+        <seg>• &lt;a0&gt; 补全示例&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Completion Exit&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103718Z" creationid="grass" creationdate="20201212T103718Z">
+        <seg>• &lt;a0&gt;补全退出&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
