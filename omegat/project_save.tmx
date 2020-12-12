@@ -3331,6 +3331,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>8.4.5</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111404Z" creationid="grass" creationdate="20201212T111404Z">
+        <seg>8.4.5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>8.5</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061107Z" creationid="grass" creationdate="20201015T061107Z">
@@ -6140,10 +6148,26 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Case differences are ignored when completing arguments in which case does not matter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111444Z" creationid="grass" creationdate="20201212T111444Z">
+        <seg>补全参数时忽略大小写差异，在这种情况下大小写无关紧要。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Case is ignored.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091410Z" creationid="grass" creationdate="20201205T091410Z">
         <seg>忽略大小写。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Case is significant when completing case-sensitive arguments, such as command names.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111420Z" creationid="grass" creationdate="20201212T111420Z">
+        <seg>在补全区分大小写的参数(如命令名)时，大小写非常重要。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6488,6 +6512,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105302Z" creationid="grass" creationdate="20201212T105302Z">
         <seg>补全退出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Completion Options</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111409Z" creationid="grass" creationdate="20201212T111409Z">
+        <seg>补全选项</seg>
       </tuv>
     </tu>
     <tu>
@@ -8664,6 +8696,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, when completing command names, ‘&lt;s0&gt;AU&lt;/s0&gt;’ does not complete to ‘&lt;s1&gt;auto-fill-mode&lt;/s1&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111435Z" creationid="grass" creationdate="20201212T111435Z">
+        <seg>例如，在补全命令名称时，“&lt;s0&gt;AU&lt;/s0&gt;”不会补全为“&lt;s1&gt;auto-fill-mode&lt;/s1&gt;”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, you can specify &lt;s2&gt;/etc/termcap&lt;/s2&gt; as follows:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101059Z" creationid="grass" creationdate="20201212T101059Z">
@@ -10034,16 +10074,16 @@ USA</seg>
       <tuv lang="EN-US">
         <seg>If a style produces no matches, Emacs falls back on the next style.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110134Z" creationid="grass" creationdate="20201212T110134Z">
-        <seg>如果某个样式没有生成匹配项，则Emacs会退回到下一个样式。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111258Z" creationid="grass" creationdate="20201212T110134Z">
+        <seg>如果某个风格没有生成匹配项，则Emacs会退回到下一个风格。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If a style yields one or more matches, that is used as the list of completion alternatives.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110127Z" creationid="grass" creationdate="20201212T110127Z">
-        <seg>如果样式生成一个或多个匹配项，则将其用作补全备选方案的列表。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111241Z" creationid="grass" creationdate="20201212T110127Z">
+        <seg>如果风格生成一个或多个匹配项，则将其用作补全备选方案的列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19651,6 +19691,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default value is &lt;c2&gt;nil&lt;/c2&gt; on systems that have case-sensitive file-names, such as GNU/Linux; it is non-&lt;c3&gt;nil&lt;/c3&gt; on systems that have case-insensitive file-names, such as Microsoft Windows.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111504Z" creationid="grass" creationdate="20201212T111504Z">
+        <seg>在具有区分大小写的文件名的系统(如GNU/Linux)上，默认值为&lt;c2&gt;nil&lt;/c2&gt;；在具有不区分大小写的文件名的系统(如Microsoft Windows)上，默认值为非nil。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The default value of &lt;c6&gt;confirm-kill-emacs&lt;/c6&gt; is &lt;c7&gt;nil&lt;/c7&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073607Z" creationid="grass" creationdate="20201205T073607Z">
@@ -19781,8 +19829,8 @@ databases, which hold and persist records.</seg>
       <tuv lang="EN-US">
         <seg>The following additional completion styles are also defined, and you can add them to &lt;c0&gt;completion-styles&lt;/c0&gt; if you wish (see &lt;a1&gt;Customization&lt;/a1&gt;):</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111003Z" creationid="grass" creationdate="20201212T110421Z">
-        <seg>还定义了以下其他完成样式，如果您愿意，可以将它们添加到&lt;c0&gt;补全风格&lt;/c0&gt;中(请参阅&lt;a1&gt;自定义&lt;/a1&gt;)：</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111315Z" creationid="grass" creationdate="20201212T110421Z">
+        <seg>还定义了以下其他补全风格，如果您愿意，可以将它们添加到&lt;c0&gt;补全风格&lt;/c0&gt;中(请参阅&lt;a1&gt;自定义&lt;/a1&gt;)：</seg>
       </tuv>
     </tu>
     <tu>
@@ -22374,6 +22422,22 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When completing buffer names, case differences are ignored if the variable &lt;c4&gt;read-buffer-completion-ignore-case&lt;/c4&gt; is non-&lt;c5&gt;nil&lt;/c5&gt;; the default is &lt;c6&gt;nil&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111514Z" creationid="grass" creationdate="20201212T111514Z">
+        <seg>补全缓冲区名称时，如果变量&lt;c4&gt;read-buffer-completion-ignore-case&lt;/c4&gt;非&lt;c5&gt;nil&lt;/c5&gt;，则忽略大小写差异；默认值为&lt;c6&gt;nil&lt;/c6&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When completing file names, case differences are ignored if the variable &lt;c0&gt;read-file-name-completion-ignore-case&lt;/c0&gt; is non-&lt;c1&gt;nil&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111455Z" creationid="grass" creationdate="20201212T111455Z">
+        <seg>补全文件名时，如果变量&lt;c0&gt;read-file-name-completion-ignore-case&lt;/c0&gt;非&lt;c1&gt;nil&lt;/c1&gt;，则忽略大小写差异。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When completing remote file names (see &lt;a0&gt;Remote Files&lt;/a0&gt;), a double slash behaves slightly differently: it causes Emacs to ignore only the file-name part, leaving the rest (method, host and username, etc.) intact.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101305Z" creationid="grass" creationdate="20201212T101305Z">
@@ -23408,8 +23472,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>You can use different completion styles in different situations, by setting the variable &lt;c0&gt;completion-category-overrides&lt;/c0&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110801Z" creationid="grass" creationdate="20201212T110801Z">
-        <seg>通过设置变量&lt;c0&gt;completion-category-overrides&lt;/c0&gt;，您可以在不同的情况下使用不同的完成样式。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111328Z" creationid="grass" creationdate="20201212T110801Z">
+        <seg>通过设置变量&lt;c0&gt;completion-category-overrides&lt;/c0&gt;，您可以在不同的情况下使用不同的补全风格。</seg>
       </tuv>
     </tu>
     <tu>
