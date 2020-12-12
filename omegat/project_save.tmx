@@ -350,6 +350,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(More commands may be defined in your Emacs session.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104145Z" creationid="grass" creationdate="20201212T104145Z">
+        <seg>(可以在Emacs会话中定义更多命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(See &lt;a2&gt;Filling&lt;/a2&gt;, for more information on &lt;k3&gt;M-q&lt;/k3&gt;.) For these commands, it is enough to specify the argument with a single &lt;k4&gt;C-u&lt;/k4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021526Z" creationid="grass" creationdate="20201209T021526Z">
@@ -8328,6 +8336,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, if a command called &lt;c9&gt;authorize-me&lt;/c9&gt; was defined, Emacs could only complete as far as ‘&lt;s10&gt;aut&lt;/s10&gt;’.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104201Z" creationid="grass" creationdate="20201212T104201Z">
+        <seg>例如，如果定义了名为&lt;c9&gt;authorize-me&lt;/c9&gt;的命令，则Emacs只能在“&lt;s10&gt;aut&lt;/s10&gt;”范围内补全。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, if you forgot to call your father for 3 weeks, it does not make sense to call him 3 times in a single day to make up for it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054859Z" creationid="grass" creationdate="20201016T054859Z">
@@ -9052,6 +9068,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013224Z" creationid="grass" creationdate="20201208T013224Z">
         <seg>帮助</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hence, typing just &lt;k0&gt;a u &lt;s1&gt;TAB&lt;/s1&gt; - f &lt;s2&gt;TAB&lt;/s2&gt;&lt;/k0&gt; allows you to enter ‘&lt;s3&gt;auto-fill-mode&lt;/s3&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104341Z" creationid="grass" creationdate="20201212T104341Z">
+        <seg>因此，只需键入&lt;k0&gt;a u&lt;s1&gt;TAB&lt;/s1&gt;-f&lt;s2&gt;TAB&lt;/s2&gt;&lt;/k0&gt;即可进入“&lt;s3&gt;auto-fill-mode&lt;/s3&gt;”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10328,6 +10352,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you now type &lt;t3&gt;TAB&lt;/t3&gt;, completion fills in the rest of the argument ‘&lt;s4&gt;auto-fill-mode&lt;/s4&gt;’ into the minibuffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104326Z" creationid="grass" creationdate="20201212T104326Z">
+        <seg>如果现在键入&lt;t3&gt;TAB&lt;/t3&gt;，补全操作会将参数“&lt;s4&gt;auto-fill-mode&lt;/s4&gt;”的剩余填充到迷你缓冲区中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you often need a search for a specific keyword, define a custom command for it (see &lt;a2&gt;Agenda Dispatcher&lt;/a2&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T141334Z" creationid="Eli" creationdate="20201021T141334Z">
@@ -10408,6 +10440,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you type &lt;k0&gt;M-x a u &lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt;, the &lt;t2&gt;TAB&lt;/t2&gt; looks for completion alternatives (in this case, command names) that start with ‘&lt;s3&gt;au&lt;/s3&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104044Z" creationid="grass" creationdate="20201212T104044Z">
+        <seg>如果键入&lt;k0&gt;M-x a u&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt;，&lt;t2&gt;TAB&lt;/t2&gt;将查找以“&lt;s3&gt;au&lt;/s3&gt;”开头的补全选项(在本例中为命令名)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you type &lt;k2&gt;C-k&lt;/k2&gt; at the beginning or middle of a line, it kills all the text up to the end of the line.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152323Z" creationid="grass" creationdate="20201207T152323Z">
@@ -10420,6 +10460,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152327Z" creationid="grass" creationdate="20201207T152327Z">
         <seg>如果您在行尾键入&lt;k3&gt;C-k&lt;/k3&gt;，它会将该行与以下行连接起来。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you type &lt;t0&gt;TAB&lt;/t0&gt; again immediately, it cannot determine the next character; it could be ‘&lt;s1&gt;-&lt;/s1&gt;’, ‘&lt;s2&gt;a&lt;/s2&gt;’, or ‘&lt;s3&gt;c&lt;/s3&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104208Z" creationid="grass" creationdate="20201212T104208Z">
+        <seg>如果立即再次键入&lt;t0&gt;TAB&lt;/t0&gt;，则无法确定下一个字符；它可能是“&lt;s1&gt;-&lt;/s1&gt;”、“&lt;s2&gt;a&lt;/s2&gt;”或“&lt;s3&gt;c&lt;/s3&gt;”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12488,6 +12536,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062833Z" creationid="grass" creationdate="20201015T062833Z">
         <seg>下一个标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Next, type &lt;k0&gt;-f&lt;/k0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104235Z" creationid="grass" creationdate="20201212T104235Z">
+        <seg>接下来，键入&lt;k0&gt;-f&lt;/k0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17792,6 +17848,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>So it does not add any characters; instead, &lt;t4&gt;TAB&lt;/t4&gt; displays a list of all possible completions in another window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104230Z" creationid="grass" creationdate="20201212T104230Z">
+        <seg>因此它不会添加任何字符；相反，&lt;t4&gt;TAB&lt;/t4&gt;会在另一个窗口中显示所有可能的完成列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>So that &lt;c0&gt;C-c C-w&lt;/c0&gt; prompts me either for a project, the tickler, or someday/maybe list.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201105T050423Z" creationid="grass" creationdate="20201015T080509Z">
@@ -19499,6 +19563,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The minibuffer now contains ‘&lt;s1&gt;auto-f&lt;/s1&gt;’, and the only command name that starts with this is &lt;c2&gt;auto-fill-mode&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104256Z" creationid="grass" creationdate="20201212T104256Z">
+        <seg>迷你缓冲区现在包含“&lt;s1&gt;auto-f&lt;/s1&gt;”，并且唯一以此开头的命令名是&lt;c2&gt;auto-full-mode&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The minibuffer starts with a &lt;e0&gt;prompt&lt;/e0&gt;, usually ending with a colon.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094528Z" creationid="grass" creationdate="20201212T094528Z">
@@ -19917,6 +19989,14 @@ stores its records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T134131Z" creationid="grass" creationdate="20200927T134037Z">
         <seg>Org模式与某些其他Elisp软件包之间存在兼容性问题（请参见&lt;a0&gt;冲突&lt;/a0&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are several, including &lt;c4&gt;auto-fill-mode&lt;/c4&gt; and &lt;c5&gt;autoconf-mode&lt;/c5&gt;, but they all begin with &lt;c6&gt;auto&lt;/c6&gt;, so the ‘&lt;s7&gt;au&lt;/s7&gt;’ in the minibuffer completes to ‘&lt;s8&gt;auto&lt;/s8&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104139Z" creationid="grass" creationdate="20201212T104139Z">
+        <seg>有几个选项，包括&lt;c4&gt;auto-fill-mode&lt;/c4&gt;和&lt;c5&gt;autoconf-mode&lt;/c5&gt;，但它们都以&lt;c6&gt;auto&lt;/c6&gt;开头，因此迷你缓冲区中的‘au&lt;/s7&gt;’补全为‘&lt;s8&gt;auto&lt;/s8&gt;’。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22496,8 +22576,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>You can do that by typing &lt;k2&gt;M-x auto-fill-mode &lt;s3&gt;RET&lt;/s3&gt;&lt;/k2&gt;, but it is easier to use completion.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104022Z" creationid="grass" creationdate="20201212T104022Z">
-        <seg>您可以通过键入&lt;k2&gt;M-x auto-fill-mode&lt;s3&gt;RET&lt;/s3&gt;&lt;/k2&gt;来做到这一点，但是使用完成更容易。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104027Z" creationid="grass" creationdate="20201212T104022Z">
+        <seg>您可以通过键入&lt;k2&gt;M-x auto-fill-mode&lt;s3&gt;RET&lt;/s3&gt;&lt;/k2&gt;来做到这一点，但是使用补全更容易。</seg>
       </tuv>
     </tu>
     <tu>
