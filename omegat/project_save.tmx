@@ -8528,6 +8528,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Furthermore, if you change the variable &lt;c1&gt;minibuffer-eldef-shorten-default&lt;/c1&gt; to a non-&lt;c2&gt;nil&lt;/c2&gt; value, the default argument is displayed as ‘&lt;s3&gt;[&lt;v4&gt;default-arg&lt;/v4&gt;]&lt;/s3&gt;’ instead of ‘&lt;s5&gt;(default &lt;v6&gt;default-arg&lt;/v6&gt;)&lt;/s5&gt;’, saving some screen space.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T100358Z" creationid="grass" creationdate="20201212T100358Z">
+        <seg>此外，如果将变量&lt;c1&gt;minibuffer-eldef-shorten-default&lt;/c1&gt;更改为非&lt;c2&gt;nil&lt;/c2&gt;值，则默认参数将显示为‘&lt;s3&gt;[&lt;v4&gt;default-arg&lt;/v4&gt;]&lt;/s3&gt;’而不是‘&lt;s5&gt;(default&lt;v6&gt;default-arg&lt;/v6&gt;)&lt;/s5&gt;’，从而节省一些屏幕空间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>G Variable Index</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054416Z" creationid="grass" creationdate="20201013T054416Z">
@@ -9916,6 +9924,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T020730Z" creationid="grass" creationdate="20201209T020730Z">
         <seg>如果输入多个数字，则不需要按住&lt;t0&gt;Meta&lt;/t0&gt;键输入第二个和后续数字。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you ever bring back the original minibuffer text, the prompt again shows the default.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094955Z" creationid="grass" creationdate="20201212T094955Z">
+        <seg>如果您键入原始的微型缓冲区文本，提示将再次显示默认值。</seg>
       </tuv>
     </tu>
     <tu>
