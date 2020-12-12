@@ -6316,10 +6316,34 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Complete the text in the minibuffer as much as possible; if unable to complete, display a list of possible completions (&lt;c0&gt;minibuffer-complete&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104430Z" creationid="grass" creationdate="20201212T104430Z">
+        <seg>尽可能补全迷你缓冲区中的文本；如果无法补全，则显示可能补全的列表(&lt;c0&gt;minibuffer-complete&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Complete up to one word from the minibuffer text before point (&lt;c0&gt;minibuffer-complete-word&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104530Z" creationid="grass" creationdate="20201212T104530Z">
+        <seg>在游标之前尽可能的补全迷你缓冲区文本中的一个单词(&lt;c0&gt;minibuffer-complete-word&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Completion</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052823Z" creationid="grass" creationdate="20201013T052823Z">
         <seg>补全功能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Completion Commands</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104351Z" creationid="grass" creationdate="20201212T104351Z">
+        <seg>补全命令</seg>
       </tuv>
     </tu>
     <tu>
@@ -9132,6 +9156,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T135500Z" creationid="grass" creationdate="20200927T135500Z">
         <seg>以下是建议的绑定，请根据自己的喜好修改按键。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here is a list of the completion commands defined in the minibuffer when completion is allowed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104400Z" creationid="grass" creationdate="20201212T104400Z">
+        <seg>以下是允许补全时在微型缓冲区中定义的补全命令列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18232,6 +18264,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Submit the text in the minibuffer as the argument, possibly completing first (&lt;c0&gt;minibuffer-complete-and-exit&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104645Z" creationid="grass" creationdate="20201212T104645Z">
+        <seg>将迷你缓冲区中的文本作为参数提交，可能首先补全(&lt;c0&gt;minibuffer-complete-and-exit&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Subscripts and Superscripts</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202453Z" creationid="grass" creationdate="20201010T202453Z">
@@ -20249,6 +20289,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150042Z" creationid="grass" creationdate="20201207T150042Z">
         <seg>此命令尝试保持水平位置不变，因此如果您从一行的中间开始，则会移动到下一行的中间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This command is not available for arguments that often include spaces, such as file names.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104553Z" creationid="grass" creationdate="20201212T104553Z">
+        <seg>此命令不适用于经常包含空格的参数，例如文件名。</seg>
       </tuv>
     </tu>
     <tu>
