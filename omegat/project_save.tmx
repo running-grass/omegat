@@ -4788,10 +4788,26 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Alternative defaults for the file name you may want are available by typing &lt;k0&gt;M-n&lt;/k0&gt;, see &lt;a1&gt;Minibuffer History&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T100730Z" creationid="grass" creationdate="20201212T100730Z">
+        <seg>可以通过键入&lt;k0&gt;M-n&lt;/k0&gt;获得您可能需要的文件名的其他默认值，请参阅&lt;a1&gt;迷你缓冲区历史&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Alternatively, you can type &lt;k1&gt;C-g&lt;/k1&gt; to exit the minibuffer by canceling the command asking for the argument (see &lt;a2&gt;Quitting&lt;/a2&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094651Z" creationid="grass" creationdate="20201212T094651Z">
         <seg>或者，您也可以键入&lt;k1&gt;C-g&lt;/k1&gt;，通过取消请求参数的命令来退出微型缓冲区(请参阅&lt;a2&gt;退出&lt;/a2&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Alternatively, you can use &lt;k3&gt;M-&lt;s4&gt;DEL&lt;/s4&gt;&lt;/k3&gt; to kill directory names backwards (see &lt;a5&gt;Words&lt;/a5&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T100844Z" creationid="grass" creationdate="20201212T100844Z">
+        <seg>或者，您也可以使用&lt;k3&gt;M-&lt;s4&gt;DEL&lt;/s4&gt;&lt;/k3&gt;向后删除目录名(请参阅&lt;a5&gt;单词&lt;/a5&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7928,6 +7944,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Find file: /u2/emacs/src/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T100627Z" creationid="grass" creationdate="20201212T100627Z">
+        <seg>Find file: /u2/emacs/src/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Find projects you need to review.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103240Z" creationid="grass" creationdate="20201014T103240Z">
@@ -8156,6 +8180,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023101Z" creationid="grass" creationdate="20201019T023101Z">
         <seg>例如，在列表中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, it may start out like this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T100620Z" creationid="grass" creationdate="20201212T100620Z">
+        <seg>例如，它可能是这样开始的：</seg>
       </tuv>
     </tu>
     <tu>
@@ -8908,6 +8940,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021041Z" creationid="grass" creationdate="20201209T021041Z">
         <seg>这里，&lt;k2&gt;C-u&lt;/k2&gt;终止前缀参数，以便下一次击键开始您想要执行的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here, ‘&lt;s0&gt;Find file: &lt;/s0&gt;’ is the prompt and ‘&lt;s1&gt;/u2/emacs/src/&lt;/s1&gt;’ is the default directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T100649Z" creationid="grass" creationdate="20201212T100649Z">
+        <seg>这里，“&lt;s0&gt;Find file:&lt;/s0&gt;”是提示符，“&lt;s1&gt;/u2/emacs/src/&lt;/s1&gt;”是默认目录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10044,6 +10084,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T083348Z" creationid="grass" creationdate="20201130T083348Z">
         <seg>如果您需要联系自由软件基金会，请参阅&lt;a0&gt;https://www.fsf.org/about/contact/&lt;/a0&gt;，或写信给</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you now type &lt;k2&gt;buffer.c&lt;/k2&gt; as input, that specifies the file &lt;s3&gt;/u2/emacs/src/buffer.c&lt;/s3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T100702Z" creationid="grass" creationdate="20201212T100702Z">
+        <seg>如果您现在键入&lt;k2&gt;buffer.c&lt;/k2&gt;作为输入，则指定文件&lt;s3&gt;/u2/emacs/src/buffer.c&lt;/s3&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16920,6 +16968,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a4&gt;File Names&lt;/a4&gt;, for information about the default directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T100704Z" creationid="grass" creationdate="20201212T100704Z">
+        <seg>有关默认目录的信息，请参阅&lt;a4&gt;文件名&lt;/a4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a4&gt;Visual Line Mode&lt;/a4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014352Z" creationid="grass" creationdate="20201208T014349Z">
@@ -19853,6 +19909,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is the &lt;e3&gt;default directory&lt;/e3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T100617Z" creationid="grass" creationdate="20201212T100610Z">
+        <seg>这是&lt;e3&gt;默认目录&lt;/e3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is the official manual for the latest &lt;a0&gt;Org mode&lt;/a0&gt; release.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T172129Z" creationid="grass" creationdate="20200927T081910Z">
@@ -20329,6 +20393,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132031Z" creationid="grass" creationdate="20201006T132031Z">
         <seg>为了简化此过程，可以使用以下特殊命令：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To specify a file in a completely different directory, you can kill the entire default with &lt;k0&gt;C-a C-k&lt;/k0&gt; (see &lt;a1&gt;Minibuffer Edit&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T100910Z" creationid="grass" creationdate="20201212T100910Z">
+        <seg>要在完全不同的目录中指定文件，可以使用&lt;k0&gt;C-a C-k&lt;/k0&gt;终止整个默认文件(请参阅&lt;a1&gt;迷你缓冲区编辑&lt;/a1&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21986,6 +22058,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073023Z" creationid="grass" creationdate="20201205T072944Z">
         <seg>您可以使用自定义功能(请参见&lt;a5&gt;轻松自定义&lt;/a5&gt;)或通过编辑初始化文件(请参见&lt;a6&gt;初始化文件&lt;/a6&gt;)来设置变量&lt;c4&gt;inhibit-startup-screen&lt;/c4&gt;。&lt;a7&gt;&lt;s8&gt;4&lt;/s8&gt;&lt;/a7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can specify a file in the parent directory with &lt;s0&gt;..&lt;/s0&gt;: &lt;s1&gt;/a/b/../foo.el&lt;/s1&gt; is equivalent to &lt;s2&gt;/a/foo.el&lt;/s2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T100834Z" creationid="grass" creationdate="20201212T100834Z">
+        <seg>您可以使用&lt;s0&gt;..&lt;/s0&gt;指定父目录中的文件：&lt;s2&gt;/a/b/../foo.el&lt;/s2&gt;等同于&lt;s2&gt;/a/foo.el&lt;/s2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
