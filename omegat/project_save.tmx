@@ -4115,6 +4115,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;t2&gt;PageUp&lt;/t2&gt; or &lt;t3&gt;prior&lt;/t3&gt; does the same.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105030Z" creationid="grass" creationdate="20201212T105023Z">
+        <seg>&lt;t2&gt;PageUp&lt;/t2&gt;或&lt;t3&gt;prior&lt;/t3&gt;执行相同的操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;v0&gt;buf&lt;/v0&gt; is the name of the buffer displayed in the window.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024539Z" creationid="grass" creationdate="20201203T024539Z">
@@ -16992,6 +17000,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>S-TAB</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105204Z" creationid="grass" creationdate="20201212T105204Z">
+        <seg>S-TAB</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>SPC</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025057Z" creationid="grass" creationdate="20201019T025057Z">
@@ -19491,6 +19507,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following commands can be used with the completion list:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104957Z" creationid="grass" creationdate="20201212T104957Z">
+        <seg>以下命令可以与补全列表一起使用：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following commands jump to other headlines in the buffer.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062817Z" creationid="grass" creationdate="20201015T062817Z">
@@ -20669,6 +20693,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This paves the way for using the commands below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105018Z" creationid="grass" creationdate="20201212T105018Z">
+        <seg>这为使用下面的命令铺平了道路。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This prompts for the Unicode name or code-point of a character, using the minibuffer.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091830Z" creationid="grass" creationdate="20201205T091738Z">
@@ -21313,6 +21345,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060940Z" creationid="grass" creationdate="20200927T084827Z">
         <seg>本指南的排版约定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Typing &lt;k0&gt;M-v&lt;/k0&gt;, while in the minibuffer, selects the window showing the completion list (&lt;c1&gt;switch-to-completions&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105013Z" creationid="grass" creationdate="20201212T105013Z">
+        <seg>在迷你缓冲区中键入&lt;k0&gt;M-v&lt;/k0&gt;，选择显示补全列表的窗口(&lt;c1&gt;switch-to-completions&lt;/c1&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22230,6 +22270,46 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>While in the completion list buffer, kill it and delete the window showing it (&lt;c0&gt;kill-current-buffer&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105255Z" creationid="grass" creationdate="20201212T105255Z">
+        <seg>在补全列表缓冲区中时，取消它并删除显示它的窗口(&lt;c0&gt;kill-current-buffer&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While in the completion list buffer, these keys move point to the following completion alternative (&lt;c0&gt;next-completion&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105203Z" creationid="grass" creationdate="20201212T105203Z">
+        <seg>在补全列表缓冲区中，这些键移动到以下补全选项(&lt;c0&gt;next-completion&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While in the completion list buffer, these keys move point to the previous completion alternative (&lt;c0&gt;previous-completion&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105215Z" creationid="grass" creationdate="20201212T105215Z">
+        <seg>在补全列表缓冲区中时，这些键移动到前一个完成选项(&lt;c0&gt;previous-completion&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While in the completion list buffer, this chooses the completion at point (&lt;c0&gt;choose-completion&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105147Z" creationid="grass" creationdate="20201212T105147Z">
+        <seg>在补全列表缓冲区中时，这将在游标处选择补全(&lt;c0&gt;choose-completion&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While in the completion list buffer, this quits the window showing it and selects the window showing the minibuffer (&lt;c0&gt;quit-window&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105239Z" creationid="grass" creationdate="20201212T105239Z">
+        <seg>在补全列表缓冲区中时，这将退出显示它的窗口，并选择显示迷你缓冲区的窗口(&lt;c0&gt;quit-window&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>While it is possible to use the mouse to issue editing commands through the menu bar and tool bar, that is not as efficient as using the keyboard.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T022747Z" creationid="grass" creationdate="20201205T022747Z">
@@ -22614,6 +22694,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also select the window in other ways (see &lt;a4&gt;Windows&lt;/a4&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105038Z" creationid="grass" creationdate="20201212T105038Z">
+        <seg>您也可以通过其他方式选择窗口(请参阅&lt;a4&gt;窗口&lt;/a4&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also set tags that all entries in a file should inherit just as if these tags were defined in a hypothetical level zero that surrounds the entire file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023158Z" creationid="grass" creationdate="20201019T023158Z">
@@ -22698,6 +22786,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074008Z" creationid="grass" creationdate="20201205T074008Z">
         <seg>您可以自定义这些键以运行您选择的任何命令(请参阅&lt;a5&gt;键绑定&lt;/a5&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can display the same list with &lt;k2&gt;?&lt;/k2&gt; (&lt;c3&gt;minibuffer-completion-help&lt;/c3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104952Z" creationid="grass" creationdate="20201212T104952Z">
+        <seg>您可以使用&lt;k2&gt;？&lt;/k2&gt;(&lt;c3&gt;minibuffer-completion-help&lt;/c3&gt;)显示相同的列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -55516,6 +55612,22 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>mouse-1</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105045Z" creationid="grass" creationdate="20201212T105045Z">
+        <seg>mouse-1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mouse-2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105046Z" creationid="grass" creationdate="20201212T105046Z">
+        <seg>mouse-2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>moves down five lines.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T020043Z" creationid="grass" creationdate="20201209T020043Z">
@@ -55682,6 +55794,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024802Z" creationid="grass" creationdate="20201019T024802Z">
         <seg>您指示最多应选择“&lt;s0&gt;@work&lt;/s0&gt;”、“&lt;s1&gt;@home&lt;/s1&gt;”和“&lt;s2&gt;@tennisClub&lt;/s2&gt;”中的一个。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>z</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105240Z" creationid="grass" creationdate="20201212T105240Z">
+        <seg>z</seg>
       </tuv>
     </tu>
     <tu>
