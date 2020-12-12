@@ -4788,6 +4788,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Alternatively, you can type &lt;k1&gt;C-g&lt;/k1&gt; to exit the minibuffer by canceling the command asking for the argument (see &lt;a2&gt;Quitting&lt;/a2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094651Z" creationid="grass" creationdate="20201212T094651Z">
+        <seg>或者，您也可以键入&lt;k1&gt;C-g&lt;/k1&gt;，通过取消请求参数的命令来退出微型缓冲区(请参阅&lt;a2&gt;退出&lt;/a2&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Alternatively, you can use the command &lt;k0&gt;C-x 8 &lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;insert-char&lt;/c2&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091722Z" creationid="grass" creationdate="20201205T091722Z">
@@ -8096,6 +8104,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, commands that read buffer names usually show a buffer name as the default; you can type &lt;t2&gt;RET&lt;/t2&gt; to operate on that default buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094722Z" creationid="grass" creationdate="20201212T094722Z">
+        <seg>例如，读取缓冲区名称的命令通常将缓冲区名称显示为默认缓冲区名称；您可以键入&lt;t2&gt;RET&lt;/t2&gt;在该默认缓冲区上操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, giving &lt;k3&gt;C-f&lt;/k3&gt; an argument of ten causes it to move point forward by ten characters instead of one.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015949Z" creationid="grass" creationdate="20201209T015949Z">
@@ -9868,6 +9884,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075512Z" creationid="grass" creationdate="20201015T075512Z">
         <seg>如果您不了解Orgmode并对其感兴趣，您应该先访问其&lt;a0&gt;网站&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you enable Minibuffer Electric Default mode, a global minor mode, Emacs hides the default argument as soon as you modify the contents of the minibuffer (since typing &lt;t0&gt;RET&lt;/t0&gt; would no longer submit that default).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094809Z" creationid="grass" creationdate="20201212T094809Z">
+        <seg>如果您启用了Minibuffer Electric Default mode(一种全局辅模式)，Emacs会在您修改迷你缓冲区的内容时立即隐藏默认参数(因为键入&lt;t0&gt;RET&lt;/t0&gt;将不再提交该默认参数)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17432,6 +17456,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sometimes, the prompt shows a &lt;e0&gt;default argument&lt;/e0&gt;, inside parentheses before the colon.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094658Z" creationid="grass" creationdate="20201212T094658Z">
+        <seg>有时，提示符会在冒号前的括号内显示&lt;e0&gt;默认参数&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sometimes, you may need to edit files containing many long logical lines, and it may not be practical to break them all up by adding newlines.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014200Z" creationid="grass" creationdate="20201208T014200Z">
@@ -18947,6 +18979,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The minibuffer starts with a &lt;e0&gt;prompt&lt;/e0&gt;, usually ending with a colon.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094528Z" creationid="grass" creationdate="20201212T094528Z">
+        <seg>迷你缓冲区以&lt;e0&gt;prompt&lt;/e0&gt;开始，通常以冒号结束。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The minor mode called Overwrite mode causes inserted characters to replace (overwrite) existing text, instead of shoving it to the right.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T090925Z" creationid="grass" creationdate="20201205T090925Z">
@@ -19075,6 +19115,22 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The prompt is highlighted using the &lt;c1&gt;minibuffer-prompt&lt;/c1&gt; face (see &lt;a2&gt;Faces&lt;/a2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094623Z" creationid="grass" creationdate="20201212T094623Z">
+        <seg>提示符使用&lt;c1&gt;minibuffer-prompt&lt;/c1&gt;字符样式突出显示(请参阅&lt;a2&gt;字符样式&lt;/a2&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The prompt states what kind of input is expected, and how it will be used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094531Z" creationid="grass" creationdate="20201212T094531Z">
+        <seg>提示符说明预期的输入类型，以及将如何使用它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The purpose of the weekly/daily &lt;e0&gt;agenda&lt;/e0&gt; is to act like a page of a paper agenda, showing all the tasks for the current week or day.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112427Z" creationid="grass" creationdate="20201016T112427Z">
@@ -19095,6 +19151,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072545Z" creationid="grass" creationdate="20201205T072545Z">
         <seg>建议使用Emacs的方法是在登录后只启动一次，然后在同一个Emacs会话中进行所有编辑。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The simplest way to enter a minibuffer argument is to type the text, then &lt;t0&gt;RET&lt;/t0&gt; to submit the argument and exit the minibuffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094642Z" creationid="grass" creationdate="20201212T094642Z">
+        <seg>输入迷你缓冲区参数的最简单方法是键入文本，然后&lt;t0&gt;RET&lt;/t0&gt;提交参数并退出迷你缓冲区。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19601,6 +19665,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013206Z" creationid="grass" creationdate="20201208T013206Z">
         <seg>这将创建一个空缓冲区，您可以在其中插入要放入文件中的文本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This default will be used as the argument if you just type &lt;t1&gt;RET&lt;/t1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094706Z" creationid="grass" creationdate="20201212T094706Z">
+        <seg>如果您只键入&lt;t1&gt;RET&lt;/t1&gt;，则此默认值将用作参数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21130,6 +21202,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100929Z" creationid="grass" creationdate="20201014T100929Z">
         <seg>当默认搜索不够用时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the minibuffer is in use, it appears in the echo area, with a cursor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094508Z" creationid="grass" creationdate="20201212T094508Z">
+        <seg>当迷你缓冲区正在使用时，它会与光标一起出现在回显区中。</seg>
       </tuv>
     </tu>
     <tu>
