@@ -382,6 +382,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(The prompt, however, is &lt;e0&gt;read-only&lt;/e0&gt;, and cannot be changed.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101631Z" creationid="grass" creationdate="20201212T101631Z">
+        <seg>(但是，提示为&lt;e0&gt;read-only&lt;/e0&gt;的，不能更改。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(The ‘&lt;s0&gt;G&lt;/s0&gt;’ in &lt;a1&gt;GNU&lt;/a1&gt; (GNU’s Not Unix) is not silent.)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T093115Z" creationid="grass" creationdate="20201130T093115Z">
@@ -4844,6 +4852,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Alternatively, you can use the &lt;k4&gt;C-o&lt;/k4&gt; (&lt;c5&gt;open-line&lt;/c5&gt;) command (see &lt;a6&gt;Blank Lines&lt;/a6&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101717Z" creationid="grass" creationdate="20201212T101717Z">
+        <seg>或者，您也可以使用&lt;k4&gt;C-o&lt;/k4&gt;(&lt;c5&gt;open-line&lt;/c5&gt;)命令(请参阅&lt;a6&gt;空行&lt;/a6&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Alternatively, you can use the command &lt;k0&gt;C-x 8 &lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;insert-char&lt;/c2&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091722Z" creationid="grass" creationdate="20201205T091722Z">
@@ -5096,6 +5112,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T090825Z" creationid="grass" creationdate="20201205T090825Z">
         <seg>正如我们在本手册后面部分所解释的，您可以通过打开&lt;e0&gt;辅模式&lt;/e0&gt;来更改Emacs处理文本插入的方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As with &lt;t5&gt;RET&lt;/t5&gt;, you can use &lt;k6&gt;C-q&lt;/k6&gt; to insert a &lt;t7&gt;TAB&lt;/t7&gt;, &lt;t8&gt;SPC&lt;/t8&gt;, or ‘&lt;s9&gt;?&lt;/s9&gt;’ character.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101839Z" creationid="grass" creationdate="20201212T101839Z">
+        <seg>与&lt;t5&gt;5&gt;RET&lt;/t5&gt;一样，您可以使用&lt;k6&gt;C-q&lt;/k6&gt;插入&lt;t7&gt;TAB&lt;/t7&gt;、&lt;t8&gt;SPC&lt;/t8&gt;或‘&lt;s9&gt;?&lt;/s9&gt;’字符。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7188,6 +7212,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T195240Z" creationid="grass" creationdate="20201010T195240Z">
         <seg>编辑和调试公式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Editing in the Minibuffer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101527Z" creationid="grass" creationdate="20201212T101527Z">
+        <seg>在迷你缓冲区中编辑</seg>
       </tuv>
     </tu>
     <tu>
@@ -10828,6 +10860,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074654Z" creationid="grass" creationdate="20201205T074654Z">
         <seg>插入会将游标向前移动，因此该指针将保留在插入的文本之后。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inside a minibuffer, the keys &lt;t0&gt;TAB&lt;/t0&gt;, &lt;t1&gt;SPC&lt;/t1&gt;, and &lt;k2&gt;?&lt;/k2&gt; are often bound to &lt;e3&gt;completion commands&lt;/e3&gt;, which allow you to easily fill in the desired text without typing all of it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101744Z" creationid="grass" creationdate="20201212T101744Z">
+        <seg>在迷你缓冲区中，&lt;t0&gt;TAB&lt;/t0&gt;、&lt;t1&gt;SPC&lt;/t1&gt;和&lt;k2&gt;？&lt;/k2&gt;键通常绑定到&lt;e3&gt;补全命令&lt;/e3&gt;，这些命令允许您轻松地填写所需的文本，而无需键入所有文本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16864,6 +16904,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Remote Files&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101516Z" creationid="grass" creationdate="20201212T101516Z">
+        <seg>请参阅&lt;a0&gt;远程文件&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a0&gt;Saving Emacs Sessions&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073502Z" creationid="grass" creationdate="20201205T073502Z">
@@ -17084,6 +17132,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032007Z" creationid="grass" creationdate="20201205T032007Z">
         <seg>请参阅&lt;c4&gt;Emacs Lisp参考手册&lt;/c4&gt;中的&lt;a3&gt;什么是函数&lt;/a3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a4&gt;Completion&lt;/a4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101804Z" creationid="grass" creationdate="20201212T101804Z">
+        <seg>请参阅&lt;a4&gt;补全&lt;/a4&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17476,6 +17532,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095639Z" creationid="grass" creationdate="20201014T095639Z">
         <seg>简单的表格。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Since &lt;t0&gt;RET&lt;/t0&gt; in the minibuffer submits the argument, you can’t use it to insert a newline.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101652Z" creationid="grass" creationdate="20201212T101652Z">
+        <seg>由于迷你缓冲区中的&lt;t0&gt;RET&lt;/t0&gt;为提交参数，因此不能使用它插入换行符。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19215,6 +19279,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T143951Z" creationid="Eli" creationdate="20201021T143951Z">
         <seg> 这里使用的匹配规则语法与创建sparse tree（&lt;k3&gt;C-c / m&lt;/k3&gt;）时使用的语法是一样的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The minibuffer is an Emacs buffer, albeit a peculiar one, and the usual Emacs commands are available for editing the argument text.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101543Z" creationid="grass" creationdate="20201212T101543Z">
+        <seg>迷你缓冲区是一个Emacs缓冲区，尽管这是一个特殊的缓冲区，并且可以使用常用的Emacs命令来编辑参数文本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22122,6 +22194,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074008Z" creationid="grass" creationdate="20201205T074008Z">
         <seg>您可以自定义这些键以运行您选择的任何命令(请参阅&lt;a5&gt;键绑定&lt;/a5&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can do that with &lt;k1&gt;C-q C-j&lt;/k1&gt;, which inserts a &lt;k2&gt;C-j&lt;/k2&gt; control character, which is formally equivalent to a newline character (see &lt;a3&gt;Inserting Text&lt;/a3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101709Z" creationid="grass" creationdate="20201212T101709Z">
+        <seg>您可以使用&lt;k1&gt;C-q C-j&lt;/k1&gt;执行此操作，它插入一个&lt;k2&gt;C-j&lt;/k2&gt;控制字符，在形式上相当于换行符(请参见&lt;a3&gt;插入文本&lt;/a3&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
