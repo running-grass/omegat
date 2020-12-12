@@ -390,6 +390,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(To disable this dimming, turn off File Name Shadow mode with the command &lt;k2&gt;&lt;s3&gt;M-x&lt;/s3&gt; &lt;s4&gt;file-name-shadow-mode&lt;/s4&gt;&lt;/k2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101219Z" creationid="grass" creationdate="20201212T101219Z">
+        <seg>(要禁用此调暗，请使用命令&lt;k2&gt;&lt;s3&gt;M-x&lt;/s3&gt;&lt;s4&gt;file-name-shadow-mode&lt;/s4&gt;&lt;/k2&gt;关闭文件名阴影模式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(We have not explained buffers yet; see &lt;a1&gt;Buffers&lt;/a1&gt;, for more information about them.) If you miss a message that appeared briefly on the screen, you can switch to the &lt;s2&gt;*Messages*&lt;/s2&gt; buffer to see it again.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023024Z" creationid="grass" creationdate="20201203T023024Z">
@@ -847,6 +855,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T174207Z" creationid="grass" creationdate="20201010T174207Z">
         <seg>,-&gt;  概述 -&gt; 内容 -&gt; 全部显示 --.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101224Z" creationid="grass" creationdate="20201212T101224Z">
+        <seg>.)</seg>
       </tuv>
     </tu>
     <tu>
@@ -4964,6 +4980,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Any leading directory name in front of the &lt;s7&gt;~&lt;/s7&gt; is ignored: thus, &lt;s8&gt;/u2/emacs/~/foo/bar.txt&lt;/s8&gt; is equivalent to &lt;s9&gt;~/foo/bar.txt&lt;/s9&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101356Z" creationid="grass" creationdate="20201212T101356Z">
+        <seg>忽略&lt;s7&gt;~&lt;/s7&gt;前面的任何前导目录名：因此，&lt;s8&gt;/u2/emacs/~/foo/bar.txt&lt;/s8&gt;等同于&lt;s9&gt;~/foo/bar.txt&lt;/s9&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Any other non-digit terminates the sequence and then acts as normal input—thus, &lt;k3&gt;C-q 1 0 1 B&lt;/k3&gt; inserts ‘&lt;s4&gt;AB&lt;/s4&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091259Z" creationid="grass" creationdate="20201205T091259Z">
@@ -7296,6 +7320,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Emacs interprets &lt;s0&gt;~/&lt;/s0&gt; as your home directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101326Z" creationid="grass" creationdate="20201212T101326Z">
+        <seg>Emacs将&lt;s0&gt;~/&lt;/s0&gt;解释为您的主目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Emacs is one of the most widely ported programs, so that Org mode is available on every major platform.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T101914Z" creationid="grass" creationdate="20200927T101914Z">
@@ -8012,6 +8044,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201105T050944Z" creationid="grass" creationdate="20201015T082853Z">
         <seg>遵循GTD原则，我通常希望使用&lt;c1&gt;@office&lt;/c1&gt;标签为每个项目仅显示要完成的&lt;e0&gt;首要行动&lt;/e0&gt;(或下一步行动)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For MS-Windows, see &lt;a0&gt;Windows HOME&lt;/a0&gt;; for MS-DOS, see &lt;a1&gt;MS-DOS File Names&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101416Z" creationid="grass" creationdate="20201212T101416Z">
+        <seg>有关MS-Windows，请参阅&lt;a0&gt;Windows HOME&lt;/a0&gt;；有关MS-DOS，请参阅&lt;a1&gt;MS-DOS文件名&lt;/a1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10432,6 +10472,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In addition, &lt;s4&gt;~&lt;v5&gt;user-id&lt;/v5&gt;/&lt;/s4&gt; means the home directory of a user whose login name is &lt;v6&gt;user-id&lt;/v6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101347Z" creationid="grass" creationdate="20201212T101347Z">
+        <seg>此外，&lt;s4&gt;~&lt;v5&gt;user-id&lt;/v5&gt;/&lt;/s4&gt;表示登录名为&lt;v6&gt;user-id&lt;/v6&gt;的用户的主目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In addition, if Emacs is inside a recursive editing level, square brackets (‘&lt;s0&gt;[…]&lt;/s0&gt;’) appear around the parentheses that surround the modes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025621Z" creationid="grass" creationdate="20201203T025621Z">
@@ -10508,6 +10556,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072940Z" creationid="grass" creationdate="20201205T072940Z">
         <seg>在这种情况下，如果在命令行上指定了一个或多个文件，则Emacs只显示这些文件；否则，它将显示名为&lt;s2&gt;*scratch*&lt;/s2&gt;的缓冲区，该缓冲区可用于以交互方式计算Emacs Lisp表达式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In that case, the minibuffer starts out empty.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101456Z" creationid="grass" creationdate="20201212T101456Z">
+        <seg>在这种情况下，迷你缓冲区开始为空。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14332,6 +14388,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Nonetheless, relative file name arguments are still interpreted based on the same default directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101501Z" creationid="grass" creationdate="20201212T101501Z">
+        <seg>尽管如此，相对文件名参数仍然基于相同的默认目录进行解释。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Normally the global TODO list simply shows all headlines with TODO keywords.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T141953Z" creationid="Eli" creationdate="20201021T141953Z">
@@ -14496,6 +14560,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032731Z" creationid="grass" creationdate="20201205T032731Z">
         <seg>通常，命令的描述会说，“要更改这一点，请设置变量&lt;c1&gt;mumble-foo&lt;/c1&gt;。”变量是用于存储值的名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On MS-Windows and MS-DOS systems, where a user doesn’t always have a home directory, Emacs uses several alternatives.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101403Z" creationid="grass" creationdate="20201212T101403Z">
+        <seg>在MS-Windows和MS-DOS系统上，用户并不总是有主目录，Emacs使用几种替代方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14688,6 +14760,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024225Z" creationid="grass" creationdate="20201203T024225Z">
         <seg>在某些系统上，对于使用换行符作为行分隔符的文件，Emacs显示“&lt;s6&gt;(Unix)&lt;/s6&gt;”，而不是冒号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On these systems, the &lt;s2&gt;~&lt;v3&gt;user-id&lt;/v3&gt;/&lt;/s2&gt; construct is supported only for the current user, i.e., only if &lt;v4&gt;user-id&lt;/v4&gt; is the current user’s login name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101432Z" creationid="grass" creationdate="20201212T101432Z">
+        <seg>在这些系统上，仅当前用户支持&lt;s2&gt;~&lt;v3&gt;user-id&lt;/v3&gt;/&lt;/s2&gt;结构，即仅当&lt;v4&gt;user-id&lt;/v4&gt;是当前用户的登录名时才支持&lt;s2&gt;~&lt;v3&gt;user-id&lt;/v3&gt;/&lt;/s2&gt;结构。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16828,6 +16908,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072835Z" creationid="grass" creationdate="20201205T072835Z">
         <seg>请参阅&lt;a1&gt;Emacs服务器&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;File name completion&lt;/a1&gt; in &lt;c2&gt;The Tramp Manual&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101322Z" creationid="grass" creationdate="20201212T101322Z">
+        <seg>请参阅&lt;c2&gt;Tramp手册&lt;/c2&gt;中的&lt;a1&gt;文件名补全&lt;/a1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20101,6 +20189,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Thus, &lt;s1&gt;~/foo/bar.txt&lt;/s1&gt; specifies a file named &lt;s2&gt;bar.txt&lt;/s2&gt;, inside a directory named &lt;s3&gt;foo&lt;/s3&gt;, which is in turn located in your home directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101339Z" creationid="grass" creationdate="20201212T101339Z">
+        <seg>因此，&lt;s1&gt;~/foo/bar.txt&lt;/s1&gt;指定了一个名为&lt;s2&gt;bar.txt&lt;/s2&gt;的文件，该文件位于名为&lt;s3&gt;foo&lt;/s3&gt;的目录中，而该目录又位于您的主目录中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Thus, even if you only work with a single Org file, that file should be put into the list&lt;a0&gt;&lt;s1&gt;92&lt;/s1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T060345Z" creationid="Eli" creationdate="20201015T144706Z">
@@ -20389,6 +20485,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To prevent Emacs from inserting the default directory when reading file names, change the variable &lt;c0&gt;insert-default-directory&lt;/c0&gt; to &lt;c1&gt;nil&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101442Z" creationid="grass" creationdate="20201212T101442Z">
+        <seg>要防止Emacs在读取文件名时插入默认目录，请将变量&lt;c0&gt;insert-default-directory&lt;/c0&gt;更改为&lt;c1&gt;nil&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To repeat the command more than once, type additional &lt;k0&gt;z&lt;/k0&gt;’s: each &lt;k1&gt;z&lt;/k1&gt; repeats the command one more time.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T022320Z" creationid="grass" creationdate="20201209T022320Z">
@@ -20673,6 +20777,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031633Z" creationid="grass" creationdate="20201205T031633Z">
         <seg>在前缀键后键入帮助字符(&lt;k0&gt;C-h&lt;/k0&gt;或&lt;t1&gt;F1&lt;/t1&gt;)将显示以该前缀开头的命令列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Typing three slashes in a row ignores everything in remote file names.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101311Z" creationid="grass" creationdate="20201212T101311Z">
+        <seg>在一行中键入三个斜杠将忽略远程文件名中的所有内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21294,6 +21406,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When completing remote file names (see &lt;a0&gt;Remote Files&lt;/a0&gt;), a double slash behaves slightly differently: it causes Emacs to ignore only the file-name part, leaving the rest (method, host and username, etc.) intact.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101305Z" creationid="grass" creationdate="20201212T101305Z">
+        <seg>在补全远程文件名(请参阅&lt;a0&gt;远程文件&lt;/a0&gt;)时，双斜杠的行为略有不同：它导致Emacs仅忽略文件名部分，而保留剩余(方法、主机和用户名等)完好无损。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When deciding what to work on, I use either &lt;a0&gt;sparse trees&lt;/a0&gt; – which makes it easy to filter the content of my GTD projects by tag, search term, etc., or I use &lt;a1&gt;custom agenda commands&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201105T050901Z" creationid="grass" creationdate="20201015T081948Z">
@@ -21874,6 +21994,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T143913Z" creationid="Eli" creationdate="20201020T143753Z">
         <seg>您也可以通过在输入M-x org-agenda t时增加一个前缀参数来达到相同的效果。该前缀参数即为您要筛选的关键字。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also enter remote file names in the minibuffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101512Z" creationid="grass" creationdate="20201212T101512Z">
+        <seg>您还可以在迷你缓冲区中输入远程文件名。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22606,6 +22734,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061652Z" creationid="grass" creationdate="20201015T061652Z">
         <seg>http://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Package-Menu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://www.gnu.org/software/emacs/manual/html_mono/tramp.html#File-name-completion</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101232Z" creationid="grass" creationdate="20201212T101232Z">
+        <seg>http://www.gnu.org/software/emacs/manual/html_mono/tramp.html#File-name-completion</seg>
       </tuv>
     </tu>
     <tu>
