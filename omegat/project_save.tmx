@@ -6132,6 +6132,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Commands such as &lt;k0&gt;C-x C-f&lt;/k0&gt; (&lt;c1&gt;find-file&lt;/c1&gt;) use the minibuffer to read a file name argument (see &lt;a2&gt;Basic Files&lt;/a2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T100540Z" creationid="grass" creationdate="20201212T100540Z">
+        <seg>&lt;k0&gt;C-x C-f&lt;/k0&gt;(&lt;c1&gt;find-file&lt;/c1&gt;)等命令使用迷你缓冲区读取文件名参数(请参阅&lt;a2&gt;基本文件&lt;/a2&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Commands that take a long time often display messages ending in ‘&lt;s6&gt;...&lt;/s6&gt;’ while they are working (sometimes also indicating how much progress has been made, as a percentage), and add ‘&lt;s7&gt;done&lt;/s7&gt;’ when they are finished.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022918Z" creationid="grass" creationdate="20201203T022918Z">
@@ -9496,6 +9504,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If an error message or an informative message is emitted while the minibuffer is active, the message hides the minibuffer for a few seconds, or until you type something; then the minibuffer comes back.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T100459Z" creationid="grass" creationdate="20201212T100459Z">
+        <seg>如果在迷你缓冲区处于活动状态时发出错误消息或信息性消息，则该消息会将迷你缓冲区隐藏几秒钟，或者直到您键入内容；然后迷你缓冲区才会返回。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If an error occurs, a “backtrace” can be very useful—see below on how to create one.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082155Z" creationid="grass" creationdate="20200929T082155Z">
@@ -11816,6 +11832,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032846Z" creationid="grass" creationdate="20201203T032846Z">
         <seg>菜单栏</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Minibuffers for File Names</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T100525Z" creationid="grass" creationdate="20201212T100525Z">
+        <seg>文件名的迷你缓冲区</seg>
       </tuv>
     </tu>
     <tu>
@@ -17280,6 +17304,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Since the minibuffer appears in the echo area, it can conflict with other uses of the echo area.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T100427Z" creationid="grass" creationdate="20201212T100427Z">
+        <seg>由于迷你缓冲区出现在回显区中，因此它可能与回显区的其他用途冲突。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Since the wrapping may occur in the middle of a word, continued lines can be difficult to read.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014056Z" creationid="grass" creationdate="20201208T014056Z">
@@ -20125,6 +20157,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To enable this minor mode, type &lt;k7&gt;M-x minibuffer-electric-default-mode&lt;/k7&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T100410Z" creationid="grass" creationdate="20201212T100410Z">
+        <seg>要启用此辅模式，请键入&lt;k7&gt;M-x minibuffer-electric-default-mode&lt;/k7&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To end a line and start a new one, type &lt;t0&gt;RET&lt;/t0&gt; (&lt;c1&gt;newline&lt;/c1&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T083812Z" creationid="grass" creationdate="20201205T083812Z">
@@ -21238,6 +21278,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When the minibuffer is used to read a file name, it typically starts out with some initial text ending in a slash.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T100605Z" creationid="grass" creationdate="20201212T100605Z">
+        <seg>当使用迷你缓冲区读取文件名时，它通常以一些以斜杠结尾的初始文本开始。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When the variable &lt;c4&gt;org-log-refile&lt;/c4&gt;&lt;a5&gt;&lt;s6&gt;83&lt;/s6&gt;&lt;/a5&gt; is set, a timestamp or a note is recorded whenever an entry is refiled.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T133852Z" creationid="grass" creationdate="20201006T133852Z">
@@ -21378,6 +21426,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T022747Z" creationid="grass" creationdate="20201205T022747Z">
         <seg>虽然可以使用鼠标通过菜单栏和工具栏触发编辑命令，但效率不如使用键盘。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While the minibuffer is in use, Emacs does not echo keystrokes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T100514Z" creationid="grass" creationdate="20201212T100514Z">
+        <seg>当迷你缓冲区正在使用时，Emacs不会回显击键。</seg>
       </tuv>
     </tu>
     <tu>
