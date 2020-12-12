@@ -4244,6 +4244,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A double slash causes Emacs to ignore everything before the second slash in the pair.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101118Z" creationid="grass" creationdate="20201212T101118Z">
+        <seg>双斜杠会导致Emacs忽略对中第二个斜杠之前的所有内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A dynamic block for column view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101939Z" creationid="grass" creationdate="20201014T101939Z">
@@ -4792,6 +4800,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T100730Z" creationid="grass" creationdate="20201212T100730Z">
         <seg>可以通过键入&lt;k0&gt;M-n&lt;/k0&gt;获得您可能需要的文件名的其他默认值，请参阅&lt;a1&gt;迷你缓冲区历史&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Alternatively, you can ignore the default, and enter an absolute file name starting with a slash or a tilde after the default directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101044Z" creationid="grass" creationdate="20201212T101044Z">
+        <seg>或者，您可以忽略默认设置，在默认目录后输入以斜杠或波浪号开头的绝对文件名。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7952,6 +7968,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Find file: /u2/emacs/src//etc/termcap</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101103Z" creationid="grass" creationdate="20201212T101103Z">
+        <seg>Find file: /u2/emacs/src//etc/termcap</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Find projects you need to review.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103240Z" creationid="grass" creationdate="20201014T103240Z">
@@ -8236,6 +8260,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032649Z" creationid="grass" creationdate="20201205T032649Z">
         <seg>例如，我们会说“命令&lt;k1&gt;C-n&lt;/k1&gt;(&lt;c2&gt;next-line&lt;/c2&gt;)垂直下移一行”，即&lt;c3&gt;next-line&lt;/c3&gt;命令是垂直下移一行，正常情况下&lt;k4&gt;C-n&lt;/k4&gt;键绑定到该命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, you can specify &lt;s2&gt;/etc/termcap&lt;/s2&gt; as follows:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101059Z" creationid="grass" creationdate="20201212T101059Z">
+        <seg>例如，您可以指定&lt;s2&gt;/etc/termcap&lt;/s2&gt;，如下所示：</seg>
       </tuv>
     </tu>
     <tu>
@@ -10484,6 +10516,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014217Z" creationid="grass" creationdate="20201208T014217Z">
         <seg>在这种情况下，您可以使用Visual Line模式，该模式启用&lt;e0&gt;单词换行&lt;/e0&gt;：Emacs不是精确地在窗口右边缘换行，而是在最靠近窗口右边缘的单词边界(即空格或制表符)换行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the example above, &lt;s0&gt;/u2/emacs/src/&lt;/s0&gt; is ignored, so the argument you supplied is &lt;s1&gt;/etc/termcap&lt;/s1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101158Z" creationid="grass" creationdate="20201212T101158Z">
+        <seg>在上面的示例中，&lt;s0&gt;/u2/emacs/src/&lt;/s0&gt;被忽略，因此您提供的参数是&lt;s1&gt;/etc/termcap&lt;/s1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18959,6 +18999,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104256Z" creationid="grass" creationdate="20201014T104256Z">
         <seg>是否需要目录和目录的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The ignored part of the file name is dimmed if the terminal allows it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101203Z" creationid="grass" creationdate="20201212T101203Z">
+        <seg>如果终端允许，文件名中被忽略的部分将变暗。</seg>
       </tuv>
     </tu>
     <tu>
