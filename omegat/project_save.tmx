@@ -454,6 +454,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(You can still leave the minibuffer by typing &lt;k3&gt;C-g&lt;/k3&gt; to cancel the command.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105457Z" creationid="grass" creationdate="20201212T105457Z">
+        <seg>(您仍然可以通过键入&lt;k3&gt;C-g&lt;/k3&gt;取消该命令来离开迷你缓冲区。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(a) The FSF’s Back-Cover Text is: “You have the freedom to copy and
 modify this GNU manual.”
 #+END_QUOTE
@@ -3435,6 +3443,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;e0&gt;Cautious completion&lt;/e0&gt; is like strict completion, except &lt;t1&gt;RET&lt;/t1&gt; exits only if the text is already an exact match.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105518Z" creationid="grass" creationdate="20201212T105518Z">
+        <seg>&lt;e0&gt;谨慎补全&lt;/e0&gt;类似于严格补全，不同之处在于&lt;t1&gt;RET&lt;/t1&gt;只有在文本已经完全匹配时才会退出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;e0&gt;Customizable&lt;/e0&gt; means that you can easily alter the behavior of Emacs commands in simple ways.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T112931Z" creationid="grass" creationdate="20201130T112931Z">
@@ -3467,10 +3483,26 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;e0&gt;Permissive completion&lt;/e0&gt; allows any input; the completion candidates are just suggestions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105618Z" creationid="grass" creationdate="20201212T105618Z">
+        <seg>&lt;e0&gt;允许补全&lt;/e0&gt;允许任何输入；补全候选项只是建议。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;e0&gt;Self-documenting&lt;/e0&gt; means that at any time you can use special commands, known as &lt;e1&gt;help commands&lt;/e1&gt;, to find out what your options are, or to find out what any command does, or to find all the commands that pertain to a given topic.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T112917Z" creationid="grass" creationdate="20201130T112917Z">
         <seg>&lt;e0&gt;自文档&lt;/e0&gt;意味着您可以随时使用称为&lt;e1&gt;帮助命令&lt;/e1&gt;的特殊命令来找出您的选项是什么，或者找出任何命令的作用，或者查找与给定主题相关的所有命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;Strict completion&lt;/e0&gt; accepts only exact completion matches.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105343Z" creationid="grass" creationdate="20201212T105336Z">
+        <seg>&lt;e0&gt;严格补全&lt;/e0&gt;只接受完全匹配的补全。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5012,6 +5044,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An example of a command that uses this behavior is &lt;k0&gt;M-x&lt;/k0&gt;, since it is meaningless for it to accept a non-existent command name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105504Z" creationid="grass" creationdate="20201212T105504Z">
+        <seg>使用此行为的命令的一个示例是&lt;k0&gt;M-x&lt;/k0&gt;，因为它接受不存在的命令名是没有意义的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An excellent way to implement labels and contexts for cross-correlating information is to assign &lt;e0&gt;tags&lt;/e0&gt; to headlines.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T022801Z" creationid="grass" creationdate="20201019T022801Z">
@@ -6084,6 +6124,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Cautious completion is used for reading file names for files that must already exist, for example.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105604Z" creationid="grass" creationdate="20201212T105604Z">
+        <seg>例如，谨慎补全用于读取必须已经存在的文件的文件名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Changing sequence and level of headlines.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T170217Z" creationid="grass" creationdate="20201010T170217Z">
@@ -6392,6 +6440,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103937Z" creationid="grass" creationdate="20201212T103937Z">
         <seg>补全示例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Completion Exit</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105302Z" creationid="grass" creationdate="20201212T105302Z">
+        <seg>补全退出</seg>
       </tuv>
     </tu>
     <tu>
@@ -10092,6 +10148,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091232Z" creationid="grass" creationdate="20201205T091232Z">
         <seg>如果终止字符是&lt;t1&gt;RET&lt;/t1&gt;，则&lt;t2&gt;RET&lt;/t2&gt;仅用于终止序列。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the text completes to an exact match, &lt;t2&gt;RET&lt;/t2&gt; performs that completion but does not exit yet; you must type a second &lt;t3&gt;RET&lt;/t3&gt; to exit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105538Z" creationid="grass" creationdate="20201212T105538Z">
+        <seg>如果文本完全匹配，&lt;t2&gt;RET&lt;/t2&gt;将执行该补全，但尚未退出；您必须键入第二个&lt;t3&gt;RET&lt;/t3&gt;才能退出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15652,6 +15716,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Otherwise, Emacs refuses to exit the minibuffer; instead it tries to complete, and if no completion can be done it momentarily displays ‘&lt;s2&gt;[No match]&lt;/s2&gt;’ after the minibuffer text.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105450Z" creationid="grass" creationdate="20201212T105450Z">
+        <seg>否则，Emacs拒绝退出迷你缓冲区；相反，它会尝试补全，如果无法补全，它会在迷你缓冲区文本之后暂时显示“&lt;s2&gt;[No Match]&lt;/s2&gt;”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Otherwise, it is ‘&lt;s3&gt;Top&lt;/s3&gt;’ if you are looking at the beginning of the buffer, ‘&lt;s4&gt;Bot&lt;/s4&gt;’ if you are looking at the end of the buffer, or ‘&lt;s5&gt;&lt;v6&gt;nn&lt;/v6&gt;%&lt;/s5&gt;’, where &lt;v7&gt;nn&lt;/v7&gt; is the percentage of the buffer above the top of the window.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024704Z" creationid="grass" creationdate="20201203T024704Z">
@@ -20137,6 +20209,14 @@ stores its records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are four types of behavior:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105331Z" creationid="grass" creationdate="20201212T105331Z">
+        <seg>有四种类型的行为：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are several, including &lt;c4&gt;auto-fill-mode&lt;/c4&gt; and &lt;c5&gt;autoconf-mode&lt;/c5&gt;, but they all begin with &lt;c6&gt;auto&lt;/c6&gt;, so the ‘&lt;s7&gt;au&lt;/s7&gt;’ in the minibuffer completes to ‘&lt;s8&gt;auto&lt;/s8&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104139Z" creationid="grass" creationdate="20201212T104139Z">
@@ -21357,6 +21437,22 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Typing &lt;t1&gt;RET&lt;/t1&gt; does not complete, it just submits the argument as you have entered it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105626Z" creationid="grass" creationdate="20201212T105626Z">
+        <seg>键入&lt;t1&gt;RET&lt;/t1&gt;不会补全，它只提交您输入的参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Typing &lt;t1&gt;RET&lt;/t1&gt; exits the minibuffer only if the minibuffer text is an exact match, or completes to one.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105425Z" creationid="grass" creationdate="20201212T105425Z">
+        <seg>仅当迷你缓冲区文本完全匹配或只有一个补全选项时，键入&lt;t1&gt;RET&lt;/t1&gt;才会退出迷你缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Typing the help character (&lt;k0&gt;C-h&lt;/k0&gt; or &lt;t1&gt;F1&lt;/t1&gt;) after a prefix key displays a list of the commands starting with that prefix.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031633Z" creationid="grass" creationdate="20201205T031633Z">
@@ -21946,6 +22042,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T033230Z" creationid="grass" creationdate="20201205T033230Z">
         <seg>当Emacs启动时，初始窗体中显示一个名为‘&lt;s0&gt;*GNU Emacs*&lt;/s0&gt;’的特殊缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a command reads an argument using the minibuffer with completion, it also controls what happens when you type &lt;t0&gt;RET&lt;/t0&gt; (&lt;c1&gt;minibuffer-complete-and-exit&lt;/c1&gt;) to submit the argument.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105329Z" creationid="grass" creationdate="20201212T105329Z">
+        <seg>当命令使用带有补全的迷你缓冲区读取参数时，它还控制当您键入&lt;t0&gt;RET&lt;/t0&gt;(&lt;c1&gt;minibuffer-complete-and-exit&lt;/c1&gt;)提交参数时发生的情况。</seg>
       </tuv>
     </tu>
     <tu>
