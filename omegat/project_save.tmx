@@ -342,6 +342,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(For example, when completing command names, ‘&lt;s0&gt;em-l-m&lt;/s0&gt;’ completes to ‘&lt;s1&gt;emacs-lisp-mode&lt;/s1&gt;’.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110317Z" creationid="grass" creationdate="20201212T110317Z">
+        <seg>(例如，在补全命令名称时，“&lt;s0&gt;em-l-m&lt;/s0&gt;”将完成为“&lt;s1&gt;emacs-lisp-mode&lt;/s1&gt;”。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(However, note that when Emacs was built with a GUI toolkit, the menus are drawn and controlled by the toolkit, and the key sequences to cancel menu navigation might be different from the above description.)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T031109Z" creationid="grass" creationdate="20201203T031109Z">
@@ -4432,6 +4440,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025004Z" creationid="grass" creationdate="20201203T025004Z">
         <seg>主模式是缓冲区的主要编辑模式，诸如文本模式、Lisp模式、C模式等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A matching completion alternative must contain the text in the minibuffer before point, and the text in the minibuffer after point, as substrings (in that same order).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110449Z" creationid="grass" creationdate="20201212T110449Z">
+        <seg>匹配的补全选项必须将迷你缓冲区中的文本包含在游标之前，而将迷你缓冲区中的文本包含在游标之后，作为子字符串(顺序相同)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8952,6 +8968,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Furthermore, a ‘&lt;s0&gt;*&lt;/s0&gt;’ in the minibuffer text is treated as a &lt;e1&gt;wildcard&lt;/e1&gt;—it matches any string of characters at the corresponding position in the completion alternative.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110329Z" creationid="grass" creationdate="20201212T110329Z">
+        <seg>此外，迷你缓冲区文本中的“&lt;s0&gt;*&lt;/s0&gt;”被视为&lt;e1&gt;通配符&lt;/e1&gt;-它匹配补全备选方案中相应位置的任何字符串。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Furthermore, any entries with a ‘&lt;s0&gt;VISIBILITY&lt;/s0&gt;’ property (see &lt;a1&gt;Properties and Columns&lt;/a1&gt;) get their visibility adapted accordingly.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182211Z" creationid="grass" creationdate="20201010T182211Z">
@@ -11548,6 +11572,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T143046Z" creationid="Eli" creationdate="20201019T143023Z">
         <seg>该命令会显示一个菜单界面，在该界面输入不同的字母会执行不同的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is so-named because it corresponds to the completion behavior in Emacs 22.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110409Z" creationid="grass" creationdate="20201212T110409Z">
+        <seg>之所以这样命名，是因为它对应于Emacs22中的补全行为。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19723,6 +19755,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following additional completion styles are also defined, and you can add them to &lt;c0&gt;completion-styles&lt;/c0&gt; if you wish (see &lt;a1&gt;Customization&lt;/a1&gt;):</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110421Z" creationid="grass" creationdate="20201212T110421Z">
+        <seg>还定义了以下其他完成样式，如果您愿意，可以将它们添加到&lt;c0&gt;补全样式&lt;/c0&gt;中(请参阅&lt;a1&gt;自定义&lt;/a1&gt;)：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following commands can be used with the completion list:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104957Z" creationid="grass" creationdate="20201212T104957Z">
@@ -20701,6 +20741,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This completion style is similar to &lt;c0&gt;basic&lt;/c0&gt;, except that it ignores the text in the minibuffer after point.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110400Z" creationid="grass" creationdate="20201212T110400Z">
+        <seg>此补全样式类似于&lt;c0&gt;basic&lt;/c0&gt;，不同之处在于它忽略了迷你缓冲区中游标之后的文本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This copies the altered buffer contents back into the file &lt;s4&gt;test.emacs&lt;/s4&gt;, making them permanent.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013134Z" creationid="grass" creationdate="20201208T013134Z">
@@ -21033,6 +21081,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T060345Z" creationid="Eli" creationdate="20201015T144706Z">
         <seg>因此，即使你只使用一个org文件,也需要把该文件列入变量`org-agenda-files`中&lt;a0&gt;&lt;s1&gt;92&lt;/s1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thus, if the text in the minibuffer is ‘&lt;s0&gt;foobar&lt;/s0&gt;’, with point between ‘&lt;s1&gt;foo&lt;/s1&gt;’ and ‘&lt;s2&gt;bar&lt;/s2&gt;’, that matches ‘&lt;s3&gt;&lt;v4&gt;a&lt;/v4&gt;foo&lt;v5&gt;b&lt;/v5&gt;bar&lt;v6&gt;c&lt;/v6&gt;&lt;/s3&gt;’, where &lt;v7&gt;a&lt;/v7&gt;, &lt;v8&gt;b&lt;/v8&gt;, and &lt;v9&gt;c&lt;/v9&gt; can be any string including the empty string.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110559Z" creationid="grass" creationdate="20201212T110559Z">
+        <seg>因此，如果迷你缓冲区中的文本是“&lt;s0&gt;foobar&lt;/s0&gt;‘，游标在”&lt;s1&gt;foo&lt;/s1&gt;’和“&lt;s2&gt;bar&lt;/s2&gt;‘之间，则该文本与‘&lt;s3&gt;&lt;v4&gt;a&lt;/v4&gt;foo&lt;v5&gt;b&lt;/v5&gt;bar&lt;v6&gt;c&lt;/v6&gt;&lt;/s3&gt;’，匹配，其中&lt;v7&gt;a&lt;/v7&gt;，&lt;v8&gt;b&lt;/v8&gt;和&lt;v9&gt;c&lt;/v9&gt;可以是包括空字符串的任何字符串。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23598,6 +23654,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T062720Z" creationid="grass" creationdate="20201016T055118Z">
         <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>emacs22</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110331Z" creationid="grass" creationdate="20201212T110331Z">
+        <seg>emacs22</seg>
       </tuv>
     </tu>
     <tu>
@@ -56042,6 +56106,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021400Z" creationid="grass" creationdate="20201209T021400Z">
         <seg>指定参数641。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>substring</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110423Z" creationid="grass" creationdate="20201212T110423Z">
+        <seg>substring</seg>
       </tuv>
     </tu>
     <tu>
