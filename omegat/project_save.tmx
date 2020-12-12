@@ -344,8 +344,8 @@ $ make autoloads</seg>
       <tuv lang="EN-US">
         <seg>(For example, when completing command names, ‘&lt;s0&gt;em-l-m&lt;/s0&gt;’ completes to ‘&lt;s1&gt;emacs-lisp-mode&lt;/s1&gt;’.)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110317Z" creationid="grass" creationdate="20201212T110317Z">
-        <seg>(例如，在补全命令名称时，“&lt;s0&gt;em-l-m&lt;/s0&gt;”将完成为“&lt;s1&gt;emacs-lisp-mode&lt;/s1&gt;”。)</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T112051Z" creationid="grass" creationdate="20201212T110317Z">
+        <seg>(例如，在补全命令名称时，“&lt;s0&gt;em-l-m&lt;/s0&gt;”将补全为“&lt;s1&gt;emacs-lisp-mode&lt;/s1&gt;”。)</seg>
       </tuv>
     </tu>
     <tu>
@@ -5022,8 +5022,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="EN-US">
         <seg>Although completion is usually done in the minibuffer, the feature is sometimes available in ordinary buffers too.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103639Z" creationid="grass" creationdate="20201212T103639Z">
-        <seg>虽然补全通常是在小缓冲区中完成的，但有时普通缓冲区中也可以使用该功能。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T112038Z" creationid="grass" creationdate="20201212T103639Z">
+        <seg>虽然补全通常是在小缓冲区中补全的，但有时普通缓冲区中也可以使用该功能。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5150,8 +5150,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="EN-US">
         <seg>Another &lt;t8&gt;SPC&lt;/t8&gt; at this point completes all the way to ‘&lt;s9&gt;auto-fill-mode&lt;/s9&gt;’.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104930Z" creationid="grass" creationdate="20201212T104930Z">
-        <seg>此时，另一个&lt;t8&gt;SPC&lt;/t8&gt;将一直完成到“&lt;s9&gt;auto-fill-mode&lt;/s9&gt;”。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T112045Z" creationid="grass" creationdate="20201212T104930Z">
+        <seg>此时，另一个&lt;t8&gt;SPC&lt;/t8&gt;将一直补全到“&lt;s9&gt;auto-fill-mode&lt;/s9&gt;”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6430,8 +6430,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="EN-US">
         <seg>Commands that take a long time often display messages ending in ‘&lt;s6&gt;...&lt;/s6&gt;’ while they are working (sometimes also indicating how much progress has been made, as a percentage), and add ‘&lt;s7&gt;done&lt;/s7&gt;’ when they are finished.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022918Z" creationid="grass" creationdate="20201203T022918Z">
-        <seg>耗时较长的命令通常在工作时显示以“&lt;s6&gt;.&lt;/s6&gt;”结尾的消息(有时还以百分比形式指示已取得的进展)，并在完成时添加“&lt;s7&gt;完成&lt;/s7&gt;”。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T112018Z" creationid="grass" creationdate="20201203T022918Z">
+        <seg>耗时较长的命令通常在工作时显示以“&lt;s6&gt;.&lt;/s6&gt;”结尾的消息(有时还以百分比形式指示已取得的进展)，并在补全时添加“&lt;s7&gt;补全&lt;/s7&gt;”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8842,8 +8842,8 @@ org和许多邮件用户代理；请参阅以下各节
       <tuv lang="EN-US">
         <seg>For instance, you can switch to another window (with &lt;k0&gt;C-x o&lt;/k0&gt;), edit text there, then return to the minibuffer window to finish the argument.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101945Z" creationid="grass" creationdate="20201212T101945Z">
-        <seg>例如，您可以切换到另一个窗口(使用&lt;k0&gt;C-x o&lt;/k0&gt;)，在那里编辑文本，然后返回到迷你缓冲区窗口完成参数。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T112032Z" creationid="grass" creationdate="20201212T101945Z">
+        <seg>例如，您可以切换到另一个窗口(使用&lt;k0&gt;C-x o&lt;/k0&gt;)，在那里编辑文本，然后返回到迷你缓冲区窗口补全参数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10568,10 +10568,18 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you change &lt;c2&gt;completion-cycle-threshold&lt;/c2&gt; to &lt;c3&gt;t&lt;/c3&gt;, the completion command instead completes to the first of those completion alternatives; each subsequent invocation of the completion command replaces that with the next completion alternative, in a cyclic manner.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111855Z" creationid="grass" creationdate="20201212T111855Z">
+        <seg>如果将&lt;c2&gt;completion-cycle-threshold&lt;/c2&gt;更改为&lt;c3&gt;t&lt;/c3&gt;，则补全命令将改为补全到这些补全备选方案中的第一个；每次后续调用补全命令都会以循环方式将其替换为下一个补全备选方案。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you change it to &lt;c2&gt;nil&lt;/c2&gt;, Emacs does not ask for confirmation, falling back on permissive completion.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105920Z" creationid="grass" creationdate="20201212T105920Z">
-        <seg>如果将其更改为&lt;c2&gt;nil&lt;/c2&gt;，则Emacs不会要求确认，而是退回到宽松完成。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T112049Z" creationid="grass" creationdate="20201212T105920Z">
+        <seg>如果将其更改为&lt;c2&gt;nil&lt;/c2&gt;，则Emacs不会要求确认，而是退回到宽松补全。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10634,8 +10642,8 @@ USA</seg>
       <tuv lang="EN-US">
         <seg>If you enter a name, the command provides completion (see &lt;a3&gt;Completion&lt;/a3&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091859Z" creationid="grass" creationdate="20201205T091741Z">
-        <seg>如果输入名称，该命令将提供完成(请参见&lt;a3&gt;补全&lt;/a3&gt;)。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T112026Z" creationid="grass" creationdate="20201205T091741Z">
+        <seg>如果输入名称，该命令将提供补全(请参见&lt;a3&gt;补全&lt;/a3&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10684,6 +10692,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013249Z" creationid="grass" creationdate="20201208T013249Z">
         <seg>如果忘记了快捷键的作用，可以通过键入&lt;k0&gt;C-h k&lt;/k0&gt;(&lt;c1&gt;describe-key&lt;/c1&gt;)，然后键入感兴趣的键；例如，&lt;k2&gt;C-h k C-n&lt;/k2&gt;告诉您&lt;k3&gt;C-n&lt;/k3&gt;的作用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you give &lt;c4&gt;completion-cycle-threshold&lt;/c4&gt; a numeric value &lt;v5&gt;n&lt;/v5&gt;, completion commands switch to this cycling behavior only when there are &lt;v6&gt;n&lt;/v6&gt; or fewer alternatives.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111912Z" creationid="grass" creationdate="20201212T111912Z">
+        <seg>如果给&lt;c4&gt;completion-cycle-threshold&lt;/c4&gt;一个数值&lt;v5&gt;n&lt;/v5&gt;，则仅当有&lt;v6&gt;n&lt;/v6&gt;或更少替代选项时，补全命令才会切换到此循环行为。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18154,8 +18170,8 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       <tuv lang="EN-US">
         <seg>Shell completion is an extended version of filename completion, see &lt;a0&gt;Shell Options&lt;/a0&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111701Z" creationid="grass" creationdate="20201212T111701Z">
-        <seg>Shell补全是文件名完成的扩展版本，请参阅&lt;a0&gt;Shell选项&lt;/a0&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T112053Z" creationid="grass" creationdate="20201212T111701Z">
+        <seg>Shell补全是文件名补全的扩展版本，请参阅&lt;a0&gt;Shell选项&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18362,8 +18378,8 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       <tuv lang="EN-US">
         <seg>So it does not add any characters; instead, &lt;t4&gt;TAB&lt;/t4&gt; displays a list of all possible completions in another window.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104230Z" creationid="grass" creationdate="20201212T104230Z">
-        <seg>因此它不会添加任何字符；相反，&lt;t4&gt;TAB&lt;/t4&gt;会在另一个窗口中显示所有可能的完成列表。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T112043Z" creationid="grass" creationdate="20201212T104230Z">
+        <seg>因此它不会添加任何字符；相反，&lt;t4&gt;TAB&lt;/t4&gt;会在另一个窗口中显示所有可能的补全列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20675,8 +20691,8 @@ stores its records.</seg>
       <tuv lang="EN-US">
         <seg>These commands attempt to complete the text in the minibuffer, based on a set of &lt;e4&gt;completion alternatives&lt;/e4&gt; provided by the command that requested the argument.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103623Z" creationid="grass" creationdate="20201212T103623Z">
-        <seg>这些命令尝试根据请求参数的命令提供的一组&lt;e4&gt;补全选项&lt;/e4&gt;来完成迷你缓冲区中的文本。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T112034Z" creationid="grass" creationdate="20201212T103623Z">
+        <seg>这些命令尝试根据请求参数的命令提供的一组&lt;e4&gt;补全选项&lt;/e4&gt;来补全迷你缓冲区中的文本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20751,8 +20767,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>This aggressive completion style divides the minibuffer text into words separated by hyphens or spaces, and completes each word separately.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111003Z" creationid="grass" creationdate="20201212T110305Z">
-        <seg>这种积极的补全风格将迷你缓冲区文本分成用连字符或空格分隔的单词，并分别完成每个单词。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T112050Z" creationid="grass" creationdate="20201212T110305Z">
+        <seg>这种积极的补全风格将迷你缓冲区文本分成用连字符或空格分隔的单词，并分别补全每个单词。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20823,8 +20839,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>This catches a common mistake, in which one types &lt;t5&gt;RET&lt;/t5&gt; before realizing that &lt;t6&gt;TAB&lt;/t6&gt; did not complete as far as desired.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105835Z" creationid="grass" creationdate="20201212T105835Z">
-        <seg>这捕获了一个常见的错误，在该错误中，在意识到&lt;t6&gt;TAB&lt;/t6&gt;没有完成之前，输入&lt;t5&gt;RET&lt;/t5&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T112047Z" creationid="grass" creationdate="20201212T105835Z">
+        <seg>这捕获了一个常见的错误，在该错误中，在意识到&lt;t6&gt;TAB&lt;/t6&gt;没有补全之前，输入&lt;t5&gt;RET&lt;/t5&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21031,8 +21047,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>This is done using the &lt;c0&gt;undo&lt;/c0&gt; command, which is bound to &lt;k1&gt;C-/&lt;/k1&gt; (as well as &lt;k2&gt;C-x u&lt;/k2&gt; and &lt;k3&gt;C-_&lt;/k3&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152804Z" creationid="grass" creationdate="20201207T152804Z">
-        <seg>这是使用&lt;c0&gt;undo&lt;/c0&gt;命令完成的，该命令绑定到&lt;k1&gt;C-/&lt;/k1&gt;(以及&lt;k2&gt;C-x u&lt;/k2&gt;和&lt;k3&gt;C-_&lt;/k3&gt;)。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T112028Z" creationid="grass" creationdate="20201207T152804Z">
+        <seg>这是使用&lt;c0&gt;undo&lt;/c0&gt;命令补全的，该命令绑定到&lt;k1&gt;C-/&lt;/k1&gt;(以及&lt;k2&gt;C-x u&lt;/k2&gt;和&lt;k3&gt;C-_&lt;/k3&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22840,8 +22856,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>While in the completion list buffer, these keys move point to the previous completion alternative (&lt;c0&gt;previous-completion&lt;/c0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105215Z" creationid="grass" creationdate="20201212T105215Z">
-        <seg>在补全列表缓冲区中时，这些键移动到前一个完成选项(&lt;c0&gt;previous-completion&lt;/c0&gt;)。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T112046Z" creationid="grass" creationdate="20201212T105215Z">
+        <seg>在补全列表缓冲区中时，这些键移动到前一个补全选项(&lt;c0&gt;previous-completion&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
