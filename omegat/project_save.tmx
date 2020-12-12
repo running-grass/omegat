@@ -3483,10 +3483,18 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;e0&gt;Permissive completion with confirmation&lt;/e0&gt; is like permissive completion, with an exception: if you typed &lt;t1&gt;TAB&lt;/t1&gt; and this completed the text up to some intermediate state (i.e., one that is not yet an exact completion match), typing &lt;t2&gt;RET&lt;/t2&gt; right afterward does not submit the argument.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105749Z" creationid="grass" creationdate="20201212T105642Z">
+        <seg>&lt;e0&gt;带有确认的宽松补全&lt;/e0&gt;类似于宽松补全，但有一个例外：如果您键入&lt;t1&gt;TAB&lt;/t1&gt;，并且这样补全了文本直到某种中间状态(即，尚未完全匹配补全的状态)，则紧接着键入&lt;t2&gt;RET&lt;/t2&gt;不会提交参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;e0&gt;Permissive completion&lt;/e0&gt; allows any input; the completion candidates are just suggestions.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105618Z" creationid="grass" creationdate="20201212T105618Z">
-        <seg>&lt;e0&gt;允许补全&lt;/e0&gt;允许任何输入；补全候选项只是建议。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105709Z" creationid="grass" creationdate="20201212T105618Z">
+        <seg>&lt;e0&gt;宽松补全&lt;/e0&gt;允许任何输入；补全候选项只是建议。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10328,6 +10336,22 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you change it to &lt;c2&gt;nil&lt;/c2&gt;, Emacs does not ask for confirmation, falling back on permissive completion.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105920Z" creationid="grass" creationdate="20201212T105920Z">
+        <seg>如果将其更改为&lt;c2&gt;nil&lt;/c2&gt;，则Emacs不会要求确认，而是退回到宽松完成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you change it to any other non-&lt;c3&gt;nil&lt;/c3&gt; value, Emacs asks for confirmation whether or not the preceding command was &lt;t4&gt;TAB&lt;/t4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105927Z" creationid="grass" creationdate="20201212T105927Z">
+        <seg>如果将其更改为任何其他非&lt;c3&gt;nil&lt;/c3&gt;值，则Emacs会要求确认前面的命令是否为&lt;t4&gt;TAB&lt;/t4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you do not like it, you can create an active region by using the mouse to select a region, or pressing &lt;k1&gt;C-&lt;s2&gt;SPC&lt;/s2&gt;&lt;/k1&gt; twice before moving point.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T140303Z" creationid="grass" creationdate="20200927T140303Z">
@@ -11260,6 +11284,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T030400Z" creationid="grass" creationdate="20201203T030400Z">
         <seg>您也可以通过按&lt;t0&gt;F10&lt;/t0&gt;(运行命令&lt;c1&gt;menu-bar-open&lt;/c1&gt;)来调用第一个菜单栏项目，而不是使用鼠标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead, Emacs asks for confirmation by momentarily displaying ‘&lt;s3&gt;[Confirm]&lt;/s3&gt;’ after the text; type &lt;t4&gt;RET&lt;/t4&gt; again to confirm and submit the text.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105814Z" creationid="grass" creationdate="20201212T105814Z">
+        <seg>相反，Emacs通过在文本后暂时显示“&lt;s3&gt;[Confirm]&lt;/3&gt;”来请求确认；再次键入&lt;t4&gt;RET&lt;/t4&gt;以确认并提交文本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19467,6 +19499,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default value, &lt;c1&gt;after-completion&lt;/c1&gt;, gives the behavior we have just described.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105906Z" creationid="grass" creationdate="20201212T105906Z">
+        <seg>缺省值&lt;c1&gt;after-completion&lt;/c1&gt;给出了我们刚才描述的行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The diary allows you to keep track of anniversaries, lunar phases, sunrise/set, recurrent appointments (weekly, monthly) and more.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112904Z" creationid="grass" creationdate="20201016T112904Z">
@@ -20397,6 +20437,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This behavior is used by most commands that read file names, like &lt;k0&gt;C-x C-f&lt;/k0&gt;, and commands that read buffer names, like &lt;k1&gt;C-x b&lt;/k1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105939Z" creationid="grass" creationdate="20201212T105939Z">
+        <seg>大多数读取文件名的命令(如&lt;k0&gt;C-x C-f&lt;/k0&gt;)和读取缓冲区名称的命令(如&lt;k1&gt;C-x b&lt;/k1&gt;)都使用此行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This buffer is read-only, but provides commands to visit the corresponding locations in the original Org files, and even to edit these files remotely.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T142157Z" creationid="Eli" creationdate="20201015T142105Z">
@@ -20425,6 +20473,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064953Z" creationid="grass" creationdate="20201015T064953Z">
         <seg>例如，这对于创建与要准备的一系列讲座相关的多个任务非常有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This catches a common mistake, in which one types &lt;t5&gt;RET&lt;/t5&gt; before realizing that &lt;t6&gt;TAB&lt;/t6&gt; did not complete as far as desired.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105835Z" creationid="grass" creationdate="20201212T105835Z">
+        <seg>这捕获了一个常见的错误，在该错误中，在意识到&lt;t6&gt;TAB&lt;/t6&gt;没有完成之前，输入&lt;t5&gt;RET&lt;/t5&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23090,6 +23146,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T141715Z" creationid="Eli" creationdate="20201020T141653Z">
         <seg>通过&lt;c3&gt;org-toggle-stick-agenda&lt;/c3&gt;命令，您可以随时切换粘滞议程视图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can tweak the confirmation behavior by customizing the variable &lt;c0&gt;confirm-nonexistent-file-or-buffer&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105857Z" creationid="grass" creationdate="20201212T105857Z">
+        <seg>您可以通过定制变量&lt;c0&gt;confirm-nonexistent-file-or-buffer&lt;/c0&gt;来调整确认行为。</seg>
       </tuv>
     </tu>
     <tu>
