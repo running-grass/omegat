@@ -3179,6 +3179,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>8 The Minibuffer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T093924Z" creationid="grass" creationdate="20201212T093924Z">
+        <seg>8 迷你缓冲区</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>8.1</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T062037Z" creationid="grass" creationdate="20201015T062037Z">
@@ -5256,6 +5264,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095149Z" creationid="grass" creationdate="20201010T200036Z">
         <seg>基本TODO功能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Basic usage of the minibuffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094012Z" creationid="grass" creationdate="20201212T094012Z">
+        <seg>迷你缓冲区的基本用法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7364,6 +7380,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T033309Z" creationid="grass" creationdate="20201203T033309Z">
         <seg>进入Emacs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Entering file names with the minibuffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094122Z" creationid="grass" creationdate="20201212T094122Z">
+        <seg>使用迷你缓冲区输入文件名。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18155,6 +18179,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;e0&gt;minibuffer&lt;/e0&gt; is where Emacs commands read complicated arguments, such as file names, buffer names, Emacs command names, or Lisp expressions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T093940Z" creationid="grass" creationdate="20201212T093940Z">
+        <seg>&lt;e0&gt;迷你缓冲区&lt;/e0&gt;是Emacs命令读取复杂参数的地方，比如文件名、缓冲区名、Emacs命令名或Lisp表达式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;k0&gt;&lt;s1&gt;DEL&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;delete-backward-char&lt;/c2&gt;) command removes the character before point, moving the cursor and the characters after it backwards.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151823Z" creationid="grass" creationdate="20201207T151823Z">
@@ -20757,6 +20789,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We call it the “minibuffer” because it’s a special-purpose buffer with a small amount of screen space.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T093951Z" creationid="grass" creationdate="20201212T093951Z">
+        <seg>我们称它为“迷你缓冲区”，因为它是一个具有少量屏幕空间的专用缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We have seen how &lt;k0&gt;&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;newline&lt;/c2&gt;) starts a new line of text.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013558Z" creationid="grass" creationdate="20201208T013558Z">
@@ -21810,6 +21850,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032617Z" creationid="grass" creationdate="20201203T032617Z">
         <seg>您可以使用向上和向下箭头键在菜单中移动到不同的项目，然后可以键入&lt;t7&gt;RET&lt;/t7&gt;选择项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use the usual Emacs editing commands in the minibuffer to edit the argument text.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T093958Z" creationid="grass" creationdate="20201212T093958Z">
+        <seg>您可以在迷你缓冲区中使用常用的Emacs编辑命令来编辑参数文本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -54882,6 +54930,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Basic Minibuffer&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094058Z" creationid="grass" creationdate="20201212T094058Z">
+        <seg>• &lt;a0&gt;基础迷你缓冲区&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Basic Undo&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T153138Z" creationid="grass" creationdate="20201205T074156Z">
@@ -56102,6 +56158,22 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T115143Z" creationid="grass" creationdate="20201130T115143Z">
         <seg>• &lt;a0&gt;菜单栏&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Minibuffer Edit&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094140Z" creationid="grass" creationdate="20201212T094140Z">
+        <seg>• &lt;a0&gt;迷你缓冲区编辑&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Minibuffer File&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094116Z" creationid="grass" creationdate="20201212T094116Z">
+        <seg>• &lt;a0&gt; 迷你缓冲区文件&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
