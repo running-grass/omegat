@@ -5692,6 +5692,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Basic Minibuffer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T031956Z" creationid="grass" creationdate="20201215T031956Z">
+        <seg>迷你缓冲区基础</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Basic TODO Functionality</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095149Z" creationid="grass" creationdate="20201010T200036Z">
@@ -6712,6 +6720,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111409Z" creationid="grass" creationdate="20201212T111409Z">
         <seg>补全选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Completion Styles</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T032029Z" creationid="grass" creationdate="20201215T032029Z">
+        <seg>补全风格</seg>
       </tuv>
     </tu>
     <tu>
@@ -13148,6 +13164,22 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Minibuffer Edit</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T032007Z" creationid="grass" creationdate="20201215T032007Z">
+        <seg>迷你缓冲区编辑</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Minibuffer File</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T032001Z" creationid="grass" creationdate="20201215T032001Z">
+        <seg>迷你缓冲区文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Minibuffer History</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T021630Z" creationid="grass" creationdate="20201215T021630Z">
@@ -16700,6 +16732,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Passwords</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T032014Z" creationid="grass" creationdate="20201215T032014Z">
+        <seg>密码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, with the Front-Cover Texts being “A GNU Manual,” and with the Back-Cover Texts as in (a) below.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070711Z" creationid="grass" creationdate="20201013T054545Z">
@@ -17852,6 +17892,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074540Z" creationid="grass" creationdate="20201205T074540Z">
         <seg>快速重复前面的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Repetition</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T032011Z" creationid="grass" creationdate="20201215T032011Z">
+        <seg>重复</seg>
       </tuv>
     </tu>
     <tu>
@@ -53516,8 +53564,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Help-Summary</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201130T083622Z" creationid="grass" creationdate="20201130T083622Z">
-        <seg>#Help-Summary</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T032035Z" creationid="grass" creationdate="20201130T083622Z">
+        <seg>https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Help-Summary</seg>
       </tuv>
     </tu>
     <tu>
