@@ -5396,6 +5396,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Arguments</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T031923Z" creationid="grass" creationdate="20201215T031917Z">
+        <seg>参数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Arguments, sessions, working directory...</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111248Z" creationid="grass" creationdate="20201014T111248Z">
@@ -5668,10 +5676,34 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Basic Files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T031816Z" creationid="grass" creationdate="20201215T031816Z">
+        <seg>文件基础</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Basic Help</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T031908Z" creationid="grass" creationdate="20201215T031908Z">
+        <seg>帮助基础</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Basic TODO Functionality</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T095149Z" creationid="grass" creationdate="20201010T200036Z">
         <seg>基本TODO功能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Basic Undo</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T031833Z" creationid="grass" creationdate="20201215T031754Z">
+        <seg>撤消基础</seg>
       </tuv>
     </tu>
     <tu>
@@ -8084,6 +8116,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052236Z" creationid="grass" creationdate="20201013T052236Z">
         <seg>代号块的环境</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Erasing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T031746Z" creationid="grass" creationdate="20201215T031746Z">
+        <seg>擦除</seg>
       </tuv>
     </tu>
     <tu>
@@ -16788,6 +16828,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Position Info</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T031914Z" creationid="grass" creationdate="20201215T031914Z">
+        <seg>位置信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Post-processing agenda information.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113129Z" creationid="grass" creationdate="20201014T113129Z">
@@ -17764,6 +17812,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201245Z" creationid="grass" creationdate="20201010T201245Z">
         <seg>重复任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Repeating</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T031925Z" creationid="grass" creationdate="20201215T031925Z">
+        <seg>重复</seg>
       </tuv>
     </tu>
     <tu>
@@ -20031,6 +20087,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025852Z" creationid="grass" creationdate="20201203T025852Z">
         <seg>菜单栏</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Minibuffer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T031947Z" creationid="grass" creationdate="20201215T031936Z">
+        <seg>迷你缓冲区</seg>
       </tuv>
     </tu>
     <tu>
@@ -57572,8 +57636,8 @@ Introduction</seg>
       <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Basic Undo&lt;/a0&gt;:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201207T153138Z" creationid="grass" creationdate="20201205T074156Z">
-        <seg>• &lt;a0&gt;基本撤销&lt;/a0&gt;:</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T031845Z" creationid="grass" creationdate="20201205T074156Z">
+        <seg>• &lt;a0&gt;撤销基础&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
