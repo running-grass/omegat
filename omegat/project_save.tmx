@@ -6012,6 +6012,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-x &lt;s0&gt;ESC&lt;/s0&gt; &lt;s1&gt;ESC&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T024935Z" creationid="grass" creationdate="20201215T024935Z">
+        <seg>C-x &lt;s0&gt;ESC&lt;/s0&gt; &lt;s1&gt;ESC&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-x =</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013650Z" creationid="grass" creationdate="20201209T013650Z">
@@ -11312,6 +11320,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In particular, every use of &lt;k1&gt;M-x&lt;/k1&gt; is recorded there, since &lt;k2&gt;M-x&lt;/k2&gt; uses the minibuffer to read the command name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T024933Z" creationid="grass" creationdate="20201215T024933Z">
+        <seg>特别是，由于&lt;k2&gt;M-x&lt;/k2&gt;使用微型缓冲区读取命令名，因此这里记录了&lt;k1&gt;M-x&lt;/k1&gt;的每次使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In such cases it may be enough to list only the highest level TODO headline and omit the sublevels from the global list.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201021T143436Z" creationid="Eli" creationdate="20201021T143436Z">
@@ -12560,6 +12576,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013556Z" creationid="grass" creationdate="20201209T013556Z">
         <seg>M-x line-number-mode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-x list-command-history</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025144Z" creationid="grass" creationdate="20201215T025144Z">
+        <seg>M-x list-command-history</seg>
       </tuv>
     </tu>
     <tu>
@@ -17260,6 +17284,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075456Z" creationid="grass" creationdate="20201015T075456Z">
         <seg>在这篇文章中，我将详细介绍如何使用Orgmode实现GTD，而不是解释GTD方法本身或Orgmode是如何工作的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Re-execute a recent minibuffer command from the command history (&lt;c0&gt;repeat-complex-command&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T024949Z" creationid="grass" creationdate="20201215T024949Z">
+        <seg>从命令历史记录重新执行最近的迷你缓冲区命令(&lt;c0&gt;repeat-complex-command&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
