@@ -273,3 +273,4 @@ colon	冒号
 tilde	波浪号
 style	样式
 permissive	宽松
+Lax Search	松散搜索
