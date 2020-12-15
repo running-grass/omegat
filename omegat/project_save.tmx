@@ -4163,6 +4163,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;M-x&lt;/k0&gt; works by running the command &lt;c1&gt;execute-extended-command&lt;/c1&gt;, which is responsible for reading the name of another command and invoking it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T124617Z" creationid="grass" creationdate="20201215T124617Z">
+        <seg>&lt;k0&gt;M-x&lt;/k0&gt;通过运行命令&lt;c1&gt;execute-extended-command&lt;/c1&gt;工作，该命令负责读取另一个命令的名称并调用它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;S-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-global-cycle&lt;/c2&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061820Z" creationid="grass" creationdate="20201015T061820Z">
@@ -11828,6 +11836,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032348Z" creationid="grass" creationdate="20201205T032328Z">
         <seg>在本手册中，我们经常将&lt;k0&gt;C-n&lt;/k0&gt;这样的快捷键称为命令，即使严格地说，快捷键是绑定到命令的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this manual, when we speak of running a command by name, we often omit the &lt;t0&gt;RET&lt;/t0&gt; that terminates the name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T124523Z" creationid="grass" creationdate="20201215T124523Z">
+        <seg>在本手册中，当我们谈到按名称运行命令时，我们经常省略终止该名称的&lt;t0&gt;RET&lt;/t0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21227,6 +21243,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The setting of &lt;c3&gt;suggest-key-bindings&lt;/c3&gt; affects these hints as well.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T124514Z" creationid="grass" creationdate="20201215T124514Z">
+        <seg>&lt;c3&gt;suggest-key-bindings&lt;/c3&gt;的设置也会影响这些提示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The simplest way to enter a minibuffer argument is to type the text, then &lt;t0&gt;RET&lt;/t0&gt; to submit the argument and exit the minibuffer.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094642Z" creationid="grass" creationdate="20201212T094642Z">
@@ -22217,6 +22241,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084308Z" creationid="grass" creationdate="20201015T084308Z">
         <seg>这样，我的GTD文件就会保持整洁，而且我永远不会删除任何数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thus we might say &lt;k1&gt;M-x auto-fill-mode&lt;/k1&gt; rather than &lt;k2&gt;&lt;s3&gt;M-x&lt;/s3&gt; &lt;s4&gt;auto-fill-mode&lt;/s4&gt; &lt;s5&gt;RET&lt;/s5&gt;&lt;/k2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T124553Z" creationid="grass" creationdate="20201215T124553Z">
+        <seg>因此，我们可以说&lt;k1&gt;M-x auto-fill-mode&lt;/k1&gt;而不是&lt;k2&gt;&lt;s3&gt;M-x&lt;/s3&gt;&lt;s4&gt;auto-fill-mode&lt;/s4&gt;&lt;s5&gt;RET&lt;/s5&gt;&lt;/k2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -23361,6 +23393,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013558Z" creationid="grass" creationdate="20201208T013558Z">
         <seg>我们已经看到&lt;k0&gt;&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt;(&lt;c2&gt;newline&lt;/c2&gt;)如何开始新的文本行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We mention the &lt;t0&gt;RET&lt;/t0&gt; only for emphasis, such as when the command is followed by arguments.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T124559Z" creationid="grass" creationdate="20201215T124559Z">
+        <seg>我们提到&lt;t0&gt;RET&lt;/t0&gt;只是为了强调，例如当命令后面跟着参数时。</seg>
       </tuv>
     </tu>
     <tu>
