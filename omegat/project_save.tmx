@@ -13340,6 +13340,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Moving Point</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T031735Z" creationid="grass" creationdate="20201215T031735Z">
+        <seg>移动游标</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Moving a tree to an archive file</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201423Z" creationid="grass" creationdate="20201010T201423Z">
