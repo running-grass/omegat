@@ -891,6 +891,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025717Z" creationid="grass" creationdate="20201215T025717Z">
+        <seg>.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>.)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101224Z" creationid="grass" creationdate="20201212T101224Z">
@@ -3355,6 +3363,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>8.7</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025816Z" creationid="grass" creationdate="20201215T025816Z">
+        <seg>8.7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>9 Refiling and Archiving</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T130333Z" creationid="grass" creationdate="20201006T130333Z">
@@ -3917,8 +3933,8 @@ management software, start by calling the command ~ebdb-open~.</seg>
       <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-x &lt;s1&gt;ESC&lt;/s1&gt; &lt;s2&gt;ESC&lt;/s2&gt;&lt;/k0&gt; works by turning the previous command into a Lisp expression and then entering a minibuffer initialized with the text for that expression.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025419Z" creationid="grass" creationdate="20201215T025419Z">
-        <seg>&lt;k0&gt;C- x&lt;s1&gt;ESC&lt;/s1&gt; &lt;s2&gt;ESC&lt;/s2&gt;&lt;/k0&gt;的工作方式是将前面的命令转换为Lisp表达式，然后输入用该表达式的文本初始化的小缓冲区。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025515Z" creationid="grass" creationdate="20201215T025419Z">
+        <seg>&lt;k0&gt;C- x &lt;s1&gt;ESC&lt;/s1&gt; &lt;s2&gt;ESC&lt;/s2&gt;&lt;/k0&gt;的工作方式是将前面的命令转换为Lisp表达式，然后输入用该表达式的文本初始化的迷你缓冲区。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4147,6 +4163,22 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k1&gt;C-u&lt;/k1&gt; deletes everything you have typed so far.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T030035Z" creationid="grass" creationdate="20201215T030035Z">
+        <seg>&lt;k1&gt;C-u&lt;/k1&gt;删除您到目前为止键入的所有内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k2&gt;C-g&lt;/k2&gt; quits the password prompt (see &lt;a3&gt;Quitting&lt;/a3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T030046Z" creationid="grass" creationdate="20201215T030046Z">
+        <seg>&lt;k2&gt;C-g&lt;/k2&gt;退出密码提示(请参阅&lt;a3&gt;退出&lt;/a3&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k2&gt;C-n&lt;/k2&gt; has this effect &lt;e3&gt;because&lt;/e3&gt; it is bound to &lt;c4&gt;next-line&lt;/c4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032238Z" creationid="grass" creationdate="20201205T032223Z">
@@ -4159,6 +4191,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031141Z" creationid="grass" creationdate="20201205T031141Z">
         <seg>&lt;k4&gt;C-x&lt;/k4&gt;与下一个输入事件组合形成两个事件的按键序列，该序列本身可以是前缀键(如&lt;k5&gt;C-x 4&lt;/k5&gt;)，也可以是完整键(如&lt;k6&gt;C-x C-f&lt;/k6&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k4&gt;C-y&lt;/k4&gt; inserts the current kill into the password (see &lt;a5&gt;Killing&lt;/a5&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T030110Z" creationid="grass" creationdate="20201215T030110Z">
+        <seg>&lt;k4&gt;C-y&lt;/k4&gt;将当前剪切字内容插入到密码中(请参阅&lt;a5&gt;剪切&lt;/a5&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4832,6 +4872,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024520Z" creationid="grass" creationdate="20201019T023623Z">
         <seg>冒号之后，&lt;k0&gt;M-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt;提供标签的补全。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After finding the desired previous command, you can edit its expression as usual and then execute it by typing &lt;t4&gt;RET&lt;/t4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025641Z" creationid="grass" creationdate="20201215T025641Z">
+        <seg>找到所需的前一个命令后，您可以像往常一样编辑其表达式，然后通过键入&lt;t4&gt;RET&lt;/t4&gt;来执行它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7512,6 +7560,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each element is a Lisp expression that describes one command and its arguments.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025749Z" creationid="grass" creationdate="20201215T025749Z">
+        <seg>每个元素都是描述一个命令及其参数的Lisp表达式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each element may be preceded by ‘&lt;s5&gt;-&lt;/s5&gt;’ to select against it, and ‘&lt;s6&gt;+&lt;/s6&gt;’ is syntactic sugar for positive selection.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T143100Z" creationid="Eli" creationdate="20201022T143100Z">
@@ -7736,6 +7792,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Emacs displays a prompt in the echo area (such as ‘&lt;s0&gt;Password: &lt;/s0&gt;’); after you type the required password, press &lt;t1&gt;RET&lt;/t1&gt; to submit it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025903Z" creationid="grass" creationdate="20201215T025903Z">
+        <seg>Emacs在回显区显示提示(例如‘&lt;s0&gt;password：&lt;/s0&gt;’)；在您键入所需的密码后，按&lt;t1&gt;RET&lt;/t1&gt;提交密码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Emacs disregards &lt;c13&gt;completion-ignored-extensions&lt;/c13&gt; when showing completion alternatives in the completion list.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111651Z" creationid="grass" creationdate="20201212T111651Z">
@@ -7928,6 +7992,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Entering a password is similar to using a minibuffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025853Z" creationid="grass" creationdate="20201215T025853Z">
+        <seg>输入密码类似于使用迷你缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Entering arguments that are prompted for.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T112929Z" creationid="grass" creationdate="20201212T112929Z">
@@ -7940,6 +8012,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094122Z" creationid="grass" creationdate="20201212T094122Z">
         <seg>使用迷你缓冲区输入文件名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Entering passwords</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025821Z" creationid="grass" creationdate="20201215T025821Z">
+        <seg>输入密码</seg>
       </tuv>
     </tu>
     <tu>
@@ -7988,6 +8068,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052254Z" creationid="grass" creationdate="20201013T052254Z">
         <seg>代码块求值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Even if you don’t know Lisp, it will probably be obvious which command is displayed for repetition.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025525Z" creationid="grass" creationdate="20201215T025525Z">
+        <seg>即使您不了解Lisp，显示哪个命令以供重复也可能是显而易见的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8956,6 +9044,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T090855Z" creationid="grass" creationdate="20201205T090855Z">
         <seg>例如，称为自动填充模式的辅模式会在行过长时自动拆分行(请参阅&lt;a1&gt;填充&lt;/a1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance, when you tell Emacs to visit a file on another machine via a network protocol such as FTP, you often need to supply a password to gain access to the machine (see &lt;a0&gt;Remote Files&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025847Z" creationid="grass" creationdate="20201215T025847Z">
+        <seg>例如，当您告诉Emacs通过网络协议(如FTP)访问另一台计算机上的文件时，通常需要提供密码才能访问该计算机(请参阅&lt;a0&gt;远程文件&lt;/a0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11072,6 +11168,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you type just &lt;t3&gt;RET&lt;/t3&gt;, that repeats the command unchanged.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025531Z" creationid="grass" creationdate="20201215T025531Z">
+        <seg>如果您只键入&lt;t3&gt;RET&lt;/t3&gt;，则重复该命令不会改变。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you use &lt;c6&gt;yank-pop&lt;/c6&gt; after a yank, it yanks previous kill items plainly, without adjustment and folding.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064930Z" creationid="grass" creationdate="20201015T064825Z">
@@ -11532,6 +11636,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110522Z" creationid="grass" creationdate="20201014T110522Z">
         <seg>包含字面Texinfo代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incremental search does not, strictly speaking, use the minibuffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025650Z" creationid="grass" creationdate="20201215T025650Z">
+        <seg>严格地说，增量搜索不使用迷你缓冲区。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12348,6 +12460,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Lisp programs can re-execute a command by calling &lt;c1&gt;eval&lt;/c1&gt; with the &lt;c2&gt;command-history&lt;/c2&gt; element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025809Z" creationid="grass" creationdate="20201215T025809Z">
+        <seg>Lisp程序可以通过使用&lt;c2&gt;command-history&lt;/c2&gt;元素调用&lt;c1&gt;eval&lt;/c1&gt;来重新执行命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>List attributes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110533Z" creationid="grass" creationdate="20201014T110533Z">
@@ -12976,6 +13096,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113200Z" creationid="grass" creationdate="20201130T113200Z">
         <seg>Emacs中的大多数编辑命令都是用Lisp编写的；少数例外可能是用Lisp编写的，但为了提高效率改用C语言实现。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Most of the features and commands associated with the minibuffer &lt;e0&gt;cannot&lt;/e0&gt; be used when entering a password.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025942Z" creationid="grass" creationdate="20201215T025916Z">
+        <seg>输入密码时，&lt;e0&gt;无法使用与迷你缓冲区&lt;/e0&gt;关联的大多数功能和命令。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15788,6 +15916,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once inside the minibuffer for &lt;k0&gt;C-x &lt;s1&gt;ESC&lt;/s1&gt; &lt;s2&gt;ESC&lt;/s2&gt;&lt;/k0&gt;, you can use the usual minibuffer history commands (see &lt;a3&gt;Minibuffer History&lt;/a3&gt;) to move through the history list.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025628Z" creationid="grass" creationdate="20201215T025628Z">
+        <seg>进入&lt;k0&gt;C-x &lt;s1&gt;ESC&lt;/s1&gt; &lt;s2&gt;ESC&lt;/s2&gt;&lt;/k0&gt;的迷你缓冲区后，可以使用常用的迷你缓冲区历史记录命令(请参阅&lt;a3&gt;微型缓冲区历史记录&lt;/a3&gt;)在历史记录列表中移动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once you’re done capturing, &lt;c1&gt;C-c C-c&lt;/c1&gt; and it will get stored in the inbox.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201105T050249Z" creationid="grass" creationdate="20201015T075720Z">
@@ -18080,6 +18216,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a2&gt;Incremental Search&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025732Z" creationid="grass" creationdate="20201215T025732Z">
+        <seg>请参阅&lt;a2&gt;增量搜索&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a2&gt;Line Truncation&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014043Z" creationid="grass" creationdate="20201208T014043Z">
@@ -18836,6 +18980,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014200Z" creationid="grass" creationdate="20201208T014200Z">
         <seg>有时，您可能需要编辑包含许多长逻辑行的文件，而通过添加换行符将它们全部拆分可能并不实际。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sometimes, you may need to enter a password into Emacs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025824Z" creationid="grass" creationdate="20201215T025824Z">
+        <seg>有时，您可能需要在Emacs中输入密码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20219,6 +20371,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The executed command is added to the front of the command history unless it is identical to the most recent item.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025550Z" creationid="grass" creationdate="20201215T025550Z">
+        <seg>执行的命令将添加到命令历史记录的前面，除非它与最近的项目相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The extracted information is displayed in a special &lt;e0&gt;agenda buffer&lt;/e0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T141738Z" creationid="Eli" creationdate="20201015T141738Z">
@@ -20423,6 +20583,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023231Z" creationid="grass" creationdate="20201019T023231Z">
         <seg>然后，匹配的列表可能会变得非常长。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The list of previous minibuffer-using commands is stored as a Lisp list in the variable &lt;c0&gt;command-history&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025745Z" creationid="grass" creationdate="20201215T025745Z">
+        <seg>以前使用迷你缓冲区的命令列表以Lisp列表的形式存储在变量&lt;c0&gt;command-history&lt;/c0&gt;中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21009,10 +21177,26 @@ stores its records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There is no history or completion, and you cannot change windows or perform any other action with Emacs until you have submitted the password.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T030021Z" creationid="grass" creationdate="20201215T030021Z">
+        <seg>没有历史记录或补全，在提交密码之前，您不能使用Emacs更改窗口或执行任何其他操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There is no limit to the length of key sequences, but in practice they are seldom longer than three or four input events.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031148Z" creationid="grass" creationdate="20201205T031148Z">
         <seg>键序列的长度没有限制，但实际上它们很少超过三个或四个输入事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Therefore, although it behaves like a complex command, it normally does not appear in the history list for &lt;k0&gt;&lt;s1&gt;C-x&lt;/s1&gt; &lt;s2&gt;ESC&lt;/s2&gt; &lt;s3&gt;ESC&lt;/s3&gt;&lt;/k0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025714Z" creationid="grass" creationdate="20201215T025714Z">
+        <seg>因此，尽管它的行为类似于复杂命令，但它通常不会出现在&lt;k0&gt;&lt;s1&gt;C-x&lt;/s1&gt; &lt;s2&gt;ESC&lt;/s2&gt; &lt;s3&gt;ESC&lt;/s3&gt;&lt;/k0&gt;的历史记录列表中</seg>
       </tuv>
     </tu>
     <tu>
@@ -21953,6 +22137,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101442Z" creationid="grass" creationdate="20201212T101442Z">
         <seg>要防止Emacs在读取文件名时插入默认目录，请将变量&lt;c0&gt;insert-default-directory&lt;/c0&gt;更改为&lt;c1&gt;nil&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To prevent others from seeing your password, every character you type is displayed as a dot (‘&lt;s2&gt;.&lt;/s2&gt;’) instead of its usual form.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025909Z" creationid="grass" creationdate="20201215T025909Z">
+        <seg>为防止其他人看到您的密码，您键入的每个字符都显示为点(“&lt;s2&gt;.&lt;/s2&gt;”)，而不是通常的格式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23278,6 +23470,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>While you are typing the password, you may press &lt;t0&gt;DEL&lt;/t0&gt; to delete backwards, removing the last character entered.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T030032Z" creationid="grass" creationdate="20201215T030032Z">
+        <seg>键入密码时，可以按&lt;t0&gt;DEL&lt;/t0&gt;向后删除，删除最后输入的字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Widen buffer to remove narrowing.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070140Z" creationid="grass" creationdate="20201015T070055Z">
@@ -23574,6 +23774,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also change the command by editing the Lisp expression before you execute it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025537Z" creationid="grass" creationdate="20201215T025537Z">
+        <seg>您还可以通过在执行命令之前编辑Lisp表达式来更改命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also click the left mouse button to move point to the position clicked.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T145834Z" creationid="grass" creationdate="20201207T145834Z">
@@ -23850,6 +24058,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T140645Z" creationid="grass" creationdate="20200927T131307Z">
         <seg>输入命令 &lt;k0&gt;M-x list-packages&lt;/k0&gt;，你便可以从“软件包清单”中安装Org。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can make incremental search commands appear in the history by setting &lt;c0&gt;isearch-resume-in-command-history&lt;/c0&gt; to a non-&lt;c1&gt;nil&lt;/c1&gt; value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025727Z" creationid="grass" creationdate="20201215T025727Z">
+        <seg>通过将&lt;c0&gt;isearch-resume-in-command-history&lt;/c0&gt;设置为非&lt;c1&gt;nil&lt;/c1&gt;值，可以使增量搜索命令出现在历史记录中。</seg>
       </tuv>
     </tu>
     <tu>
