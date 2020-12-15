@@ -22509,6 +22509,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Type &lt;k8&gt;C-g&lt;/k8&gt; to dismiss the query, and quit the minibuffer and the querying command (see &lt;a9&gt;Quitting&lt;/a9&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T031308Z" creationid="grass" creationdate="20201215T031308Z">
+        <seg>键入&lt;k8&gt;C-g&lt;/k8&gt;取消查询，然后退出迷你缓冲区和查询命令(请参阅&lt;a9&gt;退出&lt;/a9&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Type once, use often.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103709Z" creationid="grass" creationdate="20201014T103709Z">
