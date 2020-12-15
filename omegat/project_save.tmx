@@ -9008,6 +9008,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, if you type &lt;k1&gt;M-x forward-word&lt;/k1&gt;, the message says that you can run the same command by typing &lt;k2&gt;M-f&lt;/k2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T123357Z" creationid="grass" creationdate="20201215T123357Z">
+        <seg>例如，如果您键入&lt;k1&gt;M-x forward-word&lt;/k1&gt;，则消息显示您可以通过键入&lt;k2&gt;M-f&lt;/k2&gt;来运行相同的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, if you type &lt;k2&gt;C-x C-w&lt;/k2&gt; (&lt;k3&gt;write-file&lt;/k3&gt;) to save a buffer, and enter the name of an existing file, Emacs issues a prompt like this:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T030304Z" creationid="grass" creationdate="20201215T030304Z">
@@ -9116,6 +9124,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T122650Z" creationid="grass" creationdate="20201215T122650Z">
         <seg>例如，要调用命令&lt;c0&gt;forward-char&lt;/c0&gt;，您可以键入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, to pass the numeric argument of 42 to the command &lt;c3&gt;forward-char&lt;/c3&gt; you can type &lt;k4&gt;C-u 42 M-x forward-char &lt;s5&gt;RET&lt;/s5&gt;&lt;/k4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T123021Z" creationid="grass" creationdate="20201215T123021Z">
+        <seg>例如，要将数值参数42传递给命令&lt;c3&gt;forward-char&lt;/c3&gt;，您可以键入&lt;k4&gt;C-u 42 M-x forward-char&lt;s5&gt;RET&lt;/s5&gt;&lt;/k4&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20323,6 +20339,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The argument value appears in the prompt while the command name is being read, and finally &lt;k2&gt;M-x&lt;/k2&gt; passes the argument to that command.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T122959Z" creationid="grass" creationdate="20201215T122959Z">
+        <seg>当读取命令名时，参数值出现在提示符中，最后&lt;k2&gt;M-x&lt;/k2&gt;将该参数传递给该命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The arrow keys &lt;k0&gt;&lt;s1&gt;UP&lt;/s1&gt;&lt;/k0&gt; and &lt;k2&gt;&lt;s3&gt;DOWN&lt;/s3&gt;&lt;/k2&gt; work like &lt;k4&gt;M-p&lt;/k4&gt; and &lt;k5&gt;M-n&lt;/k5&gt;, but if the current history item is longer than a single line, they allow you to move to the previous or next line of the current history item before going to the previous or next history item.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T022431Z" creationid="grass" creationdate="20201215T022431Z">
@@ -22509,6 +22533,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To pass a numeric argument to the command you are invoking with &lt;k0&gt;M-x&lt;/k0&gt;, specify the numeric argument before &lt;k1&gt;M-x&lt;/k1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T122951Z" creationid="grass" creationdate="20201215T122951Z">
+        <seg>要将数值参数传递给使用&lt;k0&gt;M-x&lt;/k0&gt;调用的命令，请在&lt;k1&gt;M-x&lt;/k1&gt;之前指定数值参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To prevent Emacs from inserting the default directory when reading file names, change the variable &lt;c0&gt;insert-default-directory&lt;/c0&gt; to &lt;c1&gt;nil&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101442Z" creationid="grass" creationdate="20201212T101442Z">
@@ -23626,6 +23658,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T131826Z" creationid="grass" creationdate="20201006T131800Z">
         <seg>当查看捕获的数据时，您可能需要重新归档或将某些记录复制到其他列表中，例如复制到一个项目中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the command you run with &lt;k0&gt;M-x&lt;/k0&gt; has a key binding, Emacs mentions this in the echo area after running the command.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T123138Z" creationid="grass" creationdate="20201215T123138Z">
+        <seg>当您使用&lt;k0&gt;M-x&lt;/k0&gt;运行的命令具有键绑定时，Emacs会在运行该命令后在回显区中提到这一点。</seg>
       </tuv>
     </tu>
     <tu>
