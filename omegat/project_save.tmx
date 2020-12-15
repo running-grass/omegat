@@ -5796,6 +5796,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, its value invokes the &lt;c1&gt;ffap&lt;/c1&gt; package (see &lt;a2&gt;FFAP&lt;/a2&gt;), which tries to guess the default file or URL from the text around point.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T022334Z" creationid="grass" creationdate="20201215T022334Z">
+        <seg>默认情况下，它的值调用&lt;c1&gt;ffap&lt;/c1&gt;包(请参阅&lt;a2&gt;FFAP&lt;/a2&gt;)，该包尝试从游标周围的文本猜测默认文件或URL。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, the cursor in the selected window is drawn as a solid block and appears to be &lt;e0&gt;on&lt;/e0&gt; a character, but you should think of point as &lt;e1&gt;between&lt;/e1&gt; two characters; it is situated &lt;e2&gt;before&lt;/e2&gt; the character under the cursor.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T084945Z" creationid="grass" creationdate="20201130T120151Z">
@@ -10648,6 +10656,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you edit the text inserted by the &lt;k0&gt;M-p&lt;/k0&gt; or &lt;k1&gt;M-n&lt;/k1&gt; minibuffer history commands, this does not change its entry in the history list.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T022511Z" creationid="grass" creationdate="20201215T022511Z">
+        <seg>如果编辑由&lt;k0&gt;M-p&lt;/k0&gt;或&lt;k1&gt;M-n&lt;/k1&gt;迷你缓冲区历史命令插入的文本，这不会更改其在历史记录列表中的条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you enable Minibuffer Electric Default mode, a global minor mode, Emacs hides the default argument as soon as you modify the contents of the minibuffer (since typing &lt;t0&gt;RET&lt;/t0&gt; would no longer submit that default).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094809Z" creationid="grass" creationdate="20201212T094809Z">
@@ -10892,6 +10908,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025449Z" creationid="grass" creationdate="20201019T025449Z">
         <seg>如果您偶尔需要更多键，请按&lt;k3&gt;C-c&lt;/k3&gt;关闭当前标签选择过程的自动退出(实际上：使用&lt;k4&gt;C-c-c C-c&lt;/k4&gt;而不是&lt;k5&gt;C-c C-c&lt;/k5&gt;开始选择)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you type &lt;k0&gt;M-n&lt;/k0&gt; in the minibuffer when there are no later entries in the minibuffer history (e.g., if you haven’t previously typed &lt;k1&gt;M-p&lt;/k1&gt;), Emacs tries fetching from a list of default arguments: values that you are likely to enter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T022247Z" creationid="grass" creationdate="20201215T022247Z">
+        <seg>如果在迷你缓冲区历史记录中没有以后的项目时在迷你缓冲区中键入&lt;k0&gt;M-n&lt;/k0&gt;(例如，如果您以前没有键入过&lt;k1&gt;M-p&lt;/k1&gt;)，则Emacs会尝试从默认参数列表中提取：您可能会输入的值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19651,6 +19675,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The arrow keys &lt;k0&gt;&lt;s1&gt;UP&lt;/s1&gt;&lt;/k0&gt; and &lt;k2&gt;&lt;s3&gt;DOWN&lt;/s3&gt;&lt;/k2&gt; work like &lt;k4&gt;M-p&lt;/k4&gt; and &lt;k5&gt;M-n&lt;/k5&gt;, but if the current history item is longer than a single line, they allow you to move to the previous or next line of the current history item before going to the previous or next history item.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T022431Z" creationid="grass" creationdate="20201215T022431Z">
+        <seg>箭头键&lt;k0&gt;&lt;s1&gt;UP&lt;/s1&gt;&lt;/k0&gt;和&lt;k2&gt;&lt;s3&gt;DOWN&lt;/s3&gt;&lt;/k2&gt;类似于&lt;k4&gt;M-p&lt;/k4&gt;和&lt;k5&gt;M-n&lt;/k5&gt;，但是如果当前历史项目超过一行，则它们允许您在转到上一个或下一个历史项目之前移动到当前历史项目的上一行或下一行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The backtrace contains much more information if it is produced with uncompiled code.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T082451Z" creationid="grass" creationdate="20200929T082451Z">
@@ -19927,6 +19959,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105906Z" creationid="grass" creationdate="20201212T105906Z">
         <seg>缺省值&lt;c1&gt;after-completion&lt;/c1&gt;给出了我们刚才描述的行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The defaults put into the “future history” in this case are controlled by the functions mentioned in the value of the option &lt;c0&gt;file-name-at-point-functions&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T022309Z" creationid="grass" creationdate="20201215T022309Z">
+        <seg>在这种情况下，放入“未来历史”中的默认值由选项&lt;c0&gt;file-name-at-point-functions&lt;/c0&gt;的值中提到的函数控制。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20639,6 +20679,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083348Z" creationid="grass" creationdate="20201015T083348Z">
         <seg>“将来/也许”清单</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The “future history” for file names includes several possible alternatives you may find useful, such as the file name or the URL at point in the current buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T022259Z" creationid="grass" creationdate="20201215T022259Z">
+        <seg>文件名的“未来历史”包括几个您可能会觉得有用的备选方案，例如文件名或当前缓冲区中各点的URL。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21521,6 +21569,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013159Z" creationid="grass" creationdate="20201208T013159Z">
         <seg>要创建文件，只需使用&lt;k0&gt;C-x C-f&lt;/k0&gt;访问它，就好像它已经存在一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To disable this guessing, customize the option to a &lt;c3&gt;nil&lt;/c3&gt; value, then the “future history” of file names will include only the file, if any, visited by the current buffer, and the default directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T022347Z" creationid="grass" creationdate="20201215T022347Z">
+        <seg>要禁用这种猜测，请将该选项自定义为&lt;c3&gt;nil&lt;/c3&gt;值，那么文件名的“未来历史”将只包括当前缓冲区访问的文件(如果有的话)和默认目录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23674,6 +23730,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T030416Z" creationid="grass" creationdate="20201203T030416Z">
         <seg>然后，您可以使用箭头键或&lt;k2&gt;C-b&lt;/k2&gt;、&lt;k3&gt;C-f&lt;/k3&gt;(左/右)、&lt;k4&gt;C-p&lt;/k4&gt;和&lt;k5&gt;C-n&lt;/k5&gt;(上/下)来导航菜单。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can think of this as moving through the “future history”.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T022251Z" creationid="grass" creationdate="20201215T022251Z">
+        <seg>你可以认为这是在穿越“未来的历史”。</seg>
       </tuv>
     </tu>
     <tu>
