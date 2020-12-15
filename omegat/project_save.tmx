@@ -7736,6 +7736,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Emacs keeps separate history lists for several different kinds of arguments.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T023948Z" creationid="grass" creationdate="20201215T023948Z">
+        <seg>Emacs为几种不同类型的参数保存单独的历史记录列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Emacs normally disallows most commands that use the minibuffer while the minibuffer is active.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103156Z" creationid="grass" creationdate="20201212T103156Z">
@@ -7956,6 +7964,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031913Z" creationid="grass" creationdate="20201205T031913Z">
         <seg>每个命令都有一个由程序员选择的名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Every command that uses the minibuffer once is recorded on a special history list, the &lt;e0&gt;command history&lt;/e0&gt;, together with the values of its arguments, so that you can repeat the entire command.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T024151Z" creationid="grass" creationdate="20201215T024151Z">
+        <seg>使用迷你缓冲区一次的每个命令及其参数值都记录在一个特殊的历史列表中，即&lt;e0&gt;命令历史&lt;/e0&gt;，以便您可以重复整个命令。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8756,6 +8772,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091939Z" creationid="grass" creationdate="20201205T091939Z">
         <seg>例如，以下所有代码都插入相同的字符：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, there is a list for file names, used by all the commands that read file names.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T023953Z" creationid="grass" creationdate="20201215T023953Z">
+        <seg>例如，有一个文件名列表，所有读取文件名的命令都使用该列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10272,6 +10296,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If it is non-&lt;c1&gt;nil&lt;/c1&gt;, adding a new element deletes from the list all other elements that are equal to it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T024040Z" creationid="grass" creationdate="20201215T024040Z">
+        <seg>如果它是非&lt;c1&gt;nil&lt;/c1&gt;，则添加新元素将从列表中删除与其相等的所有其他元素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If it was already in the list, it is moved to the front.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T132743Z" creationid="Eli" creationdate="20201016T132743Z">
@@ -10460,6 +10492,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015751Z" creationid="grass" creationdate="20201209T015751Z">
         <seg>如果用户选项&lt;c0&gt;what-cursor-show-names&lt;/c0&gt;为非&lt;c1&gt;nil&lt;/c1&gt;，则还会显示Unicode字符数据库定义的字符名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the value is &lt;c1&gt;t&lt;/c1&gt;, there is no maximum length.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T024029Z" creationid="grass" creationdate="20201215T024029Z">
+        <seg>如果值为&lt;c1&gt;t&lt;/c1&gt;，则没有最大长度。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16180,6 +16220,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Other history lists include buffer names, command names (used by &lt;k0&gt;M-x&lt;/k0&gt;), and command arguments (used by commands like &lt;c1&gt;query-replace&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T024011Z" creationid="grass" creationdate="20201215T024011Z">
+        <seg>其他历史记录列表包括缓冲区名称、命令名称(由&lt;k0&gt;M-x&lt;/k0&gt;使用)和命令参数(由&lt;c1&gt;query-replace&lt;/c1&gt;等命令使用)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Other useful combinations are &lt;k3&gt;C-u C-n&lt;/k3&gt;, &lt;k4&gt;C-u C-u C-n&lt;/k4&gt; (move down a good fraction of a screen), &lt;k5&gt;C-u C-u C-o&lt;/k5&gt; (make sixteen blank lines), and &lt;k6&gt;C-u C-k&lt;/k6&gt; (kill four lines).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021244Z" creationid="grass" creationdate="20201209T021244Z">
@@ -17432,6 +17480,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Repeating Minibuffer Commands</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T024106Z" creationid="grass" creationdate="20201215T024106Z">
+        <seg>重复迷你缓冲区命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Repeating a Command</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T022156Z" creationid="grass" creationdate="20201209T022156Z">
@@ -17748,6 +17804,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013512Z" creationid="grass" creationdate="20201208T013512Z">
         <seg>有关详细信息，请参阅&lt;a0&gt;帮助&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Isearch Minibuffer&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T023942Z" creationid="grass" creationdate="20201215T023942Z">
+        <seg>请参阅&lt;a0&gt;iSearch迷你缓冲区&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19955,6 +20019,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default is &lt;c2&gt;nil&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T024045Z" creationid="grass" creationdate="20201215T024045Z">
+        <seg>默认值为&lt;c2&gt;nil&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The default number of days displayed in the agenda is set by the variable &lt;c0&gt;org-agenda-span&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112511Z" creationid="grass" creationdate="20201016T112511Z">
@@ -20663,6 +20735,22 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073109Z" creationid="grass" creationdate="20201205T073109Z">
         <seg>&lt;c1&gt;initial-buffer-choice&lt;/c1&gt;的值也可以是一个函数(没有参数)，它应该返回一个缓冲区，然后显示该缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The variable &lt;c0&gt;history-delete-duplicates&lt;/c0&gt; specifies whether to delete duplicates in history.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T024035Z" creationid="grass" creationdate="20201215T024035Z">
+        <seg>变量&lt;c0&gt;history-delete-duplicates&lt;/c0&gt;指定是否删除历史记录中的重复项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The variable &lt;c0&gt;history-length&lt;/c0&gt; specifies the maximum length of a minibuffer history list; adding a new element deletes the oldest element if the list gets too long.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T024025Z" creationid="grass" creationdate="20201215T024025Z">
+        <seg>变量&lt;c0&gt;history-length&lt;/c0&gt;指定迷你缓冲区历史列表的最大长度；如果列表太长，添加新元素会删除最旧的元素。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23490,6 +23578,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T112713Z" creationid="grass" creationdate="20201212T102856Z">
         <seg>您还可以使用&lt;k1&gt;M-&lt;s2&gt;PageUp&lt;/s2&gt;&lt;/k1&gt;和&lt;k3&gt;M-&lt;s4&gt;PageDown&lt;/s4&gt;&lt;/k3&gt;(或等效的&lt;k5&gt;M-&lt;s6&gt;prior&lt;/s6&gt;&lt;/k5&gt;和&lt;k7&gt;M-&lt;s8&gt;next&lt;/s8&gt;&lt;/k7&gt;)滚动帮助文本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also search through the history using an incremental search.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T023933Z" creationid="grass" creationdate="20201215T023933Z">
+        <seg>您还可以使用增量搜索来搜索历史记录。</seg>
       </tuv>
     </tu>
     <tu>
