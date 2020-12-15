@@ -6668,6 +6668,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Commands that don’t have key bindings, can still be invoked after typing less than their full name at the ‘&lt;s0&gt;M-x&lt;/s0&gt;’ prompt.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T123521Z" creationid="grass" creationdate="20201215T123521Z">
+        <seg>在“&lt;s0&gt;M-x&lt;/s0&gt;”提示符下键入的全名小于其全名后，仍可以调用没有键绑定的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Commands that take a long time often display messages ending in ‘&lt;s6&gt;...&lt;/s6&gt;’ while they are working (sometimes also indicating how much progress has been made, as a percentage), and add ‘&lt;s7&gt;done&lt;/s7&gt;’ when they are finished.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T112018Z" creationid="grass" creationdate="20201203T022918Z">
@@ -7988,6 +7996,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T023948Z" creationid="grass" creationdate="20201215T023948Z">
         <seg>Emacs为几种不同类型的参数保存单独的历史记录列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Emacs mentions such shorthands in the echo area if they are significantly shorter than the full command name, and &lt;c1&gt;extended-command-suggest-shorter&lt;/c1&gt; is non-&lt;c2&gt;nil&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T124506Z" creationid="grass" creationdate="20201215T124506Z">
+        <seg>如果这些速记比完整命令名短得多，则Emacs会回显区中提及这些速记，并且&lt;c1&gt;extended-command-suggest-shorter&lt;/c1&gt;是非&lt;c2&gt;nil&lt;/c2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20579,6 +20595,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default behavior is to display the binding for 2 seconds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T123450Z" creationid="grass" creationdate="20201215T123450Z">
+        <seg>默认行为是显示绑定2秒。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The default completion styles are (in order):</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111003Z" creationid="grass" creationdate="20201212T110152Z">
@@ -21343,6 +21367,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073109Z" creationid="grass" creationdate="20201205T073109Z">
         <seg>&lt;c1&gt;initial-buffer-choice&lt;/c1&gt;的值也可以是一个函数(没有参数)，它应该返回一个缓冲区，然后显示该缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The value of &lt;c5&gt;suggest-key-bindings&lt;/c5&gt; can also be a number, in which case Emacs will show the binding for that many seconds before removing it from display.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T123446Z" creationid="grass" creationdate="20201215T123446Z">
+        <seg>&lt;c5&gt;suggest-key-bindings&lt;/c5&gt;的值也可以是一个数字，在这种情况下，Emacs将在将绑定从显示中删除之前显示绑定的秒数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24650,6 +24682,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T141715Z" creationid="Eli" creationdate="20201020T141653Z">
         <seg>通过&lt;c3&gt;org-toggle-stick-agenda&lt;/c3&gt;命令，您可以随时切换粘滞议程视图。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can turn off these messages by setting the variable &lt;c3&gt;suggest-key-bindings&lt;/c3&gt; to &lt;c4&gt;nil&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T123405Z" creationid="grass" creationdate="20201215T123405Z">
+        <seg>您可以通过将变量&lt;c3&gt;suggest-key-bindings&lt;/c3&gt;设置为&lt;c4&gt;nil&lt;/c4&gt;来关闭这些消息。</seg>
       </tuv>
     </tu>
     <tu>
