@@ -4291,6 +4291,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;t5&gt;RET&lt;/t5&gt; exits the minibuffer and runs the command.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T122540Z" creationid="grass" creationdate="20201215T122540Z">
+        <seg>&lt;t5&gt;RET&lt;/t5&gt;退出迷你缓冲区并运行该命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;v0&gt;buf&lt;/v0&gt; is the name of the buffer displayed in the window.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024539Z" creationid="grass" creationdate="20201203T024539Z">
@@ -9100,6 +9108,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101903Z" creationid="grass" creationdate="20201212T101903Z">
         <seg>例如，这允许您使用&lt;k2&gt;C-a C-k&lt;/k2&gt;擦除整个参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, to invoke the command &lt;c0&gt;forward-char&lt;/c0&gt;, you can type</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T122650Z" creationid="grass" creationdate="20201215T122650Z">
+        <seg>例如，要调用命令&lt;c0&gt;forward-char&lt;/c0&gt;，您可以键入</seg>
       </tuv>
     </tu>
     <tu>
@@ -18632,6 +18648,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a6&gt;Minibuffer&lt;/a6&gt;, for more information on the minibuffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T122553Z" creationid="grass" creationdate="20201215T122553Z">
+        <seg>有关迷你缓冲区的详细信息，请参阅&lt;a6&gt;迷你缓冲区&lt;/a6&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a7&gt;DEL Does Not Delete&lt;/a7&gt;, if you encounter this problem.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152045Z" creationid="grass" creationdate="20201207T152045Z">
@@ -21135,6 +21159,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111601Z" creationid="grass" creationdate="20201212T111601Z">
         <seg>&lt;c2&gt;completion-ignored-extensions&lt;/c2&gt;的标准值有几个元素，包括&lt;c3&gt;“.o”&lt;/c3&gt;、&lt;c4&gt;“.elc”&lt;/c4&gt;和&lt;c5&gt;“~”&lt;/c5&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The string ‘&lt;s3&gt;M-x&lt;/s3&gt;’ appears at the beginning of the minibuffer as a &lt;e4&gt;prompt&lt;/e4&gt; to remind you to enter a command name to be run.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T122533Z" creationid="grass" creationdate="20201215T122533Z">
+        <seg>字符串“&lt;s3&gt;M-x&lt;/s3&gt;”显示在迷你缓冲区的开头，作为&lt;e4&gt;提示&lt;/e4&gt;，提醒您输入要运行的命令名。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24554,6 +24586,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091227Z" creationid="grass" creationdate="20201205T091227Z">
         <seg>您可以使用任意数量的八进制数字；任何非数字都可以终止序列。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use completion to enter the command name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T122600Z" creationid="grass" creationdate="20201215T122600Z">
+        <seg>可以使用补全功能输入命令名。</seg>
       </tuv>
     </tu>
     <tu>
