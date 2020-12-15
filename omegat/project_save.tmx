@@ -4508,6 +4508,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A numeric prefix argument &lt;v6&gt;n&lt;/v6&gt; means to fetch the &lt;v7&gt;n&lt;/v7&gt;th matching entry.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T023820Z" creationid="grass" creationdate="20201215T023820Z">
+        <seg>数字前缀参数&lt;v6&gt;n&lt;/v6&gt;表示提取&lt;v7&gt;n&lt;/v7&gt;条匹配。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A prefix argument can be used to specify the number of context lines for each match, default is</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T144234Z" creationid="Eli" creationdate="20201019T144234Z">
@@ -5136,6 +5144,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T165143Z" creationid="grass" creationdate="20201010T165143Z">
         <seg>这种结构的概述是通过折叠来实现的，即隐藏文档的大部分以仅显示一般文档结构和当前正在处理的部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An upper-case letter in the regular expression makes the search case-sensitive (see &lt;a8&gt;Lax Search&lt;/a8&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T023926Z" creationid="grass" creationdate="20201215T023926Z">
+        <seg>正则表达式中的大写字母使搜索区分大小写(请参见&lt;a8&gt;松散搜索&lt;/a8&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20869,6 +20885,14 @@ stores its records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022825Z" creationid="grass" creationdate="20201203T022825Z">
         <seg>与错误信息不同，这些&lt;e0&gt;信息性&lt;/e0&gt;消息不会伴随蜂鸣声或闪烁。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These commands are unusual, in that they use the minibuffer to read the regular expression argument, even though they are invoked from the minibuffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T023837Z" creationid="grass" creationdate="20201215T023837Z">
+        <seg>这些命令是不寻常的，因为它们使用迷你缓冲区来读取正则表达式参数，即使它们是从迷你缓冲区调用的。</seg>
       </tuv>
     </tu>
     <tu>
