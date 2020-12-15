@@ -12924,6 +12924,22 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>M-x forw &lt;s0&gt;TAB&lt;/s0&gt; c &lt;s1&gt;RET&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T122702Z" creationid="grass" creationdate="20201215T122702Z">
+        <seg>M-x forw &lt;s0&gt;TAB&lt;/s0&gt; c &lt;s1&gt;RET&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-x forward-char &lt;s0&gt;RET&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T122652Z" creationid="grass" creationdate="20201215T122652Z">
+        <seg>M-x forward-char &lt;s0&gt;RET&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>M-x hl-line-mode</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013747Z" creationid="grass" creationdate="20201209T013747Z">
@@ -15796,6 +15812,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that &lt;c0&gt;forward-char&lt;/c0&gt; is the same command that you invoke with the key &lt;k1&gt;C-f&lt;/k1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T122714Z" creationid="grass" creationdate="20201215T122714Z">
+        <seg>请注意，&lt;c0&gt;forward-char&lt;/c0&gt;与您使用键&lt;k1&gt;C-f&lt;/k1&gt;调用的命令相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that Orgmode is quite smart about how you can enter a date, if you don’t know about it, refer to the &lt;a2&gt;manual entry&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201105T050812Z" creationid="grass" creationdate="20201015T081919Z">
@@ -15904,6 +15928,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203814Z" creationid="grass" creationdate="20201010T203814Z">
         <seg>ODT特定的导出设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Obsolete commands are those for which newer, better alternatives exist, and which are slated for removal in some future Emacs release.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T122815Z" creationid="grass" creationdate="20201215T122815Z">
+        <seg>过时的命令是那些存在更新的、更好的替代命令的命令，并且计划在将来的某些Emacs版本中删除这些命令。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20675,6 +20707,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The existence of a key binding does not stop you from running the command by name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T122720Z" creationid="grass" creationdate="20201215T122720Z">
+        <seg>键绑定的存在不会阻止您按名称运行该命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The extracted information is displayed in a special &lt;e0&gt;agenda buffer&lt;/e0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T141738Z" creationid="Eli" creationdate="20201015T141738Z">
@@ -22085,6 +22125,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This takes you back to command level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T122916Z" creationid="grass" creationdate="20201215T122916Z">
+        <seg>这会将您带回命令级别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This uses the Emacs command &lt;c1&gt;multi-occur&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T144138Z" creationid="Eli" creationdate="20201019T144138Z">
@@ -22265,6 +22313,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013016Z" creationid="grass" creationdate="20201208T013016Z">
         <seg>要开始在Emacs中编辑此文件，请键入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To cancel the &lt;k0&gt;M-x&lt;/k0&gt; and not run a command, type &lt;k1&gt;C-g&lt;/k1&gt; instead of entering the command name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T122825Z" creationid="grass" creationdate="20201215T122825Z">
+        <seg>若要取消&lt;k0&gt;M-x&lt;/k0&gt;并且不运行命令，请键入&lt;k1&gt;C-g&lt;/k1&gt;而不是输入命令名。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23362,6 +23418,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151505Z" creationid="grass" creationdate="20201207T151505Z">
         <seg>当&lt;c0&gt;line-move-visual&lt;/c0&gt;为&lt;c1&gt;nil&lt;/c1&gt;时，您还可以将变量&lt;c2&gt;track-eol&lt;/c2&gt;设置为非&lt;c3&gt;nil&lt;/c3&gt;值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When &lt;k0&gt;M-x&lt;/k0&gt; completes on commands, it ignores the commands that are declared &lt;e1&gt;obsolete&lt;/e1&gt;; for these, you will have to type their full name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T122738Z" creationid="grass" creationdate="20201215T122738Z">
+        <seg>当&lt;k0&gt;M-x&lt;/k0&gt;补全命令时，它将忽略声明为&lt;e1&gt;已过时&lt;/e1&gt;的命令；对于这些命令，您必须键入其全名。</seg>
       </tuv>
     </tu>
     <tu>
@@ -57280,6 +57344,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024912Z" creationid="grass" creationdate="20201019T024912Z">
         <seg>nil)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>or</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T122700Z" creationid="grass" creationdate="20201215T122700Z">
+        <seg>或者</seg>
       </tuv>
     </tu>
     <tu>
