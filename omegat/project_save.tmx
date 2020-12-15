@@ -7416,6 +7416,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each &lt;k2&gt;M-p&lt;/k2&gt; fetches an earlier item from the history list into the minibuffer, replacing its existing contents.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T022145Z" creationid="grass" creationdate="20201215T022145Z">
+        <seg>每个&lt;k2&gt;M-p&lt;/k2&gt;从历史记录列表中取出一个较早的项到迷你缓冲区，替换其现有内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each Emacs frame normally has a &lt;e0&gt;menu bar&lt;/e0&gt; at the top which you can use to perform common operations.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025902Z" creationid="grass" creationdate="20201203T025902Z">
@@ -21981,6 +21989,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Typing &lt;k3&gt;M-n&lt;/k3&gt; (&lt;c4&gt;next-history-element&lt;/c4&gt;) moves through the minibuffer history list in the opposite direction, fetching later entries into the minibuffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T022218Z" creationid="grass" creationdate="20201215T022218Z">
+        <seg>键入&lt;k3&gt;M-n&lt;/k3&gt;(&lt;c4&gt;next-history-element&lt;/c4&gt;)以相反的方向遍历迷你缓冲区历史列表，将稍后的项提取到迷你缓冲区中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Typing &lt;t1&gt;RET&lt;/t1&gt; does not complete, it just submits the argument as you have entered it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105626Z" creationid="grass" creationdate="20201212T105626Z">
@@ -22978,6 +22994,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105239Z" creationid="grass" creationdate="20201212T105239Z">
         <seg>在补全列表缓冲区中时，这将退出显示它的窗口，并选择显示迷你缓冲区的窗口(&lt;c0&gt;quit-window&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While in the minibuffer, &lt;k0&gt;M-p&lt;/k0&gt; (&lt;c1&gt;previous-history-element&lt;/c1&gt;) moves through the minibuffer history list, one item at a time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201215T022012Z" creationid="grass" creationdate="20201215T022012Z">
+        <seg>在迷你缓冲区中时，&lt;k0&gt;M-p&lt;/k0&gt;(&lt;c1&gt;previous-history-element&lt;/c1&gt;)在迷你缓冲区历史列表中移动，一次移动一项。</seg>
       </tuv>
     </tu>
     <tu>
