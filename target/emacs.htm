@@ -5239,103 +5239,46 @@ Previous: <a href="#Passwords" accesskey="p" rel="prev">Passwords</a>, Up: <a hr
 Next: <a href="#Help" accesskey="n" rel="next">Help</a>, Previous: <a href="#Minibuffer" accesskey="p" rel="prev">Minibuffer</a>, Up: <a href="#Top" accesskey="u" rel="up">Top</a> &nbsp; [<a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents" title="目录" rel="contents">Contents</a>][<a href="#Key-Index" title="主索引" rel="index">Index</a>]</p>
 </div>
 <a name="Running-Commands-by-Name"></a>
-<h2 class="chapter">9 Running Commands by Name</h2>
+<h2 class="chapter">9 按名称运行命令</h2>
 
-<p>Every Emacs command has a name that you can use to run it.  For
-convenience, many commands also have key bindings.  You can run those
-commands by typing the keys, or run them by name.  Most Emacs commands
-have no key bindings, so the only way to run them is by name.
-(See <a href="#Key-Bindings">Key Bindings</a>, for how to set up key bindings.)
-
+<p>每个Emacs命令都有一个可以用来运行它的名称。为方便起见，许多命令还具有键绑定。您可以通过键入快捷键来运行这些命令，也可以按名称运行它们。大多数Emacs命令没有键绑定，因此运行它们的唯一方式是按名称。(有关如何设置键绑定，请参阅<a href="#Key-Bindings">按键绑定</a>。)
 </p>
-<p>By convention, a command name consists of one or more words,
-separated by hyphens; for example, <code>auto-fill-mode</code> or
-<code>manual-entry</code>.  Command names mostly use complete English words
-to make them easier to remember.
-
+<p>按照惯例，命令名由一个或多个用连字符分隔的单词组成；例如，<code>auto-fill-mode</code>或<code>manual-entry</code>。命令名称大多使用完整的英文单词，以便于记忆。
 </p>
 <a name="index-M_002dx"></a>
-<p>To run a command by name, start with <kbd>M-x</kbd>, type the command
-name, then terminate it with <tt class="key">RET</tt>.  <kbd>M-x</kbd> uses the minibuffer
-to read the command name.  The string ‘<samp>M-x</samp>’ appears at the
-beginning of the minibuffer as a <em>prompt</em> to remind you to enter a
-command name to be run.  <tt class="key">RET</tt> exits the minibuffer and runs the
-command.  See <a href="#Minibuffer">Minibuffer</a>, for more information on the minibuffer.
-
+<p>要按名称运行命令，请以<kbd>M-x</kbd>开头，键入命令名，然后以<tt class="key">RET</tt>结束。<kbd>M-x</kbd>使用迷你缓冲区读取命令名。字符串“<samp>M-x</samp>”显示在迷你缓冲区的开头，作为<em>提示</em>，提醒您输入要运行的命令名。<tt class="key">RET</tt>退出迷你缓冲区并运行该命令。有关迷你缓冲区的详细信息，请参阅<a href="#Minibuffer">迷你缓冲区</a>。
 </p>
-<p>You can use completion to enter the command name.  For example,
-to invoke the command <code>forward-char</code>, you can type
-
+<p>可以使用补全功能输入命令名。例如，要调用命令<code>forward-char</code>，您可以键入
 </p>
 <div class="example">
 <pre class="example">M-x forward-char <span class="key">RET</span>
 </pre></div>
 
-<p>or
-
+<p>或者
 </p>
 <div class="example">
 <pre class="example">M-x forw <span class="key">TAB</span> c <span class="key">RET</span>
 </pre></div>
 
-<p>Note that <code>forward-char</code> is the same command that you invoke with
-the key <kbd>C-f</kbd>.  The existence of a key binding does not stop you
-from running the command by name.
-
+<p>请注意，<code>forward-char</code>与您使用键<kbd>C-f</kbd>调用的命令相同。键绑定的存在不会阻止您按名称运行该命令。
 </p>
 <a name="index-obsolete-command"></a>
-<p>When <kbd>M-x</kbd> completes on commands, it ignores the commands that
-are declared <em>obsolete</em>; for these, you will have to type their
-full name.  Obsolete commands are those for which newer, better
-alternatives exist, and which are slated for removal in some future
-Emacs release.
-
+<p>当<kbd>M-x</kbd>补全命令时，它将忽略声明为<em>已过时</em>的命令；对于这些命令，您必须键入其全名。过时的命令是那些存在更新的、更好的替代命令的命令，并且计划在将来的某些Emacs版本中删除这些命令。
 </p>
-<p>To cancel the <kbd>M-x</kbd> and not run a command, type <kbd>C-g</kbd> instead
-of entering the command name.  This takes you back to command level.
-
+<p>若要取消<kbd>M-x</kbd>并且不运行命令，请键入<kbd>C-g</kbd>而不是输入命令名。这会将您带回命令级别。
 </p>
-<p>To pass a numeric argument to the command you are invoking with
-<kbd>M-x</kbd>, specify the numeric argument before <kbd>M-x</kbd>.  The
-argument value appears in the prompt while the command name is being
-read, and finally <kbd>M-x</kbd> passes the argument to that command.  For
-example, to pass the numeric argument of 42 to the command
-<code>forward-char</code> you can type <kbd>C-u 42 M-x forward-char
-<span class="key">RET</span></kbd>.
-
+<p>要将数值参数传递给使用<kbd>M-x</kbd>调用的命令，请在<kbd>M-x</kbd>之前指定数值参数。当读取命令名时，参数值出现在提示符中，最后<kbd>M-x</kbd>将该参数传递给该命令。例如，要将数值参数42传递给命令<code>forward-char</code>，您可以键入<kbd>C-u 42 M-x forward-char<span class="key">RET</span></kbd>。
 </p>
 <a name="index-suggest_002dkey_002dbindings"></a>
-<p>When the command you run with <kbd>M-x</kbd> has a key binding, Emacs
-mentions this in the echo area after running the command.  For
-example, if you type <kbd>M-x forward-word</kbd>, the message says that you
-can run the same command by typing <kbd>M-f</kbd>.  You can turn off these
-messages by setting the variable <code>suggest-key-bindings</code> to
-<code>nil</code>.  The value of <code>suggest-key-bindings</code> can also be a
-number, in which case Emacs will show the binding for that many
-seconds before removing it from display.  The default behavior is to
-display the binding for 2 seconds.
-
+<p>当您使用<kbd>M-x</kbd>运行的命令具有键绑定时，Emacs会在运行该命令后在回显区中提到这一点。例如，如果您键入<kbd>M-x forward-word</kbd>，则消息显示您可以通过键入<kbd>M-f</kbd>来运行相同的命令。您可以通过将变量<code>suggest-key-bindings</code>设置为<code>nil</code>来关闭这些消息。<code>suggest-key-bindings</code>的值也可以是一个数字，在这种情况下，Emacs将在将绑定从显示中删除之前显示绑定的秒数。默认行为是显示绑定2秒。
 </p>
 <a name="index-extended_002dcommand_002dsuggest_002dshorter"></a>
-<p>Commands that don’t have key bindings, can still be invoked after
-typing less than their full name at the ‘<samp>M-x</samp>’ prompt.  Emacs
-mentions such shorthands in the echo area if they are significantly
-shorter than the full command name, and
-<code>extended-command-suggest-shorter</code> is non-<code>nil</code>.  The
-setting of <code>suggest-key-bindings</code> affects these hints as well.
-
+<p>在“<samp>M-x</samp>”提示符下键入的全名小于其全名后，仍可以调用没有键绑定的命令。如果这些速记比完整命令名短得多，则Emacs会回显区中提及这些速记，并且<code>extended-command-suggest-shorter</code>是非<code>nil</code>。<code>suggest-key-bindings</code>的设置也会影响这些提示。
 </p>
-<p>In this manual, when we speak of running a command by name, we often
-omit the <tt class="key">RET</tt> that terminates the name.  Thus we might say
-<kbd>M-x auto-fill-mode</kbd> rather than <kbd><span class="nolinebreak">M-x</span>&nbsp;<span class="nolinebreak">auto-fill-mode</span>&nbsp;<span class="key">RET</span></kbd><!-- /@w -->.  We mention the <tt class="key">RET</tt> only for emphasis, such as when
-the command is followed by arguments.
-
+<p>在本手册中，当我们谈到按名称运行命令时，我们经常省略终止该名称的<tt class="key">RET</tt>。因此，我们可以说<kbd>M-x auto-fill-mode</kbd>而不是<kbd><span class="nolinebreak">M-x</span><span class="nolinebreak">auto-fill-mode</span><span class="key">RET</span></kbd><!-- /@w -->. 我们提到<tt class="key">RET</tt>只是为了强调，例如当命令后面跟着参数时。
 </p>
 <a name="index-execute_002dextended_002dcommand"></a>
-<p><kbd>M-x</kbd> works by running the command
-<code>execute-extended-command</code>, which is responsible for reading the
-name of another command and invoking it.
-
+<p><kbd>M-x</kbd>通过运行命令<code>execute-extended-command</code>工作，该命令负责读取另一个命令的名称并调用它。
 </p><hr>
 <a name="Help"></a>
 <div class="header" style="background-color:#DDDDFF">
