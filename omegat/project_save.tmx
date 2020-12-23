@@ -5420,6 +5420,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Apropos</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100604Z" creationid="grass" creationdate="20201223T100604Z">
+        <seg>恰如其分</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Archiving</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T125915Z" creationid="grass" creationdate="20201006T125915Z">
@@ -5484,10 +5492,34 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Asking about a command, variable or function name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100558Z" creationid="grass" creationdate="20201223T100558Z">
+        <seg>询问命令、变量或函数名的作用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Asking what a character does.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074224Z" creationid="grass" creationdate="20201205T074224Z">
         <seg>询问一个字符是做什么的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Asking what a key does in Emacs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100542Z" creationid="grass" creationdate="20201223T100542Z">
+        <seg>询问指定快捷键在Emacs中的作用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Asking what pertains to a given topic.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100608Z" creationid="grass" creationdate="20201223T100608Z">
+        <seg>询问与给定主题有关的内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8800,6 +8832,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Finding Lisp libraries by keywords (topics).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100643Z" creationid="grass" creationdate="20201223T100643Z">
+        <seg>通过关键字(主题)查找Lisp库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fine-tuning the export output.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104708Z" creationid="grass" creationdate="20201014T104708Z">
@@ -9860,6 +9900,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013224Z" creationid="grass" creationdate="20201208T013224Z">
         <seg>帮助</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Help Mode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100621Z" creationid="grass" creationdate="20201223T100621Z">
+        <seg>帮助模式</seg>
       </tuv>
     </tu>
     <tu>
@@ -12620,6 +12668,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Language Help</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100917Z" creationid="grass" creationdate="20201223T100917Z">
+        <seg>语言帮助</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Language major-mode editing.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111431Z" creationid="grass" creationdate="20201014T111431Z">
@@ -13712,6 +13768,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T080515Z" creationid="grass" creationdate="20201015T080515Z">
         <seg>我的主文件是&lt;c0&gt;gtd.org&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Name Help</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100550Z" creationid="grass" creationdate="20201223T100550Z">
+        <seg>命令名称帮助</seg>
       </tuv>
     </tu>
     <tu>
@@ -16884,6 +16948,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Package Keywords</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100640Z" creationid="grass" creationdate="20201223T100640Z">
+        <seg>包关键字</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Packages Org cooperates with.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112758Z" creationid="grass" creationdate="20201014T112758Z">
@@ -19500,6 +19572,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T050906Z" creationid="grass" creationdate="20201013T050906Z">
         <seg>Texinfo导出中的特殊块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Special features of Help mode and Help buffers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100634Z" creationid="grass" creationdate="20201223T100634Z">
+        <seg>帮助模式和帮助缓冲区的特殊功能。</seg>
       </tuv>
     </tu>
     <tu>
