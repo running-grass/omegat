@@ -6196,10 +6196,42 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-h C-f</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101953Z" creationid="grass" creationdate="20201223T101953Z">
+        <seg>C-h C-f</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-h a &lt;v0&gt;topics&lt;/v0&gt; &lt;s1&gt;RET&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101501Z" creationid="grass" creationdate="20201223T101501Z">
         <seg>C-h a &lt;v0&gt;topics&lt;/v0&gt; &lt;s1&gt;RET&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-h i d m emacs &lt;s0&gt;RET&lt;/s0&gt; i &lt;v1&gt;topic&lt;/v1&gt; &lt;s2&gt;RET&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101930Z" creationid="grass" creationdate="20201223T101805Z">
+        <seg>C-h i d m emacs &lt;s0&gt;RET&lt;/s0&gt; i &lt;v1&gt;主题&lt;/v1&gt; &lt;s2&gt;RET&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-h i d m emacs &lt;s0&gt;RET&lt;/s0&gt; s &lt;v1&gt;topic&lt;/v1&gt; &lt;s2&gt;RET&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101941Z" creationid="grass" creationdate="20201223T101936Z">
+        <seg>C-h i d m emacs &lt;s0&gt;RET&lt;/s0&gt; s &lt;v1&gt;主题&lt;/v1&gt; &lt;s2&gt;RET&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-h p</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101957Z" creationid="grass" creationdate="20201223T101957Z">
+        <seg>C-h p</seg>
       </tuv>
     </tu>
     <tu>
@@ -17300,6 +17332,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Press &lt;k1&gt;,&lt;/k1&gt; to see subsequent matches.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101838Z" creationid="grass" creationdate="20201223T101838Z">
+        <seg>按&lt;k1&gt;,&lt;/k1&gt;查看后续匹配。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Pressing keys assigned to tags adds or removes them from the list of tags in the current line.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025006Z" creationid="grass" creationdate="20201019T025006Z">
@@ -19292,6 +19332,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063114Z" creationid="grass" creationdate="20201015T063114Z">
         <seg>显示在临时缓冲区中的文档结构，您可以在其中使用以下键查找目标：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Similar, but searches the &lt;e0&gt;text&lt;/e0&gt; of the manual rather than the indices.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101952Z" creationid="grass" creationdate="20201223T101952Z">
+        <seg>类似，但是它搜索手册的&lt;e0&gt;文本&lt;/e0&gt;而不是索引。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22229,6 +22277,22 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This displays the Emacs FAQ, using Info.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101956Z" creationid="grass" creationdate="20201223T101956Z">
+        <seg>这将使用信息显示Emacs常见问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This displays the available Emacs packages based on keywords.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T102140Z" creationid="grass" creationdate="20201223T102140Z">
+        <seg>这将根据关键字显示可用的Emacs包。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This displays various information about what is going on in the buffer, such as whether there are unsaved changes, the editing modes that are in use, the current line number, and so forth.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114709Z" creationid="grass" creationdate="20201130T114709Z">
@@ -22481,6 +22545,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025917Z" creationid="grass" creationdate="20201019T025917Z">
         <seg>此限制将一直有效，直到使用&lt;k0&gt;C-c C-x &gt;&lt;/k0&gt;删除，或通过在议程调度器中键入&lt;k1&gt;&lt;&lt;/k1&gt;或&lt;k2&gt;&gt;&lt;/k2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This searches for &lt;v0&gt;topic&lt;/v0&gt; in the indices of the Emacs Info manual, displaying the first match found.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101917Z" creationid="grass" creationdate="20201223T101819Z">
+        <seg>这将在Emacs信息手册的索引中搜索&lt;v0&gt;主题&lt;/v0&gt;，并显示找到的第一个匹配项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25082,6 +25154,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021251Z" creationid="grass" creationdate="20201209T021251Z">
         <seg>您可以在自插入字符之前使用数字参数来插入该字符的多个副本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use a regular expression as &lt;v2&gt;topic&lt;/v2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101912Z" creationid="grass" creationdate="20201223T101912Z">
+        <seg>您可以使用一个正则表达式用作&lt;v2&gt;主题&lt;/v2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
