@@ -8096,6 +8096,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Emacs provides a wide variety of help commands, all accessible through the prefix key &lt;k0&gt;C-h&lt;/k0&gt; (or, equivalently, the function key &lt;t1&gt;F1&lt;/t1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101255Z" creationid="grass" creationdate="20201223T101255Z">
+        <seg>Emacs提供了各种各样的帮助命令，都可以通过前缀键&lt;k0&gt;C-h&lt;/k0&gt;(或等效的功能键&lt;t1&gt;F1&lt;/t1&gt;)访问。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Emacs records a list of changes made in the buffer text, so you can undo recent changes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152747Z" creationid="grass" creationdate="20201207T152747Z">
@@ -8852,6 +8860,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104708Z" creationid="grass" creationdate="20201014T104708Z">
         <seg>微调导出产出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>First, try an apropos command, then try searching the manual index, then look in the FAQ and the package keywords.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101458Z" creationid="grass" creationdate="20201223T101458Z">
+        <seg>首先，尝试使用主题命令，然后尝试搜索手动索引，然后查看FAQ和软件包关键字。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9914,16 +9930,16 @@ USA</seg>
       <tuv lang="EN-US">
         <seg>Help Echo</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101003Z" creationid="grass" creationdate="20201223T101003Z">
-        <seg>回显帮助</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101215Z" creationid="grass" creationdate="20201223T101003Z">
+        <seg>帮助信息回显</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Help Files</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101017Z" creationid="grass" creationdate="20201223T100934Z">
-        <seg>文件帮助</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101205Z" creationid="grass" creationdate="20201223T100934Z">
+        <seg>帮助文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -11128,6 +11144,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you are looking for a certain feature, but don’t know what it is called or where to look, we recommend three methods.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101410Z" creationid="grass" creationdate="20201223T101410Z">
+        <seg>如果您正在寻找某个功能，但不知道它叫什么或在哪里查找，我们推荐三种方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you are not a member of the mailing list, your mail will be passed to the list after a moderator has approved it&lt;a2&gt;&lt;s3&gt;2&lt;/s3&gt;&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T080440Z" creationid="grass" creationdate="20200929T080440Z">
@@ -11916,6 +11940,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015922Z" creationid="grass" creationdate="20201209T015922Z">
         <seg>在数学和计算术语中，&lt;e0&gt;参数&lt;/e0&gt;表示“提供给函数或运算的数据”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this buffer, you can type &lt;t1&gt;SPC&lt;/t1&gt; and &lt;t2&gt;DEL&lt;/t2&gt; to scroll and type &lt;t3&gt;RET&lt;/t3&gt; to follow hyperlinks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101355Z" creationid="grass" creationdate="20201223T101355Z">
+        <seg>在此缓冲区中，您可以键入&lt;t1&gt;SPC&lt;/t1&gt;和&lt;t2&gt;DEL&lt;/t2&gt;滚动，键入&lt;t3&gt;RET&lt;/t3&gt;跟踪超链接。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13280,6 +13312,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T140338Z" creationid="grass" creationdate="20200927T140108Z">
         <seg>如果某区域为&lt;e0&gt;活跃状态&lt;/e0&gt;，则Org中的许多命令都可以在该区域上使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Many help commands display their information in a special &lt;e0&gt;help buffer&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101343Z" creationid="grass" creationdate="20201223T101343Z">
+        <seg>许多帮助命令在特殊的&lt;e0&gt;帮助缓冲区&lt;/e0&gt;中显示其信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18888,6 +18928,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a4&gt;Help Mode&lt;/a4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101404Z" creationid="grass" creationdate="20201223T101404Z">
+        <seg>请参阅&lt;a4&gt;帮助模式&lt;/a4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a4&gt;Visual Line Mode&lt;/a4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014352Z" creationid="grass" creationdate="20201208T014349Z">
@@ -21897,6 +21945,14 @@ stores its records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These help commands are described in the following sections.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101258Z" creationid="grass" creationdate="20201223T101258Z">
+        <seg>以下各节将介绍这些帮助命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These terms require them to give you the full sources, including whatever changes they may have made, and to permit you to redistribute the GNU Emacs received from them under the usual terms of the General Public License.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082513Z" creationid="grass" creationdate="20201130T082513Z">
@@ -22617,6 +22673,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T122825Z" creationid="grass" creationdate="20201215T122825Z">
         <seg>若要取消&lt;k0&gt;M-x&lt;/k0&gt;并且不运行命令，请键入&lt;k1&gt;C-g&lt;/k1&gt;而不是输入命令名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To cancel, type &lt;k6&gt;C-g&lt;/k6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101333Z" creationid="grass" creationdate="20201223T101333Z">
+        <seg>若要取消，请键入&lt;k6&gt;C-g&lt;/k6&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24654,6 +24718,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also type &lt;k2&gt;C-h C-h&lt;/k2&gt; to view a list of help commands (&lt;c3&gt;help-for-help&lt;/c3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101310Z" creationid="grass" creationdate="20201223T101310Z">
+        <seg>您还可以键入&lt;k2&gt;C-h C-h&lt;/k2&gt;以查看帮助命令列表(&lt;c3&gt;help-for-help&lt;/c3&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also type Meta characters using two-character sequences starting with &lt;t0&gt;ESC&lt;/t0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T023547Z" creationid="grass" creationdate="20201205T023547Z">
@@ -24858,6 +24930,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T121156Z" creationid="grass" creationdate="20201215T121156Z">
         <seg>您可以通过键入快捷键来运行这些命令，也可以按名称运行它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can scroll the list with &lt;t4&gt;SPC&lt;/t4&gt; and &lt;t5&gt;DEL&lt;/t5&gt;, then type the help command you want.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101331Z" creationid="grass" creationdate="20201223T101331Z">
+        <seg>您可以使用&lt;t4&gt;SPC&lt;/t4&gt;和&lt;t5&gt;DEL&lt;/t5&gt;滚动列表，然后键入所需的帮助命令。</seg>
       </tuv>
     </tu>
     <tu>
