@@ -5868,6 +5868,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Brief list of all Help commands.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100515Z" creationid="grass" creationdate="20201223T100515Z">
+        <seg>所有帮助命令的简短列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Brief summary of what Org does.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070838Z" creationid="grass" creationdate="20200927T083515Z">
@@ -6656,6 +6664,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T033302Z" creationid="grass" creationdate="20201203T033302Z">
         <seg>命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Commands for asking Emacs about its commands.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100330Z" creationid="grass" creationdate="20201223T100330Z">
+        <seg>用于向Emacs询问关于命令的信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9848,6 +9864,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Help Summary</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100512Z" creationid="grass" creationdate="20201223T100512Z">
+        <seg>帮助概述</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Hence, typing just &lt;k0&gt;a u &lt;s1&gt;TAB&lt;/s1&gt; - f &lt;s2&gt;TAB&lt;/s2&gt;&lt;/k0&gt; allows you to enter ‘&lt;s3&gt;auto-fill-mode&lt;/s3&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104341Z" creationid="grass" creationdate="20201212T104341Z">
@@ -11624,6 +11648,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Important Text-Changing Commands</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100341Z" creationid="grass" creationdate="20201223T100341Z">
+        <seg>重要的文本更改命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In &lt;a0&gt;Completion Example&lt;/a0&gt;, we gave a simple example of such matching.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110029Z" creationid="grass" creationdate="20201212T110029Z">
@@ -12192,6 +12224,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Invoking commands by their names.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100244Z" creationid="grass" creationdate="20201223T100244Z">
+        <seg>按名称调用命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Invoking commands.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T110117Z" creationid="grass" creationdate="20201014T110117Z">
@@ -12384,6 +12424,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150949Z" creationid="grass" creationdate="20201207T150949Z">
         <seg>只需在迷你缓冲区中键入&lt;t4&gt;RET&lt;/t4&gt;即可使用它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Key Help</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100533Z" creationid="grass" creationdate="20201223T100533Z">
+        <seg>帮助快捷键</seg>
       </tuv>
     </tu>
     <tu>
@@ -12956,6 +13004,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>M-x</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100241Z" creationid="grass" creationdate="20201223T100241Z">
+        <seg>M-x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>M-x column-number-mode</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013559Z" creationid="grass" creationdate="20201209T013559Z">
@@ -13152,6 +13208,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113149Z" creationid="grass" creationdate="20201014T113149Z">
         <seg>在所有或选定条目上映射。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Mark</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100354Z" creationid="grass" creationdate="20201223T100354Z">
+        <seg>标记</seg>
       </tuv>
     </tu>
     <tu>
@@ -21023,6 +21087,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T131048Z" creationid="grass" creationdate="20201005T131048Z">
         <seg>该手册列出了用于访问一个功能的按键和相应的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The mark: how to delimit a region of text.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100411Z" creationid="grass" creationdate="20201223T100411Z">
+        <seg>标记：如何界定文本区域。</seg>
       </tuv>
     </tu>
     <tu>
