@@ -3907,6 +3907,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-h&lt;/k0&gt; or &lt;t1&gt;F1&lt;/t1&gt; mean “help” in various other contexts as well.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T102214Z" creationid="grass" creationdate="20201223T102159Z">
+        <seg>&lt;k0&gt;C-h&lt;/k0&gt;或&lt;t1&gt;F1&lt;/t1&gt;在各种其他上下文中也意味着“帮助”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-k&lt;/k0&gt; (&lt;c1&gt;kill-line&lt;/c1&gt;) erases (kills) a line at a time.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152319Z" creationid="grass" creationdate="20201207T152319Z">
@@ -18668,6 +18676,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025729Z" creationid="grass" creationdate="20201203T025729Z">
         <seg>请参阅&lt;a0&gt;可选状态栏&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Package Keywords&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T102143Z" creationid="grass" creationdate="20201223T102143Z">
+        <seg>请参阅&lt;a0&gt;包关键字&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
