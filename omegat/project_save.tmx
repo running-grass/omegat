@@ -6196,6 +6196,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-h a &lt;v0&gt;topics&lt;/v0&gt; &lt;s1&gt;RET&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101501Z" creationid="grass" creationdate="20201223T101501Z">
+        <seg>C-h a &lt;v0&gt;topics&lt;/v0&gt; &lt;s1&gt;RET&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-k</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151732Z" creationid="grass" creationdate="20201207T151732Z">
@@ -18784,6 +18792,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a2&gt;Apropos&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101801Z" creationid="grass" creationdate="20201223T101801Z">
+        <seg>请参阅&lt;a2&gt;主题&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a2&gt;Completion Styles&lt;/a2&gt;, for how completion alternatives are chosen.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111003Z" creationid="grass" creationdate="20201212T104759Z">
@@ -20615,6 +20631,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112452Z" creationid="grass" creationdate="20201016T112452Z">
         <seg>议程显示了每天的条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The argument can be a keyword, a list of keywords, or a regular expression (see &lt;a1&gt;Regexps&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101555Z" creationid="grass" creationdate="20201223T101555Z">
+        <seg>参数可以是关键字、关键字列表或正则表达式(请参阅&lt;a1&gt;正则表达式&lt;/a1&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22457,6 +22481,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025917Z" creationid="grass" creationdate="20201019T025917Z">
         <seg>此限制将一直有效，直到使用&lt;k0&gt;C-c C-x &gt;&lt;/k0&gt;删除，或通过在议程调度器中键入&lt;k1&gt;&lt;&lt;/k1&gt;或&lt;k2&gt;&gt;&lt;/k2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This searches for commands whose names match the argument &lt;v0&gt;topics&lt;/v0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101512Z" creationid="grass" creationdate="20201223T101512Z">
+        <seg>这将搜索名称与参数&lt;v0&gt;主题&lt;/v0&gt;匹配的命令。</seg>
       </tuv>
     </tu>
     <tu>
