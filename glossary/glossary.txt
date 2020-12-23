@@ -275,3 +275,4 @@ style	样式
 permissive	宽松
 Lax Search	松散搜索
 package	包
+apropos	主题
