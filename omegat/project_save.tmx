@@ -6740,6 +6740,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Commands to display auxiliary help files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100938Z" creationid="grass" creationdate="20201223T100938Z">
+        <seg>用于显示辅助帮助文件的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Commands to insert timestamps.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102036Z" creationid="grass" creationdate="20201014T102036Z">
@@ -9904,6 +9912,22 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Help Echo</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101003Z" creationid="grass" creationdate="20201223T101003Z">
+        <seg>回显帮助</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Help Files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101017Z" creationid="grass" creationdate="20201223T100934Z">
+        <seg>文件帮助</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Help Mode</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100621Z" creationid="grass" creationdate="20201223T100621Z">
@@ -9916,6 +9940,22 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100512Z" creationid="grass" creationdate="20201223T100512Z">
         <seg>帮助概述</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Help on active text and tooltips.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101011Z" creationid="grass" creationdate="20201223T101011Z">
+        <seg>有关活动文本和工具提示的帮助。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Help relating to international language support.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100924Z" creationid="grass" creationdate="20201223T100924Z">
+        <seg>与国际语言支持相关的帮助。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13452,6 +13492,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Misc Help</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100929Z" creationid="grass" creationdate="20201223T100929Z">
+        <seg>其他帮助</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Miscellaneous</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052633Z" creationid="grass" creationdate="20201013T052633Z">
@@ -16856,6 +16904,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030645Z" creationid="grass" creationdate="20201205T030645Z">
         <seg>其他命令需要调用两个或多个输入事件，例如&lt;k1&gt;C-x C-f&lt;/k1&gt;和&lt;k2&gt;C-x 4 C-f&lt;/k2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Other help commands.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100930Z" creationid="grass" creationdate="20201223T100930Z">
+        <seg>其他帮助命令。</seg>
       </tuv>
     </tu>
     <tu>
