@@ -6294,6 +6294,22 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-h h</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153042Z" creationid="grass" creationdate="20201226T153042Z">
+        <seg>C-h h</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-h i</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153123Z" creationid="grass" creationdate="20201226T153123Z">
+        <seg>C-h i</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-h i d m emacs &lt;s0&gt;RET&lt;/s0&gt; i &lt;v1&gt;topic&lt;/v1&gt; &lt;s2&gt;RET&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101930Z" creationid="grass" creationdate="20201223T101805Z">
@@ -6306,6 +6322,38 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101941Z" creationid="grass" creationdate="20201223T101936Z">
         <seg>C-h i d m emacs &lt;s0&gt;RET&lt;/s0&gt; s &lt;v1&gt;主题&lt;/v1&gt; &lt;s2&gt;RET&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-h k &lt;v0&gt;key&lt;/v0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153151Z" creationid="grass" creationdate="20201226T153151Z">
+        <seg>C-h k &lt;v0&gt;key&lt;/v0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-h l</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153229Z" creationid="grass" creationdate="20201226T153229Z">
+        <seg>C-h l</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-h m</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153252Z" creationid="grass" creationdate="20201226T153252Z">
+        <seg>C-h m</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-h n</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153304Z" creationid="grass" creationdate="20201226T153304Z">
+        <seg>C-h n</seg>
       </tuv>
     </tu>
     <tu>
@@ -7614,6 +7662,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Display a description of your last 300 keystrokes (&lt;c0&gt;view-lossage&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153250Z" creationid="grass" creationdate="20201226T153250Z">
+        <seg>显示最近300次按键的说明(&lt;c0&gt;view-lossage&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Display a list of commands whose names match &lt;v0&gt;topics&lt;/v0&gt; (&lt;c1&gt;apropos-command&lt;/c1&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201226T132050Z" creationid="grass" creationdate="20201226T132050Z">
@@ -7654,6 +7710,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Display documentation of the current major mode and minor modes (&lt;c0&gt;describe-mode&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153303Z" creationid="grass" creationdate="20201226T153303Z">
+        <seg>显示当前主模式和辅模式的文档(&lt;c0&gt;describe-mode&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Display documentation on the Lisp function named &lt;v0&gt;function&lt;/v0&gt; (&lt;c1&gt;describe-function&lt;/c1&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153001Z" creationid="grass" creationdate="20201226T153001Z">
@@ -7662,10 +7726,26 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Display news of recent Emacs changes (&lt;c0&gt;view-emacs-news&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153314Z" creationid="grass" creationdate="20201226T153314Z">
+        <seg>显示Emacs最近更改的新闻(&lt;c0&gt;view-emacs-news&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Display the &lt;s0&gt;*Messages*&lt;/s0&gt; buffer (&lt;c1&gt;view-echo-area-messages&lt;/c1&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201226T152930Z" creationid="grass" creationdate="20201226T152912Z">
         <seg>显示&lt;s0&gt;*Messages*&lt;/s0&gt;缓冲区(&lt;c1&gt;view-echo-area-messages&lt;/c1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Display the &lt;s0&gt;HELLO&lt;/s0&gt; file, which shows examples of various character sets.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153051Z" creationid="grass" creationdate="20201226T153051Z">
+        <seg>显示&lt;s0&gt;HELLO&lt;/s0&gt;文件，该文件显示各种字符集的示例。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7698,6 +7778,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013555Z" creationid="grass" creationdate="20201209T013555Z">
         <seg>显示游标的行号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Display the name and documentation of the command that &lt;v0&gt;key&lt;/v0&gt; runs (&lt;c1&gt;describe-key&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153220Z" creationid="grass" creationdate="20201226T153220Z">
+        <seg>显示&lt;v0&gt;快捷键&lt;/v0&gt;运行的命令的名称和文档(&lt;c1&gt;describe-key&lt;/c1&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18610,6 +18698,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Run Info, the GNU documentation browser (&lt;c0&gt;info&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153147Z" creationid="grass" creationdate="20201226T153147Z">
+        <seg>运行GNU文档浏览器Info(&lt;c0&gt;info&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Run ‘&lt;s0&gt;make help&lt;/s0&gt;’ to list compilation and installation options.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T132710Z" creationid="grass" creationdate="20200927T132710Z">
@@ -18938,6 +19034,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;Help Files&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153321Z" creationid="grass" creationdate="20201226T153321Z">
+        <seg>请参阅&lt;a1&gt;帮助文件&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a1&gt;Keymaps&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T090417Z" creationid="grass" creationdate="20201205T032103Z">
@@ -19050,6 +19154,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a2&gt;Key Help&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153228Z" creationid="grass" creationdate="20201226T153228Z">
+        <seg>请参阅&lt;a2&gt;快捷键帮助&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a2&gt;Line Truncation&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014043Z" creationid="grass" creationdate="20201208T014043Z">
@@ -19086,6 +19198,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201226T152932Z" creationid="grass" creationdate="20201226T152932Z">
         <seg>请参阅&lt;a2&gt;其他帮助&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a2&gt;Name Help&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153038Z" creationid="grass" creationdate="20201226T153038Z">
+        <seg>请参阅&lt;a2&gt;命令名称帮助&lt;/a2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20801,6 +20921,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T080010Z" creationid="grass" creationdate="20201130T080010Z">
         <seg>Emacs编辑器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Emacs manual is available in Info.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153149Z" creationid="grass" creationdate="20201226T153149Z">
+        <seg>Emacs手册可以在Info中找到。</seg>
       </tuv>
     </tu>
     <tu>
