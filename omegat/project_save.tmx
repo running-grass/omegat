@@ -6262,6 +6262,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-h c &lt;v0&gt;key&lt;/v0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T152650Z" creationid="grass" creationdate="20201226T152650Z">
+        <seg>C-h c &lt;v0&gt;key&lt;/v0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-h i d m emacs &lt;s0&gt;RET&lt;/s0&gt; i &lt;v1&gt;topic&lt;/v1&gt; &lt;s2&gt;RET&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101930Z" creationid="grass" creationdate="20201223T101805Z">
@@ -18882,6 +18890,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;Misc Help&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T152648Z" creationid="grass" creationdate="20201226T152648Z">
+        <seg>请参阅&lt;a1&gt;其他帮助&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a1&gt;Mode Line Mouse&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025753Z" creationid="grass" creationdate="20201203T025753Z">
@@ -19430,6 +19446,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T142944Z" creationid="Eli" creationdate="20201020T142944Z">
         <seg>显示全局TODO列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Show the name of the command that the key sequence &lt;v0&gt;key&lt;/v0&gt; is bound to (&lt;c1&gt;describe-key-briefly&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T152807Z" creationid="grass" creationdate="20201226T152807Z">
+        <seg>显示键序列&lt;v0&gt;快捷键&lt;/v0&gt;绑定到的命令的名称(&lt;c1&gt;describe-key-briefly&lt;/c1&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
