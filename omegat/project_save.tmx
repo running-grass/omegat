@@ -6270,6 +6270,30 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-h d &lt;v0&gt;topics&lt;/v0&gt; &lt;s1&gt;RET&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T152840Z" creationid="grass" creationdate="20201226T152840Z">
+        <seg>C-h d &lt;v0&gt;topics&lt;/v0&gt; &lt;s1&gt;RET&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-h e</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T152908Z" creationid="grass" creationdate="20201226T152908Z">
+        <seg>C-h e</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-h f &lt;v0&gt;function&lt;/v0&gt; &lt;s1&gt;RET&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T152934Z" creationid="grass" creationdate="20201226T152934Z">
+        <seg>C-h f &lt;v0&gt;function&lt;/v0&gt; &lt;s1&gt;RET&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-h i d m emacs &lt;s0&gt;RET&lt;/s0&gt; i &lt;v1&gt;topic&lt;/v1&gt; &lt;s2&gt;RET&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101930Z" creationid="grass" creationdate="20201223T101805Z">
@@ -7630,10 +7654,34 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Display documentation on the Lisp function named &lt;v0&gt;function&lt;/v0&gt; (&lt;c1&gt;describe-function&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153001Z" creationid="grass" creationdate="20201226T153001Z">
+        <seg>显示有关名为&lt;v0&gt;function&lt;/v0&gt;(&lt;c1&gt;describe-function&lt;/c1&gt;)的Lisp函数的文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Display the &lt;s0&gt;*Messages*&lt;/s0&gt; buffer (&lt;c1&gt;view-echo-area-messages&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T152930Z" creationid="grass" creationdate="20201226T152912Z">
+        <seg>显示&lt;s0&gt;*Messages*&lt;/s0&gt;缓冲区(&lt;c1&gt;view-echo-area-messages&lt;/c1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Display the character code of character after point, character position of point, and column of point (&lt;c0&gt;what-cursor-position&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013742Z" creationid="grass" creationdate="20201209T013742Z">
         <seg>显示游标之后的字符编码、游标的字符位置、游标的列(&lt;c0&gt;what-cursor-position&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Display the commands and variables whose documentation matches &lt;v0&gt;topics&lt;/v0&gt; (&lt;c1&gt;apropos-documentation&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T152905Z" creationid="grass" creationdate="20201226T152905Z">
+        <seg>显示其文档与&lt;v0&gt;主题&lt;/v0&gt;(&lt;c1&gt;apropos-documentation&lt;/c1&gt;)匹配的命令和变量。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9522,6 +9570,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For more extensive information on &lt;v3&gt;key&lt;/v3&gt;, use &lt;k4&gt;C-h k&lt;/k4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T152826Z" creationid="grass" creationdate="20201226T152826Z">
+        <seg>有关&lt;v3&gt;快捷键&lt;/v3&gt;的更多信息，请使用&lt;k4&gt;C-h k&lt;/k4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For other ways in which you can help, see &lt;a2&gt;https://www.gnu.org/help/help.html&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T084821Z" creationid="grass" creationdate="20201130T082645Z">
@@ -10126,6 +10182,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151148Z" creationid="grass" creationdate="20201207T151148Z">
         <seg>此后，&lt;k0&gt;C-n&lt;/k0&gt;和&lt;k1&gt;C-p&lt;/k1&gt;像往常一样尝试保持水平位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here &lt;k2&gt;c&lt;/k2&gt; stands for “character”.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T152813Z" creationid="grass" creationdate="20201226T152813Z">
+        <seg>这里&lt;k2&gt;c&lt;/k2&gt;代表“字符”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19018,6 +19082,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a2&gt;Misc Help&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T152932Z" creationid="grass" creationdate="20201226T152932Z">
+        <seg>请参阅&lt;a2&gt;其他帮助&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a2&gt;Optional Mode Line&lt;/a2&gt;.)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024941Z" creationid="grass" creationdate="20201203T024941Z">
@@ -19118,6 +19190,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014352Z" creationid="grass" creationdate="20201208T014349Z">
         <seg>请参阅 &lt;a4&gt;Visual Line Mode&lt;/a4&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a5&gt;Key Help&lt;/a5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T152838Z" creationid="grass" creationdate="20201226T152838Z">
+        <seg>请参阅&lt;a5&gt;快捷键帮助&lt;/a5&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19542,6 +19622,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101652Z" creationid="grass" creationdate="20201212T101652Z">
         <seg>由于迷你缓冲区中的&lt;t0&gt;RET&lt;/t0&gt;为提交参数，因此不能使用它插入换行符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Since commands are Lisp functions, this works for commands too.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153014Z" creationid="grass" creationdate="20201226T153014Z">
+        <seg>因为命令是Lisp函数，所以这也适用于命令。</seg>
       </tuv>
     </tu>
     <tu>
