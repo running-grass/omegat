@@ -5464,8 +5464,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="EN-US">
         <seg>Apropos</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100604Z" creationid="grass" creationdate="20201223T100604Z">
-        <seg>恰如其分</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T131721Z" creationid="grass" creationdate="20201223T100604Z">
+        <seg>主题搜索</seg>
       </tuv>
     </tu>
     <tu>
@@ -10046,6 +10046,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100512Z" creationid="grass" creationdate="20201223T100512Z">
         <seg>帮助概述</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Help on active text and tooltips (“balloon help”).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T131946Z" creationid="grass" creationdate="20201226T131946Z">
+        <seg>有关活动文本和工具提示的帮助(“气泡式帮助”)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -59316,6 +59324,30 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Help Echo&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T131928Z" creationid="grass" creationdate="20201226T131928Z">
+        <seg>• &lt;a0&gt;帮助信息回显&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Help Files&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T131917Z" creationid="grass" creationdate="20201226T131917Z">
+        <seg>• &lt;a0&gt;帮助文件&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Help Mode&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T131744Z" creationid="grass" creationdate="20201226T131744Z">
+        <seg>• &lt;a0&gt;帮助模式&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Help Summary&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201226T131523Z" creationid="grass" creationdate="20201226T131523Z">
@@ -59596,6 +59628,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Language Help&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T131846Z" creationid="grass" creationdate="20201226T131846Z">
+        <seg>• &lt;a0&gt;语言帮助&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Languages&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111348Z" creationid="grass" creationdate="20201014T111345Z">
@@ -59764,6 +59804,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Misc Help&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T131909Z" creationid="grass" creationdate="20201226T131909Z">
+        <seg>• &lt;a0&gt;其他帮助&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Miscellaneous&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T055828Z" creationid="grass" creationdate="20201013T055828Z">
@@ -59912,6 +59960,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104631Z" creationid="grass" creationdate="20201014T104631Z">
         <seg>• &lt;a0&gt;其他内置后端&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Package Keywords&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T131830Z" creationid="grass" creationdate="20201226T131830Z">
+        <seg>• &lt;a0&gt;包关键字&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
