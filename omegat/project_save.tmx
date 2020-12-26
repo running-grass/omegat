@@ -6254,6 +6254,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-h b</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T132051Z" creationid="grass" creationdate="20201226T132051Z">
+        <seg>C-h b</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-h i d m emacs &lt;s0&gt;RET&lt;/s0&gt; i &lt;v1&gt;topic&lt;/v1&gt; &lt;s2&gt;RET&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101930Z" creationid="grass" creationdate="20201223T101805Z">
@@ -7574,10 +7582,26 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Display a list of commands whose names match &lt;v0&gt;topics&lt;/v0&gt; (&lt;c1&gt;apropos-command&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T132050Z" creationid="grass" creationdate="20201226T132050Z">
+        <seg>显示名称与&lt;v0&gt;主题&lt;/v0&gt;匹配的命令列表(&lt;c1&gt;apropos-command&lt;/c1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Display a list of completions (&lt;c0&gt;minibuffer-completion-help&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104708Z" creationid="grass" creationdate="20201212T104708Z">
         <seg>显示补全列表(&lt;c0&gt;minibuffer-completion-help&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Display all active key bindings; minor mode bindings first, then those of the major mode, then global bindings (&lt;c0&gt;describe-bindings&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T152640Z" creationid="grass" creationdate="20201226T152640Z">
+        <seg>显示所有激活的键绑定；首先显示辅模式绑定，然后显示主模式的绑定，然后显示全局绑定(&lt;c0&gt;describe-bindings&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10142,6 +10166,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T104400Z" creationid="grass" creationdate="20201212T104400Z">
         <seg>以下是允许补全时在微型缓冲区中定义的补全命令列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here is a summary of help commands for accessing the built-in documentation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T132011Z" creationid="grass" creationdate="20201226T132011Z">
+        <seg>以下是用于访问内置文档的帮助命令摘要。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13714,6 +13746,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032842Z" creationid="grass" creationdate="20201205T032842Z">
         <seg>本手册中记录的大多数变量都用于自定义：Emacs的某些命令或其他部分会检查变量，并根据您设置的值采取不同的行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Most of these are described in more detail in the following sections.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T132033Z" creationid="grass" creationdate="20201226T132033Z">
+        <seg>以下各节将更详细地介绍其中的大部分内容。</seg>
       </tuv>
     </tu>
     <tu>
