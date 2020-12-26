@@ -277,3 +277,4 @@ Lax Search	松散搜索
 package	包
 apropos	主题
 apropos	主题搜索
+active	激活
