@@ -278,3 +278,4 @@ package	包
 apropos	主题
 apropos	主题搜索
 active	激活
+symbol	符号
