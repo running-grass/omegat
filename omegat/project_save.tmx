@@ -11418,6 +11418,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If it says the command is not on any key, that means you must use &lt;k4&gt;M-x&lt;/k4&gt; to run it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071106Z" creationid="grass" creationdate="20201227T071106Z">
+        <seg>如果它显示该命令不在任何键上，这意味着您必须使用&lt;k4&gt;M-x&lt;/k4&gt;来运行它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If it was already in the list, it is moved to the front.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T132743Z" creationid="Eli" creationdate="20201016T132743Z">
@@ -13022,6 +13030,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201019T143046Z" creationid="Eli" creationdate="20201019T143023Z">
         <seg>该命令会显示一个菜单界面，在该界面输入不同的字母会执行不同的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It displays the list in the echo area.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T065233Z" creationid="grass" creationdate="20201227T065233Z">
+        <seg>它会在回显区中显示列表。</seg>
       </tuv>
     </tu>
     <tu>
