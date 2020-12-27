@@ -11188,16 +11188,16 @@ USA</seg>
       <tuv lang="EN-US">
         <seg>Help on active text and tooltips (“balloon help”).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T131946Z" creationid="grass" creationdate="20201226T131946Z">
-        <seg>有关活动文本和工具提示的帮助(“气泡式帮助”)。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T074747Z" creationid="grass" creationdate="20201226T131946Z">
+        <seg>有关交互文本和工具提示的帮助(“气泡式帮助”)。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Help on active text and tooltips.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101011Z" creationid="grass" creationdate="20201223T101011Z">
-        <seg>有关活动文本和工具提示的帮助。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T074729Z" creationid="grass" creationdate="20201223T101011Z">
+        <seg>有关交互文本和工具提示的帮助。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13108,8 +13108,8 @@ USA</seg>
       <tuv lang="EN-US">
         <seg>In Emacs, stretches of &lt;e0&gt;active text&lt;/e0&gt; (text that does something special in response to mouse clicks or &lt;t1&gt;RET&lt;/t1&gt;) often have associated help text.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T074615Z" creationid="grass" creationdate="20201227T074615Z">
-        <seg>在Emacs中，&lt;e0&gt;活动文本&lt;/e0&gt;(响应鼠标单击或&lt;t1&gt;RET&lt;/t1&gt;执行特殊操作的文本)的延伸通常具有关联的帮助文本。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T074651Z" creationid="grass" creationdate="20201227T074615Z">
+        <seg>在Emacs中，&lt;e0&gt;交互文本&lt;/e0&gt;(响应鼠标单击或&lt;t1&gt;RET&lt;/t1&gt;执行特殊操作的文本)的延伸通常具有关联的帮助文本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17854,6 +17854,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>On graphical displays, as well as some text terminals which support mouse tracking, moving the mouse over the active text displays the help text as a &lt;e2&gt;tooltip&lt;/e2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T074812Z" creationid="grass" creationdate="20201227T074812Z">
+        <seg>在图形显示以及某些支持鼠标跟踪的文本终端上，将鼠标移到活动文本上会将帮助文本显示为&lt;e2&gt;工具提示&lt;/e2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>On graphical displays, the window manager might block some keyboard inputs, including &lt;k0&gt;M-&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt;, &lt;k2&gt;M-&lt;s3&gt;SPC&lt;/s3&gt;&lt;/k2&gt;, &lt;k4&gt;C-M-d&lt;/k4&gt; and &lt;k5&gt;C-M-l&lt;/k5&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T085310Z" creationid="grass" creationdate="20201205T030450Z">
@@ -17874,6 +17882,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024225Z" creationid="grass" creationdate="20201203T024225Z">
         <seg>在某些系统上，对于使用换行符作为行分隔符的文件，Emacs显示“&lt;s6&gt;(Unix)&lt;/s6&gt;”，而不是冒号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On terminals that don’t support mouse-tracking, you can display the help text for active buffer text at point by typing &lt;k0&gt;C-h .&lt;/k0&gt; (&lt;c1&gt;display-local-help&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T074936Z" creationid="grass" creationdate="20201227T074936Z">
+        <seg>在不支持鼠标跟踪的终端上，可以通过键入&lt;k0&gt;C-h .&lt;/k0&gt;(&lt;c1&gt;display-local-help&lt;/c1&gt;)显示缓冲区内游标处交互文本的帮助文本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20566,6 +20582,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T063951Z" creationid="grass" creationdate="20201227T063951Z">
         <seg>有关详细信息，请参阅&lt;c4&gt;Emacs Lisp参考手册&lt;/c4&gt;中的&lt;a3&gt;语法表&lt;/a3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a3&gt;Tooltips&lt;/a3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T074842Z" creationid="grass" creationdate="20201227T074842Z">
+        <seg>请参阅&lt;a3&gt;工具提示&lt;/a3&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24163,6 +24187,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083544Z" creationid="grass" creationdate="20201015T083544Z">
         <seg>这份文件应该每周审查一次，作为每周审查的一部分(我在周日晚上做这件事)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This includes hyperlinks in Emacs buffers, as well as parts of the mode line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T074820Z" creationid="grass" creationdate="20201227T074808Z">
+        <seg>这包括Emacs缓冲区中的超链接，以及部分状态行。</seg>
       </tuv>
     </tu>
     <tu>
