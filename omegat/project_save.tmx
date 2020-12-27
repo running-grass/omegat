@@ -1179,6 +1179,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>10.5</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072444Z" creationid="grass" creationdate="20201227T072444Z">
+        <seg>10.5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>11</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061227Z" creationid="grass" creationdate="20201015T061227Z">
@@ -4694,6 +4702,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A few special commands are also provided:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072524Z" creationid="grass" creationdate="20201227T072524Z">
+        <seg>还提供了一些特殊命令：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A floating-point number specifies a fraction of the frame’s height; an integer specifies the maximum number of lines; &lt;c1&gt;nil&lt;/c1&gt; means do not resize the minibuffer window automatically.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T102333Z" creationid="grass" creationdate="20201212T102333Z">
@@ -5378,6 +5394,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055922Z" creationid="grass" creationdate="20201016T055922Z">
         <seg>使用复读机的另一种选择是创建任务子树的多个副本，每个副本中的日期都会被移动。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An apropos pattern is interpreted as a regular expression if it contains any of the regular expression special characters, ‘&lt;s1&gt;^$*+?.\[&lt;/s1&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072310Z" creationid="grass" creationdate="20201227T072310Z">
+        <seg>如果一个主题模式包含任何正则表达式特殊字符‘&lt;s1&gt;^$*+？.\[&lt;/s1&gt;’，则该模式被解释为正则表达式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6230,6 +6254,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, all apropos commands except &lt;c0&gt;apropos-documentation&lt;/c0&gt; list their results in alphabetical order.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072415Z" creationid="grass" creationdate="20201227T072415Z">
+        <seg>默认情况下，除&lt;c0&gt;apropos-documentation&lt;/c0&gt;之外的所有主题搜索命令都按字母顺序列出其结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, all level 1 headlines in the current buffer are considered to be targets, but you can have more complex definitions across a number of files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T132854Z" creationid="grass" creationdate="20201006T132854Z">
@@ -6282,6 +6314,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201020T143211Z" creationid="Eli" creationdate="20201020T143211Z">
         <seg>默认情况下，该命令会列出所有状态不是“DONE”的事项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By using them in &lt;k0&gt;C-h a&lt;/k0&gt;, you will also get a feel for the naming conventions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072333Z" creationid="grass" creationdate="20201227T072333Z">
+        <seg>通过在&lt;k0&gt;C-h a&lt;/k0&gt;中使用它们，您还将对命名约定有所了解。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9570,10 +9610,26 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Follow a cross reference at point (&lt;c0&gt;help-follow&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072539Z" creationid="grass" creationdate="20201227T072539Z">
+        <seg>在游标上遵循交叉引用(&lt;c0&gt;help-follow&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Following the GTD principle, what I usually want is to only show the &lt;e0&gt;first action to be done&lt;/e0&gt; (or next action) for each project with the &lt;c1&gt;@office&lt;/c1&gt; tag.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201105T050944Z" creationid="grass" creationdate="20201015T082853Z">
         <seg>遵循GTD原则，我通常希望使用&lt;c1&gt;@office&lt;/c1&gt;标签为每个项目仅显示要完成的&lt;e0&gt;首要行动&lt;/e0&gt;(或下一步行动)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Following the conventions for naming Emacs commands, here are some words that you’ll find useful in apropos patterns.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072329Z" creationid="grass" creationdate="20201227T072329Z">
+        <seg>遵循Emacs命令的命名约定，下面是一些在搜索模式中会很有用的单词。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9678,6 +9734,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151346Z" creationid="grass" creationdate="20201207T151346Z">
         <seg>有关详细信息，请参阅&lt;a10&gt;连续行&lt;/a10&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For even greater flexibility, you can specify a regular expression (see &lt;a0&gt;Regexps&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072300Z" creationid="grass" creationdate="20201227T072300Z">
+        <seg>为了获得更大的灵活性，您可以指定正则表达式(请参见&lt;a0&gt;正则表达式&lt;/a0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10682,10 +10746,26 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Help Mode Commands</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072449Z" creationid="grass" creationdate="20201227T072449Z">
+        <seg>帮助模式命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Help Summary</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100512Z" creationid="grass" creationdate="20201223T100512Z">
         <seg>帮助概述</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Help buffers provide the same commands as View mode (see &lt;a0&gt;View Mode&lt;/a0&gt;); for instance, &lt;t1&gt;SPC&lt;/t1&gt; scrolls forward, and &lt;t2&gt;DEL&lt;/t2&gt; or &lt;k3&gt;S-&lt;s4&gt;SPC&lt;/s4&gt;&lt;/k3&gt; scrolls backward.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072521Z" creationid="grass" creationdate="20201227T072521Z">
+        <seg>帮助缓冲区提供与查看模式相同的命令(请参阅&lt;a0&gt;View Mode&lt;/a0&gt;)；例如，&lt;t1&gt;SPC&lt;/t1&gt;向前滚动，&lt;t2&gt;DEL&lt;/t2&gt;或&lt;k3&gt;S-&lt;s4&gt;SPC&lt;/s4&gt;&lt;/k3&gt;向后滚动。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11850,10 +11930,26 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the variable &lt;c0&gt;apropos-do-all&lt;/c0&gt; is non-&lt;c1&gt;nil&lt;/c1&gt;, most apropos commands behave as if they had been given a prefix argument.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072356Z" creationid="grass" creationdate="20201227T072356Z">
+        <seg>如果变量&lt;c0&gt;apropos-do-all&lt;/c0&gt;是非&lt;c1&gt;nil&lt;/c1&gt;，则大多数主题搜索命令的行为就像它们被赋予了前缀参数一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the variable &lt;c0&gt;inhibit-startup-screen&lt;/c0&gt; is non-&lt;c1&gt;nil&lt;/c1&gt;, Emacs does not display the startup screen.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072922Z" creationid="grass" creationdate="20201205T072922Z">
         <seg>如果变量&lt;c0&gt;inhibit-startup-screen&lt;/c0&gt;为非&lt;c1&gt;nil&lt;/c1&gt;，则Emacs不显示启动屏幕。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the variable &lt;c1&gt;apropos-sort-by-scores&lt;/c1&gt; is non-&lt;c2&gt;nil&lt;/c2&gt;, these commands instead try to guess the relevance of each result, and display the most relevant ones first.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072425Z" creationid="grass" creationdate="20201227T072425Z">
+        <seg>如果变量&lt;c1&gt;apropos-sort-by-scores&lt;/c1&gt;是非&lt;c2&gt;nil&lt;/c2&gt;，则这些命令会尝试猜测每个结果的相关性，并首先显示最相关的结果。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21533,6 +21629,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c3&gt;apropos-documentation&lt;/c3&gt; command lists its results in order of relevance by default; to list them in alphabetical order, change the variable &lt;c4&gt;apropos-documentation-sort-by-scores&lt;/c4&gt; to &lt;c5&gt;nil&lt;/c5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072439Z" creationid="grass" creationdate="20201227T072439Z">
+        <seg>&lt;c3&gt;apropos-documentation&lt;/c3&gt;命令默认情况下按相关顺序列出其结果；要按字母顺序列出它们，请将变量&lt;c4&gt;apropos-documentation-sort-by-scores&lt;/c4&gt;更改为&lt;c5&gt;nil&lt;/c5&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;e0&gt;apropos&lt;/e0&gt; commands answer questions like, “What are the commands for working with files?” More precisely, you specify an &lt;e1&gt;apropos pattern&lt;/e1&gt;, which means either a word, a list of words, or a regular expression.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071713Z" creationid="grass" creationdate="20201227T071713Z">
@@ -23055,6 +23159,14 @@ stores its records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T031148Z" creationid="grass" creationdate="20201205T031148Z">
         <seg>键序列的长度没有限制，但实际上它们很少超过三个或四个输入事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There is one exception: &lt;c2&gt;apropos-variable&lt;/c2&gt; without a prefix argument will always search for all variables, no matter what the value of &lt;c3&gt;apropos-do-all&lt;/c3&gt; is.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072403Z" creationid="grass" creationdate="20201227T072403Z">
+        <seg>有一个例外：&lt;c2&gt;apropos-variable&lt;/c2&gt;没有前缀参数将始终搜索所有变量，无论&lt;c3&gt;apropos-do-all&lt;/c3&gt;的值是什么。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26660,6 +26772,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T131037Z" creationid="grass" creationdate="20200927T130532Z">
         <seg>使用Emacs打包系统安装；</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>char, line, word, sentence, paragraph, region, page, sexp, list, defun, rect, buffer, frame, window, face, file, dir, register, mode, beginning, end, forward, backward, next, previous, up, down, search, goto, kill, delete, mark, insert, yank, fill, indent, case, change, set, what, list, find, view, describe, default.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072341Z" creationid="grass" creationdate="20201227T072341Z">
+        <seg>char, line, word, sentence, paragraph, region, page, sexp, list, defun, rect, buffer, frame, window, face, file, dir, register, mode, beginning, end, forward, backward, next, previous, up, down, search, goto, kill, delete, mark, insert, yank, fill, indent, case, change, set, what, list, find, view, describe, default.</seg>
       </tuv>
     </tu>
     <tu>
