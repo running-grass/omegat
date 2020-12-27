@@ -390,6 +390,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(That name appears as the default while you enter the argument.) For example, if point is located following the text ‘&lt;s3&gt;(make-vector (car x)&lt;/s3&gt;’, the innermost list containing point is the one that starts with ‘&lt;s4&gt;(make-vector&lt;/s4&gt;’, so &lt;k5&gt;C-h f &lt;s6&gt;RET&lt;/s6&gt;&lt;/k5&gt; describes the function &lt;c7&gt;make-vector&lt;/c7&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071453Z" creationid="grass" creationdate="20201227T071453Z">
+        <seg>(当您输入参数时，该名称显示为默认值。)例如，如果游标位于文本‘&lt;s3&gt;(make-vector (car x)&lt;/s3&gt;’之后，则包含游标的最内层列表是以‘&lt;s4&gt;(make-vector&lt;/s4&gt;’开始的那个，因此&lt;k5&gt;C-h f&lt;/s6&gt;&lt;/k5&gt;描述了&lt;c7&gt;make-vector&lt;/c7&gt;函数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(The &lt;t2&gt;RET&lt;/t2&gt; key may be labeled &lt;t3&gt;Return&lt;/t3&gt;, or &lt;t4&gt;Enter&lt;/t4&gt;, or with a funny-looking left-pointing arrow on your keyboard, but we refer to it as &lt;t5&gt;RET&lt;/t5&gt; in this manual.) This command inserts a newline character into the buffer, then indents (see &lt;a6&gt;Indentation&lt;/a6&gt;) according to the major mode.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T083933Z" creationid="grass" creationdate="20201205T083933Z">
@@ -3947,6 +3955,22 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-h f &lt;v1&gt;function&lt;/v1&gt; &lt;s2&gt;RET&lt;/s2&gt;&lt;/k0&gt; (&lt;c3&gt;describe-function&lt;/c3&gt;) displays the documentation of Lisp function &lt;v4&gt;function&lt;/v4&gt;, in a window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071140Z" creationid="grass" creationdate="20201227T071140Z">
+        <seg>&lt;k0&gt;C-h f&lt;v1&gt;函数&lt;s2&gt;RET&lt;/s2&gt;&lt;/k0&gt;(&lt;c3&gt;describe-function&lt;/c3&gt;)在窗口中显示Lisp函数&lt;v4&gt;函数&lt;/v4&gt;的文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-h f&lt;/k0&gt; is also useful for Lisp functions that you use in a Lisp program.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071201Z" creationid="grass" creationdate="20201227T071201Z">
+        <seg>&lt;k0&gt;C-h f&lt;/k0&gt;对于您在Lisp程序中使用的Lisp函数也很有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-h k &lt;v1&gt;key&lt;/v1&gt;&lt;/k0&gt; is similar but gives more information: it displays a help buffer containing the command’s &lt;e2&gt;documentation string&lt;/e2&gt;, which describes exactly what the command does.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064801Z" creationid="grass" creationdate="20201227T064801Z">
@@ -4337,6 +4361,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T030110Z" creationid="grass" creationdate="20201215T030110Z">
         <seg>&lt;k4&gt;C-y&lt;/k4&gt;将当前剪切字内容插入到密码中(请参阅&lt;a5&gt;剪切&lt;/a5&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k5&gt;C-h w&lt;/k5&gt; runs the command &lt;c6&gt;where-is&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071118Z" creationid="grass" creationdate="20201227T071112Z">
+        <seg>&lt;k5&gt;C-h w&lt;/k5&gt;运行命令&lt;c6&gt;where-is&lt;/c6&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5294,6 +5326,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An abbreviation that is unique among command names may not be unique among all function names.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071244Z" creationid="grass" creationdate="20201227T071244Z">
+        <seg>在命令名中唯一的缩写在所有函数名中可能不是唯一的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An alternate way to show an example.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T105256Z" creationid="grass" creationdate="20201014T105256Z">
@@ -5942,6 +5982,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Because &lt;k5&gt;C-h f&lt;/k5&gt; allows all function names, not just command names, you may find that some of your favorite completion abbreviations that work in &lt;k6&gt;M-x&lt;/k6&gt; don’t work in &lt;k7&gt;C-h f&lt;/k7&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071234Z" creationid="grass" creationdate="20201227T071234Z">
+        <seg>由于&lt;k5&gt;C-h f&lt;/k5&gt;允许所有函数名，而不仅仅是命令名，因此您可能会发现，您喜欢的一些在&lt;k6&gt;M-x&lt;/k6&gt;中使用的完成缩写在&lt;k7&gt;C-h f&lt;/k7&gt;中不起作用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Before reporting a bug, it is very helpful to start Emacs with minimal customizations and reproduce the problem.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T081451Z" creationid="grass" creationdate="20200929T081451Z">
@@ -6410,6 +6458,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201226T152934Z" creationid="grass" creationdate="20201226T152934Z">
         <seg>C-h f &lt;v0&gt;function&lt;/v0&gt; &lt;s1&gt;RET&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-h f auto-fill-mode &lt;s0&gt;RET&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071146Z" creationid="grass" creationdate="20201227T071146Z">
+        <seg>C-h f auto-fill-mode &lt;s0&gt;RET&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9658,6 +9714,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, if you have just written the expression &lt;c1&gt;(make-vector len)&lt;/c1&gt; and want to check that you are using &lt;c2&gt;make-vector&lt;/c2&gt; properly, type &lt;k3&gt;C-h f make-vector &lt;s4&gt;RET&lt;/s4&gt;&lt;/k3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071224Z" creationid="grass" creationdate="20201227T071224Z">
+        <seg>例如，如果您刚刚编写了表达式&lt;c1&gt;(make-vector len)&lt;/c1&gt;，并且希望检查您是否正确使用了make-vector&lt;/c2&gt;，请键入&lt;k3&gt;C-h f make-vector&lt;s4&gt;RET&lt;/s4&gt;&lt;/k3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, if you invoke &lt;k1&gt;C-x k&lt;/k1&gt; (&lt;c2&gt;kill-buffer&lt;/c2&gt;) on a file-visiting buffer with unsaved changes, Emacs activates the minibuffer with a prompt like this:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T030347Z" creationid="grass" creationdate="20201215T030347Z">
@@ -10534,6 +10598,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100512Z" creationid="grass" creationdate="20201223T100512Z">
         <seg>帮助概述</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Help by Command or Variable Name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071126Z" creationid="grass" creationdate="20201227T071126Z">
+        <seg>按命令或变量名提供帮助</seg>
       </tuv>
     </tu>
     <tu>
@@ -12110,6 +12182,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025449Z" creationid="grass" creationdate="20201019T025449Z">
         <seg>如果您偶尔需要更多键，请按&lt;k3&gt;C-c&lt;/k3&gt;关闭当前标签选择过程的自动退出(实际上：使用&lt;k4&gt;C-c-c C-c&lt;/k4&gt;而不是&lt;k5&gt;C-c C-c&lt;/k5&gt;开始选择)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you type &lt;k0&gt;C-h f &lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt;, it describes the function called by the innermost Lisp expression in the buffer around point, &lt;e2&gt;provided&lt;/e2&gt; that function name is a valid, defined Lisp function.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071305Z" creationid="grass" creationdate="20201227T071305Z">
+        <seg>如果键入&lt;k0&gt;C-h f&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt;，它将描述游标周围缓冲区中最内层的Lisp表达式调用的函数，&lt;e2&gt;前提是&lt;/e2&gt;函数名是有效的、已定义的Lisp函数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20138,6 +20218,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Since commands are Lisp functions, you can use this method to view the documentation of any command whose name you know.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071144Z" creationid="grass" creationdate="20201227T071144Z">
+        <seg>因为命令是Lisp函数，所以您可以使用此方法查看您知道其名称的任何命令的文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Since recursive editing levels affect Emacs globally, such square brackets appear in the mode line of every window.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025646Z" creationid="grass" creationdate="20201203T025646Z">
@@ -23191,6 +23279,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is the only way to get the documentation of a command that is not bound to any key (one which you would normally run using &lt;k1&gt;M-x&lt;/k1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071158Z" creationid="grass" creationdate="20201227T071158Z">
+        <seg>这是获取未绑定到任何键(通常使用&lt;k1&gt;M-x&lt;/k1&gt;运行的键)的命令文档的唯一方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This letter or digit is separated from the item name by ‘&lt;s8&gt;==&gt;&lt;/s8&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032631Z" creationid="grass" creationdate="20201203T032631Z">
@@ -26224,6 +26320,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061738Z" creationid="grass" creationdate="20201015T061738Z">
         <seg>debug-on-signal nil</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>displays the documentation of &lt;c0&gt;auto-fill-mode&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071151Z" creationid="grass" creationdate="20201227T071151Z">
+        <seg>显示&lt;c0&gt;auto-fill-mode&lt;/c0&gt;的文档。</seg>
       </tuv>
     </tu>
     <tu>
