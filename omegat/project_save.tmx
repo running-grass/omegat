@@ -3971,10 +3971,34 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-h f&lt;/k0&gt; is also useful just to verify that you spelled a function name correctly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071459Z" creationid="grass" creationdate="20201227T071459Z">
+        <seg>&lt;k0&gt;C-h f&lt;/k0&gt;也可用于验证函数名是否拼写正确。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-h k &lt;v1&gt;key&lt;/v1&gt;&lt;/k0&gt; is similar but gives more information: it displays a help buffer containing the command’s &lt;e2&gt;documentation string&lt;/e2&gt;, which describes exactly what the command does.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064801Z" creationid="grass" creationdate="20201227T064801Z">
         <seg>&lt;k0&gt;C-h k&lt;v1&gt;key&lt;/v1&gt;&lt;/k0&gt;类似，但提供了更多信息：它显示包含命令的&lt;e2&gt;文档字符串&lt;/e2&gt;的帮助缓冲区，该字符串准确描述了命令的功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-h o&lt;/k0&gt; (&lt;c1&gt;describe-symbol&lt;/c1&gt;) is like &lt;k2&gt;C-h f&lt;/k2&gt; and &lt;k3&gt;C-h v&lt;/k3&gt;, but it describes any symbol, be it a function, a variable, or a face.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071624Z" creationid="grass" creationdate="20201227T071624Z">
+        <seg>&lt;k0&gt;C-h o&lt;/k0&gt;(&lt;c1&gt;describe-symbol&lt;/c1&gt;)类似于&lt;k2&gt;C-h f&lt;/k2&gt;和&lt;k3&gt;C-h v&lt;/k3&gt;，但它描述任何符号，可以是函数、变量或面。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-h v&lt;/k0&gt; (&lt;c1&gt;describe-variable&lt;/c1&gt;) is like &lt;k2&gt;C-h f&lt;/k2&gt; but describes Lisp variables instead of Lisp functions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071537Z" creationid="grass" creationdate="20201227T071537Z">
+        <seg>&lt;k0&gt;C-h v&lt;/k0&gt;(&lt;c1&gt;describe-variable&lt;/c1&gt;)类似于&lt;k2&gt;C-h f&lt;/k2&gt;，但描述的是Lisp变量，而不是Lisp函数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10602,6 +10626,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Help buffers that describe Emacs variables and functions normally have hyperlinks to the corresponding source code, if you have the source files installed (see &lt;a0&gt;Hyperlinking&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071556Z" creationid="grass" creationdate="20201227T071556Z">
+        <seg>如果您安装了源文件，则描述Emacs变量和函数的帮助缓冲区通常具有指向相应源代码的超链接(请参阅&lt;a0&gt;超链接&lt;/a0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Help by Command or Variable Name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071126Z" creationid="grass" creationdate="20201227T071126Z">
@@ -11622,6 +11654,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T070307Z" creationid="grass" creationdate="20201015T070307Z">
         <seg>如果区域中的第一行是列表项，则仅将列表项行变为标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the minibuffer prompt for &lt;k1&gt;C-h f&lt;/k1&gt; shows the function name from the buffer as the default, it means that name is defined as a Lisp function.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071511Z" creationid="grass" creationdate="20201227T071511Z">
+        <seg>如果&lt;k1&gt;C-h f&lt;/k1&gt;的迷你缓冲区提示将缓冲区中的函数名显示为默认值，则意味着该名称被定义为Lisp函数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13186,6 +13226,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102323Z" creationid="grass" creationdate="20201014T102323Z">
         <seg>一次又一次出现的项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Its default is the Lisp symbol around or before point, if that is the name of a defined Lisp variable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071539Z" creationid="grass" creationdate="20201227T071539Z">
+        <seg>如果它是已定义的Lisp变量的名称，则它的默认值是点前后的Lisp符号。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19722,6 +19770,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a3&gt;Variables&lt;/a3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071549Z" creationid="grass" creationdate="20201227T071541Z">
+        <seg>请参阅&lt;a3&gt;变量&lt;/a3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a3&gt;What Is a Function&lt;/a3&gt; in &lt;c4&gt;The Emacs Lisp Reference Manual&lt;/c4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032007Z" creationid="grass" creationdate="20201205T032007Z">
@@ -23287,6 +23343,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This knows about various manuals, not just the Emacs manual, and finds the right one.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071615Z" creationid="grass" creationdate="20201227T071615Z">
+        <seg>它了解各种手册，而不仅仅是Emacs手册，并且找到了正确的手册。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This letter or digit is separated from the item name by ‘&lt;s8&gt;==&gt;&lt;/s8&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032631Z" creationid="grass" creationdate="20201203T032631Z">
@@ -23735,6 +23799,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To find a command’s documentation in a manual, use &lt;k0&gt;C-h F&lt;/k0&gt; (&lt;c1&gt;Info-goto-emacs-command-node&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071610Z" creationid="grass" creationdate="20201227T071610Z">
+        <seg>要在手册中查找命令文档，请使用&lt;k0&gt;C-h F&lt;/k0&gt;(&lt;c1&gt;Info-goto-emacs-command-node&lt;/c1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To further customize what happens when Emacs is exiting, see &lt;a0&gt;Killing Emacs&lt;/a0&gt; in &lt;c1&gt;The GNU Emacs Lisp Reference Manual&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073629Z" creationid="grass" creationdate="20201205T073629Z">
@@ -24115,6 +24187,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021019Z" creationid="grass" creationdate="20201209T021019Z">
         <seg>键入&lt;k1&gt;M-5 C-u 0&lt;/k1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Type &lt;k2&gt;C-g&lt;/k2&gt; to cancel the &lt;k3&gt;C-h f&lt;/k3&gt; command if you don’t really want to view the documentation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071518Z" creationid="grass" creationdate="20201227T071518Z">
+        <seg>如果您确实不想查看文档，请键入&lt;k2&gt;C-g&lt;/k2&gt;取消&lt;k3&gt;C-h f&lt;/k3&gt;命令。</seg>
       </tuv>
     </tu>
     <tu>
