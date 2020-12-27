@@ -283,3 +283,5 @@ buffer-local variable	缓冲区局部变量
 regexp	正则表达式
 mouse-1	鼠标左键
 mouse-2	鼠标右键
+local	本地
+local	局部
