@@ -3939,10 +3939,26 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-h c&lt;/k0&gt;, &lt;k1&gt;C-h k&lt;/k1&gt; and &lt;k2&gt;C-h K&lt;/k2&gt; work for any sort of key sequences, including function keys, menus, and mouse events (except that &lt;k3&gt;C-h c&lt;/k3&gt; ignores mouse movement events).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T065015Z" creationid="grass" creationdate="20201227T065015Z">
+        <seg>&lt;k0&gt;C-h c&lt;/k0&gt;, &lt;k1&gt;C-h k&lt;/k1&gt; 和 &lt;k2&gt;C-h K&lt;/k2&gt; 适用于任何类型的键序列，包括功能键、菜单和鼠标事件(但&lt;k3&gt;C-h c&lt;/k3&gt;忽略鼠标移动事件除外)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-h k &lt;v1&gt;key&lt;/v1&gt;&lt;/k0&gt; is similar but gives more information: it displays a help buffer containing the command’s &lt;e2&gt;documentation string&lt;/e2&gt;, which describes exactly what the command does.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064801Z" creationid="grass" creationdate="20201227T064801Z">
         <seg>&lt;k0&gt;C-h k&lt;v1&gt;key&lt;/v1&gt;&lt;/k0&gt;类似，但提供了更多信息：它显示包含命令的&lt;e2&gt;文档字符串&lt;/e2&gt;的帮助缓冲区，该字符串准确描述了命令的功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-h w &lt;v1&gt;command&lt;/v1&gt; &lt;s2&gt;RET&lt;/s2&gt;&lt;/k0&gt; lists the keys that are bound to &lt;v3&gt;command&lt;/v3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T065224Z" creationid="grass" creationdate="20201227T065224Z">
+        <seg>&lt;k0&gt;C-h w&lt;/v1&gt;command&lt;/v1&gt;&lt;s2&gt;RET&lt;/s2&gt;&lt;/k0&gt;列出绑定到&lt;v3&gt;command&lt;/v3&gt;的按键。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9878,6 +9894,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072406Z" creationid="grass" creationdate="20201205T033321Z">
         <seg>例如，激活“&lt;s3&gt;Emacs Tutorial&lt;/s3&gt;”链接将打开Emacs教程；这与命令&lt;k4&gt;C-h t&lt;/k4&gt;(&lt;c5&gt;help-with-tutorial&lt;/c5&gt;)的作用相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance, after &lt;k4&gt;C-h k&lt;/k4&gt; you can select a menu item from the menu bar, to view the documentation string of the command it runs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T065109Z" creationid="grass" creationdate="20201227T065109Z">
+        <seg>例如，在&lt;k4&gt;C-h k&lt;/k4&gt;之后，您可以从菜单栏中选择菜单项，以查看其运行的命令的文档字符串。</seg>
       </tuv>
     </tu>
     <tu>
