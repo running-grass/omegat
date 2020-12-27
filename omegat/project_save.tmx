@@ -1187,6 +1187,30 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>10.6</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073303Z" creationid="grass" creationdate="20201227T073303Z">
+        <seg>10.6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>10.7</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073549Z" creationid="grass" creationdate="20201227T073549Z">
+        <seg>10.7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>10.8</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073651Z" creationid="grass" creationdate="20201227T073651Z">
+        <seg>10.8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>11</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061227Z" creationid="grass" creationdate="20201015T061227Z">
@@ -3955,6 +3979,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-h P&lt;/k0&gt; (&lt;c1&gt;describe-package&lt;/c1&gt;) prompts for the name of a package (see &lt;a2&gt;Packages&lt;/a2&gt;), and displays a help buffer describing the attributes of the package and the features that it implements.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073510Z" creationid="grass" creationdate="20201227T073510Z">
+        <seg>&lt;k0&gt;C-h P&lt;/k0&gt;(&lt;c1&gt;describe-package&lt;/c1&gt;)提示输入包的名称(请参阅&lt;a2&gt;包&lt;/a2&gt;)，并显示描述包的属性及其实现的功能的帮助缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-h c &lt;v1&gt;key&lt;/v1&gt;&lt;/k0&gt; displays in the echo area the name of the command that &lt;v2&gt;key&lt;/v2&gt; is bound to.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064740Z" creationid="grass" creationdate="20201227T064740Z">
@@ -3991,6 +4023,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071459Z" creationid="grass" creationdate="20201227T071459Z">
         <seg>&lt;k0&gt;C-h f&lt;/k0&gt;也可用于验证函数名是否拼写正确。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-h i&lt;/k0&gt; (&lt;c1&gt;info&lt;/c1&gt;) runs the Info program, which browses structured documentation files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073659Z" creationid="grass" creationdate="20201227T073659Z">
+        <seg>&lt;k0&gt;C-h i&lt;/k0&gt;(&lt;c1&gt;info&lt;/c1&gt;)运行Info程序，该程序浏览结构化文档文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4369,6 +4409,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T030046Z" creationid="grass" creationdate="20201215T030046Z">
         <seg>&lt;k2&gt;C-g&lt;/k2&gt;退出密码提示(请参阅&lt;a3&gt;退出&lt;/a3&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k2&gt;C-h 4 i&lt;/k2&gt; (&lt;c3&gt;info-other-window&lt;/c3&gt;) does the same, but shows the Info buffer in another window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073709Z" creationid="grass" creationdate="20201227T073709Z">
+        <seg>&lt;k2&gt;C-h 4 i&lt;/k2&gt;(&lt;c3&gt;info-other-window&lt;/c3&gt;)执行相同的操作，但在另一个窗口中显示信息缓冲区。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7094,6 +7142,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Click on a button with &lt;k3&gt;mouse-1&lt;/k3&gt; or &lt;k4&gt;mouse-2&lt;/k4&gt; to see the list of other packages related to that keyword.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073545Z" creationid="grass" creationdate="20201227T073545Z">
+        <seg>用&lt;k3&gt;鼠标左键&lt;/k3&gt;或&lt;k4&gt;鼠标右键&lt;/k4&gt;单击一个按钮，查看与该关键字相关的其他软件包的列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Clocking Work Time</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201317Z" creationid="grass" creationdate="20201010T201317Z">
@@ -8730,6 +8786,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Emacs contains several hundred built-in packages, and more can be installed over the network (see &lt;a1&gt;Packages&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073432Z" creationid="grass" creationdate="20201227T073432Z">
+        <seg>Emacs包含数百个内置软件包，还可以通过网络安装更多(请参阅&lt;a1&gt;包&lt;/a1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Emacs contains the calendar and diary by Edward M. Reingold.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112844Z" creationid="grass" creationdate="20201016T112742Z">
@@ -10106,6 +10170,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For information on a specific language environment (see &lt;a0&gt;Language Environments&lt;/a0&gt;), type &lt;k1&gt;C-h L&lt;/k1&gt; (&lt;c2&gt;describe-language-environment&lt;/c2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073559Z" creationid="grass" creationdate="20201227T073559Z">
+        <seg>有关特定语言环境的信息(请参阅&lt;a0&gt;语言环境&lt;/a0&gt;)，请键入&lt;k1&gt;C-h L&lt;/k1&gt;(&lt;c2&gt;describe-language-environment&lt;/c2&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For information on extending Emacs, see &lt;a0&gt;Emacs Lisp&lt;/a0&gt; in &lt;c1&gt;The Emacs Lisp Reference Manual&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T080834Z" creationid="grass" creationdate="20201130T080834Z">
@@ -10846,6 +10918,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071126Z" creationid="grass" creationdate="20201227T071126Z">
         <seg>按命令或变量名提供帮助</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Help for International Language Support</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073551Z" creationid="grass" creationdate="20201227T073551Z">
+        <seg>有关国际语言支持的帮助</seg>
       </tuv>
     </tu>
     <tu>
@@ -12738,6 +12818,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In a help buffer, &lt;t0&gt;TAB&lt;/t0&gt; (&lt;c1&gt;forward-button&lt;/c1&gt;) moves point forward to the next hyperlink, while &lt;k2&gt;S-&lt;s3&gt;TAB&lt;/s3&gt;&lt;/k2&gt; (&lt;c4&gt;backward-button&lt;/c4&gt;) moves point back to the previous hyperlink.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073216Z" creationid="grass" creationdate="20201227T073216Z">
+        <seg>在帮助缓冲区中，&lt;t0&gt;TAB&lt;/t0&gt;(&lt;c1&gt;forward-button&lt;/c1&gt;)将游标前移到下一个超链接，而&lt;k2&gt;S-&lt;s3&gt;TAB&lt;/s3&gt;&lt;/k2&gt;(&lt;c4&gt;backward-button&lt;/c4&gt;)将游标移回上一个超链接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In a new entry with no text yet, the first &lt;k0&gt;&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; demotes the entry to become a child of the previous one.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063718Z" creationid="grass" creationdate="20201015T063642Z">
@@ -13594,6 +13682,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T033252Z" creationid="grass" creationdate="20201203T033252Z">
         <seg>快捷键</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Keyword Search for Packages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073307Z" creationid="grass" creationdate="20201227T073307Z">
+        <seg>包的关键字搜索</seg>
       </tuv>
     </tu>
     <tu>
@@ -14658,6 +14754,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201226T132033Z" creationid="grass" creationdate="20201226T132033Z">
         <seg>以下各节将更详细地介绍其中的大部分内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Most optional features in Emacs are grouped into &lt;e0&gt;packages&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073312Z" creationid="grass" creationdate="20201227T073312Z">
+        <seg>Emacs中的大多数可选功能都分组到&lt;e0&gt;包&lt;/e0&gt;中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17990,6 +18094,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Other Help Commands</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073652Z" creationid="grass" creationdate="20201227T073652Z">
+        <seg>其他帮助命令</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Other characters represent various &lt;e4&gt;coding systems&lt;/e4&gt;—for example, ‘&lt;s5&gt;1&lt;/s5&gt;’ represents ISO Latin-1.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023909Z" creationid="grass" creationdate="20201203T023909Z">
@@ -19998,6 +20110,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025732Z" creationid="grass" creationdate="20201215T025732Z">
         <seg>请参阅&lt;a2&gt;增量搜索&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a2&gt;Input Methods&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073637Z" creationid="grass" creationdate="20201227T073637Z">
+        <seg>请参阅&lt;a2&gt;输入法&lt;/a2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22029,6 +22149,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The buffer lists the keywords that relate to the package in the form of buttons.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073522Z" creationid="grass" creationdate="20201227T073522Z">
+        <seg>缓冲区以按钮的形式列出与包相关的关键字。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The calendar displays a three-month calendar with holidays from different countries and cultures.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112856Z" creationid="grass" creationdate="20201016T112856Z">
@@ -22097,6 +22225,30 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055948Z" creationid="grass" creationdate="20201016T055948Z">
         <seg>命令&lt;k0&gt;C-c C-x c&lt;/k0&gt;就是为此创建的；&lt;a1&gt;结构编辑&lt;/a1&gt;中介绍了该命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The command &lt;k0&gt;C-h C&lt;/k0&gt; (&lt;c1&gt;describe-coding-system&lt;/c1&gt;) describes coding systems—either a specified coding system, or the ones currently in use.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073645Z" creationid="grass" creationdate="20201227T073645Z">
+        <seg>命令&lt;k0&gt;C-h C&lt;/k0&gt;(&lt;c1&gt;describe-coding-system&lt;/c1&gt;)描述编码系统-可以是指定的编码系统，也可以是当前使用的编码系统。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The command &lt;k0&gt;C-h I&lt;/k0&gt; (&lt;c1&gt;describe-input-method&lt;/c1&gt;) describes an input method—either a specified input method, or by default the input method currently in use.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073635Z" creationid="grass" creationdate="20201227T073635Z">
+        <seg>命令&lt;k0&gt;C-h I&lt;/k0&gt;(&lt;c1&gt;describe-input-method&lt;/c1&gt;)描述一种输入法-指定的输入法，或默认情况下当前使用的输入法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The command &lt;k0&gt;C-h h&lt;/k0&gt; (&lt;c1&gt;view-hello-file&lt;/c1&gt;) displays the file &lt;s2&gt;etc/HELLO&lt;/s2&gt;, which demonstrates various character sets by showing how to say “hello” in many languages.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073624Z" creationid="grass" creationdate="20201227T073624Z">
+        <seg>命令&lt;k0&gt;C-h h&lt;/k0&gt;(&lt;c1&gt;view-hello-file&lt;/c1&gt;)显示文件&lt;s2&gt;etc/HELLO&lt;/s2&gt;，该文件通过显示如何用多种语言说“hello”来演示各种字符集。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23307,6 +23459,14 @@ stores its records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These commands act cyclically; for instance, typing &lt;t5&gt;TAB&lt;/t5&gt; at the last hyperlink moves back to the first hyperlink.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073242Z" creationid="grass" creationdate="20201227T073242Z">
+        <seg>这些命令循环执行；例如，在最后一个超链接处键入&lt;t5&gt;TAB&lt;/t5&gt;会返回到第一个超链接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These commands are unusual, in that they use the minibuffer to read the regular expression argument, even though they are invoked from the minibuffer.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T023837Z" creationid="grass" creationdate="20201215T023837Z">
@@ -23595,6 +23755,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094706Z" creationid="grass" creationdate="20201212T094706Z">
         <seg>如果您只键入&lt;t1&gt;RET&lt;/t1&gt;，则此默认值将用作参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This displays a help buffer describing the languages supported by the language environment, and listing the associated character sets, coding systems, and input methods, as well as some sample text for that language environment.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073605Z" creationid="grass" creationdate="20201227T073605Z">
+        <seg>这将显示一个帮助缓冲区，描述语言环境支持的语言，并列出相关的字符集、编码系统和输入法，以及该语言环境的一些示例文本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23915,6 +24083,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101512Z" creationid="grass" creationdate="20201223T101512Z">
         <seg>这将搜索名称与参数&lt;v0&gt;主题&lt;/v0&gt;匹配的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This shows the documentation for all the meanings of the symbol—as a variable, as a function, and/or as a face.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073258Z" creationid="grass" creationdate="20201227T073258Z">
+        <seg>这显示了符号的所有含义的文档-作为变量、作为函数或作为字符样式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24327,6 +24503,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To make it easier to find packages related to a topic, most packages are associated with one or more &lt;e0&gt;keywords&lt;/e0&gt; based on what they do.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073438Z" creationid="grass" creationdate="20201227T073438Z">
+        <seg>为了更容易地查找与主题相关的包，大多数包都根据它们所做的事情与一个或多个&lt;e0&gt;关键字&lt;/e0&gt;相关联。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To make the command see new possible targets, you have to clear the cache with this command.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201006T134814Z" creationid="grass" creationdate="20201006T134814Z">
@@ -24503,6 +24687,22 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To view a list of packages for a given keyword, type &lt;t3&gt;RET&lt;/t3&gt; on that line; this displays the list of packages in a Package Menu buffer (see &lt;a4&gt;Package Menu&lt;/a4&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073458Z" creationid="grass" creationdate="20201227T073458Z">
+        <seg>要查看给定关键字的包列表，请在该行键入&lt;t3&gt;RET&lt;/t3&gt;；这将显示包菜单缓冲区中的包列表(请参见&lt;a4&gt;包菜单&lt;/a4&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To view all documentation about any symbol in the text, move point to the symbol and type &lt;k0&gt;C-c C-c&lt;/k0&gt; (&lt;c1&gt;help-follow-symbol&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073235Z" creationid="grass" creationdate="20201227T073235Z">
+        <seg>要查看有关文本中任何符号的所有文档，请将游标移动到该符号，然后键入&lt;k0&gt;C-c C-c&lt;/k0&gt;(&lt;c1&gt;help-follow-symbol&lt;/c1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To view the associated documentation, move point there and type &lt;t2&gt;RET&lt;/t2&gt; (&lt;c3&gt;help-follow&lt;/c3&gt;), or click on the hyperlink with &lt;k4&gt;mouse-1&lt;/k4&gt; or &lt;k5&gt;mouse-2&lt;/k5&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073035Z" creationid="grass" creationdate="20201227T073006Z">
@@ -24643,6 +24843,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201015T143221Z" creationid="Eli" creationdate="20201015T143221Z">
         <seg>变量&lt;c0&gt;org-agenda-window-setup&lt;/c0&gt;控制agenda buffer的显示方式，变量&lt;c1&gt;org-agenda-restore-windows-after-quit&lt;/c1&gt;决定在退出agenda后是否恢复之前的窗口配置状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Type &lt;k1&gt;C-h p&lt;/k1&gt; (&lt;c2&gt;finder-by-keyword&lt;/c2&gt;) to bring up a list of package keywords, together with a description of what the keywords mean.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073445Z" creationid="grass" creationdate="20201227T073445Z">
+        <seg>键入&lt;k1&gt;C-h p&lt;/k1&gt;(&lt;c2&gt;finder-by-keyword&lt;/c2&gt;)调出包关键字列表，并说明关键字的含义。</seg>
       </tuv>
     </tu>
     <tu>
