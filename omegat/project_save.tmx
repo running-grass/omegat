@@ -430,6 +430,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(There are a few prefix keys for which not all of these keys work—those that provide their own bindings for that key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T074045Z" creationid="grass" creationdate="20201227T074045Z">
+        <seg>(有几个前缀键并不是所有这些键都有效-那些为该键提供自己的绑定的前缀键。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(These include, for example, links in &lt;s1&gt;*Help*&lt;/s1&gt; buffers.) See &lt;a2&gt;Help Echo&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064655Z" creationid="grass" creationdate="20201227T064655Z">
@@ -11442,6 +11450,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, &lt;k8&gt;&lt;s9&gt;ESC&lt;/s9&gt; &lt;s10&gt;F1&lt;/s10&gt;&lt;/k8&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T074339Z" creationid="grass" creationdate="20201227T074339Z">
+        <seg>但是，&lt;k8&gt;&lt;s9&gt;Esc&lt;/s9&gt;&lt;s10&gt;F1&lt;/s10&gt;&lt;/k8&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, any scheduling information without a repeater is no longer relevant once the task is done, and thus, removed upon repeating the task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055808Z" creationid="grass" creationdate="20201016T055808Z">
@@ -17730,6 +17746,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075625Z" creationid="grass" creationdate="20201015T075625Z">
         <seg>GTD最重要的一个方面是收件箱。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One of these prefix keys is &lt;t4&gt;ESC&lt;/t4&gt;, because &lt;k5&gt;&lt;s6&gt;ESC&lt;/s6&gt; C-h&lt;/k5&gt; is actually &lt;k7&gt;C-M-h&lt;/k7&gt;, which marks a defun.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T074256Z" creationid="grass" creationdate="20201227T074256Z">
+        <seg>这些前缀键之一是&lt;t4&gt;ESC&lt;/t4&gt;，因为&lt;k5&gt;&lt;s6&gt;ESC&lt;/s6&gt;C-h&lt;/k5&gt;实际上是&lt;k7&gt;C-M-h&lt;/k7&gt;，它标记一个函数定义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26756,6 +26780,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151332Z" creationid="grass" creationdate="20201207T151332Z">
         <seg>通过将变量&lt;c8&gt;line-move-visual&lt;/c8&gt;设置为&lt;c9&gt;nil&lt;/c9&gt;，可以强制这些命令根据&lt;e7&gt;逻辑行&lt;/e7&gt;(即根据缓冲区中的文本行)移动；如果一个逻辑行占据多个屏幕行，则光标将跳过附加的屏幕行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can get a list of subcommands for a particular prefix key by typing &lt;k0&gt;C-h&lt;/k0&gt;, &lt;k1&gt;?&lt;/k1&gt;, or &lt;t2&gt;F1&lt;/t2&gt; (&lt;c3&gt;describe-prefix-bindings&lt;/c3&gt;) after the prefix key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T074035Z" creationid="grass" creationdate="20201227T074035Z">
+        <seg>您可以通过在前缀键之后键入&lt;k0&gt;C-h&lt;/k0&gt;、&lt;k1&gt;？&lt;/k1&gt;或&lt;t2&gt;F1&lt;/t2&gt;(&lt;c3&gt;describe-prefix-bindings&lt;/c3&gt;)来获取特定前缀键的子命令列表。</seg>
       </tuv>
     </tu>
     <tu>
