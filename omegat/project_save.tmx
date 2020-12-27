@@ -1171,6 +1171,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>10.4</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071646Z" creationid="grass" creationdate="20201227T071646Z">
+        <seg>10.4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>11</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061227Z" creationid="grass" creationdate="20201015T061227Z">
@@ -3989,8 +3997,8 @@ management software, start by calling the command ~ebdb-open~.</seg>
       <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-h o&lt;/k0&gt; (&lt;c1&gt;describe-symbol&lt;/c1&gt;) is like &lt;k2&gt;C-h f&lt;/k2&gt; and &lt;k3&gt;C-h v&lt;/k3&gt;, but it describes any symbol, be it a function, a variable, or a face.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071624Z" creationid="grass" creationdate="20201227T071624Z">
-        <seg>&lt;k0&gt;C-h o&lt;/k0&gt;(&lt;c1&gt;describe-symbol&lt;/c1&gt;)类似于&lt;k2&gt;C-h f&lt;/k2&gt;和&lt;k3&gt;C-h v&lt;/k3&gt;，但它描述任何符号，可以是函数、变量或面。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071631Z" creationid="grass" creationdate="20201227T071624Z">
+        <seg>&lt;k0&gt;C-h o&lt;/k0&gt;(&lt;c1&gt;describe-symbol&lt;/c1&gt;)类似于&lt;k2&gt;C-h f&lt;/k2&gt;和&lt;k3&gt;C-h v&lt;/k3&gt;，但它描述任何符号，可以是函数、变量或字符样式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5526,6 +5534,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Anything containing that word matches the pattern.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071847Z" creationid="grass" creationdate="20201227T071847Z">
+        <seg>任何包含这个词的东西都符合这个模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Apart from &lt;k3&gt;C-h k&lt;/k3&gt;, there are many other help commands providing different kinds of help.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013508Z" creationid="grass" creationdate="20201208T013508Z">
@@ -6054,6 +6070,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Both interactive functions (commands) and noninteractive functions can be found by this.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071740Z" creationid="grass" creationdate="20201227T071740Z">
+        <seg>由此可以找到交互功能(命令)和非交互功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Breaking Down Tasks into Subtasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200511Z" creationid="grass" creationdate="20201010T200511Z">
@@ -6438,6 +6462,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-h a</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071727Z" creationid="grass" creationdate="20201227T071727Z">
+        <seg>C-h a</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-h a &lt;v0&gt;topics&lt;/v0&gt; &lt;s1&gt;RET&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101501Z" creationid="grass" creationdate="20201223T101501Z">
@@ -6458,6 +6490,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201226T152650Z" creationid="grass" creationdate="20201226T152650Z">
         <seg>C-h c &lt;v0&gt;key&lt;/v0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-h d</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071828Z" creationid="grass" creationdate="20201227T071828Z">
+        <seg>C-h d</seg>
       </tuv>
     </tu>
     <tu>
@@ -8354,6 +8394,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each command name comes with a brief description and a list of keys you can currently invoke it with.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071905Z" creationid="grass" creationdate="20201227T071905Z">
+        <seg>每个命令名都有一个简短的描述和当前可以用来调用它的键的列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each element in the list should be a string; any file name ending in such a string is ignored as a completion alternative.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111539Z" creationid="grass" creationdate="20201212T111539Z">
@@ -8406,6 +8454,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032623Z" creationid="grass" creationdate="20201203T032623Z">
         <seg>每个菜单项也由字母或数字(通常是项目名称中某个单词的首字母)指定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each of the following apropos commands reads an apropos pattern in the minibuffer, searches for items that match the pattern, and displays the results in a different window.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071726Z" creationid="grass" creationdate="20201227T071726Z">
+        <seg>下面的每个主题搜索命令都读取微型缓冲区中的一个主题模式，搜索与该模式匹配的项目，并在不同的窗口中显示结果。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10066,6 +10122,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For more information about a function definition, variable or symbol property listed in an apropos buffer, you can click on it with &lt;k0&gt;mouse-1&lt;/k0&gt; or &lt;k1&gt;mouse-2&lt;/k1&gt;, or move there and type &lt;t2&gt;RET&lt;/t2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072031Z" creationid="grass" creationdate="20201227T072031Z">
+        <seg>有关主题搜索缓冲区中列出的函数定义、变量或符号属性的更多信息，您可以使用&lt;k0&gt;鼠标左键&lt;/k0&gt;或&lt;k1&gt;鼠标右键&lt;/k1&gt;单击它，或者移动到那里并键入&lt;t2&gt;RET&lt;/t2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For other ways in which you can help, see &lt;a2&gt;https://www.gnu.org/help/help.html&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T084821Z" creationid="grass" creationdate="20201130T082645Z">
@@ -11698,6 +11762,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the symbol has more than one definition, like it has both definition as a function and as a variable, this command will show the documentation of all of them, one after the other.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071639Z" creationid="grass" creationdate="20201227T071639Z">
+        <seg>如果符号有多个定义，比如它同时定义为函数和变量，则此命令将一个接一个地显示所有定义的文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the tag is only relevant to the file you are working on, then you can instead set the ‘&lt;s0&gt;TAGS&lt;/s0&gt;’ keyword as:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024716Z" creationid="grass" creationdate="20201019T024322Z">
@@ -12574,6 +12646,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T082522Z" creationid="grass" creationdate="20201130T082522Z">
         <seg>换句话说，当您获得程序时，程序必须对您免费，而不仅仅是制造商免费。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In our example, it would say that you can invoke &lt;c5&gt;find-file&lt;/c5&gt; by typing &lt;k6&gt;C-x C-f&lt;/k6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071912Z" creationid="grass" creationdate="20201227T071912Z">
+        <seg>在我们的示例中，可以通过键入&lt;k6&gt;C-x C-f&lt;/k6&gt;来调用&lt;c5&gt;find-file&lt;/c5&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13882,6 +13962,54 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100241Z" creationid="grass" creationdate="20201223T100241Z">
         <seg>M-x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-x apropos</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071736Z" creationid="grass" creationdate="20201227T071736Z">
+        <seg>M-x apropos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-x apropos-local-value</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071821Z" creationid="grass" creationdate="20201227T071821Z">
+        <seg>M-x apropos-local-value</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-x apropos-local-variable</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071752Z" creationid="grass" creationdate="20201227T071752Z">
+        <seg>M-x apropos-local-variable</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-x apropos-user-option</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071742Z" creationid="grass" creationdate="20201227T071742Z">
+        <seg>M-x apropos-user-option</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-x apropos-value</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071813Z" creationid="grass" creationdate="20201227T071813Z">
+        <seg>M-x apropos-value</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-x apropos-variable</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071747Z" creationid="grass" creationdate="20201227T071747Z">
+        <seg>M-x apropos-variable</seg>
       </tuv>
     </tu>
     <tu>
@@ -19250,6 +19378,70 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Search for buffer-local variables whose values match the specified pattern.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071826Z" creationid="grass" creationdate="20201227T071826Z">
+        <seg>搜索值与指定模式匹配的缓冲区局部变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Search for buffer-local variables.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071812Z" creationid="grass" creationdate="20201227T071812Z">
+        <seg>搜索缓冲区局部变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Search for commands (&lt;c0&gt;apropos-command&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071732Z" creationid="grass" creationdate="20201227T071732Z">
+        <seg>搜索命令(&lt;c0&gt;apropos-command&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Search for functions and variables whose documentation strings match the specified pattern (&lt;c0&gt;apropos-documentation&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071836Z" creationid="grass" creationdate="20201227T071836Z">
+        <seg>搜索文档字符串与指定模式匹配的函数和变量(&lt;c0&gt;apropos-documentation&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Search for functions and variables.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071738Z" creationid="grass" creationdate="20201227T071738Z">
+        <seg>搜索函数和变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Search for user-customizable variables.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071743Z" creationid="grass" creationdate="20201227T071743Z">
+        <seg>搜索用户可自定义的变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Search for variables whose values match the specified pattern.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071816Z" creationid="grass" creationdate="20201227T071816Z">
+        <seg>搜索值与指定模式匹配的变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Search for variables.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071749Z" creationid="grass" creationdate="20201227T071749Z">
+        <seg>搜索变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Search view</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201840Z" creationid="grass" creationdate="20201010T201840Z">
@@ -21341,6 +21533,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;e0&gt;apropos&lt;/e0&gt; commands answer questions like, “What are the commands for working with files?” More precisely, you specify an &lt;e1&gt;apropos pattern&lt;/e1&gt;, which means either a word, a list of words, or a regular expression.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071713Z" creationid="grass" creationdate="20201227T071713Z">
+        <seg>&lt;e0&gt;主题搜索&lt;/e0&gt;命令回答类似于“处理文件的命令是什么？”。更准确地说，您指定了一个&lt;e1&gt;主题的模式&lt;/e1&gt;，它表示一个单词、一个单词列表或一个正则表达式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;e0&gt;minibuffer&lt;/e0&gt; is where Emacs commands read complicated arguments, such as file names, buffer names, Emacs command names, or Lisp expressions.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T093940Z" creationid="grass" creationdate="20201212T093940Z">
@@ -22461,6 +22661,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The simplest kind of apropos pattern is one word.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071845Z" creationid="grass" creationdate="20201227T071845Z">
+        <seg>最简单的一种主题搜索的句型就是一个词。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The simplest way to enter a minibuffer argument is to type the text, then &lt;t0&gt;RET&lt;/t0&gt; to submit the argument and exit the minibuffer.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094642Z" creationid="grass" creationdate="20201212T094642Z">
@@ -23167,6 +23375,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This displays a list of all command names that contain ‘&lt;s2&gt;file&lt;/s2&gt;’, including &lt;c3&gt;copy-file&lt;/c3&gt;, &lt;c4&gt;find-file&lt;/c4&gt;, and so on.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071902Z" creationid="grass" creationdate="20201227T071902Z">
+        <seg>这将显示包含“&lt;s2&gt;file&lt;/s2&gt;”的所有命令名列表，包括&lt;c3&gt;copy-file&lt;/c3&gt;、&lt;c4&gt;find-file&lt;/c4&gt;等等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This displays the Emacs FAQ, using Info.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101956Z" creationid="grass" creationdate="20201223T101956Z">
@@ -23579,6 +23795,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T120745Z" creationid="grass" creationdate="20201130T120745Z">
         <seg>因此，光标仍然停留在“&lt;s11&gt;b&lt;/s11&gt;”上，如前所述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thus, to find commands that work on files, type &lt;k0&gt;C-h a file &lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071856Z" creationid="grass" creationdate="20201227T071856Z">
+        <seg>因此，要查找处理文件的命令，请键入&lt;k0&gt;C-h a file&lt;s1&gt;RET&lt;/s1&gt;&lt;/k0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25412,6 +25636,38 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T132851Z" creationid="Eli" creationdate="20201016T132851Z">
         <seg>通过输入前缀参数，可以将所选文件添加/移动到列表尾部。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With a prefix argument, search also for functions with definitions matching the pattern, and Lisp symbols with properties matching the pattern.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071819Z" creationid="grass" creationdate="20201227T071819Z">
+        <seg>使用前缀参数，还可以搜索定义与模式匹配的函数，以及属性与模式匹配的Lisp符号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With a prefix argument, search for customizable variables only.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071751Z" creationid="grass" creationdate="20201227T071751Z">
+        <seg>使用前缀参数时，仅搜索可自定义变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With a prefix argument, search for non-customizable variables too.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071745Z" creationid="grass" creationdate="20201227T071745Z">
+        <seg>使用前缀参数，还可以搜索不可自定义的变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With a prefix argument, search for noninteractive functions too.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071734Z" creationid="grass" creationdate="20201227T071734Z">
+        <seg>使用前缀参数，也可以搜索非交互函数。</seg>
       </tuv>
     </tu>
     <tu>
