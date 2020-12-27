@@ -90,21 +90,16 @@ GNU Emacs的主页位于<a href="https://www.gnu.org/software/emacs/">https://ww
 <td>输入提示的参数。
 </td></tr>
 <tr><td bgcolor="white"><a href="#M_002dx">M-x</a></td>
-<td>Invoking commands by their names.
-
+<td>按名称调用命令。
 </td></tr>
 <tr><td bgcolor="white"><a href="#Help">帮助</a></td>
-<td>Commands for asking Emacs about its commands.
-
+<td>用于向Emacs询问关于命令的信息。
 </td></tr>
 <tr><th colspan="2" align="left" style="text-align:left">
-
-Important Text-Changing Commands
-
+重要的文本更改命令
 </th></tr>
-<tr><td bgcolor="white"><a href="#Mark">Mark</a></td>
-<td>The mark: how to delimit a region of text.
-
+<tr><td bgcolor="white"><a href="#Mark">标记</a></td>
+<td>标记：如何界定文本区域。
 </td></tr>
 <tr><td bgcolor="white"><a href="#Killing">Killing</a></td>
 <td>Killing (cutting) and yanking (copying) text.
@@ -486,45 +481,35 @@ The Organization of the Screen
 帮助
 
 </th></tr>
-<tr><td bgcolor="white"><a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Help-Summary">Help Summary</a></td>
-<td>Brief list of all Help commands.
-
+<tr><td bgcolor="white"><a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Help-Summary">帮助概述</a></td>
+<td>所有帮助命令的简短列表。
 </td></tr>
-<tr><td bgcolor="white"><a href="#Key-Help">Key Help</a></td>
-<td>Asking what a key does in Emacs.
-
+<tr><td bgcolor="white"><a href="#Key-Help">帮助快捷键</a></td>
+<td>询问指定快捷键在Emacs中的作用。
 </td></tr>
-<tr><td bgcolor="white"><a href="#Name-Help">Name Help</a></td>
-<td>Asking about a command, variable or function name.
-
+<tr><td bgcolor="white"><a href="#Name-Help">命令名称帮助</a></td>
+<td>询问命令、变量或函数名的作用。
 </td></tr>
-<tr><td bgcolor="white"><a href="#Apropos">Apropos</a></td>
-<td>Asking what pertains to a given topic.
-
+<tr><td bgcolor="white"><a href="#Apropos">主题搜索</a></td>
+<td>询问与给定主题有关的内容。
 </td></tr>
-<tr><td bgcolor="white"><a href="#Help-Mode">Help Mode</a></td>
-<td>Special features of Help mode and Help buffers.
-
+<tr><td bgcolor="white"><a href="#Help-Mode">帮助模式</a></td>
+<td>帮助模式和帮助缓冲区的特殊功能。
 </td></tr>
-<tr><td bgcolor="white"><a href="#Package-Keywords">Package Keywords</a></td>
-<td>Finding Lisp libraries by keywords (topics).
-
+<tr><td bgcolor="white"><a href="#Package-Keywords">包关键字</a></td>
+<td>通过关键字(主题)查找Lisp库。
 </td></tr>
-<tr><td bgcolor="white"><a href="#Language-Help">Language Help</a></td>
-<td>Help relating to international language support.
-
+<tr><td bgcolor="white"><a href="#Language-Help">语言帮助</a></td>
+<td>与国际语言支持相关的帮助。
 </td></tr>
-<tr><td bgcolor="white"><a href="#Misc-Help">Misc Help</a></td>
-<td>Other help commands.
-
+<tr><td bgcolor="white"><a href="#Misc-Help">其他帮助</a></td>
+<td>其他帮助命令。
 </td></tr>
-<tr><td bgcolor="white"><a href="#Help-Files">Help Files</a></td>
-<td>Commands to display auxiliary help files.
-
+<tr><td bgcolor="white"><a href="#Help-Files">帮助文件</a></td>
+<td>用于显示辅助帮助文件的命令。
 </td></tr>
-<tr><td bgcolor="white"><a href="#Help-Echo">Help Echo</a></td>
-<td>Help on active text and tooltips.
-
+<tr><td bgcolor="white"><a href="#Help-Echo">帮助信息回显</a></td>
+<td>有关交互文本和工具提示的帮助。
 </td></tr>
 <tr><th colspan="2" align="left" style="text-align:left">
 
@@ -4923,8 +4908,8 @@ Next: <a href="#Completion-Exit" accesskey="n" rel="next">Completion Exit</a>, P
 <a name="index-choose_002dcompletion"></a>
 </dd>
 <dt><kbd><span class="key">RET</span></kbd></dt>
-<dt><kbd>mouse-1</kbd></dt>
-<dt><kbd>mouse-2</kbd></dt>
+<dt><kbd>鼠标左键</kbd></dt>
+<dt><kbd>鼠标右键</kbd></dt>
 <dd><p>在补全列表缓冲区中时，这将在游标处选择补全(<code>choose-completion</code>)。
 </p>
 <a name="index-next_002dcompletion"></a>
@@ -5296,99 +5281,58 @@ Next: <a href="#Mark" accesskey="n" rel="next">Mark</a>, Previous: <a href="#M_0
 
 <a name="index-C_002dh-C_002dh"></a>
 <a name="index-help_002dfor_002dhelp"></a>
-<p>Emacs provides a wide variety of help commands, all accessible
-through the prefix key <kbd>C-h</kbd> (or, equivalently, the function key
-<tt class="key">F1</tt>).  These help commands are described in the following
-sections.  You can also type <kbd>C-h C-h</kbd> to view a list of help
-commands (<code>help-for-help</code>).  You can scroll the list with
-<tt class="key">SPC</tt> and <tt class="key">DEL</tt>, then type the help command you want.  To
-cancel, type <kbd>C-g</kbd>.
-
+<p>Emacs提供了各种各样的帮助命令，都可以通过前缀键<kbd>C-h</kbd>(或等效的功能键<tt class="key">F1</tt>)访问。以下各节将介绍这些帮助命令。您还可以键入<kbd>C-h C-h</kbd>以查看帮助命令列表(<code>help-for-help</code>)。您可以使用<tt class="key">SPC</tt>和<tt class="key">DEL</tt>滚动列表，然后键入所需的帮助命令。若要取消，请键入<kbd>C-g</kbd>。
 </p>
-<p>Many help commands display their information in a special <em>help
-buffer</em>.  In this buffer, you can type <tt class="key">SPC</tt> and <tt class="key">DEL</tt> to
-scroll and type <tt class="key">RET</tt> to follow hyperlinks.  See <a href="#Help-Mode">Help Mode</a>.
-
+<p>许多帮助命令在特殊的<em>帮助缓冲区</em>中显示其信息。在此缓冲区中，您可以键入<tt class="key">SPC</tt>和<tt class="key">DEL</tt>滚动，键入<tt class="key">RET</tt>跟踪超链接。请参阅<a href="#Help-Mode">帮助模式</a>。
 </p>
 <a name="index-searching-documentation-efficiently"></a>
 <a name="index-looking-for-a-subject-in-documentation"></a>
-<p>If you are looking for a certain feature, but don’t know what it is
-called or where to look, we recommend three methods.  First, try an
-apropos command, then try searching the manual index, then look in the
-FAQ and the package keywords.
-
+<p>如果您正在寻找某个功能，但不知道它叫什么或在哪里查找，我们推荐三种方法。首先，尝试使用主题命令，然后尝试搜索手动索引，然后查看FAQ和软件包关键字。
 </p>
 <dl compact="compact">
 <dt><kbd>C-h a <var>topics</var> <span class="key">RET</span></kbd></dt>
-<dd><p>This searches for commands whose names match the argument
-<var>topics</var>.  The argument can be a keyword, a list of keywords, or a
-regular expression (see <a href="#Regexps">Regexps</a>).  See <a href="#Apropos">Apropos</a>.
-
+<dd><p>这将搜索名称与参数<var>主题</var>匹配的命令。参数可以是关键字、关键字列表或正则表达式(请参阅<a href="#Regexps">正则表达式</a>)。请参阅<a href="#Apropos">主题</a>。
 </p>
 </dd>
-<dt><kbd>C-h i d m emacs <span class="key">RET</span> i <var>topic</var> <span class="key">RET</span></kbd></dt>
-<dd><p>This searches for <var>topic</var> in the indices of the Emacs Info manual,
-displaying the first match found.  Press <kbd>,</kbd> to see subsequent
-matches.  You can use a regular expression as <var>topic</var>.
-
+<dt><kbd>C-h i d m emacs <span class="key">RET</span> i <var>主题</var> <span class="key">RET</span></kbd></dt>
+<dd><p>这将在Emacs信息手册的索引中搜索<var>主题</var>，并显示找到的第一个匹配项。按<kbd>,</kbd>查看后续匹配。您可以使用一个正则表达式用作<var>主题</var>。
 </p>
 </dd>
-<dt><kbd>C-h i d m emacs <span class="key">RET</span> s <var>topic</var> <span class="key">RET</span></kbd></dt>
-<dd><p>Similar, but searches the <em>text</em> of the manual rather than the
-indices.
-
+<dt><kbd>C-h i d m emacs <span class="key">RET</span> s <var>主题</var> <span class="key">RET</span></kbd></dt>
+<dd><p>类似，但是它搜索手册的<em>文本</em>而不是索引。
 </p>
 </dd>
 <dt><kbd>C-h C-f</kbd></dt>
-<dd><p>This displays the Emacs FAQ, using Info.
-
+<dd><p>这将使用信息显示Emacs常见问题。
 </p>
 </dd>
 <dt><kbd>C-h p</kbd></dt>
-<dd><p>This displays the available Emacs packages based on keywords.
-See <a href="#Package-Keywords">Package Keywords</a>.
-
+<dd><p>这将根据关键字显示可用的Emacs包。请参阅<a href="#Package-Keywords">包关键字</a>。
 </p></dd>
 </dl>
 
-<p><kbd>C-h</kbd> or <tt class="key">F1</tt> mean “help” in various other contexts as
-well.  For instance, you can type them after a prefix key to view a
-list of the keys that can follow the prefix key.  (You can also use
-<kbd>?</kbd> in this context.  A few prefix keys don’t support <kbd>C-h</kbd>
-or <kbd>?</kbd> in this way, because they define other meanings for those
-inputs, but they all support <tt class="key">F1</tt>.)
-
+<p><kbd>C-h</kbd>或<tt class="key">F1</tt>在各种其他上下文中也意味着“帮助”。例如，您可以在前缀键之后键入它们，以查看可以跟随在前缀键之后的键的列表。(您还可以在此上下文中使用<kbd>?</kbd>。有几个前缀键不支持<kbd>C-h</kbd>或<kbd>?</kbd>，因为它们为这些输入定义了其他含义，但它们都支持<tt class="key">F1</tt>。)
 </p>
 <table class="menu" border="0" cellspacing="0">
-<tbody><tr><td align="left" valign="top">• <a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Help-Summary" accesskey="1">Help Summary</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Brief list of all Help commands.
-
+<tbody><tr><td align="left" valign="top">• <a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Help-Summary" accesskey="1">帮助概述</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">所有帮助命令的简短列表。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Key-Help" accesskey="2">Key Help</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Asking what a key does in Emacs.
-
+<tr><td align="left" valign="top">• <a href="#Key-Help" accesskey="2">按键帮助</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">询问指定快捷键在Emacs中的作用。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Name-Help" accesskey="3">Name Help</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Asking about a command, variable or function name.
-
+<tr><td align="left" valign="top">• <a href="#Name-Help" accesskey="3">命令名称帮助</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">询问命令、变量或函数名的作用。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Apropos" accesskey="4">Apropos</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Asking what pertains to a given topic.
-
+<tr><td align="left" valign="top">• <a href="#Apropos" accesskey="4">主题搜索</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">询问与给定主题有关的内容。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Help-Mode" accesskey="5">Help Mode</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Special features of Help mode and Help buffers.
-
+<tr><td align="left" valign="top">• <a href="#Help-Mode" accesskey="5">帮助模式</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">帮助模式和帮助缓冲区的特殊功能。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Package-Keywords" accesskey="6">Package Keywords</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Finding Lisp libraries by keywords (topics).
-
+<tr><td align="left" valign="top">• <a href="#Package-Keywords" accesskey="6">包关键字</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">通过关键字(主题)查找Lisp库。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Language-Help" accesskey="7">Language Help</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Help relating to international language support.
-
+<tr><td align="left" valign="top">• <a href="#Language-Help" accesskey="7">语言帮助</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">与国际语言支持相关的帮助。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Misc-Help" accesskey="8">Misc Help</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Other help commands.
-
+<tr><td align="left" valign="top">• <a href="#Misc-Help" accesskey="8">其他帮助</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">其他帮助命令。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Help-Files" accesskey="9">Help Files</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Commands to display auxiliary help files.
-
+<tr><td align="left" valign="top">• <a href="#Help-Files" accesskey="9">帮助文件</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">用于显示辅助帮助文件的命令。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Help-Echo">Help Echo</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Help on active text and tooltips (“balloon help”).
-
+<tr><td align="left" valign="top">• <a href="#Help-Echo">帮助信息回显</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">有关交互文本和工具提示的帮助(“气泡式帮助”)。
 </td></tr>
 </tbody></table>
 
@@ -5400,162 +5344,94 @@ inputs, but they all support <tt class="key">F1</tt>.)
 Next: <a href="#Key-Help" accesskey="n" rel="next">Key Help</a>, Up: <a href="#Help" accesskey="u" rel="up">Help</a> &nbsp; [<a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents" title="目录" rel="contents">Contents</a>][<a href="#Key-Index" title="主索引" rel="index">Index</a>]</p>
 </div>
 <a name="Help-Summary-1"></a>
-<h3 class="section">10.1Help Summary</h3>
+<h3 class="section">10.1帮助概述</h3>
 
-<p>Here is a summary of help commands for accessing the built-in
-documentation.  Most of these are described in more detail in the
-following sections.
-
+<p>以下是用于访问内置文档的帮助命令摘要。以下各节将更详细地介绍其中的大部分内容。
 </p>
 <dl compact="compact">
 <dt><kbd>C-h a <var>topics</var> <span class="key">RET</span></kbd></dt>
-<dd><p>Display a list of commands whose names match <var>topics</var>
-(<code>apropos-command</code>).  See <a href="#Apropos">Apropos</a>.
-
+<dd><p>显示名称与<var>主题</var>匹配的命令列表(<code>apropos-command</code>)。请参阅<a href="#Apropos">主题</a>。
 </p></dd>
 <dt><kbd>C-h b</kbd></dt>
-<dd><p>Display all active key bindings; minor mode bindings first, then those
-of the major mode, then global bindings (<code>describe-bindings</code>).
-See <a href="#Misc-Help">Misc Help</a>.
-
+<dd><p>显示所有激活的键绑定；首先显示辅模式绑定，然后显示主模式的绑定，然后显示全局绑定(<code>describe-bindings</code>)。请参阅<a href="#Misc-Help">其他帮助</a>。
 </p></dd>
 <dt><kbd>C-h c <var>key</var></kbd></dt>
-<dd><p>Show the name of the command that the key sequence <var>key</var> is bound
-to (<code>describe-key-briefly</code>).  Here <kbd>c</kbd> stands for
-“character”.  For more extensive information on <var>key</var>, use
-<kbd>C-h k</kbd>.  See <a href="#Key-Help">Key Help</a>.
-
+<dd><p>显示键序列<var>快捷键</var>绑定到的命令的名称(<code>describe-key-briefly</code>)。这里<kbd>c</kbd>代表“字符”。有关<var>快捷键</var>的更多信息，请使用<kbd>C-h k</kbd>。请参阅<a href="#Key-Help">快捷键帮助</a>。
 </p></dd>
 <dt><kbd>C-h d <var>topics</var> <span class="key">RET</span></kbd></dt>
-<dd><p>Display the commands and variables whose documentation matches
-<var>topics</var> (<code>apropos-documentation</code>).  See <a href="#Apropos">Apropos</a>.
-
+<dd><p>显示其文档与<var>主题</var>(<code>apropos-documentation</code>)匹配的命令和变量。请参阅<a href="#Apropos">主题</a>。
 </p></dd>
 <dt><kbd>C-h e</kbd></dt>
-<dd><p>Display the <samp>*Messages*</samp> buffer
-(<code>view-echo-area-messages</code>).  See <a href="#Misc-Help">Misc Help</a>.
-
+<dd><p>显示<samp>*Messages*</samp>缓冲区(<code>view-echo-area-messages</code>)。请参阅<a href="#Misc-Help">其他帮助</a>。
 </p></dd>
 <dt><kbd>C-h f <var>function</var> <span class="key">RET</span></kbd></dt>
-<dd><p>Display documentation on the Lisp function named <var>function</var>
-(<code>describe-function</code>).  Since commands are Lisp functions,
-this works for commands too.  See <a href="#Name-Help">Name Help</a>.
-
+<dd><p>显示有关名为<var>function</var>(<code>describe-function</code>)的Lisp函数的文档。因为命令是Lisp函数，所以这也适用于命令。请参阅<a href="#Name-Help">命令名称帮助</a>。
 </p></dd>
 <dt><kbd>C-h h</kbd></dt>
-<dd><p>Display the <samp>HELLO</samp> file, which shows examples of various character
-sets.
-
+<dd><p>显示<samp>HELLO</samp>文件，该文件显示各种字符集的示例。
 </p></dd>
 <dt><kbd>C-h i</kbd></dt>
-<dd><p>Run Info, the GNU documentation browser (<code>info</code>).  The Emacs
-manual is available in Info.  See <a href="#Misc-Help">Misc Help</a>.
-
+<dd><p>运行GNU文档浏览器Info(<code>info</code>)。Emacs手册可以在Info中找到。请参阅<a href="#Misc-Help">其他帮助</a>。
 </p></dd>
 <dt><kbd>C-h k <var>key</var></kbd></dt>
-<dd><p>Display the name and documentation of the command that <var>key</var> runs
-(<code>describe-key</code>).  See <a href="#Key-Help">Key Help</a>.
-
+<dd><p>显示<var>快捷键</var>运行的命令的名称和文档(<code>describe-key</code>)。请参阅<a href="#Key-Help">快捷键帮助</a>。
 </p></dd>
 <dt><kbd>C-h l</kbd></dt>
-<dd><p>Display a description of your last 300 keystrokes
-(<code>view-lossage</code>).  See <a href="#Misc-Help">Misc Help</a>.
-
+<dd><p>显示最近300次按键的说明(<code>view-lossage</code>)。请参阅<a href="#Misc-Help">其他帮助</a>。
 </p></dd>
 <dt><kbd>C-h m</kbd></dt>
-<dd><p>Display documentation of the current major mode and minor modes
-(<code>describe-mode</code>).  See <a href="#Misc-Help">Misc Help</a>.
-
+<dd><p>显示当前主模式和辅模式的文档(<code>describe-mode</code>)。请参阅<a href="#Misc-Help">其他帮助</a>。
 </p></dd>
 <dt><kbd>C-h n</kbd></dt>
-<dd><p>Display news of recent Emacs changes (<code>view-emacs-news</code>).
-See <a href="#Help-Files">Help Files</a>.
-
+<dd><p>显示Emacs最近更改的新闻(<code>view-emacs-news</code>)。请参阅<a href="#Help-Files">帮助文件</a>。
 </p></dd>
 <dt><kbd>C-h o <var>symbol</var></kbd></dt>
-<dd><p>Display documentation of the Lisp symbol named <var>symbol</var>
-(<code>describe-symbol</code>).  This will show the documentation of all
-kinds of symbols: functions, variables, and faces.  See <a href="#Name-Help">Name Help</a>.
-
+<dd><p>显示名为<var>symbol</var>(<code>describe-symbol</code>)的Lisp符号的文档。这将显示各种符号的文档：函数、变量和字符样式。请参阅<a href="#Name-Help">命令名称帮助</a>。
 </p></dd>
 <dt><kbd>C-h p</kbd></dt>
-<dd><p>Find packages by topic keyword (<code>finder-by-keyword</code>).
-See <a href="#Package-Keywords">Package Keywords</a>.  This lists packages using a package menu
-buffer.  See <a href="#Packages">Packages</a>.
-
+<dd><p>按主题关键字查找包(<code>finder-by-keyword</code>)。请参阅<a href="#Package-Keywords">包关键字</a>。这将使用包菜单缓冲区列出包。请参阅<a href="#Packages">包</a>。
 </p></dd>
 <dt><kbd>C-h P <var>package</var> <span class="key">RET</span></kbd></dt>
-<dd><p>Display documentation about the specified package
-(<code>describe-package</code>).  See <a href="#Package-Keywords">Package Keywords</a>.
-
+<dd><p>显示有关指定包的文档(<code>describe-package</code>)。请参阅<a href="#Package-Keywords">包关键字</a>。
 </p></dd>
 <dt><kbd>C-h r</kbd></dt>
-<dd><p>Display the Emacs manual in Info (<code>info-emacs-manual</code>).
-
+<dd><p>在Info中显示Emacs手册(<code>info-emacs-manual</code>)。
 </p></dd>
 <dt><kbd>C-h s</kbd></dt>
-<dd><p>Display the contents of the current <em>syntax table</em>
-(<code>describe-syntax</code>).  See <a href="#Misc-Help">Misc Help</a>.  The syntax table says
-which characters are opening delimiters, which are parts of words, and
-so on.  See <a href="http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Syntax-Tables">Syntax Tables</a> in <cite>The Emacs Lisp
-Reference Manual</cite>, for details.
-
+<dd><p>显示当前<em>语法表</em>(<code>describe-syntax</code>)的内容。请参阅<a href="#Misc-Help">其他帮助</a>。语法表说明哪些字符是开始分隔符，哪些是单词的一部分，等等。有关详细信息，请参阅<cite>Emacs Lisp参考手册</cite>中的<a href="http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Syntax-Tables">语法表</a>。
 </p></dd>
 <dt><kbd>C-h t</kbd></dt>
-<dd><p>Enter the Emacs interactive tutorial (<code>help-with-tutorial</code>).
-
+<dd><p>进入Emacs交互式教程(<code>教程帮助</code>)。
 </p></dd>
 <dt><kbd>C-h v <var>var</var> <span class="key">RET</span></kbd></dt>
-<dd><p>Display the documentation of the Lisp variable <var>var</var>
-(<code>describe-variable</code>).  See <a href="#Name-Help">Name Help</a>.
-
+<dd><p>显示Lisp变量<var>var</var>(<code>describe-variable</code>)的文档。请参阅<a href="#Name-Help">命令名称帮助</a>。
 </p></dd>
 <dt><kbd>C-h w <var>command</var> <span class="key">RET</span></kbd></dt>
-<dd><p>Show which keys run the command named <var>command</var> (<code>where-is</code>).
-See <a href="#Key-Help">Key Help</a>.
-
+<dd><p>显示命令名为<var>command</var>(<code>where-is</code>)的命令绑定了哪些按键。请参阅<a href="#Key-Help">快捷键帮助</a>。
 </p></dd>
 <dt><kbd>C-h C <var>coding</var> <span class="key">RET</span></kbd></dt>
-<dd><p>Describe the coding system <var>coding</var>
-(<code>describe-coding-system</code>).  See <a href="#Coding-Systems">Coding Systems</a>.
-
+<dd><p>描述编码系统<var>编码</var>(<code>describe-coding-system</code>)。请参阅<a href="#Coding-Systems">编码系统</a>。
 </p></dd>
 <dt><kbd>C-h C <span class="key">RET</span></kbd></dt>
-<dd><p>Describe the coding systems currently in use.
-
+<dd><p>描述当前使用的编码系统。
 </p></dd>
 <dt><kbd>C-h F <var>command</var> <span class="key">RET</span></kbd></dt>
-<dd><p>Enter Info and go to the node that documents the Emacs command
-<var>command</var> (<code>Info-goto-emacs-command-node</code>).  See <a href="#Name-Help">Name Help</a>.
-
+<dd><p>打开Info并转到记录Emacs命令<var>命令</var>(<code>Info-goto-emacs-command-node</code>)的节点。请参阅<a href="#Name-Help">命令名称帮助</a>。
 </p></dd>
 <dt><kbd>C-h I <var>method</var> <span class="key">RET</span></kbd></dt>
-<dd><p>Describe the input method <var>method</var> (<code>describe-input-method</code>).
-See <a href="#Select-Input-Method">Select Input Method</a>.
-
+<dd><p>描述输入法<var>方法</var>(<code>describe-input-method</code>)。请参阅<a href="#Select-Input-Method">选择输入法</a>。
 </p></dd>
 <dt><kbd>C-h K <var>key</var></kbd></dt>
-<dd><p>Enter Info and go to the node that documents the key sequence
-<var>key</var> (<code>Info-goto-emacs-key-command-node</code>).  See <a href="#Key-Help">Key Help</a>.
-
+<dd><p>打开Info并转到记录键序列<var>快捷键</var>(<code>Info-goto-emacs-key-command-node</code>)的节点。请参阅<a href="#Key-Help">快捷键帮助</a>。
 </p></dd>
 <dt><kbd>C-h L <var>language-env</var> <span class="key">RET</span></kbd></dt>
-<dd><p>Display information on the character sets, coding systems, and input
-methods used in language environment <var>language-env</var>
-(<code>describe-language-environment</code>).  See <a href="#Language-Environments">Language Environments</a>.
-
+<dd><p>显示有关语言环境<var>language-env</var>(<code>describe-language-environment</code>)中使用的字符集、编码系统和输入法的信息。请参阅<a href="#Language-Environments">语言环境</a>。
 </p></dd>
 <dt><kbd>C-h S <var>symbol</var> <span class="key">RET</span></kbd></dt>
-<dd><p>Display the Info documentation on symbol <var>symbol</var> according to the
-programming language you are editing (<code>info-lookup-symbol</code>).
-See <a href="#Misc-Help">Misc Help</a>.
-
+<dd><p>根据您正在编辑的编程语言(<code>info-lookup-symbol</code>)显示有关符号<var>符号</var>的信息文档。请参阅<a href="#Misc-Help">其他帮助</a>。
 </p></dd>
 <dt><kbd>C-h .</kbd></dt>
-<dd><p>Display the help message for a special text area, if point is in one
-(<code>display-local-help</code>).  (These include, for example, links in
-<samp>*Help*</samp> buffers.)  See <a href="#Help-Echo">Help Echo</a>.
-
+<dd><p>如果游标在一个文本区域(<code>display-local-help</code>)，则显示特殊文本区域的帮助消息。(例如，这些链接包括<samp>*Help*</samp>缓冲区中的链接。)请参阅<a href="#Help-Echo">帮助回显</a>。
 </p></dd>
 </dl>
 
@@ -5567,48 +5443,28 @@ See <a href="#Misc-Help">Misc Help</a>.
 Next: <a href="#Name-Help" accesskey="n" rel="next">Name Help</a>, Previous: <a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#Help-Summary" accesskey="p" rel="prev">Help Summary</a>, Up: <a href="#Help" accesskey="u" rel="up">Help</a> &nbsp; [<a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents" title="目录" rel="contents">Contents</a>][<a href="#Key-Index" title="主索引" rel="index">Index</a>]</p>
 </div>
 <a name="Documentation-for-a-Key"></a>
-<h3 class="section">10.2Documentation for a Key</h3>
+<h3 class="section">10.2快捷键文档</h3>
 
 <a name="index-describe_002dkey_002dbriefly"></a>
 <a name="index-describe_002dkey"></a>
-<p>The help commands to get information about a key sequence are
-<kbd>C-h c</kbd> (<code>describe-key-briefly</code>) and <kbd>C-h k</kbd>
-(<code>describe-key</code>).
-
+<p>用于获取键序列信息的帮助命令是<kbd>C-h c</kbd>(<code>describe-key-briefly</code>)和<kbd>C-h k</kbd>(<code>describe-key</code>)。
 </p>
 <a name="index-C_002dh-c"></a>
-<p><kbd>C-h c <var>key</var></kbd> displays in the echo area the name of the
-command that <var>key</var> is bound to.  For example, <kbd>C-h c C-f</kbd>
-displays ‘<samp>forward-char</samp>’.
-
+<p><kbd>C-h c<var>key</var></kbd>在回显区显示<var>key</var>绑定到的命令的名称。例如，<kbd>C-h c C-f</kbd>显示‘<samp>forward-char</samp>’。
 </p>
 <a name="index-documentation-string"></a>
 <a name="index-C_002dh-k"></a>
-<p><kbd>C-h k <var>key</var></kbd> is similar but gives more information: it
-displays a help buffer containing the command’s <em>documentation
-string</em>, which describes exactly what the command does.
-
+<p><kbd>C-h k<var>key</var></kbd>类似，但提供了更多信息：它显示包含命令的<em>文档字符串</em>的帮助缓冲区，该字符串准确描述了命令的功能。
 </p>
 <a name="index-C_002dh-K"></a>
 <a name="index-Info_002dgoto_002demacs_002dkey_002dcommand_002dnode"></a>
-<p><kbd>C-h K <var>key</var></kbd> displays the section of the Emacs manual that
-describes the command corresponding to <var>key</var>.
-
+<p><kbd>C-h K<var>key</var></kbd>显示Emacs手册中描述与<var>key</var>对应的命令的部分。
 </p>
-<p><kbd>C-h c</kbd>, <kbd>C-h k</kbd> and <kbd>C-h K</kbd> work for any sort of key
-sequences, including function keys, menus, and mouse events (except
-that <kbd>C-h c</kbd> ignores mouse movement events).  For instance, after
-<kbd>C-h k</kbd> you can select a menu item from the menu bar, to view the
-documentation string of the command it runs.
-
+<p><kbd>C-h c</kbd>, <kbd>C-h k</kbd> 和 <kbd>C-h K</kbd> 适用于任何类型的键序列，包括功能键、菜单和鼠标事件(但<kbd>C-h c</kbd>忽略鼠标移动事件除外)。例如，在<kbd>C-h k</kbd>之后，您可以从菜单栏中选择菜单项，以查看其运行的命令的文档字符串。
 </p>
 <a name="index-C_002dh-w"></a>
 <a name="index-where_002dis"></a>
-<p><kbd>C-h w <var>command</var> <span class="key">RET</span></kbd> lists the keys that are bound to
-<var>command</var>.  It displays the list in the echo area.  If it says the
-command is not on any key, that means you must use <kbd>M-x</kbd> to run
-it.  <kbd>C-h w</kbd> runs the command <code>where-is</code>.
-
+<p><kbd>C-h w<var>command</var><span class="key">RET</span></kbd>列出绑定到<var>command</var>的按键。它会在回显区中显示列表。如果它显示该命令不在任何键上，这意味着您必须使用<kbd>M-x</kbd>来运行它。<kbd>C-h w</kbd>运行命令<code>where-is</code>。
 </p>
 
 <a name="Name-Help"></a>
@@ -5618,77 +5474,37 @@ it.  <kbd>C-h w</kbd> runs the command <code>where-is</code>.
 Next: <a href="#Apropos" accesskey="n" rel="next">Apropos</a>, Previous: <a href="#Key-Help" accesskey="p" rel="prev">Key Help</a>, Up: <a href="#Help" accesskey="u" rel="up">Help</a> &nbsp; [<a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents" title="目录" rel="contents">Contents</a>][<a href="#Key-Index" title="主索引" rel="index">Index</a>]</p>
 </div>
 <a name="Help-by-Command-or-Variable-Name"></a>
-<h3 class="section">10.3Help by Command or Variable Name</h3>
+<h3 class="section">10.3按命令或变量名提供帮助</h3>
 
 <a name="index-C_002dh-f"></a>
 <a name="index-describe_002dfunction"></a>
-<p><kbd>C-h f <var>function</var> <span class="key">RET</span></kbd> (<code>describe-function</code>) displays the documentation of Lisp function <var>function</var>, in a window. Since commands are Lisp functions, you can use this method to view the documentation of any command whose name you know. 例如,
+<p><kbd>C-h f<var>函数</var><span class="key">RET</span></kbd>(<code>describe-function</code>)在窗口中显示Lisp函数<var>函数</var>的文档。因为命令是Lisp函数，所以您可以使用此方法查看您知道其名称的任何命令的文档。例如,
 </p>
 <div class="example">
 <pre class="example">C-h f auto-fill-mode <span class="key">RET</span>
 </pre></div>
 
-<p>displays the documentation of <code>auto-fill-mode</code>.  This is the only
-way to get the documentation of a command that is not bound to any key
-(one which you would normally run using <kbd>M-x</kbd>).
-
+<p>显示<code>auto-fill-mode</code>的文档。这是获取未绑定到任何键(通常使用<kbd>M-x</kbd>运行的键)的命令文档的唯一方法。
 </p>
-<p><kbd>C-h f</kbd> is also useful for Lisp functions that you use in a Lisp
-program.  For example, if you have just written the expression
-<code>(make-vector len)</code> and want to check that you are using
-<code>make-vector</code> properly, type <kbd>C-h f make-vector <span class="key">RET</span></kbd>.
-Because <kbd>C-h f</kbd> allows all function names, not just command names,
-you may find that some of your favorite completion abbreviations that
-work in <kbd>M-x</kbd> don’t work in <kbd>C-h f</kbd>.  An abbreviation that is
-unique among command names may not be unique among all function names.
-
+<p><kbd>C-h f</kbd>对于您在Lisp程序中使用的Lisp函数也很有用。例如，如果您刚刚编写了表达式<code>(make-vector len)</code>，并且希望检查您是否正确使用了<code>make-vector</code>，请键入<kbd>C-h f make-vector<span class="key">RET</span></kbd>。由于<kbd>C-h f</kbd>允许所有函数名，而不仅仅是命令名，因此您可能会发现，您喜欢的一些在<kbd>M-x</kbd>中使用的完成缩写在<kbd>C-h f</kbd>中不起作用。在命令名中唯一的缩写在所有函数名中可能不是唯一的。
 </p>
-<p>If you type <kbd>C-h f <span class="key">RET</span></kbd>, it describes the function called
-by the innermost Lisp expression in the buffer around point,
-<em>provided</em> that function name is a valid, defined Lisp function.
-(That name appears as the default while you enter the argument.)  For
-example, if point is located following the text ‘<samp>(make-vector
-(car x)</samp>’, the innermost list containing point is the one that starts
-with ‘<samp>(make-vector</samp>’, so <kbd>C-h f <span class="key">RET</span></kbd> describes the
-function <code>make-vector</code>.
-
+<p>如果键入<kbd>C-h f<span class="key">RET</span></kbd>，它将描述游标周围缓冲区中最内层的Lisp表达式调用的函数，<em>前提是</em>函数名是有效的、已定义的Lisp函数。(当您输入参数时，该名称显示为默认值。)例如，如果游标位于文本‘<samp>(make-vector (car x)</samp>’之后，则包含游标的最内层列表是以‘<samp>(make-vector</samp>’开始的那个，因此<kbd>C-h f<span class="key">RET</span></kbd>描述了<code>make-vector</code>函数。
 </p>
-<p><kbd>C-h f</kbd> is also useful just to verify that you spelled a
-function name correctly.  If the minibuffer prompt for <kbd>C-h f</kbd>
-shows the function name from the buffer as the default, it means that
-name is defined as a Lisp function.  Type <kbd>C-g</kbd> to cancel the
-<kbd>C-h f</kbd> command if you don’t really want to view the
-documentation.
-
+<p><kbd>C-h f</kbd>也可用于验证函数名是否拼写正确。如果<kbd>C-h f</kbd>的迷你缓冲区提示将缓冲区中的函数名显示为默认值，则意味着该名称被定义为Lisp函数。如果您确实不想查看文档，请键入<kbd>C-g</kbd>取消<kbd>C-h f</kbd>命令。
 </p>
 <a name="index-C_002dh-v"></a>
 <a name="index-describe_002dvariable"></a>
-<p><kbd>C-h v</kbd> (<code>describe-variable</code>) is like <kbd>C-h f</kbd> but
-describes Lisp variables instead of Lisp functions.  Its default is
-the Lisp symbol around or before point, if that is the name of a
-defined Lisp variable.  See <a href="#Variables">Variables</a>.
-
+<p><kbd>C-h v</kbd>(<code>describe-variable</code>)类似于<kbd>C-h f</kbd>，但描述的是Lisp变量，而不是Lisp函数。如果它是已定义的Lisp变量的名称，则它的默认值是点前后的Lisp符号。请参阅<a href="#Variables">变量</a>。
 </p>
-<p>Help buffers that describe Emacs variables and functions normally
-have hyperlinks to the corresponding source code, if you have the
-source files installed (see <a href="#Hyperlinking">Hyperlinking</a>).
-
+<p>如果您安装了源文件，则描述Emacs变量和函数的帮助缓冲区通常具有指向相应源代码的超链接(请参阅<a href="#Hyperlinking">超链接</a>)。
 </p>
 <a name="index-C_002dh-F"></a>
 <a name="index-Info_002dgoto_002demacs_002dcommand_002dnode"></a>
-<p>To find a command’s documentation in a manual, use <kbd>C-h F</kbd>
-(<code>Info-goto-emacs-command-node</code>).  This knows about various
-manuals, not just the Emacs manual, and finds the right one.
-
+<p>要在手册中查找命令文档，请使用<kbd>C-h F</kbd>(<code>Info-goto-emacs-command-node</code>)。它了解各种手册，而不仅仅是Emacs手册，并且找到了正确的手册。
 </p>
 <a name="index-C_002dh-o"></a>
 <a name="index-describe_002dsymbol"></a>
-<p><kbd>C-h o</kbd> (<code>describe-symbol</code>) is like <kbd>C-h f</kbd> and
-<kbd>C-h v</kbd>, but it describes any symbol, be it a function, a
-variable, or a face.  If the symbol has more than one definition, like
-it has both definition as a function and as a variable, this command
-will show the documentation of all of them, one after the other.
-
+<p><kbd>C-h o</kbd>(<code>describe-symbol</code>)类似于<kbd>C-h f</kbd>和<kbd>C-h v</kbd>，但它描述任何符号，可以是函数、变量或字符样式。如果符号有多个定义，比如它同时定义为函数和变量，则此命令将一个接一个地显示所有定义的文档。
 </p>
 
 <a name="Apropos"></a>
@@ -5698,114 +5514,66 @@ will show the documentation of all of them, one after the other.
 Next: <a href="#Help-Mode" accesskey="n" rel="next">Help Mode</a>, Previous: <a href="#Name-Help" accesskey="p" rel="prev">Name Help</a>, Up: <a href="#Help" accesskey="u" rel="up">Help</a> &nbsp; [<a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents" title="目录" rel="contents">Contents</a>][<a href="#Key-Index" title="主索引" rel="index">Index</a>]</p>
 </div>
 <a name="Apropos-1"></a>
-<h3 class="section">10.4 Apropos</h3>
+<h3 class="section">10.4主题搜索</h3>
 <a name="index-apropos"></a>
 
-<p>The <em>apropos</em> commands answer questions like, “What are the
-commands for working with files?”  More precisely, you specify an
-<em>apropos pattern</em>, which means either a word, a list of words, or
-a regular expression.
-
+<p><em>主题搜索</em>命令回答类似于“处理文件的命令是什么？”。更准确地说，您指定了一个<em>主题的模式</em>，它表示一个单词、一个单词列表或一个正则表达式。
 </p>
-<p>Each of the following apropos commands reads an apropos pattern in
-the minibuffer, searches for items that match the pattern, and
-displays the results in a different window.
-
+<p>下面的每个主题搜索命令都读取微型缓冲区中的一个主题模式，搜索与该模式匹配的项目，并在不同的窗口中显示结果。
 </p>
 <dl compact="compact">
 <dt><kbd>C-h a</kbd></dt>
 <dd><a name="index-C_002dh-a"></a>
 <a name="index-apropos_002dcommand"></a>
-<p>Search for commands (<code>apropos-command</code>).  With a prefix argument,
-search for noninteractive functions too.
-
+<p>搜索命令(<code>apropos-command</code>)。使用前缀参数，也可以搜索非交互函数。
 </p>
 </dd>
 <dt><kbd>M-x apropos</kbd></dt>
 <dd><a name="index-apropos-1"></a>
-<p>Search for functions and variables.  Both interactive functions
-(commands) and noninteractive functions can be found by this.
-
+<p>搜索函数和变量。由此可以找到交互功能(命令)和非交互功能。
 </p>
 </dd>
 <dt><kbd>M-x apropos-user-option</kbd></dt>
 <dd><a name="index-apropos_002duser_002doption"></a>
-<p>Search for user-customizable variables.  With a prefix argument,
-search for non-customizable variables too.
-
+<p>搜索用户可自定义的变量。使用前缀参数，还可以搜索不可自定义的变量。
 </p>
 </dd>
 <dt><kbd>M-x apropos-variable</kbd></dt>
 <dd><a name="index-apropos_002dvariable"></a>
-<p>Search for variables.  With a prefix argument, search for
-customizable variables only.
-
+<p>搜索变量。使用前缀参数时，仅搜索可自定义变量。
 </p>
 </dd>
 <dt><kbd>M-x apropos-local-variable</kbd></dt>
 <dd><a name="index-apropos_002dlocal_002dvariable"></a>
-<p>Search for buffer-local variables.
-
+<p>搜索缓冲区局部变量。
 </p>
 </dd>
 <dt><kbd>M-x apropos-value</kbd></dt>
 <dd><a name="index-apropos_002dvalue"></a>
-<p>Search for variables whose values match the specified pattern.  With a
-prefix argument, search also for functions with definitions matching
-the pattern, and Lisp symbols with properties matching the pattern.
-
+<p>搜索值与指定模式匹配的变量。使用前缀参数，还可以搜索定义与模式匹配的函数，以及属性与模式匹配的Lisp符号。
 </p>
 </dd>
 <dt><kbd>M-x apropos-local-value</kbd></dt>
 <dd><a name="index-apropos_002dlocal_002dvalue"></a>
-<p>Search for buffer-local variables whose values match the specified
-pattern.
-
+<p>搜索值与指定模式匹配的缓冲区局部变量。
 </p>
 </dd>
 <dt><kbd>C-h d</kbd></dt>
 <dd><a name="index-C_002dh-d"></a>
 <a name="index-apropos_002ddocumentation"></a>
-<p>Search for functions and variables whose documentation strings match
-the specified pattern (<code>apropos-documentation</code>).
-
+<p>搜索文档字符串与指定模式匹配的函数和变量(<code>apropos-documentation</code>)。
 </p></dd>
 </dl>
 
-<p>The simplest kind of apropos pattern is one word.  Anything
-containing that word matches the pattern.  Thus, to find commands that
-work on files, type <kbd>C-h a file <span class="key">RET</span></kbd>.  This displays a list
-of all command names that contain ‘<samp>file</samp>’, including
-<code>copy-file</code>, <code>find-file</code>, and so on.  Each command name
-comes with a brief description and a list of keys you can currently
-invoke it with.  In our example, it would say that you can invoke
-<code>find-file</code> by typing <kbd>C-x C-f</kbd>.
-
+<p>最简单的一种主题搜索的句型就是一个词。任何包含这个词的东西都符合这个模式。因此，要查找处理文件的命令，请键入<kbd>C-h a file<span class="key">RET</span></kbd>。这将显示包含“<samp>file</samp>”的所有命令名列表，包括<code>copy-file</code>、<code>find-file</code>等等。每个命令名都有一个简短的描述和当前可以用来调用它的键的列表。在我们的示例中，可以通过键入<kbd>C-x C-f</kbd>来调用<code>find-file</code>。
 </p>
-<p>For more information about a function definition, variable or symbol
-property listed in an apropos buffer, you can click on it with
-<kbd>mouse-1</kbd> or <kbd>mouse-2</kbd>, or move there and type <tt class="key">RET</tt>.
-
+<p>有关主题搜索缓冲区中列出的函数定义、变量或符号属性的更多信息，您可以使用<kbd>鼠标左键</kbd>或<kbd>鼠标右键</kbd>单击它，或者移动到那里并键入<tt class="key">RET</tt>。
 </p>
-<p>When you specify more than one word in the apropos pattern, a name
-must contain at least two of the words in order to match.  Thus, if
-you are looking for commands to kill a chunk of text before point, you
-could try <kbd>C-h a kill back backward behind before <span class="key">RET</span></kbd>.  The
-real command name <code>kill-backward</code> will match that; if there were
-a command <code>kill-text-before</code>, it would also match, since it
-contains two of the specified words.
-
+<p>当您在主题搜索模式中指定多个单词时，名称必须至少包含两个单词才能匹配。因此，如果您正在寻找在游标之前删除文本块的命令，您可以尝试<kbd>C-h a kill back backward behind before <span class="key">RET</span></kbd>实际的命令名<code>kill-backward</code>将与此匹配；如果有命令<code>kill-text-before</code>，它也会匹配，因为它包含两个指定的单词。
 </p>
-<p>For even greater flexibility, you can specify a regular expression
-(see <a href="#Regexps">Regexps</a>).  An apropos pattern is interpreted as a regular
-expression if it contains any of the regular expression special
-characters, ‘<samp>^$*+?.\[</samp>’.
-
+<p>为了获得更大的灵活性，您可以指定正则表达式(请参见<a href="#Regexps">正则表达式</a>)。如果一个主题模式包含任何正则表达式特殊字符‘<samp>^$*+？.\[</samp>’，则该模式被解释为正则表达式。
 </p>
-<p>Following the conventions for naming Emacs commands, here are some
-words that you’ll find useful in apropos patterns.  By using them in
-<kbd>C-h a</kbd>, you will also get a feel for the naming conventions.
-
+<p>遵循Emacs命令的命名约定，下面是一些在搜索模式中会很有用的单词。通过在<kbd>C-h a</kbd>中使用它们，您还将对命名约定有所了解。
 </p>
 <blockquote>
 <p>char, line, word, sentence, paragraph, region, page, sexp, list, defun,
@@ -5817,25 +5585,12 @@ view, describe, default.
 </p></blockquote>
 
 <a name="index-apropos_002ddo_002dall"></a>
-<p>If the variable <code>apropos-do-all</code> is non-<code>nil</code>, most
-apropos commands behave as if they had been given a prefix argument.
-There is one exception: <code>apropos-variable</code> without a prefix
-argument will always search for all variables, no matter what the
-value of <code>apropos-do-all</code> is.
-
+<p>如果变量<code>apropos-do-all</code>是非<code>nil</code>，则大多数主题搜索命令的行为就像它们被赋予了前缀参数一样。有一个例外：<code>apropos-variable</code>没有前缀参数将始终搜索所有变量，无论<code>apropos-do-all</code>的值是什么。
 </p>
 <a name="index-apropos_002dsort_002dby_002dscores"></a>
 <a name="index-apropos-search-results_002c-order-by-score"></a>
 <a name="index-apropos_002ddocumentation_002dsort_002dby_002dscores"></a>
-<p>By default, all apropos commands except <code>apropos-documentation</code>
-list their results in alphabetical order.  If the variable
-<code>apropos-sort-by-scores</code> is non-<code>nil</code>, these commands
-instead try to guess the relevance of each result, and display the
-most relevant ones first.  The <code>apropos-documentation</code> command
-lists its results in order of relevance by default; to list them in
-alphabetical order, change the variable
-<code>apropos-documentation-sort-by-scores</code> to <code>nil</code>.
-
+<p>默认情况下，除<code>apropos-documentation</code>之外的所有主题搜索命令都按字母顺序列出其结果。如果变量<code>apropos-sort-by-scores</code>是非<code>nil</code>，则这些命令会尝试猜测每个结果的相关性，并首先显示最相关的结果。<code>apropos-documentation</code>命令默认情况下按相关顺序列出其结果；要按字母顺序列出它们，请将变量<code>apropos-documentation-sort-by-scores</code>更改为<code>nil</code>。
 </p>
 
 <a name="Help-Mode"></a>
@@ -5845,45 +5600,34 @@ alphabetical order, change the variable
 Next: <a href="#Package-Keywords" accesskey="n" rel="next">Package Keywords</a>, Previous: <a href="#Apropos" accesskey="p" rel="prev">Apropos</a>, Up: <a href="#Help" accesskey="u" rel="up">Help</a> &nbsp; [<a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents" title="目录" rel="contents">Contents</a>][<a href="#Key-Index" title="主索引" rel="index">Index</a>]</p>
 </div>
 <a name="Help-Mode-Commands"></a>
-<h3 class="section">10.5 Help Mode Commands</h3>
+<h3 class="section">10.5帮助模式命令</h3>
 
-<p>Help buffers provide the same commands as View mode (see <a href="#View-Mode">View Mode</a>); for instance, <tt class="key">SPC</tt> scrolls forward, and <tt class="key">DEL</tt> or
-<kbd>S-<span class="key">SPC</span></kbd> scrolls backward.  A few special commands are also
-provided:
-
+<p>帮助缓冲区提供与查看模式相同的命令(请参阅<a href="#View-Mode">View Mode</a>)；例如，<tt class="key">SPC</tt>向前滚动，<tt class="key">DEL</tt>或<kbd>S-<span class="key">SPC</span></kbd>向后滚动。还提供了一些特殊命令：
 </p>
 <dl compact="compact">
 <dt><kbd><span class="key">RET</span></kbd></dt>
-<dd><p>Follow a cross reference at point (<code>help-follow</code>).
-
+<dd><p>在游标上遵循交叉引用(<code>help-follow</code>)。
 </p></dd>
 <dt><kbd><span class="key">TAB</span></kbd></dt>
-<dd><p>Move point forward to the next hyperlink (<code>forward-button</code>).
-
+<dd><p>将游标移到下一个超链接(<code>forward-button</code>)。
 </p></dd>
 <dt><kbd>S-<span class="key">TAB</span></kbd></dt>
-<dd><p>Move point back to the previous hyperlink (<code>backward-button</code>).
-
+<dd><p>将游标移回上一个超链接(<code>backward-button</code>)。
 </p></dd>
-<dt><kbd>mouse-1</kbd></dt>
-<dt><kbd>mouse-2</kbd></dt>
-<dd><p>Follow a hyperlink that you click on.
-
+<dt><kbd>鼠标左键</kbd></dt>
+<dt><kbd>鼠标右键</kbd></dt>
+<dd><p>点击一个超链接。
 </p></dd>
 <dt><kbd>C-c C-c</kbd></dt>
-<dd><p>Show all documentation about the symbol at point
-(<code>help-follow-symbol</code>).
-
+<dd><p>显示游标处有关符号的所有文档(<code>help-follow-symbol</code>)。
 </p></dd>
 <dt><kbd>C-c C-f</kbd></dt>
 <dt><kbd>r</kbd></dt>
-<dd><p>Go forward to the next help topic (<code>help-go-forward</code>).
-
+<dd><p>跳转到下一个帮助主题(<code>help-go-forward</code>)。
 </p></dd>
 <dt><kbd>C-c C-b</kbd></dt>
 <dt><kbd>l</kbd></dt>
-<dd><p>Go back to the previous help topic (<code>help-go-back</code>).
-
+<dd><p>返回到上一个帮助主题(<code>help-go-back</code>)。
 </p></dd>
 </dl>
 
@@ -5896,43 +5640,21 @@ provided:
 <a name="index-l-_0028Help-mode_0029"></a>
 <a name="index-C_002dc-C_002df-_0028Help-mode_0029"></a>
 <a name="index-r-_0028Help-mode_0029"></a>
-<p>When a function name, variable name, or face name (see <a href="#Faces">Faces</a>)
-appears in the documentation in the help buffer, it is normally an
-underlined <em>hyperlink</em>.  To view the associated documentation,
-move point there and type <tt class="key">RET</tt> (<code>help-follow</code>), or click on
-the hyperlink with <kbd>mouse-1</kbd> or <kbd>mouse-2</kbd>.  Doing so replaces
-the contents of the help buffer; to retrace your steps, type <kbd>C-c
-C-b</kbd> or <kbd>l</kbd> (<code>help-go-back</code>).  While retracing your steps,
-you can go forward by using <kbd>C-c C-f</kbd> or <kbd>r</kbd>
-(<code>help-go-forward</code>).
-
+<p>当函数名、变量名或字符样式名(请参阅<a href="#Faces">字符样式</a>)出现在帮助缓冲区的文档中时，它通常是带下划线的<em>超链接</em>。要查看相关文档，请将游标移至此处并键入<tt class="key">RET</tt>(<code>help-follow</code>)，或使用<kbd>鼠标左键</kbd>或<kbd>鼠标右键</kbd>单击超链接。这样做将替换帮助缓冲区的内容；要回溯您的步骤，请键入<kbd>C-c C-b</kbd>或<kbd>l</kbd>(<code>help-go-back</code>)。回溯步骤时，可以使用<kbd>C-c C-f</kbd>或<kbd>r</kbd>(<code>help-go-forward</code>)继续。
 </p>
 <a name="index-URL_002c-viewing-in-help"></a>
 <a name="index-help_002c-viewing-web-pages"></a>
 <a name="index-viewing-web-pages-in-help"></a>
 <a name="index-web-pages_002c-viewing-in-help"></a>
-<p>A help buffer can also contain hyperlinks to Info manuals, source
-code definitions, and URLs (web pages).  The first two are opened in
-Emacs, and the third using a web browser via the <code>browse-url</code>
-command (see <a href="#Browse_002dURL">Browse-URL</a>).
-
+<p>帮助缓冲区还可以包含指向Info手册、源代码定义和URL(网页)的超链接。前两个是在Emacs中打开的，第三个是通过<code>browse-url</code>命令使用Web浏览器打开的(请参阅<a href="#Browse_002dURL">浏览器链接</a>)。
 </p>
 <a name="index-TAB-_0028Help-mode_0029"></a>
 <a name="index-forward_002dbutton"></a>
 <a name="index-S_002dTAB-_0028Help-mode_0029"></a>
 <a name="index-backward_002dbutton"></a>
-<p>In a help buffer, <tt class="key">TAB</tt> (<code>forward-button</code>) moves point
-forward to the next hyperlink, while <kbd>S-<span class="key">TAB</span></kbd>
-(<code>backward-button</code>) moves point back to the previous hyperlink.
-These commands act cyclically; for instance, typing <tt class="key">TAB</tt> at the
-last hyperlink moves back to the first hyperlink.
-
+<p>在帮助缓冲区中，<tt class="key">TAB</tt>(<code>forward-button</code>)将游标前移到下一个超链接，而<kbd>S-<span class="key">TAB</span></kbd>(<code>backward-button</code>)将游标移回上一个超链接。这些命令循环执行；例如，在最后一个超链接处键入<tt class="key">TAB</tt>会返回到第一个超链接。
 </p>
-<p>To view all documentation about any symbol in the text, move point
-to the symbol and type <kbd>C-c C-c</kbd> (<code>help-follow-symbol</code>).
-This shows the documentation for all the meanings of the symbol—as a
-variable, as a function, and/or as a face.
-
+<p>要查看有关文本中任何符号的所有文档，请将游标移动到该符号，然后键入<kbd>C-c C-c</kbd>(<code>help-follow-symbol</code>)。这显示了符号的所有含义的文档-作为变量、作为函数或作为字符样式。
 </p>
 
 <a name="Package-Keywords"></a>
@@ -5942,34 +5664,18 @@ variable, as a function, and/or as a face.
 Next: <a href="#Language-Help" accesskey="n" rel="next">Language Help</a>, Previous: <a href="#Help-Mode" accesskey="p" rel="prev">Help Mode</a>, Up: <a href="#Help" accesskey="u" rel="up">Help</a> &nbsp; [<a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents" title="目录" rel="contents">Contents</a>][<a href="#Key-Index" title="主索引" rel="index">Index</a>]</p>
 </div>
 <a name="Keyword-Search-for-Packages"></a>
-<h3 class="section">10.6 Keyword Search for Packages</h3>
+<h3 class="section">10.6包的关键字搜索</h3>
 <a name="index-finder"></a>
 
-<p>Most optional features in Emacs are grouped into <em>packages</em>.
-Emacs contains several hundred built-in packages, and more can be
-installed over the network (see <a href="#Packages">Packages</a>).
-
+<p>Emacs中的大多数可选功能都分组到<em>包</em>中。Emacs包含数百个内置软件包，还可以通过网络安装更多(请参阅<a href="#Packages">包</a>)。
 </p>
 <a name="index-C_002dh-p"></a>
 <a name="index-finder_002dby_002dkeyword"></a>
-<p>To make it easier to find packages related to a topic, most packages
-are associated with one or more <em>keywords</em> based on what they do.
-Type <kbd>C-h p</kbd> (<code>finder-by-keyword</code>) to bring up a list of
-package keywords, together with a description of what the keywords
-mean.  To view a list of packages for a given keyword, type <tt class="key">RET</tt>
-on that line; this displays the list of packages in a Package Menu
-buffer (see <a href="#Package-Menu">Package Menu</a>).
-
+<p>为了更容易地查找与主题相关的包，大多数包都根据它们所做的事情与一个或多个<em>关键字</em>相关联。键入<kbd>C-h p</kbd>(<code>finder-by-keyword</code>)调出包关键字列表，并说明关键字的含义。要查看给定关键字的包列表，请在该行键入<tt class="key">RET</tt>；这将显示包菜单缓冲区中的包列表(请参见<a href="#Package-Menu">包菜单</a>)。
 </p>
 <a name="index-describe_002dpackage"></a>
 <a name="index-C_002dh-P"></a>
-<p><kbd>C-h P</kbd> (<code>describe-package</code>) prompts for the name of a
-package (see <a href="#Packages">Packages</a>), and displays a help buffer describing the
-attributes of the package and the features that it implements.  The
-buffer lists the keywords that relate to the package in the form of
-buttons.  Click on a button with <kbd>mouse-1</kbd> or <kbd>mouse-2</kbd> to see
-the list of other packages related to that keyword.
-
+<p><kbd>C-h P</kbd>(<code>describe-package</code>)提示输入包的名称(请参阅<a href="#Packages">包</a>)，并显示描述包的属性及其实现的功能的帮助缓冲区。缓冲区以按钮的形式列出与包相关的关键字。用<kbd>鼠标左键</kbd>或<kbd>鼠标右键</kbd>单击一个按钮，查看与该关键字相关的其他软件包的列表。
 </p>
 
 <a name="Language-Help"></a>
@@ -5979,29 +5685,15 @@ the list of other packages related to that keyword.
 Next: <a href="#Misc-Help" accesskey="n" rel="next">Misc Help</a>, Previous: <a href="#Package-Keywords" accesskey="p" rel="prev">Package Keywords</a>, Up: <a href="#Help" accesskey="u" rel="up">Help</a> &nbsp; [<a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents" title="目录" rel="contents">Contents</a>][<a href="#Key-Index" title="主索引" rel="index">Index</a>]</p>
 </div>
 <a name="Help-for-International-Language-Support"></a>
-<h3 class="section">10.7 Help for International Language Support</h3>
+<h3 class="section">10.7有关国际语言支持的帮助</h3>
 
-<p>For information on a specific language environment (see <a href="#Language-Environments">Language Environments</a>), type <kbd>C-h L</kbd>
-(<code>describe-language-environment</code>).  This displays a help buffer
-describing the languages supported by the language environment, and
-listing the associated character sets, coding systems, and input
-methods, as well as some sample text for that language environment.
-
+<p>有关特定语言环境的信息(请参阅<a href="#Language-Environments">语言环境</a>)，请键入<kbd>C-h L</kbd>(<code>describe-language-environment</code>)。这将显示一个帮助缓冲区，描述语言环境支持的语言，并列出相关的字符集、编码系统和输入法，以及该语言环境的一些示例文本。
 </p>
-<p>The command <kbd>C-h h</kbd> (<code>view-hello-file</code>) displays the file
-<samp>etc/HELLO</samp>, which demonstrates various character sets by showing
-how to say “hello” in many languages.
-
+<p>命令<kbd>C-h h</kbd>(<code>view-hello-file</code>)显示文件<samp>etc/HELLO</samp>，该文件通过显示如何用多种语言说“hello”来演示各种字符集。
 </p>
-<p>The command <kbd>C-h I</kbd> (<code>describe-input-method</code>) describes an
-input method—either a specified input method, or by default the
-input method currently in use.  See <a href="#Input-Methods">Input Methods</a>.
-
+<p>命令<kbd>C-h I</kbd>(<code>describe-input-method</code>)描述一种输入法-指定的输入法，或默认情况下当前使用的输入法。请参阅<a href="#Input-Methods">输入法</a>。
 </p>
-<p>The command <kbd>C-h C</kbd> (<code>describe-coding-system</code>) describes
-coding systems—either a specified coding system, or the ones
-currently in use.  See <a href="#Coding-Systems">Coding Systems</a>.
-
+<p>命令<kbd>C-h C</kbd>(<code>describe-coding-system</code>)描述编码系统-可以是指定的编码系统，也可以是当前使用的编码系统。请参阅<a href="#Coding-Systems">编码系统</a>。
 </p>
 
 <a name="Misc-Help"></a>
@@ -6011,7 +5703,7 @@ currently in use.  See <a href="#Coding-Systems">Coding Systems</a>.
 Next: <a href="#Help-Files" accesskey="n" rel="next">Help Files</a>, Previous: <a href="#Language-Help" accesskey="p" rel="prev">Language Help</a>, Up: <a href="#Help" accesskey="u" rel="up">Help</a> &nbsp; [<a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents" title="目录" rel="contents">Contents</a>][<a href="#Key-Index" title="主索引" rel="index">Index</a>]</p>
 </div>
 <a name="Other-Help-Commands"></a>
-<h3 class="section">10.8 Other Help Commands</h3>
+<h3 class="section">10.8其他帮助命令</h3>
 
 <a name="index-C_002dh-i"></a>
 <a name="index-C_002dh-4-i"></a>
@@ -6019,87 +5711,37 @@ Next: <a href="#Help-Files" accesskey="n" rel="next">Help Files</a>, Previous: <
 <a name="index-info_002dother_002dwindow"></a>
 <a name="index-Info"></a>
 <a name="index-manuals_002c-included"></a>
-<p><kbd>C-h i</kbd> (<code>info</code>) runs the Info program, which browses
-structured documentation files.  <kbd>C-h 4 i</kbd>
-(<code>info-other-window</code>) does the same, but shows the Info buffer in
-another window.  The entire Emacs manual is available within Info,
-along with many other manuals for the GNU system.  Type <kbd>h</kbd> after
-entering Info to run a tutorial on using Info.
-
+<p><kbd>C-h i</kbd>(<code>info</code>)运行Info程序，该程序浏览结构化文档文件。<kbd>C-h 4 i</kbd>(<code>info-other-window</code>)执行相同的操作，但在另一个窗口中显示信息缓冲区。整个Emacs手册以及GNU系统的许多其他手册都可以在Info中找到。输入Info后键入<kbd>h</kbd>以运行有关使用Info的教程。
 </p>
 <a name="index-find-Info-manual-by-its-file-name"></a>
-<p>With a numeric argument <var>n</var>, <kbd>C-h i</kbd> selects the Info buffer
-‘<samp>*info*&lt;<var>n</var>&gt;</samp>’.  This is useful if you want to browse multiple
-Info manuals simultaneously.  If you specify just <kbd>C-u</kbd> as the
-prefix argument, <kbd>C-h i</kbd> prompts for the name of a documentation
-file, so you can browse a file which doesn’t have an entry in the
-top-level Info menu.
-
+<p>使用数字参数<var>n</var>，<kbd>C-h i</kbd>选择Info缓冲区‘<samp>*info*&lt;<var>n</var>&gt;</samp>’。如果您想要同时浏览多个信息手册，这将非常有用。如果仅指定<kbd>C-u</kbd>作为前缀参数，<kbd>C-h i</kbd>会提示输入文档文件的名称，这样您就可以浏览在顶级信息菜单中没有条目的文件。
 </p>
-<p>The help commands <kbd>C-h F <var>function</var> <span class="key">RET</span></kbd> and <kbd>C-h
-K <var>key</var></kbd>, described above, enter Info and go straight to the
-documentation of <var>function</var> or <var>key</var>.
-
+<p>上述帮助命令<kbd>C-h F <var>function</var><span class="key">RET</span></kbd>和<kbd>C-h K <var>key</var></kbd>输入Info并直接转到<var>函数</var>或<var>快捷键</var>的文档。
 </p>
 <a name="index-C_002dh-S"></a>
 <a name="index-info_002dlookup_002dsymbol"></a>
-<p>When editing a program, if you have an Info version of the manual
-for the programming language, you can use <kbd>C-h S</kbd>
-(<code>info-lookup-symbol</code>) to find an entry for a symbol (keyword,
-function or variable) in the proper manual.  The details of how this
-command works depend on the major mode.
-
+<p>编辑程序时，如果您有编程语言手册的Info版本，则可以使用<kbd>C-h S</kbd>(<code>info-lookup-symbol</code>)在适当的手册中查找符号(关键字、函数或变量)的条目。此命令如何工作的详细信息取决于主模式。
 </p>
 <a name="index-C_002dh-l"></a>
 <a name="index-view_002dlossage"></a>
-<p>If something surprising happens, and you are not sure what you typed,
-use <kbd>C-h l</kbd> (<code>view-lossage</code>).  <kbd>C-h l</kbd> displays your last
-300 input keystrokes and the commands they invoked.  If you see
-commands that you are not familiar with, you can use <kbd>C-h k</kbd> or
-<kbd>C-h f</kbd> to find out what they do.
-
+<p>如果发生意外情况，并且您不确定键入的内容，请使用<kbd>C-h l</kbd>(<code>view-lossage</code>)。<kbd>C-h l</kbd>显示您最近300次输入击键及其调用的命令。如果您看到不熟悉的命令，可以使用<kbd>C-h k</kbd>或<kbd>C-h f</kbd>了解它们的作用。
 </p>
 <a name="index-C_002dh-e"></a>
 <a name="index-view_002decho_002darea_002dmessages"></a>
-<p>To review recent echo area messages, use <kbd>C-h e</kbd>
-(<code>view-echo-area-messages</code>).  This displays the buffer
-<samp>*Messages*</samp>, where those messages are kept.
-
+<p>若要查看最近的回显区消息，请使用<kbd>C-h e</kbd>(<code>view-echo-area-messages</code>)。这将显示保存这些消息的缓冲区<samp>*Messages*</samp>。
 </p>
 <a name="index-C_002dh-m"></a>
 <a name="index-describe_002dmode"></a>
-<p>Each Emacs major mode typically redefines a few keys and makes other
-changes in how editing works.  <kbd>C-h m</kbd> (<code>describe-mode</code>)
-displays documentation on the current major mode, which normally
-describes the commands and features that are changed in this mode, and
-also its key bindings.
-
+<p>每个Emacs主模式通常重新定义几个键，并对编辑工作方式进行其他更改。<kbd>C-h m</kbd>(<code>describe-mode</code>)显示有关当前主模式的文档，该文档通常描述在此模式中更改的命令和功能，以及它的键绑定。
 </p>
 <a name="index-C_002dh-b"></a>
 <a name="index-describe_002dbindings"></a>
 <a name="index-C_002dh-s"></a>
 <a name="index-describe_002dsyntax"></a>
-<p><kbd>C-h b</kbd> (<code>describe-bindings</code>) and <kbd>C-h s</kbd>
-(<code>describe-syntax</code>) show other information about the current
-environment within Emacs.  <kbd>C-h b</kbd> displays a list of all the key
-bindings now in effect: first the local bindings of the current minor
-modes, then the local bindings defined by the current major mode, and
-finally the global bindings (see <a href="#Key-Bindings">Key Bindings</a>).  <kbd>C-h s</kbd>
-displays the contents of the syntax table, with explanations of each
-character’s syntax (see <a href="http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Syntax-Tables">Syntax Tables</a> in <cite>The
-Emacs Lisp Reference Manual</cite>).
-
+<p><kbd>C-h b</kbd>(<code>describe-bindings</code>)和<kbd>C-h s</kbd>(<code>describe-syntax</code>)显示有关Emacs中当前环境的其他信息。<kbd>C-h b</kbd>显示当前有效的所有键绑定的列表：首先是当前辅模式的局部绑定，然后是当前主模式定义的局部绑定，最后是全局绑定(请参阅<a href="#Key-Bindings">键绑定</a>)。<kbd>C-h s</kbd>显示语法表的内容，并解释每个字符的语法(请参阅<cite>Emacs Lisp参考手册</cite>中的<a href="http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Syntax-Tables">语法表</a>)。
 </p>
 <a name="index-describe_002dprefix_002dbindings"></a>
-<p>You can get a list of subcommands for a particular prefix key by
-typing <kbd>C-h</kbd>, <kbd>?</kbd>, or <tt class="key">F1</tt>
-(<code>describe-prefix-bindings</code>) after the prefix key.  (There are a
-few prefix keys for which not all of these keys work—those that
-provide their own bindings for that key.  One of these prefix keys
-is <tt class="key">ESC</tt>, because <kbd><span class="key">ESC</span> C-h</kbd> is actually <kbd>C-M-h</kbd>,
-which marks a defun.  However, <kbd><span class="key">ESC</span>&nbsp;<span class="key">F1</span></kbd><!-- /@w -->  and
-<kbd><span class="key">ESC</span>&nbsp;?</kbd><!-- /@w -->  work fine.)
-
+<p>您可以通过在前缀键之后键入<kbd>C-h</kbd>、<kbd>？</kbd>或<tt class="key">F1</tt>(<code>describe-prefix-bindings</code>)来获取特定前缀键的子命令列表。(有几个前缀键并不是所有这些键都有效-那些为该键提供自己的绑定的前缀键。这些前缀键之一是<tt class="key">ESC</tt>，因为<kbd><span class="key">ESC</span>C-h</kbd>实际上是<kbd>C-M-h</kbd>，它标记一个函数定义。但是，<kbd><span class="key">Esc</span><span class="key">F1</span></kbd><!-- /@w --> 和<kbd><span class="key">ESC</span>?</kbd><!-- /@w --> 工作正常。)
 </p>
 
 <a name="Help-Files"></a>
@@ -6109,14 +5751,9 @@ which marks a defun.  However, <kbd><span class="key">ESC</span>&nbsp;<span clas
 Next: <a href="#Help-Echo" accesskey="n" rel="next">Help Echo</a>, Previous: <a href="#Misc-Help" accesskey="p" rel="prev">Misc Help</a>, Up: <a href="#Help" accesskey="u" rel="up">Help</a> &nbsp; [<a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents" title="目录" rel="contents">Contents</a>][<a href="#Key-Index" title="主索引" rel="index">Index</a>]</p>
 </div>
 <a name="Help-Files-1"></a>
-<h3 class="section">10.9 Help Files</h3>
+<h3 class="section">10.9帮助文件</h3>
 
-<p>Apart from the built-in documentation and manuals, Emacs contains
-several other files describing topics like copying conditions, release
-notes, instructions for debugging and reporting bugs, and so forth.
-You can use the following commands to view these files.  Apart from
-<kbd>C-h g</kbd>, they all have the form <kbd>C-h C-<var>char</var></kbd>.
-
+<p>除了内置的文档和手册之外，Emacs还包含其他几个文件，描述复制条件、发行说明、调试和报告错误的说明等主题。您可以使用以下命令查看这些文件。除了<kbd>C-h g</kbd>之外，它们的形式都是<kbd>C-h C-<var>char</var></kbd>。
 </p>
 <a name="index-C_002dh-C_002dc"></a>
 <a name="index-describe_002dcopying"></a>
@@ -6143,56 +5780,37 @@ You can use the following commands to view these files.  Apart from
 
 <dl compact="compact">
 <dt><kbd>C-h C-c</kbd></dt>
-<dd><p>Display the rules under which you can copy and redistribute Emacs
-(<code>describe-copying</code>).
-
+<dd><p>显示可以复制和重新分发Emacs的规则(<code>describe-copying</code>)。
 </p></dd>
 <dt><kbd>C-h C-d</kbd></dt>
-<dd><p>Display help for debugging Emacs (<code>view-emacs-debugging</code>).
-
+<dd><p>显示调试Emacs的帮助(<code>view-emacs-debuting</code>)。
 </p></dd>
 <dt><kbd>C-h C-e</kbd></dt>
-<dd><p>Display information about where to get external packages
-(<code>view-external-packages</code>).
-
+<dd><p>显示有关从何处获取外部包的信息(<code>view-external-packages</code>)。
 </p></dd>
 <dt><kbd>C-h C-f</kbd></dt>
-<dd><p>Display the Emacs frequently-answered-questions list (<code>view-emacs-FAQ</code>).
-
+<dd><p>显示Emacs常见问题列表(<code>view-emacs-FAQ</code>)。
 </p></dd>
 <dt><kbd>C-h g</kbd></dt>
-<dd><p>Visit the <a href="https://www.gnu.org/">page</a> with information about the GNU
-Project (<code>describe-gnu-project</code>).
-
+<dd><p>有关GNU项目的信息，请访问<a href="https://www.gnu.org/">页面</a>(<code>describe-gnu-project</code>)。
 </p></dd>
 <dt><kbd>C-h C-m</kbd></dt>
-<dd><p>Display information about ordering printed copies of Emacs manuals
-(<code>view-order-manuals</code>).
-
+<dd><p>显示有关订购Emacs手册打印副本的信息(<code>view-order-manuals</code>)。
 </p></dd>
 <dt><kbd>C-h C-n</kbd></dt>
-<dd><p>Display the news, which lists the new features in this
-version of Emacs (<code>view-emacs-news</code>).
-
+<dd><p>显示新闻，其中列出了此版本的Emacs中的新功能(<code>view-emacs-news</code>)。
 </p></dd>
 <dt><kbd>C-h C-o</kbd></dt>
-<dd><p>Display how to order or download the latest version of
-Emacs and other GNU software (<code>describe-distribution</code>).
-
+<dd><p>显示如何订购或下载最新版本的Emacs和其他GNU软件(<code>describe-distribution</code>)。
 </p></dd>
 <dt><kbd>C-h C-p</kbd></dt>
-<dd><p>Display the list of known Emacs problems, sometimes with suggested
-workarounds (<code>view-emacs-problems</code>).
-
+<dd><p>显示已知Emacs问题的列表，有时带有建议的解决方法(<code>view-emacs-problems</code>)。
 </p></dd>
 <dt><kbd>C-h C-t</kbd></dt>
-<dd><p>Display the Emacs to-do list (<code>view-emacs-todo</code>).
-
+<dd><p>显示Emacs待办事项列表(<code>view-emacs-todo</code>)。
 </p></dd>
 <dt><kbd>C-h C-w</kbd></dt>
-<dd><p>Display the full details on the complete absence of warranty for GNU
-Emacs (<code>describe-no-warranty</code>).
-
+<dd><p>显示GNU Emacs完全没有保修的完整详细信息(<code>describe-no-warranty</code>)。
 </p></dd>
 </dl>
 
@@ -6204,30 +5822,17 @@ Emacs (<code>describe-no-warranty</code>).
 Previous: <a href="#Help-Files" accesskey="p" rel="prev">Help Files</a>, Up: <a href="#Help" accesskey="u" rel="up">Help</a> &nbsp; [<a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents" title="目录" rel="contents">Contents</a>][<a href="#Key-Index" title="主索引" rel="index">Index</a>]</p>
 </div>
 <a name="Help-on-Active-Text-and-Tooltips"></a>
-<h3 class="section">10.10 Help on Active Text and Tooltips</h3>
+<h3 class="section">10.10有关交互文本和工具提示的帮助</h3>
 
 <a name="index-tooltip-help"></a>
 <a name="index-balloon-help"></a>
 <a name="index-active-text"></a>
-<p>In Emacs, stretches of <em>active text</em> (text that does something
-special in response to mouse clicks or <tt class="key">RET</tt>) often have
-associated help text.  This includes hyperlinks in Emacs buffers, as
-well as parts of the mode line.  On graphical displays, as well as
-some text terminals which support mouse tracking, moving the mouse
-over the active text displays the help text as a <em>tooltip</em>.
-See <a href="#Tooltips">Tooltips</a>.
-
+<p>在Emacs中，<em>交互文本</em>(响应鼠标单击或<tt class="key">RET</tt>执行特殊操作的文本)的延伸通常具有关联的帮助文本。这包括Emacs缓冲区中的超链接，以及部分状态行。在图形显示以及某些支持鼠标跟踪的文本终端上，将鼠标移到活动文本上会将帮助文本显示为<em>工具提示</em>。请参阅<a href="#Tooltips">工具提示</a>。
 </p>
 <a name="index-C_002dh-_002e"></a>
 <a name="index-display_002dlocal_002dhelp"></a>
 <a name="index-help_002dat_002dpt_002ddisplay_002dwhen_002didle"></a>
-<p>On terminals that don’t support mouse-tracking, you can display the
-help text for active buffer text at point by typing <kbd>C-h .</kbd>
-(<code>display-local-help</code>).  This shows the help text in the echo
-area.  To display help text automatically whenever it is available at
-point, set the variable <code>help-at-pt-display-when-idle</code> to
-<code>t</code>.
-
+<p>在不支持鼠标跟踪的终端上，可以通过键入<kbd>C-h .</kbd>(<code>display-local-help</code>)显示缓冲区内游标处交互文本的帮助文本。这将在回显区中显示帮助文本。要在任何时候帮助文本可用时自动显示帮助文本，请将变量<code>help-at-pt-display-when-idle</code>设置为<code>t</code>。
 </p><hr>
 <a name="Mark"></a>
 <div class="header" style="background-color:#DDDDFF">
@@ -19323,7 +18928,7 @@ Next: <a href="#Pop-Up-Window" accesskey="n" rel="next">Pop Up Window</a>, Previ
 <dd><p>Scroll the next window downward (<code>scroll-other-window-down</code>).
 
 </p></dd>
-<dt><kbd>mouse-1</kbd></dt>
+<dt><kbd>鼠标左键</kbd></dt>
 <dd><p><kbd>mouse-1</kbd>, in the text area of a window, selects the window and
 moves point to the position clicked.  Clicking in the mode line
 selects the window without moving point in it.
@@ -20050,7 +19655,7 @@ Next: <a href="#Word-and-Line-Mouse" accesskey="n" rel="next">Word and Line Mous
 <a name="index-mouse_002d2"></a>
 <a name="index-mouse_002d3"></a>
 <dl compact="compact">
-<dt><kbd>mouse-1</kbd></dt>
+<dt><kbd>鼠标左键</kbd></dt>
 <dd><p>Move point to where you click (<code>mouse-set-point</code>).
 
 </p>
@@ -20061,7 +19666,7 @@ text in the primary selection (<code>mouse-set-region</code>).
 
 </p>
 </dd>
-<dt><kbd>mouse-2</kbd></dt>
+<dt><kbd>鼠标右键</kbd></dt>
 <dd><p>Move point to where you click, and insert the contents of the primary
 selection there (<code>mouse-yank-primary</code>).
 
@@ -20440,7 +20045,7 @@ section’s commands do not apply in those areas.
 
 </p>
 <dl compact="compact">
-<dt><kbd>mouse-1</kbd></dt>
+<dt><kbd>鼠标左键</kbd></dt>
 <dd><a name="index-mouse_002d1-_0028mode-line_0029"></a>
 <p><kbd>mouse-1</kbd> on a mode line selects the window it belongs to.  By
 dragging <kbd>mouse-1</kbd> on the mode line, you can move it, thus
@@ -20450,7 +20055,7 @@ make any window smaller than the minimum height.
 
 </p>
 </dd>
-<dt><kbd>mouse-2</kbd></dt>
+<dt><kbd>鼠标右键</kbd></dt>
 <dd><a name="index-mouse_002d2-_0028mode-line_0029"></a>
 <p><kbd>mouse-2</kbd> on a mode line expands that window to fill its frame.
 
@@ -22741,11 +22346,7 @@ Next: <a href="#Coding-Systems" accesskey="n" rel="next">Coding Systems</a>, Pre
 <dd><a name="index-describe_002dinput_002dmethod"></a>
 <a name="index-C_002dh-I"></a>
 <a name="index-C_002dh-C_002d_005c"></a>
-<p>Describe the input method <var>method</var> (<code>describe-input-method</code>).
-By default, it describes the current input method (if any).  This
-description should give you the full details of how to use any
-particular input method.
-
+<p>描述输入法<var>方法</var>(<code>describe-input-method</code>)。By default, it describes the current input method (if any). This description should give you the full details of how to use any particular input method.
 </p>
 </dd>
 <dt><kbd>M-x list-input-methods</kbd></dt>
@@ -24433,10 +24034,7 @@ language modes typically set a buffer-local value for the variable
 delimited (see <a href="#Comments">Comments</a>).
 
 </p>
-<p>To view the documentation for the current major mode, including a
-list of its key bindings, type <kbd>C-h m</kbd> (<code>describe-mode</code>).
-See <a href="#Misc-Help">Misc Help</a>.
-
+<p>To view the documentation for the current major mode, including a list of its key bindings, type <kbd>C-h m</kbd> (<code>describe-mode</code>). 请参阅<a href="#Misc-Help">其他帮助</a>。
 </p>
 <a name="index-mode-hook"></a>
 <a name="index-prog_002dmode_002dhook"></a>
@@ -33579,7 +33177,7 @@ is enabled, and gray when it is disabled.
 
 </p>
 </dd>
-<dt><kbd>mouse-2</kbd></dt>
+<dt><kbd>鼠标右键</kbd></dt>
 <dd><a name="index-mouse_002d2-_0028GDB-Breakpoints-buffer_0029"></a>
 <p>Visit the source line for the breakpoint you click on
 (<code>gdb-goto-breakpoint</code>).
@@ -37578,7 +37176,7 @@ the special XREF mode:
 </p>
 <dl compact="compact">
 <dt><kbd><span class="key">RET</span></kbd></dt>
-<dt><kbd>mouse-2</kbd></dt>
+<dt><kbd>鼠标右键</kbd></dt>
 <dd><p>Display the reference on the current line.
 
 </p>
@@ -40262,8 +39860,8 @@ another window, but do not select that window (<code>dired-display-file</code>).
 
 </p>
 </dd>
-<dt><kbd>mouse-1</kbd></dt>
-<dt><kbd>mouse-2</kbd></dt>
+<dt><kbd>鼠标左键</kbd></dt>
+<dt><kbd>鼠标右键</kbd></dt>
 <dd><a name="index-dired_002dmouse_002dfind_002dfile_002dother_002dwindow"></a>
 <p>Visit the file whose name you clicked on
 (<code>dired-mouse-find-file-other-window</code>).  This uses another window
