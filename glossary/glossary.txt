@@ -279,3 +279,4 @@ apropos	主题
 apropos	主题搜索
 active	激活
 symbol	符号
+buffer-local variable	缓冲区局部变量
