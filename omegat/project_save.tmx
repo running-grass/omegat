@@ -6270,10 +6270,42 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-h I &lt;v0&gt;method&lt;/v0&gt; &lt;s1&gt;RET&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064312Z" creationid="grass" creationdate="20201227T064312Z">
+        <seg>C-h I &lt;v0&gt;method&lt;/v0&gt; &lt;s1&gt;RET&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-h K &lt;v0&gt;key&lt;/v0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064340Z" creationid="grass" creationdate="20201227T064340Z">
+        <seg>C-h K &lt;v0&gt;key&lt;/v0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-h L &lt;v0&gt;language-env&lt;/v0&gt; &lt;s1&gt;RET&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064413Z" creationid="grass" creationdate="20201227T064413Z">
+        <seg>C-h L &lt;v0&gt;language-env&lt;/v0&gt; &lt;s1&gt;RET&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-h P &lt;v0&gt;package&lt;/v0&gt; &lt;s1&gt;RET&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153421Z" creationid="grass" creationdate="20201226T153421Z">
         <seg>C-h P &lt;v0&gt;package&lt;/v0&gt; &lt;s1&gt;RET&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-h S &lt;v0&gt;symbol&lt;/v0&gt; &lt;s1&gt;RET&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064459Z" creationid="grass" creationdate="20201227T064459Z">
+        <seg>C-h S &lt;v0&gt;symbol&lt;/v0&gt; &lt;s1&gt;RET&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7718,6 +7750,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Describe the input method &lt;v0&gt;method&lt;/v0&gt; (&lt;c1&gt;describe-input-method&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064336Z" creationid="grass" creationdate="20201227T064336Z">
+        <seg>描述输入法&lt;v0&gt;方法&lt;/v0&gt;(&lt;c1&gt;describe-input-method&lt;/c1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Detailed reports.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102404Z" creationid="grass" creationdate="20201014T102404Z">
@@ -7838,6 +7878,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Display information on the character sets, coding systems, and input methods used in language environment &lt;v0&gt;language-env&lt;/v0&gt; (&lt;c1&gt;describe-language-environment&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064444Z" creationid="grass" creationdate="20201227T064444Z">
+        <seg>显示有关语言环境&lt;v0&gt;language-env&lt;/v0&gt;(&lt;c1&gt;describe-language-environment&lt;/c1&gt;)中使用的字符集、编码系统和输入法的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Display news of recent Emacs changes (&lt;c0&gt;view-emacs-news&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153314Z" creationid="grass" creationdate="20201226T153314Z">
@@ -7866,6 +7914,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153516Z" creationid="grass" creationdate="20201226T153516Z">
         <seg>在Info中显示Emacs手册(&lt;c0&gt;info-emacs-manual&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Display the Info documentation on symbol &lt;v0&gt;symbol&lt;/v0&gt; according to the programming language you are editing (&lt;c1&gt;info-lookup-symbol&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064611Z" creationid="grass" creationdate="20201227T064611Z">
+        <seg>根据您正在编辑的编程语言(&lt;c1&gt;info-lookup-symbol&lt;/c1&gt;)显示有关符号&lt;v0&gt;符号&lt;/v0&gt;的信息文档。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8590,6 +8646,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064310Z" creationid="grass" creationdate="20201227T064310Z">
         <seg>打开Info并转到记录Emacs命令&lt;v0&gt;命令&lt;/v0&gt;(&lt;c1&gt;Info-goto-emacs-command-node&lt;/c1&gt;)的节点。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Enter Info and go to the node that documents the key sequence &lt;v0&gt;key&lt;/v0&gt; (&lt;c1&gt;Info-goto-emacs-key-command-node&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064411Z" creationid="grass" creationdate="20201227T064411Z">
+        <seg>打开Info并转到记录键序列&lt;v0&gt;快捷键&lt;/v0&gt;(&lt;c1&gt;Info-goto-emacs-key-command-node&lt;/c1&gt;)的节点。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19338,6 +19402,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a2&gt;Language Environments&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064458Z" creationid="grass" creationdate="20201227T064458Z">
+        <seg>请参阅&lt;a2&gt;语言环境&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a2&gt;Line Truncation&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014043Z" creationid="grass" creationdate="20201208T014043Z">
@@ -19398,6 +19470,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153419Z" creationid="grass" creationdate="20201226T153419Z">
         <seg>请参阅&lt;a2&gt;包&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a2&gt;Select Input Method&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064339Z" creationid="grass" creationdate="20201227T064339Z">
+        <seg>请参阅&lt;a2&gt;选择输入法&lt;/a2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
