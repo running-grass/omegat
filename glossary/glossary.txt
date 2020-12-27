@@ -286,3 +286,4 @@ mouse-2	鼠标右键
 local	本地
 local	局部
 active	交互
+active text	交互文本
