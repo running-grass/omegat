@@ -422,6 +422,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(These include, for example, links in &lt;s1&gt;*Help*&lt;/s1&gt; buffers.) See &lt;a2&gt;Help Echo&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064655Z" creationid="grass" creationdate="20201227T064655Z">
+        <seg>(例如，这些链接包括&lt;s1&gt;*Help*&lt;/s1&gt;缓冲区中的链接。)请参阅&lt;a2&gt;帮助回显&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(To disable this dimming, turn off File Name Shadow mode with the command &lt;k2&gt;&lt;s3&gt;M-x&lt;/s3&gt; &lt;s4&gt;file-name-shadow-mode&lt;/s4&gt;&lt;/k2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101219Z" creationid="grass" creationdate="20201212T101219Z">
@@ -3915,6 +3923,30 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-h K &lt;v1&gt;key&lt;/v1&gt;&lt;/k0&gt; displays the section of the Emacs manual that describes the command corresponding to &lt;v2&gt;key&lt;/v2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064850Z" creationid="grass" creationdate="20201227T064850Z">
+        <seg>&lt;k0&gt;C-h K&lt;v1&gt;key&lt;/v1&gt;&lt;/k0&gt;显示Emacs手册中描述与&lt;v2&gt;key&lt;/v2&gt;对应的命令的部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-h c &lt;v1&gt;key&lt;/v1&gt;&lt;/k0&gt; displays in the echo area the name of the command that &lt;v2&gt;key&lt;/v2&gt; is bound to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064740Z" creationid="grass" creationdate="20201227T064740Z">
+        <seg>&lt;k0&gt;C-h c&lt;v1&gt;key&lt;/v1&gt;&lt;/k0&gt;在回显区显示&lt;v2&gt;key&lt;/v2&gt;绑定到的命令的名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-h k &lt;v1&gt;key&lt;/v1&gt;&lt;/k0&gt; is similar but gives more information: it displays a help buffer containing the command’s &lt;e2&gt;documentation string&lt;/e2&gt;, which describes exactly what the command does.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064801Z" creationid="grass" creationdate="20201227T064801Z">
+        <seg>&lt;k0&gt;C-h k&lt;v1&gt;key&lt;/v1&gt;&lt;/k0&gt;类似，但提供了更多信息：它显示包含命令的&lt;e2&gt;文档字符串&lt;/e2&gt;的帮助缓冲区，该字符串准确描述了命令的功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-h&lt;/k0&gt; or &lt;t1&gt;F1&lt;/t1&gt; mean “help” in various other contexts as well.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201223T102214Z" creationid="grass" creationdate="20201223T102159Z">
@@ -6238,6 +6270,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-h .</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064613Z" creationid="grass" creationdate="20201227T064613Z">
+        <seg>C-h .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-h C &lt;s0&gt;RET&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064153Z" creationid="grass" creationdate="20201227T064153Z">
@@ -7966,6 +8006,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Display the help message for a special text area, if point is in one (&lt;c0&gt;display-local-help&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064634Z" creationid="grass" creationdate="20201227T064634Z">
+        <seg>如果游标在一个文本区域(&lt;c0&gt;display-local-help&lt;/c0&gt;)，则显示特殊文本区域的帮助消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Display the line number of point.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013555Z" creationid="grass" creationdate="20201209T013555Z">
@@ -8058,6 +8106,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T060943Z" creationid="grass" creationdate="20201013T060943Z">
         <seg>文档结构</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Documentation for a Key</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064713Z" creationid="grass" creationdate="20201227T064713Z">
+        <seg>快捷键文档</seg>
       </tuv>
     </tu>
     <tu>
@@ -9510,6 +9566,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T090557Z" creationid="grass" creationdate="20201203T022854Z">
         <seg>例如，&lt;k1&gt;C-x=&lt;/k1&gt;(按住&lt;t2&gt;Ctrl&lt;/t2&gt;并键入&lt;k3&gt;x&lt;/k3&gt;，然后松开&lt;t4&gt;Ctrl&lt;/t4&gt;并键入&lt;k5&gt;=&lt;/k5&gt;)将显示一条消息，描述该游标的字符、其在缓冲区中的位置以及其在窗口中的当前列。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, &lt;k3&gt;C-h c C-f&lt;/k3&gt; displays ‘&lt;s4&gt;forward-char&lt;/s4&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064747Z" creationid="grass" creationdate="20201227T064747Z">
+        <seg>例如，&lt;k3&gt;C-h c C-f&lt;/k3&gt;显示‘&lt;s4&gt;forward-char&lt;/s4&gt;’。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21817,6 +21881,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151134Z" creationid="grass" creationdate="20201207T151134Z">
         <seg>目标列在取消之前保持有效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The help commands to get information about a key sequence are &lt;k0&gt;C-h c&lt;/k0&gt; (&lt;c1&gt;describe-key-briefly&lt;/c1&gt;) and &lt;k2&gt;C-h k&lt;/k2&gt; (&lt;c3&gt;describe-key&lt;/c3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064728Z" creationid="grass" creationdate="20201227T064728Z">
+        <seg>用于获取键序列信息的帮助命令是&lt;k0&gt;C-h c&lt;/k0&gt;(&lt;c1&gt;describe-key-briefly&lt;/c1&gt;)和&lt;k2&gt;C-h k&lt;/k2&gt;(&lt;c3&gt;describe-key&lt;/c3&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
