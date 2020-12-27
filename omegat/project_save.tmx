@@ -6246,6 +6246,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-h P &lt;v0&gt;package&lt;/v0&gt; &lt;s1&gt;RET&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153421Z" creationid="grass" creationdate="20201226T153421Z">
+        <seg>C-h P &lt;v0&gt;package&lt;/v0&gt; &lt;s1&gt;RET&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-h a &lt;v0&gt;topics&lt;/v0&gt; &lt;s1&gt;RET&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101501Z" creationid="grass" creationdate="20201223T101501Z">
@@ -6358,10 +6366,34 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-h o &lt;v0&gt;symbol&lt;/v0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153323Z" creationid="grass" creationdate="20201226T153323Z">
+        <seg>C-h o &lt;v0&gt;symbol&lt;/v0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-h p</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101957Z" creationid="grass" creationdate="20201223T101957Z">
         <seg>C-h p</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-h r</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153500Z" creationid="grass" creationdate="20201226T153500Z">
+        <seg>C-h r</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-h s</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153517Z" creationid="grass" creationdate="20201226T153517Z">
+        <seg>C-h s</seg>
       </tuv>
     </tu>
     <tu>
@@ -7710,6 +7742,22 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Display documentation about the specified package (&lt;c0&gt;describe-package&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153456Z" creationid="grass" creationdate="20201226T153456Z">
+        <seg>显示有关指定包的文档(&lt;c0&gt;describe-package&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Display documentation of the Lisp symbol named &lt;v0&gt;symbol&lt;/v0&gt; (&lt;c1&gt;describe-symbol&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153344Z" creationid="grass" creationdate="20201226T153344Z">
+        <seg>显示名为&lt;v0&gt;symbol&lt;/v0&gt;(&lt;c1&gt;describe-symbol&lt;/c1&gt;)的Lisp符号的文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Display documentation of the current major mode and minor modes (&lt;c0&gt;describe-mode&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153303Z" creationid="grass" creationdate="20201226T153303Z">
@@ -7750,6 +7798,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Display the Emacs manual in Info (&lt;c0&gt;info-emacs-manual&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153516Z" creationid="grass" creationdate="20201226T153516Z">
+        <seg>在Info中显示Emacs手册(&lt;c0&gt;info-emacs-manual&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Display the character code of character after point, character position of point, and column of point (&lt;c0&gt;what-cursor-position&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013742Z" creationid="grass" creationdate="20201209T013742Z">
@@ -7762,6 +7818,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201226T152905Z" creationid="grass" creationdate="20201226T152905Z">
         <seg>显示其文档与&lt;v0&gt;主题&lt;/v0&gt;(&lt;c1&gt;apropos-documentation&lt;/c1&gt;)匹配的命令和变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Display the contents of the current &lt;e0&gt;syntax table&lt;/e0&gt; (&lt;c1&gt;describe-syntax&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153545Z" creationid="grass" creationdate="20201226T153545Z">
+        <seg>显示当前&lt;e0&gt;语法表&lt;/e0&gt;(&lt;c1&gt;describe-syntax&lt;/c1&gt;)的内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9086,6 +9150,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101103Z" creationid="grass" creationdate="20201212T101103Z">
         <seg>Find file: /u2/emacs/src//etc/termcap</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Find packages by topic keyword (&lt;c0&gt;finder-by-keyword&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153403Z" creationid="grass" creationdate="20201226T153403Z">
+        <seg>按主题关键字查找包(&lt;c0&gt;finder-by-keyword&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19074,6 +19146,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;Package Keywords&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153410Z" creationid="grass" creationdate="20201226T153410Z">
+        <seg>请参阅&lt;a1&gt;包关键字&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a1&gt;Preface&lt;/a1&gt; in &lt;c2&gt;An Introduction to Programming in Emacs Lisp&lt;/c2&gt;, if you want to learn Emacs Lisp programming.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T113454Z" creationid="grass" creationdate="20201130T113256Z">
@@ -19214,6 +19294,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024941Z" creationid="grass" creationdate="20201203T024941Z">
         <seg>请参阅&lt;a2&gt;可选状态栏&lt;/a2&gt;。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a2&gt;Packages&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153419Z" creationid="grass" creationdate="20201226T153419Z">
+        <seg>请参阅&lt;a2&gt;包&lt;/a2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21965,6 +22053,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The syntax table says which characters are opening delimiters, which are parts of words, and so on.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T063943Z" creationid="grass" creationdate="20201227T063943Z">
+        <seg>语法表说明哪些字符是开始分隔符，哪些是单词的一部分，等等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The table editor as minor mode.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100121Z" creationid="grass" creationdate="20201014T100121Z">
@@ -22807,6 +22903,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This lists packages using a package menu buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153417Z" creationid="grass" creationdate="20201226T153417Z">
+        <seg>这将使用包菜单缓冲区列出包。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This makes it possible to create a single file reproducible research compendium.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T101304Z" creationid="grass" creationdate="20200927T101211Z">
@@ -22955,6 +23059,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084308Z" creationid="grass" creationdate="20201015T084308Z">
         <seg>这样，我的GTD文件就会保持整洁，而且我永远不会删除任何数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This will show the documentation of all kinds of symbols: functions, variables, and faces.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153353Z" creationid="grass" creationdate="20201226T153353Z">
+        <seg>这将显示各种符号的文档：函数、变量和字符样式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25984,6 +26096,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073622Z" creationid="grass" creationdate="20201205T073622Z">
         <seg>http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Killing-Emacs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Syntax-Tables</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153522Z" creationid="grass" creationdate="20201226T153522Z">
+        <seg>http://www.gnu.org/software/emacs/manual/html_mono/elisp.html#Syntax-Tables</seg>
       </tuv>
     </tu>
     <tu>
