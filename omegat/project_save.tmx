@@ -3987,6 +3987,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-h b&lt;/k0&gt; (&lt;c1&gt;describe-bindings&lt;/c1&gt;) and &lt;k2&gt;C-h s&lt;/k2&gt; (&lt;c3&gt;describe-syntax&lt;/c3&gt;) show other information about the current environment within Emacs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073928Z" creationid="grass" creationdate="20201227T073928Z">
+        <seg>&lt;k0&gt;C-h b&lt;/k0&gt;(&lt;c1&gt;describe-bindings&lt;/c1&gt;)和&lt;k2&gt;C-h s&lt;/k2&gt;(&lt;c3&gt;describe-syntax&lt;/c3&gt;)显示有关Emacs中当前环境的其他信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-h c &lt;v1&gt;key&lt;/v1&gt;&lt;/k0&gt; displays in the echo area the name of the command that &lt;v2&gt;key&lt;/v2&gt; is bound to.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064740Z" creationid="grass" creationdate="20201227T064740Z">
@@ -4039,6 +4047,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064801Z" creationid="grass" creationdate="20201227T064801Z">
         <seg>&lt;k0&gt;C-h k&lt;v1&gt;key&lt;/v1&gt;&lt;/k0&gt;类似，但提供了更多信息：它显示包含命令的&lt;e2&gt;文档字符串&lt;/e2&gt;的帮助缓冲区，该字符串准确描述了命令的功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-h m&lt;/k0&gt; (&lt;c1&gt;describe-mode&lt;/c1&gt;) displays documentation on the current major mode, which normally describes the commands and features that are changed in this mode, and also its key bindings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073912Z" creationid="grass" creationdate="20201227T073912Z">
+        <seg>&lt;k0&gt;C-h m&lt;/k0&gt;(&lt;c1&gt;describe-mode&lt;/c1&gt;)显示有关当前主模式的文档，该文档通常描述在此模式中更改的命令和功能，以及它的键绑定。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4421,6 +4437,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k2&gt;C-h l&lt;/k2&gt; displays your last 300 input keystrokes and the commands they invoked.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073837Z" creationid="grass" creationdate="20201227T073837Z">
+        <seg>&lt;k2&gt;C-h l&lt;/k2&gt;显示您最近300次输入击键及其调用的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k2&gt;C-n&lt;/k2&gt; has this effect &lt;e3&gt;because&lt;/e3&gt; it is bound to &lt;c4&gt;next-line&lt;/c4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032238Z" creationid="grass" creationdate="20201205T032223Z">
@@ -4433,6 +4457,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T121336Z" creationid="grass" creationdate="20201215T121336Z">
         <seg>&lt;k2&gt;M-x&lt;/k2&gt;使用迷你缓冲区读取命令名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k4&gt;C-h b&lt;/k4&gt; displays a list of all the key bindings now in effect: first the local bindings of the current minor modes, then the local bindings defined by the current major mode, and finally the global bindings (see &lt;a5&gt;Key Bindings&lt;/a5&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T074012Z" creationid="grass" creationdate="20201227T074012Z">
+        <seg>&lt;k4&gt;C-h b&lt;/k4&gt;显示当前有效的所有键绑定的列表：首先是当前辅模式的局部绑定，然后是当前主模式定义的局部绑定，最后是全局绑定(请参阅&lt;a5&gt;键绑定&lt;/a5&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4465,6 +4497,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T020640Z" creationid="grass" creationdate="20201209T020640Z">
         <seg>&lt;k5&gt;M--&lt;/k5&gt;没有数字通常表示-1。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k6&gt;C-h s&lt;/k6&gt; displays the contents of the syntax table, with explanations of each character’s syntax (see &lt;a7&gt;Syntax Tables&lt;/a7&gt; in &lt;c8&gt;The Emacs Lisp Reference Manual&lt;/c8&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T074019Z" creationid="grass" creationdate="20201227T074019Z">
+        <seg>&lt;k6&gt;C-h s&lt;/k6&gt;显示语法表的内容，并解释每个字符的语法(请参阅&lt;c8&gt;Emacs Lisp参考手册&lt;/c8&gt;中的&lt;a7&gt;语法表&lt;/a7&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8530,6 +8570,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each Emacs major mode typically redefines a few keys and makes other changes in how editing works.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073905Z" creationid="grass" creationdate="20201227T073905Z">
+        <seg>每个Emacs主模式通常重新定义几个键，并对编辑工作方式进行其他更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each command name comes with a brief description and a list of keys you can currently invoke it with.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071905Z" creationid="grass" creationdate="20201227T071905Z">
@@ -11906,6 +11954,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If something surprising happens, and you are not sure what you typed, use &lt;k0&gt;C-h l&lt;/k0&gt; (&lt;c1&gt;view-lossage&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073833Z" creationid="grass" creationdate="20201227T073833Z">
+        <seg>如果发生意外情况，并且您不确定键入的内容，请使用&lt;k0&gt;C-h l&lt;/k0&gt;(&lt;c1&gt;view-lossage&lt;/c1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the buffer has been narrowed, making some of the text at the beginning and the end temporarily inaccessible, &lt;k0&gt;C-x =&lt;/k0&gt; displays additional text describing the currently accessible range.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T015817Z" creationid="grass" creationdate="20201209T015817Z">
@@ -12514,10 +12570,26 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you see commands that you are not familiar with, you can use &lt;k3&gt;C-h k&lt;/k3&gt; or &lt;k4&gt;C-h f&lt;/k4&gt; to find out what they do.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073841Z" creationid="grass" creationdate="20201227T073841Z">
+        <seg>如果您看到不熟悉的命令，可以使用&lt;k3&gt;C-h k&lt;/k3&gt;或&lt;k4&gt;C-h f&lt;/k4&gt;了解它们的作用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you set the variable to the value &lt;c6&gt;expert&lt;/c6&gt;, the special window is not even shown for single-key tag selection, it comes up only when you press an extra &lt;k7&gt;C-c&lt;/k7&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025521Z" creationid="grass" creationdate="20201019T025502Z">
         <seg>如果将变量设置为值&lt;c6&gt;expert&lt;/c6&gt;，则甚至不会显示用于单键标签选择的特殊窗口，只有当您额外按&lt;k7&gt;C-c&lt;/k7&gt;时才会出现该窗口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you specify just &lt;k4&gt;C-u&lt;/k4&gt; as the prefix argument, &lt;k5&gt;C-h i&lt;/k5&gt; prompts for the name of a documentation file, so you can browse a file which doesn’t have an entry in the top-level Info menu.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073745Z" creationid="grass" creationdate="20201227T073745Z">
+        <seg>如果仅指定&lt;k4&gt;C-u&lt;/k4&gt;作为前缀参数，&lt;k5&gt;C-h i&lt;/k5&gt;会提示输入文档文件的名称，这样您就可以浏览在顶级信息菜单中没有条目的文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22437,6 +22509,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The details of how this command works depend on the major mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073823Z" creationid="grass" creationdate="20201227T073819Z">
+        <seg>此命令如何工作的详细信息取决于主模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The diary allows you to keep track of anniversaries, lunar phases, sunrise/set, recurrent appointments (weekly, monthly) and more.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T112904Z" creationid="grass" creationdate="20201016T112904Z">
@@ -22505,6 +22585,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T013651Z" creationid="grass" creationdate="20201203T013651Z">
         <seg>回显区之所以这样命名，是因为它的用途之一是&lt;e0&gt;回显&lt;/e0&gt;，这意味着在您键入时显示多字符命令的字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The entire Emacs manual is available within Info, along with many other manuals for the GNU system.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073714Z" creationid="grass" creationdate="20201227T073714Z">
+        <seg>整个Emacs手册以及GNU系统的许多其他手册都可以在Info中找到。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22625,6 +22713,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151134Z" creationid="grass" creationdate="20201207T151134Z">
         <seg>目标列在取消之前保持有效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The help commands &lt;k0&gt;C-h F &lt;v1&gt;function&lt;/v1&gt; &lt;s2&gt;RET&lt;/s2&gt;&lt;/k0&gt; and &lt;k3&gt;C-h K &lt;v4&gt;key&lt;/v4&gt;&lt;/k3&gt;, described above, enter Info and go straight to the documentation of &lt;v5&gt;function&lt;/v5&gt; or &lt;v6&gt;key&lt;/v6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073759Z" creationid="grass" creationdate="20201227T073759Z">
+        <seg>上述帮助命令&lt;k0&gt;C-h F&lt;v1&gt;&lt;s2&gt;RET&lt;/s2&gt;&lt;/k0&gt;和&lt;k3&gt;C-h K&lt;/v4&gt;&lt;/k3&gt;输入Info并直接转到&lt;v5&gt;函数&lt;/v5&gt;或&lt;v6&gt;快捷键&lt;/v6&gt;的文档。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23791,6 +23887,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This displays the buffer &lt;s2&gt;*Messages*&lt;/s2&gt;, where those messages are kept.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073859Z" creationid="grass" creationdate="20201227T073859Z">
+        <seg>这将显示保存这些消息的缓冲区&lt;s2&gt;*Messages*&lt;/s2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This displays various information about what is going on in the buffer, such as whether there are unsaved changes, the editing modes that are in use, the current line number, and so forth.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114709Z" creationid="grass" creationdate="20201130T114709Z">
@@ -23947,6 +24051,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071158Z" creationid="grass" creationdate="20201227T071158Z">
         <seg>这是获取未绑定到任何键(通常使用&lt;k1&gt;M-x&lt;/k1&gt;运行的键)的命令文档的唯一方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is useful if you want to browse multiple Info manuals simultaneously.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073738Z" creationid="grass" creationdate="20201227T073738Z">
+        <seg>如果您想要同时浏览多个信息手册，这将非常有用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24583,6 +24695,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To review recent echo area messages, use &lt;k0&gt;C-h e&lt;/k0&gt; (&lt;c1&gt;view-echo-area-messages&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073852Z" creationid="grass" creationdate="20201227T073852Z">
+        <seg>若要查看最近的回显区消息，请使用&lt;k0&gt;C-h e&lt;/k0&gt;(&lt;c1&gt;view-echo-area-messages&lt;/c1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To run a command by name, start with &lt;k0&gt;M-x&lt;/k0&gt;, type the command name, then terminate it with &lt;t1&gt;RET&lt;/t1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T121329Z" creationid="grass" creationdate="20201215T121329Z">
@@ -24867,6 +24987,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071518Z" creationid="grass" creationdate="20201227T071518Z">
         <seg>如果您确实不想查看文档，请键入&lt;k2&gt;C-g&lt;/k2&gt;取消&lt;k3&gt;C-h f&lt;/k3&gt;命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Type &lt;k4&gt;h&lt;/k4&gt; after entering Info to run a tutorial on using Info.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073720Z" creationid="grass" creationdate="20201227T073720Z">
+        <seg>输入Info后键入&lt;k4&gt;h&lt;/k4&gt;以运行有关使用Info的教程。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25664,6 +25792,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When editing a program, if you have an Info version of the manual for the programming language, you can use &lt;k0&gt;C-h S&lt;/k0&gt; (&lt;c1&gt;info-lookup-symbol&lt;/c1&gt;) to find an entry for a symbol (keyword, function or variable) in the proper manual.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073816Z" creationid="grass" creationdate="20201227T073816Z">
+        <seg>编辑程序时，如果您有编程语言手册的Info版本，则可以使用&lt;k0&gt;C-h S&lt;/k0&gt;(&lt;c1&gt;info-lookup-symbol&lt;/c1&gt;)在适当的手册中查找符号(关键字、函数或变量)的条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When first fired up, it should feel like a straightforward, easy to use outliner.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T101409Z" creationid="grass" creationdate="20200927T101409Z">
@@ -26044,6 +26180,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T175304Z" creationid="grass" creationdate="20201010T175304Z">
         <seg>使用双前缀参数，还可以显示父级的整个子树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With a numeric argument &lt;v0&gt;n&lt;/v0&gt;, &lt;k1&gt;C-h i&lt;/k1&gt; selects the Info buffer ‘&lt;s2&gt;*info*&lt;&lt;v3&gt;n&lt;/v3&gt;&gt;&lt;/s2&gt;’.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073735Z" creationid="grass" creationdate="20201227T073735Z">
+        <seg>使用数字参数&lt;v0&gt;n&lt;/v0&gt;，&lt;k1&gt;C-h i&lt;/k1&gt;选择Info缓冲区‘&lt;s2&gt;*info*&lt;&lt;v3&gt;n&lt;/v3&gt;&gt;&lt;/s2&gt;’。</seg>
       </tuv>
     </tu>
     <tu>
