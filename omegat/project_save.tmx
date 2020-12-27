@@ -6390,6 +6390,22 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-c C-c</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072755Z" creationid="grass" creationdate="20201227T072755Z">
+        <seg>C-c C-c</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-c C-f</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072831Z" creationid="grass" creationdate="20201227T072831Z">
+        <seg>C-c C-f</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-d</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151722Z" creationid="grass" creationdate="20201207T151722Z">
@@ -9618,6 +9634,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Follow a hyperlink that you click on.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072753Z" creationid="grass" creationdate="20201227T072753Z">
+        <seg>点击一个超链接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Following the GTD principle, what I usually want is to only show the &lt;e0&gt;first action to be done&lt;/e0&gt; (or next action) for each project with the &lt;c1&gt;@office&lt;/c1&gt; tag.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201105T050944Z" creationid="grass" creationdate="20201015T082853Z">
@@ -10566,6 +10590,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T181926Z" creationid="grass" creationdate="20200927T083052Z">
         <seg>全局循环和局部循环</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Go forward to the next help topic (&lt;c0&gt;help-go-forward&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072845Z" creationid="grass" creationdate="20201227T072845Z">
+        <seg>跳转到下一个帮助主题(&lt;c0&gt;help-go-forward&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14650,6 +14682,22 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150233Z" creationid="grass" creationdate="20201207T150233Z">
         <seg>向前移动一个字(&lt;c0&gt;forward-word&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Move point back to the previous hyperlink (&lt;c0&gt;backward-button&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072631Z" creationid="grass" creationdate="20201227T072619Z">
+        <seg>将游标移回上一个超链接(&lt;c0&gt;backward-button&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Move point forward to the next hyperlink (&lt;c0&gt;forward-button&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072624Z" creationid="grass" creationdate="20201227T072558Z">
+        <seg>将游标移到下一个超链接(&lt;c0&gt;forward-button&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19394,6 +19442,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>S-&lt;s0&gt;TAB&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072559Z" creationid="grass" creationdate="20201227T072559Z">
+        <seg>S-&lt;s0&gt;TAB&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>S-TAB</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105204Z" creationid="grass" creationdate="20201212T105204Z">
@@ -20414,6 +20470,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100911Z" creationid="grass" creationdate="20201014T100911Z">
         <seg>编写复杂链接的快捷方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Show all documentation about the symbol at point (&lt;c0&gt;help-follow-symbol&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072830Z" creationid="grass" creationdate="20201227T072830Z">
+        <seg>显示游标处有关符号的所有文档(&lt;c0&gt;help-follow-symbol&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -59184,16 +59248,16 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>mouse-1</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105045Z" creationid="grass" creationdate="20201212T105045Z">
-        <seg>mouse-1</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072747Z" creationid="grass" creationdate="20201212T105045Z">
+        <seg>鼠标左键</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>mouse-2</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105046Z" creationid="grass" creationdate="20201212T105046Z">
-        <seg>mouse-2</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072751Z" creationid="grass" creationdate="20201212T105046Z">
+        <seg>鼠标右键</seg>
       </tuv>
     </tu>
     <tu>
@@ -59282,6 +59346,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063247Z" creationid="grass" creationdate="20201015T063247Z">
         <seg>q</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>r</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072833Z" creationid="grass" creationdate="20201227T072833Z">
+        <seg>r</seg>
       </tuv>
     </tu>
     <tu>
