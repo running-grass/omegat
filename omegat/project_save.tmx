@@ -18118,6 +18118,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Ordinarily, only the selected window highlights its region; however, if the variable &lt;c1&gt;highlight-nonselected-windows&lt;/c1&gt; is non-&lt;c2&gt;nil&lt;/c2&gt;, each window highlights its own region.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060001Z" creationid="grass" creationdate="20201228T055954Z">
+        <seg>通常，只有选定的窗口会高亮显示其区域；但是，如果变量&lt;c1&gt;highlight-nonselected-windows&lt;/c1&gt;是非&lt;c2&gt;nil&lt;/c2&gt;，则每个窗口都会高亮显示自己的选区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Org Crypt</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T053313Z" creationid="grass" creationdate="20201013T053313Z">
@@ -20202,6 +20210,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Disabled Transient Mark&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T055836Z" creationid="grass" creationdate="20201228T055836Z">
+        <seg>请参阅&lt;a0&gt;禁用Transient Mark&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a0&gt;Display Custom&lt;/a0&gt;, for options that control how Emacs uses the echo area.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T023123Z" creationid="grass" creationdate="20201203T023123Z">
@@ -20290,6 +20306,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Rectangles&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060024Z" creationid="grass" creationdate="20201228T060016Z">
+        <seg>请参见&lt;a0&gt;矩形&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a0&gt;Refile and Copy&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T071125Z" creationid="grass" creationdate="20201015T065057Z">
@@ -20318,6 +20342,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103645Z" creationid="grass" creationdate="20201212T103645Z">
         <seg>请参见&lt;a0&gt;符号补全&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Windows&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T055934Z" creationid="grass" creationdate="20201228T055928Z">
+        <seg>请参阅&lt;a0&gt;窗口&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20966,6 +20998,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201228T055337Z" creationid="grass" creationdate="20201228T055337Z">
         <seg>将标记设置在文本中的某个位置也会&lt;e0&gt;激活&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Setting the mark in one buffer has no effect on the marks in other buffers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T055844Z" creationid="grass" creationdate="20201228T055844Z">
+        <seg>在一个缓冲区中设置标记不会影响其他缓冲区中的标记。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23899,6 +23939,14 @@ stores its records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There is another kind of region: the rectangular region.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060009Z" creationid="grass" creationdate="20201228T060009Z">
+        <seg>还有另一种选区：矩形选区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There is no history or completion, and you cannot change windows or perform any other action with Emacs until you have submitted the password.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T030021Z" creationid="grass" creationdate="20201215T030021Z">
@@ -26288,6 +26336,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When multiple windows show the same buffer, they can have different values of point, and thus different regions, but they all share one common mark position.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T055922Z" creationid="grass" creationdate="20201228T055922Z">
+        <seg>当多个窗口显示相同的缓冲区时，它们可以具有不同的游标，从而具有不同的选区，但它们都共享一个共同的标记位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When not active, the minibuffer is in &lt;c0&gt;minibuffer-inactive-mode&lt;/c0&gt;, and clicking &lt;k1&gt;mouse-1&lt;/k1&gt; there shows the &lt;s2&gt;*Messages*&lt;/s2&gt; buffer.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T103346Z" creationid="grass" creationdate="20201212T103346Z">
@@ -26484,6 +26540,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T061240Z" creationid="grass" creationdate="20201016T054310Z">
         <seg>当你把‘&lt;s0&gt;DEADLINE&lt;/s0&gt;’或‘&lt;s1&gt;SCHEDULED&lt;/s1&gt;’标记为TODO关键字 ‘&lt;s2&gt;DONE&lt;/s2&gt;’时，它不再在议程中生成条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you return to a buffer with an active mark, the mark is at the same place as before.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T055900Z" creationid="grass" creationdate="20201228T055900Z">
+        <seg>当您返回到具有激活标记的缓冲区时，该标记位于与以前相同的位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -61532,6 +61596,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Global Mark Ring&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060123Z" creationid="grass" creationdate="20201228T060123Z">
+        <seg>• &lt;a0&gt;全局标记环&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Global TODO list&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103153Z" creationid="grass" creationdate="20201014T103153Z">
@@ -62036,10 +62108,26 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Mark Ring&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060102Z" creationid="grass" creationdate="20201228T060102Z">
+        <seg>• &lt;a0&gt;标记环&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Markdown Export&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T104505Z" creationid="grass" creationdate="20201014T104505Z">
         <seg>• &lt;a0&gt;Markdown导出&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Marking Objects&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060041Z" creationid="grass" creationdate="20201228T060041Z">
+        <seg>• &lt;a0&gt;标记对象&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
@@ -62644,6 +62732,14 @@ Introduction</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Setting Mark&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060033Z" creationid="grass" creationdate="20201228T060033Z">
+        <seg>• &lt;a0&gt;设置标记&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>• &lt;a0&gt;Setting Tags&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101637Z" creationid="grass" creationdate="20201014T101637Z">
@@ -62672,6 +62768,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112914Z" creationid="grass" creationdate="20201014T112914Z">
         <seg>• &lt;a0&gt;设置舞台区域&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Shift Selection&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060137Z" creationid="grass" creationdate="20201228T060137Z">
+        <seg>• &lt;a0&gt;Shift选择&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
@@ -63192,6 +63296,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100857Z" creationid="grass" creationdate="20201014T100857Z">
         <seg>• &lt;a0&gt;使用Org外部链接&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Using Region&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060050Z" creationid="grass" creationdate="20201228T060050Z">
+        <seg>• &lt;a0&gt;使用选区&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
