@@ -7510,6 +7510,22 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Commands to put region around textual units.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T021929Z" creationid="grass" creationdate="20201228T021929Z">
+        <seg>在文本单元周围设置选区的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Commands to set the mark.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T021907Z" creationid="grass" creationdate="20201228T021907Z">
+        <seg>设置标记的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Comment Lines</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202858Z" creationid="grass" creationdate="20201010T202858Z">
@@ -10926,6 +10942,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T054642Z" creationid="grass" creationdate="20201013T054642Z">
         <seg>开始吧。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Global Mark Ring</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T021955Z" creationid="grass" creationdate="20201228T021955Z">
+        <seg>全局标志环</seg>
       </tuv>
     </tu>
     <tu>
@@ -14782,6 +14806,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Mark Ring</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T021942Z" creationid="grass" creationdate="20201228T021942Z">
+        <seg>标记环</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Mark the subtree at point.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064014Z" creationid="grass" creationdate="20201015T064014Z">
@@ -14794,6 +14826,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203747Z" creationid="grass" creationdate="20201010T203747Z">
         <seg>Markdown导出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Marking Objects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T021909Z" creationid="grass" creationdate="20201228T021909Z">
+        <seg>标记对象</seg>
       </tuv>
     </tu>
     <tu>
@@ -18838,6 +18878,22 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Previous mark positions in various buffers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T021956Z" creationid="grass" creationdate="20201228T021956Z">
+        <seg>各个缓冲区中的先前标记位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Previous mark positions saved so you can go back there.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T021952Z" creationid="grass" creationdate="20201228T021952Z">
+        <seg>以前的标记位置已保存，以便您可以回到那里。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Previous: &lt;a0&gt;A LaTeX example&lt;/a0&gt;, Up: &lt;a1&gt;Tables in Arbitrary Syntax&lt;/a1&gt;   [&lt;a2&gt;Contents&lt;/a2&gt;][&lt;a3&gt;Index&lt;/a3&gt;]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T103829Z" creationid="grass" creationdate="20200927T103324Z">
@@ -20834,6 +20890,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Setting Mark</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T021906Z" creationid="grass" creationdate="20201228T021906Z">
+        <seg>设置标记</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Setting Tags</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200543Z" creationid="grass" creationdate="20201010T200543Z">
@@ -20934,6 +20998,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T112053Z" creationid="grass" creationdate="20201212T111701Z">
         <seg>Shell补全是文件名补全的扩展版本，请参阅&lt;a0&gt;Shell选项&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Shift Selection</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T022003Z" creationid="grass" creationdate="20201228T022003Z">
+        <seg>Shift选择</seg>
       </tuv>
     </tu>
     <tu>
@@ -21622,6 +21694,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052938Z" creationid="grass" creationdate="20201013T052938Z">
         <seg>缓冲区内设置摘要</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Summary of ways to operate on contents of the region.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T021938Z" creationid="grass" creationdate="20201228T021938Z">
+        <seg>对选区内容进行操作的方法摘要。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22329,6 +22409,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024107Z" creationid="grass" creationdate="20201203T024107Z">
         <seg>MS-DOS约定使用回车字符后跟换行符；编辑此类文件时，冒号将更改为反斜杠(‘&lt;s2&gt;\&lt;/s2&gt;’)或‘&lt;s3&gt;(DOS)&lt;/s3&gt;’，具体取决于操作系统。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Mark and the Region</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T021903Z" creationid="grass" creationdate="20201228T021903Z">
+        <seg>标记与选区</seg>
       </tuv>
     </tu>
     <tu>
@@ -25615,6 +25703,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Using Region</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T021932Z" creationid="grass" creationdate="20201228T021932Z">
+        <seg>使用选区</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Using a command line argument, you can tell Emacs to visit one or more files as soon as it starts up.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T072508Z" creationid="grass" creationdate="20201205T072508Z">
@@ -25659,6 +25755,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T102925Z" creationid="grass" creationdate="20201014T102925Z">
         <seg>使用Dired选择附件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using shifted cursor motion keys.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T022130Z" creationid="grass" creationdate="20201228T022108Z">
+        <seg>使用Shift修饰的光标移动键。</seg>
       </tuv>
     </tu>
     <tu>
