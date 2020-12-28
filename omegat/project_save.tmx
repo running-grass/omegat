@@ -11802,6 +11802,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, if you call it with a prefix argument, it leaves the mark inactive and the region unhighlighted; you can use this to jump to the mark in a manner similar to &lt;k4&gt;C-u C-&lt;s5&gt;SPC&lt;/s5&gt;&lt;/k4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T063854Z" creationid="grass" creationdate="20201228T063854Z">
+        <seg>但是，如果使用前缀参数调用它，则会使标记处于非激活状态，选区也不会高亮显示；您可以使用此参数以类似于&lt;k4&gt;C-u C-&lt;s5&gt;SPC&lt;/s5&gt;&lt;/k4&gt;的方式跳转到标记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, if you leave at least two empty lines, one empty line remains visible after folding the subtree, in order to structure the collapsed view.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T171858Z" creationid="grass" creationdate="20201010T171858Z">
@@ -12862,6 +12870,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T014230Z" creationid="grass" creationdate="20201208T014146Z">
         <seg>如果您愿意，可以使用Auto Fill mode让Emacs在行过长时自动插入换行符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you press the left mouse button (&lt;k0&gt;down-mouse-1&lt;/k0&gt;) and drag the mouse across a range of text, this sets the mark where you first pressed the mouse button and puts point where you release it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T070123Z" creationid="grass" creationdate="20201228T070123Z">
+        <seg>如果您按下鼠标左键(&lt;k0&gt;down-mouse-1&lt;/k0&gt;)并在一系列文本上拖动鼠标，则会在您第一次按下鼠标按键的位置设置标记，并将游标放在您松开它的位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27388,6 +27404,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T023158Z" creationid="grass" creationdate="20201019T023158Z">
         <seg>您还可以设置文件中的所有条目都应该继承的标签，就像这些标签是在围绕整个文件的假设级别0中定义的一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also set the mark with the mouse.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T063856Z" creationid="grass" creationdate="20201228T063856Z">
+        <seg>您也可以用鼠标设置标记。</seg>
       </tuv>
     </tu>
     <tu>
