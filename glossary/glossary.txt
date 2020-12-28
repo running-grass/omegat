@@ -291,4 +291,4 @@ highlight	高亮
 drag-mouse-1	鼠标左键拖拽
 deactive	取消激活
 mouse-2	鼠标中键
-mouse-3	鼠标又键
+mouse-3	鼠标右键
