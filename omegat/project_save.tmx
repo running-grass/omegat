@@ -4477,6 +4477,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k2&gt;C-x C-x&lt;/k2&gt; is useful when you are satisfied with the position of point but want to move the other end of the region (where the mark is).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T063744Z" creationid="grass" creationdate="20201228T063744Z">
+        <seg>&lt;k2&gt;C-x C-x&lt;/k2&gt;如果您对游标的位置感到满意，但想要移动区域的另一端(标记所在的位置)，则&lt;k2&gt;C-x C-x&lt;/k2&gt;非常有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k2&gt;M-x&lt;/k2&gt; uses the minibuffer to read the command name.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T121336Z" creationid="grass" creationdate="20201215T121336Z">
@@ -17638,6 +17646,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Normally, if the mark is inactive, this command first reactivates the mark wherever it was last set, to ensure that the region is left highlighted.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T063819Z" creationid="grass" creationdate="20201228T063819Z">
+        <seg>通常，如果标记处于非激活状态，此命令会首先在上次设置标记的位置重新激活标记，以确保选区保持高亮显示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Normally, if there is more than one completion alternative for the text in the minibuffer, a completion command completes up to the longest common substring.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111827Z" creationid="grass" creationdate="20201212T111827Z">
@@ -25955,6 +25971,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201005T130617Z" creationid="grass" creationdate="20201005T130617Z">
         <seg>用户定义的标签以小写形式编写； 具有特殊含义的内置标签应按应在文档中出现的方式书写，通常使用全大写。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using &lt;k3&gt;C-x C-x&lt;/k3&gt; a second time, if necessary, puts the mark at the new position with point back at its original position.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T063756Z" creationid="grass" creationdate="20201228T063756Z">
+        <seg>如有必要，请再次使用&lt;k3&gt;C-x C-x&lt;/k3&gt;将标记放在新位置，并将游标放回其原始位置。</seg>
       </tuv>
     </tu>
     <tu>
