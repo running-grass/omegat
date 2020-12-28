@@ -13970,6 +13970,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It sets the mark at point before moving point, but only if there is no active mark set via a previous shift-selection or mouse commands.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T072633Z" creationid="grass" creationdate="20201228T072633Z">
+        <seg>它在移动游标之前的游标处设置标记，但仅当没有通过先前按住Shift键选择或鼠标命令设置的激活标记时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It's easiest to install EBDB from the ELPA package repositories,
 though it's also possible to clone the package from [[https:github.com/girzel/ebdb][Github]] and put it
 on your load path.</seg>
@@ -23525,6 +23533,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The mark set by mouse commands and by shift-selection behaves slightly differently from the usual mark: any subsequent unshifted cursor motion command deactivates it automatically.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T072700Z" creationid="grass" creationdate="20201228T072700Z">
+        <seg>由鼠标命令和按住Shift键并选择设置的标记的行为与通常的标记略有不同：任何后续未移动的光标移动命令都会自动将其取消激活。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The mark: how to delimit a region of text.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201223T100411Z" creationid="grass" creationdate="20201223T100411Z">
@@ -24667,6 +24683,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013844Z" creationid="grass" creationdate="20201208T013844Z">
         <seg>这称为&lt;e2&gt;换行&lt;/e2&gt;或&lt;e3&gt;继续&lt;/e3&gt;，长逻辑行称为&lt;e4&gt;连续行&lt;/e4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is called &lt;e4&gt;shift-selection&lt;/e4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T072545Z" creationid="grass" creationdate="20201228T072545Z">
+        <seg>这称为&lt;e4&gt;Shift选择&lt;/e4&gt;。</seg>
       </tuv>
     </tu>
     <tu>
