@@ -5430,6 +5430,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Alternatively, clicking the right mouse button (&lt;k1&gt;mouse-3&lt;/k1&gt;) sets the mark at point and then moves point to where you clicked.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T070359Z" creationid="grass" creationdate="20201228T070359Z">
+        <seg>或者，单击鼠标右键(&lt;k1&gt;mouse-3&lt;/k1&gt;)将标记设置在游标上，然后将游标移动到您单击的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Alternatively, you can ignore the default, and enter an absolute file name starting with a slash or a tilde after the default directory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T101044Z" creationid="grass" creationdate="20201212T101044Z">
