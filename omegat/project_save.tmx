@@ -13674,6 +13674,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Instead of setting the mark in order to operate on a region, you can also use it to remember a position in the buffer (by typing &lt;k0&gt;C-&lt;s1&gt;SPC&lt;/s1&gt; C-&lt;s2&gt;SPC&lt;/s2&gt;&lt;/k0&gt;), and later jump back there (by typing &lt;k3&gt;C-u C-&lt;s4&gt;SPC&lt;/s4&gt;&lt;/k3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T061917Z" creationid="grass" creationdate="20201228T061917Z">
+        <seg>您也可以使用它来记住缓冲区中的一个位置(通过键入&lt;k0&gt;C-&lt;s1&gt;SPC&lt;/s1&gt;C-&lt;s2&gt;SPC&lt;/s2&gt;&lt;/k0&gt;)，然后跳回那里(通过键入&lt;k3&gt;C-u C-&lt;s4&gt;SPC&lt;/k3&gt;)，而不是设置标记以便对选区进行操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Instead of typing &lt;k0&gt;M-1&lt;/k0&gt;, &lt;k1&gt;M-2&lt;/k1&gt;, and so on, another way to specify a numeric argument is to type &lt;k2&gt;C-u&lt;/k2&gt; (&lt;c3&gt;universal-argument&lt;/c3&gt;) followed by some digits, or (for a negative argument) a minus sign followed by digits.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021144Z" creationid="grass" creationdate="20201209T021144Z">
@@ -15138,6 +15146,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013910Z" creationid="grass" creationdate="20201208T013910Z">
         <seg>大多数作用于行的命令作用于逻辑行，而不是屏幕行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Most commands that operate on the region also automatically deactivate the mark, like &lt;k2&gt;C-x C-u&lt;/k2&gt; in the above example.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T061801Z" creationid="grass" creationdate="20201228T061801Z">
+        <seg>在该选区上操作的大多数命令也会自动取消激活该标记，如上例中的&lt;k2&gt;C-x C-u&lt;/k2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20842,6 +20858,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a5&gt;Mark Ring&lt;/a5&gt;, for details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T061923Z" creationid="grass" creationdate="20201228T061923Z">
+        <seg>有关详细信息，请参阅&lt;a5&gt;标记环&lt;/a5&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a5&gt;Point&lt;/a5&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T074702Z" creationid="grass" creationdate="20201205T074702Z">
@@ -22881,6 +22905,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T014313Z" creationid="grass" creationdate="20201209T014152Z">
         <seg>命令&lt;k0&gt;C-x =&lt;/k0&gt;(&lt;c1&gt;what-cursor-position&lt;/c1&gt;)显示有关当前光标位置和该位置的缓冲区内容的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The command &lt;k0&gt;C-x C-x&lt;/k0&gt; (&lt;c1&gt;exchange-point-and-mark&lt;/c1&gt;) exchanges the positions of point and the mark.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T063721Z" creationid="grass" creationdate="20201228T063721Z">
+        <seg>命令&lt;k0&gt;C-x C-x&lt;/k0&gt;(&lt;c1&gt;exchange-point-and-mark&lt;/c1&gt;)交换游标和标记的位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26732,6 +26764,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T114736Z" creationid="grass" creationdate="20201130T114736Z">
         <seg>启动Emacs时，窗体中通常只有一个窗口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whenever the mark is active, you can deactivate it by typing &lt;k0&gt;C-g&lt;/k0&gt; (see &lt;a1&gt;Quitting&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T061745Z" creationid="grass" creationdate="20201228T061745Z">
+        <seg>只要标记处于激活状态，您就可以通过键入&lt;k0&gt;C-g&lt;/k0&gt;将其取消激活(请参阅&lt;a1&gt;退出&lt;/a1&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
