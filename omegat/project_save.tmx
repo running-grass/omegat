@@ -10186,6 +10186,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For details, see &lt;a5&gt;Shift Selection&lt;/a5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T072708Z" creationid="grass" creationdate="20201228T072708Z">
+        <seg>有关详细信息，请参阅&lt;a5&gt;Shift选择&lt;/a5&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For even greater flexibility, you can specify a regular expression (see &lt;a0&gt;Regexps&lt;/a0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072300Z" creationid="grass" creationdate="20201227T072300Z">
@@ -14898,6 +14906,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T140338Z" creationid="grass" creationdate="20200927T140108Z">
         <seg>如果某区域为&lt;e0&gt;活跃状态&lt;/e0&gt;，则Org中的许多命令都可以在该区域上使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Many commands that insert text, such as &lt;k0&gt;C-y&lt;/k0&gt; (&lt;c1&gt;yank&lt;/c1&gt;), set the mark at the other end of the inserted text, without activating it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T072725Z" creationid="grass" creationdate="20201228T072725Z">
+        <seg>许多插入文本的命令(如&lt;k0&gt;C-y&lt;/k0&gt;(&lt;c1&gt;yank&lt;/c1&gt;))会在插入的文本的另一端设置标记，而不激活它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24799,6 +24815,22 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This lets you easily return to that position (see &lt;a2&gt;Mark Ring&lt;/a2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T072731Z" creationid="grass" creationdate="20201228T072731Z">
+        <seg>这使您可以轻松地返回到该位置(请参阅&lt;a2&gt;标记环&lt;/a2&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This lets you insert that text into other X applications with &lt;k1&gt;mouse-2&lt;/k1&gt; clicks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T072811Z" creationid="grass" creationdate="20201228T072811Z">
+        <seg>这允许您通过单击鼠标&lt;k1&gt;&lt;/k1&gt;将该文本插入到其他X应用程序中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This letter or digit is separated from the item name by ‘&lt;s8&gt;==&gt;&lt;/s8&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032631Z" creationid="grass" creationdate="20201203T032631Z">
@@ -25867,6 +25899,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100825Z" creationid="grass" creationdate="20201014T100825Z">
         <seg>指向互联网的类似URL的链接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Under X, every time the active region changes, Emacs saves the text in the region to the &lt;e0&gt;primary selection&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T072807Z" creationid="grass" creationdate="20201228T072807Z">
+        <seg>在X下，每次激活选区更改时，Emacs都会将选区中的文本保存到&lt;e0&gt;主选择&lt;/e0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27756,6 +27796,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200929T080240Z" creationid="grass" creationdate="20200929T080122Z">
         <seg>你可以从&lt;a1&gt;这个页面&lt;/a1&gt;订阅此列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can tell that a command does this when it shows ‘&lt;s3&gt;Mark set&lt;/s3&gt;’ in the echo area.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T072744Z" creationid="grass" creationdate="20201228T072744Z">
+        <seg>当命令在回显区显示“&lt;s3&gt;Mark set&lt;/s3&gt;”时，您可以看出该命令是这样做的。</seg>
       </tuv>
     </tu>
     <tu>
