@@ -6502,6 +6502,22 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-&lt;s0&gt;SPC&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060252Z" creationid="grass" creationdate="20201228T060252Z">
+        <seg>C-&lt;s0&gt;SPC&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-@</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060611Z" creationid="grass" creationdate="20201228T060611Z">
+        <seg>C-@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-_</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152425Z" creationid="grass" creationdate="20201207T152425Z">
@@ -11298,6 +11314,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here are some commands for setting the mark:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060247Z" creationid="grass" creationdate="20201228T060247Z">
+        <seg>以下是设置标记的一些命令：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here are some examples, using only tags.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201022T143408Z" creationid="Eli" creationdate="20201022T143350Z">
@@ -14178,6 +14202,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052309Z" creationid="grass" creationdate="20201013T052309Z">
         <seg>语言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Leaving regions unhighlighted by default.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060205Z" creationid="grass" creationdate="20201228T060205Z">
+        <seg>默认情况下不高亮显示选区。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20938,6 +20970,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set the mark at point, and activate it (&lt;c0&gt;set-mark-command&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060307Z" creationid="grass" creationdate="20201228T060301Z">
+        <seg>将标记设置在游标上，并将其激活(&lt;c0&gt;set-mark-command&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Setting &lt;c0&gt;org-catch-invisible-edits&lt;/c0&gt; to non-&lt;c1&gt;nil&lt;/c1&gt; helps preventing this.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182348Z" creationid="grass" creationdate="20201010T182348Z">
@@ -20966,6 +21006,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T202241Z" creationid="grass" creationdate="20201010T202241Z">
         <seg>设置自定义命令的选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Setting the Mark</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060245Z" creationid="grass" creationdate="20201228T060245Z">
+        <seg>设置标记</seg>
       </tuv>
     </tu>
     <tu>
@@ -61272,6 +61320,14 @@ Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T101828Z" creationid="grass" creationdate="20201014T101828Z">
         <seg>• &lt;a0&gt;列定义&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>• &lt;a0&gt;Disabled Transient Mark&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060148Z" creationid="grass" creationdate="20201228T060148Z">
+        <seg>• &lt;a0&gt;禁用Transient Mark&lt;/a0&gt;:</seg>
       </tuv>
     </tu>
     <tu>
