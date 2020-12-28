@@ -287,3 +287,5 @@ local	本地
 local	局部
 active	交互
 active text	交互文本
+deactive	停用
+highlight	高亮
