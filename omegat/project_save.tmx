@@ -8278,14 +8278,6 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Disabled Transient Mark</seg>
-      </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T055017Z" creationid="grass" creationdate="20201228T022138Z">
-        <seg>禁用的标记</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>Display a description of your last 300 keystrokes (&lt;c0&gt;view-lossage&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153250Z" creationid="grass" creationdate="20201226T153250Z">
@@ -14174,14 +14166,6 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
-        <seg>Leaving regions unhighlighted by default.</seg>
-      </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T022154Z" creationid="grass" creationdate="20201228T022154Z">
-        <seg>默认情况下不高亮显示区域。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
         <seg>Let’s say you will have to pay a bill in a month.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T083748Z" creationid="grass" creationdate="20201015T083737Z">
@@ -14770,6 +14754,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T120917Z" creationid="grass" creationdate="20201130T115851Z">
         <seg>许多Emacs命令将游标移动到缓冲区中的不同位置；例如，您可以通过单击鼠标键1(通常是左键)将游标放在所需位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Many Emacs commands operate on an arbitrary contiguous part of the current buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T055137Z" creationid="grass" creationdate="20201228T055137Z">
+        <seg>许多Emacs命令在当前缓冲区的任意连续部分上操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23469,6 +23461,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The region always extends between point and the mark, no matter which one comes earlier in the text; each time you move point, the region changes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T055312Z" creationid="grass" creationdate="20201228T055312Z">
+        <seg>选区始终在游标和标记之间延伸，无论文本中哪一个在前面；每次移动游标时，区域都会发生变化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The second type of yes-or-no query is typically employed if giving the wrong answer would have serious consequences; it thus features a longer prompt ending with ‘&lt;s0&gt;(yes or no)&lt;/s0&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T030328Z" creationid="grass" creationdate="20201215T030328Z">
@@ -23561,6 +23561,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024728Z" creationid="grass" creationdate="20201019T024728Z">
         <seg>标签界面在启动窗口中显示可用标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The text between point and the mark is called &lt;e1&gt;the region&lt;/e1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T055209Z" creationid="grass" creationdate="20201228T055209Z">
+        <seg>游标和标记之间的文本称为&lt;e1&gt;选区&lt;/e1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25139,6 +25147,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T100910Z" creationid="grass" creationdate="20201212T100910Z">
         <seg>要在完全不同的目录中指定文件，可以使用&lt;k0&gt;C-a C-k&lt;/k0&gt;终止整个默认文件(请参阅&lt;a1&gt;迷你缓冲区编辑&lt;/a1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To specify the text for such a command to operate on, you set &lt;e0&gt;the mark&lt;/e0&gt; at one end of it, and move point to the other end.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T055154Z" creationid="grass" creationdate="20201228T055154Z">
+        <seg>要为此类命令指定要操作的文本，请在其一端设置&lt;e0&gt;标记&lt;/e0&gt;，然后将指针移到另一端。</seg>
       </tuv>
     </tu>
     <tu>
