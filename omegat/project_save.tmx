@@ -4479,8 +4479,8 @@ management software, start by calling the command ~ebdb-open~.</seg>
       <tuv lang="EN-US">
         <seg>&lt;k2&gt;C-x C-x&lt;/k2&gt; is useful when you are satisfied with the position of point but want to move the other end of the region (where the mark is).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T063744Z" creationid="grass" creationdate="20201228T063744Z">
-        <seg>&lt;k2&gt;C-x C-x&lt;/k2&gt;如果您对游标的位置感到满意，但想要移动区域的另一端(标记所在的位置)，则&lt;k2&gt;C-x C-x&lt;/k2&gt;非常有用。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T073512Z" creationid="grass" creationdate="20201228T063744Z">
+        <seg>如果您对游标的位置感到满意，但想要移动区域的另一端(标记所在的位置)，则&lt;k2&gt;C-x C-x&lt;/k2&gt;非常有用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13724,8 +13724,8 @@ USA</seg>
       <tuv lang="EN-US">
         <seg>Instead of setting the mark in order to operate on a region, you can also use it to remember a position in the buffer (by typing &lt;k0&gt;C-&lt;s1&gt;SPC&lt;/s1&gt; C-&lt;s2&gt;SPC&lt;/s2&gt;&lt;/k0&gt;), and later jump back there (by typing &lt;k3&gt;C-u C-&lt;s4&gt;SPC&lt;/s4&gt;&lt;/k3&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T061917Z" creationid="grass" creationdate="20201228T061917Z">
-        <seg>您也可以使用它来记住缓冲区中的一个位置(通过键入&lt;k0&gt;C-&lt;s1&gt;SPC&lt;/s1&gt;C-&lt;s2&gt;SPC&lt;/s2&gt;&lt;/k0&gt;)，然后跳回那里(通过键入&lt;k3&gt;C-u C-&lt;s4&gt;SPC&lt;/k3&gt;)，而不是设置标记以便对选区进行操作。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T073452Z" creationid="grass" creationdate="20201228T061917Z">
+        <seg>您也可以使用它来记住缓冲区中的一个位置(通过键入&lt;k0&gt;C-&lt;s1&gt;SPC&lt;/s1&gt;C-&lt;s2&gt;SPC&lt;/s2&gt;&lt;/k0&gt;)，然后跳回那里(通过键入&lt;k3&gt;C-u C-&lt;s4&gt;SPC&lt;/s4&gt;&lt;/k3&gt;)，而不是设置标记以便对选区进行操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20802,6 +20802,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a2&gt;Primary Selection&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T073403Z" creationid="grass" creationdate="20201228T073403Z">
+        <seg>请参阅&lt;a2&gt;主选择&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a2&gt;Select Input Method&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064339Z" creationid="grass" creationdate="20201227T064339Z">
@@ -24825,8 +24833,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>This lets you insert that text into other X applications with &lt;k1&gt;mouse-2&lt;/k1&gt; clicks.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T072811Z" creationid="grass" creationdate="20201228T072811Z">
-        <seg>这允许您通过单击鼠标&lt;k1&gt;&lt;/k1&gt;将该文本插入到其他X应用程序中。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T073356Z" creationid="grass" creationdate="20201228T072811Z">
+        <seg>这允许您通过单击&lt;k1&gt;鼠标中键&lt;/k1&gt;将该文本插入到其他X应用程序中。</seg>
       </tuv>
     </tu>
     <tu>
