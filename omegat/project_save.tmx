@@ -8710,6 +8710,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Drag-mouse-1</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060805Z" creationid="grass" creationdate="20201228T060805Z">
+        <seg>鼠标左键拖拽</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Drawers</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T194611Z" creationid="grass" creationdate="20201010T194611Z">
@@ -20978,6 +20986,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set point and the mark around the text you drag across.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060853Z" creationid="grass" creationdate="20201228T060808Z">
+        <seg>设置游标和您拖过的文本周围的标记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set the mark at point, and activate it (&lt;c0&gt;set-mark-command&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060307Z" creationid="grass" creationdate="20201228T060301Z">
@@ -20990,6 +21006,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060740Z" creationid="grass" creationdate="20201228T060740Z">
         <seg>将标记设置在游标上，并将其激活；然后将游标移动到标记原来所在的位置(&lt;c0&gt;exchange-point-and-mark&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the mark at point, then move point to where you click (&lt;c0&gt;mouse-save-then-kill&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060943Z" creationid="grass" creationdate="20201228T060943Z">
+        <seg>将标记设置在游标上，然后将游标移动到您单击的位置(&lt;c0&gt;mouse-save-then-kill&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -60338,6 +60362,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072751Z" creationid="grass" creationdate="20201212T105046Z">
         <seg>鼠标右键</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mouse-3</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T061131Z" creationid="grass" creationdate="20201228T061131Z">
+        <seg>鼠标中键</seg>
       </tuv>
     </tu>
     <tu>
