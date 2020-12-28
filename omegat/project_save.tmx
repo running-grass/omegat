@@ -8278,6 +8278,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Disabled Transient Mark</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T055017Z" creationid="grass" creationdate="20201228T022138Z">
+        <seg>禁用的标记</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Display a description of your last 300 keystrokes (&lt;c0&gt;view-lossage&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201226T153250Z" creationid="grass" creationdate="20201226T153250Z">
@@ -14162,6 +14170,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052309Z" creationid="grass" creationdate="20201013T052309Z">
         <seg>语言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Leaving regions unhighlighted by default.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T022154Z" creationid="grass" creationdate="20201228T022154Z">
+        <seg>默认情况下不高亮显示区域。</seg>
       </tuv>
     </tu>
     <tu>
