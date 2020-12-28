@@ -20946,6 +20946,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Setting the mark at a position in the text also &lt;e0&gt;activates&lt;/e0&gt; it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T055337Z" creationid="grass" creationdate="20201228T055337Z">
+        <seg>将标记设置在文本中的某个位置也会&lt;e0&gt;激活&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Setting up capture</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201445Z" creationid="grass" creationdate="20201010T201445Z">
@@ -24383,6 +24391,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is one of the few faces that has the &lt;c0&gt;:extend t&lt;/c0&gt; attribute by default, which implies that the same face is used to highlight the text and space between end of line and the window border.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T055512Z" creationid="grass" creationdate="20201228T055512Z">
+        <seg>这是默认情况下具有&lt;c0&gt;:extend t&lt;/c0&gt;属性的少数几个字符样式之一，这意味着使用相同的字符样式来突出显示行尾和窗口边框之间的文本和空格。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is really only my way of doing it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T084746Z" creationid="grass" creationdate="20201015T084619Z">
@@ -24955,6 +24971,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201014T144925Z" creationid="Eli" creationdate="20201014T144925Z">
         <seg>你如果要查看所有未完成的行动事项，或者某些特定日期的重要事件，那么必须要有一种方式来有组织地收集、分类和展示这些信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To highlight only the text you could set this attribute to &lt;c1&gt;nil&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T055520Z" creationid="grass" creationdate="20201228T055520Z">
+        <seg>要仅突出显示文本，可以将此属性设置为&lt;c1&gt;nil&lt;/c1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26300,6 +26324,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100929Z" creationid="grass" creationdate="20201014T100929Z">
         <seg>当默认搜索不够用时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the mark is active, we say also that the region is active; Emacs indicates its extent by highlighting the text within it, using the &lt;c1&gt;region&lt;/c1&gt; face (see &lt;a2&gt;Face Customization&lt;/a2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T055435Z" creationid="grass" creationdate="20201228T055435Z">
+        <seg>当标记处于激活状态时，我们还表示选区处于激活状态；Emacs通过使用&lt;c1&gt;选区&lt;/c1&gt;字符样式突出显示其中的文本来指示其范围(请参阅&lt;a2&gt;字符样式自定义&lt;/a2&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
