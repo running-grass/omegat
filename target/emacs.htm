@@ -512,39 +512,29 @@ The Organization of the Screen
 <td>有关交互文本和工具提示的帮助。
 </td></tr>
 <tr><th colspan="2" align="left" style="text-align:left">
-
-The Mark and the Region
-
-
+标记与选区
 
 </th></tr>
-<tr><td bgcolor="white"><a href="#Setting-Mark">Setting Mark</a></td>
-<td>Commands to set the mark.
-
+<tr><td bgcolor="white"><a href="#Setting-Mark">设置标记</a></td>
+<td>设置标记的命令。
 </td></tr>
-<tr><td bgcolor="white"><a href="#Marking-Objects">Marking Objects</a></td>
-<td>Commands to put region around textual units.
-
+<tr><td bgcolor="white"><a href="#Marking-Objects">标记对象</a></td>
+<td>在文本单元周围设置选区的命令。
 </td></tr>
-<tr><td bgcolor="white"><a href="#Using-Region">Using Region</a></td>
-<td>Summary of ways to operate on contents of the region.
-
+<tr><td bgcolor="white"><a href="#Using-Region">使用选区</a></td>
+<td>对选区内容进行操作的方法摘要。
 </td></tr>
-<tr><td bgcolor="white"><a href="#Mark-Ring">Mark Ring</a></td>
-<td>Previous mark positions saved so you can go back there.
-
+<tr><td bgcolor="white"><a href="#Mark-Ring">标记环</a></td>
+<td>以前的标记位置已保存，以便您可以回到那里。
 </td></tr>
-<tr><td bgcolor="white"><a href="#Global-Mark-Ring">Global Mark Ring</a></td>
-<td>Previous mark positions in various buffers.
-
+<tr><td bgcolor="white"><a href="#Global-Mark-Ring">全局标志环</a></td>
+<td>各个缓冲区中的先前标记位置。
 </td></tr>
-<tr><td bgcolor="white"><a href="#Shift-Selection">Shift Selection</a></td>
-<td>Using shifted cursor motion keys.
-
+<tr><td bgcolor="white"><a href="#Shift-Selection">Shift选择</a></td>
+<td>使用Shift修饰的光标移动键。
 </td></tr>
 <tr><td bgcolor="white"><a href="#Disabled-Transient-Mark">Disabled Transient Mark</a></td>
-<td>Leaving regions unhighlighted by default.
-
+<td>默认情况下不高亮显示选区。
 </td></tr>
 <tr><th colspan="2" align="left" style="text-align:left">
 
@@ -4909,7 +4899,7 @@ Next: <a href="#Completion-Exit" accesskey="n" rel="next">Completion Exit</a>, P
 </dd>
 <dt><kbd><span class="key">RET</span></kbd></dt>
 <dt><kbd>鼠标左键</kbd></dt>
-<dt><kbd>鼠标右键</kbd></dt>
+<dt><kbd>鼠标中键</kbd></dt>
 <dd><p>在补全列表缓冲区中时，这将在游标处选择补全(<code>choose-completion</code>)。
 </p>
 <a name="index-next_002dcompletion"></a>
@@ -5567,7 +5557,7 @@ Next: <a href="#Help-Mode" accesskey="n" rel="next">Help Mode</a>, Previous: <a 
 
 <p>最简单的一种主题搜索的句型就是一个词。任何包含这个词的东西都符合这个模式。因此，要查找处理文件的命令，请键入<kbd>C-h a file<span class="key">RET</span></kbd>。这将显示包含“<samp>file</samp>”的所有命令名列表，包括<code>copy-file</code>、<code>find-file</code>等等。每个命令名都有一个简短的描述和当前可以用来调用它的键的列表。在我们的示例中，可以通过键入<kbd>C-x C-f</kbd>来调用<code>find-file</code>。
 </p>
-<p>有关主题搜索缓冲区中列出的函数定义、变量或符号属性的更多信息，您可以使用<kbd>鼠标左键</kbd>或<kbd>鼠标右键</kbd>单击它，或者移动到那里并键入<tt class="key">RET</tt>。
+<p>有关主题搜索缓冲区中列出的函数定义、变量或符号属性的更多信息，您可以使用<kbd>鼠标左键</kbd>或<kbd>鼠标中键</kbd>单击它，或者移动到那里并键入<tt class="key">RET</tt>。
 </p>
 <p>当您在主题搜索模式中指定多个单词时，名称必须至少包含两个单词才能匹配。因此，如果您正在寻找在游标之前删除文本块的命令，您可以尝试<kbd>C-h a kill back backward behind before <span class="key">RET</span></kbd>实际的命令名<code>kill-backward</code>将与此匹配；如果有命令<code>kill-text-before</code>，它也会匹配，因为它包含两个指定的单词。
 </p>
@@ -5615,7 +5605,7 @@ Next: <a href="#Package-Keywords" accesskey="n" rel="next">Package Keywords</a>,
 <dd><p>将游标移回上一个超链接(<code>backward-button</code>)。
 </p></dd>
 <dt><kbd>鼠标左键</kbd></dt>
-<dt><kbd>鼠标右键</kbd></dt>
+<dt><kbd>鼠标中键</kbd></dt>
 <dd><p>点击一个超链接。
 </p></dd>
 <dt><kbd>C-c C-c</kbd></dt>
@@ -5640,7 +5630,7 @@ Next: <a href="#Package-Keywords" accesskey="n" rel="next">Package Keywords</a>,
 <a name="index-l-_0028Help-mode_0029"></a>
 <a name="index-C_002dc-C_002df-_0028Help-mode_0029"></a>
 <a name="index-r-_0028Help-mode_0029"></a>
-<p>当函数名、变量名或字符样式名(请参阅<a href="#Faces">字符样式</a>)出现在帮助缓冲区的文档中时，它通常是带下划线的<em>超链接</em>。要查看相关文档，请将游标移至此处并键入<tt class="key">RET</tt>(<code>help-follow</code>)，或使用<kbd>鼠标左键</kbd>或<kbd>鼠标右键</kbd>单击超链接。这样做将替换帮助缓冲区的内容；要回溯您的步骤，请键入<kbd>C-c C-b</kbd>或<kbd>l</kbd>(<code>help-go-back</code>)。回溯步骤时，可以使用<kbd>C-c C-f</kbd>或<kbd>r</kbd>(<code>help-go-forward</code>)继续。
+<p>当函数名、变量名或字符样式名(请参阅<a href="#Faces">字符样式</a>)出现在帮助缓冲区的文档中时，它通常是带下划线的<em>超链接</em>。要查看相关文档，请将游标移至此处并键入<tt class="key">RET</tt>(<code>help-follow</code>)，或使用<kbd>鼠标左键</kbd>或<kbd>鼠标中键</kbd>单击超链接。这样做将替换帮助缓冲区的内容；要回溯您的步骤，请键入<kbd>C-c C-b</kbd>或<kbd>l</kbd>(<code>help-go-back</code>)。回溯步骤时，可以使用<kbd>C-c C-f</kbd>或<kbd>r</kbd>(<code>help-go-forward</code>)继续。
 </p>
 <a name="index-URL_002c-viewing-in-help"></a>
 <a name="index-help_002c-viewing-web-pages"></a>
@@ -5675,7 +5665,7 @@ Next: <a href="#Language-Help" accesskey="n" rel="next">Language Help</a>, Previ
 </p>
 <a name="index-describe_002dpackage"></a>
 <a name="index-C_002dh-P"></a>
-<p><kbd>C-h P</kbd>(<code>describe-package</code>)提示输入包的名称(请参阅<a href="#Packages">包</a>)，并显示描述包的属性及其实现的功能的帮助缓冲区。缓冲区以按钮的形式列出与包相关的关键字。用<kbd>鼠标左键</kbd>或<kbd>鼠标右键</kbd>单击一个按钮，查看与该关键字相关的其他软件包的列表。
+<p><kbd>C-h P</kbd>(<code>describe-package</code>)提示输入包的名称(请参阅<a href="#Packages">包</a>)，并显示描述包的属性及其实现的功能的帮助缓冲区。缓冲区以按钮的形式列出与包相关的关键字。用<kbd>鼠标左键</kbd>或<kbd>鼠标中键</kbd>单击一个按钮，查看与该关键字相关的其他软件包的列表。
 </p>
 
 <a name="Language-Help"></a>
@@ -5841,84 +5831,43 @@ Previous: <a href="#Help-Files" accesskey="p" rel="prev">Help Files</a>, Up: <a 
 Next: <a href="#Killing" accesskey="n" rel="next">Killing</a>, Previous: <a href="#Help" accesskey="p" rel="prev">Help</a>, Up: <a href="#Top" accesskey="u" rel="up">Top</a> &nbsp; [<a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents" title="目录" rel="contents">Contents</a>][<a href="#Key-Index" title="主索引" rel="index">Index</a>]</p>
 </div>
 <a name="The-Mark-and-the-Region"></a>
-<h2 class="chapter">11The Mark and the Region</h2>
+<h2 class="chapter">11标记与选区</h2>
 <a name="index-mark"></a>
 <a name="index-setting-a-mark"></a>
 <a name="index-region"></a>
 
-<p>Many Emacs commands operate on an arbitrary contiguous part of the
-current buffer.  To specify the text for such a command to operate on,
-you set <em>the mark</em> at one end of it, and move point to the other
-end.  The text between point and the mark is called <em>the region</em>.
-The region always extends between point and the mark, no matter which
-one comes earlier in the text; each time you move point, the region
-changes.
-
+<p>许多Emacs命令在当前缓冲区的任意连续部分上操作。要为此类命令指定要操作的文本，请在其一端设置<em>标记</em>，然后将指针移到另一端。游标和标记之间的文本称为<em>选区</em>。选区始终在游标和标记之间延伸，无论文本中哪一个在前面；每次移动游标时，选区都会发生变化。
 </p>
 <a name="index-active-region"></a>
 <a name="index-activating-the-mark"></a>
-<p>Setting the mark at a position in the text also <em>activates</em> it.
-When the mark is active, we say also that the region is active; Emacs
-indicates its extent by highlighting the text within it, using the
-<code>region</code> face (see <a href="#Face-Customization">Face Customization</a>).
-
+<p>将标记设置在文本中的某个位置也会<em>激活</em>。当标记处于激活状态时，我们还表示选区处于激活状态；Emacs通过使用<code>选区</code>字符样式高亮显示其中的文本来指示其范围(请参阅<a href="#Face-Customization">字符样式自定义</a>)。
 </p>
-<p>This is one of the few faces that has the <code>:extend t</code> attribute
-by default, which implies that the same face is used to highlight the
-text and space between end of line and the window border.  To
-highlight only the text you could set this attribute to <code>nil</code>.
-
+<p>这是默认情况下具有<code>:extend t</code>属性的少数几个字符样式之一，这意味着使用相同的字符样式来突出显示行尾和窗口边框之间的文本和空格。要仅突出显示文本，可以将此属性设置为<code>nil</code>。
 </p>
 <a name="index-deactivating-the-mark"></a>
-<p>After certain non-motion commands, including any command that
-changes the text in the buffer, Emacs automatically <em>deactivates</em>
-the mark; this turns off the highlighting.  You can also explicitly
-deactivate the mark at any time, by typing <kbd>C-g</kbd>
-(see <a href="#Quitting">Quitting</a>).
-
+<p>在某些非移动命令(包括更改缓冲区中的文本的任何命令)之后，Emacs会自动<em>取消激活</em>标记；这会关闭高亮显示。您还可以随时通过键入<kbd>C-g</kbd>来显式取消激活标记(请参阅<a href="#Quitting">退出</a>)。
 </p>
-<p>The above default behavior is known as Transient Mark mode.
-Disabling Transient Mark mode switches Emacs to an alternative
-behavior, in which the region is usually not highlighted.
-See <a href="#Disabled-Transient-Mark">Disabled Transient Mark</a>.
-
+<p>上述默认行为称为Transient Mark mode。禁用Transient Mark mode会将Emacs切换到另一种行为，在该行为中，该区域通常不会高亮显示。请参阅<a href="#Disabled-Transient-Mark">禁用Transient Mark</a>。
 </p>
 <a name="index-highlight_002dnonselected_002dwindows"></a>
-<p>Setting the mark in one buffer has no effect on the marks in other
-buffers.  When you return to a buffer with an active mark, the mark is
-at the same place as before.  When multiple windows show the same
-buffer, they can have different values of point, and thus different
-regions, but they all share one common mark position.  See <a href="#Windows">Windows</a>.
-Ordinarily, only the selected window highlights its region; however,
-if the variable <code>highlight-nonselected-windows</code> is
-non-<code>nil</code>, each window highlights its own region.
-
+<p>在一个缓冲区中设置标记不会影响其他缓冲区中的标记。当您返回到具有激活标记的缓冲区时，该标记位于与以前相同的位置。当多个窗口显示相同的缓冲区时，它们可以具有不同的游标，从而具有不同的选区，但它们都共享一个共同的标记位置。请参阅<a href="#Windows">窗口</a>。通常，只有选定的窗口会高亮显示其区域；但是，如果变量<code>highlight-nonselected-windows</code>是非<code>nil</code>，则每个窗口都会高亮显示自己的选区。
 </p>
-<p>There is another kind of region: the rectangular region.
-See <a href="#Rectangles">Rectangles</a>.
-
+<p>还有另一种选区：矩形选区。请参见<a href="#Rectangles">矩形</a>。
 </p>
 <table class="menu" border="0" cellspacing="0">
-<tbody><tr><td align="left" valign="top">• <a href="#Setting-Mark" accesskey="1">Setting Mark</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Commands to set the mark.
-
+<tbody><tr><td align="left" valign="top">• <a href="#Setting-Mark" accesskey="1">设置标记</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">设置标记的命令。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Marking-Objects" accesskey="2">Marking Objects</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Commands to put region around textual units.
-
+<tr><td align="left" valign="top">• <a href="#Marking-Objects" accesskey="2">标记对象</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">在文本单元周围设置选区的命令。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Using-Region" accesskey="3">Using Region</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Summary of ways to operate on contents of the region.
-
+<tr><td align="left" valign="top">• <a href="#Using-Region" accesskey="3">使用选区</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">对选区内容进行操作的方法摘要。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Mark-Ring" accesskey="4">Mark Ring</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Previous mark positions saved so you can go back there.
-
+<tr><td align="left" valign="top">• <a href="#Mark-Ring" accesskey="4">标记环</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">以前的标记位置已保存，以便您可以回到那里。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Global-Mark-Ring" accesskey="5">Global Mark Ring</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Previous mark positions in various buffers.
-
+<tr><td align="left" valign="top">• <a href="#Global-Mark-Ring" accesskey="5">全局标记环</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">各个缓冲区中的先前标记位置。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Shift-Selection" accesskey="6">Shift Selection</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Using shifted cursor motion keys.
-
+<tr><td align="left" valign="top">• <a href="#Shift-Selection" accesskey="6">Shift选择</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">使用Shift修饰的光标移动键。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Disabled-Transient-Mark" accesskey="7">Disabled Transient Mark</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">Leaving regions unhighlighted by default.
-
+<tr><td align="left" valign="top">• <a href="#Disabled-Transient-Mark" accesskey="7">禁用Transient Mark</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">默认情况下不高亮显示选区。
 </td></tr>
 </tbody></table>
 
@@ -5930,117 +5879,54 @@ See <a href="#Rectangles">Rectangles</a>.
 Next: <a href="#Marking-Objects" accesskey="n" rel="next">Marking Objects</a>, Up: <a href="#Mark" accesskey="u" rel="up">Mark</a> &nbsp; [<a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents" title="目录" rel="contents">Contents</a>][<a href="#Key-Index" title="主索引" rel="index">Index</a>]</p>
 </div>
 <a name="Setting-the-Mark"></a>
-<h3 class="section">11.1Setting the Mark</h3>
+<h3 class="section">11.1设置标记</h3>
 
-<p>Here are some commands for setting the mark:
-
+<p>以下是设置标记的一些命令：
 </p>
 <dl compact="compact">
 <dt><kbd>C-<span class="key">SPC</span></kbd></dt>
-<dd><p>Set the mark at point, and activate it (<code>set-mark-command</code>).
-
+<dd><p>将标记设置在游标上，并将其激活(<code>set-mark-command</code>)。
 </p></dd>
 <dt><kbd>C-@</kbd></dt>
-<dd><p>The same.
-
+<dd><p>一样的。
 </p></dd>
 <dt><kbd>C-x C-x</kbd></dt>
-<dd><p>Set the mark at point, and activate it; then move point where the mark
-used to be (<code>exchange-point-and-mark</code>).
-
+<dd><p>将标记设置在游标上，并将其激活；然后将游标移动到标记原来所在的位置(<code>exchange-point-and-mark</code>)。
 </p></dd>
-<dt><kbd>Drag-mouse-1</kbd></dt>
-<dd><p>Set point and the mark around the text you drag across.
-
+<dt><kbd>鼠标左键拖拽</kbd></dt>
+<dd><p>设置游标和您拖过的文本周围的标记。
 </p></dd>
-<dt><kbd>mouse-3</kbd></dt>
-<dd><p>Set the mark at point, then move point to where you click
-(<code>mouse-save-then-kill</code>).
-
+<dt><kbd>鼠标右键</kbd></dt>
+<dd><p>将标记设置在游标上，然后将游标移动到您单击的位置(<code>mouse-save-then-kill</code>)。
 </p></dd>
-<dt><kbd><span class="roman">Shifted cursor motion keys</span></kbd></dt>
-<dd><p>Set the mark at point if the mark is inactive, then move point.
-See <a href="#Shift-Selection">Shift Selection</a>.
-
+<dt><kbd><span class="roman">Shift+方向键</span></kbd></dt>
+<dd><p>如果标记处于非激活状态，则将标记设置在游标，然后移动游标。请参见<a href="#Shift-Selection">Shift选择</a>。
 </p></dd>
 </dl>
 
 <a name="index-C_002dSPC"></a>
 <a name="index-C_002d_0040"></a>
 <a name="index-set_002dmark_002dcommand"></a>
-<p>The most common way to set the mark is with <kbd>C-<span class="key">SPC</span></kbd>
-(<code>set-mark-command</code>)<a name="DOCF5" href="#FOOT5"><sup>5</sup></a>.  This sets the mark where point is,
-and activates it.  You can then move point away, leaving the mark
-behind.
-
+<p>设置标记的最常见方式是使用<kbd>C-<span class="key">spc</span></kbd>(<code>set-mark-command</code>)<a name="DOCF5" href="#FOOT5"><sup>5</sup></a>. 这将在游标所在的位置设置标记，并将其激活。然后，您可以将游标移开，留下标记。
 </p>
-<p>For example, suppose you wish to convert part of the buffer to upper
-case.  To accomplish this, go to one end of the desired text, type
-<kbd>C-<span class="key">SPC</span></kbd>, and move point until the desired portion of text is
-highlighted.  Now type <kbd>C-x C-u</kbd> (<code>upcase-region</code>).  This
-converts the text in the region to upper case, and then deactivates
-the mark.
-
+<p>例如，假设您希望将部分缓冲区转换为大写。为此，请转到所需文本的一端，键入<kbd>C-<span class="key">SPC</span></kbd>，然后移动游标，直到高亮显示所需文本部分。现在键入<kbd>C-x C-u</kbd>(<code>upcase-region</code>)。这会将区域中的文本转换为大写，然后取消激活标记。
 </p>
-<p>Whenever the mark is active, you can deactivate it by typing
-<kbd>C-g</kbd> (see <a href="#Quitting">Quitting</a>).  Most commands that operate on the
-region also automatically deactivate the mark, like <kbd>C-x C-u</kbd> in
-the above example.
-
+<p>只要标记处于激活状态，您就可以通过键入<kbd>C-g</kbd>将其取消激活(请参阅<a href="#Quitting">退出</a>)。在该选区上操作的大多数命令也会自动取消激活该标记，如上例中的<kbd>C-x C-u</kbd>。
 </p>
-<p>Instead of setting the mark in order to operate on a region, you can
-also use it to remember a position in the buffer (by typing
-<kbd>C-<span class="key">SPC</span> C-<span class="key">SPC</span></kbd>), and later jump back there (by typing
-<kbd>C-u C-<span class="key">SPC</span></kbd>).  See <a href="#Mark-Ring">Mark Ring</a>, for details.
-
+<p>您也可以使用它来记住缓冲区中的一个位置(通过键入<kbd>C-<span class="key">SPC</span>C-<span class="key">SPC</span></kbd>)，然后跳回那里(通过键入<kbd>C-u C-<span class="key">SPC</span></kbd>)，而不是设置标记以便对选区进行操作。有关详细信息，请参阅<a href="#Mark-Ring">标记环</a>。
 </p>
 <a name="index-C_002dx-C_002dx"></a>
 <a name="index-exchange_002dpoint_002dand_002dmark"></a>
-<p>The command <kbd>C-x C-x</kbd> (<code>exchange-point-and-mark</code>) exchanges
-the positions of point and the mark.  <kbd>C-x C-x</kbd> is useful when you
-are satisfied with the position of point but want to move the other
-end of the region (where the mark is).  Using <kbd>C-x C-x</kbd> a second
-time, if necessary, puts the mark at the new position with point back
-at its original position.  Normally, if the mark is inactive, this
-command first reactivates the mark wherever it was last set, to ensure
-that the region is left highlighted.  However, if you call it with a
-prefix argument, it leaves the mark inactive and the region
-unhighlighted; you can use this to jump to the mark in a manner
-similar to <kbd>C-u C-<span class="key">SPC</span></kbd>.
-
+<p>命令<kbd>C-x C-x</kbd>(<code>exchange-point-and-mark</code>)交换游标和标记的位置。如果您对游标的位置感到满意，但想要移动区域的另一端(标记所在的位置)，则<kbd>C-x C-x</kbd>非常有用。如有必要，请再次使用<kbd>C-x C-x</kbd>将标记放在新位置，并将游标放回其原始位置。通常，如果标记处于非激活状态，此命令会首先在上次设置标记的位置重新激活标记，以确保选区保持高亮显示。但是，如果使用前缀参数调用它，则会使标记处于非激活状态，选区也不会高亮显示；您可以使用此参数以类似于<kbd>C-u C-<span class="key">SPC</span></kbd>的方式跳转到标记。
 </p>
-<p>You can also set the mark with the mouse.  If you press the left
-mouse button (<kbd>down-mouse-1</kbd>) and drag the mouse across a range of
-text, this sets the mark where you first pressed the mouse button and
-puts point where you release it.  Alternatively, clicking the right
-mouse button (<kbd>mouse-3</kbd>) sets the mark at point and then moves
-point to where you clicked.  See <a href="#Mouse-Commands">Mouse Commands</a>, for a more
-detailed description of these mouse commands.
-
+<p>您也可以用鼠标设置标记。如果您按下鼠标左键(<kbd>down-mouse-1</kbd>)并在一系列文本上拖动鼠标，则会在您第一次按下鼠标按键的位置设置标记，并将游标放在您松开它的位置。或者，单击鼠标右键(<kbd>mouse-3</kbd>)将标记设置在游标上，然后将游标移动到您单击的位置。有关这些鼠标命令的详细说明，请参阅<a href="#Mouse-Commands">鼠标命令</a>。
 </p>
-<p>Finally, you can set the mark by holding down the shift key while
-typing certain cursor motion commands (such as <kbd>S-<span class="key">RIGHT</span></kbd>,
-<kbd>S-C-f</kbd>, <kbd>S-C-n</kbd>, etc.).  This is called <em>shift-selection</em>.
-It sets the mark at point before moving point, but only if there is no
-active mark set via a previous shift-selection or mouse commands.  The
-mark set by mouse commands and by shift-selection behaves slightly
-differently from the usual mark: any subsequent unshifted cursor motion
-command deactivates it automatically.  For details, see <a href="#Shift-Selection">Shift Selection</a>.
-
+<p>最后，您可以通过在按住Shift键的同时键入某些光标移动命令(如<kbd>S-<span class="key">RIGHT</span></kbd>、<kbd>S-C-f</kbd>、<kbd>S-C-n</kbd>等)来设置标记。这称为<em>Shift选择</em>。它在移动游标之前的游标处设置标记，但仅当没有通过先前按住Shift键选择或鼠标命令设置的激活标记时。由鼠标命令和按住Shift键并选择设置的标记的行为与通常的标记略有不同：任何后续未移动的光标移动命令都会自动将其取消激活。有关详细信息，请参阅<a href="#Shift-Selection">Shift选择</a>。
 </p>
-<p>Many commands that insert text, such as <kbd>C-y</kbd> (<code>yank</code>), set
-the mark at the other end of the inserted text, without activating it.
-This lets you easily return to that position (see <a href="#Mark-Ring">Mark Ring</a>).  You
-can tell that a command does this when it shows ‘<samp>Mark set</samp>’ in the
-echo area.
-
+<p>许多插入文本的命令(如<kbd>C-y</kbd>(<code>yank</code>))会在插入的文本的另一端设置标记，而不激活它。这使您可以轻松地返回到该位置(请参阅<a href="#Mark-Ring">标记环</a>)。当命令在回显区显示“<samp>Mark set</samp>”时，您可以看出该命令是这样做的。
 </p>
 <a name="index-primary-selection_002c-when-active-region-changes"></a>
-<p>Under X, every time the active region changes, Emacs saves the text
-in the region to the <em>primary selection</em>.  This lets you insert
-that text into other X applications with <kbd>mouse-2</kbd> clicks.
-See <a href="#Primary-Selection">Primary Selection</a>.
-
+<p>在X下，每次激活选区更改时，Emacs都会将选区中的文本保存到<em>主选择</em>。这允许您通过单击<kbd>鼠标中键</kbd>将该文本插入到其他X应用程序中。请参阅<a href="#Primary-Selection">主选择</a>。
 </p>
 
 <a name="Marking-Objects"></a>
@@ -6333,7 +6219,7 @@ you to earlier buffers and mark positions.
 Next: <a href="#Disabled-Transient-Mark" accesskey="n" rel="next">Disabled Transient Mark</a>, Previous: <a href="#Global-Mark-Ring" accesskey="p" rel="prev">Global Mark Ring</a>, Up: <a href="#Mark" accesskey="u" rel="up">Mark</a> &nbsp; [<a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents" title="目录" rel="contents">Contents</a>][<a href="#Key-Index" title="主索引" rel="index">Index</a>]</p>
 </div>
 <a name="Shift-Selection-1"></a>
-<h3 class="section">11.6Shift Selection</h3>
+<h3 class="section">11.6Shift选择</h3>
 <a name="index-shift_002dselection"></a>
 
 <p>If you hold down the shift key while typing a cursor motion command,
@@ -19660,19 +19546,19 @@ Next: <a href="#Word-and-Line-Mouse" accesskey="n" rel="next">Word and Line Mous
 
 </p>
 </dd>
-<dt><kbd>Drag-mouse-1</kbd></dt>
+<dt><kbd>鼠标左键拖拽</kbd></dt>
 <dd><p>Activate the region around the text selected by dragging, and put the
 text in the primary selection (<code>mouse-set-region</code>).
 
 </p>
 </dd>
-<dt><kbd>鼠标右键</kbd></dt>
+<dt><kbd>鼠标中键</kbd></dt>
 <dd><p>Move point to where you click, and insert the contents of the primary
 selection there (<code>mouse-yank-primary</code>).
 
 </p>
 </dd>
-<dt><kbd>mouse-3</kbd></dt>
+<dt><kbd>鼠标右键</kbd></dt>
 <dd><p>If the region is active, move the nearer end of the region to the
 click position; otherwise, set mark at the current value of point and
 point at the click position.  Save the resulting region in the kill
@@ -19681,9 +19567,7 @@ ring; on a second click, kill it (<code>mouse-save-then-kill</code>).
 </p>
 </dd>
 <dt><kbd>C-M-mouse-1</kbd></dt>
-<dd><p>Activate a rectangular region around the text selected by dragging.
-See <a href="#Rectangles">Rectangles</a>.
-
+<dd><p>Activate a rectangular region around the text selected by dragging. 请参见<a href="#Rectangles">矩形</a>。
 </p></dd>
 </dl>
 
@@ -19730,13 +19614,7 @@ on how far away from the window edge the mouse has gone; the variable
 </p>
 <a name="index-mouse_002dyank_002dprimary"></a>
 <a name="index-mouse_002dyank_002dat_002dclick"></a>
-<p>Clicking with the middle mouse button, <kbd>mouse-2</kbd>, moves point to
-the position where you clicked and inserts the contents of the primary
-selection (<code>mouse-yank-primary</code>).  See <a href="#Primary-Selection">Primary Selection</a>.
-This behavior is consistent with other X applications.  Alternatively,
-you can rebind <kbd>mouse-2</kbd> to <code>mouse-yank-at-click</code>, which
-performs a yank at the position you click.
-
+<p>Clicking with the middle mouse button, <kbd>mouse-2</kbd>, moves point to the position where you clicked and inserts the contents of the primary selection (<code>mouse-yank-primary</code>). 请参阅<a href="#Primary-Selection">主选择</a>。This behavior is consistent with other X applications. Alternatively, you can rebind <kbd>mouse-2</kbd> to <code>mouse-yank-at-click</code>, which performs a yank at the position you click.
 </p>
 <a name="index-mouse_002dyank_002dat_002dpoint"></a>
 <p>If you change the variable <code>mouse-yank-at-point</code> to a
@@ -19790,11 +19668,7 @@ latest kill ring entry had been added the same way, that entry is
 replaced rather than making a new entry.
 
 </p>
-<p>Whenever you set the region using any of the mouse commands
-described above, the mark will be deactivated by any subsequent
-unshifted cursor motion command, in addition to the usual ways of
-deactivating the mark.  See <a href="#Shift-Selection">Shift Selection</a>.
-
+<p>Whenever you set the region using any of the mouse commands described above, the mark will be deactivated by any subsequent unshifted cursor motion command, in addition to the usual ways of deactivating the mark. 请参见<a href="#Shift-Selection">Shift选择</a>。
 </p>
 <a name="index-mouse-wheel"></a>
 <a name="index-mouse_002dwheel_002dmode"></a>
@@ -20055,13 +19929,13 @@ make any window smaller than the minimum height.
 
 </p>
 </dd>
-<dt><kbd>鼠标右键</kbd></dt>
+<dt><kbd>鼠标中键</kbd></dt>
 <dd><a name="index-mouse_002d2-_0028mode-line_0029"></a>
 <p><kbd>mouse-2</kbd> on a mode line expands that window to fill its frame.
 
 </p>
 </dd>
-<dt><kbd>mouse-3</kbd></dt>
+<dt><kbd>鼠标右键</kbd></dt>
 <dd><a name="index-mouse_002d3-_0028mode-line_0029"></a>
 <p><kbd>mouse-3</kbd> on a mode line deletes the window it belongs to.  If the
 frame has only one window, it does nothing.
@@ -33177,7 +33051,7 @@ is enabled, and gray when it is disabled.
 
 </p>
 </dd>
-<dt><kbd>鼠标右键</kbd></dt>
+<dt><kbd>鼠标中键</kbd></dt>
 <dd><a name="index-mouse_002d2-_0028GDB-Breakpoints-buffer_0029"></a>
 <p>Visit the source line for the breakpoint you click on
 (<code>gdb-goto-breakpoint</code>).
@@ -37176,7 +37050,7 @@ the special XREF mode:
 </p>
 <dl compact="compact">
 <dt><kbd><span class="key">RET</span></kbd></dt>
-<dt><kbd>鼠标右键</kbd></dt>
+<dt><kbd>鼠标中键</kbd></dt>
 <dd><p>Display the reference on the current line.
 
 </p>
@@ -39861,7 +39735,7 @@ another window, but do not select that window (<code>dired-display-file</code>).
 </p>
 </dd>
 <dt><kbd>鼠标左键</kbd></dt>
-<dt><kbd>鼠标右键</kbd></dt>
+<dt><kbd>鼠标中键</kbd></dt>
 <dd><a name="index-dired_002dmouse_002dfind_002dfile_002dother_002dwindow"></a>
 <p>Visit the file whose name you clicked on
 (<code>dired-mouse-find-file-other-window</code>).  This uses another window
