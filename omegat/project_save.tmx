@@ -7352,8 +7352,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="EN-US">
         <seg>Click on a button with &lt;k3&gt;mouse-1&lt;/k3&gt; or &lt;k4&gt;mouse-2&lt;/k4&gt; to see the list of other packages related to that keyword.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073545Z" creationid="grass" creationdate="20201227T073545Z">
-        <seg>用&lt;k3&gt;鼠标左键&lt;/k3&gt;或&lt;k4&gt;鼠标右键&lt;/k4&gt;单击一个按钮，查看与该关键字相关的其他软件包的列表。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T070542Z" creationid="grass" creationdate="20201227T073545Z">
+        <seg>用&lt;k3&gt;鼠标左键&lt;/k3&gt;或&lt;k4&gt;鼠标中键&lt;/k4&gt;单击一个按钮，查看与该关键字相关的其他软件包的列表。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10644,8 +10644,8 @@ org和许多邮件用户代理；请参阅以下各节
       <tuv lang="EN-US">
         <seg>For more information about a function definition, variable or symbol property listed in an apropos buffer, you can click on it with &lt;k0&gt;mouse-1&lt;/k0&gt; or &lt;k1&gt;mouse-2&lt;/k1&gt;, or move there and type &lt;t2&gt;RET&lt;/t2&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072031Z" creationid="grass" creationdate="20201227T072031Z">
-        <seg>有关主题搜索缓冲区中列出的函数定义、变量或符号属性的更多信息，您可以使用&lt;k0&gt;鼠标左键&lt;/k0&gt;或&lt;k1&gt;鼠标右键&lt;/k1&gt;单击它，或者移动到那里并键入&lt;t2&gt;RET&lt;/t2&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T070514Z" creationid="grass" creationdate="20201227T072031Z">
+        <seg>有关主题搜索缓冲区中列出的函数定义、变量或符号属性的更多信息，您可以使用&lt;k0&gt;鼠标左键&lt;/k0&gt;或&lt;k1&gt;鼠标中键&lt;/k1&gt;单击它，或者移动到那里并键入&lt;t2&gt;RET&lt;/t2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25561,8 +25561,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>To view the associated documentation, move point there and type &lt;t2&gt;RET&lt;/t2&gt; (&lt;c3&gt;help-follow&lt;/c3&gt;), or click on the hyperlink with &lt;k4&gt;mouse-1&lt;/k4&gt; or &lt;k5&gt;mouse-2&lt;/k5&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073035Z" creationid="grass" creationdate="20201227T073006Z">
-        <seg>要查看相关文档，请将游标移至此处并键入&lt;t2&gt;RET&lt;/t2&gt;(&lt;c3&gt;help-follow&lt;/c3&gt;)，或使用&lt;k4&gt;鼠标左键&lt;/k4&gt;或&lt;k5&gt;鼠标右键&lt;/k5&gt;单击超链接。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T070528Z" creationid="grass" creationdate="20201227T073006Z">
+        <seg>要查看相关文档，请将游标移至此处并键入&lt;t2&gt;RET&lt;/t2&gt;(&lt;c3&gt;help-follow&lt;/c3&gt;)，或使用&lt;k4&gt;鼠标左键&lt;/k4&gt;或&lt;k5&gt;鼠标中键&lt;/k5&gt;单击超链接。</seg>
       </tuv>
     </tu>
     <tu>
@@ -60536,8 +60536,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>mouse-2</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072751Z" creationid="grass" creationdate="20201212T105046Z">
-        <seg>鼠标右键</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T070504Z" creationid="grass" creationdate="20201212T105046Z">
+        <seg>鼠标中键</seg>
       </tuv>
     </tu>
     <tu>
