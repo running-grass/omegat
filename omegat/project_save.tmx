@@ -9962,6 +9962,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Finally, you can set the mark by holding down the shift key while typing certain cursor motion commands (such as &lt;k0&gt;S-&lt;s1&gt;RIGHT&lt;/s1&gt;&lt;/k0&gt;, &lt;k2&gt;S-C-f&lt;/k2&gt;, &lt;k3&gt;S-C-n&lt;/k3&gt;, etc.).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T072534Z" creationid="grass" creationdate="20201228T072534Z">
+        <seg>最后，您可以通过在按住Shift键的同时键入某些光标移动命令(如&lt;k0&gt;S-&lt;s1&gt;RIGHT&lt;/s1&gt;&lt;/k0&gt;、&lt;k2&gt;S-C-f&lt;/k2&gt;、&lt;k3&gt;S-C-n&lt;/k3&gt;等)来设置标记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Find entries by searching for text.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T103223Z" creationid="grass" creationdate="20201014T103223Z">
@@ -20734,6 +20742,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201226T152932Z" creationid="grass" creationdate="20201226T152932Z">
         <seg>请参阅&lt;a2&gt;其他帮助&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a2&gt;Mouse Commands&lt;/a2&gt;, for a more detailed description of these mouse commands.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T070621Z" creationid="grass" creationdate="20201228T070621Z">
+        <seg>有关这些鼠标命令的详细说明，请参阅&lt;a2&gt;鼠标命令&lt;/a2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -60544,8 +60560,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>mouse-3</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T061131Z" creationid="grass" creationdate="20201228T061131Z">
-        <seg>鼠标中键</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T070551Z" creationid="grass" creationdate="20201228T061131Z">
+        <seg>鼠标右键</seg>
       </tuv>
     </tu>
     <tu>
