@@ -289,3 +289,5 @@ active	交互
 active text	交互文本
 deactive	停用
 highlight	高亮
+drag-mouse-1	鼠标左键拖拽
+mouse-3	鼠标中键
