@@ -7070,6 +7070,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-x C-x</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060637Z" creationid="grass" creationdate="20201228T060637Z">
+        <seg>C-x C-x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-x u</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152424Z" creationid="grass" creationdate="20201207T152424Z">
@@ -20978,6 +20986,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set the mark at point, and activate it; then move point where the mark used to be (&lt;c0&gt;exchange-point-and-mark&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060740Z" creationid="grass" creationdate="20201228T060740Z">
+        <seg>将标记设置在游标上，并将其激活；然后将游标移动到标记原来所在的位置(&lt;c0&gt;exchange-point-and-mark&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Setting &lt;c0&gt;org-catch-invisible-edits&lt;/c0&gt; to non-&lt;c1&gt;nil&lt;/c1&gt; helps preventing this.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182348Z" creationid="grass" creationdate="20201010T182348Z">
@@ -23585,6 +23601,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201228T055722Z" creationid="grass" creationdate="20201228T055312Z">
         <seg>选区始终在游标和标记之间延伸，无论文本中哪一个在前面；每次移动游标时，选区都会发生变化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The same.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060635Z" creationid="grass" creationdate="20201228T060635Z">
+        <seg>一样的。</seg>
       </tuv>
     </tu>
     <tu>
