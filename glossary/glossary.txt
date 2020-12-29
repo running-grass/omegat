@@ -292,3 +292,6 @@ drag-mouse-1	鼠标左键拖拽
 deactive	取消激活
 mouse-2	鼠标中键
 mouse-3	鼠标右键
+word	单词
+paragraph	段落
+page	页面
