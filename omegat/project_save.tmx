@@ -10266,6 +10266,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Firstly, in addition to the usual ways of deactivating the mark (such as changing the buffer text or typing &lt;k0&gt;C-g&lt;/k0&gt;), the mark is deactivated by any &lt;e1&gt;unshifted&lt;/e1&gt; cursor motion command.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024241Z" creationid="grass" creationdate="20201229T024241Z">
+        <seg>首先，除了通常的取消激活标记的方法(如更改缓冲区文本或键入&lt;k0&gt;C-g&lt;/k0&gt;)外，还可以通过任何&lt;e1&gt;非shift&lt;/e1&gt;光标移动命令取消激活标记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fixing formulas.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T100627Z" creationid="grass" creationdate="20201014T100627Z">
@@ -13122,6 +13130,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you hold down the shift key while typing a cursor motion command, this sets the mark before moving point, so that the region extends from the original position of point to its new position.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024016Z" creationid="grass" creationdate="20201229T024016Z">
+        <seg>如果在键入光标移动命令的同时按住Shift键，则会在移动点之前设置标记，以便选区从游标的原始位置延伸到其新位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you insert the character ‘&lt;s7&gt;!&lt;/s7&gt;’ at that position, the result is ‘&lt;s8&gt;fro!b&lt;/s8&gt;’, with point between the ‘&lt;s9&gt;!&lt;/s9&gt;’ and the ‘&lt;s10&gt;b&lt;/s10&gt;’.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T121047Z" creationid="grass" creationdate="20201130T120441Z">
@@ -14286,6 +14302,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T065233Z" creationid="grass" creationdate="20201227T065233Z">
         <seg>它会在回显区中显示列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is similar to the way text is selected in other editors.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024023Z" creationid="grass" creationdate="20201229T024023Z">
+        <seg>这类似于在其他编辑器中选择文本的方式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20842,6 +20866,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Secondly, any subsequent &lt;e2&gt;shifted&lt;/e2&gt; cursor motion command avoids setting the mark anew.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024303Z" creationid="grass" creationdate="20201229T024303Z">
+        <seg>其次，任何后续的&lt;e2&gt;shift修饰的&lt;/e2&gt;光标移动命令都可以避免重新设置标记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a0&gt;Arguments&lt;/a0&gt;, for more information on numeric arguments.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150451Z" creationid="grass" creationdate="20201207T150451Z">
@@ -24177,6 +24209,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201228T072700Z" creationid="grass" creationdate="20201228T072700Z">
         <seg>由鼠标命令和按住Shift键并选择设置的标记的行为与通常的标记略有不同：任何后续未移动的光标移动命令都会自动将其取消激活。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The mark set via shift-selection behaves a little differently from what we have described above.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024028Z" creationid="grass" creationdate="20201229T024028Z">
+        <seg>通过按住Shift键选择设置的标记的行为与我们上面描述的稍有不同。</seg>
       </tuv>
     </tu>
     <tu>
