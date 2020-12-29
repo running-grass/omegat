@@ -4910,6 +4910,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A negative argument -&lt;v2&gt;n&lt;/v2&gt; moves the mark back by &lt;v3&gt;n&lt;/v3&gt; words.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020345Z" creationid="grass" creationdate="20201229T020345Z">
+        <seg>负参数-&lt;v2&gt;n&lt;/v2&gt;将标记后移&lt;v3&gt;n&lt;/v3&gt;个单词。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A negative argument counts lines up from the bottom (-1 means the bottom line).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150445Z" creationid="grass" creationdate="20201207T150445Z">
@@ -20090,6 +20098,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Repeated invocations extend the region to subsequent expressions, while positive or negative numeric arguments move the mark forward or backward by the specified number of expressions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020545Z" creationid="grass" creationdate="20201229T020545Z">
+        <seg>重复调用将该区域扩展到后续表达式，而正或负数字参数将标记向前或向后移动指定数量的表达式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Repeated invocations of this command extend the region by advancing the mark one word at a time.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020242Z" creationid="grass" creationdate="20201229T020210Z">
@@ -21542,6 +21558,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201223T101952Z" creationid="grass" creationdate="20201223T101952Z">
         <seg>类似，但是它搜索手册的&lt;e0&gt;文本&lt;/e0&gt;而不是索引。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Similarly, &lt;k0&gt;C-M-@&lt;/k0&gt; (&lt;c1&gt;mark-sexp&lt;/c1&gt;) puts the mark at the end of the next balanced expression (see &lt;a2&gt;Expressions&lt;/a2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020531Z" creationid="grass" creationdate="20201229T020531Z">
+        <seg>类似地，&lt;k0&gt;C-M-@&lt;/k0&gt;(&lt;c1&gt;mark-sexp&lt;/c1&gt;)将标记放在下一个表达式的末尾(请参见&lt;a2&gt;表达式&lt;/a2&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23817,6 +23841,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075515Z" creationid="grass" creationdate="20201015T075515Z">
         <seg>orgmode文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The other commands in the above list set both point and mark, so as to delimit an object in the buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020610Z" creationid="grass" creationdate="20201229T020610Z">
+        <seg>上面列表中的其他命令同时设置游标和标记，以分隔缓冲区中的对象。</seg>
       </tuv>
     </tu>
     <tu>
