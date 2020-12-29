@@ -4910,6 +4910,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A mark set via mouse commands behaves the same as a mark set via shift-selection (see &lt;a0&gt;Setting Mark&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024426Z" creationid="grass" creationdate="20201229T024426Z">
+        <seg>通过鼠标命令设置的标记与通过按住Shift键选择设置的标记的行为相同(请参阅&lt;a0&gt;设置标记&lt;/a0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A matching completion alternative must contain the text in the minibuffer before point, and the text in the minibuffer after point, as substrings (in that same order).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T110449Z" creationid="grass" creationdate="20201212T110449Z">
@@ -8510,6 +8518,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Disabling Transient Mark Mode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024554Z" creationid="grass" creationdate="20201229T024554Z">
+        <seg>禁用Transient Mark Mode</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Disabling Transient Mark mode switches Emacs to an alternative behavior, in which the region is usually not highlighted.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201228T055822Z" creationid="grass" creationdate="20201228T055822Z">
@@ -8874,6 +8890,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T064713Z" creationid="grass" creationdate="20201227T064713Z">
         <seg>快捷键文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Doing so does not disable setting the mark via mouse commands.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024537Z" creationid="grass" creationdate="20201229T024537Z">
+        <seg>这样做并不会禁用通过鼠标命令设置标记。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10268,8 +10292,8 @@ org和许多邮件用户代理；请参阅以下各节
       <tuv lang="EN-US">
         <seg>Firstly, in addition to the usual ways of deactivating the mark (such as changing the buffer text or typing &lt;k0&gt;C-g&lt;/k0&gt;), the mark is deactivated by any &lt;e1&gt;unshifted&lt;/e1&gt; cursor motion command.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024241Z" creationid="grass" creationdate="20201229T024241Z">
-        <seg>首先，除了通常的取消激活标记的方法(如更改缓冲区文本或键入&lt;k0&gt;C-g&lt;/k0&gt;)外，还可以通过任何&lt;e1&gt;非shift&lt;/e1&gt;光标移动命令取消激活标记。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024316Z" creationid="grass" creationdate="20201229T024241Z">
+        <seg>首先，除了通常的取消激活标记的方法(如更改缓冲区文本或键入&lt;k0&gt;C-g&lt;/k0&gt;)外，还可以通过任何&lt;e1&gt;非shift修饰的&lt;/e1&gt;光标移动命令取消激活标记。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10554,6 +10578,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, if you bind &lt;k1&gt;S-C-f&lt;/k1&gt; to another command, typing &lt;k2&gt;S-C-f&lt;/k2&gt; runs that command instead of performing a shift-selected version of &lt;k3&gt;C-f&lt;/k3&gt; (&lt;c4&gt;forward-char&lt;/c4&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024410Z" creationid="grass" creationdate="20201229T024410Z">
+        <seg>例如，如果将&lt;k1&gt;S-C-f&lt;/k1&gt;绑定到另一个命令，则键入&lt;k2&gt;S-C-f&lt;/k2&gt;将运行该命令，而不是执行&lt;k3&gt;C-f&lt;/k3&gt;的Shift选定版本(&lt;c4&gt;forward-char&lt;/c4&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, if you forgot to call your father for 3 weeks, it does not make sense to call him 3 times in a single day to make up for it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T054859Z" creationid="grass" creationdate="20201016T054859Z">
@@ -10574,6 +10606,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T030347Z" creationid="grass" creationdate="20201215T030347Z">
         <seg>例如，如果在具有未保存更改的文件访问缓冲区上调用&lt;k1&gt;C-x k&lt;/k1&gt;(&lt;c2&gt;kill-buffer&lt;/c2&gt;)，则Emacs会使用如下提示激活迷你缓冲区：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, if you specify a region by dragging the mouse, you can continue to extend the region using shifted cursor motion commands.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024457Z" creationid="grass" creationdate="20201229T024457Z">
+        <seg>例如，如果通过拖动鼠标指定选区，则可以使用shift修饰的光标移动命令继续扩展该选区。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13646,6 +13686,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T025740Z" creationid="grass" creationdate="20201203T025740Z">
         <seg>此外，状态栏是鼠标敏感的；单击模式行的不同部分可执行各种命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In either case, any unshifted cursor motion command deactivates the mark.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024514Z" creationid="grass" creationdate="20201229T024514Z">
+        <seg>在这两种情况下，任何非Shift修饰的光标移动命令都会取消激活标记。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21898,6 +21946,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Shift-selection only works if the shifted cursor motion key is not already bound to a separate command (see &lt;a0&gt;Customization&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024353Z" creationid="grass" creationdate="20201229T024353Z">
+        <seg>仅当移动的光标移动键尚未绑定到单独的命令时，Shift选择才有效(请参阅&lt;a0&gt;自定义&lt;/a0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Shifted cursor motion keys</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201228T061305Z" creationid="grass" creationdate="20201228T061204Z">
@@ -23749,6 +23805,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default behavior of the mark and region, in which setting the mark activates it and highlights the region, is called Transient Mark mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024617Z" creationid="grass" creationdate="20201229T024617Z">
+        <seg>标记和选区的默认行为称为Transient Mark Mode，在该行为中，设置标记将激活标记并高亮显示选区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The default completion styles are (in order):</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T111003Z" creationid="grass" creationdate="20201212T110152Z">
@@ -24927,6 +24991,14 @@ stores its records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072403Z" creationid="grass" creationdate="20201227T072403Z">
         <seg>有一个例外：&lt;c2&gt;apropos-variable&lt;/c2&gt;没有前缀参数将始终搜索所有变量，无论&lt;c3&gt;apropos-do-all&lt;/c3&gt;的值是什么。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Therefore, a series of shifted cursor motion commands will continuously adjust the region.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024339Z" creationid="grass" creationdate="20201229T024339Z">
+        <seg>因此，一系列移动的光标移动命令将连续调整选区。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26355,6 +26427,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022149Z" creationid="grass" creationdate="20201229T022149Z">
         <seg>若要打开或关闭“Delete Selection mode”模式，请键入&lt;k2&gt;M-x delete-selection-mode&lt;/k2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To turn off shift-selection, set &lt;c0&gt;shift-select-mode&lt;/c0&gt; to &lt;c1&gt;nil&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024528Z" creationid="grass" creationdate="20201229T024528Z">
+        <seg>若要关闭Shift选择，请将&lt;c0&gt;shift-select-mode&lt;/c0&gt;设置为&lt;c1&gt;nil&lt;/c1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
