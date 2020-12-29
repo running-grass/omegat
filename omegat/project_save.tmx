@@ -10674,6 +10674,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, normally &lt;k0&gt;M-%&lt;/k0&gt; (&lt;c1&gt;query-replace&lt;/c1&gt;) performs replacements within the region, if the mark is active.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024852Z" creationid="grass" creationdate="20201229T024852Z">
+        <seg>例如，如果标记处于激活状态，通常&lt;k0&gt;M-%&lt;/k0&gt;(&lt;c1&gt;query-replace&lt;/c1&gt;)在区域内执行替换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, suppose you type &lt;k0&gt;C-u 2 0 C-d&lt;/k0&gt; to delete 20 characters.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T022329Z" creationid="grass" creationdate="20201209T022329Z">
@@ -14302,6 +14310,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024523Z" creationid="grass" creationdate="20201203T024523Z">
         <seg>它只出现在文本终端上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It can be toggled with &lt;k0&gt;M-x transient-mark-mode&lt;/k0&gt;, or with the ‘&lt;s1&gt;Highlight Active Region&lt;/s1&gt;’ menu item in the ‘&lt;s2&gt;Options&lt;/s2&gt;’ menu.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024715Z" creationid="grass" creationdate="20201229T024715Z">
+        <seg>它可以使用&lt;k0&gt;M-x transient-mark-mode&lt;/k0&gt;切换，或使用“&lt;s2&gt;选项&lt;/s2&gt;”菜单中的“高亮已激活选区&lt;/s1&gt;”菜单项进行切换。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21874,6 +21890,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Setting the mark, with commands like &lt;k0&gt;C-&lt;s1&gt;SPC&lt;/s1&gt;&lt;/k0&gt; or &lt;k2&gt;C-x C-x&lt;/k2&gt;, does not highlight the region.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024740Z" creationid="grass" creationdate="20201229T024740Z">
+        <seg>使用&lt;k0&gt;C-&lt;s1&gt;SPC&lt;/s1&gt;&lt;/k0&gt;或&lt;k2&gt;C-x C-x&lt;/k2&gt;等命令设置标记不会高亮显示该选区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Setting up capture</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201445Z" creationid="grass" creationdate="20201010T201445Z">
@@ -22278,6 +22302,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T021535Z" creationid="grass" creationdate="20201209T021535Z">
         <seg>有些命令使用参数的值作为重复计数，但在没有参数时会做一些特殊的事情。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some commands, which ordinarily act on the region when the mark is active, no longer do so.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024836Z" creationid="grass" creationdate="20201229T024836Z">
+        <seg>一些通常在标记处于激活状态时作用于区域的命令不再这样做。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24709,6 +24741,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The usual solution to this problem is to set the mark and then use it soon, before you forget where it is.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024800Z" creationid="grass" creationdate="20201229T024800Z">
+        <seg>这个问题的通常解决方案是在你忘记它在哪里之前，设置好标记，然后很快使用它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The usual way to invoke Emacs is with the shell command &lt;c0&gt;emacs&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T032931Z" creationid="grass" creationdate="20201205T032931Z">
@@ -25015,6 +25055,14 @@ stores its records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T022809Z" creationid="grass" creationdate="20201205T022809Z">
         <seg>因此，本手册主要介绍如何使用键盘进行编辑。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Therefore, you can’t tell by looking where the mark is located; you have to remember.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024749Z" creationid="grass" creationdate="20201229T024749Z">
+        <seg>因此，你不能通过看标记的位置来判断，你必须记住。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25483,6 +25531,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T073500Z" creationid="grass" creationdate="20201205T073500Z">
         <seg>此信息在下次启动Emacs时可用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is a minor mode that is enabled by default.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024629Z" creationid="grass" creationdate="20201229T024629Z">
+        <seg>这是默认启用的辅模式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26599,6 +26655,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Turning it off switches Emacs to an alternative mode of operation:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024722Z" creationid="grass" creationdate="20201229T024722Z">
+        <seg>将其关闭会将Emacs切换到另一种操作模式：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tweaking HTML/LaTeX export.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T111035Z" creationid="grass" creationdate="20201014T111035Z">
@@ -27372,6 +27436,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T033230Z" creationid="grass" creationdate="20201205T033230Z">
         <seg>当Emacs启动时，初始窗体中显示一个名为‘&lt;s0&gt;*GNU Emacs*&lt;/s0&gt;’的特殊缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When Transient Mark mode is off, it always operates from point to the end of the buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024916Z" creationid="grass" creationdate="20201229T024916Z">
+        <seg>当Transient Mark mode关闭时，它始终从游标操作到缓冲区的末尾。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28236,6 +28308,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025537Z" creationid="grass" creationdate="20201215T025537Z">
         <seg>您还可以通过在执行命令之前编辑Lisp表达式来更改命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also check where the mark is by using &lt;k0&gt;C-x C-x&lt;/k0&gt;, which exchanges the positions of the point and the mark (see &lt;a1&gt;Setting Mark&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024815Z" creationid="grass" creationdate="20201229T024815Z">
+        <seg>您还可以使用&lt;k0&gt;C-x C-x&lt;/k0&gt;检查标记的位置，它交换游标和标记的位置(请参阅&lt;a1&gt;设置标记&lt;/a1&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
