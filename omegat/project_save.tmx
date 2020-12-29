@@ -8550,6 +8550,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Disabled Transient Mark</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T030621Z" creationid="grass" creationdate="20201229T030621Z">
+        <seg>禁用选区高亮</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Disabling Transient Mark Mode</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024554Z" creationid="grass" creationdate="20201229T024554Z">
@@ -23575,8 +23583,8 @@ databases, which hold and persist records.</seg>
       <tuv lang="EN-US">
         <seg>The above default behavior is known as Transient Mark mode.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201228T055801Z" creationid="grass" creationdate="20201228T055801Z">
-        <seg>上述默认行为称为Transient Mark mode。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T030648Z" creationid="grass" creationdate="20201228T055801Z">
+        <seg>上述默认行为称为选区高亮模式。</seg>
       </tuv>
     </tu>
     <tu>
