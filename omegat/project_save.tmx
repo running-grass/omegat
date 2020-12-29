@@ -7382,6 +7382,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Check the spelling of words within it with &lt;k0&gt;M-$&lt;/k0&gt; (see &lt;a1&gt;Spelling&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021430Z" creationid="grass" creationdate="20201229T021430Z">
+        <seg>使用&lt;k0&gt;M-$&lt;/k0&gt;检查其中单词的拼写(请参阅&lt;a1&gt;拼写&lt;/a1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Checkboxes</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T200516Z" creationid="grass" creationdate="20201010T200516Z">
@@ -9546,6 +9554,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Evaluate it as Lisp code with &lt;k0&gt;M-x eval-region&lt;/k0&gt; (see &lt;a1&gt;Lisp Eval&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021451Z" creationid="grass" creationdate="20201229T021451Z">
+        <seg>使用&lt;k0&gt;M-x eval-region&lt;/k0&gt;将其作为Lisp代码进行求值(请参阅&lt;a1&gt;Lisp求值&lt;/a1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Evaluating Code Blocks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052254Z" creationid="grass" creationdate="20201013T052254Z">
@@ -10006,6 +10022,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112841Z" creationid="grass" creationdate="20201014T112841Z">
         <seg>用外部信息填充缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fill it as text with &lt;k0&gt;M-x fill-region&lt;/k0&gt; (see &lt;a1&gt;Filling&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021419Z" creationid="grass" creationdate="20201229T021419Z">
+        <seg>使用&lt;k0&gt;M-x fill-region&lt;/k0&gt;将其作为文本填充(请参阅&lt;a1&gt;填充&lt;/a1&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13646,6 +13670,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T025650Z" creationid="grass" creationdate="20201215T025650Z">
         <seg>严格地说，增量搜索不使用迷你缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Indent it with &lt;k0&gt;C-x &lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt; or &lt;k2&gt;C-M-\&lt;/k2&gt; (see &lt;a3&gt;Indentation&lt;/a3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021405Z" creationid="grass" creationdate="20201229T021405Z">
+        <seg>用&lt;k0&gt;C-x&lt;s1&gt;TAB&lt;/s1&gt;&lt;/k0&gt;或&lt;k2&gt;C-M-\&lt;/k2&gt;缩进(请参阅&lt;a3&gt;缩进&lt;/a3&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20242,6 +20274,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Replace text within it using &lt;k0&gt;M-%&lt;/k0&gt; (see &lt;a1&gt;Query Replace&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021344Z" creationid="grass" creationdate="20201229T021344Z">
+        <seg>使用&lt;k0&gt;M-%&lt;/k0&gt;替换其中的文本(请参阅&lt;a1&gt;查询替换&lt;/a1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Replying yes or no in the echo area.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T094420Z" creationid="grass" creationdate="20201212T094348Z">
@@ -20374,6 +20414,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201013T052005Z" creationid="grass" creationdate="20201013T052005Z">
         <seg>配置示例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Save it in a register with &lt;k0&gt;C-x r s&lt;/k0&gt; (see &lt;a1&gt;Registers&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021510Z" creationid="grass" creationdate="20201229T021510Z">
+        <seg>使用&lt;k0&gt;C-x r s&lt;/k0&gt;将其保存在寄存器中(请参阅&lt;a1&gt;寄存器&lt;/a1&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26163,6 +26211,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201228T072807Z" creationid="grass" creationdate="20201228T072807Z">
         <seg>在X下，每次激活选区更改时，Emacs都会将选区中的文本保存到&lt;e0&gt;主选择&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Undo changes within it using &lt;k0&gt;C-u C-/&lt;/k0&gt; (see &lt;a1&gt;Undo&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021324Z" creationid="grass" creationdate="20201229T021324Z">
+        <seg>使用&lt;k0&gt;C-u C-/&lt;/k0&gt;撤消其中的更改(请参阅&lt;a1&gt;撤消&lt;/a1&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
