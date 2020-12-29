@@ -326,6 +326,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(As an exception, if you supply a numeric argument &lt;v5&gt;n&lt;/v5&gt;, where &lt;v6&gt;n&lt;/v6&gt; is not one, these commands delete &lt;v7&gt;n&lt;/v7&gt; characters regardless of whether the mark is active).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021801Z" creationid="grass" creationdate="20201229T021801Z">
+        <seg>(作为例外，如果您提供数字参数&lt;v5&gt;n&lt;/v5&gt;，其中&lt;v6&gt;n&lt;/v6&gt;不是1，则无论标记是否处于激活状态，这些命令都会删除&lt;v7&gt;n&lt;/v7&gt;个字符)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(Do not confuse &lt;t3&gt;DEL&lt;/t3&gt; with the &lt;t4&gt;Delete&lt;/t4&gt; key; we will discuss &lt;t5&gt;Delete&lt;/t5&gt; momentarily.) On some text terminals, Emacs may not recognize the &lt;t6&gt;DEL&lt;/t6&gt; key properly.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151946Z" creationid="grass" creationdate="20201207T151946Z">
@@ -5870,6 +5878,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As described in &lt;a0&gt;Erasing&lt;/a0&gt;, the &lt;t1&gt;DEL&lt;/t1&gt; (&lt;c2&gt;backward-delete-char&lt;/c2&gt;) and &lt;t3&gt;Delete&lt;/t3&gt; (&lt;c4&gt;delete-forward-char&lt;/c4&gt;) commands also act this way.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021734Z" creationid="grass" creationdate="20201229T021734Z">
+        <seg>如&lt;a0&gt;擦除&lt;/a0&gt;中所述，&lt;t1&gt;DEL&lt;/t1&gt;(&lt;c2&gt;backward-delete-char&lt;/c2&gt;)和&lt;t3&gt;删除&lt;/t3&gt;(&lt;c4&gt;delete-forward-char&lt;/c4&gt;)命令也是如此。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As we explain later in this manual, you can change the way Emacs handles text insertion by turning on &lt;e0&gt;minor modes&lt;/e0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T090825Z" creationid="grass" creationdate="20201205T090825Z">
@@ -10346,6 +10362,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, &lt;k0&gt;M-$&lt;/k0&gt; (&lt;c1&gt;ispell-word&lt;/c1&gt;) normally checks the spelling of the word at point, but it checks the text in the region if the mark is active (see &lt;a2&gt;Spelling&lt;/a2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021632Z" creationid="grass" creationdate="20201229T021632Z">
+        <seg>例如，&lt;k0&gt;M-$&lt;/k0&gt;(&lt;c1&gt;ispell-word&lt;/c1&gt;)通常会检查单词的拼写，但如果标记处于激活状态，则它会检查选区中的文本(请参阅&lt;a2&gt;拼写&lt;/a2&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, &lt;k1&gt;C-x 8 [&lt;/k1&gt; inserts &lt;t2&gt;‘&lt;/t2&gt; which is Unicode code-point U+2018 &lt;s3&gt;LEFT SINGLE QUOTATION MARK&lt;/s3&gt;, sometimes called a left single “curved quote” or “curly quote”.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T091527Z" creationid="grass" creationdate="20201205T091527Z">
@@ -12474,6 +12498,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the mark is active, they delete the text in the region.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021742Z" creationid="grass" creationdate="20201229T021742Z">
+        <seg>如果标记处于激活状态，则删除区域中的文本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the minibuffer prompt for &lt;k1&gt;C-h f&lt;/k1&gt; shows the function name from the buffer as the default, it means that name is defined as a Lisp function.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071511Z" creationid="grass" creationdate="20201227T071511Z">
@@ -12774,6 +12806,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105927Z" creationid="grass" creationdate="20201212T105927Z">
         <seg>如果将其更改为任何其他非&lt;c3&gt;nil&lt;/c3&gt;值，则Emacs会要求确认前面的命令是否为&lt;t4&gt;TAB&lt;/t4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you change the variable &lt;c8&gt;delete-active-region&lt;/c8&gt; to &lt;c9&gt;nil&lt;/c9&gt;, then these commands don’t act differently when the mark is active.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021825Z" creationid="grass" creationdate="20201229T021825Z">
+        <seg>如果将变量&lt;c8&gt;delete-active-region&lt;/c8&gt;更改为&lt;c9&gt;nil&lt;/c9&gt;，则当标记处于激活状态时，这些命令的作用不会有所不同。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13198,6 +13238,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055845Z" creationid="grass" creationdate="20201016T055845Z">
         <seg>如果希望在同一时间间隔后同时重复日程安排和截止日期信息，请为这两个时间戳设置相同的复读机。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want them to operate on the empty region, change the variable &lt;c3&gt;use-empty-active-region&lt;/c3&gt; to &lt;c4&gt;t&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021700Z" creationid="grass" creationdate="20201229T021700Z">
+        <seg>如果希望它们在空选区上操作，请将变量&lt;c3&gt;use-empty-active-region&lt;/c3&gt;更改为&lt;c4&gt;t&lt;/c4&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17910,6 +17958,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Normally, such commands use their default behavior if the region is empty (i.e., if mark and point are at the same position).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021647Z" creationid="grass" creationdate="20201229T021647Z">
+        <seg>通常，如果选区为空(即，如果标记和点在同一位置)，则此类命令使用其默认行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Normally, the minibuffer window occupies a single screen line.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T102050Z" creationid="grass" creationdate="20201212T102050Z">
@@ -20418,6 +20474,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Save it in a buffer or a file (see &lt;a0&gt;Accumulating Text&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021553Z" creationid="grass" creationdate="20201229T021553Z">
+        <seg>将其保存在缓冲区或文件中(请参阅&lt;a0&gt;累加文本&lt;/a0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Save it in a register with &lt;k0&gt;C-x r s&lt;/k0&gt; (see &lt;a1&gt;Registers&lt;/a1&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021510Z" creationid="grass" creationdate="20201229T021510Z">
@@ -21878,6 +21942,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T022741Z" creationid="grass" creationdate="20201203T022741Z">
         <seg>某些命令在回显区域显示信息性消息，以告诉您该命令执行了什么操作，或者为您提供一些特定信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some commands have a default behavior when the mark is inactive, but operate on the region if the mark is active.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021613Z" creationid="grass" creationdate="20201229T021613Z">
+        <seg>当标记处于非激活状态时，某些命令具有默认行为，但如果标记处于激活状态，则会对选区进行操作。</seg>
       </tuv>
     </tu>
     <tu>
