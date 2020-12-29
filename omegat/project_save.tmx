@@ -4309,6 +4309,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;M-@&lt;/k0&gt; (&lt;c1&gt;mark-word&lt;/c1&gt;) sets the mark at the end of the next word (see &lt;a2&gt;Words&lt;/a2&gt;, for information about words).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020158Z" creationid="grass" creationdate="20201229T020158Z">
+        <seg>&lt;k0&gt;M-@&lt;/k0&gt;(&lt;c1&gt;mark-word&lt;/c1&gt;)在下一个单词的末尾设置标记(有关单词的信息，请参见&lt;a2&gt;单词&lt;/a2&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;M-S-&lt;s1&gt;LEFT&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-promote-subtree&lt;/c2&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063904Z" creationid="grass" creationdate="20201015T063904Z">
@@ -5822,6 +5830,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As an exception, if the mark is active and located before point, &lt;k3&gt;M-@&lt;/k3&gt; moves the mark backwards from its current position one word at a time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020235Z" creationid="grass" creationdate="20201229T020235Z">
+        <seg>例外情况是，如果标记处于激活状态且位于游标之前，&lt;k3&gt;M-@&lt;/k3&gt;将标记从其当前位置向后移动，一次一个单词。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As described earlier, &lt;k1&gt;C-n&lt;/k1&gt; (&lt;c2&gt;next-line&lt;/c2&gt;) and &lt;k3&gt;C-p&lt;/k3&gt; (&lt;c4&gt;previous-line&lt;/c4&gt;) are special exceptions: they move point down and up, respectively, by one screen line (see &lt;a5&gt;Moving Point&lt;/a5&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013937Z" creationid="grass" creationdate="20201208T013937Z">
@@ -6542,6 +6558,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-M-h</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020044Z" creationid="grass" creationdate="20201229T020044Z">
+        <seg>C-M-h</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-_</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152425Z" creationid="grass" creationdate="20201207T152425Z">
@@ -7094,10 +7118,26 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-x C-p</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020118Z" creationid="grass" creationdate="20201229T020118Z">
+        <seg>C-x C-p</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-x C-x</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060637Z" creationid="grass" creationdate="20201228T060637Z">
         <seg>C-x C-x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-x h</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020132Z" creationid="grass" creationdate="20201229T020132Z">
+        <seg>C-x h</seg>
       </tuv>
     </tu>
     <tu>
@@ -14654,6 +14694,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>M-h</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020042Z" creationid="grass" creationdate="20201229T020042Z">
+        <seg>M-h</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>M-n</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T021723Z" creationid="grass" creationdate="20201215T021723Z">
@@ -15362,6 +15410,38 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T072624Z" creationid="grass" creationdate="20201227T072558Z">
         <seg>将游标移到下一个超链接(&lt;c0&gt;forward-button&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Move point to the beginning of the buffer, and set mark at the end (&lt;c0&gt;mark-whole-buffer&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020147Z" creationid="grass" creationdate="20201229T020147Z">
+        <seg>将游标移动到缓冲区的开头，并在末尾设置标记(&lt;c0&gt;mark-whole-buffer&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Move point to the beginning of the current defun, and set mark at the end (&lt;c0&gt;mark-defun&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020117Z" creationid="grass" creationdate="20201229T020117Z">
+        <seg>将游标移到当前定义的开头，并在结尾处设置标记(&lt;c0&gt;mark-defun&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Move point to the beginning of the current page, and set mark at the end (&lt;c0&gt;mark-page&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020131Z" creationid="grass" creationdate="20201229T020131Z">
+        <seg>将游标移到当前页面的开头，并在末尾设置标记(&lt;c0&gt;mark-page&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Move point to the beginning of the current paragraph, and set mark at the end (&lt;c0&gt;mark-paragraph&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020041Z" creationid="grass" creationdate="20201229T020041Z">
+        <seg>将游标移动到当前段落的开头，并在末尾设置标记(&lt;c0&gt;mark-paragraph&lt;/c0&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20010,6 +20090,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Repeated invocations of this command extend the region by advancing the mark one word at a time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020242Z" creationid="grass" creationdate="20201229T020210Z">
+        <seg>重复调用此命令可通过一次前进一个单词来扩展选区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Repeated tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T201245Z" creationid="grass" creationdate="20201010T201245Z">
@@ -24539,6 +24627,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T153241Z" creationid="grass" creationdate="20201207T150309Z">
         <seg>此命令(&lt;c0&gt;right-word&lt;/c0&gt;)的行为与&lt;k1&gt;M-f&lt;/k1&gt;类似，不同之处在于，如果当前段落是从右向左的，则它将&lt;e2&gt;向后&lt;/e2&gt;移动一个单词。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This command also accepts a numeric argument &lt;v0&gt;n&lt;/v0&gt;, which tells it to advance the mark by &lt;v1&gt;n&lt;/v1&gt; words.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020256Z" creationid="grass" creationdate="20201229T020256Z">
+        <seg>该命令还接受一个数字参数&lt;v0&gt;n&lt;/v0&gt;，该参数告诉它将标记前进&lt;v1&gt;n&lt;/v1&gt;个单词。</seg>
       </tuv>
     </tu>
     <tu>
