@@ -6534,6 +6534,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-M-@</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T015819Z" creationid="grass" creationdate="20201229T015819Z">
+        <seg>C-M-@</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-_</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T152425Z" creationid="grass" creationdate="20201207T152425Z">
@@ -7530,6 +7538,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T112018Z" creationid="grass" creationdate="20201203T022918Z">
         <seg>耗时较长的命令通常在工作时显示以“&lt;s6&gt;.&lt;/s6&gt;”结尾的消息(有时还以百分比形式指示已取得的进展)，并在补全时添加“&lt;s7&gt;补全&lt;/s7&gt;”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Commands to Mark Textual Objects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T015710Z" creationid="grass" creationdate="20201229T015710Z">
+        <seg>用于标记文本对象的命令</seg>
       </tuv>
     </tu>
     <tu>
@@ -11362,6 +11378,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here are commands for placing point and the mark around a textual object such as a word, list, paragraph or page:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T015801Z" creationid="grass" creationdate="20201229T015801Z">
+        <seg>以下是在文本对象(如单词、列表、段落或页面)周围放置游标和标记的命令：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here are commands to get information about the size and position of parts of the buffer, and to count words and lines.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201209T013539Z" creationid="grass" creationdate="20201209T013539Z">
@@ -14562,6 +14586,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T150637Z" creationid="grass" creationdate="20201207T150637Z">
         <seg>M-&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M-@</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T015804Z" creationid="grass" creationdate="20201229T015804Z">
+        <seg>M-@</seg>
       </tuv>
     </tu>
     <tu>
@@ -21122,6 +21154,22 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set mark after end of following balanced expression (&lt;c0&gt;mark-sexp&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020013Z" creationid="grass" creationdate="20201229T020013Z">
+        <seg>在表达式的末尾设置标记(&lt;c0&gt;mark-sexp&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set mark at the end of the next word (&lt;c0&gt;mark-word&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T015813Z" creationid="grass" creationdate="20201229T015813Z">
+        <seg>在下一个单词的末尾设置标记(&lt;c0&gt;mark-word&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set point and the mark around the text you drag across.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060853Z" creationid="grass" creationdate="20201228T060808Z">
@@ -24635,6 +24683,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064526Z" creationid="grass" creationdate="20201015T064526Z">
         <seg>这会修改子树的级别，以确保树很好地适应在所粘贴的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This does not move point.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T015818Z" creationid="grass" creationdate="20201229T015818Z">
+        <seg>这不会移动游标。</seg>
       </tuv>
     </tu>
     <tu>
