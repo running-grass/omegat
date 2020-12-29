@@ -14364,8 +14364,8 @@ USA</seg>
       <tuv lang="EN-US">
         <seg>It can be toggled with &lt;k0&gt;M-x transient-mark-mode&lt;/k0&gt;, or with the ‘&lt;s1&gt;Highlight Active Region&lt;/s1&gt;’ menu item in the ‘&lt;s2&gt;Options&lt;/s2&gt;’ menu.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T024715Z" creationid="grass" creationdate="20201229T024715Z">
-        <seg>它可以使用&lt;k0&gt;M-x transient-mark-mode&lt;/k0&gt;切换，或使用“&lt;s2&gt;选项&lt;/s2&gt;”菜单中的“高亮已激活选区&lt;/s1&gt;”菜单项进行切换。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T025633Z" creationid="grass" creationdate="20201229T024715Z">
+        <seg>它可以使用&lt;k0&gt;M-x transient-mark-mode&lt;/k0&gt;切换，或使用“&lt;s2&gt;选项&lt;/s2&gt;”菜单中的“&lt;s1&gt;高亮已激活选区&lt;/s1&gt;”菜单项进行切换。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25625,8 +25625,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="EN-US">
         <seg>This is actually two consecutive invocations of &lt;k3&gt;C-&lt;s4&gt;SPC&lt;/s4&gt;&lt;/k3&gt; (&lt;c5&gt;set-mark-command&lt;/c5&gt;); the first &lt;k6&gt;C-&lt;s7&gt;SPC&lt;/s7&gt;&lt;/k6&gt; sets the mark, and the second &lt;k8&gt;C-&lt;s9&gt;SPC&lt;/s9&gt;&lt;/k8&gt; deactivates it.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022528Z" creationid="grass" creationdate="20201229T022528Z">
-        <seg>这实际上是连续两次调用&lt;k3&gt;C-&lt;s4&gt;SPC&lt;//k3&gt;(&lt;c5&gt;set-mark-command&lt;/c5&gt;)；第一个&lt;k6&gt;C-&lt;/s7&gt;SPC&lt;/s7&gt;&lt;/k6&gt;设置标记，第二个&lt;k8&gt;C-&lt;/s9&gt;SPC&lt;//k8&gt;取消激活该标记。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T025710Z" creationid="grass" creationdate="20201229T022528Z">
+        <seg>这实际上是连续两次调用&lt;k3&gt;C-&lt;s4&gt;SP&lt;/s4&gt;C&lt;/k3&gt;(&lt;c5&gt;set-mark-command&lt;/c5&gt;)；第一个&lt;k6&gt;C-&lt;s7&gt;SPC&lt;/s7&gt;&lt;/k6&gt;设置标记，第二个&lt;k8&gt;C-&lt;s9&gt;SPC&lt;/s9&gt;&lt;/k8&gt;取消激活该标记。</seg>
       </tuv>
     </tu>
     <tu>
