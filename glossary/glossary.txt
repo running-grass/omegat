@@ -295,3 +295,4 @@ mouse-3	鼠标右键
 word	单词
 paragraph	段落
 page	页面
+case	大小写
