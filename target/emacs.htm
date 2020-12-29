@@ -533,7 +533,7 @@ The Organization of the Screen
 <tr><td bgcolor="white"><a href="#Shift-Selection">Shift选择</a></td>
 <td>使用Shift修饰的光标移动键。
 </td></tr>
-<tr><td bgcolor="white"><a href="#Disabled-Transient-Mark">Disabled Transient Mark</a></td>
+<tr><td bgcolor="white"><a href="#Disabled-Transient-Mark">禁用选区高亮</a></td>
 <td>默认情况下不高亮显示选区。
 </td></tr>
 <tr><th colspan="2" align="left" style="text-align:left">
@@ -5847,7 +5847,7 @@ Next: <a href="#Killing" accesskey="n" rel="next">Killing</a>, Previous: <a href
 <a name="index-deactivating-the-mark"></a>
 <p>在某些非移动命令(包括更改缓冲区中的文本的任何命令)之后，Emacs会自动<em>取消激活</em>标记；这会关闭高亮显示。您还可以随时通过键入<kbd>C-g</kbd>来显式取消激活标记(请参阅<a href="#Quitting">退出</a>)。
 </p>
-<p>上述默认行为称为Transient Mark mode。禁用Transient Mark mode会将Emacs切换到另一种行为，在该行为中，该区域通常不会高亮显示。请参阅<a href="#Disabled-Transient-Mark">禁用Transient Mark</a>。
+<p>上述默认行为称为选区高亮模式。禁用选区高亮模式会将Emacs切换到另一种行为，在该行为中，该区域通常不会高亮显示。请参阅<a href="#Disabled-Transient-Mark">禁用选区高亮</a>。
 </p>
 <a name="index-highlight_002dnonselected_002dwindows"></a>
 <p>在一个缓冲区中设置标记不会影响其他缓冲区中的标记。当您返回到具有激活标记的缓冲区时，该标记位于与以前相同的位置。当多个窗口显示相同的缓冲区时，它们可以具有不同的游标，从而具有不同的选区，但它们都共享一个共同的标记位置。请参阅<a href="#Windows">窗口</a>。通常，只有选定的窗口会高亮显示其区域；但是，如果变量<code>highlight-nonselected-windows</code>是非<code>nil</code>，则每个窗口都会高亮显示自己的选区。
@@ -5867,7 +5867,7 @@ Next: <a href="#Killing" accesskey="n" rel="next">Killing</a>, Previous: <a href
 </td></tr>
 <tr><td align="left" valign="top">• <a href="#Shift-Selection" accesskey="6">Shift选择</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">使用Shift修饰的光标移动键。
 </td></tr>
-<tr><td align="left" valign="top">• <a href="#Disabled-Transient-Mark" accesskey="7">禁用Transient Mark</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">默认情况下不高亮显示选区。
+<tr><td align="left" valign="top">• <a href="#Disabled-Transient-Mark" accesskey="7">禁用选区高亮</a>:</td><td>&nbsp;&nbsp;</td><td align="left" valign="top">默认情况下不高亮显示选区。
 </td></tr>
 </tbody></table>
 
@@ -5936,86 +5936,48 @@ Next: <a href="#Marking-Objects" accesskey="n" rel="next">Marking Objects</a>, U
 Next: <a href="#Using-Region" accesskey="n" rel="next">Using Region</a>, Previous: <a href="#Setting-Mark" accesskey="p" rel="prev">Setting Mark</a>, Up: <a href="#Mark" accesskey="u" rel="up">Mark</a> &nbsp; [<a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents" title="目录" rel="contents">Contents</a>][<a href="#Key-Index" title="主索引" rel="index">Index</a>]</p>
 </div>
 <a name="Commands-to-Mark-Textual-Objects"></a>
-<h3 class="section">11.2Commands to Mark Textual Objects</h3>
+<h3 class="section">11.2用于标记文本对象的命令</h3>
 
 <a name="index-marking-sections-of-text"></a>
-<p>Here are commands for placing point and the mark around a textual
-object such as a word, list, paragraph or page:
-
+<p>以下是在文本对象(如单词、列表、段落或页面)周围放置游标和标记的命令：
 </p>
 <dl compact="compact">
 <dt><kbd>M-@</kbd></dt>
-<dd><p>Set mark at the end of the next word (<code>mark-word</code>).  This does not
-move point.
-
+<dd><p>在下一个单词的末尾设置标记(<code>mark-word</code>)。这不会移动游标。
 </p></dd>
 <dt><kbd>C-M-@</kbd></dt>
-<dd><p>Set mark after end of following balanced expression
-(<code>mark-sexp</code>).  This does not move point.
-
+<dd><p>在表达式的末尾设置标记(<code>mark-sexp</code>)。这不会移动游标。
 </p></dd>
 <dt><kbd>M-h</kbd></dt>
-<dd><p>Move point to the beginning of the current paragraph, and set mark at
-the end (<code>mark-paragraph</code>).
-
+<dd><p>将游标移动到当前段落的开头，并在末尾设置标记(<code>mark-paragraph</code>)。
 </p></dd>
 <dt><kbd>C-M-h</kbd></dt>
-<dd><p>Move point to the beginning of the current defun, and set mark at the
-end (<code>mark-defun</code>).
-
+<dd><p>将游标移到当前定义的开头，并在结尾处设置标记(<code>mark-defun</code>)。
 </p></dd>
 <dt><kbd>C-x C-p</kbd></dt>
-<dd><p>Move point to the beginning of the current page, and set mark at the
-end (<code>mark-page</code>).
-
+<dd><p>将游标移到当前页面的开头，并在末尾设置标记(<code>mark-page</code>)。
 </p></dd>
 <dt><kbd>C-x h</kbd></dt>
-<dd><p>Move point to the beginning of the buffer, and set mark at the end
-(<code>mark-whole-buffer</code>).
-
+<dd><p>将游标移动到缓冲区的开头，并在末尾设置标记(<code>mark-whole-buffer</code>)。
 </p></dd>
 </dl>
 
 <a name="index-M_002d_0040"></a>
 <a name="index-mark_002dword"></a>
-<p><kbd>M-@</kbd> (<code>mark-word</code>) sets the mark at the end of the next
-word (see <a href="#Words">Words</a>, for information about words).  Repeated
-invocations of this command extend the region by advancing the mark
-one word at a time.  As an exception, if the mark is active and
-located before point, <kbd>M-@</kbd> moves the mark backwards from its
-current position one word at a time.
-
+<p><kbd>M-@</kbd>(<code>mark-word</code>)在下一个单词的末尾设置标记(有关单词的信息，请参见<a href="#Words">单词</a>)。重复调用此命令可通过一次前进一个单词来扩展选区。例外情况是，如果标记处于激活状态且位于游标之前，<kbd>M-@</kbd>将标记从其当前位置向后移动，一次一个单词。
 </p>
-<p>This command also accepts a numeric argument <var>n</var>, which tells it
-to advance the mark by <var>n</var> words.  A negative argument
--<var>n</var> moves the mark back by <var>n</var> words.
-
+<p>该命令还接受一个数字参数<var>n</var>，该参数告诉它将标记前进<var>n</var>个单词。负参数-<var>n</var>将标记后移<var>n</var>个单词。
 </p>
 <a name="index-C_002dM_002d_0040"></a>
 <a name="index-mark_002dsexp"></a>
-<p>Similarly, <kbd>C-M-@</kbd> (<code>mark-sexp</code>) puts the mark at the end
-of the next balanced expression (see <a href="#Expressions">Expressions</a>).  Repeated
-invocations extend the region to subsequent expressions, while
-positive or negative numeric arguments move the mark forward or
-backward by the specified number of expressions.
-
+<p>类似地，<kbd>C-M-@</kbd>(<code>mark-sexp</code>)将标记放在下一个表达式的末尾(请参见<a href="#Expressions">表达式</a>)。重复调用将该选区扩展到后续表达式，而正或负数字参数将标记向前或向后移动指定数量的表达式。
 </p>
-<p>The other commands in the above list set both point and mark, so as
-to delimit an object in the buffer.  <kbd>M-h</kbd> (<code>mark-paragraph</code>)
-marks paragraphs (see <a href="#Paragraphs">Paragraphs</a>), <kbd>C-M-h</kbd> (<code>mark-defun</code>)
-marks top-level definitions (see <a href="#Moving-by-Defuns">Moving by Defuns</a>), and <kbd>C-x
-C-p</kbd> (<code>mark-page</code>) marks pages (see <a href="#Pages">Pages</a>).  Repeated
-invocations again play the same role, extending the region to
-consecutive objects; similarly, numeric arguments specify how many
-objects to move the mark by.
-
+<p>上面列表中的其他命令同时设置游标和标记，以分隔缓冲区中的对象。<kbd>M-h</kbd>(<code>mark-paragraph</code>)标记段落(请参阅<a href="#Paragraphs">段落</a>)，<kbd>C-M-h</kbd>(<code>mark-defun</code>)标记顶级定义(请参阅<a href="#Moving-by-Defuns">按定义移动</a>)和<kbd>C-x C-p</kbd>(<code>mark-page</code>)标记页(请参阅<a href="#Pages">页面</a>)重复调用再次扮演相同的角色，将选区扩展到连续的对象；类似地，数字参数指定移动标记的对象数。
 </p>
 <a name="index-C_002dx-h"></a>
 <a name="index-mark_002dwhole_002dbuffer"></a>
 <a name="index-select-all"></a>
-<p><kbd>C-x h</kbd> (<code>mark-whole-buffer</code>) sets up the entire buffer as
-the region, by putting point at the beginning and the mark at the end.
-
+<p><kbd>C-x h</kbd>(<code>mark-whole-buffer</code>)将整个缓冲区设置为选区，方法是将游标放在开头，将标记放在结尾。
 </p>
 
 <a name="Using-Region"></a>
@@ -6025,84 +5987,37 @@ the region, by putting point at the beginning and the mark at the end.
 Next: <a href="#Mark-Ring" accesskey="n" rel="next">Mark Ring</a>, Previous: <a href="#Marking-Objects" accesskey="p" rel="prev">Marking Objects</a>, Up: <a href="#Mark" accesskey="u" rel="up">Mark</a> &nbsp; [<a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents" title="目录" rel="contents">Contents</a>][<a href="#Key-Index" title="主索引" rel="index">Index</a>]</p>
 </div>
 <a name="Operating-on-the-Region"></a>
-<h3 class="section">11.3Operating on the Region</h3>
+<h3 class="section">11.3选区的操作</h3>
 
 <a name="index-operations-on-a-marked-region"></a>
-<p>Once you have a region, here are some of the ways you can operate on
-it:
-
+<p>一旦您有了一个选区，以下是您可以对其进行操作的一些方法：
 </p>
 <ul>
-<li>  Kill it with <kbd>C-w</kbd> (see <a href="#Killing">Killing</a>).
-
-</li><li>  Copy it to the kill ring with <kbd>M-w</kbd> (see <a href="#Yanking">Yanking</a>).
-
-</li><li>  Convert case with <kbd>C-x C-l</kbd> or <kbd>C-x C-u</kbd> (see <a href="#Case">Case</a>).
-
-</li><li>  Undo changes within it using <kbd>C-u C-/</kbd> (see <a href="#Undo">Undo</a>).
-
-</li><li>  Replace text within it using <kbd>M-%</kbd> (see <a href="#Query-Replace">Query Replace</a>).
-
-</li><li>  Indent it with <kbd>C-x <span class="key">TAB</span></kbd> or <kbd>C-M-\</kbd> (see <a href="#Indentation">Indentation</a>).
-
-</li><li>  Fill it as text with <kbd>M-x fill-region</kbd> (see <a href="#Filling">Filling</a>).
-
-</li><li>  Check the spelling of words within it with <kbd>M-$</kbd> (see <a href="#Spelling">Spelling</a>).
-
-</li><li>  Evaluate it as Lisp code with <kbd>M-x eval-region</kbd> (see <a href="#Lisp-Eval">Lisp Eval</a>).
-
-</li><li>  Save it in a register with <kbd>C-x r s</kbd> (see <a href="#Registers">Registers</a>).
-
-</li><li>  Save it in a buffer or a file (see <a href="#Accumulating-Text">Accumulating Text</a>).
-
+<li> 使用<kbd>C-w</kbd>剪切(请参阅<a href="#Killing">剪切</a>)。
+</li><li> 使用<kbd>M-w</kbd>将其复制到剪切板(请参阅<a href="#Yanking">粘贴</a>)。
+</li><li> 使用<kbd>C-x C-l</kbd>或<kbd>C-x C-u</kbd>转换大小写(请参阅<a href="#Case">大小写</a>)。
+</li><li> 使用<kbd>C-u C-/</kbd>撤消其中的更改(请参阅<a href="#Undo">撤消</a>)。
+</li><li> 使用<kbd>M-%</kbd>替换其中的文本(请参阅<a href="#Query-Replace">查询替换</a>)。
+</li><li> 用<kbd>C-x<span class="key">TAB</span></kbd>或<kbd>C-M-\</kbd>缩进(请参阅<a href="#Indentation">缩进</a>)。
+</li><li> 使用<kbd>M-x fill-region</kbd>将其作为文本填充(请参阅<a href="#Filling">填充</a>)。
+</li><li> 使用<kbd>M-$</kbd>检查其中单词的拼写(请参阅<a href="#Spelling">拼写</a>)。
+</li><li> 使用<kbd>M-x eval-region</kbd>将其作为Lisp代码进行求值(请参阅<a href="#Lisp-Eval">Lisp求值</a>)。
+</li><li> 使用<kbd>C-x r s</kbd>将其保存在寄存器中(请参阅<a href="#Registers">寄存器</a>)。
+</li><li> 将其保存在缓冲区或文件中(请参阅<a href="#Accumulating-Text">累加文本</a>)。
 </li></ul>
 
-<p>Some commands have a default behavior when the mark is inactive, but
-operate on the region if the mark is active.  For example, <kbd>M-$</kbd>
-(<code>ispell-word</code>) normally checks the spelling of the word at
-point, but it checks the text in the region if the mark is active
-(see <a href="#Spelling">Spelling</a>).  Normally, such commands use their default
-behavior if the region is empty (i.e., if mark and point are at the
-same position).  If you want them to operate on the empty region,
-change the variable <code>use-empty-active-region</code> to <code>t</code>.
-
+<p>当标记处于非激活状态时，某些命令具有默认行为，但如果标记处于激活状态，则会对选区进行操作。例如，<kbd>M-$</kbd>(<code>ispell-word</code>)通常会检查单词的拼写，但如果标记处于激活状态，则它会检查选区中的文本(请参阅<a href="#Spelling">拼写</a>)。通常，如果选区为空(即，如果标记和点在同一位置)，则此类命令使用其默认行为。如果希望它们在空选区上操作，请将变量<code>use-empty-active-region</code>更改为<code>t</code>。
 </p>
 <a name="index-delete_002dactive_002dregion"></a>
-<p>As described in <a href="#Erasing">Erasing</a>, the <tt class="key">DEL</tt>
-(<code>backward-delete-char</code>) and <tt class="key">Delete</tt>
-(<code>delete-forward-char</code>) commands also act this way.  If the mark
-is active, they delete the text in the region.  (As an exception, if
-you supply a numeric argument <var>n</var>, where <var>n</var> is not one, these
-commands delete <var>n</var> characters regardless of whether the mark is
-active).  If you change the variable <code>delete-active-region</code> to
-<code>nil</code>, then these commands don’t act differently when the mark is
-active.  If you change the value to <code>kill</code>, these commands
-<em>kill</em> the region instead of deleting it (see <a href="#Killing">Killing</a>).
-
+<p>如<a href="#Erasing">擦除</a>中所述，<tt class="key">DEL</tt>(<code>backward-delete-char</code>)和<tt class="key">删除</tt>(<code>delete-forward-char</code>)命令也是如此。如果标记处于激活状态，则删除区域中的文本。(作为例外，如果您提供数字参数<var>n</var>，其中<var>n</var>不是1，则无论标记是否处于激活状态，这些命令都会删除<var>n</var>个字符)。如果将变量<code>delete-active-region</code>更改为<code>nil</code>，则当标记处于激活状态时，这些命令的作用不会有所不同。如果将值更改为<code>kill</code>，这些命令将<em>剪切</em>选区，而不是删除它(请参阅<a href="#Killing">剪切</a>)。
 </p>
 <a name="index-mark_002deven_002dif_002dinactive"></a>
-<p>Other commands always operate on the region, and have no default
-behavior.  Such commands usually have the word <code>region</code> in their
-names, like <kbd>C-w</kbd> (<code>kill-region</code>) and <kbd>C-x C-u</kbd>
-(<code>upcase-region</code>).  If the mark is inactive, they operate on the
-<em>inactive region</em>—that is, on the text between point and the
-position at which the mark was last set (see <a href="#Mark-Ring">Mark Ring</a>).  To
-disable this behavior, change the variable
-<code>mark-even-if-inactive</code> to <code>nil</code>.  Then these commands will
-instead signal an error if the mark is inactive.
-
+<p>其他命令始终在该选区上操作，并且没有默认行为。此类命令的名称中通常包含单词<code>region</code>，如<kbd>C-w</kbd>(<code>kill-region</code>)和<kbd>C-x C-u</kbd>(<code>upcase-region</code>)。如果标记处于非激活状态，它们将对<em>非激活选区</em>——即游标与上次设置标记的位置之间的文本进行操作(请参阅<a href="#Mark-Ring">标记环</a>)。要禁用此行为，请将变量<code>mark-even-if-inactive</code>更改为<code>nil</code>。则如果标记处于非激活，则这些命令将改为发出错误信号。
 </p>
 <a name="index-Delete-Selection-mode"></a>
 <a name="index-mode_002c-Delete-Selection"></a>
 <a name="index-delete_002dselection_002dmode"></a>
-<p>By default, text insertion occurs normally even if the mark is
-active—for example, typing <kbd>a</kbd> inserts the character ‘<samp>a</samp>’,
-then deactivates the mark.  Delete Selection mode, a minor mode,
-modifies this behavior: if you enable that mode, then inserting text
-while the mark is active causes the text in the region to be deleted
-first.  To toggle Delete Selection mode on or off, type <kbd>M-x
-delete-selection-mode</kbd>.
-
+<p>默认情况下，即使标记处于激活状态，文本插入也会正常进行——例如，键入<kbd>a</kbd>会插入字符“<samp>a</samp>”，然后停用该标记。Delete Selection mode(一种次要模式)会修改此行为：如果启用该模式，则在标记处于活动状态时插入文本会导致首先删除选区中的文本。若要打开或关闭“Delete Selection mode”模式，请键入<kbd>M-x delete-selection-mode</kbd>。
 </p>
 
 <a name="Mark-Ring"></a>
@@ -6112,74 +6027,35 @@ delete-selection-mode</kbd>.
 Next: <a href="#Global-Mark-Ring" accesskey="n" rel="next">Global Mark Ring</a>, Previous: <a href="#Using-Region" accesskey="p" rel="prev">Using Region</a>, Up: <a href="#Mark" accesskey="u" rel="up">Mark</a> &nbsp; [<a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents" title="目录" rel="contents">Contents</a>][<a href="#Key-Index" title="主索引" rel="index">Index</a>]</p>
 </div>
 <a name="The-Mark-Ring"></a>
-<h3 class="section">11.4The Mark Ring</h3>
+<h3 class="section">11.4标记环</h3>
 
 <a name="index-mark-ring"></a>
-<p>Each buffer remembers previous locations of the mark, in the
-<em>mark ring</em>.  Commands that set the mark also push the old mark
-onto this ring.  One of the uses of the mark ring is to remember spots
-that you may want to go back to.
-
+<p>每个缓冲区都会在<em>标记环</em>中记住标记的先前位置。设置标记的命令也会将旧标记推到此环上。标记环的用途之一是记住您可能想要返回的位置。
 </p>
 <dl compact="compact">
 <dt><kbd>C-<span class="key">SPC</span> C-<span class="key">SPC</span></kbd></dt>
-<dd><p>Set the mark, pushing it onto the mark ring, without activating it.
-
+<dd><p>设置标记，将其推到标记环上，而不激活它。
 </p></dd>
 <dt><kbd>C-u C-<span class="key">SPC</span></kbd></dt>
-<dd><p>Move point to where the mark was, and restore the mark from the ring
-of former marks.
-
+<dd><p>将游标移动到标记所在的位置，并从以前的标记环中恢复标记。
 </p></dd>
 </dl>
 
 <a name="index-C_002dSPC-C_002dSPC"></a>
-<p>The command <kbd>C-<span class="key">SPC</span> C-<span class="key">SPC</span></kbd> is handy when you want to
-use the mark to remember a position to which you may wish to return.
-It pushes the current point onto the mark ring, without activating the
-mark (which would cause Emacs to highlight the region).  This is
-actually two consecutive invocations of <kbd>C-<span class="key">SPC</span></kbd>
-(<code>set-mark-command</code>); the first <kbd>C-<span class="key">SPC</span></kbd> sets the mark,
-and the second <kbd>C-<span class="key">SPC</span></kbd> deactivates it.  (When Transient Mark
-mode is off, <kbd>C-<span class="key">SPC</span> C-<span class="key">SPC</span></kbd> instead activates Transient
-Mark mode temporarily; see <a href="#Disabled-Transient-Mark">Disabled Transient Mark</a>.)
-
+<p>命令<kbd>C-<span class="key">SPC</span>C-<span class="key">SPC</span></kbd>在您想要使用标记记住您可能希望返回的位置时非常方便。它会将当前游标推到标记环上，而不激活标记(这会导致Emacs高亮显示该区域)。这实际上是连续两次调用<kbd>C-<span class="key">SP</span>C</kbd>(<code>set-mark-command</code>)；第一个<kbd>C-<span class="key">SPC</span></kbd>设置标记，第二个<kbd>C-<span class="key">SPC</span></kbd>取消激活该标记。(当选区高亮模式关闭时，<kbd>C-<span class="key">SPC</span>C-<span class="key">SPC</span></kbd>临时激活选区高亮模式；请参阅<a href="#Disabled-Transient-Mark">禁用选区高亮</a>。)
 </p>
 <a name="index-C_002du-C_002dSPC"></a>
-<p>To return to a marked position, use <code>set-mark-command</code> with a
-prefix argument: <kbd>C-u C-<span class="key">SPC</span></kbd>.  This moves point to where the
-mark was, and deactivates the mark if it was active.  Each subsequent
-<kbd>C-u C-<span class="key">SPC</span></kbd> jumps to a prior position stored in the mark
-ring.  The positions you move through in this way are not lost; they
-go to the end of the ring.
-
+<p>要返回到标记位置，请使用带有前缀参数的<code>set-mark-command</code>：<kbd>C-u C-<span class="key">SPC</span></kbd>。此操作将指向标记所在的位置，如果标记处于激活状态，则会停用该标记。每个后续的<kbd>C-u C-<span class="key">SPC</span></kbd>跳转到存储在标记环中的先前位置。你以这种方式移动的位置不会丢失；它们会到达环的末端。
 </p>
 <a name="index-set_002dmark_002dcommand_002drepeat_002dpop"></a>
-<p>If you set <code>set-mark-command-repeat-pop</code> to non-<code>nil</code>,
-then immediately after you type <kbd>C-u C-<span class="key">SPC</span></kbd>, you can type
-<kbd>C-<span class="key">SPC</span></kbd> instead of <kbd>C-u C-<span class="key">SPC</span></kbd> to cycle through
-the mark ring.  By default, <code>set-mark-command-repeat-pop</code> is
-<code>nil</code>.
-
+<p>如果将 <code>set-mark-command-repeat-pop</code> 设置为非<code>nil</code>, 则在键入<kbd>C-u C-<span class="key">SPC</span></kbd>之后，你可以立即键入 <kbd>C-<span class="key">SPC</span></kbd>代替<kbd>C-u C-<span class="key">SPC</span></kbd>以在标记环中循环默认情况下，<code>set-mark-command-repeat-pop</code>为<code>nil</code>。
 </p>
-<p>Each buffer has its own mark ring.  All editing commands use the
-current buffer’s mark ring.  In particular, <kbd>C-u C-<span class="key">SPC</span></kbd>
-always stays in the same buffer.
-
+<p>每个缓冲区都有其自己的标记环。所有编辑命令都使用当前缓冲区的标记环。具体地说，<kbd>C-u C-<span class="key">SPC</span></kbd>始终保持在同一缓冲区中。
 </p>
 <a name="index-mark_002dring_002dmax"></a>
-<p>The variable <code>mark-ring-max</code> specifies the maximum number of
-entries to keep in the mark ring.  This defaults to 16 entries.  If
-that many entries exist and another one is pushed, the earliest one in
-the list is discarded.  Repeating <kbd>C-u C-<span class="key">SPC</span></kbd> cycles through
-the positions currently in the ring.
-
+<p>变量<code>mark-ring-max</code>指定要保留在标记环中的最大条目数。默认为16个条目。如果存在那么多条目，并且另一个条目被推送，则丢弃列表中最早的条目。重复<kbd>C-u C-<span class="key">SPC</span></kbd>循环更改在环中的当前位置。
 </p>
-<p>If you want to move back to the same place over and over, the mark
-ring may not be convenient enough.  If so, you can record the position
-in a register for later retrieval (see <a href="#Position-Registers">Saving
-Positions in Registers</a>).
-
+<p>如果你想一遍又一遍地移动回同一个地方，标记环可能不够方便。如果是这样，您可以将位置记录在寄存器中以备以后检索(请参阅<a href="#Position-Registers">在寄存器中保存位置</a>)。
 </p>
 
 <a name="Global-Mark-Ring"></a>
@@ -6189,27 +6065,15 @@ Positions in Registers</a>).
 Next: <a href="#Shift-Selection" accesskey="n" rel="next">Shift Selection</a>, Previous: <a href="#Mark-Ring" accesskey="p" rel="prev">Mark Ring</a>, Up: <a href="#Mark" accesskey="u" rel="up">Mark</a> &nbsp; [<a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents" title="目录" rel="contents">Contents</a>][<a href="#Key-Index" title="主索引" rel="index">Index</a>]</p>
 </div>
 <a name="The-Global-Mark-Ring"></a>
-<h3 class="section">11.5The Global Mark Ring</h3>
+<h3 class="section">11.5全局标记环</h3>
 <a name="index-global-mark-ring"></a>
 
 <a name="index-global_002dmark_002dring_002dmax"></a>
-<p>In addition to the ordinary mark ring that belongs to each buffer,
-Emacs has a single <em>global mark ring</em>.  Each time you set a mark,
-this is recorded in the global mark ring in addition to the current
-buffer’s own mark ring, if you have switched buffers since the
-previous mark setting.  Hence, the global mark ring records a sequence
-of buffers that you have been in, and, for each buffer, a place where
-you set the mark.  The length of the global mark ring is controlled by
-<code>global-mark-ring-max</code>, and is 16 by default.
-
+<p>除了属于每个缓冲区的普通标记环之外，Emacs还具有单个<em>全局标记环</em>。如果自上一次标记设置后切换了缓冲区，则每次设置标记时，除了记录当前缓冲区自己的标记环外，还会将其记录在全局标记环中。因此，全局标记环会记录您所在的缓冲区序列，并为每个缓冲区记录您设置标记的位置。全局标记环的长度由<code>global-mark-ring-max</code>控制，默认为16。
 </p>
 <a name="index-C_002dx-C_002dSPC"></a>
 <a name="index-pop_002dglobal_002dmark"></a>
-<p>The command <kbd>C-x C-<span class="key">SPC</span></kbd> (<code>pop-global-mark</code>) jumps to
-the buffer and position of the latest entry in the global ring.  It also
-rotates the ring, so that successive uses of <kbd>C-x C-<span class="key">SPC</span></kbd> take
-you to earlier buffers and mark positions.
-
+<p>命令<kbd>C-x C-<span class="key">SPC</span></kbd>(<code>pop-global-mark</code>)跳转到全局环中最新条目的缓冲区和位置。它还会旋转环，以便连续使用<kbd>C-x C-<span class="key">SPC</span></kbd>将您带到较早的缓冲区和标记位置。
 </p>
 
 <a name="Shift-Selection"></a>
@@ -6222,40 +6086,15 @@ Next: <a href="#Disabled-Transient-Mark" accesskey="n" rel="next">Disabled Trans
 <h3 class="section">11.6Shift选择</h3>
 <a name="index-shift_002dselection"></a>
 
-<p>If you hold down the shift key while typing a cursor motion command,
-this sets the mark before moving point, so that the region extends
-from the original position of point to its new position.  This feature
-is referred to as <em>shift-selection</em>.  It is similar to the way
-text is selected in other editors.
-
+<p>如果在键入光标移动命令的同时按住Shift键，则会在移动点之前设置标记，以便选区从游标的原始位置延伸到其新位置。此功能称为<em>shift选择</em>。这类似于在其他编辑器中选择文本的方式。
 </p>
-<p>The mark set via shift-selection behaves a little differently from
-what we have described above.  Firstly, in addition to the usual ways
-of deactivating the mark (such as changing the buffer text or typing
-<kbd>C-g</kbd>), the mark is deactivated by any <em>unshifted</em> cursor
-motion command.  Secondly, any subsequent <em>shifted</em> cursor motion
-command avoids setting the mark anew.  Therefore, a series of shifted
-cursor motion commands will continuously adjust the region.
-
+<p>通过按住Shift键选择设置的标记的行为与我们上面描述的稍有不同。首先，除了通常的取消激活标记的方法(如更改缓冲区文本或键入<kbd>C-g</kbd>)外，还可以通过任何<em>非shift修饰的</em>光标移动命令取消激活标记。其次，任何后续的<em>shift修饰的</em>光标移动命令都可以避免重新设置标记。因此，一系列移动的光标移动命令将连续调整选区。
 </p>
-<p>Shift-selection only works if the shifted cursor motion key is not
-already bound to a separate command (see <a href="#Customization">Customization</a>).  For
-example, if you bind <kbd>S-C-f</kbd> to another command, typing
-<kbd>S-C-f</kbd> runs that command instead of performing a shift-selected
-version of <kbd>C-f</kbd> (<code>forward-char</code>).
-
+<p>仅当移动的光标移动键尚未绑定到单独的命令时，Shift选择才有效(请参阅<a href="#Customization">自定义</a>)。例如，如果将<kbd>S-C-f</kbd>绑定到另一个命令，则键入<kbd>S-C-f</kbd>将运行该命令，而不是执行<kbd>C-f</kbd>的Shift选定版本(<code>forward-char</code>)。
 </p>
-<p>A mark set via mouse commands behaves the same as a mark set via
-shift-selection (see <a href="#Setting-Mark">Setting Mark</a>).  For example, if you specify a
-region by dragging the mouse, you can continue to extend the region
-using shifted cursor motion commands.  In either case, any unshifted
-cursor motion command deactivates the mark.
-
+<p>通过鼠标命令设置的标记与通过按住Shift键选择设置的标记的行为相同(请参阅<a href="#Setting-Mark">设置标记</a>)。例如，如果通过拖动鼠标指定选区，则可以使用shift修饰的光标移动命令继续扩展该选区。在这两种情况下，任何非Shift修饰的光标移动命令都会取消激活标记。
 </p>
-<p>To turn off shift-selection, set <code>shift-select-mode</code> to
-<code>nil</code>.  Doing so does not disable setting the mark via mouse
-commands.
-
+<p>若要关闭Shift选择，请将<code>shift-select-mode</code>设置为<code>nil</code>。这样做并不会禁用通过鼠标命令设置标记。
 </p>
 
 <a name="Disabled-Transient-Mark"></a>
@@ -6265,7 +6104,7 @@ commands.
 Previous: <a href="#Shift-Selection" accesskey="p" rel="prev">Shift Selection</a>, Up: <a href="#Mark" accesskey="u" rel="up">Mark</a> &nbsp; [<a href="https://www.gnu.org/software/emacs/manual/html_mono/emacs.html#SEC_Contents" title="目录" rel="contents">Contents</a>][<a href="#Key-Index" title="主索引" rel="index">Index</a>]</p>
 </div>
 <a name="Disabling-Transient-Mark-Mode"></a>
-<h3 class="section">11.7Disabling Transient Mark Mode</h3>
+<h3 class="section">11.7禁用选区高亮模式</h3>
 <a name="index-mode_002c-Transient-Mark"></a>
 <a name="index-Transient-Mark-mode"></a>
 <a name="index-highlighting-region"></a>
@@ -6273,72 +6112,34 @@ Previous: <a href="#Shift-Selection" accesskey="p" rel="prev">Shift Selection</a
 <a name="index-Zmacs-mode"></a>
 <a name="index-transient_002dmark_002dmode"></a>
 
-<p>The default behavior of the mark and region, in which setting the
-mark activates it and highlights the region, is called Transient Mark
-mode.  This is a minor mode that is enabled by default.  It can be
-toggled with <kbd>M-x transient-mark-mode</kbd>, or with the
-‘<samp>Highlight Active Region</samp>’ menu item in the ‘<samp>Options</samp>’ menu.
-Turning it off switches Emacs to an alternative mode of operation:
-
+<p>标记和选区的默认行为称为选区高亮模式，在该行为中，设置标记将激活标记并高亮显示选区。这是默认启用的辅模式。它可以使用<kbd>M-x transient-mark-mode</kbd>切换，或使用“<samp>选项</samp>”菜单中的“<samp>高亮已激活选区</samp>”菜单项进行切换。将其关闭会将Emacs切换到另一种操作模式：
 </p>
 <ul>
-<li>  Setting the mark, with commands like <kbd>C-<span class="key">SPC</span></kbd> or <kbd>C-x
-C-x</kbd>, does not highlight the region.  Therefore, you can’t tell by
-looking where the mark is located; you have to remember.
+<li> 使用<kbd>C-<span class="key">SPC</span></kbd>或<kbd>C-x C-x</kbd>等命令设置标记不会高亮显示该选区。因此，你不能通过看标记的位置来判断，你必须记住。
 
-
-
-<p>The usual solution to this problem is to set the mark and then use it
-soon, before you forget where it is.  You can also check where the
-mark is by using <kbd>C-x C-x</kbd>, which exchanges the positions of the
-point and the mark (see <a href="#Setting-Mark">Setting Mark</a>).
-
+<p>这个问题的通常解决方案是在你忘记它在哪里之前，设置好标记，然后很快使用它。您还可以使用<kbd>C-x C-x</kbd>检查标记的位置，它交换游标和标记的位置(请参阅<a href="#Setting-Mark">设置标记</a>)。
 </p>
-</li><li>  Some commands, which ordinarily act on the region when the mark is
-active, no longer do so.  For example, normally <kbd>M-%</kbd>
-(<code>query-replace</code>) performs replacements within the region, if the
-mark is active.  When Transient Mark mode is off, it always operates
-from point to the end of the buffer.  Commands that act this way are
-identified in their own documentation.
-
+</li><li> 一些通常在标记处于激活状态时作用于区域的命令不再这样做。例如，如果标记处于激活状态，通常<kbd>M-%</kbd>(<code>query-replace</code>)在区域内执行替换。当选区高亮模式关闭时，它始终从游标操作到缓冲区的末尾。以这种方式执行的命令在它们自己的文档中进行了标识。
 </li></ul>
 
 <a name="index-enabling-Transient-Mark-mode-temporarily"></a>
-<p>While Transient Mark mode is off, you can activate it temporarily
-using <kbd>C-<span class="key">SPC</span> C-<span class="key">SPC</span></kbd> or <kbd>C-u C-x C-x</kbd>.
-
+<p>关闭选区高亮模式时，您可以使用<kbd>C-<span class="key">SPC</span>C-<span class="key">SPC</span></kbd>或<kbd>C-u C-x C-x</kbd>临时激活该模式。
 </p>
 <dl compact="compact">
 <dt><kbd>C-<span class="key">SPC</span> C-<span class="key">SPC</span></kbd></dt>
 <dd><a name="index-C_002dSPC-C_002dSPC_002c-enabling-Transient-Mark-mode-temporarily"></a>
-<p>Set the mark at point (like plain <kbd>C-<span class="key">SPC</span></kbd>) and enable
-Transient Mark mode just once, until the mark is deactivated.  (This
-is not really a separate command; you are using the <kbd>C-<span class="key">SPC</span></kbd>
-command twice.)
-
+<p>将标记设置在游标(如普通<kbd>C-<span class="key">SPC</span></kbd>)，只启用一次选区高亮模式，直到标记被取消激活。(这实际上不是一个单独的命令；您使用了两次<kbd>C-<span class="key">SPC</span></kbd>命令。)
 </p>
 </dd>
 <dt><kbd>C-u C-x C-x</kbd></dt>
 <dd><a name="index-C_002du-C_002dx-C_002dx"></a>
-<p>Exchange point and mark, activate the mark and enable Transient Mark
-mode temporarily, until the mark is next deactivated.  (This is the
-<kbd>C-x C-x</kbd> command, <code>exchange-point-and-mark</code>, with a prefix
-argument.)
-
+<p>交换游标和标记，激活标记并临时启用选区高亮模式，直到标记下一次取消激活。(这是<kbd>C-x C-x</kbd>命令<code>exchange-point-and-mark</code>，带有前缀参数。)
 </p></dd>
 </dl>
 
-<p>These commands set or activate the mark, and enable Transient Mark
-mode only until the mark is deactivated.  One reason you may want to
-use them is that some commands operate on the entire buffer instead of
-the region when Transient Mark mode is off.  Enabling Transient Mark
-mode momentarily gives you a way to use these commands on the region.
-
+<p>这些命令设置或激活标记，并仅在标记取消激活之前启用选区高亮模式。您可能想要使用它们的一个原因是，当选区高亮模式关闭时，某些命令在整个缓冲区而不是选区上操作。暂时启用选区高亮模式为您提供了一种在选区上使用这些命令的方法。
 </p>
-<p>When you specify a region with the mouse (see <a href="#Setting-Mark">Setting Mark</a>), or
-with shift-selection (see <a href="#Shift-Selection">Shift Selection</a>), this likewise
-activates Transient Mark mode temporarily and highlights the region.
-
+<p>当您使用鼠标(请参阅<a href="#Setting-Mark">设置标记</a>)或按住Shift键选择(请参阅<a href="#Shift-Selection">Shift选择</a>)指定选区时，这同样会临时激活选区高亮模式并高亮显示该选区。
 </p>
 
 <a name="Killing"></a>
@@ -24781,8 +24582,7 @@ words:
 
 </p></dd>
 <dt><kbd>M-@</kbd></dt>
-<dd><p>Set mark at the end of the next word (<code>mark-word</code>).
-
+<dd><p>在下一个单词的末尾设置标记(<code>mark-word</code>)。
 </p></dd>
 <dt><kbd>M-t</kbd></dt>
 <dd><p>Transpose two words or drag a word across others
