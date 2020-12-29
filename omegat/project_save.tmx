@@ -15712,8 +15712,8 @@ on your load path.</seg>
       <tuv lang="EN-US">
         <seg>Mode Line</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032841Z" creationid="grass" creationdate="20201203T032841Z">
-        <seg>状态栏Mode Line</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T072256Z" creationid="grass" creationdate="20201203T032841Z">
+        <seg>状态栏</seg>
       </tuv>
     </tu>
     <tu>
