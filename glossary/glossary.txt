@@ -299,3 +299,4 @@ case	大小写
 undo	撤销
 redo	重做
 accumulate	累加
+mark ring	标记环
