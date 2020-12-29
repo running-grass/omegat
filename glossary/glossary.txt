@@ -298,3 +298,4 @@ page	页面
 case	大小写
 undo	撤销
 redo	重做
+accumulate	累加
