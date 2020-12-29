@@ -4213,6 +4213,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;k0&gt;C-x h&lt;/k0&gt; (&lt;c1&gt;mark-whole-buffer&lt;/c1&gt;) sets up the entire buffer as the region, by putting point at the beginning and the mark at the end.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020900Z" creationid="grass" creationdate="20201229T020900Z">
+        <seg>&lt;k0&gt;C-x h&lt;/k0&gt;(&lt;c1&gt;mark-whole-buffer&lt;/c1&gt;)将整个缓冲区设置为选区，方法是将游标放在开头，将标记放在结尾。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;k0&gt;C-x n b&lt;/k0&gt; (&lt;c1&gt;org-narrow-to-block&lt;/c1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T065845Z" creationid="grass" creationdate="20201015T065845Z">
@@ -4337,6 +4345,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T063912Z" creationid="grass" creationdate="20201015T063912Z">
         <seg>&lt;k0&gt;M-S-&lt;s1&gt;RIGHT&lt;/s1&gt;&lt;/k0&gt; (&lt;c2&gt;org-demote-subtree&lt;/c2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;k0&gt;M-h&lt;/k0&gt; (&lt;c1&gt;mark-paragraph&lt;/c1&gt;) marks paragraphs (see &lt;a2&gt;Paragraphs&lt;/a2&gt;), &lt;k3&gt;C-M-h&lt;/k3&gt; (&lt;c4&gt;mark-defun&lt;/c4&gt;) marks top-level definitions (see &lt;a5&gt;Moving by Defuns&lt;/a5&gt;), and &lt;k6&gt;C-x C-p&lt;/k6&gt; (&lt;c7&gt;mark-page&lt;/c7&gt;) marks pages (see &lt;a8&gt;Pages&lt;/a8&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020800Z" creationid="grass" creationdate="20201229T020800Z">
+        <seg>&lt;k0&gt;M-h&lt;/k0&gt;(&lt;c1&gt;mark-paragraph&lt;/c1&gt;)标记段落(请参阅&lt;a2&gt;段落&lt;/a2&gt;)，&lt;k3&gt;C-M-h&lt;/k3&gt;(&lt;c4&gt;mark-defun&lt;/c4&gt;)标记顶级定义(请参阅&lt;a5&gt;按定义移动&lt;/a5&gt;)和&lt;k6&gt;C-x C-p&lt;/k6&gt;(&lt;c7&gt;mark-page&lt;/c7&gt;)标记页(请参阅&lt;a8&gt;页面&lt;/a8&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -20098,10 +20114,18 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Repeated invocations again play the same role, extending the region to consecutive objects; similarly, numeric arguments specify how many objects to move the mark by.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020811Z" creationid="grass" creationdate="20201229T020811Z">
+        <seg>重复调用再次扮演相同的角色，将选区扩展到连续的对象；类似地，数字参数指定移动标记的对象数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Repeated invocations extend the region to subsequent expressions, while positive or negative numeric arguments move the mark forward or backward by the specified number of expressions.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020545Z" creationid="grass" creationdate="20201229T020545Z">
-        <seg>重复调用将该区域扩展到后续表达式，而正或负数字参数将标记向前或向后移动指定数量的表达式。</seg>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020827Z" creationid="grass" creationdate="20201229T020545Z">
+        <seg>重复调用将该选区扩展到后续表达式，而正或负数字参数将标记向前或向后移动指定数量的表达式。</seg>
       </tuv>
     </tu>
     <tu>
