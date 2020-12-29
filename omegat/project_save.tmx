@@ -6590,6 +6590,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C-&lt;s0&gt;SPC&lt;/s0&gt; C-&lt;s1&gt;SPC&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022348Z" creationid="grass" creationdate="20201229T022348Z">
+        <seg>C-&lt;s0&gt;SPC&lt;/s0&gt; C-&lt;s1&gt;SPC&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C-@</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201228T060611Z" creationid="grass" creationdate="20201228T060611Z">
@@ -7090,6 +7098,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T061821Z" creationid="grass" creationdate="20201015T061821Z">
         <seg>C-u &lt;s0&gt;TAB&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C-u C-&lt;s0&gt;SPC&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022355Z" creationid="grass" creationdate="20201229T022355Z">
+        <seg>C-u C-&lt;s0&gt;SPC&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7626,6 +7642,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T123521Z" creationid="grass" creationdate="20201215T123521Z">
         <seg>在“&lt;s0&gt;M-x&lt;/s0&gt;”提示符下键入的全名小于其全名后，仍可以调用没有键绑定的命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Commands that set the mark also push the old mark onto this ring.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022341Z" creationid="grass" creationdate="20201229T022341Z">
+        <seg>设置标记的命令也会将旧标记推到此环上。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8990,6 +9014,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073905Z" creationid="grass" creationdate="20201227T073905Z">
         <seg>每个Emacs主模式通常重新定义几个键，并对编辑工作方式进行其他更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each buffer remembers previous locations of the mark, in the &lt;e0&gt;mark ring&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022332Z" creationid="grass" creationdate="20201229T022332Z">
+        <seg>每个缓冲区都会在&lt;e0&gt;标记环&lt;/e0&gt;中记住标记的先前位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15606,6 +15638,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Move point to where the mark was, and restore the mark from the ring of former marks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022431Z" creationid="grass" creationdate="20201229T022431Z">
+        <seg>将游标移动到标记所在的位置，并从以前的标记环中恢复标记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Move subtree down, i.e., swap with next subtree of same level.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064003Z" creationid="grass" creationdate="20201015T064003Z">
@@ -18474,6 +18514,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075625Z" creationid="grass" creationdate="20201015T075625Z">
         <seg>GTD最重要的一个方面是收件箱。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One of the uses of the mark ring is to remember spots that you may want to go back to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022347Z" creationid="grass" creationdate="20201229T022347Z">
+        <seg>标记环的用途之一是记住您可能想要返回的位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21530,6 +21578,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set the mark, pushing it onto the mark ring, without activating it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022354Z" creationid="grass" creationdate="20201229T022354Z">
+        <seg>设置标记，将其推到标记环上，而不激活它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Setting &lt;c0&gt;org-catch-invisible-edits&lt;/c0&gt; to non-&lt;c1&gt;nil&lt;/c1&gt; helps preventing this.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T182348Z" creationid="grass" creationdate="20201010T182348Z">
@@ -23113,6 +23169,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T024107Z" creationid="grass" creationdate="20201203T024107Z">
         <seg>MS-DOS约定使用回车字符后跟换行符；编辑此类文件时，冒号将更改为反斜杠(‘&lt;s2&gt;\&lt;/s2&gt;’)或‘&lt;s3&gt;(DOS)&lt;/s3&gt;’，具体取决于操作系统。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Mark Ring</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022236Z" creationid="grass" creationdate="20201229T022236Z">
+        <seg>标记环</seg>
       </tuv>
     </tu>
     <tu>
@@ -26027,6 +26091,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032508Z" creationid="grass" creationdate="20201203T032508Z">
         <seg>为此，将变量&lt;c0&gt;tty-menu-open-use-tmm&lt;/c0&gt;自定义为非&lt;c1&gt;nil&lt;/c1&gt;值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To toggle Delete Selection mode on or off, type &lt;k2&gt;M-x delete-selection-mode&lt;/k2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022149Z" creationid="grass" creationdate="20201229T022149Z">
+        <seg>若要打开或关闭“Delete Selection mode”模式，请键入&lt;k2&gt;M-x delete-selection-mode&lt;/k2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
