@@ -6502,6 +6502,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, text insertion occurs normally even if the mark is active—for example, typing &lt;k0&gt;a&lt;/k0&gt; inserts the character ‘&lt;s1&gt;a&lt;/s1&gt;’, then deactivates the mark.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022056Z" creationid="grass" creationdate="20201229T022056Z">
+        <seg>默认情况下，即使标记处于激活状态，文本插入也会正常进行——例如，键入&lt;k0&gt;a&lt;/k0&gt;会插入字符“&lt;s1&gt;a&lt;/s1&gt;”，然后停用该标记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, the cursor in the selected window is drawn as a solid block and appears to be &lt;e0&gt;on&lt;/e0&gt; a character, but you should think of point as &lt;e1&gt;between&lt;/e1&gt; two characters; it is situated &lt;e2&gt;before&lt;/e2&gt; the character under the cursor.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T084945Z" creationid="grass" creationdate="20201130T120151Z">
@@ -8298,6 +8306,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201207T151707Z" creationid="grass" creationdate="20201207T151707Z">
         <seg>Delete</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Delete Selection mode, a minor mode, modifies this behavior: if you enable that mode, then inserting text while the mark is active causes the text in the region to be deleted first.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022130Z" creationid="grass" creationdate="20201229T022130Z">
+        <seg>Delete Selection mode(一种次要模式)会修改此行为：如果启用该模式，则在标记处于活动状态时插入文本会导致首先删除选区中的文本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12506,6 +12522,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the mark is inactive, they operate on the &lt;e5&gt;inactive region&lt;/e5&gt;—that is, on the text between point and the position at which the mark was last set (see &lt;a6&gt;Mark Ring&lt;/a6&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022004Z" creationid="grass" creationdate="20201229T022004Z">
+        <seg>如果标记处于非激活状态，它们将对&lt;e5&gt;非激活选区&lt;/e5&gt;——即游标与上次设置标记的位置之间的文本进行操作(请参阅&lt;a6&gt;标记环&lt;/a6&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the minibuffer prompt for &lt;k1&gt;C-h f&lt;/k1&gt; shows the function name from the buffer as the default, it means that name is defined as a Lisp function.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071511Z" creationid="grass" creationdate="20201227T071511Z">
@@ -12806,6 +12830,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201212T105927Z" creationid="grass" creationdate="20201212T105927Z">
         <seg>如果将其更改为任何其他非&lt;c3&gt;nil&lt;/c3&gt;值，则Emacs会要求确认前面的命令是否为&lt;t4&gt;TAB&lt;/t4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you change the value to &lt;c10&gt;kill&lt;/c10&gt;, these commands &lt;e11&gt;kill&lt;/e11&gt; the region instead of deleting it (see &lt;a12&gt;Killing&lt;/a12&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021849Z" creationid="grass" creationdate="20201229T021849Z">
+        <seg>如果将值更改为&lt;c10&gt;kill&lt;/c10&gt;，这些命令将&lt;e11&gt;剪切&lt;/e11&gt;选区，而不是删除它(请参阅&lt;a12&gt;剪切&lt;/a12&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18918,6 +18950,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Other commands always operate on the region, and have no default behavior.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021901Z" creationid="grass" creationdate="20201229T021901Z">
+        <seg>其他命令始终在该选区上操作，并且没有默认行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Other commands take two or more input events to invoke, such as &lt;k1&gt;C-x C-f&lt;/k1&gt; and &lt;k2&gt;C-x 4 C-f&lt;/k2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030645Z" creationid="grass" creationdate="20201205T030645Z">
@@ -22330,6 +22370,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Such commands usually have the word &lt;c0&gt;region&lt;/c0&gt; in their names, like &lt;k1&gt;C-w&lt;/k1&gt; (&lt;c2&gt;kill-region&lt;/c2&gt;) and &lt;k3&gt;C-x C-u&lt;/k3&gt; (&lt;c4&gt;upcase-region&lt;/c4&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021918Z" creationid="grass" creationdate="20201229T021918Z">
+        <seg>此类命令的名称中通常包含单词&lt;c0&gt;region&lt;/c0&gt;，如&lt;k1&gt;C-w&lt;/k1&gt;(&lt;c2&gt;kill-region&lt;/c2&gt;)和&lt;k3&gt;C-x C-u&lt;/k3&gt;(&lt;c4&gt;upcase-region&lt;/c4&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Such queries come in two main varieties.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201215T030207Z" creationid="grass" creationdate="20201215T030207Z">
@@ -24453,6 +24501,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Then these commands will instead signal an error if the mark is inactive.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022035Z" creationid="grass" creationdate="20201229T022035Z">
+        <seg>则如果标记处于非激活，则这些命令将改为发出错误信号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Then typing &lt;t2&gt;F10&lt;/t2&gt; will run the command &lt;c3&gt;tmm-menubar&lt;/c3&gt; instead of dropping down the menu.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032519Z" creationid="grass" creationdate="20201203T032519Z">
@@ -25619,6 +25675,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013159Z" creationid="grass" creationdate="20201208T013159Z">
         <seg>要创建文件，只需使用&lt;k0&gt;C-x C-f&lt;/k0&gt;访问它，就好像它已经存在一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To disable this behavior, change the variable &lt;c7&gt;mark-even-if-inactive&lt;/c7&gt; to &lt;c8&gt;nil&lt;/c8&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022012Z" creationid="grass" creationdate="20201229T022012Z">
+        <seg>要禁用此行为，请将变量&lt;c7&gt;mark-even-if-inactive&lt;/c7&gt;更改为&lt;c8&gt;nil&lt;/c8&gt;。</seg>
       </tuv>
     </tu>
     <tu>
