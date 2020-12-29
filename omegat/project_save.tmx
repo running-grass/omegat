@@ -7862,10 +7862,26 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Convert case with &lt;k0&gt;C-x C-l&lt;/k0&gt; or &lt;k1&gt;C-x C-u&lt;/k1&gt; (see &lt;a2&gt;Case&lt;/a2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021301Z" creationid="grass" creationdate="20201229T021301Z">
+        <seg>使用&lt;k0&gt;C-x C-l&lt;/k0&gt;或&lt;k1&gt;C-x C-u&lt;/k1&gt;转换大小写(请参阅&lt;a2&gt;大小写&lt;/a2&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Copy and modify.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T113301Z" creationid="grass" creationdate="20201014T113301Z">
         <seg>复制并修改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copy it to the kill ring with &lt;k0&gt;M-w&lt;/k0&gt; (see &lt;a1&gt;Yanking&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T021011Z" creationid="grass" creationdate="20201229T021011Z">
+        <seg>使用&lt;k0&gt;M-w&lt;/k0&gt;将其复制到剪切板(请参阅&lt;a1&gt;粘贴&lt;/a1&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14262,6 +14278,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Kill it with &lt;k0&gt;C-w&lt;/k0&gt; (see &lt;a1&gt;Killing&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020941Z" creationid="grass" creationdate="20201229T020941Z">
+        <seg>使用&lt;k0&gt;C-w&lt;/k0&gt;剪切(请参阅&lt;a1&gt;剪切&lt;/a1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Kill subtree, i.e., remove it from buffer but save in kill ring.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T064257Z" creationid="grass" creationdate="20201015T064257Z">
@@ -18286,6 +18310,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once you have a region, here are some of the ways you can operate on it:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020924Z" creationid="grass" creationdate="20201229T020924Z">
+        <seg>一旦您有了一个选区，以下是您可以对其进行操作的一些方法：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once you’re done capturing, &lt;c1&gt;C-c C-c&lt;/c1&gt; and it will get stored in the inbox.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201105T050249Z" creationid="grass" creationdate="20201015T075720Z">
@@ -18370,6 +18402,14 @@ on your load path.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201010T203753Z" creationid="grass" creationdate="20201010T203753Z">
         <seg>OpenDocument文本导出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Operating on the Region</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T020916Z" creationid="grass" creationdate="20201229T020916Z">
+        <seg>选区的操作</seg>
       </tuv>
     </tu>
     <tu>
