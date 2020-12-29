@@ -486,6 +486,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(When Transient Mark mode is off, &lt;k10&gt;C-&lt;s11&gt;SPC&lt;/s11&gt; C-&lt;s12&gt;SPC&lt;/s12&gt;&lt;/k10&gt; instead activates Transient Mark mode temporarily; see &lt;a13&gt;Disabled Transient Mark&lt;/a13&gt;.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022556Z" creationid="grass" creationdate="20201229T022556Z">
+        <seg>(当Transient Mark mode关闭时，&lt;k10&gt;C-&lt;s11&gt;SPC&lt;/s11&gt;C-&lt;s12&gt;SPC&lt;/s12&gt;&lt;/k10&gt;临时激活Transient Mark mode；请参阅&lt;a13&gt;禁用Transient Mark&lt;/a13&gt;。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(You can also type &lt;k4&gt;M-`&lt;/k4&gt;, which always invokes &lt;c5&gt;tmm-menubar&lt;/c5&gt;.) &lt;c6&gt;tmm-menubar&lt;/c6&gt; lets you select a menu item with the keyboard.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032557Z" creationid="grass" creationdate="20201203T032526Z">
@@ -9114,6 +9122,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each subsequent &lt;k3&gt;C-u C-&lt;s4&gt;SPC&lt;/s4&gt;&lt;/k3&gt; jumps to a prior position stored in the mark ring.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022725Z" creationid="grass" creationdate="20201229T022725Z">
+        <seg>每个后续的&lt;k3&gt;C-u C-&lt;s4&gt;SPC&lt;/s4&gt;&lt;/k3&gt;跳转到存储在标记环中的先前位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Echo Area</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201203T032837Z" creationid="grass" creationdate="20201203T032837Z">
@@ -14214,6 +14230,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201015T075801Z" creationid="grass" creationdate="20201015T075801Z">
         <seg>它提供了很多定制选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It pushes the current point onto the mark ring, without activating the mark (which would cause Emacs to highlight the region).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022504Z" creationid="grass" creationdate="20201229T022504Z">
+        <seg>它会将当前游标推到标记环上，而不激活标记(这会导致Emacs高亮显示该区域)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23413,6 +23437,14 @@ databases, which hold and persist records.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The command &lt;k0&gt;C-&lt;s1&gt;SPC&lt;/s1&gt; C-&lt;s2&gt;SPC&lt;/s2&gt;&lt;/k0&gt; is handy when you want to use the mark to remember a position to which you may wish to return.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022446Z" creationid="grass" creationdate="20201229T022446Z">
+        <seg>命令&lt;k0&gt;C-&lt;s1&gt;SPC&lt;/s1&gt;C-&lt;s2&gt;SPC&lt;/s2&gt;&lt;/k0&gt;在您想要使用标记记住您可能希望返回的位置时非常方便。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The command &lt;k0&gt;C-c C-x c&lt;/k0&gt; was created for this purpose; it is described in &lt;a1&gt;Structure Editing&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201016T055948Z" creationid="grass" creationdate="20201016T055948Z">
@@ -24161,6 +24193,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201130T115033Z" creationid="grass" creationdate="20201130T115033Z">
         <seg>文本中操作编辑命令的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The positions you move through in this way are not lost; they go to the end of the ring.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022735Z" creationid="grass" creationdate="20201229T022735Z">
+        <seg>你以这种方式移动的位置不会丢失；它们会到达环的末端。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25191,6 +25231,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is actually two consecutive invocations of &lt;k3&gt;C-&lt;s4&gt;SPC&lt;/s4&gt;&lt;/k3&gt; (&lt;c5&gt;set-mark-command&lt;/c5&gt;); the first &lt;k6&gt;C-&lt;s7&gt;SPC&lt;/s7&gt;&lt;/k6&gt; sets the mark, and the second &lt;k8&gt;C-&lt;s9&gt;SPC&lt;/s9&gt;&lt;/k8&gt; deactivates it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022528Z" creationid="grass" creationdate="20201229T022528Z">
+        <seg>这实际上是连续两次调用&lt;k3&gt;C-&lt;s4&gt;SPC&lt;//k3&gt;(&lt;c5&gt;set-mark-command&lt;/c5&gt;)；第一个&lt;k6&gt;C-&lt;/s7&gt;SPC&lt;/s7&gt;&lt;/k6&gt;设置标记，第二个&lt;k8&gt;C-&lt;/s9&gt;SPC&lt;//k8&gt;取消激活该标记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is called &lt;e2&gt;line wrapping&lt;/e2&gt; or &lt;e3&gt;continuation&lt;/e3&gt;, and the long logical line is called a &lt;e4&gt;continued line&lt;/e4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201208T013844Z" creationid="grass" creationdate="20201208T013844Z">
@@ -25403,6 +25451,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025200Z" creationid="grass" creationdate="20201019T025200Z">
         <seg>此方法允许您使用很少的键将标签分配给标题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This moves point to where the mark was, and deactivates the mark if it was active.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022618Z" creationid="grass" creationdate="20201229T022618Z">
+        <seg>此操作将指向标记所在的位置，如果标记处于激活状态，则会停用该标记。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25995,6 +26051,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Eli" changedate="20201016T140104Z" creationid="Eli" creationdate="20201016T135933Z">
         <seg>如果想要较长时间内agenda的范围,可以使用以下命令:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To return to a marked position, use &lt;c0&gt;set-mark-command&lt;/c0&gt; with a prefix argument: &lt;k1&gt;C-u C-&lt;s2&gt;SPC&lt;/s2&gt;&lt;/k1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T022608Z" creationid="grass" creationdate="20201229T022608Z">
+        <seg>要返回到标记位置，请使用带有前缀参数的&lt;c0&gt;set-mark-command&lt;/c0&gt;：&lt;k1&gt;C-u C-&lt;s2&gt;SPC&lt;/s2&gt;&lt;/k1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
