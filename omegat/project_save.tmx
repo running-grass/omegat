@@ -25319,6 +25319,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This feature is referred to as &lt;e0&gt;shift-selection&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T023409Z" creationid="grass" creationdate="20201229T023409Z">
+        <seg>此功能称为&lt;e0&gt;shift选择&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This feature is useful on certain text terminals where the &lt;t14&gt;Meta&lt;/t14&gt; key does not function reliably.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201205T030302Z" creationid="grass" creationdate="20201205T030302Z">
