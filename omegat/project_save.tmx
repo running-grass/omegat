@@ -9570,6 +9570,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Enabling Transient Mark mode momentarily gives you a way to use these commands on the region.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T025244Z" creationid="grass" creationdate="20201229T025244Z">
+        <seg>暂时启用Transient Mark mode为您提供了一种在选区上使用这些命令的方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Encrypting Org files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201014T112656Z" creationid="grass" creationdate="20201014T112656Z">
@@ -27868,6 +27876,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201228T055900Z" creationid="grass" creationdate="20201228T055900Z">
         <seg>当您返回到具有激活标记的缓冲区时，该标记位于与以前相同的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you specify a region with the mouse (see &lt;a0&gt;Setting Mark&lt;/a0&gt;), or with shift-selection (see &lt;a1&gt;Shift Selection&lt;/a1&gt;), this likewise activates Transient Mark mode temporarily and highlights the region.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T025526Z" creationid="grass" creationdate="20201229T025526Z">
+        <seg>当您使用鼠标(请参阅&lt;a0&gt;设置标记&lt;/a0&gt;)或按住Shift键选择(请参阅&lt;a1&gt;Shift选择&lt;/a1&gt;)指定选区时，这同样会临时激活Transient Mark mode并高亮显示该选区。</seg>
       </tuv>
     </tu>
     <tu>
