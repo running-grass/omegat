@@ -5382,6 +5382,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All editing commands use the current buffer’s mark ring.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T023025Z" creationid="grass" creationdate="20201229T023025Z">
+        <seg>所有编辑命令都使用当前缓冲区的标记环。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All of this is achieved with strictly plain text files, the most portable and future-proof file format.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20200927T101718Z" creationid="grass" creationdate="20200927T101718Z">
@@ -6466,6 +6474,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T024606Z" creationid="grass" creationdate="20201019T023824Z">
         <seg>默认情况下，此列表是动态构建的，包含缓冲区&lt;a1&gt;&lt;s2&gt;53&lt;/s2&gt;&lt;/a1&gt;中当前使用的所有标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default, &lt;c8&gt;set-mark-command-repeat-pop&lt;/c8&gt; is &lt;c9&gt;nil&lt;/c9&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T023013Z" creationid="grass" creationdate="20201229T023013Z">
+        <seg>默认情况下，&lt;c8&gt;set-mark-command-repeat-pop&lt;/c8&gt;为&lt;c9&gt;nil&lt;/c9&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9022,6 +9038,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T073905Z" creationid="grass" creationdate="20201227T073905Z">
         <seg>每个Emacs主模式通常重新定义几个键，并对编辑工作方式进行其他更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each buffer has its own mark ring.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T023021Z" creationid="grass" creationdate="20201229T023021Z">
+        <seg>每个缓冲区都有其自己的标记环。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13178,6 +13202,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you set &lt;c0&gt;set-mark-command-repeat-pop&lt;/c0&gt; to non-&lt;c1&gt;nil&lt;/c1&gt;, then immediately after you type &lt;k2&gt;C-u C-&lt;s3&gt;SPC&lt;/s3&gt;&lt;/k2&gt;, you can type &lt;k4&gt;C-&lt;s5&gt;SPC&lt;/s5&gt;&lt;/k4&gt; instead of &lt;k6&gt;C-u C-&lt;s7&gt;SPC&lt;/s7&gt;&lt;/k6&gt; to cycle through the mark ring.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T023003Z" creationid="grass" creationdate="20201229T023003Z">
+        <seg>如果将 &lt;c0&gt;set-mark-command-repeat-pop&lt;/c0&gt; 设置为非&lt;c1&gt;nil&lt;/c1&gt;, 则在键入&lt;k2&gt;C-u C-&lt;s3&gt;SPC&lt;/s3&gt;&lt;/k2&gt;之后，你可以立即键入 &lt;k4&gt;C-&lt;s5&gt;SPC&lt;/s5&gt;&lt;/k4&gt;代替&lt;k6&gt;C-u C-&lt;s7&gt;SPC&lt;/s7&gt;&lt;/k6&gt;以在标记环中循环</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you set the variable to the value &lt;c6&gt;expert&lt;/c6&gt;, the special window is not even shown for single-key tag selection, it comes up only when you press an extra &lt;k7&gt;C-c&lt;/k7&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201019T025521Z" creationid="grass" creationdate="20201019T025502Z">
@@ -13590,6 +13622,14 @@ USA</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="grass" changedate="20201227T071912Z" creationid="grass" creationdate="20201227T071912Z">
         <seg>在我们的示例中，可以通过键入&lt;k6&gt;C-x C-f&lt;/k6&gt;来调用&lt;c5&gt;find-file&lt;/c5&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In particular, &lt;k0&gt;C-u C-&lt;s1&gt;SPC&lt;/s1&gt;&lt;/k0&gt; always stays in the same buffer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="grass" changedate="20201229T023039Z" creationid="grass" creationdate="20201229T023039Z">
+        <seg>具体地说，&lt;k0&gt;C-u C-&lt;s1&gt;SPC&lt;/s1&gt;&lt;/k0&gt;始终保持在同一缓冲区中。</seg>
       </tuv>
     </tu>
     <tu>
