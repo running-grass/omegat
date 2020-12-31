@@ -13690,6 +13690,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In Emacs, &lt;e0&gt;killing&lt;/e0&gt; means erasing text and copying it into the &lt;e1&gt;kill ring&lt;/e1&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20201231T103932Z" creationid="grass" creationdate="20201231T103932Z">
+        <seg>在Emacs中，&lt;e0&gt;剪切&lt;/e0&gt;表示擦除文本并将其复制到&lt;e1&gt;剪切板&lt;/e1&gt;中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In Emacs, stretches of &lt;e0&gt;active text&lt;/e0&gt; (text that does something special in response to mouse clicks or &lt;t1&gt;RET&lt;/t1&gt;) often have associated help text.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201227T074651Z" creationid="grass" creationdate="20201227T074615Z">
