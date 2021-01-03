@@ -10900,8 +10900,8 @@ org和许多邮件用户代理；请参阅以下各节
       <tuv lang="en-US">
         <seg>For instance, &lt;k2&gt;C-q &lt;s3&gt;DEL&lt;/s3&gt;&lt;/k2&gt; inserts a literal ‘&lt;s4&gt;DEL&lt;/s4&gt;’ character.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201205T091210Z" creationid="grass" creationdate="20201205T091210Z">
-        <seg>例如，&lt;k2&gt;C-q&lt;s3&gt;DEL&lt;/s3&gt;&lt;/k2&gt;插入文字“&lt;s4&gt;DEL&lt;/s4&gt;”字符。</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210103T121150Z" creationid="grass" creationdate="20201205T091210Z">
+        <seg>例如，&lt;k2&gt;C-q &lt;s3&gt;DEL&lt;/s3&gt;&lt;/k2&gt;插入文字“&lt;s4&gt;DEL&lt;/s4&gt;”字符。</seg>
       </tuv>
     </tu>
     <tu>
