@@ -3739,6 +3739,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&lt;e2&gt;Yanking&lt;/e2&gt; means bringing text from the kill ring back into the buffer.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210103T125406Z" creationid="grass" creationdate="20210103T125406Z">
+        <seg>&lt;e2&gt;Yanking &lt;/ e2&gt;表示将文本从剪切板粘贴到缓冲区。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&lt;e6&gt;Control characters&lt;/e6&gt;, such as &lt;t7&gt;RET&lt;/t7&gt;, &lt;t8&gt;TAB&lt;/t8&gt;, &lt;t9&gt;DEL&lt;/t9&gt;, &lt;t10&gt;ESC&lt;/t10&gt;, &lt;t11&gt;F1&lt;/t11&gt;, &lt;t12&gt;Home&lt;/t12&gt;, and &lt;t13&gt;LEFT&lt;/t13&gt;, are also entered this way, as are certain characters found on non-English keyboards (see &lt;a14&gt;International&lt;/a14&gt;).</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201205T085050Z" creationid="grass" creationdate="20201205T023307Z">
