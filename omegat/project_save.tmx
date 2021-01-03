@@ -398,6 +398,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>(Some applications use the terms “cutting” and “pasting” for similar operations.) The kill ring is so-named because it can be visualized as a set of blocks of text arranged in a ring, which you can access in cyclic order.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210103T125508Z" creationid="grass" creationdate="20210103T125508Z">
+        <seg>(有些应用程序使用术语“剪切”和“粘贴”来表示类似的操作。)删除环之所以这样命名，是因为它可以可视化为排列在环中的一组文本块，您可以按循环顺序访问这些文本块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>(That name appears as the default while you enter the argument.) For example, if point is located following the text ‘&lt;s3&gt;(make-vector (car x)&lt;/s3&gt;’, the innermost list containing point is the one that starts with ‘&lt;s4&gt;(make-vector&lt;/s4&gt;’, so &lt;k5&gt;C-h f &lt;s6&gt;RET&lt;/s6&gt;&lt;/k5&gt; describes the function &lt;c7&gt;make-vector&lt;/c7&gt;.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201227T075133Z" creationid="grass" creationdate="20201227T071453Z">
