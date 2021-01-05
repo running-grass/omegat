@@ -11290,6 +11290,14 @@ USA</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GNU Emacs Manual</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T035854Z" creationid="grass" creationdate="20210105T035854Z">
+        <seg>GNU Emacs手册</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GNU Emacs is &lt;e0&gt;free software&lt;/e0&gt;; this means that everyone is free to use it and free to redistribute it under certain conditions.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201130T081553Z" creationid="grass" creationdate="20201130T081553Z">
@@ -25783,6 +25791,22 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is the @cite{GNU Emacs Manual},</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T040050Z" creationid="grass" creationdate="20210105T040050Z">
+        <seg>这是@cite{GNU Emacs手册}，</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is the @value{EDITION} edition of the @cite{GNU Emacs Manual},@*</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T035947Z" creationid="grass" creationdate="20210105T035947Z">
+        <seg>这是@cite{GNU Emacs手册}的@value{EDITION}版本，@ *</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is the official manual for the latest &lt;a0&gt;Org mode&lt;/a0&gt; release.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201010T172129Z" creationid="grass" creationdate="20200927T081910Z">
@@ -29324,6 +29348,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>docstyle.texi</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T035906Z" creationid="grass" creationdate="20210105T035906Z">
+        <seg>docstyle.texi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>document</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201015T055938Z" creationid="grass" creationdate="20201015T055938Z">
@@ -29352,6 +29384,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201212T110331Z" creationid="grass" creationdate="20201212T110331Z">
         <seg>emacs22</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>emacsver.texi</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T035907Z" creationid="grass" creationdate="20210105T035907Z">
+        <seg>emacsver.texi</seg>
       </tuv>
     </tu>
     <tu>
@@ -61892,6 +61932,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201015T063228Z" creationid="grass" creationdate="20201015T063228Z">
         <seg>u</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>updated for Emacs version @value{EMACSVER}.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T053515Z" creationid="grass" creationdate="20210105T053515Z">
+        <seg>已针对Emacs版本@value {EMACSVER}更新。</seg>
       </tuv>
     </tu>
     <tu>
