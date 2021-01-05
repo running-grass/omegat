@@ -26751,14 +26751,6 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
-        <seg>Top</seg>
-      </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201015T060348Z" creationid="grass" creationdate="20201015T060348Z">
-        <seg>顶层</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="en-US">
         <seg>Tracking TODO state changes</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201014T095149Z" creationid="grass" creationdate="20201010T200450Z">
