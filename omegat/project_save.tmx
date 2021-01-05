@@ -20414,6 +20414,14 @@ Content-Transfer-Encoding: 8bit</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Published by the Free Software Foundation @* 51 Franklin Street, Fifth Floor @* Boston, MA 02110-1301 USA @* ISBN 978-0-9831592-5-4</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T105251Z" creationid="grass" creationdate="20210105T105251Z">
+        <seg>Published by the Free Software Foundation @* 51 Franklin Street, Fifth Floor @* Boston, MA 02110-1301 USA @* ISBN 978-0-9831592-5-4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Publishing</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201013T051102Z" creationid="grass" creationdate="20201013T051102Z">
