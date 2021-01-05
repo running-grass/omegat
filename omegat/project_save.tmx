@@ -4789,10 +4789,34 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>@html The homepage for GNU Emacs is at &lt;a href="/software/emacs/"&gt;https://www.gnu.org/software/emacs/&lt;/a&gt;.&lt;br&gt; To view this manual in other formats, click &lt;a href="/software/emacs/manual/emacs.html"&gt;here&lt;/a&gt;.&lt;br&gt; You can also purchase a printed copy from the &lt;a href="https://shop.fsf.org/product/emacs-manual/"&gt;FSF store&lt;/a&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104545Z" creationid="grass" creationdate="20210105T104450Z">
+        <seg>@html GNU Emacs的主页位于&lt;a href="/software/emacs/"&gt;https://www.gnu.org/software/emacs/&lt;/a&gt;。&lt;br&gt;要以其他格式查看本手册，请点击&lt;a href="/software/emacs/manual/emacs.html"&gt;此处&lt;/a&gt;。&lt;br&gt;您也可以从&lt;a href =“ https：//shop.fsf.org/product/emacs-manual/“&gt; FSF商店&lt;/a&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>@kbdinputstyle code</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104400Z" creationid="grass" creationdate="20210105T104400Z">
+        <seg>@kbdinputstyle code</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>@smallbook</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20210105T104346Z" creationid="grass" creationdate="20210105T104346Z">
         <seg>@smallbook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>@value{EDITION} Edition, Updated for Emacs Version @value{EMACSVER}.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104401Z" creationid="grass" creationdate="20210105T104401Z">
+        <seg>@value{EDITION} Edition, Updated for Emacs Version @value{EMACSVER}.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8110,6 +8134,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Cover art by Etienne Suvasa; cover design by Matt Lee.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104436Z" creationid="grass" creationdate="20210105T104436Z">
+        <seg>Etienne Suvasa的封面艺术；封面设计由Matt Lee设计。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Create a hierarchy of tags.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201014T101645Z" creationid="grass" creationdate="20201014T101645Z">
@@ -10962,6 +10994,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For information on extending Emacs, see @ref{Top, Emacs Lisp,, elisp, The Emacs Lisp Reference Manual}.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104653Z" creationid="grass" creationdate="20210105T104653Z">
+        <seg>有关扩展Emacs的信息，请参见@ref {Top，Emacs Lisp,, elisp，Emacs Lisp Reference Manual}}。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For instance, &lt;k0&gt;C-k&lt;/k0&gt; kills a logical line.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201208T013919Z" creationid="grass" creationdate="20201208T013919Z">
@@ -13078,6 +13118,14 @@ USA</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20200929T081404Z" creationid="grass" creationdate="20200929T081404Z">
         <seg>如果您不是从Emacs内部发送电子邮件，请复制内容并将其粘贴到您的电子邮件程序中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you are reading this in Emacs, type @kbd{h} to read a basic introduction to the Info documentation system.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104551Z" creationid="grass" creationdate="20210105T104551Z">
+        <seg>如果要在Emacs中阅读此内容，请键入@kbd {h}以阅读Info文档系统的基本介绍。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20946,6 +20994,14 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Richard Stallman et al.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104426Z" creationid="grass" creationdate="20210105T104422Z">
+        <seg>理查德·斯托曼（Richard Stallman）等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Run Info, the GNU documentation browser (&lt;c0&gt;info&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201226T153147Z" creationid="grass" creationdate="20201226T153147Z">
@@ -25991,6 +26047,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This manual describes how to edit with Emacs and some of the ways to customize it; it corresponds to GNU Emacs version @value{EMACSVER}.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104443Z" creationid="grass" creationdate="20210105T104443Z">
+        <seg>本手册介绍了如何使用Emacs进行编辑以及一些自定义方式；它对应于GNU Emacs版本@value {EMACSVER}。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This manual is for Org version 9.4.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201013T054501Z" creationid="grass" creationdate="20201013T054501Z">
@@ -26847,6 +26911,14 @@ database, if one doesn't already exist.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Top</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104438Z" creationid="grass" creationdate="20210105T104438Z">
+        <seg>Top</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Tracking TODO state changes</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201014T095149Z" creationid="grass" creationdate="20201010T200450Z">
@@ -27147,6 +27219,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20200927T103427Z" creationid="grass" creationdate="20200927T103427Z">
         <seg>返回: &lt;a0&gt;Export in Foreign Buffers&lt;/a0&gt;   [&lt;a1&gt;Contents&lt;/a1&gt;][&lt;a2&gt;Index&lt;/a2&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Updated for Emacs Version @value{EMACSVER}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104405Z" creationid="grass" creationdate="20210105T104405Z">
+        <seg>Updated for Emacs Version @value{EMACSVER}</seg>
       </tuv>
     </tu>
     <tu>
@@ -29276,6 +29356,14 @@ database, if one doesn't already exist.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201015T083758Z" creationid="grass" creationdate="20201015T083740Z">
         <seg>如果你不想错过截止期限，你需要把它写在你的GTD里。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>\global\hbadness=6666 % don't worry about not-too-underfull boxes</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104355Z" creationid="grass" creationdate="20210105T104355Z">
+        <seg>\global\hbadness=6666 % don't worry about not-too-underfull boxes</seg>
       </tuv>
     </tu>
     <tu>
