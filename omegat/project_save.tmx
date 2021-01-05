@@ -20174,6 +20174,30 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Project-Id-Version: emacs-po 4a
+POT-Creation-Date: 2021-01-04 23:33+0800
+PO-Revision-Date: 2021-01-04 23:24+0800
+Last-Translator: Automatically generated
+Language-Team: none
+Language: zh
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T014803Z" creationid="grass" creationdate="20210105T014803Z">
+        <seg>Project-Id-Version: emacs-po 4a
+POT-Creation-Date: 2021-01-04 23:33+0800
+PO-Revision-Date: 2021-01-04 23:24+0800
+Last-Translator: Automatically generated
+Language-Team: none
+Language: zh
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Promote or demote current heading by one level.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201015T063734Z" creationid="grass" creationdate="20201015T063734Z">
