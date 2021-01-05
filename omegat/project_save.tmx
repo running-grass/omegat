@@ -550,6 +550,14 @@ $ make autoloads</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify this GNU manual.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104334Z" creationid="grass" creationdate="20210105T104334Z">
+        <seg>(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify this GNU manual.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>(a) The FSF’s Back-Cover Text is: “You have the freedom to copy and
 modify this GNU manual.”
 #+END_QUOTE
@@ -4781,6 +4789,14 @@ management software, start by calling the command ~ebdb-open~.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>@smallbook</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104346Z" creationid="grass" creationdate="20210105T104346Z">
+        <seg>@smallbook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A &lt;e0&gt;key sequence&lt;/e0&gt;, or &lt;e1&gt;key&lt;/e1&gt; for short, is a sequence of one or more input events that is meaningful as a unit.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201205T030747Z" creationid="grass" creationdate="20201205T030747Z">
@@ -4834,6 +4850,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201019T172833Z" creationid="grass" creationdate="20201019T172833Z">
         <seg>该许可证的副本包含在标题为“GNU自由文档许可证”的部分中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A copy of the license is included in the section entitled ``GNU Free Documentation License.''</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104332Z" creationid="grass" creationdate="20210105T104332Z">
+        <seg>A copy of the license is included in the section entitled ``GNU Free Documentation License.''</seg>
       </tuv>
     </tu>
     <tu>
@@ -6478,6 +6502,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Buying copies from the FSF supports it in developing GNU and promoting software freedom.''</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104337Z" creationid="grass" creationdate="20210105T104337Z">
+        <seg>Buying copies from the FSF supports it in developing GNU and promoting software freedom.''</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Buying copies from the FSF supports it in developing GNU and promoting software freedom.”</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201130T081046Z" creationid="grass" creationdate="20201130T081046Z">
@@ -8046,6 +8078,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Copyright @copyright{} 1985--1987, 1993--2020 Free Software Foundation, Inc.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104320Z" creationid="grass" creationdate="20210105T104320Z">
+        <seg>Copyright @copyright{} 1985--1987, 1993--2020 Free Software Foundation, Inc.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Copyright \copy 2016 Free Software Foundation, Inc.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201019T172939Z" creationid="grass" creationdate="20201019T172746Z">
@@ -9322,6 +9362,14 @@ org和许多邮件用户代理；请参阅以下各节
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Emacs</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104339Z" creationid="grass" creationdate="20210105T104339Z">
+        <seg>Emacs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Emacs Lisp forms as formulas</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201010T195117Z" creationid="grass" creationdate="20201010T194933Z">
@@ -9542,6 +9590,14 @@ org和许多邮件用户代理；请参阅以下各节
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201203T022553Z" creationid="grass" creationdate="20201203T022512Z">
         <seg>然后，Emacs会回显到目前为止键入的所有命令字符，以提示您输入剩余部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Emacs: (emacs)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104340Z" creationid="grass" creationdate="20210105T104340Z">
+        <seg>Emacs: (emacs)</seg>
       </tuv>
     </tu>
     <tu>
@@ -19518,6 +19574,14 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with the Invariant Sections being ``The GNU Manifesto,'' ``Distribution'' and ``GNU GENERAL PUBLIC LICENSE,'' with the Front-Cover Texts being ``A GNU Manual,'' and with the Back-Cover Texts as in (a) below.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104329Z" creationid="grass" creationdate="20210105T104329Z">
+        <seg>Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with the Invariant Sections being ``The GNU Manifesto,'' ``Distribution'' and ``GNU GENERAL PUBLIC LICENSE,'' with the Front-Cover Texts being ``A GNU Manual,'' and with the Back-Cover Texts as in (a) below.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with the Invariant Sections being “The GNU Manifesto,” “Distribution” and “GNU GENERAL PUBLIC LICENSE,” with the Front-Cover Texts being “A GNU Manual,” and with the Back-Cover Texts as in (a) below.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201130T081030Z" creationid="grass" creationdate="20201130T081030Z">
@@ -20178,6 +20242,30 @@ on your load path.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20200927T095129Z" creationid="grass" creationdate="20200927T095129Z">
         <seg>项目计划和任务管理利用了元数据，这些元数据是作为大纲节点一部分存在。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Project-Id-Version: PACKAGE VERSION
+POT-Creation-Date: 2021-01-05 18:08+0800
+PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE
+Last-Translator: FULL NAME &lt;EMAIL@ADDRESS&gt;
+Language-Team: LANGUAGE &lt;LL@li.org&gt;
+Language: 
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104301Z" creationid="grass" creationdate="20210105T104301Z">
+        <seg>Project-Id-Version: PACKAGE VERSION
+POT-Creation-Date: 2021-01-05 18:08+0800
+PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE
+Last-Translator: FULL NAME &lt;EMAIL@ADDRESS&gt;
+Language-Team: LANGUAGE &lt;LL@li.org&gt;
+Language: 
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit</seg>
       </tuv>
     </tu>
     <tu>
@@ -24153,6 +24241,14 @@ databases, which hold and persist records.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201215T122720Z" creationid="grass" creationdate="20201215T122720Z">
         <seg>键绑定的存在不会阻止您按名称运行该命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The extensible self-documenting text editor.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104344Z" creationid="grass" creationdate="20210105T104344Z">
+        <seg>可扩展的自文档文本编辑器。</seg>
       </tuv>
     </tu>
     <tu>
