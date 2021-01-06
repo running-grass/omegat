@@ -11396,8 +11396,8 @@ USA</seg>
       <tuv lang="en-US">
         <seg>GNU Emacs Manual</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20210105T035854Z" creationid="grass" creationdate="20210105T035854Z">
-        <seg>GNU Emacs手册</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T044504Z" creationid="grass" creationdate="20210106T044504Z">
+        <seg>GNU Emacs Manual</seg>
       </tuv>
     </tu>
     <tu>
@@ -29558,7 +29558,7 @@ database, if one doesn't already exist.</seg>
       <tuv lang="en-US">
         <seg>docstyle.texi</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20210105T035906Z" creationid="grass" creationdate="20210105T035906Z">
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T044512Z" creationid="grass" creationdate="20210106T044512Z">
         <seg>docstyle.texi</seg>
       </tuv>
     </tu>
