@@ -11684,8 +11684,8 @@ USA</seg>
       <tuv lang="en-US">
         <seg>Help</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201208T013224Z" creationid="grass" creationdate="20201208T013224Z">
-        <seg>帮助</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T022756Z" creationid="grass" creationdate="20201208T013224Z">
+        <seg>Help</seg>
       </tuv>
     </tu>
     <tu>
@@ -14846,6 +14846,22 @@ on your load path.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Killing</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T022805Z" creationid="grass" creationdate="20210106T022805Z">
+        <seg>Killing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Killing (cutting) and yanking (copying) text.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T022809Z" creationid="grass" creationdate="20210106T022809Z">
+        <seg>Killing (cutting) and yanking (copying) text.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Killing and Moving Text</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201231T102949Z" creationid="grass" creationdate="20201231T102949Z">
@@ -15632,8 +15648,8 @@ on your load path.</seg>
       <tuv lang="en-US">
         <seg>Mark</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201223T100354Z" creationid="grass" creationdate="20201223T100354Z">
-        <seg>标记</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T022759Z" creationid="grass" creationdate="20201223T100354Z">
+        <seg>Mark</seg>
       </tuv>
     </tu>
     <tu>
