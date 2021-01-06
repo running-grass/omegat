@@ -5944,8 +5944,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="en-US">
         <seg>Arguments</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201215T031923Z" creationid="grass" creationdate="20201215T031917Z">
-        <seg>参数</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T023813Z" creationid="grass" creationdate="20201215T031917Z">
+        <seg>Arguments</seg>
       </tuv>
     </tu>
     <tu>
@@ -6264,24 +6264,24 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="en-US">
         <seg>Basic Files</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201215T031816Z" creationid="grass" creationdate="20201215T031816Z">
-        <seg>文件基础</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T023805Z" creationid="grass" creationdate="20201215T031816Z">
+        <seg>Basic Files</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Basic Help</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201215T031908Z" creationid="grass" creationdate="20201215T031908Z">
-        <seg>帮助基础</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T023806Z" creationid="grass" creationdate="20201215T031908Z">
+        <seg>Basic Help</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Basic Minibuffer</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201215T031956Z" creationid="grass" creationdate="20201215T031956Z">
-        <seg>迷你缓冲区基础</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T023850Z" creationid="grass" creationdate="20201215T031956Z">
+        <seg>Basic Minibuffer</seg>
       </tuv>
     </tu>
     <tu>
@@ -6296,8 +6296,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="en-US">
         <seg>Basic Undo</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201215T031833Z" creationid="grass" creationdate="20201215T031754Z">
-        <seg>撤消基础</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T023804Z" creationid="grass" creationdate="20201215T031754Z">
+        <seg>Basic Undo</seg>
       </tuv>
     </tu>
     <tu>
@@ -6384,8 +6384,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="en-US">
         <seg>Blank Lines</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201208T013517Z" creationid="grass" creationdate="20201208T013517Z">
-        <seg>空行</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T023808Z" creationid="grass" creationdate="20201208T013517Z">
+        <seg>Blank Lines</seg>
       </tuv>
     </tu>
     <tu>
@@ -7888,8 +7888,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="en-US">
         <seg>Completion</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201013T052823Z" creationid="grass" creationdate="20201013T052823Z">
-        <seg>补全功能</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T023909Z" creationid="grass" creationdate="20201013T052823Z">
+        <seg>补全</seg>
       </tuv>
     </tu>
     <tu>
@@ -7928,8 +7928,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="en-US">
         <seg>Completion Styles</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201215T032029Z" creationid="grass" creationdate="20201215T032029Z">
-        <seg>补全风格</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T024001Z" creationid="grass" creationdate="20201215T032029Z">
+        <seg>Completion Styles</seg>
       </tuv>
     </tu>
     <tu>
@@ -8048,8 +8048,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="en-US">
         <seg>Continuation Lines</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201208T013820Z" creationid="grass" creationdate="20201208T013820Z">
-        <seg>连续行</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T023810Z" creationid="grass" creationdate="20201208T013820Z">
+        <seg>Continuation Lines</seg>
       </tuv>
     </tu>
     <tu>
@@ -9812,8 +9812,8 @@ org和许多邮件用户代理；请参阅以下各节
       <tuv lang="en-US">
         <seg>Erasing</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201215T031746Z" creationid="grass" creationdate="20201215T031746Z">
-        <seg>擦除</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T023756Z" creationid="grass" creationdate="20201215T031746Z">
+        <seg>Erasing</seg>
       </tuv>
     </tu>
     <tu>
@@ -14720,8 +14720,8 @@ on your load path.</seg>
       <tuv lang="en-US">
         <seg>Key Help</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201223T100533Z" creationid="grass" creationdate="20201223T100533Z">
-        <seg>帮助快捷键</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T024007Z" creationid="grass" creationdate="20201223T100533Z">
+        <seg>Key Help</seg>
       </tuv>
     </tu>
     <tu>
@@ -15816,16 +15816,16 @@ on your load path.</seg>
       <tuv lang="en-US">
         <seg>Minibuffer Edit</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201215T032007Z" creationid="grass" creationdate="20201215T032007Z">
-        <seg>迷你缓冲区编辑</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T023854Z" creationid="grass" creationdate="20201215T032007Z">
+        <seg>Minibuffer Edit</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Minibuffer File</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201215T032001Z" creationid="grass" creationdate="20201215T032001Z">
-        <seg>迷你缓冲区文件</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T023852Z" creationid="grass" creationdate="20201215T032001Z">
+        <seg>Minibuffer File</seg>
       </tuv>
     </tu>
     <tu>
@@ -16160,8 +16160,8 @@ on your load path.</seg>
       <tuv lang="en-US">
         <seg>Moving Point</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201215T031735Z" creationid="grass" creationdate="20201215T031735Z">
-        <seg>移动游标</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T023746Z" creationid="grass" creationdate="20201215T031735Z">
+        <seg>Moving Point</seg>
       </tuv>
     </tu>
     <tu>
@@ -16256,8 +16256,8 @@ on your load path.</seg>
       <tuv lang="en-US">
         <seg>Name Help</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201223T100550Z" creationid="grass" creationdate="20201223T100550Z">
-        <seg>命令名称帮助</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T024016Z" creationid="grass" creationdate="20201223T100550Z">
+        <seg>Name Help</seg>
       </tuv>
     </tu>
     <tu>
@@ -19624,8 +19624,8 @@ on your load path.</seg>
       <tuv lang="en-US">
         <seg>Passwords</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201215T032014Z" creationid="grass" creationdate="20201215T032014Z">
-        <seg>密码</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T023941Z" creationid="grass" creationdate="20201215T032014Z">
+        <seg>Passwords</seg>
       </tuv>
     </tu>
     <tu>
@@ -19768,8 +19768,8 @@ on your load path.</seg>
       <tuv lang="en-US">
         <seg>Position Info</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201215T031914Z" creationid="grass" creationdate="20201215T031914Z">
-        <seg>位置信息</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T023812Z" creationid="grass" creationdate="20201215T031914Z">
+        <seg>Position Info</seg>
       </tuv>
     </tu>
     <tu>
@@ -20860,8 +20860,8 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       <tuv lang="en-US">
         <seg>Repeating</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201215T031925Z" creationid="grass" creationdate="20201215T031925Z">
-        <seg>重复</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T023814Z" creationid="grass" creationdate="20201215T031925Z">
+        <seg>Repeating</seg>
       </tuv>
     </tu>
     <tu>
@@ -20908,8 +20908,8 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       <tuv lang="en-US">
         <seg>Repetition</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201215T032011Z" creationid="grass" creationdate="20201215T032011Z">
-        <seg>重复</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T023939Z" creationid="grass" creationdate="20201215T032011Z">
+        <seg>Repetition</seg>
       </tuv>
     </tu>
     <tu>
@@ -23759,7 +23759,7 @@ databases, which hold and persist records.</seg>
       <tuv lang="en-US">
         <seg>The Minibuffer</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201215T031947Z" creationid="grass" creationdate="20201215T031936Z">
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T023848Z" creationid="grass" creationdate="20201215T031936Z">
         <seg>迷你缓冲区</seg>
       </tuv>
     </tu>
