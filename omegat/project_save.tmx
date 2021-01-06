@@ -11004,8 +11004,8 @@ org和许多邮件用户代理；请参阅以下各节
       <tuv lang="en-US">
         <seg>For information on extending Emacs, see @ref{Top, Emacs Lisp,, elisp, The Emacs Lisp Reference Manual}.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20210105T104653Z" creationid="grass" creationdate="20210105T104653Z">
-        <seg>有关扩展Emacs的信息，请参见@ref {Top，Emacs Lisp,, elisp，Emacs Lisp Reference Manual}}。</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T044342Z" creationid="grass" creationdate="20210105T104653Z">
+        <seg>有关扩展Emacs的信息，请参见@ref {Top，Emacs Lisp ,, elisp，Emacs Lisp参考手册}。</seg>
       </tuv>
     </tu>
     <tu>
