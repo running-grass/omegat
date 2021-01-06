@@ -6248,8 +6248,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="en-US">
         <seg>Basic</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201203T033453Z" creationid="grass" creationdate="20201203T033434Z">
-        <seg>基础</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T022746Z" creationid="grass" creationdate="20201203T033434Z">
+        <seg>Basic</seg>
       </tuv>
     </tu>
     <tu>
@@ -7736,8 +7736,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="en-US">
         <seg>Commands</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201203T033302Z" creationid="grass" creationdate="20201203T033302Z">
-        <seg>命令</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T022735Z" creationid="grass" creationdate="20201203T033302Z">
+        <seg>Commands</seg>
       </tuv>
     </tu>
     <tu>
@@ -8952,8 +8952,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="en-US">
         <seg>Distrib</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201130T081239Z" creationid="grass" creationdate="20201130T081128Z">
-        <seg>发行版</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T022620Z" creationid="grass" creationdate="20201130T081128Z">
+        <seg>Distrib</seg>
       </tuv>
     </tu>
     <tu>
@@ -10012,8 +10012,8 @@ org和许多邮件用户代理；请参阅以下各节
       <tuv lang="en-US">
         <seg>Exiting</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201203T033330Z" creationid="grass" creationdate="20201203T033330Z">
-        <seg>退出</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T022740Z" creationid="grass" creationdate="20201203T033330Z">
+        <seg>Exiting</seg>
       </tuv>
     </tu>
     <tu>
@@ -14436,8 +14436,8 @@ USA</seg>
       <tuv lang="en-US">
         <seg>Intro</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201130T081316Z" creationid="grass" creationdate="20201130T081316Z">
-        <seg>简介</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T022709Z" creationid="grass" creationdate="20201130T081316Z">
+        <seg>Intro</seg>
       </tuv>
     </tu>
     <tu>
@@ -21092,8 +21092,8 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       <tuv lang="en-US">
         <seg>Screen</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201130T081331Z" creationid="grass" creationdate="20201130T081331Z">
-        <seg>屏幕</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T022722Z" creationid="grass" creationdate="20201130T081331Z">
+        <seg>Screen</seg>
       </tuv>
     </tu>
     <tu>
@@ -27313,8 +27313,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="en-US">
         <seg>User Input</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201203T033210Z" creationid="grass" creationdate="20201203T033210Z">
-        <seg>用户输入</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T022730Z" creationid="grass" creationdate="20201203T033210Z">
+        <seg>User Input</seg>
       </tuv>
     </tu>
     <tu>
