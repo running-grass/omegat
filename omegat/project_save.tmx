@@ -8534,6 +8534,14 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Deletion and Killing</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T024136Z" creationid="grass" creationdate="20210106T024136Z">
+        <seg>Deletion and Killing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Demote the current subtree by one level.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="grass" changedate="20201015T063919Z" creationid="grass" creationdate="20201015T063919Z">
@@ -8640,8 +8648,8 @@ is included in the section entitled “GNU Free Documentation License.”</seg>
       <tuv lang="en-US">
         <seg>Disabled Transient Mark</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201229T030621Z" creationid="grass" creationdate="20201229T030621Z">
-        <seg>禁用选区高亮</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T024129Z" creationid="grass" creationdate="20210106T024125Z">
+        <seg>Disabled Transient Mark</seg>
       </tuv>
     </tu>
     <tu>
@@ -11708,8 +11716,8 @@ USA</seg>
       <tuv lang="en-US">
         <seg>Help Mode</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201223T100621Z" creationid="grass" creationdate="20201223T100621Z">
-        <seg>帮助模式</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T024022Z" creationid="grass" creationdate="20201223T100621Z">
+        <seg>Help Mode</seg>
       </tuv>
     </tu>
     <tu>
@@ -14952,8 +14960,8 @@ on your load path.</seg>
       <tuv lang="en-US">
         <seg>Language Help</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201223T100917Z" creationid="grass" creationdate="20201223T100917Z">
-        <seg>语言帮助</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T024038Z" creationid="grass" creationdate="20201223T100917Z">
+        <seg>Language Help</seg>
       </tuv>
     </tu>
     <tu>
@@ -15680,8 +15688,8 @@ on your load path.</seg>
       <tuv lang="en-US">
         <seg>Marking Objects</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201228T021909Z" creationid="grass" creationdate="20201228T021909Z">
-        <seg>标记对象</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T024050Z" creationid="grass" creationdate="20201228T021909Z">
+        <seg>Marking Objects</seg>
       </tuv>
     </tu>
     <tu>
@@ -15848,8 +15856,8 @@ on your load path.</seg>
       <tuv lang="en-US">
         <seg>Misc Help</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201223T100929Z" creationid="grass" creationdate="20201223T100929Z">
-        <seg>其他帮助</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T024042Z" creationid="grass" creationdate="20201223T100929Z">
+        <seg>Misc Help</seg>
       </tuv>
     </tu>
     <tu>
@@ -19544,8 +19552,8 @@ on your load path.</seg>
       <tuv lang="en-US">
         <seg>Package Keywords</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201223T100640Z" creationid="grass" creationdate="20201223T100640Z">
-        <seg>包关键字</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T024033Z" creationid="grass" creationdate="20201223T100640Z">
+        <seg>Package Keywords</seg>
       </tuv>
     </tu>
     <tu>
@@ -22124,8 +22132,8 @@ GitHub问题页面，或者在Emacs错误跟踪器或邮件列表上，
       <tuv lang="en-US">
         <seg>Setting Mark</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201228T021906Z" creationid="grass" creationdate="20201228T021906Z">
-        <seg>设置标记</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T024047Z" creationid="grass" creationdate="20201228T021906Z">
+        <seg>Setting Mark</seg>
       </tuv>
     </tu>
     <tu>
@@ -27433,8 +27441,8 @@ database, if one doesn't already exist.</seg>
       <tuv lang="en-US">
         <seg>Using Region</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="grass" changedate="20201228T021932Z" creationid="grass" creationdate="20201228T021932Z">
-        <seg>使用选区</seg>
+      <tuv lang="zh-CN" changeid="grass" changedate="20210106T024055Z" creationid="grass" creationdate="20201228T021932Z">
+        <seg>Using Region</seg>
       </tuv>
     </tu>
     <tu>
